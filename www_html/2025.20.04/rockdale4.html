@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/cristina-deleon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Deleon-Cristina.jpg" alt="Cristina Deleon"><div class="name">Cristina Deleon</div></a>
+<div class="reason">02/13/2025 | Battery - Family Violence (1st Offense) - Misdemeanor Battery - Family Violence (1st Offense) - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/thomas-usry/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Usry-Thomas-Mackenzie.jpg" alt="Thomas Usry"><div class="name">Thomas Usry</div></a>
+<div class="reason">02/13/2025 | Violation of a Temporary Protective Order</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/leon-hines/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hines-Leon.jpg" alt="Leon Hines"><div class="name">Leon Hines</div></a>
+<div class="reason">02/13/2025 | Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jesus-cohetero/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cohetero-Jesus.jpg" alt="Jesus Cohetero"><div class="name">Jesus Cohetero</div></a>
+<div class="reason">02/13/2025 | Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/laquavis-jackson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jackson-Laquavis-N.jpg" alt="Laquavis Jackson"><div class="name">Laquavis Jackson</div></a>
+<div class="reason">02/13/2025 | DUI-Alcohol/Controlled Substance Present In Blood Or Urine</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/trevor-saldana/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Saldana-Trevor-Brian.jpg" alt="Trevor Saldana"><div class="name">Trevor Saldana</div></a>
+<div class="reason">02/13/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/daeon-mcclure/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McClure-Daeon-Lamont.jpg" alt="Daeon McClure"><div class="name">Daeon McClure</div></a>
+<div class="reason">02/13/2025 | Reckless Driving Failure to Obey Traffic Control Devices or Police by Pedestrian</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/leobardo-rodriguez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rodriguez-Leobardo-Morin.jpg" alt="Leobardo Rodriguez"><div class="name">Leobardo Rodriguez</div></a>
+<div class="reason">02/13/2025 | Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/anissa-scott-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Scott-Anissa.jpg" alt="Anissa Scott"><div class="name">Anissa Scott</div></a>
+<div class="reason">02/13/2025 | CONTEMPT OF COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/charlie-may/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/May-Charlie-Junior.jpg" alt="Charlie May"><div class="name">Charlie May</div></a>
+<div class="reason">02/13/2025 | VIOLATION OF PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/roger-gonzalez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gonzalez-Roger-Marcial.jpg" alt="Roger Gonzalez"><div class="name">Roger Gonzalez</div></a>
+<div class="reason">02/13/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/anthony-whaley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Whaley-Anthony-Charles.jpg" alt="Anthony Whaley"><div class="name">Anthony Whaley</div></a>
+<div class="reason">02/13/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/timothy-todd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Todd-Timothy.jpg" alt="Timothy Todd"><div class="name">Timothy Todd</div></a>
+<div class="reason">02/13/2025 | Aggravated Assault Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may exist. All...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jeremy-bruce-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bruce-Jeremy-Lee.jpg" alt="Jeremy Bruce"><div class="name">Jeremy Bruce</div></a>
+<div class="reason">02/13/2025 | Battery - Family Violence (1st Offense) - Misdemeanor Cruelty to Children 1st Degree Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jayla-renfroe-johnson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Renfroe-Johnson-Jayla-Akia.jpg" alt="Jayla Renfroe Johnson"><div class="name">Jayla Renfroe Johnson</div></a>
+<div class="reason">02/13/2025 | Criminal Trespass obstruction of law enforcement Possession of Marijuana Less Than One Ounce</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/michael-plez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Plez-Michael-Alton.jpg" alt="Michael Plez"><div class="name">Michael Plez</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/diamond-owens-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Owens-Diamond-Marie.jpg" alt="Diamond Owens"><div class="name">Diamond Owens</div></a>
+<div class="reason">02/13/2025 | Disorderly Conduct Giving False Name/, Address, or Birthdate to Law Enforcement Officer Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/timothy-blackwell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Blackwell-Timothy.jpg" alt="Timothy Blackwell"><div class="name">Timothy Blackwell</div></a>
+<div class="reason">02/12/2025 | Battery - Family Violence - 1st Offense Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/nathaniel-polite/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Polite-Nathaniel-Scott.jpg" alt="Nathaniel Polite"><div class="name">Nathaniel Polite</div></a>
+<div class="reason">02/12/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/eddie-mcfadden-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McFadden-Eddie-Junior.jpg" alt="Eddie McFadden"><div class="name">Eddie McFadden</div></a>
+<div class="reason">02/12/2025 | Driving Without Taillights Reckless Driving Failure to Signal Failure to Signal Failure to Signal Speeding Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/eliza-kimble/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kimble-Eliza-Sharnora.jpg" alt="Eliza Kimble"><div class="name">Eliza Kimble</div></a>
+<div class="reason">02/12/2025 | SENTENCED ON PREVIOUS CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/marquayla-galbreath/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Galbreath-Marquayla-Shea.jpg" alt="Marquayla Galbreath"><div class="name">Marquayla Galbreath</div></a>
+<div class="reason">02/12/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/justin-hurst-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hurst-Justin-Perry.jpg" alt="Justin Hurst"><div class="name">Justin Hurst</div></a>
+<div class="reason">02/12/2025 | Aggravated Assault Aggravated Assault Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/syasia-nichols/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nichols-Syasia-D.jpg" alt="Syasia Nichols"><div class="name">Syasia Nichols</div></a>
+<div class="reason">02/12/2025 | Simple Battery - Family Violence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kenton-mosley-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mosley-Kenton-D.jpg" alt="Kenton Mosley"><div class="name">Kenton Mosley</div></a>
+<div class="reason">02/12/2025 | Bond Surrender Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/tony-hambrick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hambrick-Tony-lee.jpg" alt="Tony Hambrick"><div class="name">Tony Hambrick</div></a>
+<div class="reason">02/12/2025 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/darius-duff-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Duff-Darius-Germain-1.jpg" alt="Darius Duff"><div class="name">Darius Duff</div></a>
+<div class="reason">02/11/2025 | Battery - Family Violence (1st Offense) - Misdemeanor Exploitation and intimidation of disabled adults, elder persons and residents Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist....</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/cieria-swain/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Swain-Cieria-Denise.jpg" alt="Cieria Swain"><div class="name">Cieria Swain</div></a>
+<div class="reason">02/12/2025 | Battery - Family Violence (1st Offense) - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/ashley-dennis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dennis-Ashley-M-1.jpg" alt="Ashley Dennis"><div class="name">Ashley Dennis</div></a>
+<div class="reason">02/11/2025 | Simple Battery - Family Violence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kenneth-perla-moreno/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Perla-Moreno-Kenneth-1.jpg" alt="Kenneth Perla-Moreno"><div class="name">Kenneth Perla-Moreno</div></a>
+<div class="reason">02/11/2025 | WANTED PERSON LOCATED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/corie-mcshan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McShan-Corie-Juquan-1.jpg" alt="Corie McShan"><div class="name">Corie McShan</div></a>
+<div class="reason">02/11/2025 | Simple Battery - Family Violence Criminal Damage to Property 1st Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dondrellious-smith-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Dondrellious-1.jpg" alt="Dondrellious Smith"><div class="name">Dondrellious Smith</div></a>
+<div class="reason">02/11/2025 | Purchase/Possession/Manufacture/Distribution or Sale of Marijuana Possession of Methamphetamine OBSTRUCTION OF A LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kourtney-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Kourtney-R-1.jpg" alt="Kourtney Williams"><div class="name">Kourtney Williams</div></a>
+<div class="reason">02/11/2025 | Cruelty to Children 1st Degree Battery - Family Violence (1st Offense) - Misdemeanor Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/elemar-rincones-sanchez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rincones-Sanchez-Elemar-J-1.jpg" alt="Elemar Rincones-Sanchez"><div class="name">Elemar Rincones-Sanchez</div></a>
+<div class="reason">02/11/2025 | Driving Without a Valid License (Misdemeanor) Illegal Parking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/richard-colver/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Colver-Richard-Lewis-1.jpg" alt="Richard Colver"><div class="name">Richard Colver</div></a>
+<div class="reason">02/11/2025 | Harassing Phone Calls Harassing Phone Calls</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brandon-harris-53/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harris-Brandon-1.jpg" alt="Brandon Harris"><div class="name">Brandon Harris</div></a>
+<div class="reason">02/11/2025 | For Court Only</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jordan-parker-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Parker-Jordan-Taylor-2.jpg" alt="Jordan Parker"><div class="name">Jordan Parker</div></a>
+<div class="reason">02/11/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kerderick-reese-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Reese-Kerderick-Keon-1.jpg" alt="Kerderick Reese"><div class="name">Kerderick Reese</div></a>
+<div class="reason">02/11/2025 | For Court Only</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kennette-almond-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Almond-Kennette-Anniece-1.jpg" alt="Kennette Almond"><div class="name">Kennette Almond</div></a>
+<div class="reason">02/11/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/clinton-norton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Norton-Clinton-Dwayne-3.jpg" alt="Clinton Norton"><div class="name">Clinton Norton</div></a>
+<div class="reason">02/11/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/rasheed-thomas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thomas-Rasheed-Milik-1.jpg" alt="Rasheed Thomas"><div class="name">Rasheed Thomas</div></a>
+<div class="reason">02/11/2025 | Aggravated Assault Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/deyeir-campbell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Campbell-DeYeir-1.jpg" alt="De’Yeir Campbell"><div class="name">De’Yeir Campbell</div></a>
+<div class="reason">02/11/2025 | Theft by Receiving Stolen Property - Misdemeanor Giving False Name/, Address, or Birthdate to Law Enforcement Officer Possession of Tools for Commission of a Crime Loitering and Prowling No Seat Belt (Age 18 or older) Buy, Sell, Etc. Motor Vehicle, or Part Which Serial Numbers hae Been Altered...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/james-white-77/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/White-James-1.jpg" alt="James White"><div class="name">James White</div></a>
+<div class="reason">02/11/2025 | Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/corey-lux-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lux-Corey-Jerrod-1.jpg" alt="Corey Lux"><div class="name">Corey Lux</div></a>
+<div class="reason">02/11/2025 | VIOLATION OF PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/ansley-cooke/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cooke-Ansley.jpg" alt="Ansley Cooke"><div class="name">Ansley Cooke</div></a>
+<div class="reason">02/10/2025 | Willful Obstruction of Law Enforcement Officers By Use Of Threats Or Violence - Felony Willful Obstruction of Law Enforcement Officers - Misdemeanor Violation/Move Over No License on Person (If Shows Valid License) Willful Obstruction of Law Enforcement Officers - Misdemeanor Obstruction of Law Enforcement Officer When Engaged in...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/pretis-sanders-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sanders-Pretis-Ramon-Jr.jpg" alt="Pretis Sanders"><div class="name">Pretis Sanders</div></a>
+<div class="reason">02/10/2025 | Violation of Probation - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dontavious-phillips/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Phillips-Dontavious-Bianco.jpg" alt="Dontavious Phillips"><div class="name">Dontavious Phillips</div></a>
+<div class="reason">02/10/2025 | Expired Tag or Revalidation Decal Receipt, Possession Or Transfer Of Firearm By Convicted Felon or Felony First Offender</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/wesley-preston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Preston-Wesley-Keith.jpg" alt="Wesley Preston"><div class="name">Wesley Preston</div></a>
+<div class="reason">02/10/2025 | Open Container OBSTRUCTION OF A LAW ENFORCEMENT OFFICER Fail to Yield Right-OF-Way/Turning Left</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/adonis-bonner-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bonner-Adonis-Depree-Sr-1.jpg" alt="Adonis Bonner"><div class="name">Adonis Bonner</div></a>
+<div class="reason">02/10/2025 | Violation of Probation - Felony Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kelvin-jones-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Kelvin-Jermaine.jpg" alt="Kelvin Jones"><div class="name">Kelvin Jones</div></a>
+<div class="reason">02/10/2025 | SENTENCED ON PREVIOUS CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jonathan-dolly/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dolly-Jonathan-Clinton.jpg" alt="Jonathan Dolly"><div class="name">Jonathan Dolly</div></a>
+<div class="reason">02/10/2025 | Violation of Probation - Felony Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/anthony-mcclure-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McClure-Anthony-2.jpg" alt="Anthony McClure"><div class="name">Anthony McClure</div></a>
+<div class="reason">02/10/2025 | OBSTRUCTION OF A LAW ENFORCEMENT OFFICER- Felony Receipt, Possession Or Transfer Of Firearm By Convicted Felon or Felony First Offender Possession of a Schedule IV Controlled Substance Entering Automobile or Other Motor Vehicle With Intent to Commit Theft Or Felony OBSTRUCTION OF A LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kevin-taylor-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Taylor-Kevin-Jerard.jpg" alt="Kevin Taylor"><div class="name">Kevin Taylor</div></a>
+<div class="reason">02/10/2025 | Theft by Shoplifting-Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dominic-williams-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Dominic-Andrew.jpg" alt="Dominic Williams"><div class="name">Dominic Williams</div></a>
+<div class="reason">02/10/2025 | Criminal Damage to Property 2nd Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dominic-williams-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Dominic-Andrew.jpg" alt="Dominic Williams"><div class="name">Dominic Williams</div></a>
+<div class="reason">02/10/2025 | Criminal Damage to Property 2nd Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/thompson-mhlanga-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mhlanga-Thompson.jpg" alt="Thompson Mhlanga"><div class="name">Thompson Mhlanga</div></a>
+<div class="reason">02/10/2025 | Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/zion-johnson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Zion.jpg" alt="Zion Johnson"><div class="name">Zion Johnson</div></a>
+<div class="reason">02/10/2025 | Battery - Family Violence (1st Offense) - Misdemeanor Battery - Family Violence (1st Offense) - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/melinda-thomas-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thomas-Melinda.jpg" alt="Melinda Thomas"><div class="name">Melinda Thomas</div></a>
+<div class="reason">02/10/2025 | Theft by Shoplifting-Felony Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/felix-redmon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Redmon-Felix-E-III.jpg" alt="Felix Redmon"><div class="name">Felix Redmon</div></a>
+<div class="reason">02/10/2025 | Simple Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kentavious-holder-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Holder-Kentavious-Shermonte.jpg" alt="Kentavious Holder"><div class="name">Kentavious Holder</div></a>
+<div class="reason">02/10/2025 | Violation of Probation - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/darnesha-hyppolite/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hyppolite-Darnesha-Virginia.jpg" alt="Darnesha Hyppolite"><div class="name">Darnesha Hyppolite</div></a>
+<div class="reason">02/10/2025 | Simple Battery - Family Violence Criminal Trespass Willful Obstruction of Law Enforcement Officers - Misdemeanor Cruelty to Children 1st Degree Cruelty to Children 1st Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/petty-leqwan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Leqwan-Petty-T.jpg" alt="Petty Leqwan"><div class="name">Petty Leqwan</div></a>
+<div class="reason">02/10/2025 | Burglary-2ND Degree Loitering and Prowling Arson 3rd Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/shadi-dawkins-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dawkins-Shadi-T.jpg" alt="Shadi Dawkins"><div class="name">Shadi Dawkins</div></a>
+<div class="reason">02/09/2025 | No Insurance Expired Tag or Revalidation Decal DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/christopher-brown-197/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Christopher-Usi.jpg" alt="Christopher Brown"><div class="name">Christopher Brown</div></a>
+<div class="reason">02/09/2025 | Driving Under the Influence of Alcohol (DUI) Failure to Maintain Lane Improper Passing/No Passing Zone</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/adonis-bonner-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bonner-Adonis-Depree-Sr.jpg" alt="Adonis Bonner"><div class="name">Adonis Bonner</div></a>
+<div class="reason">02/09/2025 | Violation of Probation - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brayan-rodriguez-cordoba-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rodriguez-Cordoba-Brayan-1.jpg" alt="Brayan Rodriguez Cordoba"><div class="name">Brayan Rodriguez Cordoba</div></a>
+<div class="reason">02/09/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/karli-purvis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Purvis-Karli-Eileen.jpg" alt="Karli Purvis"><div class="name">Karli Purvis</div></a>
+<div class="reason">02/09/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/rashon-evans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Evans-Rashon-C.jpg" alt="Rashon Evans"><div class="name">Rashon Evans</div></a>
+<div class="reason">02/09/2025 | Violation of Probation - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/terence-bullard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bullard-Terence-Jermaine.jpg" alt="Terence Bullard"><div class="name">Terence Bullard</div></a>
+<div class="reason">02/09/2025 | Failure to Maintain Lane Driving Under the Influence of Alcohol (DUI) Open Container</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/travis-mcdevitt-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McDevitt-Travis.jpg" alt="Travis McDevitt"><div class="name">Travis McDevitt</div></a>
+<div class="reason">02/08/2025 | PUBLIC DRUNK</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/devon-henry/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Henry-Devon-Donovan.jpg" alt="Devon Henry"><div class="name">Devon Henry</div></a>
+<div class="reason">02/08/2025 | Laying Drags Display of License Plates Expired Tag or Revalidation Decal Lic Plate Removal/Affix W/Intent To Conceal Reckless Driving Obstructing an Intersection</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kaitlin-pugh-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pugh-Kaitlin-C.jpg" alt="Kaitlin Pugh"><div class="name">Kaitlin Pugh</div></a>
+<div class="reason">02/08/2025 | Possession of a Schedule I Controlled Substance IDENTITY FRAUD Possession and Use of Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/carlos-abarca-olmedo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Abarca-Olmedo-Carlos.jpg" alt="Carlos Abarca-Olmedo"><div class="name">Carlos Abarca-Olmedo</div></a>
+<div class="reason">02/08/2025 | Driving Without Taillights Driving Without a Valid License (Misdemeanor) Possession of Marijuana Less Than One Ounce</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dylan-clement-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Clement-Dylan-Nevante.jpg" alt="Dylan Clement"><div class="name">Dylan Clement</div></a>
+<div class="reason">02/08/2025 | Possession of a Schedule I Controlled Substance Possession and Use of Drug Related Objects Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/lonnie-midget-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Midget-Lonnie.jpg" alt="Lonnie Midget"><div class="name">Lonnie Midget</div></a>
+<div class="reason">02/08/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/andre-mathias/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mathias-Andre-Cornelius.jpg" alt="Andre Mathias"><div class="name">Andre Mathias</div></a>
+<div class="reason">02/08/2025 | No Insurance Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brayan-rodriguez-cordoba-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rodriguez-Cordoba-Brayan.jpg" alt="Brayan Rodriguez Cordoba"><div class="name">Brayan Rodriguez Cordoba</div></a>
+<div class="reason">02/08/2025 | Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/austin-willis-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Willis-Austin.jpg" alt="Austin Willis"><div class="name">Austin Willis</div></a>
+<div class="reason">02/08/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/james-stewart-21/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stewart-James-Ronald.jpg" alt="James Stewart"><div class="name">James Stewart</div></a>
+<div class="reason">02/08/2025 | Driving Without a Valid License (Misdemeanor) Failure to Appear Bond Surrender</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dondi-mcclintock-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McClintock-Dondi-Revelle.jpg" alt="Dondi McClintock"><div class="name">Dondi McClintock</div></a>
+<div class="reason">02/08/2025 | SENTENCED ON PREVIOUS CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kentrell-neptune/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Neptune-Kentrell-Jarnary-Kailee.jpg" alt="Kentrell Neptune"><div class="name">Kentrell Neptune</div></a>
+<div class="reason">02/08/2025 | Burglary-1ST Degree Theft By Taking- Misdemeanor Simple Battery Criminal Trespass Aggravated Assault</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/aaron-frank-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Frank-Aaron-Fitzgerald.jpg" alt="Aaron Frank"><div class="name">Aaron Frank</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brea-chester/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chester-Brea-Nicole.jpg" alt="Brea Chester"><div class="name">Brea Chester</div></a>
+<div class="reason">02/08/2025 | Loitering and prowling Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/mekhi-robertson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Robertson-Mekhi.jpg" alt="Mekhi Robertson"><div class="name">Mekhi Robertson</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/talon-feacher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Feacher-Talon-Christopher.jpg" alt="Talon Feacher"><div class="name">Talon Feacher</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/honesty-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Honesty.jpg" alt="Honesty Smith"><div class="name">Honesty Smith</div></a>
+<div class="reason">02/08/2025 | Loitering and Prowling</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/cameron-slough/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Slough-Cameron.jpg" alt="Cameron Slough"><div class="name">Cameron Slough</div></a>
+<div class="reason">02/08/2025 | Loitering and prowling</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/neelam-jaglan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jaglan-Neelam.jpg" alt="Neelam Jaglan"><div class="name">Neelam Jaglan</div></a>
+<div class="reason">02/08/2025 | Improper Turn Driving Under the Influence of Drugs Knowingly Driving A Motor Vehicle on Suspended, Canceled or Registration Expired Tag or Revalidation Decal Driving Without Taillights No Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kenyatita-rhodes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rhodes-Kenyatita-Jemon.jpg" alt="Kenyatita Rhodes"><div class="name">Kenyatita Rhodes</div></a>
+<div class="reason">02/08/2025 | Driving Under the Influence of Alcohol-concentration is 0.08G or more within 3 hrs or more No Turn Signal Failure to Maintain Lane Open Container Speeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/alfonso-funderburk/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Funderburk-Alfonso-Bradley.jpg" alt="Alfonso Funderburk"><div class="name">Alfonso Funderburk</div></a>
+<div class="reason">02/07/2025 | Theft by Shoplifting-Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jasmine-wilson-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wilson-Jasmine.jpg" alt="Jasmine Wilson"><div class="name">Jasmine Wilson</div></a>
+<div class="reason">02/07/2025 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/mark-morgan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Morgan-Mark-Andrew-Jr.jpg" alt="Mark Morgan"><div class="name">Mark Morgan</div></a>
+<div class="reason">02/07/2025 | Expired License Expired Tag or Revalidation Decal</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/felicia-bellamy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bellamy-Felicia.jpg" alt="Felicia Bellamy"><div class="name">Felicia Bellamy</div></a>
+<div class="reason">02/07/2025 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/renika-norman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Norman-Renika-Shadrico.jpg" alt="Renika Norman"><div class="name">Renika Norman</div></a>
+<div class="reason">02/07/2025 | Simple Battery Terroristic Threats and Acts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/shaundia-betton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Betton-Shaundia-Marshea-1.jpg" alt="Shaundia Betton"><div class="name">Shaundia Betton</div></a>
+<div class="reason">02/07/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/cartesha-mcgee/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McGee-Cartesha-Rentra.jpg" alt="Cartesha McGee"><div class="name">Cartesha McGee</div></a>
+<div class="reason">02/07/2025 | No Insurance Fail to Yield Right-OF-Way/Intersection Driving in Violation of License Restrictions Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/lasha-henderson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Henderson-Lasha.jpg" alt="Lasha Henderson"><div class="name">Lasha Henderson</div></a>
+<div class="reason">02/07/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/fatima-duncan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Duncan-Fatima.jpg" alt="Fatima Duncan"><div class="name">Fatima Duncan</div></a>
+<div class="reason">02/07/2025 | Armed Robbery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/demarlos-morse-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Morse-Demarlos-Deshon.jpg" alt="Demarlos Morse"><div class="name">Demarlos Morse</div></a>
+<div class="reason">02/07/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/joyce-heard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Heard-Joyce-L.jpg" alt="Joyce Heard"><div class="name">Joyce Heard</div></a>
+<div class="reason">02/07/2025 | Disorderly Conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/tavarus-rodgers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rodgers-Tavarus-Lee-Jr.jpg" alt="Tavarus Rodgers"><div class="name">Tavarus Rodgers</div></a>
+<div class="reason">02/06/2025 | Possession of a Firearm by a Convicted Felon During the Commission of a Felony Possession of a Schedule I Controlled Substance Possession of Firearm/Knife During Commission/Attempt To Commit a Felony (2nd/subsequent conviction) Possession of Marijuana Less Than One Ounce Hold for Other Agency Hold for Other...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/gloria-medina-wright-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Medina-Wright-Gloria.jpg" alt="Gloria Medina-Wright"><div class="name">Gloria Medina-Wright</div></a>
+<div class="reason">02/06/2025 | Murder Cruelty to Children 1st Degree Cruelty Child - 2nd Degree (3rd or Subq Off)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/ulantais-dorsey-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dorsey-Ulantais-Bryan.jpg" alt="Ulantais Dorsey"><div class="name">Ulantais Dorsey</div></a>
+<div class="reason">02/06/2025 | Tampering With Evidence - Misdemeanor Possession of a Schedule II Controlled Substance DRIVING WHILE LICENSE SUSPENDED OR REVOKED AFTER HAVING BEEN No Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/valdis-launags/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Launags-Valdis-Antons.jpg" alt="Valdis Launags"><div class="name">Valdis Launags</div></a>
+<div class="reason">02/06/2025 | Criminal Damage to Property 2nd Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/xaverious-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Xaverious-Donte.jpg" alt="Xaverious Williams"><div class="name">Xaverious Williams</div></a>
+<div class="reason">02/06/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/charles-gunn-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gunn-Charles-Ramone.jpg" alt="Charles Gunn"><div class="name">Charles Gunn</div></a>
+<div class="reason">02/06/2025 | Knowingly Driving A Motor Vehicle on Suspended, Canceled or Registration Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brandon-evans-26/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Evans-Brandon-Clement.jpg" alt="Brandon Evans"><div class="name">Brandon Evans</div></a>
+<div class="reason">02/06/2025 | Crossing the Guard Lines of a Jail While In Possession of Marijuana Possession and Use of Drug Related Objects Possession of a Schedule I Controlled Substance Manufacture//Deliver/Distribute/Administer/Sell/Possess w/Intent to Distribute Controlled Substances</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/shaundia-betton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Betton-Shaundia-Marshea.jpg" alt="Shaundia Betton"><div class="name">Shaundia Betton</div></a>
+<div class="reason">02/06/2025 | Aggravated Assault</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kristopher-woullard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Woullard-Kristopher.jpg" alt="Kristopher Woullard"><div class="name">Kristopher Woullard</div></a>
+<div class="reason">02/06/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/derron-adams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Adams-Derron.jpg" alt="Derron Adams"><div class="name">Derron Adams</div></a>
+<div class="reason">02/06/2025 | Terroristic Threats and Acts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/william-alston-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Alston-William-Davis.jpg" alt="William Alston"><div class="name">William Alston</div></a>
+<div class="reason">02/06/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/trenairrio-jackson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jackson-Trenairrio-Lejuan.jpg" alt="Trenairrio Jackson"><div class="name">Trenairrio Jackson</div></a>
+<div class="reason">02/06/2025 | Failure to Appear For Court Only</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/david-jefferson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jefferson-David-Conrad.jpg" alt="David Jefferson"><div class="name">David Jefferson</div></a>
+<div class="reason">02/06/2025 | Obstruction of Law Enforcement Officer When Engaged in Official Duties Which Results in Serious Harm Obstruction of Law Enforcement Officer When Engaged in Official Duties Which Results in Serious Harm Terroristic Threats and Acts Terroristic Threats and Acts Battery Public Drunkenness/Intoxication</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/justin-ford-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ford-Justin.jpg" alt="Justin Ford"><div class="name">Justin Ford</div></a>
+<div class="reason">02/06/2025 | Fugitive from Justice</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/khari-andrews-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Andrews-Khari.jpg" alt="Khari Andrews"><div class="name">Khari Andrews</div></a>
+<div class="reason">02/06/2025 | Driving Under the Influence of Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/willie-crawford-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Crawford-Willie-III.jpg" alt="Willie Crawford"><div class="name">Willie Crawford</div></a>
+<div class="reason">02/06/2025 | Possession and Use of Drug Related Objects Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/darin-battaglia-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Battaglia-Darin-Jon.jpg" alt="Darin Battaglia"><div class="name">Darin Battaglia</div></a>
+<div class="reason">02/05/2025 | Willful Obstruction of Law Enforcement Officers - Misdemeanor Expired Tag/Not Registered Fleeing/Attempting to Elude A Police Officer Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dustin-hoffland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hoffland-Dustin-Edward.jpg" alt="Dustin Hoffland"><div class="name">Dustin Hoffland</div></a>
+<div class="reason">02/05/2025 | Terroristic Threats and Acts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/david-willoughby-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Willoughby-David.jpg" alt="David Willoughby"><div class="name">David Willoughby</div></a>
+<div class="reason">02/05/2025 | Theft by Shoplifting-Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/raymond-victor-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Victor-Raymond-Jamel.jpg" alt="Raymond Victor"><div class="name">Raymond Victor</div></a>
+<div class="reason">02/05/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/antone-jackson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jackson-Antone-J.jpg" alt="Antone Jackson"><div class="name">Antone Jackson</div></a>
+<div class="reason">02/05/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/tranell-bluett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bluett-Tranell.jpg" alt="Tranell Bluett"><div class="name">Tranell Bluett</div></a>
+<div class="reason">02/05/2025 | Burglary-1ST Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/paris-notae-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Notae-Paris.jpg" alt="Paris Notae"><div class="name">Paris Notae</div></a>
+<div class="reason">02/05/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brandon-joseph-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Joseph-Brandon-Lamar.jpg" alt="Brandon Joseph"><div class="name">Brandon Joseph</div></a>
+<div class="reason">02/05/2025 | Violation of Probation - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/sonya-stephens-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stephens-Sonya-V.jpg" alt="Sonya Stephens"><div class="name">Sonya Stephens</div></a>
+<div class="reason">02/05/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/desiree-davis-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Davis-Desiree-1.jpg" alt="Desiree Davis"><div class="name">Desiree Davis</div></a>
+<div class="reason">02/05/2025 | Theft by Shoplifting-Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/william-harris-46/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harris-William-Antonio.jpg" alt="William Harris"><div class="name">William Harris</div></a>
+<div class="reason">02/05/2025 | Parole Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/cordarius-stinner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stinner-Cordarius-Deandre.jpg" alt="Cordarius Stinner"><div class="name">Cordarius Stinner</div></a>
+<div class="reason">02/05/2025 | Following Too Closely Driving Without a Valid License (Misdemeanor) FAILURE TO DRIVE ON THE RIGHT HAND SIDE OF THE ROAD No Seat Belt (Age 18 or older)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jahzavya-white/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/White-Jahzavya-Patrick.jpg" alt="Jahzavya White"><div class="name">Jahzavya White</div></a>
+<div class="reason">02/05/2025 | Willful Obstruction of Law Enforcement Officers - Misdemeanor Expired Tag/Not Registered Fugitive from Justice</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jayla-allen-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Allen-Jayla-Ayuanna.jpg" alt="Jayla Allen"><div class="name">Jayla Allen</div></a>
+<div class="reason">02/05/2025 | Leaving the Scene of an Accident with Injury or Damage Driving Under the Influence of Alcohol (DUI) Following Too Closely Improper Passing/Overtaking And Passing</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/larry-brown-44/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Larry-Terrell.jpg" alt="Larry Brown"><div class="name">Larry Brown</div></a>
+<div class="reason">02/05/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/trevan-littles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Littles-Trevan.jpg" alt="Trevan Littles"><div class="name">Trevan Littles</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dionne-cunningham/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cunningham-Dionne-Evette.jpg" alt="Dionne Cunningham"><div class="name">Dionne Cunningham</div></a>
+<div class="reason">02/04/2025 | Public Drunkenness/Intoxication Disorderly Conduct Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/derrick-cowan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cowan-Derrick-Otis-Lee.jpg" alt="Derrick Cowan"><div class="name">Derrick Cowan</div></a>
+<div class="reason">02/04/2025 | Disorderly Conduct Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/christia-ebi/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ebi-Christia.jpg" alt="Christia Ebi"><div class="name">Christia Ebi</div></a>
+<div class="reason">02/04/2025 | Battery - Family Violence (1st Offense) - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/gerald-weatherford-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Weatherford-Gerald-Craig.jpg" alt="Gerald Weatherford"><div class="name">Gerald Weatherford</div></a>
+<div class="reason">02/04/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/eric-hart-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hart-Eric-Lamont.jpg" alt="Eric Hart"><div class="name">Eric Hart</div></a>
+<div class="reason">02/04/2025 | Failure to Appear SENTENCED ON PREVIOUS CHARGES SENTENCED ON PREVIOUS CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/ahmad-jones-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Ahmad-Mekhi.jpg" alt="Ahmad Jones"><div class="name">Ahmad Jones</div></a>
+<div class="reason">02/04/2025 | Possession of Marijuana Less Than One Ounce No Insurance Knowingly Driving A Motor Vehicle on Suspended, Canceled or Registration Hands Free Georgia Act</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/george-leslie-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Leslie-George-III.jpg" alt="George Leslie"><div class="name">George Leslie</div></a>
+<div class="reason">02/04/2025 | Theft By Taking - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/cordia-thompson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thompson-Cordia-Fay.jpg" alt="Cordia Thompson"><div class="name">Cordia Thompson</div></a>
+<div class="reason">02/04/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/david-jenkins-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jenkins-David-Jemel.jpg" alt="David Jenkins"><div class="name">David Jenkins</div></a>
+<div class="reason">02/04/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/marcus-hillard-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hillard-Marcus.jpg" alt="Marcus Hillard"><div class="name">Marcus Hillard</div></a>
+<div class="reason">02/04/2025 | Simple Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/travis-williams-65/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Travis.jpg" alt="Travis Williams"><div class="name">Travis Williams</div></a>
+<div class="reason">02/04/2025 | Battery - Family Violence - 1st Offense Cruelty To Children In The 3rd Degree or Subsequent Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/sierra-crutcher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Crutcher-Sierra.jpg" alt="Sierra Crutcher"><div class="name">Sierra Crutcher</div></a>
+<div class="reason">02/04/2025 | Theft by Conversion - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/johnny-anthony-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Anthony-Johnny-Leon.jpg" alt="Johnny Anthony"><div class="name">Johnny Anthony</div></a>
+<div class="reason">02/04/2025 | For Court Only</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/eliseo-varajas-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Varajas-Eliseo-1.jpg" alt="Eliseo Varajas"><div class="name">Eliseo Varajas</div></a>
+<div class="reason">02/04/2025 | Criminal TrespassViolation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/erica-powers-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Powers-Erica.jpg" alt="Erica Powers"><div class="name">Erica Powers</div></a>
+<div class="reason">02/04/2025 | Driving Under the Influence of Alcohol (DUI)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/linda-gourley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gourley-Linda-J-1.jpg" alt="Linda Gourley"><div class="name">Linda Gourley</div></a>
+<div class="reason">02/03/2025 | Operating A Motor Vehicle While License Suspended or Revoked Expired Tag/Not Registered</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/michael-zenko-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Zenko-Michael-Edward-1.jpg" alt="Michael Zenko"><div class="name">Michael Zenko</div></a>
+<div class="reason">02/03/2025 | SENTENCED ON PREVIOUS CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kara-millholland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Millholland-Kara-1.jpg" alt="Kara Millholland"><div class="name">Kara Millholland</div></a>
+<div class="reason">02/03/2025 | Operating A Motor Vehicle While License Suspended or Revoked Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/rochelle-vaz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Vaz-Rochelle-A-1.jpg" alt="Rochelle Vaz"><div class="name">Rochelle Vaz</div></a>
+<div class="reason">02/03/2025 | Improper Passing/Overtaking And Passing FAILURE TO DRIVE ON THE RIGHT HAND SIDE OF THE ROAD Failure to Maintain Lane Reckless Driving Reckless Conduct Reckless Conduct Reckless Conduct Reckless Conduct Reckless Conduct Reckless Conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/lovie-durham-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Durham-Lovie-1.jpg" alt="Lovie Durham"><div class="name">Lovie Durham</div></a>
+<div class="reason">02/03/2025 | For Court Only</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/clinton-norton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Norton-Clinton-Dwayne-1.jpg" alt="Clinton Norton"><div class="name">Clinton Norton</div></a>
+<div class="reason">02/03/2025 | Possession Of Firearm Or Knife During Commission of or Attempt to Commit Certain Felonies Aggravated Assault</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/james-dodson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dodson-James-1.jpg" alt="James Dodson"><div class="name">James Dodson</div></a>
+<div class="reason">02/03/2025 | For Court Only</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/montray-copeland-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Copeland-Montray-Ali-1.jpg" alt="Montray Copeland"><div class="name">Montray Copeland</div></a>
+<div class="reason">02/03/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/tony-williams-31/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Tony-Antoinne-1.jpg" alt="Tony Williams"><div class="name">Tony Williams</div></a>
+<div class="reason">02/03/2025 | Terroristic Threats and Acts Theft By Taking- Misdemeanor Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kasim-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Kasim-Devon-1.jpg" alt="Kasim Williams"><div class="name">Kasim Williams</div></a>
+<div class="reason">02/03/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kristian-chavers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chavers-Kristian-1.jpg" alt="Kristian Chavers"><div class="name">Kristian Chavers</div></a>
+<div class="reason">02/03/2025 | Possession of a Schedule I Controlled Substance Loitering and Prowling Possession of Tools for Commission of a Crime</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/anthony-mcclure-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McClure-Anthony-1.jpg" alt="Anthony McClure"><div class="name">Anthony McClure</div></a>
+<div class="reason">02/03/2025 | No Seat Belt (Age 18 or older) Driving Under the Influence of Drugs Riding a Bicycle on the Sidewalk</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/etiennie-boakye/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Boakye-Etiennie-Messiah.jpg" alt="Etiennie Boakye"><div class="name">Etiennie Boakye</div></a>
+<div class="reason">02/03/2025 | Expired Tag or Revalidation Decal Fail to Yield Right-OF-Way/Intersection Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/tara-robinson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Robinson-Tara-1.jpg" alt="Tara Robinson"><div class="name">Tara Robinson</div></a>
+<div class="reason">02/03/2025 | Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/marquez-comrie/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Comrie-Marquez-C.jpg" alt="Marquez Comrie"><div class="name">Marquez Comrie</div></a>
+<div class="reason">02/03/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/autumn-hester-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hester-Autumn-Marie.jpg" alt="Autumn Hester"><div class="name">Autumn Hester</div></a>
+<div class="reason">02/02/2025 | Theft of Service - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/william-hale-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hale-William-James-1.jpg" alt="William Hale"><div class="name">William Hale</div></a>
+<div class="reason">02/02/2025 | Aggravated Sexual Battery Aggravated Child Molestation Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets....</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/justin-studimire/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Studimire-Justin-1.jpg" alt="Justin Studimire"><div class="name">Justin Studimire</div></a>
+<div class="reason">02/02/2025 | DISORDERLY CONDUCT DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/cacderic-funderburk/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Funderburk-Cacderic-E-1.jpg" alt="Cacderic Funderburk"><div class="name">Cacderic Funderburk</div></a>
+<div class="reason">02/02/2025 | Driving Without a Valid License (Misdemeanor) No Seat Belt (Age 18 or older)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/sonya-jones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Sonya-1.jpg" alt="Sonya Jones"><div class="name">Sonya Jones</div></a>
+<div class="reason">02/02/2025 | Theft by Shoplifting (Less than $300)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/shyzaiah-glover-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Glover-Shyzaiah-Jean-1.jpg" alt="Shyzaiah Glover"><div class="name">Shyzaiah Glover</div></a>
+<div class="reason">02/02/2025 | SENTENCED ON PREVIOUS CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/larike-shepherd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shepherd-Larike-1.jpg" alt="Larike Shepherd"><div class="name">Larike Shepherd</div></a>
+<div class="reason">02/02/2025 | Theft by Shoplifting (Less than $300)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/denver-wharton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wharton-Denver-Tai-Jaire-1.jpg" alt="Denver Wharton"><div class="name">Denver Wharton</div></a>
+<div class="reason">02/02/2025 | Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/benito-morales-pena/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Morales-Pena-Benito-1.jpg" alt="Benito Morales-Pena"><div class="name">Benito Morales-Pena</div></a>
+<div class="reason">02/02/2025 | Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brittany-martin-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Martin-Brittany-Nicole-1.jpg" alt="Brittany Martin"><div class="name">Brittany Martin</div></a>
+<div class="reason">02/02/2025 | Aggravated Assault Reckless Driving Aggravated Assault CRUELTY TO CHILDREN - 2ND DEGREE Criminal Damage to Property 2nd Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/akim-ravariere/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ravariere-Akim-Solomon.jpg" alt="Akim Ravariere"><div class="name">Akim Ravariere</div></a>
+<div class="reason">02/02/2025 | Laying Drags</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/abram-malcolm/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Malcolm-Abram-1.jpg" alt="Abram Malcolm"><div class="name">Abram Malcolm</div></a>
+<div class="reason">02/02/2025 | Failure to Signal Failure to Signal Possession of Marijuana Less Than One Ounce Possession and Use of Drug Related Objects DISORDERLY CONDUCT No Proof of Insurance / Motor Vehicles Open Container</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/ricky-mburu/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mburu-Ricky-C.jpg" alt="Ricky Mburu"><div class="name">Ricky Mburu</div></a>
+<div class="reason">02/02/2025 | Illegal Parking Driving Under the Influence of Alcohol (DUI) Expired Tag or Revalidation Decal DISORDERLY CONDUCT (CITY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/wallace-elliott-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Elliott-Wallace-L.jpg" alt="Wallace Elliott"><div class="name">Wallace Elliott</div></a>
+<div class="reason">02/01/2025 | Possession of a Schedule I or II Controlled Substance w/Intent to Distribute Possession and Use of Drug Related Objects Tampering With Evidence - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/justin-sarabia-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sarabia-Justin-Wade.jpg" alt="Justin Sarabia"><div class="name">Justin Sarabia</div></a>
+<div class="reason">02/01/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/tyleill-eaddy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Eaddy-Tyleill-Sentell.jpg" alt="Tyleill Eaddy"><div class="name">Tyleill Eaddy</div></a>
+<div class="reason">02/01/2025 | Speeding Driving Under the Influence of Drugs Possession of Marijuana Less Than One Ounce</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/daniel-stephens-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stephens-Daniel-Ross.jpg" alt="Daniel Stephens"><div class="name">Daniel Stephens</div></a>
+<div class="reason">02/01/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/giovonnie-holland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Holland-Giovonnie-Juantaurus.jpg" alt="Giovonnie Holland"><div class="name">Giovonnie Holland</div></a>
+<div class="reason">02/01/2025 | Battery - Family Violence - 1st Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/juan-valente/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Valente-Juan-Emanual.jpg" alt="Juan Valente"><div class="name">Juan Valente</div></a>
+<div class="reason">02/01/2025 | Driving Under the Influence of Alcohol (DUI) Hit and Run Resulting In Serious Injury or Death Willful Obstruction of Law Enforcement Officers - Misdemeanor Failure to Maintain Lane Striking Fixed Object Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jose-nery-flores/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nery-Flores-Jose-Edvardo.jpg" alt="Jose Nery Flores"><div class="name">Jose Nery Flores</div></a>
+<div class="reason">02/01/2025 | Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/alexander-moore-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Moore-Alexander-Keon.jpg" alt="Alexander Moore"><div class="name">Alexander Moore</div></a>
+<div class="reason">02/01/2025 | Willful Obstruction of Law Enforcement Officers - Misdemeanor Possession of a Schedule I or II Controlled Substance w/Intent to Distribute</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dekayla-anderson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Anderson-DeKayla-1.jpg" alt="DeKayla Anderson"><div class="name">DeKayla Anderson</div></a>
+<div class="reason">02/01/2025 | Giving False Name/, Address, or Birthdate to Law Enforcement Officer Willful Obstruction of Law Enforcement Officers - Misdemeanor Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/andrew-dolphus/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dolphus-Andrew-Eugene.jpg" alt="Andrew Dolphus"><div class="name">Andrew Dolphus</div></a>
+<div class="reason">02/01/2025 | Possession of a Schedule I or II Controlled Substance w/Intent to Distribute Possession and Use of Drug Related Objects Open Container Operating A Motor Vehicle While License Suspended or Revoked FAILURE TO DRIVE ON THE RIGHT HAND SIDE OF THE ROAD Expired Tag or Revalidation Decal No...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/elizabeth-lopez-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lopez-Elizabeth.jpg" alt="Elizabeth Lopez"><div class="name">Elizabeth Lopez</div></a>
+<div class="reason">01/31/2025 | Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/william-hale-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hale-William-James.jpg" alt="William Hale"><div class="name">William Hale</div></a>
+<div class="reason">01/31/2025 | Child Molestation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/cordarrian-hartsfield-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hartsfield-Cordarrian-Marquez.jpg" alt="Cordarrian Hartsfield"><div class="name">Cordarrian Hartsfield</div></a>
+<div class="reason">01/31/2025 | Violation of Probation - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/shicreta-murray/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Murray-Shicreta-Maria.jpg" alt="Shicreta Murray"><div class="name">Shicreta Murray</div></a>
+<div class="reason">01/31/2025 | Interference with Government Property - Misdemeanor Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/martinez-hernandez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hernandez-Martinez-Artenio.jpg" alt="Martinez Hernandez"><div class="name">Martinez Hernandez</div></a>
+<div class="reason">01/31/2025 | Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/bernard-robinson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Robinson-Bernard.jpg" alt="Bernard Robinson"><div class="name">Bernard Robinson</div></a>
+<div class="reason">01/19/2025 | Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/darrin-robinson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Robinson-Darrin-Bernard-1.jpg" alt="Darrin Robinson"><div class="name">Darrin Robinson</div></a>
+<div class="reason">01/19/2025 | Driving Under the Influence of Alcohol (DUI) Display of License Plates Expired Tag or Revalidation Decal Hands Free Georgia Act Failure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brandy-davis-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Davis-Brandy-Nichole.jpg" alt="Brandy Davis"><div class="name">Brandy Davis</div></a>
+<div class="reason">01/31/2025 | Theft by Shoplifting-Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/quran-kenny/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kenny-Quran.jpg" alt="Quran Kenny"><div class="name">Quran Kenny</div></a>
+<div class="reason">01/31/2025 | Violation of Probation - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kobe-norman-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Norman-Kobe.jpg" alt="Kobe Norman"><div class="name">Kobe Norman</div></a>
+<div class="reason">01/31/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jemaure-ezzard-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ezzard-Jemaure.jpg" alt="Jemaure Ezzard"><div class="name">Jemaure Ezzard</div></a>
+<div class="reason">01/31/2025 | SENTENCED ON PREVIOUS CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/elexzabier-marquina-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Marquina-Elexzabier-Manuel.jpg" alt="Elexzabier Marquina"><div class="name">Elexzabier Marquina</div></a>
+<div class="reason">01/31/2025 | Violation of Probation - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/lee-howard-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Howard-Lee-David.jpg" alt="Lee Howard"><div class="name">Lee Howard</div></a>
+<div class="reason">01/31/2025 | SENTENCED ON PREVIOUS CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jason-gordon-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gordon-Jason-Demetri.jpg" alt="Jason Gordon"><div class="name">Jason Gordon</div></a>
+<div class="reason">01/09/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/shawn-kleinkauf-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Kleinkauf-Shawn-Jason-1.jpg" alt="Shawn Kleinkauf"><div class="name">Shawn Kleinkauf</div></a>
+<div class="reason">01/24/2025 | Violation of Probation - Felony Violation of Probation - Felony Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/denesia-wimms/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Wimms-Denesia-Marlene.jpg" alt="Denesia Wimms"><div class="name">Denesia Wimms</div></a>
+<div class="reason">01/24/2025 | Theft by Conversion - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/careth-scott/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Scott-Careth-Rachel.jpg" alt="Careth Scott"><div class="name">Careth Scott</div></a>
+<div class="reason">01/30/2025 | Violation of Probation - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/stephenie-ortiz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ortiz-Stephenie.jpg" alt="Stephenie Ortiz"><div class="name">Stephenie Ortiz</div></a>
+<div class="reason">01/30/2025 | Operating A Motor Vehicle While License Suspended or Revoked Expired Tag or Revalidation Decal</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/joshua-dixon-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dixon-Joshua-Markell.jpg" alt="Joshua Dixon"><div class="name">Joshua Dixon</div></a>
+<div class="reason">01/30/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kemberly-chevers-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chevers-Kemberly.jpg" alt="Kemberly Chevers"><div class="name">Kemberly Chevers</div></a>
+<div class="reason">01/30/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kolbe-alexander/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Alexander-Kolbe-Jordan.jpg" alt="Kolbe Alexander"><div class="name">Kolbe Alexander</div></a>
+<div class="reason">01/30/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/demetric-wilson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wilson-Demetric-Lee.jpg" alt="Demetric Wilson"><div class="name">Demetric Wilson</div></a>
+<div class="reason">01/30/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/calvin-thomas-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thomas-Calvin-M.jpg" alt="Calvin Thomas"><div class="name">Calvin Thomas</div></a>
+<div class="reason">01/30/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/sparklin-hart/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hart-Sparklin.jpg" alt="Sparklin Hart"><div class="name">Sparklin Hart</div></a>
+<div class="reason">01/30/2025 | Theft by Conversion - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/phalon-robertson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Robertson-Phalon-Ladarius.jpg" alt="Phalon Robertson"><div class="name">Phalon Robertson</div></a>
+<div class="reason">01/30/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jaylen-collier/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Collier-Jaylen.jpg" alt="Jaylen Collier"><div class="name">Jaylen Collier</div></a>
+<div class="reason">01/30/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kaden-green/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Green-Kaden-Andrew.jpg" alt="Kaden Green"><div class="name">Kaden Green</div></a>
+<div class="reason">01/29/2025 | Purchase/Possession/Manufacture/Distribution or Sale of Marijuana Possession Of Firearm Or Knife During Commission of or Attempt to Commit Certain Felonies Possession of Pistol/Revolver By Person Under 18YOA -1st Offense Possession and Use of Drug Related Objects Speeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dangelo-zachery-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Zachery-Dangelo-Jermaine.jpg" alt="Dangelo Zachery"><div class="name">Dangelo Zachery</div></a>
+<div class="reason">01/29/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/derrick-webster/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Webster-Derrick-Keziah.jpg" alt="Derrick Webster"><div class="name">Derrick Webster</div></a>
+<div class="reason">01/29/2025 | No Insurance Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/cantrelle-brooks-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Brooks-Cantrelle-Daion.jpg" alt="Cantrelle Brooks"><div class="name">Cantrelle Brooks</div></a>
+<div class="reason">01/29/2025 | Theft by Shoplifting-Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kiona-thompson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Thompson-Kiona-Alyssia-Nikole.jpg" alt="Kiona Thompson"><div class="name">Kiona Thompson</div></a>
+<div class="reason">01/29/2025 | Operating A Motor Vehicle While License Suspended or Revoked Speeding No Seat Belt (Age 18 or older)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kendeal-bell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bell-Kendeal-Kinderius.jpg" alt="Kendeal Bell"><div class="name">Kendeal Bell</div></a>
+<div class="reason">01/29/2025 | Battery - Family Violence - 1st Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jason-motes-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Motes-Jason-Dylan.jpg" alt="Jason Motes"><div class="name">Jason Motes</div></a>
+<div class="reason">01/28/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/bradley-meikle/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Meikle-Bradley.jpg" alt="Bradley Meikle"><div class="name">Bradley Meikle</div></a>
+<div class="reason">01/28/2025 | Possession of a Schedule I Controlled Substance Possession Of Firearm Or Knife During Commission of or Attempt to Commit Certain Felonies Possession Of Firearm Or Knife During Commission of or Attempt to Commit Certain Felonies Improper Window Tint Altered/Improper Transferred Tag</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/hassana-benjamin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Benjamin-Hassana.jpg" alt="Hassana Benjamin"><div class="name">Hassana Benjamin</div></a>
+<div class="reason">01/28/2025 | Theft Of Lost or Mislaid Property - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dave-jarrett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jarrett-Dave.jpg" alt="Dave Jarrett"><div class="name">Dave Jarrett</div></a>
+<div class="reason">01/28/2025 | Violate Family Violence Order</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/fatima-duncan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Duncan-Fatima.jpg" alt="Fatima Duncan"><div class="name">Fatima Duncan</div></a>
+<div class="reason">01/28/2025 | False Statements/Writings; conceal facts or fraudulent documents in matters of government</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/justin-hurst-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hurst-Justin-Perry.jpg" alt="Justin Hurst"><div class="name">Justin Hurst</div></a>
+<div class="reason">01/28/2025 | Aggravated Assault Aggravated Battery Armed Robbery Criminal Damage to Property 2nd Degree Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/aric-flemister-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Flemister-Aric-Nigel-1.jpg" alt="Aric Flemister"><div class="name">Aric Flemister</div></a>
+<div class="reason">01/28/2025 | For Court Only</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/daniel-walker-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Walker-Daniel-Andrew.jpg" alt="Daniel Walker"><div class="name">Daniel Walker</div></a>
+<div class="reason">01/28/2025 | Open Container Driving Under the Influence of Alcohol (DUI) FAILURE TO DRIVE ON THE RIGHT HAND SIDE OF THE ROAD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/sheriah-graves-lawrence-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Graves-Lawrence-Sheriah.jpg" alt="Sheriah Graves-Lawrence"><div class="name">Sheriah Graves-Lawrence</div></a>
+<div class="reason">01/27/2025 | Battery Obstruction or Hindering Persons Making Emergency Telephone Call Criminal Trespass Robbery Operating A Motor Vehicle While License Suspended or Revoked DISORDERLY CONDUCT (CITY) No Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/daryl-gipson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gipson-Daryl-1.jpg" alt="Daryl Gipson"><div class="name">Daryl Gipson</div></a>
+<div class="reason">01/27/2025 | Bond Surrender</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/tupona-thompkins-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Thompkins-Tupona.jpg" alt="Tupona Thompkins"><div class="name">Tupona Thompkins</div></a>
+<div class="reason">01/27/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jamel-west/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/West-Jamel-Antwaun.jpg" alt="Jamel West"><div class="name">Jamel West</div></a>
+<div class="reason">01/27/2025 | Discharge Of Firearms On Or Near Public Highway or Street</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/alysia-lopez-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lopez-Alysia.jpg" alt="Alysia Lopez"><div class="name">Alysia Lopez</div></a>
+<div class="reason">01/27/2025 | Theft by Conversion - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/kyle-franklin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Franklin-Kyle-Lahara.jpg" alt="Kyle Franklin"><div class="name">Kyle Franklin</div></a>
+<div class="reason">01/27/2025 | Theft by Conversion - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/john-dukes-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dukes-John-Robert-1.jpg" alt="John Dukes"><div class="name">John Dukes</div></a>
+<div class="reason">01/26/2025 | Aggravated Assault Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may exist....</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/paul-dennis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dennis-Paul-Granville.jpg" alt="Paul Dennis"><div class="name">Paul Dennis</div></a>
+<div class="reason">01/27/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/luis-gonzalez-rios/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gonzalez-Rios-Luis-A.jpg" alt="Luis Gonzalez Rios"><div class="name">Luis Gonzalez Rios</div></a>
+<div class="reason">01/27/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brianna-turner-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Turner-Brianna-Rae.jpg" alt="Brianna Turner"><div class="name">Brianna Turner</div></a>
+<div class="reason">01/27/2025 | Interference with Government Property - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/larry-jones-32/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jones-Larry.jpg" alt="Larry Jones"><div class="name">Larry Jones</div></a>
+<div class="reason">01/27/2025 | OBSTRUCTION OF A LAW ENFORCEMENT OFFICER Simple Assault</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jordan-carter-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Carter-Jordan-Adonis.jpg" alt="Jordan Carter"><div class="name">Jordan Carter</div></a>
+<div class="reason">01/27/2025 | Operating A Motor Vehicle While License Suspended or Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/justin-peoples/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Peoples-Justin.jpg" alt="Justin Peoples"><div class="name">Justin Peoples</div></a>
+<div class="reason">01/26/2025 | Aggravated Assault Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may exist. All...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jakhoi-hodge-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hodge-Jakhoi-J-1.jpg" alt="Jakhoi Hodge"><div class="name">Jakhoi Hodge</div></a>
+<div class="reason">01/26/2025 | Driving Without Headlights At Night</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/keonte-brown-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Brown-Keonte.jpg" alt="Keonte Brown"><div class="name">Keonte Brown</div></a>
+<div class="reason">01/26/2025 | Battery - Family Violence (1st Offense) - Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/debra-hinnant/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hinnant-Debra-Maglian.jpg" alt="Debra Hinnant"><div class="name">Debra Hinnant</div></a>
+<div class="reason">01/26/2025 | Willful Obstruction of Law Enforcement Officers By Use Of Threats Or Violence - Felony Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/manuel-murillo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Murillo-Manuel-M.jpg" alt="Manuel Murillo"><div class="name">Manuel Murillo</div></a>
+<div class="reason">01/26/2025 | Driving Under the Influence of Alcohol (DUI) No Tag Lights</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/shawntel-small-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Small-Shawntel-Tanisha.jpg" alt="Shawntel Small"><div class="name">Shawntel Small</div></a>
+<div class="reason">01/26/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/larry-hull/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hull-Larry-Danell.jpg" alt="Larry Hull"><div class="name">Larry Hull</div></a>
+<div class="reason">01/26/2025 | Violation of Probation - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/felix-campos-rivas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Campos-Rivas-Felix.jpg" alt="Felix Campos-Rivas"><div class="name">Felix Campos-Rivas</div></a>
+<div class="reason">01/26/2025 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/sunday-mifflin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Mifflin-Sunday.jpg" alt="Sunday Mifflin"><div class="name">Sunday Mifflin</div></a>
+<div class="reason">01/26/2025 | Theft by Shoplifting-Misdemeanor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/chania-helms/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Helms-Chania.jpg" alt="Chania Helms"><div class="name">Chania Helms</div></a>
+<div class="reason">01/26/2025 | Driving Under the Influence of Alcohol (DUI) Failure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/sylvon-brush/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Brush-Sylvon-1.jpg" alt="Sylvon Brush"><div class="name">Sylvon Brush</div></a>
+<div class="reason">01/26/2025 | Knowingly Driving A Motor Vehicle on Suspended, Canceled or Registration Possession of a Schedule I or II Controlled Substance w/Intent to Distribute Possession of a Firearm by a Convicted Felon During the Commission of a Felony Possession Of Firearm Or Knife During Commission of or Attempt to Commit Certain...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/glenn-hicks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hicks-Glenn-Edrich.jpg" alt="Glenn Hicks"><div class="name">Glenn Hicks</div></a>
+<div class="reason">01/26/2025 | FAILURE TO DRIVE ON THE RIGHT HAND SIDE OF THE ROAD Knowingly Driving A Motor Vehicle on Suspended, Canceled or Registration Driving Under the Influence of Alcohol (DUI)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jacorey-bryant-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bryant-JaCorey-DeJuan.jpg" alt="Ja’Corey Bryant"><div class="name">Ja’Corey Bryant</div></a>
+<div class="reason">01/25/2025 | Possess with Intent to or Sell/Deliver/Distribute/Display or Provide a Minor any Drug Related Object Possession and Use of Drug Related Objects Possession Of Firearm Or Knife During Commission of or Attempt to Commit Certain Felonies Driving Under the Influence of Alcohol (DUI) Speeding No Seat Belt (Age 18...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/stephen-hulsey-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hulsey-Stephen-Shane-1.jpg" alt="Stephen Hulsey"><div class="name">Stephen Hulsey</div></a>
+<div class="reason">01/25/2025 | Possession and Use of Drug Related Objects Receipt, Possession Or Transfer Of Firearm By Convicted Felon or Felony First Offender Possession Of Firearm Or Knife During Commission of or Attempt to Commit Certain Felonies Trafficking in Illegal Drugs (more than 28 Grams)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/imani-goodridge/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Goodridge-Imani.jpg" alt="Imani Goodridge"><div class="name">Imani Goodridge</div></a>
+<div class="reason">01/25/2025 | Driving Under the Influence of Alcohol (DUI)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/brandon-blair-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Blair-Brandon-Giermo.jpg" alt="Brandon Blair"><div class="name">Brandon Blair</div></a>
+<div class="reason">01/25/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/timothy-callaway-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Callaway-Timothy-James.jpg" alt="Timothy Callaway"><div class="name">Timothy Callaway</div></a>
+<div class="reason">01/25/2025 | CONTEMPT OF COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/jakhoi-hodge/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hodge-Jakhoi-J.jpg" alt="Jakhoi Hodge"><div class="name">Jakhoi Hodge</div></a>
+<div class="reason">01/25/2025 | Purchase/Possession/Manufacture/Distribution or Sale of Marijuana Open Container Driving Without a Valid License (Misdemeanor)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/dwayne-center/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Center-Dwayne-Dimitrise.jpg" alt="Dwayne Center"><div class="name">Dwayne Center</div></a>
+<div class="reason">01/24/2025 | Possession of a Firearm by a Convicted Felon During the Commission of a Felony No Seat Belt (Age 18 or older) Failure to Keep Drugs in Their Original Container Possession Of Firearm Or Knife During Commission of or Attempt to Commit Certain Felonies Sell/Deliver/Bring into State 28 Grams/more...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/madalyn-jones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jones-Madalyn.jpg" alt="Madalyn Jones"><div class="name">Madalyn Jones</div></a>
+<div class="reason">01/24/2025 | Possession and Use of Drug Related Objects Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/john-dukes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dukes-John-Robert.jpg" alt="John Dukes"><div class="name">John Dukes</div></a>
+<div class="reason">01/24/2025 | Criminal Trespass Aggravated Assault</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/edna-mckenzie/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/McKenzie-Edna.jpg" alt="Edna McKenzie"><div class="name">Edna McKenzie</div></a>
+<div class="reason">01/24/2025 | Manufacture//Deliver/Distribute/Administer/Sell/Possess w/Intent to Distribute Controlled Substances</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/rockdale/darius-malcom/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Malcom-Darius-O.jpg" alt="Darius Malcom"><div class="name">Darius Malcom</div></a>
+<div class="reason">01/24/2025 | Driving Under the Influence of Alcohol (DUI) Improper Lane Change</div>
+</div>
+</div><div class="pagination"><a href="rockdale5.html">Next Page</a></div></body></html>

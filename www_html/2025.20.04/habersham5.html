@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/james-murray-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MURRAY-JAMES-BERNICE.jpg" alt="James Murray"><div class="name">James Murray</div></a>
+<div class="reason">11/05/2024 | POSSESSION OF METH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jameco-mcmullen-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCMULLEN-JAMECO-TOPAS.jpg" alt="Jameco McMullen"><div class="name">Jameco McMullen</div></a>
+<div class="reason">11/04/2024 | ORDER OF INCARCERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/lorenza-mateo-diego/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MATEO-DIEGO-LORENZA-1.jpg" alt="Lorenza Mateo-Diego"><div class="name">Lorenza Mateo-Diego</div></a>
+<div class="reason">11/09/2024 | HANDS FREEDRIVING WHILE UNLICENSED OR EXPIRED LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/david-marcos-hernandez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MARCOS-HERNANDEZ-DAVID.jpg" alt="David Marcos-Hernandez"><div class="name">David Marcos-Hernandez</div></a>
+<div class="reason">11/07/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/luis-avila/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/AVILA-LUIS-ALONSO.jpg" alt="Luis Avila"><div class="name">Luis Avila</div></a>
+<div class="reason">11/09/2024 | EXPIRED OR NO DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/john-arrowood-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ARROWOOD-JOHN-SCOTT.jpg" alt="John Arrowood"><div class="name">John Arrowood</div></a>
+<div class="reason">11/08/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/caleb-wilson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILSON-CALEB-BRYCE-1.jpg" alt="Caleb Wilson"><div class="name">Caleb Wilson</div></a>
+<div class="reason">10/28/2024 | HOLD FOR RABUN SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/taylor-williams-26/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMS-TAYLOR-MARSHALL.jpg" alt="Taylor Williams"><div class="name">Taylor Williams</div></a>
+<div class="reason">10/31/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brittany-wiley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILEY-BRITTANY-LYNN.jpg" alt="Brittany Wiley"><div class="name">Brittany Wiley</div></a>
+<div class="reason">10/31/2024 | HOLD FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/timothy-ward-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WARD-TIMOTHY-TROY.jpg" alt="Timothy Ward"><div class="name">Timothy Ward</div></a>
+<div class="reason">10/30/2024 | SERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/david-villegas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/VILLEGAS-DAVID-RAFFE.jpg" alt="David Villegas"><div class="name">David Villegas</div></a>
+<div class="reason">10/28/2024 | DRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/carlos-walker-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WALKER-CARLOS-MONTEZ.jpg" alt="Carlos Walker"><div class="name">Carlos Walker</div></a>
+<div class="reason">10/28/2024 | SIMPLE BATTERY FVATHEFT BY TAKING (FVA)DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/erica-turner-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/TURNER-ERICA-ANN.jpg" alt="Erica Turner"><div class="name">Erica Turner</div></a>
+<div class="reason">10/31/2024 | PROBATION VIOLATIONTHEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/betty-toal-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/TOAL-BETTY-SMITH.jpg" alt="Betty Toal"><div class="name">Betty Toal</div></a>
+<div class="reason">10/28/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/dominique-thomas-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/THOMAS-DOMINIQUE-OLIVIA.jpg" alt="Dominique Thomas"><div class="name">Dominique Thomas</div></a>
+<div class="reason">10/28/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/bradley-street-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/STREET-BRADLEY-JAMAL.jpg" alt="Bradley Street"><div class="name">Bradley Street</div></a>
+<div class="reason">10/31/2024 | SERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/phillip-speed-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SPEED-PHILLIP-DWIGHT.jpg" alt="Phillip Speed"><div class="name">Phillip Speed</div></a>
+<div class="reason">10/29/2024 | POSSESSION OF DRUG RELATED OBJECTSPOSSESSION OF METHFAILURE TO MAINTAIN LANEDRIVING UNDER THE INFLUENCE - ALCOHOLBONDSMAN OFF BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/michael-smith-250/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-MICHAEL-TERRY.jpg" alt="Michael Smith"><div class="name">Michael Smith</div></a>
+<div class="reason">11/02/2024 | SIMPLE ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/karen-shope-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SHOPE-KAREN-MICHELLE.jpg" alt="Karen Shope"><div class="name">Karen Shope</div></a>
+<div class="reason">10/31/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/dylan-shedd-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SHEDD-DYLAN-BRANDON.jpg" alt="Dylan Shedd"><div class="name">Dylan Shedd</div></a>
+<div class="reason">10/30/2024 | THEFT BY RECEIVING STOLEN PROPERTYBURGLARY 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/tracy-saunders-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SAUNDERS-TRACY-LYNN-1.jpg" alt="Tracy Saunders"><div class="name">Tracy Saunders</div></a>
+<div class="reason">10/30/2024 | PUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/horst-ruiz-parra-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RUIZ-PARRA-HORST-DYLAN.jpg" alt="Horst Ruiz Parra"><div class="name">Horst Ruiz Parra</div></a>
+<div class="reason">11/02/2024 | HOLD FOR HALL SOHEADLIGHT REQUIREMENTSPOSSESSION LESS THAN 1 OZ MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jeremiah-rothell-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ROTHELL-JEREMIAH-BRIAN-1.jpg" alt="Jeremiah Rothell"><div class="name">Jeremiah Rothell</div></a>
+<div class="reason">10/29/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/elizabeth-robinson-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ROBINSON-ELIZABETH-ANN.jpg" alt="Elizabeth Robinson"><div class="name">Elizabeth Robinson</div></a>
+<div class="reason">11/02/2024 | SERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/daniel-rodriguez-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RODRIGUEZ-DANIEL-1.jpg" alt="Daniel Rodriguez"><div class="name">Daniel Rodriguez</div></a>
+<div class="reason">11/02/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)RECKLESS DRIVINGDUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/rony-ramirez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RAMIREZ-RONY-COMINO.jpg" alt="Rony Ramirez"><div class="name">Rony Ramirez</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/panfilo-queriapa-campos/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/QUERIAPA-CAMPOS-PANFILO.jpg" alt="Panfilo Queriapa-Campos"><div class="name">Panfilo Queriapa-Campos</div></a>
+<div class="reason">10/31/2024 | DRIVING WHILE UNLICENSEDDEFECTIVE OR NO REFLECTORS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/joseph-pittman-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PITTMAN-JOSEPH-RAYMOND.jpg" alt="Joseph Pittman"><div class="name">Joseph Pittman</div></a>
+<div class="reason">11/01/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jose-peren-bal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PEREN-BAL-JOSE-RUFINO.jpg" alt="Jose Peren-Bal"><div class="name">Jose Peren-Bal</div></a>
+<div class="reason">10/30/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/luis-othero/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/OTHERO-LUIS-ANTHONY.jpg" alt="Luis Othero"><div class="name">Luis Othero</div></a>
+<div class="reason">10/30/2024 | POSSESSION OF MARIJUANA LESS 1 OZWINDOW TINT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jesse-murrell-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MURRELL-JESSE-DERECK.jpg" alt="Jesse Murrell"><div class="name">Jesse Murrell</div></a>
+<div class="reason">10/28/2024 | POSSESSION OF DRUG RELATED OBJECTSPOSSESSION OF METHPOSSESSION OF A CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/logan-michael-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MICHAEL-LOGAN-JOEL.jpg" alt="Logan Michael"><div class="name">Logan Michael</div></a>
+<div class="reason">10/30/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jesus-martinez-arellano-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MARTINEZ-ARELLANO-JESUS.jpg" alt="Jesus Martinez-Arellano"><div class="name">Jesus Martinez-Arellano</div></a>
+<div class="reason">11/01/2024 | WRONG WAY ON ONE-WAY STREETDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/isabella-lee-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LEE-ISABELLA-JADE.jpg" alt="Isabella Lee"><div class="name">Isabella Lee</div></a>
+<div class="reason">10/28/2024 | DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/phillip-speed-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SPEED-PHILLIP-DWIGHT.jpg" alt="Phillip Speed"><div class="name">Phillip Speed</div></a>
+<div class="reason">10/29/2024 | POSSESSION OF DRUG RELATED OBJECTSPOSSESSION OF METHFAILURE TO MAINTAIN LANEDRIVING UNDER THE INFLUENCE - ALCOHOLBONDSMAN OFF BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/michael-smith-250/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-MICHAEL-TERRY.jpg" alt="Michael Smith"><div class="name">Michael Smith</div></a>
+<div class="reason">11/02/2024 | SIMPLE ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/karen-shope-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SHOPE-KAREN-MICHELLE.jpg" alt="Karen Shope"><div class="name">Karen Shope</div></a>
+<div class="reason">10/31/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/dylan-shedd-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SHEDD-DYLAN-BRANDON.jpg" alt="Dylan Shedd"><div class="name">Dylan Shedd</div></a>
+<div class="reason">10/30/2024 | THEFT BY RECEIVING STOLEN PROPERTYBURGLARY 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/tracy-saunders-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SAUNDERS-TRACY-LYNN-1.jpg" alt="Tracy Saunders"><div class="name">Tracy Saunders</div></a>
+<div class="reason">10/30/2024 | PUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/horst-ruiz-parra-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RUIZ-PARRA-HORST-DYLAN.jpg" alt="Horst Ruiz Parra"><div class="name">Horst Ruiz Parra</div></a>
+<div class="reason">11/02/2024 | HOLD FOR HALL SOHEADLIGHT REQUIREMENTSPOSSESSION LESS THAN 1 OZ MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jeremiah-rothell-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ROTHELL-JEREMIAH-BRIAN-1.jpg" alt="Jeremiah Rothell"><div class="name">Jeremiah Rothell</div></a>
+<div class="reason">10/29/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/elizabeth-robinson-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ROBINSON-ELIZABETH-ANN.jpg" alt="Elizabeth Robinson"><div class="name">Elizabeth Robinson</div></a>
+<div class="reason">11/02/2024 | SERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/daniel-rodriguez-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RODRIGUEZ-DANIEL-1.jpg" alt="Daniel Rodriguez"><div class="name">Daniel Rodriguez</div></a>
+<div class="reason">11/02/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)RECKLESS DRIVINGDUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/rony-ramirez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RAMIREZ-RONY-COMINO.jpg" alt="Rony Ramirez"><div class="name">Rony Ramirez</div></a>
+<div class="reason">11/03/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)SEAT BELT VIOLATIONDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/panfilo-queriapa-campos/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/QUERIAPA-CAMPOS-PANFILO.jpg" alt="Panfilo Queriapa-Campos"><div class="name">Panfilo Queriapa-Campos</div></a>
+<div class="reason">10/31/2024 | DRIVING WHILE UNLICENSEDDEFECTIVE OR NO REFLECTORS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/joseph-pittman-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PITTMAN-JOSEPH-RAYMOND.jpg" alt="Joseph Pittman"><div class="name">Joseph Pittman</div></a>
+<div class="reason">11/01/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/valdon-cooper-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COOPER-VALDON-MONROE-1.jpg" alt="Valdon Cooper"><div class="name">Valdon Cooper</div></a>
+<div class="reason">10/30/2024 | HOLD FOR CLARKE COHOLD FOR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/rebecca-cook-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COOK-REBECCA-SUE.jpg" alt="Rebecca Cook"><div class="name">Rebecca Cook</div></a>
+<div class="reason">11/03/2024 | ILLEGAL STOP/STAND/PARK WHERE PROHIBITEDDUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/erasmo-castillo-lopez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CASTILLO-LOPEZ-ERASMO-CASIMIRO.jpg" alt="Erasmo Castillo-Lopez"><div class="name">Erasmo Castillo-Lopez</div></a>
+<div class="reason">11/01/2024 | DRIVING WHILE UNLICENSEDIMPROPER USE OF CENTRAL TURN LANECHILD OR YOUTH RESTRAINT NOT USED PROPERLYFAILURE TO OBEY SIGNS OR CONTROL DEVICES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/phiou-cam-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CAM-PHIOU-VAN.jpg" alt="Phiou Cam"><div class="name">Phiou Cam</div></a>
+<div class="reason">10/30/2024 | DRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/saul-brito-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BRITO-SAUL-OLANDEZ.jpg" alt="Saul Brito"><div class="name">Saul Brito</div></a>
+<div class="reason">10/30/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/aaron-bradley-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BRADLEY-AARON-THOMAS.jpg" alt="Aaron Bradley"><div class="name">Aaron Bradley</div></a>
+<div class="reason">10/30/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/zachary-bartholf-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BARTHOLF-ZACHARY-TYLER.jpg" alt="Zachary Bartholf"><div class="name">Zachary Bartholf</div></a>
+<div class="reason">10/31/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/angel-rivera-sanchez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RIVERA-SANCHEZ-ANGEL-DEJESUS.jpg" alt="Angel Rivera-Sanchez"><div class="name">Angel Rivera-Sanchez</div></a>
+<div class="reason">10/29/2024 | KIDNAPPINGMURDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/luis-ortiz-vazquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ORTIZ-VAZQUEZ-LUIS-ABRAHAM.jpg" alt="Luis Ortiz-Vazquez"><div class="name">Luis Ortiz-Vazquez</div></a>
+<div class="reason">11/01/2024 | FAILURE TO MAINTAIN LANEHIT AND RUN-FAILURE TO STOP AND RENDER AIDPOSSESSION OF DRUG RELATED OBJECTSPOSSESSION LESS THAN 1 OZ MARIJUANA Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/andreew-moronta-betacourt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MORONTA-BETACOURT-ANDREEW-JACKSSON.jpg" alt="Andreew Moronta Betacourt"><div class="name">Andreew Moronta Betacourt</div></a>
+<div class="reason">11/02/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/henri-jose-juan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JOSE-JUAN-HENRI-YOVANI.jpg" alt="Henri Jose-Juan"><div class="name">Henri Jose-Juan</div></a>
+<div class="reason">11/01/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/anthony-holland-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HOLLAND-ANTHONY-RAY.jpg" alt="Anthony Holland"><div class="name">Anthony Holland</div></a>
+<div class="reason">10/29/2024 | FAILURE TO YIELD RIGHT OF WAY, TURNINGHOMICIDE BY VEHICLE - 2ND DEGREE Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/isaac-harmonson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HARMONSON-ISAAC.jpg" alt="Isaac Harmonson"><div class="name">Isaac Harmonson</div></a>
+<div class="reason">10/30/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDDRIVER MUST APPLY FOR A NEW LICENSE WITHIN 60 DAYS OF A CHANGE OF NAME OR CHANGE OF ADDRESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/christopher-hampton-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HAMPTON-CHRISTOPHER-SCOTT.jpg" alt="Christopher Hampton"><div class="name">Christopher Hampton</div></a>
+<div class="reason">10/29/2024 | DUISEAT BELT VIOLATIONFAILURE TO MAINTAIN LANEHANDS FREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/ramon-guzman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GUZMAN-RAMON.jpg" alt="Ramon Guzman"><div class="name">Ramon Guzman</div></a>
+<div class="reason">11/03/2024 | SEAT BELT VIOLATIONCHILD OR YOUTH RESTRAINT NOT USED PROPERLYDUIDUI-CHILD ENDANGERMENTFAILURE TO YIELD RIGHT OF WAY TO VEHICLEFAILURE TO DIM LIGHTS WHEN PARKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/miguel-francisco-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/FRANCISCO-MIGUEL-DIEGO.jpg" alt="Miguel Francisco"><div class="name">Miguel Francisco</div></a>
+<div class="reason">11/01/2024 | SERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jose-francisco-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/FRANCISCO-JOSE-FRANCISCO.jpg" alt="Jose Francisco"><div class="name">Jose Francisco</div></a>
+<div class="reason">11/03/2024 | LOITERINGPUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/hayward-dyer-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DYER-HAYWARD-JASON.jpg" alt="Hayward Dyer"><div class="name">Hayward Dyer</div></a>
+<div class="reason">11/01/2024 | POSSESSION WITH INTENT TO DISTRIBUTEPOSSESSION OF A CONTROLLED SUBSTANCESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/zackary-tamisiea-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TAMISIEA-ZACKARY-SEAN.jpg" alt="Zackary Tamisiea"><div class="name">Zackary Tamisiea</div></a>
+<div class="reason">10/21/2024 | POSSESSION OF METH WITH INTENT TO DISTRIBUTEPOSSESSION OF MARIJUANA WITH INTENT TO DISTRIBUTEPOSSESSION OF FENTANYLPOSSESSION OF A CONTROLLED SUBSTANCEPOSSESSION OF OXYCODONEPOSSESSION OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/sterling-strength-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/STRENGTH-STERLING-YANCEY.jpg" alt="Sterling Strength"><div class="name">Sterling Strength</div></a>
+<div class="reason">10/25/2024 | CRIMINAL TRESPASSOBSTRUCTION OF AN OFFICERPOSSESSION OF METH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kyle-stowe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/STOWE-KYLE-KENSETH.jpg" alt="Kyle Stowe"><div class="name">Kyle Stowe</div></a>
+<div class="reason">10/25/2024 | SERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/crystal-smith-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SMITH-CRYSTAL-ROSE.jpg" alt="Crystal Smith"><div class="name">Crystal Smith</div></a>
+<div class="reason">10/24/2024 | BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brandy-pope-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/POPE-BRANDY-ALYCIA.jpg" alt="Brandy Pope"><div class="name">Brandy Pope</div></a>
+<div class="reason">10/21/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/philip-oleary-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/OLEARY-PHILIP-ROBERT.jpg" alt="Philip Oleary"><div class="name">Philip Oleary</div></a>
+<div class="reason">10/26/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/zachary-bartholf-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BARTHOLF-ZACHARY-TYLER.jpg" alt="Zachary Bartholf"><div class="name">Zachary Bartholf</div></a>
+<div class="reason">10/31/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/angel-rivera-sanchez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RIVERA-SANCHEZ-ANGEL-DEJESUS.jpg" alt="Angel Rivera-Sanchez"><div class="name">Angel Rivera-Sanchez</div></a>
+<div class="reason">10/29/2024 | KIDNAPPINGMURDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/luis-ortiz-vazquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ORTIZ-VAZQUEZ-LUIS-ABRAHAM.jpg" alt="Luis Ortiz-Vazquez"><div class="name">Luis Ortiz-Vazquez</div></a>
+<div class="reason">11/01/2024 | FAILURE TO MAINTAIN LANEHIT AND RUN-FAILURE TO STOP AND RENDER AIDPOSSESSION OF DRUG RELATED OBJECTSPOSSESSION LESS THAN 1 OZ MARIJUANA Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/andreew-moronta-betacourt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MORONTA-BETACOURT-ANDREEW-JACKSSON.jpg" alt="Andreew Moronta Betacourt"><div class="name">Andreew Moronta Betacourt</div></a>
+<div class="reason">11/02/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/henri-jose-juan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JOSE-JUAN-HENRI-YOVANI.jpg" alt="Henri Jose-Juan"><div class="name">Henri Jose-Juan</div></a>
+<div class="reason">11/01/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/anthony-holland-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HOLLAND-ANTHONY-RAY.jpg" alt="Anthony Holland"><div class="name">Anthony Holland</div></a>
+<div class="reason">10/29/2024 | FAILURE TO YIELD RIGHT OF WAY, TURNINGHOMICIDE BY VEHICLE - 2ND DEGREE Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/ryan-kelley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KELLEY-RYAN-RANDOLPH.jpg" alt="Ryan Kelley"><div class="name">Ryan Kelley</div></a>
+<div class="reason">10/25/2024 | WINDOW TINT VIOLATIONFAILURE TO MAINTAIN LANEDUIFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kenny-jones-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JONES-KENNY-TODD.jpg" alt="Kenny Jones"><div class="name">Kenny Jones</div></a>
+<div class="reason">10/25/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brittany-huff-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HUFF-BRITTANY-JAMIRAH.jpg" alt="Brittany Huff"><div class="name">Brittany Huff</div></a>
+<div class="reason">10/24/2024 | DUI-CHILD ENDANGERMENTDUI REFUSALFAILURE TO MAINTAIN INSURANCESEAT BELT VIOLATIONPOSSESSION OF MARIJUANA LESS 1 OZ</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/joseph-hopper-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOPPER-JOSEPH-LEE.jpg" alt="Joseph Hopper"><div class="name">Joseph Hopper</div></a>
+<div class="reason">10/21/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jonathan-hernandez-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HERNANDEZ-JONATHAN-AVALO.jpg" alt="Jonathan Hernandez"><div class="name">Jonathan Hernandez</div></a>
+<div class="reason">10/24/2024 | OPERATING VEHICLE WITH SUSP/CANC/REV REGISTRATIONFAILURE TO MAINTAIN INSURANCEDRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/hayden-groves-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GROVES-HAYDEN-BRADY-FLOYD-1.jpg" alt="Hayden Groves"><div class="name">Hayden Groves</div></a>
+<div class="reason">10/22/2024 | THEFT BY TAKINGCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/larry-gordy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GORDY-LARRY-GRANT.jpg" alt="Larry Gordy"><div class="name">Larry Gordy</div></a>
+<div class="reason">10/23/2024 | DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/katelyn-ensley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ENSLEY-KATELYN-RUTH.jpg" alt="Katelyn Ensley"><div class="name">Katelyn Ensley</div></a>
+<div class="reason">10/21/2024 | POSSESSION OF METH WITH INTENT TO DISTRIBUTEPOSSESSION OF MARIJUANA WITH INTENT TO DISTRIBUTEPOSSESSION OF FENTANYLPOSSESSION OF PSYCHEDELIC MUSHROOMSPOSSESSION OF OXYCODONEPOSSESSION OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/douglas-dodd-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DODD-DOUGLAS-MARK.jpg" alt="Douglas Dodd"><div class="name">Douglas Dodd</div></a>
+<div class="reason">10/22/2024 | HOLD FOR STEPHENS COUNTY SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/shyderius-darden-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DARDEN-SHYDERIUS-JAQUAN.jpg" alt="Shyderius Darden"><div class="name">Shyderius Darden</div></a>
+<div class="reason">10/25/2024 | THEFT BY TAKINGTHEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kevin-cross/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CROSS-KEVIN-LEE.jpg" alt="Kevin Cross"><div class="name">Kevin Cross</div></a>
+<div class="reason">10/27/2024 | DUIWINDOW TINT VIOLATIONPOSSESSION LESS THAN 1 OZ MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/thomas-callahan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CALLAHAN-THOMAS-EDWARD.jpg" alt="Thomas Callahan"><div class="name">Thomas Callahan</div></a>
+<div class="reason">10/24/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEATHEFT BY CONVERSION OF LEASED/RENTED PERSONAL PROPERTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/stephine-boyd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BOYD-STEPHINE-MICHELLE.jpg" alt="Stephine Boyd"><div class="name">Stephine Boyd</div></a>
+<div class="reason">10/22/2024 | POSSESSION OF METH WITH INTENT TO DISTRIBUTE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jason-baker-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BAKER-JASON-KEVIN.jpg" alt="Jason Baker"><div class="name">Jason Baker</div></a>
+<div class="reason">10/22/2024 | SERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/logan-bailey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BAILEY-LOGAN-ALEXANDER.jpg" alt="Logan Bailey"><div class="name">Logan Bailey</div></a>
+<div class="reason">10/27/2024 | DUI / ALCOHOL / LESS SAFEFAILURE TO MAINTAIN LANESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/amanda-armstead-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ARMSTEAD-AMANDA-MICHELLE.jpg" alt="Amanda Armstead"><div class="name">Amanda Armstead</div></a>
+<div class="reason">10/21/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/john-adams-36/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ADAMS-JOHN-DAVID.jpg" alt="John Adams"><div class="name">John Adams</div></a>
+<div class="reason">10/23/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/rebecca-abernathy-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ABERNATHY-REBECCA-LYNN.jpg" alt="Rebecca Abernathy"><div class="name">Rebecca Abernathy</div></a>
+<div class="reason">10/23/2024 | HOLD FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/ryan-kelley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KELLEY-RYAN-RANDOLPH.jpg" alt="Ryan Kelley"><div class="name">Ryan Kelley</div></a>
+<div class="reason">10/25/2024 | WINDOW TINT VIOLATIONFAILURE TO MAINTAIN LANEDUIFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kenny-jones-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JONES-KENNY-TODD.jpg" alt="Kenny Jones"><div class="name">Kenny Jones</div></a>
+<div class="reason">10/25/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brittany-huff-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HUFF-BRITTANY-JAMIRAH.jpg" alt="Brittany Huff"><div class="name">Brittany Huff</div></a>
+<div class="reason">10/24/2024 | DUI-CHILD ENDANGERMENTDUI REFUSALFAILURE TO MAINTAIN INSURANCESEAT BELT VIOLATIONPOSSESSION OF MARIJUANA LESS 1 OZ</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/joseph-hopper-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOPPER-JOSEPH-LEE.jpg" alt="Joseph Hopper"><div class="name">Joseph Hopper</div></a>
+<div class="reason">10/21/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jonathan-hernandez-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HERNANDEZ-JONATHAN-AVALO.jpg" alt="Jonathan Hernandez"><div class="name">Jonathan Hernandez</div></a>
+<div class="reason">10/24/2024 | OPERATING VEHICLE WITH SUSP/CANC/REV REGISTRATIONFAILURE TO MAINTAIN INSURANCEDRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/hayden-groves-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GROVES-HAYDEN-BRADY-FLOYD-1.jpg" alt="Hayden Groves"><div class="name">Hayden Groves</div></a>
+<div class="reason">10/22/2024 | THEFT BY TAKINGCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/larry-gordy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GORDY-LARRY-GRANT.jpg" alt="Larry Gordy"><div class="name">Larry Gordy</div></a>
+<div class="reason">10/23/2024 | DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/katelyn-ensley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ENSLEY-KATELYN-RUTH.jpg" alt="Katelyn Ensley"><div class="name">Katelyn Ensley</div></a>
+<div class="reason">10/21/2024 | POSSESSION OF METH WITH INTENT TO DISTRIBUTEPOSSESSION OF MARIJUANA WITH INTENT TO DISTRIBUTEPOSSESSION OF FENTANYLPOSSESSION OF PSYCHEDELIC MUSHROOMSPOSSESSION OF OXYCODONEPOSSESSION OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/douglas-dodd-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DODD-DOUGLAS-MARK.jpg" alt="Douglas Dodd"><div class="name">Douglas Dodd</div></a>
+<div class="reason">10/22/2024 | HOLD FOR STEPHENS COUNTY SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/shyderius-darden-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DARDEN-SHYDERIUS-JAQUAN.jpg" alt="Shyderius Darden"><div class="name">Shyderius Darden</div></a>
+<div class="reason">10/25/2024 | THEFT BY TAKINGTHEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kevin-cross/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CROSS-KEVIN-LEE.jpg" alt="Kevin Cross"><div class="name">Kevin Cross</div></a>
+<div class="reason">10/27/2024 | DUIWINDOW TINT VIOLATIONPOSSESSION LESS THAN 1 OZ MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/thomas-callahan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CALLAHAN-THOMAS-EDWARD.jpg" alt="Thomas Callahan"><div class="name">Thomas Callahan</div></a>
+<div class="reason">10/24/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEATHEFT BY CONVERSION OF LEASED/RENTED PERSONAL PROPERTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/talibdin-suluki-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SULUKI-TALIBDIN-SHARKIR.jpg" alt="Talibdin Suluki"><div class="name">Talibdin Suluki</div></a>
+<div class="reason">10/15/2024 | PROBATION VIOLATIONSERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/harley-simmemon-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SIMMEMON-HARLEY-RENO.jpg" alt="Harley Simmemon"><div class="name">Harley Simmemon</div></a>
+<div class="reason">10/14/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/chevy-saunders-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SAUNDERS-CHEVY-JAMES.jpg" alt="Chevy Saunders"><div class="name">Chevy Saunders</div></a>
+<div class="reason">10/17/2024 | POSSESSION OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/miguel-sanchez-chavez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SANCHEZ-CHAVEZ-MIGUEL-ANGEL.jpg" alt="Miguel Sanchez-Chavez"><div class="name">Miguel Sanchez-Chavez</div></a>
+<div class="reason">10/17/2024 | BATTERY - FAMILY VIOLENCECRIMINAL DAMAGE TO PROPERTY 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/sandra-robertson-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ROBERTSON-SANDRA-LYNN-1-1.jpg" alt="Sandra Robertson"><div class="name">Sandra Robertson</div></a>
+<div class="reason">10/15/2024 | HOLD FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/paquasha-randolph-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RANDOLPH-PAQUASHA-DENIECE.jpg" alt="Paquasha Randolph"><div class="name">Paquasha Randolph</div></a>
+<div class="reason">10/15/2024 | ORDER OF INCARCERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/luther-mize-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MIZE-LUTHER-NEWELL-JR.jpg" alt="Luther Mize"><div class="name">Luther Mize</div></a>
+<div class="reason">10/15/2024 | SIMPLE BATTERY FVASIMPLE ASSAULT/ASSAULT - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brandy-mclaughlin-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MCLAUGHLIN-BRANDY-DENEAN-2.jpg" alt="Brandy McLaughlin"><div class="name">Brandy McLaughlin</div></a>
+<div class="reason">10/15/2024 | POSSESSION OF METHDRIVING WHILE LICENSE SUSPENDED OR REVOKEDPOSSESSION OF DRUG RELATED OBJECTSTAMPERING WITH EVIDENCEPOSSESSION OF A CONTROLLED SUBSTANCEPOSSESSION OF MARIJUANACROSSING GUARDLINES WITH WEAPON/DRUGS/INTOXICANTSPOSSESSION OF A CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/dwight-lomax-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/LOMAX-DWIGHT-JAMES-JR.jpg" alt="Dwight Lomax"><div class="name">Dwight Lomax</div></a>
+<div class="reason">10/16/2024 | POSSESSION OF METH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/logan-kral/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KRAL-LOGAN-CHRISTOPHER.jpg" alt="Logan Kral"><div class="name">Logan Kral</div></a>
+<div class="reason">10/16/2024 | DUI REFUSALILLEGAL STOP/STAND/PARK WHERE PROHIBITED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jackson-jones-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JONES-JACKSON-COLE.jpg" alt="Jackson Jones"><div class="name">Jackson Jones</div></a>
+<div class="reason">10/15/2024 | CRUELTY TO ELDERSFINANCIAL TRANSACTION CARD THEFTPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/timothy-holbein/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOLBEIN-TIMOTHY-LEE.jpg" alt="Timothy Holbein"><div class="name">Timothy Holbein</div></a>
+<div class="reason">10/19/2024 | POSSESSION OF A CONTROLLED SUBSTANCE - 5 CountsPOSSESSION LESS THAN 1 OZ MARIJUANASPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/billy-hipp-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HIPP-BILLY-WAYNE.jpg" alt="Billy Hipp"><div class="name">Billy Hipp</div></a>
+<div class="reason">10/14/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/thomas-hilland-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HILLAND-THOMAS-SCOTT.jpg" alt="Thomas Hilland"><div class="name">Thomas Hilland</div></a>
+<div class="reason">10/17/2024 | OBSTRUCTION OF AN OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/eduardo-hernandez-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HERNANDEZ-EDUARDO-BONPARTE.jpg" alt="Eduardo Hernandez"><div class="name">Eduardo Hernandez</div></a>
+<div class="reason">10/18/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/paul-gross-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GROSS-PAUL-DYLAN.jpg" alt="Paul Gross"><div class="name">Paul Gross</div></a>
+<div class="reason">10/15/2024 | SERVING SENTENCESERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/tamela-griffin-winn-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GRIFFIN-WINN-TAMELA-CHANEL.jpg" alt="Tamela Griffin-Winn"><div class="name">Tamela Griffin-Winn</div></a>
+<div class="reason">10/16/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brenda-gibson-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GIBSON-BRENDA-ANN.jpg" alt="Brenda Gibson"><div class="name">Brenda Gibson</div></a>
+<div class="reason">10/17/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/talibdin-suluki-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SULUKI-TALIBDIN-SHARKIR.jpg" alt="Talibdin Suluki"><div class="name">Talibdin Suluki</div></a>
+<div class="reason">10/15/2024 | PROBATION VIOLATIONSERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/harley-simmemon-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SIMMEMON-HARLEY-RENO.jpg" alt="Harley Simmemon"><div class="name">Harley Simmemon</div></a>
+<div class="reason">10/14/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/chevy-saunders-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SAUNDERS-CHEVY-JAMES.jpg" alt="Chevy Saunders"><div class="name">Chevy Saunders</div></a>
+<div class="reason">10/17/2024 | POSSESSION OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/miguel-sanchez-chavez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SANCHEZ-CHAVEZ-MIGUEL-ANGEL.jpg" alt="Miguel Sanchez-Chavez"><div class="name">Miguel Sanchez-Chavez</div></a>
+<div class="reason">10/17/2024 | BATTERY - FAMILY VIOLENCECRIMINAL DAMAGE TO PROPERTY 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/sandra-robertson-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ROBERTSON-SANDRA-LYNN-1-1.jpg" alt="Sandra Robertson"><div class="name">Sandra Robertson</div></a>
+<div class="reason">10/15/2024 | HOLD FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/paquasha-randolph-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RANDOLPH-PAQUASHA-DENIECE.jpg" alt="Paquasha Randolph"><div class="name">Paquasha Randolph</div></a>
+<div class="reason">10/15/2024 | ORDER OF INCARCERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/james-bryant-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BRYANT-JAMES-RALEIGH.jpg" alt="James Bryant"><div class="name">James Bryant</div></a>
+<div class="reason">10/19/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLNO PROOF OF INSURANCERECKLESS DRIVINGPASSING IN NO PASSING ZONEPOSSESSION LESS THAN 1 OZ MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/nakeesha-belford-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BELFORD-NAKEESHA-JOHNAREE.jpg" alt="Nakeesha Belford"><div class="name">Nakeesha Belford</div></a>
+<div class="reason">10/18/2024 | ORDER OF INCARCERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/dusty-banfield-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BANFIELD-DUSTY-EVERETT.jpg" alt="Dusty Banfield"><div class="name">Dusty Banfield</div></a>
+<div class="reason">10/16/2024 | BURGLARY1ST DEGREEPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jose-alonzo-arguello/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ALONZO-ARGUELLO-JOSE-ALBERTO.jpg" alt="Jose Alonzo-Arguello"><div class="name">Jose Alonzo-Arguello</div></a>
+<div class="reason">10/18/2024 | DRIVING WHILE UNLICENSEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/katie-alldredge-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ALLDREDGE-KATIE-ELIZABETH.jpg" alt="Katie Alldredge"><div class="name">Katie Alldredge</div></a>
+<div class="reason">10/15/2024 | PROBATION VIOLATIONORDER OF INCARCERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kevin-alexander-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ALEXANDER-KEVIN-DEFORREST.jpg" alt="Kevin Alexander"><div class="name">Kevin Alexander</div></a>
+<div class="reason">10/17/2024 | POSSESSION OF METHSALE OF METHAMPHETAMINESALE OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/billy-hipp-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HIPP-BILLY-WAYNE.jpg" alt="Billy Hipp"><div class="name">Billy Hipp</div></a>
+<div class="reason">10/14/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/thomas-hilland-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HILLAND-THOMAS-SCOTT.jpg" alt="Thomas Hilland"><div class="name">Thomas Hilland</div></a>
+<div class="reason">10/17/2024 | OBSTRUCTION OF AN OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/eduardo-hernandez-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HERNANDEZ-EDUARDO-BONPARTE.jpg" alt="Eduardo Hernandez"><div class="name">Eduardo Hernandez</div></a>
+<div class="reason">10/18/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/paul-gross-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GROSS-PAUL-DYLAN.jpg" alt="Paul Gross"><div class="name">Paul Gross</div></a>
+<div class="reason">10/15/2024 | SERVING SENTENCESERVING SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/tamela-griffin-winn-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GRIFFIN-WINN-TAMELA-CHANEL.jpg" alt="Tamela Griffin-Winn"><div class="name">Tamela Griffin-Winn</div></a>
+<div class="reason">10/16/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brenda-gibson-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GIBSON-BRENDA-ANN.jpg" alt="Brenda Gibson"><div class="name">Brenda Gibson</div></a>
+<div class="reason">10/17/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jewel-williams-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WILLIAMS-JEWEL-EARL-1.jpg" alt="Jewel Williams"><div class="name">Jewel Williams</div></a>
+<div class="reason">10/12/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/william-widener-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WIDENER-WILLIAM-EDWARD.jpg" alt="William Widener"><div class="name">William Widener</div></a>
+<div class="reason">10/08/2024 | VIOLATE FAMILY VIOLENCE ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/trey-whitehead-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WHITEHEAD-TREY-LEE.jpg" alt="Trey Whitehead"><div class="name">Trey Whitehead</div></a>
+<div class="reason">10/10/2024 | PROBATION VIOLATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/cheyenne-wheeler-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WHEELER-CHEYENNE-STAR.jpg" alt="Cheyenne Wheeler"><div class="name">Cheyenne Wheeler</div></a>
+<div class="reason">10/11/2024 | ORDER OF INCARCERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/dylan-true-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TRUE-DYLAN-SCOTT.jpg" alt="Dylan True"><div class="name">Dylan True</div></a>
+<div class="reason">10/07/2024 | BONDSMAN OFF BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/richard-tovar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TOVAR-RICHARD-CLAYTON.jpg" alt="Richard Tovar"><div class="name">Richard Tovar</div></a>
+<div class="reason">10/11/2024 | OBSTRUCTION OF AN OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jeffery-taylor-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TAYLOR-JEFFERY-SCOTT.jpg" alt="Jeffery Taylor"><div class="name">Jeffery Taylor</div></a>
+<div class="reason">10/09/2024 | HOLD FOR HELEN PD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/melannie-soto-moreno/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SOTO-MORENO-MELANNIE-YOHALIS.jpg" alt="Melannie Soto-Moreno"><div class="name">Melannie Soto-Moreno</div></a>
+<div class="reason">10/13/2024 | RECKLESS DRIVINGSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/justice-smith-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SMITH-JUSTICE-STAR.jpg" alt="Justice Smith"><div class="name">Justice Smith</div></a>
+<div class="reason">10/13/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDEXPIRED OR NO REGISTRATION OR TITLEFAILURE TO MAINTAIN INSURANCEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jarred-smith-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SMITH-JARRED-CRAIG.jpg" alt="Jarred Smith"><div class="name">Jarred Smith</div></a>
+<div class="reason">10/11/2024 | POSSESSION OF METHEXPIRED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/payson-shubert-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SHUBERT-PAYSON-MARWELL.jpg" alt="Payson Shubert"><div class="name">Payson Shubert</div></a>
+<div class="reason">10/09/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDOBSTRUCTION OF AN OFFICERBURGLARYDUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kym-sarbon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SARBON-KYM-GUNN.jpg" alt="Kym Sarbon"><div class="name">Kym Sarbon</div></a>
+<div class="reason">10/10/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jose-sabalbarro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SABALBARRO-JOSE-FRANCISCO.jpg" alt="Jose Sabalbarro"><div class="name">Jose Sabalbarro</div></a>
+<div class="reason">10/07/2024 | IMPEDING TRAFFIC FLOWFAILURE TO HAVE LICENSE ON PERSONDRIVING WHILE LICENSE SUSPENDED OR REVOKEDDRIVER MUST APPLY FOR A NEW LICENSE WITH IN 60 DAYS OF A CHANGE OF NAME OR CHANGE OF ADDRESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/amanda-rouse/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ROUSE-AMANDA-CATHALEEN.jpg" alt="Amanda Rouse"><div class="name">Amanda Rouse</div></a>
+<div class="reason">10/13/2024 | POSSESSION LESS THAN 1 OZ MARIJUANAEXPIRED OR NO DRIVERS LICENSEEXPIRED OR NO REGISTRATION OR TITLEDUIFAILURE TO MAINTAIN LANEPOSSESSION OF A CONTROLLED SUBSTANCEPOSSESSION OF A CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/cristian-ramos-bautista-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RAMOS-BAUTISTA-CRISTIAN.jpg" alt="Cristian Ramos-Bautista"><div class="name">Cristian Ramos-Bautista</div></a>
+<div class="reason">10/11/2024 | POSSESSION OF ECSTASYPOSSESSION OF METHPOSSESSION OF COCAINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/gisele-rakes-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RAKES-GISELE-ASHLEY.jpg" alt="Gisele Rakes"><div class="name">Gisele Rakes</div></a>
+<div class="reason">10/13/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/seth-pruitt-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PRUITT-SETH-YANCEY.jpg" alt="Seth Pruitt"><div class="name">Seth Pruitt</div></a>
+<div class="reason">10/09/2024 | PROBATION VIOLATIONFAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jennifer-pitts-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PITTS-JENNIFER-GLYN.jpg" alt="Jennifer Pitts"><div class="name">Jennifer Pitts</div></a>
+<div class="reason">10/07/2024 | PROBATION VIOLATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jewel-williams-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WILLIAMS-JEWEL-EARL-1.jpg" alt="Jewel Williams"><div class="name">Jewel Williams</div></a>
+<div class="reason">10/12/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/william-widener-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WIDENER-WILLIAM-EDWARD.jpg" alt="William Widener"><div class="name">William Widener</div></a>
+<div class="reason">10/08/2024 | VIOLATE FAMILY VIOLENCE ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/trey-whitehead-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WHITEHEAD-TREY-LEE.jpg" alt="Trey Whitehead"><div class="name">Trey Whitehead</div></a>
+<div class="reason">10/10/2024 | PROBATION VIOLATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/cheyenne-wheeler-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WHEELER-CHEYENNE-STAR.jpg" alt="Cheyenne Wheeler"><div class="name">Cheyenne Wheeler</div></a>
+<div class="reason">10/11/2024 | ORDER OF INCARCERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/dylan-true-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TRUE-DYLAN-SCOTT.jpg" alt="Dylan True"><div class="name">Dylan True</div></a>
+<div class="reason">10/07/2024 | BONDSMAN OFF BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/richard-tovar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TOVAR-RICHARD-CLAYTON.jpg" alt="Richard Tovar"><div class="name">Richard Tovar</div></a>
+<div class="reason">10/11/2024 | OBSTRUCTION OF AN OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jeffery-taylor-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TAYLOR-JEFFERY-SCOTT.jpg" alt="Jeffery Taylor"><div class="name">Jeffery Taylor</div></a>
+<div class="reason">10/09/2024 | HOLD FOR HELEN PD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/melannie-soto-moreno/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SOTO-MORENO-MELANNIE-YOHALIS.jpg" alt="Melannie Soto-Moreno"><div class="name">Melannie Soto-Moreno</div></a>
+<div class="reason">10/13/2024 | RECKLESS DRIVINGSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/justice-smith-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SMITH-JUSTICE-STAR.jpg" alt="Justice Smith"><div class="name">Justice Smith</div></a>
+<div class="reason">10/13/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDEXPIRED OR NO REGISTRATION OR TITLEFAILURE TO MAINTAIN INSURANCEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jarred-smith-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SMITH-JARRED-CRAIG.jpg" alt="Jarred Smith"><div class="name">Jarred Smith</div></a>
+<div class="reason">10/11/2024 | POSSESSION OF METHEXPIRED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/payson-shubert-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SHUBERT-PAYSON-MARWELL.jpg" alt="Payson Shubert"><div class="name">Payson Shubert</div></a>
+<div class="reason">10/09/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDOBSTRUCTION OF AN OFFICERBURGLARYDUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kym-sarbon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SARBON-KYM-GUNN.jpg" alt="Kym Sarbon"><div class="name">Kym Sarbon</div></a>
+<div class="reason">10/10/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jose-sabalbarro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SABALBARRO-JOSE-FRANCISCO.jpg" alt="Jose Sabalbarro"><div class="name">Jose Sabalbarro</div></a>
+<div class="reason">10/07/2024 | IMPEDING TRAFFIC FLOWFAILURE TO HAVE LICENSE ON PERSONDRIVING WHILE LICENSE SUSPENDED OR REVOKEDDRIVER MUST APPLY FOR A NEW LICENSE WITH IN 60 DAYS OF A CHANGE OF NAME OR CHANGE OF ADDRESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/amanda-rouse/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ROUSE-AMANDA-CATHALEEN.jpg" alt="Amanda Rouse"><div class="name">Amanda Rouse</div></a>
+<div class="reason">10/13/2024 | POSSESSION LESS THAN 1 OZ MARIJUANAEXPIRED OR NO DRIVERS LICENSEEXPIRED OR NO REGISTRATION OR TITLEDUIFAILURE TO MAINTAIN LANEPOSSESSION OF A CONTROLLED SUBSTANCEPOSSESSION OF A CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/cristian-ramos-bautista-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RAMOS-BAUTISTA-CRISTIAN.jpg" alt="Cristian Ramos-Bautista"><div class="name">Cristian Ramos-Bautista</div></a>
+<div class="reason">10/11/2024 | POSSESSION OF ECSTASYPOSSESSION OF METHPOSSESSION OF COCAINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/gisele-rakes-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RAKES-GISELE-ASHLEY.jpg" alt="Gisele Rakes"><div class="name">Gisele Rakes</div></a>
+<div class="reason">10/13/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/seth-pruitt-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PRUITT-SETH-YANCEY.jpg" alt="Seth Pruitt"><div class="name">Seth Pruitt</div></a>
+<div class="reason">10/09/2024 | PROBATION VIOLATIONFAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jennifer-pitts-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PITTS-JENNIFER-GLYN.jpg" alt="Jennifer Pitts"><div class="name">Jennifer Pitts</div></a>
+<div class="reason">10/07/2024 | PROBATION VIOLATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/oscar-deleon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DELEON-OSCAR.jpg" alt="Oscar Deleon"><div class="name">Oscar Deleon</div></a>
+<div class="reason">10/08/2024 | HOLD FOR RABUN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/robert-dagenhart-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DAGENHART-ROBERT-WILLIAM.jpg" alt="Robert Dagenhart"><div class="name">Robert Dagenhart</div></a>
+<div class="reason">10/11/2024 | PROBATION VIOLATIONBONDSMAN OFF BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/matthew-cron/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CRON-MATTHEW-EUGENE.jpg" alt="Matthew Cron"><div class="name">Matthew Cron</div></a>
+<div class="reason">10/12/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jason-carr-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CARR-JASON-DWIGHT-1.jpg" alt="Jason Carr"><div class="name">Jason Carr</div></a>
+<div class="reason">10/11/2024 | POSSESSION OF METHDRIVING WHILE UNLICENSEDEXPIRED OR NO REGISTRATION OR TITLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/bryan-brown-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BROWN-BRYAN-JAMES.jpg" alt="Bryan Brown"><div class="name">Bryan Brown</div></a>
+<div class="reason">10/13/2024 | BATTERY - FAMILY VIOLENCECRUELTY TO CHILDREN IN THIRD DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jennifer-bone-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BONE-JENNIFER-MITCHELL.jpg" alt="Jennifer Bone"><div class="name">Jennifer Bone</div></a>
+<div class="reason">10/10/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jerry-masters-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MASTERS-JERRY-JAMES.jpg" alt="Jerry Masters"><div class="name">Jerry Masters</div></a>
+<div class="reason">10/09/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/rachel-martin-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MARTIN-RACHEL-NICOLE.jpg" alt="Rachel Martin"><div class="name">Rachel Martin</div></a>
+<div class="reason">10/08/2024 | BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/richard-loudermilk/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/LOUDERMILK-RICHARD-LEWIS.jpg" alt="Richard Loudermilk"><div class="name">Richard Loudermilk</div></a>
+<div class="reason">10/11/2024 | BRAKE LIGHT/TURN SIGNAL VIOLATIONDUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/patrick-lee-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/LEE-PATRICK-KAR-MAN.jpg" alt="Patrick Lee"><div class="name">Patrick Lee</div></a>
+<div class="reason">10/13/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)RECKLESS DRIVINGCHILD OR YOUTH RESTRAINT NOT USED PROPERLY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/tyler-jones-39/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JONES-TYLER-JACOB.jpg" alt="Tyler Jones"><div class="name">Tyler Jones</div></a>
+<div class="reason">10/11/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/david-jackels/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JACKELS-DAVID-MATTHEW.jpg" alt="David Jackels"><div class="name">David Jackels</div></a>
+<div class="reason">10/09/2024 | VIOLATION OF OATH OF OFFICEFALSE STATEMENTS AND WRITINGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jesse-hopkins-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOPKINS-JESSE-COLEMAN.jpg" alt="Jesse Hopkins"><div class="name">Jesse Hopkins</div></a>
+<div class="reason">10/08/2024 | HOLD FOR RABUN SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/francisco-hernandez-23/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HERNANDEZ-FRANCISCO-H.-RAMOS.jpg" alt="Francisco Hernandez"><div class="name">Francisco Hernandez</div></a>
+<div class="reason">10/12/2024 | DUI REFUSALHAZARDOUS MATERIALS VIOLATIONTAILLIGHTS / TAILLIGHT LENSES REQUIREDPOSSESSION OF DRUG RELATED OBJECTSHEADLIGHT REQUIREMENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/britton-glover/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GLOVER-BRITTON-WALKER.jpg" alt="Britton Glover"><div class="name">Britton Glover</div></a>
+<div class="reason">10/10/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)POSSESSION LESS THAN 1 OZ MARIJUANAPOSSESSION OF DRUG RELATED OBJECTSDUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/pedro-fransisco/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/FRANSISCO-PEDRO-PEDRO.jpg" alt="Pedro Fransisco"><div class="name">Pedro Fransisco</div></a>
+<div class="reason">10/12/2024 | FAILURE TO MAINTAIN LANEDUI UNDER 21</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brenda-duval/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DUVAL-BRENDA-JOYCE.jpg" alt="Brenda Duval"><div class="name">Brenda Duval</div></a>
+<div class="reason">10/13/2024 | DUI REFUSALFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jeremy-dorris-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DORRIS-JEREMY-RAY.jpg" alt="Jeremy Dorris"><div class="name">Jeremy Dorris</div></a>
+<div class="reason">10/13/2024 | POSSESSION OF OPEN ALCOHOL CONTAINERDUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/grady-talley-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TALLEY-GRADY-HOLT-1.jpg" alt="Grady Talley"><div class="name">Grady Talley</div></a>
+<div class="reason">09/30/2024 | VIOLATE FAMILY VIOLENCE ORDERPAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jason-singer-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SINGER-JASON-TYLER.jpg" alt="Jason Singer"><div class="name">Jason Singer</div></a>
+<div class="reason">10/04/2024 | ORDER OF INCARCERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/eric-sheriff-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SHERIFF-ERIC-ALLAN.jpg" alt="Eric Sheriff"><div class="name">Eric Sheriff</div></a>
+<div class="reason">10/02/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/josua-santizo-jimenez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SANTIZO-JIMENEZ-JOSUA-ABDIAS.jpg" alt="Josua Santizo Jimenez"><div class="name">Josua Santizo Jimenez</div></a>
+<div class="reason">09/30/2024 | DRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/emanuel-sanchez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SANCHEZ-EMANUEL.jpg" alt="Emanuel Sanchez"><div class="name">Emanuel Sanchez</div></a>
+<div class="reason">10/06/2024 | DUI / ALCOHOL / LESS SAFESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)EXPIRED OR NO REGISTRATION OR TITLEPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/thomas-robinson-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ROBINSON-THOMAS-LEE.jpg" alt="Thomas Robinson"><div class="name">Thomas Robinson</div></a>
+<div class="reason">10/05/2024 | PAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kirsten-beasley-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BEASLEY-KIRSTEN-MECHEE.jpg" alt="Kirsten Beasley"><div class="name">Kirsten Beasley</div></a>
+<div class="reason">10/11/2024 | ORDER OF INCARCERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jose-ayala-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/AYALA-JOSE-GUADALUPE.jpg" alt="Jose Ayala"><div class="name">Jose Ayala</div></a>
+<div class="reason">10/11/2024 | SIMPLE ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/marcia-agee-pugh/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/AGEE-PUGH-MARCIA-MARIE.jpg" alt="Marcia Agee-Pugh"><div class="name">Marcia Agee-Pugh</div></a>
+<div class="reason">10/12/2024 | POSSESSION OF OPEN ALCOHOL CONTAINERFAILURE TO YIELD RIGHT OF WAY, TURNINGDUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/david-adams-31/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ADAMS-DAVID-FRANKLIN.jpg" alt="David Adams"><div class="name">David Adams</div></a>
+<div class="reason">10/09/2024 | PROBATION VIOLATIONPROBATION VIOLATIONFAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/alexis-simpson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SIMPSON-ALEXIS-SHIANN.jpg" alt="Alexis Simpson"><div class="name">Alexis Simpson</div></a>
+<div class="reason">10/12/2024 | CRIMINAL TRESPASS FVAOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSDISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/matthew-hockaday/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOCKADAY-MATTHEW-STEPHEN.jpg" alt="Matthew Hockaday"><div class="name">Matthew Hockaday</div></a>
+<div class="reason">10/07/2024 | AGGRAVATED ASSAULT FVA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/rahmir-william/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WILLIAM-RAHMIR-SHANTRAY.jpg" alt="Rahmir William"><div class="name">Rahmir William</div></a>
+<div class="reason">10/06/2024 | FUGITIVE FROM JUSTICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/clinton-waters-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WATERS-CLINTON-LEE.jpg" alt="Clinton Waters"><div class="name">Clinton Waters</div></a>
+<div class="reason">10/03/2024 | EXPIRED OR NO REGISTRATION OR TITLEDRIVING WHILE LICENSE SUSPENDED OR REVOKEDFAILURE TO MAINTAIN INSURANCEOPERATING UNREGISTERED VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/nicholas-ward-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WARD-NICHOLAS-JAMES.jpg" alt="Nicholas Ward"><div class="name">Nicholas Ward</div></a>
+<div class="reason">09/30/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/audie-vanderstelt-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/VANDERSTELT-AUDIE-DREW-1.jpg" alt="Audie Vanderstelt"><div class="name">Audie Vanderstelt</div></a>
+<div class="reason">09/30/2024 | HOLD FOR FORSYTH CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/blaine-turpin-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TURPIN-BLAINE-ETHAN.jpg" alt="Blaine Turpin"><div class="name">Blaine Turpin</div></a>
+<div class="reason">10/01/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/christopher-taylor-57/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TAYLOR-CHRISTOPHER-EDWARD.jpg" alt="Christopher Taylor"><div class="name">Christopher Taylor</div></a>
+<div class="reason">10/02/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/alexander-kinnarath-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KINNARATH-ALEXANDER.jpg" alt="Alexander Kinnarath"><div class="name">Alexander Kinnarath</div></a>
+<div class="reason">10/05/2024 | SIMPLE BATTERYCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/levi-kimsey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KIMSEY-LEVI.jpg" alt="Levi Kimsey"><div class="name">Levi Kimsey</div></a>
+<div class="reason">10/01/2024 | THEFT BY RECEIVING STOLEN PROPERTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jessica-kimsey-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KIMSEY-JESSICA-GAIL.jpg" alt="Jessica Kimsey"><div class="name">Jessica Kimsey</div></a>
+<div class="reason">10/01/2024 | THEFT BY TAKINGOBSTRUCTION OF AN OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/anthony-jones-75/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JONES-ANTHONY-TYRONE-1.jpg" alt="Anthony Jones"><div class="name">Anthony Jones</div></a>
+<div class="reason">10/03/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/john-hunnicutt-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HUNNICUTT-JOHN-CALE.jpg" alt="John Hunnicutt"><div class="name">John Hunnicutt</div></a>
+<div class="reason">10/03/2024 | HOLD FOR WHITE COUNTY SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/korey-holland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOLLAND-KOREY-AMARU.jpg" alt="Korey Holland"><div class="name">Korey Holland</div></a>
+<div class="reason">10/05/2024 | HOLD FOR GWINNETT CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kayelee-hodges/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HODGES-KAYELEE-GRACE.jpg" alt="Kayelee Hodges"><div class="name">Kayelee Hodges</div></a>
+<div class="reason">09/30/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brian-hodges-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HODGES-BRIAN-KEITH.jpg" alt="Brian Hodges"><div class="name">Brian Hodges</div></a>
+<div class="reason">09/30/2024 | DUIFAILURE TO MAINTAIN LANEPOSSESSION OF OPEN ALCOHOL CONTAINERWINDOW TINT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/william-hester-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HESTER-WILLIAM-SHANE.jpg" alt="William Hester"><div class="name">William Hester</div></a>
+<div class="reason">10/05/2024 | DUISEAT BELT VIOLATIONPOSSESSION OF OPEN ALCOHOL CONTAINERRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/justin-harkins-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HARKINS-JUSTIN-LEE.jpg" alt="Justin Harkins"><div class="name">Justin Harkins</div></a>
+<div class="reason">10/05/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brandie-hardison-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HARDISON-BRANDIE-DANIELLE.jpg" alt="Brandie Hardison"><div class="name">Brandie Hardison</div></a>
+<div class="reason">10/01/2024 | DUIFAILURE TO HAVE LICENSE ON PERSONOPERATING VEHICLE WITH SUSP/CANC/REV REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/alesia-hancock/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HANCOCK-ALESIA-CHARMAINE.jpg" alt="Alesia Hancock"><div class="name">Alesia Hancock</div></a>
+<div class="reason">10/06/2024 | THEFT BY TAKING (FVA)DRIVING ON EXPIRED LICENSEGIVING FALSE NAME, ADDRESS, OR DATE OF BIRTH TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/joshua-miller-45/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MILLER-JOSHUA-RYAN.jpg" alt="Joshua Miller"><div class="name">Joshua Miller</div></a>
+<div class="reason">10/02/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/clinton-miller-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MILLER-CLINTON-PATRICK.jpg" alt="Clinton Miller"><div class="name">Clinton Miller</div></a>
+<div class="reason">10/03/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/luis-martinez-37/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MARTINEZ-LUIS-CARMILLO.jpg" alt="Luis Martinez"><div class="name">Luis Martinez</div></a>
+<div class="reason">10/03/2024 | DRIVING WHILE UNLICENSEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/juan-martinez-39/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MARTINEZ-JUAN-JOSE.jpg" alt="Juan Martinez"><div class="name">Juan Martinez</div></a>
+<div class="reason">09/30/2024 | DRIVING WHILE UNLICENSEDFAILURE TO MAINTAIN INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/waldo-lopez-merida-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/LOPEZ-MERIDA-WALDO.jpg" alt="Waldo Lopez-Merida"><div class="name">Waldo Lopez-Merida</div></a>
+<div class="reason">10/01/2024 | DRIVING WHILE UNLICENSEDHEADLIGHT REQUIREMENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/francisco-lemus-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/LEMUS-FRANCISCO-BULMARO-1.jpg" alt="Francisco Lemus"><div class="name">Francisco Lemus</div></a>
+<div class="reason">10/06/2024 | SIMPLE ASSAULT/ASSAULT - FAMILY VIOLENCEVIOLATE FAMILY VIOLENCE ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/alexander-kinnarath-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KINNARATH-ALEXANDER.jpg" alt="Alexander Kinnarath"><div class="name">Alexander Kinnarath</div></a>
+<div class="reason">10/05/2024 | SIMPLE BATTERYCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/levi-kimsey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KIMSEY-LEVI.jpg" alt="Levi Kimsey"><div class="name">Levi Kimsey</div></a>
+<div class="reason">10/01/2024 | THEFT BY RECEIVING STOLEN PROPERTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jessica-kimsey-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KIMSEY-JESSICA-GAIL.jpg" alt="Jessica Kimsey"><div class="name">Jessica Kimsey</div></a>
+<div class="reason">10/01/2024 | THEFT BY TAKINGOBSTRUCTION OF AN OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/anthony-jones-75/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JONES-ANTHONY-TYRONE-1.jpg" alt="Anthony Jones"><div class="name">Anthony Jones</div></a>
+<div class="reason">10/03/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/john-hunnicutt-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HUNNICUTT-JOHN-CALE.jpg" alt="John Hunnicutt"><div class="name">John Hunnicutt</div></a>
+<div class="reason">10/03/2024 | HOLD FOR WHITE COUNTY SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/korey-holland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOLLAND-KOREY-AMARU.jpg" alt="Korey Holland"><div class="name">Korey Holland</div></a>
+<div class="reason">10/05/2024 | HOLD FOR GWINNETT CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kayelee-hodges/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HODGES-KAYELEE-GRACE.jpg" alt="Kayelee Hodges"><div class="name">Kayelee Hodges</div></a>
+<div class="reason">09/30/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brian-hodges-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HODGES-BRIAN-KEITH.jpg" alt="Brian Hodges"><div class="name">Brian Hodges</div></a>
+<div class="reason">09/30/2024 | DUIFAILURE TO MAINTAIN LANEPOSSESSION OF OPEN ALCOHOL CONTAINERWINDOW TINT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/william-hester-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HESTER-WILLIAM-SHANE.jpg" alt="William Hester"><div class="name">William Hester</div></a>
+<div class="reason">10/05/2024 | DUISEAT BELT VIOLATIONPOSSESSION OF OPEN ALCOHOL CONTAINERRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/justin-harkins-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HARKINS-JUSTIN-LEE.jpg" alt="Justin Harkins"><div class="name">Justin Harkins</div></a>
+<div class="reason">10/05/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/brandie-hardison-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HARDISON-BRANDIE-DANIELLE.jpg" alt="Brandie Hardison"><div class="name">Brandie Hardison</div></a>
+<div class="reason">10/01/2024 | DUIFAILURE TO HAVE LICENSE ON PERSONOPERATING VEHICLE WITH SUSP/CANC/REV REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/alesia-hancock/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HANCOCK-ALESIA-CHARMAINE.jpg" alt="Alesia Hancock"><div class="name">Alesia Hancock</div></a>
+<div class="reason">10/06/2024 | THEFT BY TAKING (FVA)DRIVING ON EXPIRED LICENSEGIVING FALSE NAME, ADDRESS, OR DATE OF BIRTH TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/gabriela-gomez-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GOMEZ-GABRIELA.jpg" alt="Gabriela Gomez"><div class="name">Gabriela Gomez</div></a>
+<div class="reason">10/03/2024 | FAILURE TO MAINTAIN LANEDRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/warren-gibson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GIBSON-WARREN-TATE.jpg" alt="Warren Gibson"><div class="name">Warren Gibson</div></a>
+<div class="reason">10/05/2024 | DUI REFUSAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/erickson-fuenmayor-castellano/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/FUENMAYOR-CASTELLANO-ERICKSON-G.jpg" alt="Erickson Fuenmayor-Castellano"><div class="name">Erickson Fuenmayor-Castellano</div></a>
+<div class="reason">10/06/2024 | DUIDRIVING WHILE UNLICENSEDEXPIRED OR NO REGISTRATION OR TITLEFAILURE TO OBEY STOP SIGNPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/david-freeman-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/FREEMAN-DAVID-JUSTIN-1.jpg" alt="David Freeman"><div class="name">David Freeman</div></a>
+<div class="reason">09/30/2024 | HOLD FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/linda-frazier-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/FRAZIER-LINDA-GRACE.jpg" alt="Linda Frazier"><div class="name">Linda Frazier</div></a>
+<div class="reason">10/04/2024 | THEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/jalen-fisher-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/FISHER-JALEN-JAVIER.jpg" alt="Jalen Fisher"><div class="name">Jalen Fisher</div></a>
+<div class="reason">09/30/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kelly-figueroa-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/FIGUEROA-KELLY-MARIE.jpg" alt="Kelly Figueroa"><div class="name">Kelly Figueroa</div></a>
+<div class="reason">10/03/2024 | ORDER OF INCARCERATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/bridgett-farley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/FARLEY-BRIDGETT.jpg" alt="Bridgett Farley"><div class="name">Bridgett Farley</div></a>
+<div class="reason">10/06/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kevin-drayton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DRAYTON-KEVIN-C.jpg" alt="Kevin Drayton"><div class="name">Kevin Drayton</div></a>
+<div class="reason">10/06/2024 | DUI REFUSALOPERATING VEHICLE WITH SUSP/CANC/REV REGISTRATIONFAILURE TO MAINTAIN INSURANCEPOSSESSION OF OPEN ALCOHOL CONTAINERFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/amelia-dodd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DODD-AMELIA.jpg" alt="Amelia Dodd"><div class="name">Amelia Dodd</div></a>
+<div class="reason">10/04/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/troy-deloach/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DELOACH-TROY.jpg" alt="Troy Deloach"><div class="name">Troy Deloach</div></a>
+<div class="reason">10/01/2024 | FLEEING OR ATTEMPTING TO ELUDE POLICE OFFICEROBSTRUCTION OF AN OFFICERDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/milton-de-paz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DE-PAZ-MILTON-OTONEL.jpg" alt="Milton De Paz"><div class="name">Milton De Paz</div></a>
+<div class="reason">10/01/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEAFAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kayla-culberson-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CULBERSON-KAYLA-ELIZABETH.jpg" alt="Kayla Culberson"><div class="name">Kayla Culberson</div></a>
+<div class="reason">09/30/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/carrie-buentello/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BUENTELLO-CARRIE-LEE.jpg" alt="Carrie Buentello"><div class="name">Carrie Buentello</div></a>
+<div class="reason">10/01/2024 | DUIDRIVING WHILE LICENSE SUSPENDED OR REVOKEDPOSSESSION OF MARIJUANA LESS 1 OZPOSSESSION OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/kimberly-bross-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BROSS-KIMBERLY-ANN.jpg" alt="Kimberly Bross"><div class="name">Kimberly Bross</div></a>
+<div class="reason">09/30/2024 | FAILURE TO APPEAR FOR TRIAL OR COURT APPEA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/habersham/robert-becerra-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BECERRA-ROBERT-KELLY.jpg" alt="Robert Becerra"><div class="name">Robert Becerra</div></a>
+<div class="reason">09/30/2024 | PAROLE VIOLATION</div>
+</div>
+</div><div class="pagination"><a href="habersham6.html">Next Page</a></div></body></html>

@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/hart/leo-woods-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Woods-Jr-Leo.jpg" alt="Leo Woods"><div class="name">Leo Woods</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ashley-sosebee-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sosebee-Ashley-Nicole-2.jpg" alt="Ashley Sosebee"><div class="name">Ashley Sosebee</div></a>
+<div class="reason">02/20/2025 | HOUSED FOR HABERSAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-sosebee-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sosebee-Jr-James-Douglas-1.jpg" alt="James Sosebee"><div class="name">James Sosebee</div></a>
+<div class="reason">02/21/2025 | HOUSED FOR BANKS CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/quillan-samuels-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Samuels-Quillan-Leshun.jpg" alt="Quillan Samuels"><div class="name">Quillan Samuels</div></a>
+<div class="reason">02/20/2025 | HOUSED FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/cortez-hood-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hood-Cortez-Dandrell.jpg" alt="Cortez Hood"><div class="name">Cortez Hood</div></a>
+<div class="reason">02/21/2025 | HOUSED FOR STEPHENS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/willjarvis-mcintosh-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McIntosh-Willjarvis-Tyrell.jpg" alt="Willjarvis McIntosh"><div class="name">Willjarvis McIntosh</div></a>
+<div class="reason">02/21/2025 | HERE TO MAKE BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-garibo-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Garibo-William-1.jpg" alt="William Garibo"><div class="name">William Garibo</div></a>
+<div class="reason">02/21/2025 | HOUSED FOR BANKS CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/leeland-free-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Free-Leeland-Drake.jpg" alt="Leeland Free"><div class="name">Leeland Free</div></a>
+<div class="reason">02/20/2025 | HOUSE FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/austin-eller-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Eller-Austin-Dwayne.jpg" alt="Austin Eller"><div class="name">Austin Eller</div></a>
+<div class="reason">02/20/2025 | HOUSE FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/john-chandler-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chandler-John-Austin-1.jpg" alt="John Chandler"><div class="name">John Chandler</div></a>
+<div class="reason">02/20/2025 | HOUSED FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/aaron-burnett-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Burnett-Aaron-Blake.jpg" alt="Aaron Burnett"><div class="name">Aaron Burnett</div></a>
+<div class="reason">02/20/2025 | HOUSED FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christopher-alexander-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Alexander-Christopher-Lane.jpg" alt="Christopher Alexander"><div class="name">Christopher Alexander</div></a>
+<div class="reason">02/20/2025 | HOUSE FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jaqueaz-wilson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wilson-Jaqueaz-Laneal.jpg" alt="Jaqueaz Wilson"><div class="name">Jaqueaz Wilson</div></a>
+<div class="reason">02/19/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joshua-sorrow-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sorrow-Joshua-Matthew-1.jpg" alt="Joshua Sorrow"><div class="name">Joshua Sorrow</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/robin-seal-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Seal-Robin-Eric.jpg" alt="Robin Seal"><div class="name">Robin Seal</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tommy-orr-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Orr-Tommy-Lee.jpg" alt="Tommy Orr"><div class="name">Tommy Orr</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/broadarris-mattox-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mattox-Broadarris-Wentrell-1.jpg" alt="Broadarris Mattox"><div class="name">Broadarris Mattox</div></a>
+<div class="reason">02/19/2025 | HOLD FOR FLOYD COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/benjamin-malpass-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Malpass-Benjamin-Beau-1.jpg" alt="Benjamin Malpass"><div class="name">Benjamin Malpass</div></a>
+<div class="reason">02/19/2025 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/matthew-lancaster-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lancaster-Matthew-Brett.jpg" alt="Matthew Lancaster"><div class="name">Matthew Lancaster</div></a>
+<div class="reason">02/19/2025 | HOUSED BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jarrius-jackson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jackson-Jarrius-Dontavier.jpg" alt="Jarrius Jackson"><div class="name">Jarrius Jackson</div></a>
+<div class="reason">02/19/2025 | POSSESSION MARIJUANA - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/danny-hickman-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hickman-Danny-Louie.jpg" alt="Danny Hickman"><div class="name">Danny Hickman</div></a>
+<div class="reason">02/19/2025 | HERE TO BOND ONLY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/britney-bridges/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bridges-Britney.jpg" alt="Britney Bridges"><div class="name">Britney Bridges</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/britney-bridges/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bridges-Britney.jpg" alt="Britney Bridges"><div class="name">Britney Bridges</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/robert-angove-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Angove-Robert-Ronin-Bojangles.jpg" alt="Robert Angove"><div class="name">Robert Angove</div></a>
+<div class="reason">02/19/2025 | HERE FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/guy-avery-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Avery-Guy-Bishop.jpg" alt="Guy Avery"><div class="name">Guy Avery</div></a>
+<div class="reason">02/19/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amy-turpin-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Turpin-Amy-Elizabeth.jpg" alt="Amy Turpin"><div class="name">Amy Turpin</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/swan-turner-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Turner-Swan-Deve.jpg" alt="Swan Turner"><div class="name">Swan Turner</div></a>
+<div class="reason">02/19/2025 | HOUSED BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/michael-spring/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Spring-Michael.jpg" alt="Michael Spring"><div class="name">Michael Spring</div></a>
+<div class="reason">02/19/2025 | HOUSED FOR BANKS CO JAIL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/carlos-proctor-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Proctor-Carlos-Marquette.jpg" alt="Carlos Proctor"><div class="name">Carlos Proctor</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/presiliano-prado-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Prado-Presiliano-1.jpg" alt="Presiliano Prado"><div class="name">Presiliano Prado</div></a>
+<div class="reason">02/19/2025 | HOUSED FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jamari-hester-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hester-Jamari-Neiguna.jpg" alt="Jamari Hester"><div class="name">Jamari Hester</div></a>
+<div class="reason">02/19/2025 | HOUSED FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amanda-gordon-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gordon-Amanda.jpg" alt="Amanda Gordon"><div class="name">Amanda Gordon</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kendaysha-fuller-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fuller-Kendaysha-Brinshay.jpg" alt="Kendaysha Fuller"><div class="name">Kendaysha Fuller</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/maximiliano-espino-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Espino-Maximiliano.jpg" alt="Maximiliano Espino"><div class="name">Maximiliano Espino</div></a>
+<div class="reason">02/19/2025 | HOUSE FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ashley-sosebee-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sosebee-Ashley-Nicole-1.jpg" alt="Ashley Sosebee"><div class="name">Ashley Sosebee</div></a>
+<div class="reason">02/18/2025 | HOUSED FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jaquanna-scott-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Scott-Jaquanna-Keyearri.jpg" alt="Jaquanna Scott"><div class="name">Jaquanna Scott</div></a>
+<div class="reason">02/18/2025 | PROBATION VIOLATION O/C POSSESSION OF A DRUG RELATED OBJECT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/taylor-norton-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Norton-Taylor-Lee.jpg" alt="Taylor Norton"><div class="name">Taylor Norton</div></a>
+<div class="reason">02/17/2025 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ervin-fields/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fields-Ervin.jpg" alt="Ervin Fields"><div class="name">Ervin Fields</div></a>
+<div class="reason">02/17/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jamir-rucker-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rucker-Jamir-Zechariah-ATreal.jpg" alt="Jamir Rucker"><div class="name">Jamir Rucker</div></a>
+<div class="reason">02/18/2025 | GRAND JURY ARREST WARRANT TER.THREATS, FALSE STATEMENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jowanna-pickens-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pickens-Jowanna-Deliah.jpg" alt="Jowanna Pickens"><div class="name">Jowanna Pickens</div></a>
+<div class="reason">02/17/2025 | PROBATION VIOLATION O/C POSS OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-wooten-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wooten-William-Scott.jpg" alt="William Wooten"><div class="name">William Wooten</div></a>
+<div class="reason">02/14/2025 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/eleesa-webb-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Webb-Eleesa-Kaiulani.jpg" alt="Eleesa Webb"><div class="name">Eleesa Webb</div></a>
+<div class="reason">02/14/2025 | FINANCIAL TRANSACTION CARD FRAUDFINANCIAL TRANSACTION CARD FRAUDFINANCIAL TRANSACTION CARD FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-shoemaker-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shoemaker-James-Travis.jpg" alt="James Shoemaker"><div class="name">James Shoemaker</div></a>
+<div class="reason">02/11/2025 | HOLD FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brian-ramirez-carmona/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ramirez-Carmona-Brian-Oneal.jpg" alt="Brian Ramirez Carmona"><div class="name">Brian Ramirez Carmona</div></a>
+<div class="reason">02/11/2025 | FINANCIAL TRANSACTION CARD FRAUDFORGERY - 1ST DEGREETHEFT BY TAKING - FELONYTHEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/justin-jones-93/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Justin-Caden.jpg" alt="Justin Jones"><div class="name">Justin Jones</div></a>
+<div class="reason">02/10/2025 | BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tanner-johnson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Tanner-Eric.jpg" alt="Tanner Johnson"><div class="name">Tanner Johnson</div></a>
+<div class="reason">02/15/2025 | AFFRAY (FIGHTING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/melkendric-drye-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Drye-Melkendric-Lamenta.jpg" alt="Melkendric Drye"><div class="name">Melkendric Drye</div></a>
+<div class="reason">02/15/2025 | DEFECTIVE OR NO HEADLIGHTSDRIVING ON WRONG SIDE OF THE ROADDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICER - MISDEMEANORIMPROPER PASSINGRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jamie-certain-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Certain-Jamie-Lee.jpg" alt="Jamie Certain"><div class="name">Jamie Certain</div></a>
+<div class="reason">02/15/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kazlynn-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Kazlynn-Reanna.jpg" alt="Kazlynn Williams"><div class="name">Kazlynn Williams</div></a>
+<div class="reason">02/12/2025 | HOUSED FOR FRANKLIN COUNTY SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bradley-turner-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Turner-Bradley-Dale.jpg" alt="Bradley Turner"><div class="name">Bradley Turner</div></a>
+<div class="reason">02/10/2025 | HOLD LETTER - MISD. PROBATIONBATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANORSIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kevin-johnson-66/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Kevin-Treon.jpg" alt="Kevin Johnson"><div class="name">Kevin Johnson</div></a>
+<div class="reason">02/16/2025 | FAILURE TO OBEY STOP SIGNPOSS OF MARIJUANA W/INTENT TO DIST.POSSESSION OF DRUG RELATED OBJECTSTANDARDS FOR BRAKE LIGHTS AND SIGNAL DEVICES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/holly-harris-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harris-Holly-Lynn-1.jpg" alt="Holly Harris"><div class="name">Holly Harris</div></a>
+<div class="reason">02/15/2025 | THEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bobbi-goddard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Goddard-Bobbi-Jo.jpg" alt="Bobbi Goddard"><div class="name">Bobbi Goddard</div></a>
+<div class="reason">02/11/2025 | PROBATION VIOLATION O/C BURGLARY 1STCRIMINAL ATTEMPT TO COMMIT A MISDEMEANOR MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/thomas-cowart-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cowart-Thomas-Rodney.jpg" alt="Thomas Cowart"><div class="name">Thomas Cowart</div></a>
+<div class="reason">02/16/2025 | BATTERY-FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/janice-cowart/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cowart-Janice-April.jpg" alt="Janice Cowart"><div class="name">Janice Cowart</div></a>
+<div class="reason">02/16/2025 | BATTERY-FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/justin-smith-67/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Justin-Paul.jpg" alt="Justin Smith"><div class="name">Justin Smith</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christopher-jackson-84/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jackson-Christopher.jpg" alt="Christopher Jackson"><div class="name">Christopher Jackson</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bradley-womack-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Womack-Bradley-Keith.jpg" alt="Bradley Womack"><div class="name">Bradley Womack</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/angela-watts-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Watts-Angela-Christine-1.jpg" alt="Angela Watts"><div class="name">Angela Watts</div></a>
+<div class="reason">02/05/2025 | HOUSE FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kristina-townsend-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Townsend-Kristina-Manilla.jpg" alt="Kristina Townsend"><div class="name">Kristina Townsend</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/johnathan-umberhant-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Umberhant-Johnathan.jpg" alt="Johnathan Umberhant"><div class="name">Johnathan Umberhant</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-todd-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Todd-William-Randall-1.jpg" alt="William Todd"><div class="name">William Todd</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tobie-stiwinter-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stiwinter-Tobie-Doyle.jpg" alt="Tobie Stiwinter"><div class="name">Tobie Stiwinter</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brandon-sewell-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sewell-Brandon-Lecroy.jpg" alt="Brandon Sewell"><div class="name">Brandon Sewell</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/austin-rockwell-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rockwell-Austin-Keith-1.jpg" alt="Austin Rockwell"><div class="name">Austin Rockwell</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/danielle-ray-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ray-Danielle-Jessica.jpg" alt="Danielle Ray"><div class="name">Danielle Ray</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jennifer-pitts-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pitts-Jennifer-Glyn.jpg" alt="Jennifer Pitts"><div class="name">Jennifer Pitts</div></a>
+<div class="reason">02/05/2025 | HOUSE FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/hasun-overton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Overton-Hasun-Naz-Lear.jpg" alt="Hasun Overton"><div class="name">Hasun Overton</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/david-martin-40/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Martin-David-Chasae.jpg" alt="David Martin"><div class="name">David Martin</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/valerie-lansford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lansford-Valerie-Paige.jpg" alt="Valerie Lansford"><div class="name">Valerie Lansford</div></a>
+<div class="reason">02/05/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/samuel-jones-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Samuel-Dewahn.jpg" alt="Samuel Jones"><div class="name">Samuel Jones</div></a>
+<div class="reason">02/05/2025 | HOUSE FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jarvis-hunter-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hunter-Jarvis-Diego.jpg" alt="Jarvis Hunter"><div class="name">Jarvis Hunter</div></a>
+<div class="reason">02/05/2025 | HOUSE FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/len-hatcher-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hatcher-Len-Howard.jpg" alt="Len Hatcher"><div class="name">Len Hatcher</div></a>
+<div class="reason">02/05/2025 | HOUSE FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/dustin-harkins-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harkins-Dustin-Trent.jpg" alt="Dustin Harkins"><div class="name">Dustin Harkins</div></a>
+<div class="reason">02/05/2025 | HOUSE FOR BANKS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/matthew-harden-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harden-Matthew-Elvis.jpg" alt="Matthew Harden"><div class="name">Matthew Harden</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marcus-grizzle-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Grizzle-Marcus.jpg" alt="Marcus Grizzle"><div class="name">Marcus Grizzle</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/david-evans-58/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Evans-David-Lee.jpg" alt="David Evans"><div class="name">David Evans</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/arneiya-evans-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Evans-Arneiya-Gaivaise.jpg" alt="Arneiya Evans"><div class="name">Arneiya Evans</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/adam-butcher-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Butcher-Adam-Bryce.jpg" alt="Adam Butcher"><div class="name">Adam Butcher</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/daniel-brogan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brogan-Daniel-Lee.jpg" alt="Daniel Brogan"><div class="name">Daniel Brogan</div></a>
+<div class="reason">02/05/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLSIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joseph-allen-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Allen-Joseph.jpg" alt="Joseph Allen"><div class="name">Joseph Allen</div></a>
+<div class="reason">02/05/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/gregory-ertzberger-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ertzberger-Gregory-Don.jpg" alt="Gregory Ertzberger"><div class="name">Gregory Ertzberger</div></a>
+<div class="reason">02/07/2025 | TO SERVE 72 HOURS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/cyr-solari/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Solari-Cyr-Nichlos.jpg" alt="Cyr Solari"><div class="name">Cyr Solari</div></a>
+<div class="reason">02/09/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)EXPIRED VEHICLE TAG OR DECAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marcellus-kinsey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kinsey-Marcellus-Raynon.jpg" alt="Marcellus Kinsey"><div class="name">Marcellus Kinsey</div></a>
+<div class="reason">02/08/2025 | DRIVING W/SUSP OR REVOKED DL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ignacio-chaparro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chaparro-Ignacio-Arroyo.jpg" alt="Ignacio Chaparro"><div class="name">Ignacio Chaparro</div></a>
+<div class="reason">02/08/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/douglas-roberts-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Roberts-Jr-Douglas-Edward.jpg" alt="Douglas Roberts"><div class="name">Douglas Roberts</div></a>
+<div class="reason">02/08/2025 | PROBATION VIOLATION IMPER OFF, POSS METH, MISC MISD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jason-williams-71/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Jason-Brooks.jpg" alt="Jason Williams"><div class="name">Jason Williams</div></a>
+<div class="reason">02/06/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/mike-milford-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Milford-Mike-Douglas.jpg" alt="Mike Milford"><div class="name">Mike Milford</div></a>
+<div class="reason">02/09/2025 | PEDESTRAIN UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/landon-mcelhannon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McElhannon-Landon-Vann.jpg" alt="Landon McElhannon"><div class="name">Landon McElhannon</div></a>
+<div class="reason">02/07/2025 | BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brandon-lee-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lee-Brandon-Austin.jpg" alt="Brandon Lee"><div class="name">Brandon Lee</div></a>
+<div class="reason">02/09/2025 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kristopher-harlow-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harlow-Kristopher-Tyler.jpg" alt="Kristopher Harlow"><div class="name">Kristopher Harlow</div></a>
+<div class="reason">02/08/2025 | PROBATION WARRANT- O/C RECKLESS DRIVING AGG ASSAULT ON PEACE OFFICER, FLEEING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/stephen-ensley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ensley-Stephen-Ray.jpg" alt="Stephen Ensley"><div class="name">Stephen Ensley</div></a>
+<div class="reason">02/08/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION MARIJUANA - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christina-collins-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Collins-Christina-Denise.jpg" alt="Christina Collins"><div class="name">Christina Collins</div></a>
+<div class="reason">02/07/2025 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANORCRUELTY TO CHILDREN- 3RD DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jeffrey-wilson-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wilson-Jeffrey-Allen.jpg" alt="Jeffrey Wilson"><div class="name">Jeffrey Wilson</div></a>
+<div class="reason">02/04/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/erin-spears-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Spears-Erin-Davis.jpg" alt="Erin Spears"><div class="name">Erin Spears</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/justin-sanders-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sanders-Justin-Anthony.jpg" alt="Justin Sanders"><div class="name">Justin Sanders</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/leejarred-leverette/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Leverette-Leejarred.jpg" alt="Leejarred Leverette"><div class="name">Leejarred Leverette</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marcy-hill-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hill-Marcy-Jane.jpg" alt="Marcy Hill"><div class="name">Marcy Hill</div></a>
+<div class="reason">02/04/2025 | PROBATION VIOLATION O/C DUI, FTML</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/dessie-hagler-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hagler-Dessie-Michelle.jpg" alt="Dessie Hagler"><div class="name">Dessie Hagler</div></a>
+<div class="reason">02/03/2025 | ACQUIRING LICENSE PLATE FOR PURPOSE OF CONCEALING IDENTIFICATION OF MOTOR VEHICDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)NO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/catherine-dodd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dodd-Catherine-Annette.jpg" alt="Catherine Dodd"><div class="name">Catherine Dodd</div></a>
+<div class="reason">02/03/2025 | FAILURE TO DRIVE WITHIN SINGLE LANEUSE OF COMMUN FACIL IN COMMITTING AN ACT OF FELONY.DRUG TRANSACTIONSELL OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christopher-browning-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Browning-Christopher-Shane.jpg" alt="Christopher Browning"><div class="name">Christopher Browning</div></a>
+<div class="reason">02/03/2025 | POSSESSION OF FIREARM BY A CONVICTED FELON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brenda-stancell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stancell-Brenda-Suann.jpg" alt="Brenda Stancell"><div class="name">Brenda Stancell</div></a>
+<div class="reason">02/03/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jeremy-rowland-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rowland-Jeremy-Lloyd.jpg" alt="Jeremy Rowland"><div class="name">Jeremy Rowland</div></a>
+<div class="reason">02/03/2025 | CRIMINAL TRESPASSCRUELTY TO CHILDREN. 3RD DEGREEINTERFERENCE WITH 911 CALLSIMPLE BATTERY. FAMILY VIOLENCEDRIVING WHILE LICENSE WITHDRAWNTHEFT BY TAKING.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/dedrick-mccord-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McCord-Dedrick-Ulysses.jpg" alt="Dedrick McCord"><div class="name">Dedrick McCord</div></a>
+<div class="reason">02/04/2025 | FAILURE TO APPEAR O/C AGG ASSAULT, POSS OF FIREARM BY FEL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kimberly-huff-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Huff-Kimberly-Dawn.jpg" alt="Kimberly Huff"><div class="name">Kimberly Huff</div></a>
+<div class="reason">02/04/2025 | PROBATION THEFT BY SHOP X2, CRIM TRESP</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/justin-frith-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Frith-Justin-Blaine.jpg" alt="Justin Frith"><div class="name">Justin Frith</div></a>
+<div class="reason">02/03/2025 | PROBATION VIOLATION O/C THEFT X TAKING, CRMNL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/patrick-wheeler-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wheeler-Patrick-Elon.jpg" alt="Patrick Wheeler"><div class="name">Patrick Wheeler</div></a>
+<div class="reason">01/31/2025 | FAILURE TO APPEAR-MAGISTRATE COURT DANGEROUS DOG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ryan-thornton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thornton-Ryan-Durrell.jpg" alt="Ryan Thornton"><div class="name">Ryan Thornton</div></a>
+<div class="reason">02/02/2025 | AFFRAY (FIGHTING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amanda-roberts-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Roberts-Amanda-Elizabeth.jpg" alt="Amanda Roberts"><div class="name">Amanda Roberts</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/alex-reid-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Reid-Alex-Kenroy.jpg" alt="Alex Reid"><div class="name">Alex Reid</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jasma-rayton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rayton-Jasma-Sharde.jpg" alt="Jasma Rayton"><div class="name">Jasma Rayton</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/melvin-hilley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hilley-Melvin-Scott.jpg" alt="Melvin Hilley"><div class="name">Melvin Hilley</div></a>
+<div class="reason">01/29/2025 | POSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAINPOSSESSION OF METHAMPHETAMINESPEEDING 77/55TAMPERING WITH EVIDENCE - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/cory-glenn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Glenn-Cory-Shaw.jpg" alt="Cory Glenn"><div class="name">Cory Glenn</div></a>
+<div class="reason">01/31/2025 | DUI 1ST OFFENSERECKLESS DRIVINGSPEEDING 103/55</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/craig-cleveland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cleveland-Craig-Auton.jpg" alt="Craig Cleveland"><div class="name">Craig Cleveland</div></a>
+<div class="reason">01/31/2025 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSFAILURE TO KEEP IN PROPER LANELEAVING THE SCENE OF ACCIDENT (HIT & RUN)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/taylor-williams-28/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Taylor-Marshall.jpg" alt="Taylor Williams"><div class="name">Taylor Williams</div></a>
+<div class="reason">01/29/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jamie-whisnant-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Whisnant-Jamie-Stevenson.jpg" alt="Jamie Whisnant"><div class="name">Jamie Whisnant</div></a>
+<div class="reason">01/29/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kristina-warden-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Warden-Kristina-Anne.jpg" alt="Kristina Warden"><div class="name">Kristina Warden</div></a>
+<div class="reason">02/01/2025 | HOUSED FOR STEPHENS CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/casey-littrell-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Littrell-Casey-Logan.jpg" alt="Casey Littrell"><div class="name">Casey Littrell</div></a>
+<div class="reason">01/29/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/cameron-myers-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Myers-Cameron-Joseph.jpg" alt="Cameron Myers"><div class="name">Cameron Myers</div></a>
+<div class="reason">01/29/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jordan-taylor-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Taylor-Jordan-Allen.jpg" alt="Jordan Taylor"><div class="name">Jordan Taylor</div></a>
+<div class="reason">01/29/2025 | PROBATION VIOLATION O/C AGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/zackary-tamisiea-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Tamisiea-Zackary-Sean.jpg" alt="Zackary Tamisiea"><div class="name">Zackary Tamisiea</div></a>
+<div class="reason">01/29/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/david-smith-137/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-III-David-Vernon.jpg" alt="David Smith"><div class="name">David Smith</div></a>
+<div class="reason">01/31/2025 | FINANCIAL TRANSACTION CARD FRAUD - 34 Counts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/randall-parham-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Parham-Randall-Eugene.jpg" alt="Randall Parham"><div class="name">Randall Parham</div></a>
+<div class="reason">01/29/2025 | POSSESSION OF A FIREARM BY CONVICTED FELONPOSSESSION OF METHAMPHETAMINETAMPERING WITH EVIDENCE - FELONYWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS BY USE OF THREATS OR VIOLENCE -PROBATION O/C POSS METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/sharon-rhodes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rhodes-Sharon-Sherrie.jpg" alt="Sharon Rhodes"><div class="name">Sharon Rhodes</div></a>
+<div class="reason">02/02/2025 | THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/avery-haynes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Haynes-Avery-Maurice.jpg" alt="Avery Haynes"><div class="name">Avery Haynes</div></a>
+<div class="reason">01/29/2025 | HOUSE FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brianna-garrison-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Garrison-Brianna-Lynn.jpg" alt="Brianna Garrison"><div class="name">Brianna Garrison</div></a>
+<div class="reason">02/01/2025 | HOUSED FOR STEPHENS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/patrick-crowe-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Crowe-Patrick-Allen.jpg" alt="Patrick Crowe"><div class="name">Patrick Crowe</div></a>
+<div class="reason">01/30/2025 | PROBATION VIOLATION O/C FLEEING, RECKLESS DRIVING, DRIV SUSP</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kevin-gardiner-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gardiner-Kevin-Daniel.jpg" alt="Kevin Gardiner"><div class="name">Kevin Gardiner</div></a>
+<div class="reason">01/28/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joseph-bryant-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bryant-Joseph-Lee.jpg" alt="Joseph Bryant"><div class="name">Joseph Bryant</div></a>
+<div class="reason">01/31/2025 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amber-cox-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cox-Amber-Renee.jpg" alt="Amber Cox"><div class="name">Amber Cox</div></a>
+<div class="reason">01/27/2025 | SIMPLE BATTERY (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amber-cox-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cox-Amber-Renee.jpg" alt="Amber Cox"><div class="name">Amber Cox</div></a>
+<div class="reason">01/27/2025 | SIMPLE BATTERY (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/michael-groover-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Groover-Michael-Lee.jpg" alt="Michael Groover"><div class="name">Michael Groover</div></a>
+<div class="reason">02/02/2025 | TERRORISTIC THREATS AND ACTS.DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/caleb-evans-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Evans-Caleb-Mark.jpg" alt="Caleb Evans"><div class="name">Caleb Evans</div></a>
+<div class="reason">01/28/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/abegale-fluid/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fluid-AbeGale-Faith.jpg" alt="Abe’Gale Fluid"><div class="name">Abe’Gale Fluid</div></a>
+<div class="reason">01/28/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO YEILD ENTERING ROADWAYDRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/david-diehl-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Diehl-David-Donald.jpg" alt="David Diehl"><div class="name">David Diehl</div></a>
+<div class="reason">01/28/2025 | FINANCIAL TRANSACTION CARD FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/albert-adams-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Adams-Jr-Albert-Bo.jpg" alt="Albert Adams"><div class="name">Albert Adams</div></a>
+<div class="reason">01/27/2025 | PROBATION VIOLATION POSS. OF DRUG-REL OBJ, DRUG NOT ORIG CON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/donald-woolwine-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Woolwine-Donald-Ray.jpg" alt="Donald Woolwine"><div class="name">Donald Woolwine</div></a>
+<div class="reason">01/28/2025 | SENTENCED TO SERVE 14 DAYS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/leo-woods-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Woods-Leo-Jr.jpg" alt="Leo Woods"><div class="name">Leo Woods</div></a>
+<div class="reason">01/28/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kevin-shedd-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shedd-Kevin.jpg" alt="Kevin Shedd"><div class="name">Kevin Shedd</div></a>
+<div class="reason">01/28/2025 | HOUSED BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-sosebee-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sosebee-Jr-James-Douglas.jpg" alt="James Sosebee"><div class="name">James Sosebee</div></a>
+<div class="reason">01/28/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/mark-roberts-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Roberts-Mark-Edward.jpg" alt="Mark Roberts"><div class="name">Mark Roberts</div></a>
+<div class="reason">01/28/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/john-reed-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Reed-John-Baker.jpg" alt="John Reed"><div class="name">John Reed</div></a>
+<div class="reason">01/28/2025 | PROBATION VIOLATION O/C FAILURE TO MAINTAIN LANE, DUI-2ND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/victor-mcguire-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McGuire-Victor-Manuel.jpg" alt="Victor McGuire"><div class="name">Victor McGuire</div></a>
+<div class="reason">01/28/2025 | BANKS COUNTY JAIL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/robert-mcdaniel-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McDaniel-Robert-Allen.jpg" alt="Robert McDaniel"><div class="name">Robert McDaniel</div></a>
+<div class="reason">01/28/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-garibo-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Garibo-William.jpg" alt="William Garibo"><div class="name">William Garibo</div></a>
+<div class="reason">01/28/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kenneth-chapman-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chapman-Kenneth-Evan.jpg" alt="Kenneth Chapman"><div class="name">Kenneth Chapman</div></a>
+<div class="reason">01/28/2025 | HOUSED FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/david-spears-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Spears-David-Shane.jpg" alt="David Spears"><div class="name">David Spears</div></a>
+<div class="reason">01/23/2025 | BURGLARY - 2ND DEGREE (FELONY)THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/henry-rowland-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Rowland-Henry-Marshall.jpg" alt="Henry Rowland"><div class="name">Henry Rowland</div></a>
+<div class="reason">01/24/2025 | HERE TO BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-johnson-167/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-William-Boon.jpg" alt="William Johnson"><div class="name">William Johnson</div></a>
+<div class="reason">01/23/2025 | DRIVING W/SUSP OR REVOKED DL SUSPENDEDFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/david-terrell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Terrell-David-Nathaniel.jpg" alt="David Terrell"><div class="name">David Terrell</div></a>
+<div class="reason">01/25/2025 | PROBATION VIOLATION O/C DISORDERLY CONDUCTSEATBELT VIOLATION - ADULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/damarcus-scott/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Scott-Damarcus-Jermaine.jpg" alt="Damarcus Scott"><div class="name">Damarcus Scott</div></a>
+<div class="reason">01/25/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)NO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/annaka-mitchell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Mitchell-Annaka-Charlyne-Renee.jpg" alt="Annaka Mitchell"><div class="name">Annaka Mitchell</div></a>
+<div class="reason">01/24/2025 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/matthew-milford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Milford-Matthew-Roy.jpg" alt="Matthew Milford"><div class="name">Matthew Milford</div></a>
+<div class="reason">01/25/2025 | CRIMINAL ATTEMPT TO COMMIT A MISDEMEANOR MARIJUANANO INSURANCETAMPERING WITH EVIDENCE - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/alysia-lopez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lopez-Alysia-Marie.jpg" alt="Alysia Lopez"><div class="name">Alysia Lopez</div></a>
+<div class="reason">01/26/2025 | HOLD FOR ROCKDALE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/shaquill-logan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Logan-Shaquill-Tamir.jpg" alt="Shaquill Logan"><div class="name">Shaquill Logan</div></a>
+<div class="reason">01/26/2025 | CRIMINAL ATTEMPT TO COMMIT MISDEMEANOR MARIJUANADRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)THEFT BY BRINGING STOLEN PROPERTY INTO STATE.THEFT BY RECEIVING STOLEN PROPERTY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jennifer-lawrence/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lawrence-Jennifer-Lynn.jpg" alt="Jennifer Lawrence"><div class="name">Jennifer Lawrence</div></a>
+<div class="reason">01/22/2025 | BATTERY-FAMILY VIOLENCEBATTERY-FAMILY VIOLENCECRUELTY TO CHILDREN - 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/teresa-kennedy-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Kennedy-Teresa-Lynn-Cody.jpg" alt="Teresa Kennedy"><div class="name">Teresa Kennedy</div></a>
+<div class="reason">01/24/2025 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/eli-hughes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hughes-Eli-Joshua-Damon.jpg" alt="Eli Hughes"><div class="name">Eli Hughes</div></a>
+<div class="reason">01/23/2025 | LITTERING HIGHWAYWINDSHIELDS AND WINDSHIELD WIPERSCMV PARTS AND ACCESSORIES VIOLATIONCOMMERCIAL VEHICLE DRIVER QUALIFICATION VIOLATIONDRIVING WHILE LICENSE WITHDRAWNFAILURE TO DRIVE WITHIN SINGLE LANEAGGRAVATED ASSAULTCRIMINAL DAMAGE TO PROPERTY - 1ST DEGREEDRIVING W/O LICENSE ON PERSONEXPIRED GA INTRASTATE MOTOR CARRIER REGFALSE STATEMENTS & WRITINGSGIVING FALSE INFORMATION OR FALSE NAMEOBSTRUCTION OF AN...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rufus-gatlin-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gatlin-Rufus-Bernard.jpg" alt="Rufus Gatlin"><div class="name">Rufus Gatlin</div></a>
+<div class="reason">01/24/2025 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/howard-freeze-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Freeze-Howard-Jackson-1.jpg" alt="Howard Freeze"><div class="name">Howard Freeze</div></a>
+<div class="reason">01/25/2025 | PROBATION HOLD LETTERDISORDERLY CONDUCTPUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/lauren-dunn-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dunn-Lauren-Benet.jpg" alt="Lauren Dunn"><div class="name">Lauren Dunn</div></a>
+<div class="reason">01/26/2025 | INTERFERENCE WITH GOVERNMENT PROPERTY.OBSTRUCTION OF AN OFFICER (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/donna-adams-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Adams-Donna-Gail.jpg" alt="Donna Adams"><div class="name">Donna Adams</div></a>
+<div class="reason">01/24/2025 | FAILURE TO APPEAR-MAGISTRATE COURT DISORDERLY CONDUCTFAILURE TO APPEAR-MAGISTRATE COURT DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-pledger/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Pledger-William-Daniel.jpg" alt="William Pledger"><div class="name">William Pledger</div></a>
+<div class="reason">01/20/2025 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSSPEEDING 73 IN 55</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/scott-tingle/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Tingle-Scott.jpg" alt="Scott Tingle"><div class="name">Scott Tingle</div></a>
+<div class="reason">01/20/2025 | DRIVING WHILE LICENSE WITHDRAWNEXPIRED VEHICLE TAG OR DECAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jenny-seeley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Seeley-Jenny-Denise.jpg" alt="Jenny Seeley"><div class="name">Jenny Seeley</div></a>
+<div class="reason">01/20/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/levi-haney-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Haney-Levi-Tucker.jpg" alt="Levi Haney"><div class="name">Levi Haney</div></a>
+<div class="reason">01/17/2025 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brenton-stephen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Stephen-Brenton-Dawson.jpg" alt="Brenton Stephen"><div class="name">Brenton Stephen</div></a>
+<div class="reason">01/19/2025 | CONSUMPTION OF ALCOHOL BY MINORGIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICEROPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kinwin-pass-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Pass-Kinwin-Terrell.jpg" alt="Kinwin Pass"><div class="name">Kinwin Pass</div></a>
+<div class="reason">01/17/2025 | HOUSED FOR OGELTHORPE SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/robert-hunt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hunt-Robert-Nathaniel.jpg" alt="Robert Hunt"><div class="name">Robert Hunt</div></a>
+<div class="reason">01/17/2025 | DRUGS TO BE KEPT IN ORIGINAL CONTAINER.POSSESSION CRACK COCAINEPOSSESSION OF A CONTROLLED SUBSTANCE SCH II - ACETAMINOPHEN/HYDROCODONE BITARTPOSSESSION OF A CONTROLLED SUBSTANCE SCH II - ACETAMINOPHEN/HYDROCHLORIDECRIMINAL ATTENPT TO COM MISDEMEANOR MARIJUANAPOSSESSION OF A CONTROLLED SUBSTANCE SCH II - COCAINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/wuilmer-carrasco-morles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Carrasco-Morles-Wuilmer-Jose.jpg" alt="Wuilmer Carrasco Morles"><div class="name">Wuilmer Carrasco Morles</div></a>
+<div class="reason">01/18/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bryant-croston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Croston-Bryant-Randall.jpg" alt="Bryant Croston"><div class="name">Bryant Croston</div></a>
+<div class="reason">01/18/2025 | CRIMINAL ATTEMPT TO COMMIT A MISDEMEANOR MARIJUANAFAILURE TO DRIVE WITHIN SINGLE LANEOPEN CONTAINER IN VEHICLEPOSSESSION OF COCAINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/richard-britt-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Britt-Richard-Warren.jpg" alt="Richard Britt"><div class="name">Richard Britt</div></a>
+<div class="reason">01/19/2025 | HOLD FOR JACKSON COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/dustin-barnett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Barnett-Dustin-Chance.jpg" alt="Dustin Barnett"><div class="name">Dustin Barnett</div></a>
+<div class="reason">01/19/2025 | CRIMINAL ATTEMPT TO COMMIT A MISDEMEANOR MARIJUANAOPEN CONTAINER IN VEHICLETAMPERING WITH EVIDENCE - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/mary-austin-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Austin-Mary-Mackenzie.jpg" alt="Mary Austin"><div class="name">Mary Austin</div></a>
+<div class="reason">01/18/2025 | PROBATION VIOLATION DRV W/O LIC / POSS DEP STEM CNT DRUGPROBATION VIOLATION FORG 4THPROBATION VIOLATION/ CRML ATMPT MISD POSS DEP STEM CNT DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/daniel-sanders-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Sanders-Daniel-Bo.jpg" alt="Daniel Sanders"><div class="name">Daniel Sanders</div></a>
+<div class="reason">01/13/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)DUTY UPON STRIKING FIXTUREEXPIRED TAGFAILURE TO DRIVE WITHIN SINGLE LANEHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENTIMPROPER PASSINGNO INSURANCEOPEN CONTAINER IN VEHICLETIRESDRIVING WHILE LICENSE WITHDRAWNLEAVING THE SCENE OF ACCIDENT (HIT & RUN)OPEN CONTAINER IN...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/xavier-rucker-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Rucker-Xavier-Keiondrick.jpg" alt="Xavier Rucker"><div class="name">Xavier Rucker</div></a>
+<div class="reason">01/16/2025 | DEFECTIVE OR NO HEADLIGHTSDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jon-jones-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jones-Jon-Devor.jpg" alt="Jon Jones"><div class="name">Jon Jones</div></a>
+<div class="reason">01/14/2025 | PROBATION VIOLATION BURG 1STPOSSESSION AND USE OF DRUG-RELATED OBJECTSPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amy-adams-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Adams-Amy-Elizabeth.jpg" alt="Amy Adams"><div class="name">Amy Adams</div></a>
+<div class="reason">01/14/2025 | POSSESSION OF METHAMPHETAMINEPROBATION VIOLATION VGCSAPOSSESSION AND USE OF DRUG-RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/linda-vili-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Vili-Linda-Jaunita.jpg" alt="Linda Vili"><div class="name">Linda Vili</div></a>
+<div class="reason">01/14/2025 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marcus-strong-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Strong-Marcus-Antonio-1.jpg" alt="Marcus Strong"><div class="name">Marcus Strong</div></a>
+<div class="reason">01/14/2025 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/terris-thomas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Thomas-Terris-Terrill.jpg" alt="Terris Thomas"><div class="name">Terris Thomas</div></a>
+<div class="reason">01/13/2025 | BURGLARY - 1ST DEGREE (FELONY)PROBATION VIOLATION FALSE IMPRISONMENT, SIMPLE BATTERYTERRORISTIC THREATS AND ACTS - MISDEMEANORTHEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/theodore-sims-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Sims-Theodore-Javis.jpg" alt="Theodore Sims"><div class="name">Theodore Sims</div></a>
+<div class="reason">01/15/2025 | CRIMINAL TRESPASS - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jamir-rucker-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Rucker-Jamir-Zechariah-ATreal.jpg" alt="Jamir Rucker"><div class="name">Jamir Rucker</div></a>
+<div class="reason">01/15/2025 | AGGRAVATED ASSAULTFELONY MURDERFELONY MURDERPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/raul-reyes-velasquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Reyes-Velasquez-Raul.jpg" alt="Raul Reyes-Velasquez"><div class="name">Raul Reyes-Velasquez</div></a>
+<div class="reason">01/14/2025 | HOUSED FOR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kewonis-pope/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Pope-Kewonis.jpg" alt="Kewonis Pope"><div class="name">Kewonis Pope</div></a>
+<div class="reason">01/14/2025 | HOUSED FOR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brandon-lee-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lee-Brandon-Austin.jpg" alt="Brandon Lee"><div class="name">Brandon Lee</div></a>
+<div class="reason">01/13/2025 | HOUSED FOR OGLETHORPE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/altantrece-flint-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Flint-Altantrece-Boshunn.jpg" alt="Altantrece Flint"><div class="name">Altantrece Flint</div></a>
+<div class="reason">01/14/2025 | HOUSED FOR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/richard-duncan-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Duncan-Richard-Gordon-1.jpg" alt="Richard Duncan"><div class="name">Richard Duncan</div></a>
+<div class="reason">01/15/2025 | PROBATION VIOLATION O/C CRML ATT MISD, POSS METH, POSS DRUG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/krystal-calhoun-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Calhoun-Krystal-Nikole.jpg" alt="Krystal Calhoun"><div class="name">Krystal Calhoun</div></a>
+<div class="reason">01/16/2025 | CROSSING GUARD LINES WITH DRUGS/ WEAPON/INTOXICANTSGRAND JURY ARREST WARRANT CROSS GRD LINE DRUGS, POSS METH, POSS CNTPOSSESSION OF A CONTROLLED SUBSTANCE METHAMPHETAMINEPOSSESSION OF A SCHEDULE III DRUG ACETAMINOPHEN AND CODEINE PHOSPHATEPOSSESSION OF SCHEDULE IV DRUG ALPRAZOLAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/steven-bales-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bales-Steven-Wayne.jpg" alt="Steven Bales"><div class="name">Steven Bales</div></a>
+<div class="reason">01/14/2025 | PROBATION VIOLATION O/C INJURY BY VEH., VIOL MOTOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/timothy-waller-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Waller-Timothy-Marc.jpg" alt="Timothy Waller"><div class="name">Timothy Waller</div></a>
+<div class="reason">01/08/2025 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marcus-strong-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Strong-Marcus-Antonio.jpg" alt="Marcus Strong"><div class="name">Marcus Strong</div></a>
+<div class="reason">01/08/2025 | HOUSED FOR OGLETHORPE CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/daniel-slayton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Slayton-Daniel-Preston.jpg" alt="Daniel Slayton"><div class="name">Daniel Slayton</div></a>
+<div class="reason">01/07/2025 | PROBATION VIOLATION O/C TERRORIST THREATS & ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kuryonski-shiflet/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Shiflet-Kuryonski-Darrell.jpg" alt="Kuryonski Shiflet"><div class="name">Kuryonski Shiflet</div></a>
+<div class="reason">01/10/2025 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/alfonso-rangel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Rangel-Alfonso.jpg" alt="Alfonso Rangel"><div class="name">Alfonso Rangel</div></a>
+<div class="reason">01/07/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jason-schnell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Schnell-Jason-Lee-1.jpg" alt="Jason Schnell"><div class="name">Jason Schnell</div></a>
+<div class="reason">01/07/2025 | HOLD FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tikyerra-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-Tikyerra-Lashabrien.jpg" alt="Tikyerra Johnson"><div class="name">Tikyerra Johnson</div></a>
+<div class="reason">01/08/2025 | HOUSED OR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/leon-fleming-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Fleming-Leon-Terrell-1.jpg" alt="Leon Fleming"><div class="name">Leon Fleming</div></a>
+<div class="reason">01/08/2025 | HOUSED FOR OGLETHORPE CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kevahrain-eberhardt-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Eberhardt-Kevahrain-DiontE.jpg" alt="Kevahrain Eberhardt"><div class="name">Kevahrain Eberhardt</div></a>
+<div class="reason">01/07/2025 | PROBATION VIOLATION HOLD LETTER FOR SERVE TIME</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/donovan-caswell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Caswell-Donovan-Brinton.jpg" alt="Donovan Caswell"><div class="name">Donovan Caswell</div></a>
+<div class="reason">01/09/2025 | CRIMINAL ATTEMPT TO COM. MISDEMEANOR MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/andrew-benton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Benton-Andrew-Gage.jpg" alt="Andrew Benton"><div class="name">Andrew Benton</div></a>
+<div class="reason">01/09/2025 | OGLETHORPE CO JAIL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jorge-viera-castro-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Viera-Castro-Jorge-Manuel.jpg" alt="Jorge Viera-Castro"><div class="name">Jorge Viera-Castro</div></a>
+<div class="reason">01/06/2025 | TO SERVE 15 DAYS DUI PROBATION SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/adrian-velazquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Velazquez-Adrian-Reyes.jpg" alt="Adrian Velazquez"><div class="name">Adrian Velazquez</div></a>
+<div class="reason">01/08/2025 | HOUSED FOR OGLETHORPE CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/george-thornton-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Thornton-George-Mauldin.jpg" alt="George Thornton"><div class="name">George Thornton</div></a>
+<div class="reason">01/09/2025 | ORDER TO INCARCERATE-JUDGE PHELPS FAILED DRUG COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/helen-norwood/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Norwood-Helen-Celeste.jpg" alt="Helen Norwood"><div class="name">Helen Norwood</div></a>
+<div class="reason">01/08/2025 | PROBATION VIOLATION O/C BATTERY (FV), OBST OF LAW ENF X2</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/katelan-stokes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Stokes-Katelan-Olivia.jpg" alt="Katelan Stokes"><div class="name">Katelan Stokes</div></a>
+<div class="reason">01/08/2025 | HOUSED FOR OGLETHORPE CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jeremy-johnson-51/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-Jeremy-Adam.jpg" alt="Jeremy Johnson"><div class="name">Jeremy Johnson</div></a>
+<div class="reason">01/07/2025 | PROBATION VIOLATION-HOLD LETTER VIOLATION - NEW DRUG CHARGESPOSSESSION OF A CONTROLLED SUBSTANCE METHAMPHETAMINEPOSSESSION OF DRUG RELATED OBJECT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/remone-jackson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jackson-Jr-Remone-Berrick.jpg" alt="Remone Jackson"><div class="name">Remone Jackson</div></a>
+<div class="reason">01/08/2025 | PROBATION VIOLATION O/C BATTERY FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tasha-franks-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Franks-Tasha-Marie.jpg" alt="Tasha Franks"><div class="name">Tasha Franks</div></a>
+<div class="reason">01/09/2025 | ORDER TO INCARCERATE-JUDGE PHELPS FAILED DRUG COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kelton-christian-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Christian-Kelton-Bryan.jpg" alt="Kelton Christian"><div class="name">Kelton Christian</div></a>
+<div class="reason">01/08/2025 | HOUSED FOR OGELTHORPE CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/hillary-bennett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bennett-Hillary-Suzanne.jpg" alt="Hillary Bennett"><div class="name">Hillary Bennett</div></a>
+<div class="reason">01/09/2025 | BONDSMAN OFF BONDFINANCIAL TRANSACTION CARD THEFTTHEFT BY TAKING - CREDIT CARD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/chad-bailey-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bailey-Chad-Rj.jpg" alt="Chad Bailey"><div class="name">Chad Bailey</div></a>
+<div class="reason">01/09/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/benjamin-alvarado/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Alvarado-Benjamin-Joseph.jpg" alt="Benjamin Alvarado"><div class="name">Benjamin Alvarado</div></a>
+<div class="reason">01/06/2025 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLPOSSESSION OF A CONTROLLED SUBSTANCE COCAINEAGGRAVATED ASSAULT.POSSESSION OF FIREARM DURING COMMISSION OF A CRIME</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-morgan-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Morgan-Jr-William-Ray.jpg" alt="William Morgan"><div class="name">William Morgan</div></a>
+<div class="reason">01/03/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLEXPIRED VEHICLE TAG OR DECALFAILURE TO DRIVE WITHIN SINGLE LANEUNSAFE OPERATION OF RADIO OR TELEPHONE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/arekius-hunt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hunt-Arekius-Leyindi.jpg" alt="Arekius Hunt"><div class="name">Arekius Hunt</div></a>
+<div class="reason">01/04/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/savannah-hackett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hackett-Savannah-Ruth.jpg" alt="Savannah Hackett"><div class="name">Savannah Hackett</div></a>
+<div class="reason">01/04/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL/ REFUSALTAIL LIGHTS REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joshua-pearson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Pearson-Joshua-Trent.jpg" alt="Joshua Pearson"><div class="name">Joshua Pearson</div></a>
+<div class="reason">01/03/2025 | GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICERSIMPLE BATTERY - FAMILY VIOLENCEWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/terry-williams-50/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Williams-Jr-Terry-Ray.jpg" alt="Terry Williams"><div class="name">Terry Williams</div></a>
+<div class="reason">01/03/2025 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rictavian-oglesby-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Oglesby-Rictavian-Dezmon.jpg" alt="Rictavian Oglesby"><div class="name">Rictavian Oglesby</div></a>
+<div class="reason">01/04/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/gregory-ertzberger/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Ertzberger-Gregory-Don.jpg" alt="Gregory Ertzberger"><div class="name">Gregory Ertzberger</div></a>
+<div class="reason">01/05/2025 | POSSESSION OF METHAMPHETAMINETAILLIGHT REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jack-brown-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Brown-Jack-Dana.jpg" alt="Jack Brown"><div class="name">Jack Brown</div></a>
+<div class="reason">01/05/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLEXPIRED DRIVER'S LICENSEILLEGAL POSSESSION OF CONTROLLED SUBSTANCE DIAZEPAMILLEGAL POSSESSION OF CONTROLLED SUBSTANCE METHAMPHETAMINEOPEN CONTAINER IN VEHICLEPROBATION VIOLATIONPROBATION VIOLATIONSPEEDING 70/55</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/keith-beard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Beard-Keith-Alan.jpg" alt="Keith Beard"><div class="name">Keith Beard</div></a>
+<div class="reason">01/04/2025 | DRIVING W/O HEADLIGHTS WHEN REQUIREDDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLOPEN CONTAINER IN VEHICLEPOSSESSION AND USE OF DRUG-RELATED OBJECTSTAIL LIGHTS REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jennifer-albergotti-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Albergotti-Jennifer-Robin.jpg" alt="Jennifer Albergotti"><div class="name">Jennifer Albergotti</div></a>
+<div class="reason">01/03/2025 | CRIMINAL TRESPASS - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/donald-woolwine-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Woolwine-Donald-Ray.jpg" alt="Donald Woolwine"><div class="name">Donald Woolwine</div></a>
+<div class="reason">12/31/2024 | PROBATION - HOLD LETTER UNSIGNED WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rantarius-rucker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Rucker-Rantarius-Vontrell.jpg" alt="Rantarius Rucker"><div class="name">Rantarius Rucker</div></a>
+<div class="reason">12/30/2024 | FAILURE TO STOP FOR STOP SIGNMARIJUANA-POSSESS LESS THAN 1 OZ.OPEN CONTAINER IN VEHICLEPOSSESSION OF METHAMPHETAMINESTOPPING, STANDING, OR PARKING PROHIBITED IN SPECIFIED PLACE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amber-pineda-cruz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Pineda-Cruz-Amber-Shae.jpg" alt="Amber Pineda Cruz"><div class="name">Amber Pineda Cruz</div></a>
+<div class="reason">01/01/2025 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLDRIVING WHILE LICENSE WITHDRAWNSPEEDING 68/55</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/dashan-merritt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Merritt-Dashan-Monquez.jpg" alt="Dashan Merritt"><div class="name">Dashan Merritt</div></a>
+<div class="reason">01/01/2025 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANORCRUELTY TO CHILDREN- 3RD DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/lindsey-martin-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Martin-Lindsey-Ann.jpg" alt="Lindsey Martin"><div class="name">Lindsey Martin</div></a>
+<div class="reason">12/30/2024 | CRIMINAL ATTEMPT. POSSESION OF MARIJUANNADRIVING W/SUSPENDED OR REVOKED LICENSEFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/sammy-heard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Heard-Sammy.jpg" alt="Sammy Heard"><div class="name">Sammy Heard</div></a>
+<div class="reason">01/02/2025 | CRUELTY TO ANIMALS.CRUELTY TO ANIMALS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/taylor-gordon-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gordon-Taylor-Deanne.jpg" alt="Taylor Gordon"><div class="name">Taylor Gordon</div></a>
+<div class="reason">12/31/2024 | PROBATION VIOLATION DUI LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marcia-curry/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Curry-Marcia-Bridgette.jpg" alt="Marcia Curry"><div class="name">Marcia Curry</div></a>
+<div class="reason">12/30/2024 | CHILD RESTRAINT LAW CHILD SEAT SAFETY BEDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)NO INSURANCETAG LIGHT REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/howard-freeze-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Freeze-Howard-Jackson.jpg" alt="Howard Freeze"><div class="name">Howard Freeze</div></a>
+<div class="reason">12/31/2024 | PROBATION - HOLD LETTER UNSIGNED WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/gregory-smith-60/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Smith-Gregory-Phillip.jpg" alt="Gregory Smith"><div class="name">Gregory Smith</div></a>
+<div class="reason">12/31/2024 | BURGLARY - 2ND DEGREE (FELONY)BURGLARY - 2ND DEGREE (FELONY)CRIMINAL TRESPASSINTERFERENCE WITH GOVERNMENT PROPERTY - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/valdon-cooper-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Cooper-Jr-Valdon-Monroe.jpg" alt="Valdon Cooper"><div class="name">Valdon Cooper</div></a>
+<div class="reason">01/02/2025 | SIMPLE BATTERY. FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/quaterrius-mizell-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Mizell-Jr-Quaterrius-Quartez.jpg" alt="Quaterrius Mizell"><div class="name">Quaterrius Mizell</div></a>
+<div class="reason">01/02/2025 | PROBATION VIOLATION O/C SUSP LIC, SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/victor-pastor-ixcoy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Pastor-Ixcoy-Victor.jpg" alt="Victor Pastor-Ixcoy"><div class="name">Victor Pastor-Ixcoy</div></a>
+<div class="reason">12/30/2024 | SIMPLE BATTERY FVSIMPLE BATTERY FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/dwight-lomax-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lomax-Dwight-James-Jr.jpg" alt="Dwight Lomax"><div class="name">Dwight Lomax</div></a>
+<div class="reason">01/02/2025 | HOUSED FOR HABERSHAM CO JAIL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/breiana-johnson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-Breiana-Danielle.jpg" alt="Breiana Johnson"><div class="name">Breiana Johnson</div></a>
+<div class="reason">01/02/2025 | PROBATION VIOLATION O/C DUI 2ND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/luke-gary-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gary-Luke-Aiden.jpg" alt="Luke Gary"><div class="name">Luke Gary</div></a>
+<div class="reason">12/31/2024 | PROBATION - HOLD LETTER HARRIS GAINESBURGLARY - 2ND DEGREE (FELONY)BURGLARY - 2ND DEGREE (FELONY)CRIMINAL TRESPASSINTERFERENCE WITH GOVERNMENT PROPERTY - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/austin-eller-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Eller-Austin-Dwayne.jpg" alt="Austin Eller"><div class="name">Austin Eller</div></a>
+<div class="reason">01/02/2025 | HOUSED FOR HABERSHAM CO JAIL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-schneider-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Schneider-James-Darrell.jpg" alt="James Schneider"><div class="name">James Schneider</div></a>
+<div class="reason">12/15/2024 | Probation violationposs of meth with intent</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/andre-crews-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Crews-Andre-Thomas.jpg" alt="Andre Crews"><div class="name">Andre Crews</div></a>
+<div class="reason">01/02/2025 | HOUSED FOR HABERSHAM CO JAIL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/anthony-walsh-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Walsh-Anthony-Joseph.jpg" alt="Anthony Walsh"><div class="name">Anthony Walsh</div></a>
+<div class="reason">12/23/2024 | CRIMINAL ATTEMPT TO COMMIT A MISDEMEANOR TO POSSESS MARIJUANAFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jeffery-scogins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Scogins-Jeffery-Lee.jpg" alt="Jeffery Scogins"><div class="name">Jeffery Scogins</div></a>
+<div class="reason">12/24/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)HOLD FOR ELBERT COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/serrelle-gray-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gray-Serrelle-Amanda.jpg" alt="Serrelle Gray"><div class="name">Serrelle Gray</div></a>
+<div class="reason">12/25/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL 2ND OFFENSEIMPROPER LANE USAGEOPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joshua-walden-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Walden-Joshua-Galen.jpg" alt="Joshua Walden"><div class="name">Joshua Walden</div></a>
+<div class="reason">12/28/2024 | DEFECTIVE OR NO HEADLIGHTSDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/deshunia-patterson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Patterson-Deshunia-Ja-Tavia.jpg" alt="Deshunia Patterson"><div class="name">Deshunia Patterson</div></a>
+<div class="reason">12/24/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bradley-paradise-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Paradise-Bradley-Wayne.jpg" alt="Bradley Paradise"><div class="name">Bradley Paradise</div></a>
+<div class="reason">12/26/2024 | THEFT BY DECEPTION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/reneja-moore/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Moore-Reneja-N.jpg" alt="Reneja Moore"><div class="name">Reneja Moore</div></a>
+<div class="reason">12/29/2024 | CRIMINAL DAMAGE TO PROPERTY - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/seth-helms/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Helms-Seth-Wade.jpg" alt="Seth Helms"><div class="name">Seth Helms</div></a>
+<div class="reason">12/26/2024 | ACQUIRING LICENSE PLATE FOR PURPOSE OF CONCEALING IDENTIFICATION OF MOTOR VEHICDRIVING ON SUSPENDED LICENSEFAILURE TO REGISTER VEHICLENO INSURANCEOPEN CONTAINER IN VEHICLEPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINEPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGRECEIPT, POSSESSION OR TRANSPORT OF FIREARM BY CONVICTED FELON OR...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/shakira-davis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Davis-Shakira-.jpg" alt="Shakira Davis"><div class="name">Shakira Davis</div></a>
+<div class="reason">12/27/2024 | HOLD FOR CLARKE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/andrea-mckey-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McKey-Andrea-Leigh.jpg" alt="Andrea McKey"><div class="name">Andrea McKey</div></a>
+<div class="reason">12/27/2024 | FAILURE TO APPEAR O/C BRING STOLEN PROP IN ST/NO LICFAILURE TO APPEAR O/C POSS OF METH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rigoberto-lopez-mondragon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lopez-Mondragon-Rigoberto.jpg" alt="Rigoberto Lopez Mondragon"><div class="name">Rigoberto Lopez Mondragon</div></a>
+<div class="reason">12/28/2024 | DRIVING W/O LICENSE (UNLICENSED/WRONG CL)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/elbert-langston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Langston-Elbert-Henry.jpg" alt="Elbert Langston"><div class="name">Elbert Langston</div></a>
+<div class="reason">12/26/2024 | AGGRAVATED ASSAULTAGGRAVATED ASSAULT.AGGRAVATED ASSAULT.POSSESSION OF FIREARM BY A CONVICTED FELON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/abel-gaines-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gaines-Abel-Ray.jpg" alt="Abel Gaines"><div class="name">Abel Gaines</div></a>
+<div class="reason">12/28/2024 | FAILURE TO APPEAR O/C BURG 2ND, THEFT X TAKING, CRIM TRESP</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/dominic-donovan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Donovan-Dominic.jpg" alt="Dominic Donovan"><div class="name">Dominic Donovan</div></a>
+<div class="reason">12/28/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)SPEEDINGUNSAFE OPERATION OF RADIO OR TELEPHONE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marco-antonio-chavarria/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Antonio-Chavarria-Marco.jpg" alt="Marco Antonio-Chavarria"><div class="name">Marco Antonio-Chavarria</div></a>
+<div class="reason">12/28/2024 | DRIVING W/O LICENSE(UNLICENSED/WRONG CL)TAIL LIGHTS REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/donald-crowe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Crowe-Donald-Eldridge.jpg" alt="Donald Crowe"><div class="name">Donald Crowe</div></a>
+<div class="reason">12/27/2024 | DRUGS TO BE KEPT IN ORIGINAL CONTAINER.FAILURE TO KEEP IN PROPER LANEPOSSESSION OF A CONTROLLED SUBSTANCE SCH II - AMPHETAMINE/DEXTROAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/anvarjon-akhmadjonov/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Akhmadjonov-Anvarjon.jpg" alt="Anvarjon Akhmadjonov"><div class="name">Anvarjon Akhmadjonov</div></a>
+<div class="reason">12/25/2024 | BATTERY FVCRUELTY TO CHILDREN- 3RD DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/emily-turner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Turner-Emily-Autumn.jpg" alt="Emily Turner"><div class="name">Emily Turner</div></a>
+<div class="reason">12/22/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANENO INSURANCETO FAST FOR CONDITIONS</div>
+</div>
+</div><div class="pagination"><a href="hart3.html">Next Page</a></div></body></html>

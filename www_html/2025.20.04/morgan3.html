@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/liam-carter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CARTER-LIAM-MORAN.jpg" alt="Liam Carter"><div class="name">Liam Carter</div></a>
+<div class="reason">12/12/2024 | HOUSED FOR GREENE CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ashley-brown-31/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-ASHLEY-NICOLE.jpg" alt="Ashley Brown"><div class="name">Ashley Brown</div></a>
+<div class="reason">12/11/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MOREIMPROPER STOPPING ON ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/oral-armistead/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ARMISTEAD-ORAL-CHADWICK.jpg" alt="Oral Armistead"><div class="name">Oral Armistead</div></a>
+<div class="reason">12/09/2024 | HOUSED FOR GREENE CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/patrice-brown-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-PATRICE-SHANTRELL.jpg" alt="Patrice Brown"><div class="name">Patrice Brown</div></a>
+<div class="reason">12/05/2024 | ARMED ROBBERY (GRAND JURORS TRUE BILL)AGGRAVATED ASSAULT (GRAND JURORS TRUE BILL)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/gabrielle-wyatt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WYATT-GABRIELLE-CHANTELLE.jpg" alt="Gabrielle Wyatt"><div class="name">Gabrielle Wyatt</div></a>
+<div class="reason">12/02/2024 | TERRORISTIC THREATS AND ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/chelsea-worrell-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WORRELL-CHELSEA-NICOLE.jpg" alt="Chelsea Worrell"><div class="name">Chelsea Worrell</div></a>
+<div class="reason">12/05/2024 | HOLD FOR DRUG COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/aelisha-thompson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/THOMPSON-AELISHA-LUE.jpg" alt="Aelisha Thompson"><div class="name">Aelisha Thompson</div></a>
+<div class="reason">12/06/2024 | PROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kristi-stinnett-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/STINNETT-KRISTI-LORETTA-LYNN.jpg" alt="Kristi Stinnett"><div class="name">Kristi Stinnett</div></a>
+<div class="reason">12/06/2024 | HOLD FOR NEWTON COUNTYHOLD FOR WALTON COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/cody-sullivan-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SULLIVAN-CODY-WELDON.jpg" alt="Cody Sullivan"><div class="name">Cody Sullivan</div></a>
+<div class="reason">12/03/2024 | HOUSED FOR GREENE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ryan-phillips-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PHILLIPS-RYAN.jpg" alt="Ryan Phillips"><div class="name">Ryan Phillips</div></a>
+<div class="reason">12/07/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MORESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/derrick-smith-47/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SMITH-DERRICK-ANTONIO.jpg" alt="Derrick Smith"><div class="name">Derrick Smith</div></a>
+<div class="reason">12/03/2024 | HOUSED FOR GREENE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tramayne-peek-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PEEK-TRAMAYNE-DEMONTA.jpg" alt="Tramayne Peek"><div class="name">Tramayne Peek</div></a>
+<div class="reason">12/06/2024 | PROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/dionte-peek-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PEEK-DIONTE-MARICE.jpg" alt="Dionte Peek"><div class="name">Dionte Peek</div></a>
+<div class="reason">12/05/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/markell-peek/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PEEK-MARKELL-KESHUN.jpg" alt="Markell Peek"><div class="name">Markell Peek</div></a>
+<div class="reason">12/05/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/brian-syphrett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SYPHRETT-BRIAN-SYVESTER.jpg" alt="Brian Syphrett"><div class="name">Brian Syphrett</div></a>
+<div class="reason">11/21/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/aereon-wilbon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILBON-AEREON-JAMAR.jpg" alt="Aereon Wilbon"><div class="name">Aereon Wilbon</div></a>
+<div class="reason">11/20/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jonathan-sweringen-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SWERINGEN-JONATHAN.jpg" alt="Jonathan Sweringen"><div class="name">Jonathan Sweringen</div></a>
+<div class="reason">11/19/2024 | HOLD FOR CLARKE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/katlyn-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-KATLYN-M.jpg" alt="Katlyn Smith"><div class="name">Katlyn Smith</div></a>
+<div class="reason">11/21/2024 | HOUSED FOR GREEN COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/david-smith-130/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-DAVID-LEWIS.jpg" alt="David Smith"><div class="name">David Smith</div></a>
+<div class="reason">11/19/2024 | HOLD FOR MONROE PD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/derrick-smith-45/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-DERRICK-ANTONIO-1.jpg" alt="Derrick Smith"><div class="name">Derrick Smith</div></a>
+<div class="reason">11/18/2024 | HOUSED FOR GREENE CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/edward-smallwood-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMALLWOOD-EDWARD-SHANE.jpg" alt="Edward Smallwood"><div class="name">Edward Smallwood</div></a>
+<div class="reason">11/20/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/marlon-rodriguez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RODRIGUEZ-MARLON-JOSUE.jpg" alt="Marlon Rodriguez"><div class="name">Marlon Rodriguez</div></a>
+<div class="reason">11/23/2024 | HUNTING WITHOUR PERMISSIONHUNTING DEER AT NIGHT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/robert-sharpe-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SHARPE-ROBERT-ALLAN.jpg" alt="Robert Sharpe"><div class="name">Robert Sharpe</div></a>
+<div class="reason">11/19/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/erling-ortega/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ORTEGA-ERLING-JAVIER.jpg" alt="Erling Ortega"><div class="name">Erling Ortega</div></a>
+<div class="reason">11/23/2024 | HUNTING WITHOUR PERMISSIONHUNTING DEER AT NIGHTWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jerome-reid-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/REID-JEROME-LAMAR.jpg" alt="Jerome Reid"><div class="name">Jerome Reid</div></a>
+<div class="reason">11/18/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDFAILURE TO REPORT ACCIDENTFAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/james-jones-106/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JONES-JAMES-EDWARD.jpg" alt="James Jones"><div class="name">James Jones</div></a>
+<div class="reason">11/21/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/belinda-mckenzie/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCKENZIE-BELINDA-DIANE.jpg" alt="Belinda McKenzie"><div class="name">Belinda McKenzie</div></a>
+<div class="reason">11/23/2024 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/willie-jackson-69/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JACKSON-WILLIE-BERNARD.jpg" alt="Willie Jackson"><div class="name">Willie Jackson</div></a>
+<div class="reason">11/23/2024 | GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/monasia-jackson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JACKSON-MONASIA-UNISIA.jpg" alt="Monasia Jackson"><div class="name">Monasia Jackson</div></a>
+<div class="reason">11/23/2024 | THEFT BY TAKING - MISDEMEANORTHEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/juan-garcia-43/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GARCIA-JUAN-ISAU.jpg" alt="Juan Garcia"><div class="name">Juan Garcia</div></a>
+<div class="reason">11/18/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MOREFOLLOWING TOO CLOSELYHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENT Officer’s Narrative:[Please note: The following is a direct transcription from the official...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/dion-evans-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/EVANS-DION-ROY.jpg" alt="Dion Evans"><div class="name">Dion Evans</div></a>
+<div class="reason">11/18/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/deana-digby/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DIGBY-DEANA.jpg" alt="Deana Digby"><div class="name">Deana Digby</div></a>
+<div class="reason">11/22/2024 | FAILURE TO MAINTAIN LANEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MORE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ramiro-duran-camargo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DURAN-CAMARGO-RAMIRO.jpg" alt="Ramiro Duran Camargo"><div class="name">Ramiro Duran Camargo</div></a>
+<div class="reason">11/19/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)EXPIRED OR NO DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jontavious-cox-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COX-JONTAVIOUS-LEE.jpg" alt="Jontavious Cox"><div class="name">Jontavious Cox</div></a>
+<div class="reason">11/23/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/bo-carson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CARSON-BO-MALCOM.jpg" alt="Bo Carson"><div class="name">Bo Carson</div></a>
+<div class="reason">11/21/2024 | PROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/alan-cervantes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CERVANTES-ALAN.jpg" alt="Alan Cervantes"><div class="name">Alan Cervantes</div></a>
+<div class="reason">11/24/2024 | CRIMINAL DAMAGE TO PROPERTY - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/angelica-barnes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BARNES-ANGELICA-GISELE.jpg" alt="Angelica Barnes"><div class="name">Angelica Barnes</div></a>
+<div class="reason">11/22/2024 | FORGERY - 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/james-allen-36/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ALLEN-JAMES-DARRELL.jpg" alt="James Allen"><div class="name">James Allen</div></a>
+<div class="reason">11/19/2024 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS BY USE OF THREATS OR VIOLENCE - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/timothy-ash-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ASH-TIMOTHY.jpg" alt="Timothy Ash"><div class="name">Timothy Ash</div></a>
+<div class="reason">11/23/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jaylon-brown-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RODNEY-DEON.jpg" alt="Jaylon Brown"><div class="name">Jaylon Brown</div></a>
+<div class="reason">11/12/2024 | FAILURE TO YIELD RIGHT OF WAY, TURNINGHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tina-yocum-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/YOCUM-TINA.jpg" alt="Tina Yocum"><div class="name">Tina Yocum</div></a>
+<div class="reason">11/17/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/robert-williams-120/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMS-ROBERT-EDGAR.jpg" alt="Robert Williams"><div class="name">Robert Williams</div></a>
+<div class="reason">11/13/2024 | SERVE 12 MONTHS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/cornelius-wright-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WRIGHT-CORNELIUS.jpg" alt="Cornelius Wright"><div class="name">Cornelius Wright</div></a>
+<div class="reason">11/14/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ian-white/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WHITE-IAN-THADDEUS.jpg" alt="Ian White"><div class="name">Ian White</div></a>
+<div class="reason">11/14/2024 | HOUSED FOR GREENE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/aelisha-thompson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/THOMPSON-AELISHA.jpg" alt="Aelisha Thompson"><div class="name">Aelisha Thompson</div></a>
+<div class="reason">11/14/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAIL TO RPT STRIKING FIXED OBJECTFAILURE TO YIELD RIGHT OF WAY TO EMERGENCY VEHDRIVING WHILE LICENSE SUSPENDED OR REVOKEDPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/markevious-rockwell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ROCKWELL-MARKEVIOUS-UNTARIO.jpg" alt="Markevious Rockwell"><div class="name">Markevious Rockwell</div></a>
+<div class="reason">11/12/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/durante-smith-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-DURANTE-MARQUIS.jpg" alt="Durante Smith"><div class="name">Durante Smith</div></a>
+<div class="reason">11/15/2024 | HOUSED FOR BALDWIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/theodore-rivers-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RIVERS-THEODORE-MARCUS-1.jpg" alt="Theodore Rivers"><div class="name">Theodore Rivers</div></a>
+<div class="reason">11/12/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kendall-robbins-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ROBBINS-KENDALL-DONTREAL.jpg" alt="Kendall Robbins"><div class="name">Kendall Robbins</div></a>
+<div class="reason">11/16/2024 | HOUSED FOR GREEN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/polly-porter/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PORTER-POLLY-ANN.jpg" alt="Polly Porter"><div class="name">Polly Porter</div></a>
+<div class="reason">11/17/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/armando-pino/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PINO-ARMANDO-ESTEBAN.jpg" alt="Armando Pino"><div class="name">Armando Pino</div></a>
+<div class="reason">11/13/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/aaron-peters-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PETERS-AARON-AUSTIN.jpg" alt="Aaron Peters"><div class="name">Aaron Peters</div></a>
+<div class="reason">11/14/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/david-mathis-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MATHIS-DAVID-TYRONE-1.jpg" alt="David Mathis"><div class="name">David Mathis</div></a>
+<div class="reason">11/12/2024 | AGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/haslyn-nurse/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/NURSE-HASLYN-WINSTON.jpg" alt="Haslyn Nurse"><div class="name">Haslyn Nurse</div></a>
+<div class="reason">11/15/2024 | HOUSED FOR GREENE SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/amanda-jordan-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JORDAN-AMANDA-LYNN.jpg" alt="Amanda Jordan"><div class="name">Amanda Jordan</div></a>
+<div class="reason">11/15/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/eddie-ingram-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/INGRAM-EDDIE.jpg" alt="Eddie Ingram"><div class="name">Eddie Ingram</div></a>
+<div class="reason">11/14/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/david-jackson-48/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JACKSON-DAVID-CARL.jpg" alt="David Jackson"><div class="name">David Jackson</div></a>
+<div class="reason">11/16/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jaqurie-holland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HOLLAND-JAQURIE.jpg" alt="Jaqurie Holland"><div class="name">Jaqurie Holland</div></a>
+<div class="reason">11/14/2024 | BURGLARY 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/cassie-head/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HEAD-CASSIE-ELIZABETH.jpg" alt="Cassie Head"><div class="name">Cassie Head</div></a>
+<div class="reason">11/14/2024 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/edward-heard-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HEARD-EDWARD-KENDRICK.jpg" alt="Edward Heard"><div class="name">Edward Heard</div></a>
+<div class="reason">11/15/2024 | HOLD FOR CANTON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jose-gonzalez-62/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GONZALEZ-JOSE-ALFREDO.jpg" alt="Jose Gonzalez"><div class="name">Jose Gonzalez</div></a>
+<div class="reason">11/14/2024 | PROBATION VIOLATION - MISDEMEANORPROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/caven-cole-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COLE-CAVEN-CYMMONE.jpg" alt="Caven Cole"><div class="name">Caven Cole</div></a>
+<div class="reason">11/14/2024 | BATTERY/SIMPLE BATTERY - FAMILY VIOLENCEAGGRAVATED ASSAULTCRUELTY TO CHILDREN IN THE 3RD DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/blake-carter-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CARTER-BLAKE-BASHUN.jpg" alt="Blake Carter"><div class="name">Blake Carter</div></a>
+<div class="reason">11/14/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/corvetta-cobb-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COBB-CORVETTA-ARIANA.jpg" alt="Corvetta Cobb"><div class="name">Corvetta Cobb</div></a>
+<div class="reason">11/13/2024 | THEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/rashad-williams-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMS-RASHAD.jpg" alt="Rashad Williams"><div class="name">Rashad Williams</div></a>
+<div class="reason">11/04/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/chelsea-worrell-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WORRELL-CHELSEA-NICOLE.jpg" alt="Chelsea Worrell"><div class="name">Chelsea Worrell</div></a>
+<div class="reason">11/07/2024 | SERVE 4 DAYS PER ATCC</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/mulea-wambua/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WAMBUA-MULEA-BARBARA.jpg" alt="Mulea Wambua"><div class="name">Mulea Wambua</div></a>
+<div class="reason">11/05/2024 | DRIVING UNDER THE INFLUENCE/DRUGSFAILURE TO MAINTAIN LANESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/justin-vadell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/VADELL-JUSTIN-RAMON.jpg" alt="Justin Vadell"><div class="name">Justin Vadell</div></a>
+<div class="reason">11/08/2024 | PROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/robert-swanson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SWANSON-ROBERT-KEVIN.jpg" alt="Robert Swanson"><div class="name">Robert Swanson</div></a>
+<div class="reason">11/07/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/curtis-taylor-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/TAYLOR-CURTIS.jpg" alt="Curtis Taylor"><div class="name">Curtis Taylor</div></a>
+<div class="reason">11/04/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/lana-stumbo-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/STUMBO-LANA.jpg" alt="Lana Stumbo"><div class="name">Lana Stumbo</div></a>
+<div class="reason">11/06/2024 | HOUSED FOR GREENE COUNTY SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/derrick-smith-44/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-DERRICK-ANTONIO.jpg" alt="Derrick Smith"><div class="name">Derrick Smith</div></a>
+<div class="reason">11/04/2024 | HOUSED FOR GREENE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/cornelius-peterson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PETERSON-CORNELIUS-KEVON-1.jpg" alt="Cornelius Peterson"><div class="name">Cornelius Peterson</div></a>
+<div class="reason">11/04/2024 | HOLD FOR ATHENS-CLARKE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/antron-sims/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SIMS-ANTRON-DONTELL.jpg" alt="Antron Sims"><div class="name">Antron Sims</div></a>
+<div class="reason">11/09/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tammy-nesbitt-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/NESBITT-TAMMY-DENISE-1.jpg" alt="Tammy Nesbitt"><div class="name">Tammy Nesbitt</div></a>
+<div class="reason">11/07/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/brooke-mcclure/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCCLURE-BROOKE-SELENE.jpg" alt="Brooke McClure"><div class="name">Brooke McClure</div></a>
+<div class="reason">11/07/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kristopher-kidd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/KIDD-KRISTOPHER-LEONARD.jpg" alt="Kristopher Kidd"><div class="name">Kristopher Kidd</div></a>
+<div class="reason">11/08/2024 | PUBLIC DRUNKENNESSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/levar-lawrence-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LAWRENCE-LEVAR-ANTWAN.jpg" alt="Levar Lawrence"><div class="name">Levar Lawrence</div></a>
+<div class="reason">11/07/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/nia-jones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JONES-NIA-ALZENIA.jpg" alt="Nia Jones"><div class="name">Nia Jones</div></a>
+<div class="reason">11/06/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/evis-hernandez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HERNANDEZ-EVIS-MELEC.jpg" alt="Evis Hernandez"><div class="name">Evis Hernandez</div></a>
+<div class="reason">11/04/2024 | DRIVING UNDER THE INFLUENCE/ALCOHOLPOSSESSION OF OPEN ALCOHOL CONTAINEREXPIRED OR NO DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/aron-herrick-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HERRICK-ARON-BRIAN.jpg" alt="Aron Herrick"><div class="name">Aron Herrick</div></a>
+<div class="reason">11/09/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDFAILURE TO OBEY SIGNS OR CONTROL DEVICES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/william-dixon-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DIXON-WILLIAM-ZION.jpg" alt="William Dixon"><div class="name">William Dixon</div></a>
+<div class="reason">11/08/2024 | PAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/sammie-gresham-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GRESHAM-SAMMIE-LEWIS.jpg" alt="Sammie Gresham"><div class="name">Sammie Gresham</div></a>
+<div class="reason">11/04/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/marcus-creech/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CREECH-MARCUS.jpg" alt="Marcus Creech"><div class="name">Marcus Creech</div></a>
+<div class="reason">11/04/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/leonard-davis-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DAVIS-LEONARD-LEE.jpg" alt="Leonard Davis"><div class="name">Leonard Davis</div></a>
+<div class="reason">11/05/2024 | BACK FOR SUPERIOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jarvis-booker-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BOOKER-JARVIS-MARTRAIL.jpg" alt="Jarvis Booker"><div class="name">Jarvis Booker</div></a>
+<div class="reason">11/07/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/daniel-correll/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CORRELL-DANIEL-STEVEN.jpg" alt="Daniel Correll"><div class="name">Daniel Correll</div></a>
+<div class="reason">11/08/2024 | POSSESSION OF OPEN ALCOHOL CONTAINERDRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jessie-aaron-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/AARON-JESSIE-KEITH.jpg" alt="Jessie Aaron"><div class="name">Jessie Aaron</div></a>
+<div class="reason">11/08/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/richard-mountfield-fisher-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MOUNTFIELD-FISHER-RICHARD-JOHN.jpg" alt="Richard Mountfield-Fisher"><div class="name">Richard Mountfield-Fisher</div></a>
+<div class="reason">10/25/2024 | court ordered jail time</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/keyonna-thompkins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/THOMPKINS-KEYONNA.jpg" alt="Keyonna Thompkins"><div class="name">Keyonna Thompkins</div></a>
+<div class="reason">10/30/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jenny-lucas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LUCAS-JENNY-YECENIA-CIFUENTES.jpg" alt="Jenny Lucas"><div class="name">Jenny Lucas</div></a>
+<div class="reason">10/30/2024 | EXPIRED OR NO DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jerry-stapp/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/STAPP-JERRY-GEORGE.jpg" alt="Jerry Stapp"><div class="name">Jerry Stapp</div></a>
+<div class="reason">10/28/2024 | POSSESSION OF METHAMPHETAMINE WITH INTENT TO DISTRIBUTEPOSSESSION OF MARIJUANA WITH INTENT TO DISTRIBUTE/POSS OF MARIJUANA/MANUFACTURE/DELIVER/DISPENSEPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESDRIVING VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REPOSSESSION OF METHAMPHETAMINECROSSING STATE/COUNTY GUARD LINES WITH WEAPONS, INTOXICANTS, DRUGS WITHOUT CONSENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/larry-smith-48/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-LARRY-DARNELL.jpg" alt="Larry Smith"><div class="name">Larry Smith</div></a>
+<div class="reason">10/30/2024 | PROBATION VIOLATION - FELONYPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/malik-scott-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SCOTT-MALIK-JAMIL.jpg" alt="Malik Scott"><div class="name">Malik Scott</div></a>
+<div class="reason">10/30/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/antansio-ross/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ROSS-ANTANSIO-KAEOCENTES.jpg" alt="Antansio Ross"><div class="name">Antansio Ross</div></a>
+<div class="reason">11/02/2024 | BATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/edvin-sanchez-lopez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SANCHEZ-LOPEZ-EDVIN-DARINEL.jpg" alt="Edvin Sanchez Lopez"><div class="name">Edvin Sanchez Lopez</div></a>
+<div class="reason">11/02/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/stephanie-moncrief-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MONCRIEF-STEPHANIE-ANN.jpg" alt="Stephanie Moncrief"><div class="name">Stephanie Moncrief</div></a>
+<div class="reason">11/01/2024 | HOUSED FOR GREENE CO SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/mario-romero-argueta/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ROMERO-ARGUETA-MARIO-EDENILSON.jpg" alt="Mario Romero Argueta"><div class="name">Mario Romero Argueta</div></a>
+<div class="reason">11/01/2024 | EXPIRED OR NO DRIVERS LICENSESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jonathan-marx/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MARX-JONATHAN.jpg" alt="Jonathan Marx"><div class="name">Jonathan Marx</div></a>
+<div class="reason">11/02/2024 | HOUSED FOR GREEN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/zephaniah-jasper/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JASPER-ZEPHANIAH.jpg" alt="Zephaniah Jasper"><div class="name">Zephaniah Jasper</div></a>
+<div class="reason">10/30/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/shane-griffin-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GRIFFIN-SHANE-NEILSON.jpg" alt="Shane Griffin"><div class="name">Shane Griffin</div></a>
+<div class="reason">10/29/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/henry-hernandez-gomez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HERNANDEZ-GOMEZ-HENRY-OBER.jpg" alt="Henry Hernandez Gomez"><div class="name">Henry Hernandez Gomez</div></a>
+<div class="reason">11/03/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/dontavisus-farley-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/FARLEY-DONTAVISUS-CARNELL.jpg" alt="Dontavisus Farley"><div class="name">Dontavisus Farley</div></a>
+<div class="reason">10/31/2024 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/horace-griffin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GRIFFIN-HORACE.jpg" alt="Horace Griffin"><div class="name">Horace Griffin</div></a>
+<div class="reason">11/02/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/scotty-brady/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BRADY-SCOTTY-BOYD.jpg" alt="Scotty Brady"><div class="name">Scotty Brady</div></a>
+<div class="reason">11/02/2024 | POSSESSION OF OPEN ALCOHOL CONTAINERSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)RECKLESS DRIVINGDRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jerry-deal-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DEAL-JERRY-LEE.jpg" alt="Jerry Deal"><div class="name">Jerry Deal</div></a>
+<div class="reason">10/29/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/atiyyah-aquil-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/AQUIL-ATIYYAH-REHM.jpg" alt="Atiyyah Aquil"><div class="name">Atiyyah Aquil</div></a>
+<div class="reason">10/28/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/erica-barrett-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BARRETT-ERICA-LYNN.jpg" alt="Erica Barrett"><div class="name">Erica Barrett</div></a>
+<div class="reason">11/01/2024 | HOLD FOR MUDUFFIE CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/derrick-smith-42/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SMITH-DERRICK-ANTONIO-1.jpg" alt="Derrick Smith"><div class="name">Derrick Smith</div></a>
+<div class="reason">10/26/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/eleanor-whitaker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WHITAKER-ELEANOR-JUDITH.jpg" alt="Eleanor Whitaker"><div class="name">Eleanor Whitaker</div></a>
+<div class="reason">10/27/2024 | FAILURE TO MAINTAIN LANEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MORE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kristi-stinnett-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/STINNETT-KRISTI-LORETTA-LYNN-1.jpg" alt="Kristi Stinnett"><div class="name">Kristi Stinnett</div></a>
+<div class="reason">10/22/2024 | FAILURE TO MAINTAIN LANEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MORE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tara-swain-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SWAIN-TARA-VENICE.jpg" alt="Tara Swain"><div class="name">Tara Swain</div></a>
+<div class="reason">10/24/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kristi-stinnett-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/STINNETT-KRISTI-LORETTA-LYNN.jpg" alt="Kristi Stinnett"><div class="name">Kristi Stinnett</div></a>
+<div class="reason">10/21/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLFAILURE TO MAINTAIN LANEPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/emily-stewart/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/STEWART-EMILY.jpg" alt="Emily Stewart"><div class="name">Emily Stewart</div></a>
+<div class="reason">10/25/2024 | THEFT BY SHOPLIFTINGPOSSESSION OF METHAMPHETAMINEPOSSESSION OF SCHEDULE IVMARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tyler-rhodes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RHODES-TYLER-HAMILTON.jpg" alt="Tyler Rhodes"><div class="name">Tyler Rhodes</div></a>
+<div class="reason">10/22/2024 | ILLEGAL POSSESSION OF CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kiaujanee-sanders/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SANDERS-KIAUJANEE-MARSHAY.jpg" alt="Kiaujanee Sanders"><div class="name">Kiaujanee Sanders</div></a>
+<div class="reason">10/24/2024 | HOLD FOR DEKALB</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/dylan-pickett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PICKETT-DYLAN-THOMAS.jpg" alt="Dylan Pickett"><div class="name">Dylan Pickett</div></a>
+<div class="reason">10/22/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLPOSSESSION OF OPEN ALCOHOL CONTAINERFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/blaze-palmer-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PALMER-BLAZE-MICHAEL.jpg" alt="Blaze Palmer"><div class="name">Blaze Palmer</div></a>
+<div class="reason">10/27/2024 | SERVING 30 DAYS SUPERIOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jeremiah-patton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PATTON-JEREMIAH-LAUREL.jpg" alt="Jeremiah Patton"><div class="name">Jeremiah Patton</div></a>
+<div class="reason">10/22/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/christan-overton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/OVERTON-CHRISTAN-A.jpg" alt="Christan Overton"><div class="name">Christan Overton</div></a>
+<div class="reason">10/23/2024 | HOUSED FOR GREEN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/carlos-mundo-romero/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MUNDO-ROMERO-CARLOS-JAVIER.jpg" alt="Carlos Mundo Romero"><div class="name">Carlos Mundo Romero</div></a>
+<div class="reason">10/22/2024 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSEXPIRED OR NO DRIVERS LICENSESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/randall-nelson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/NELSON-RANDALL-KNUTE.jpg" alt="Randall Nelson"><div class="name">Randall Nelson</div></a>
+<div class="reason">10/25/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jerrod-morgan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MORGAN-JERROD-MELENTEZ.jpg" alt="Jerrod Morgan"><div class="name">Jerrod Morgan</div></a>
+<div class="reason">10/25/2024 | THEFT BY SHOPLIFTINGTHEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/donovan-desalle-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DESALLE-DONOVAN.jpg" alt="Donovan Desalle"><div class="name">Donovan Desalle</div></a>
+<div class="reason">10/24/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jamiya-mitchell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MITCHELL-JAMIYA-MARIE.jpg" alt="Jamiya Mitchell"><div class="name">Jamiya Mitchell</div></a>
+<div class="reason">10/26/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tim-mitchell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MITCHELL-TIM-WILLIAM.jpg" alt="Tim Mitchell"><div class="name">Tim Mitchell</div></a>
+<div class="reason">10/25/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/quentavious-miller/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MILLER-QUENTAVIOUS-JAVON.jpg" alt="Quentavious Miller"><div class="name">Quentavious Miller</div></a>
+<div class="reason">10/23/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jeremy-kidd-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KIDD-JEREMY-SHANE.jpg" alt="Jeremy Kidd"><div class="name">Jeremy Kidd</div></a>
+<div class="reason">10/23/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/deangelo-kinloch/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KINLOCH-DEANGELO-MARIO.jpg" alt="Deangelo Kinloch"><div class="name">Deangelo Kinloch</div></a>
+<div class="reason">10/24/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/antrone-hughes-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HUGHES-ANTRONE-TREMAINE.jpg" alt="Antrone Hughes"><div class="name">Antrone Hughes</div></a>
+<div class="reason">10/24/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ashley-holland-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOLLAND-ASHLEY-PAGE.jpg" alt="Ashley Holland"><div class="name">Ashley Holland</div></a>
+<div class="reason">10/25/2024 | TO SERVE 45 DAYS (SUPERIOR COURT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/daajhawon-howard-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOWARD-DAAJHAWON-CORTEZ.jpg" alt="Daajhawon Howard"><div class="name">Daajhawon Howard</div></a>
+<div class="reason">10/24/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jacob-gaddis-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GADDIS-JACOB-CHRISTIAN.jpg" alt="Jacob Gaddis"><div class="name">Jacob Gaddis</div></a>
+<div class="reason">10/24/2024 | PROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/janson-graves/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GRAVES-JANSON.jpg" alt="Janson Graves"><div class="name">Janson Graves</div></a>
+<div class="reason">10/22/2024 | FINANCIAL TRANSACTION CARD FRAUDTHEFT OF LOST/MISLAID PROPERTY - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/roger-cupit-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CUPIT-ROGER.jpg" alt="Roger Cupit"><div class="name">Roger Cupit</div></a>
+<div class="reason">10/27/2024 | FAILURE TO OBEY STOP SIGNDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/lagregory-burke-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BURKE-LAGREGORY-KESHAWN.jpg" alt="Lagregory Burke"><div class="name">Lagregory Burke</div></a>
+<div class="reason">10/23/2024 | PROBATION VIOLATION - MISDEMEANORFAILURE TO APPEAR - MISDEMEANORBOND SURRENDER (FREE TO GO CAME OFF BOND ON 11/26/21 CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/demarcus-carter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CARTER-DEMARCUS.jpg" alt="Demarcus Carter"><div class="name">Demarcus Carter</div></a>
+<div class="reason">10/26/2024 | EXPIRED OR NO DRIVERS LICENSESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/creshenda-bradley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BRADLEY-CRESHENDA-SHANETTE.jpg" alt="Creshenda Bradley"><div class="name">Creshenda Bradley</div></a>
+<div class="reason">10/24/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kyle-blevins-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BLEVINS-KYLE-THOMAS.jpg" alt="Kyle Blevins"><div class="name">Kyle Blevins</div></a>
+<div class="reason">10/25/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kanesha-andrews-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ANDREWS-KANESHA-LASHAWN-1.jpg" alt="Kanesha Andrews"><div class="name">Kanesha Andrews</div></a>
+<div class="reason">10/21/2024 | PROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jessie-aaron-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/AARON-JESSIE-KEITH.jpg" alt="Jessie Aaron"><div class="name">Jessie Aaron</div></a>
+<div class="reason">10/24/2024 | CROSSING STATE/COUNTY GUARD LINES WITH WEAPONS, INTOXICANTS, DRUGS WITHOUT CONSENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/vincente-murray/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MURRAY-VINCENTE-DEON.jpg" alt="Vincente’ Murray"><div class="name">Vincente’ Murray</div></a>
+<div class="reason">10/16/2024 | TAMPERING WITH EVIDENCE - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/anfernee-waller-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WALLER-ANFERNEE-DIEGO.jpg" alt="Anfernee Waller"><div class="name">Anfernee Waller</div></a>
+<div class="reason">10/17/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/garius-terrell-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TERRELL-GARIUS.jpg" alt="Garius Terrell"><div class="name">Garius Terrell</div></a>
+<div class="reason">10/16/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/charles-swing-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SWING-CHARLES-ERIC.jpg" alt="Charles Swing"><div class="name">Charles Swing</div></a>
+<div class="reason">10/18/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/charles-swing-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SWING-CHARLES-ERIC.jpg" alt="Charles Swing"><div class="name">Charles Swing</div></a>
+<div class="reason">10/18/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kelsey-reid/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/REID-KELSEY-MARKEL.jpg" alt="Kelsey Reid"><div class="name">Kelsey Reid</div></a>
+<div class="reason">10/20/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)FLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICERDRIVING UNDER INFLUENCE DRUGS/ALCOHOLPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/stewart-huff-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HUFF-STEWART-WILSON.jpg" alt="Stewart Huff"><div class="name">Stewart Huff</div></a>
+<div class="reason">10/18/2024 | SERVE 5 DAYS (MUNICIPAL COURT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/joy-kuper/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KUPER-JOY-ELIZABETH.jpg" alt="Joy Kuper"><div class="name">Joy Kuper</div></a>
+<div class="reason">10/20/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/lewis-horne/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HORNE-LEWIS.jpg" alt="Lewis Horne"><div class="name">Lewis Horne</div></a>
+<div class="reason">10/15/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLILLEGAL STOP/STAND/PARK WHERE PROHIBITED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jarrell-harrison/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HARRISON-JARRELL.jpg" alt="Jarrell Harrison"><div class="name">Jarrell Harrison</div></a>
+<div class="reason">10/19/2024 | HOUSED FOR GREENE CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/andreas-hobbs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HOBBS-ANDREAS-MIKEL.jpg" alt="Andreas Hobbs"><div class="name">Andreas Hobbs</div></a>
+<div class="reason">10/14/2024 | HOUSED FOR GREENE CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/justin-hardemon-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HARDEMON-JUSTIN-LEON.jpg" alt="Justin Hardemon"><div class="name">Justin Hardemon</div></a>
+<div class="reason">10/19/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/andrew-griffin-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GRIFFIN-ANDREW.jpg" alt="Andrew Griffin"><div class="name">Andrew Griffin</div></a>
+<div class="reason">10/20/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/joshua-epps-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/EPPS-JOSHUA-MATTHEW.jpg" alt="Joshua Epps"><div class="name">Joshua Epps</div></a>
+<div class="reason">10/19/2024 | BACK FOR PENDING CHARGES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/felix-braddy-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BRADDY-FELIX.jpg" alt="Felix Braddy"><div class="name">Felix Braddy</div></a>
+<div class="reason">10/20/2024 | THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/dimeria-butts/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BUTTS-DIMERIA.jpg" alt="Dimeria Butts"><div class="name">Dimeria Butts</div></a>
+<div class="reason">10/20/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/brandon-benton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BENTON-BRANDON-MARK.jpg" alt="Brandon Benton"><div class="name">Brandon Benton</div></a>
+<div class="reason">10/14/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/gayla-atkins-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ATKINS-GAYLA.jpg" alt="Gayla Atkins"><div class="name">Gayla Atkins</div></a>
+<div class="reason">10/17/2024 | PROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/davonte-carter-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CARTER-DAVONTE-MARQUEZ.jpg" alt="Davonte Carter"><div class="name">Davonte Carter</div></a>
+<div class="reason">10/14/2024 | AGGRAVATED ASSAULT-FV BY STRANGULATIONOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSPAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tina-yocum-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/YOCUM-TINA.jpg" alt="Tina Yocum"><div class="name">Tina Yocum</div></a>
+<div class="reason">10/11/2024 | HOUSING FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/quintina-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WILLIAMS-QUINTINA-LOPEZ.jpg" alt="Quintina Williams"><div class="name">Quintina Williams</div></a>
+<div class="reason">10/07/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/deantwon-warner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WARNER-DEANTWON-LARRY.jpg" alt="Deantwon Warner"><div class="name">Deantwon Warner</div></a>
+<div class="reason">10/07/2024 | BURGLARY-2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/epiphany-walker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WALKER-EPIPHANY-LASHAUN.jpg" alt="Epiphany Walker"><div class="name">Epiphany Walker</div></a>
+<div class="reason">10/09/2024 | DUI - DRUGS AND ALCOHOL COMBINEDFAILURE TO MAINTAIN LANEOPEN CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/justin-voorhees-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/VOORHEES-JUSTIN-MICHAEL.jpg" alt="Justin Voorhees"><div class="name">Justin Voorhees</div></a>
+<div class="reason">10/07/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/james-stapp/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/STAPP-JAMES-BRIAN.jpg" alt="James Stapp"><div class="name">James Stapp</div></a>
+<div class="reason">10/08/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDCRIMINAL TRESPASS (COUNTY ORDINANCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/imunn-sanford-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SANFORD-IMUNN-RIZO.jpg" alt="Imunn Sanford"><div class="name">Imunn Sanford</div></a>
+<div class="reason">10/08/2024 | SERVING 12 MONTHS PER SUPERIOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/larry-smith-47/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SMITH-LARRY-DARNELL.jpg" alt="Larry Smith"><div class="name">Larry Smith</div></a>
+<div class="reason">10/10/2024 | INTERFERENCE WITH BUSINESS OF ANOTHER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/robert-rosecrans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ROSECRANS-ROBERT-J.jpg" alt="Robert Rosecrans"><div class="name">Robert Rosecrans</div></a>
+<div class="reason">10/12/2024 | HOUSING FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tasha-reynolds/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/REYNOLDS-TASHA-LYNN.jpg" alt="Tasha Reynolds"><div class="name">Tasha Reynolds</div></a>
+<div class="reason">10/09/2024 | HOUSING FOR GCSO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/adrian-powell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/POWELL-ADRIAN-J.jpg" alt="Adrian Powell"><div class="name">Adrian Powell</div></a>
+<div class="reason">10/10/2024 | HOUSED FOR GREENE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/alejandro-ramirez-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RAMIREZ-ALEJANDRO.jpg" alt="Alejandro Ramirez"><div class="name">Alejandro Ramirez</div></a>
+<div class="reason">10/08/2024 | HOUSING FOR GCSO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/stephen-porter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PORTER-STEPHEN-MATTHEW.jpg" alt="Stephen Porter"><div class="name">Stephen Porter</div></a>
+<div class="reason">10/08/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/todd-pitts-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PITTS-TODD-LAWRENCE.jpg" alt="Todd Pitts"><div class="name">Todd Pitts</div></a>
+<div class="reason">10/09/2024 | HOLD FOR WALTON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jeffery-mitchem-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MITCHEM-JEFFERY-MARK.jpg" alt="Jeffery Mitchem"><div class="name">Jeffery Mitchem</div></a>
+<div class="reason">10/07/2024 | VIOLATE FAMILY VIOLENCE ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ashley-moore-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MOORE-ASHLEY-NOELLE.jpg" alt="Ashley Moore"><div class="name">Ashley Moore</div></a>
+<div class="reason">10/12/2024 | HOUSING FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/meghan-mcmahan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MCMAHAN-MEGHAN.jpg" alt="Meghan McMahan"><div class="name">Meghan McMahan</div></a>
+<div class="reason">10/10/2024 | HOUSED FOR GREENE CO SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ricardo-marquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MARQUEZ-RICARDO-YEPEZ.jpg" alt="Ricardo Marquez"><div class="name">Ricardo Marquez</div></a>
+<div class="reason">10/11/2024 | FOLLOWING TOO CLOSELYHOMICIDE BY VEHICLE IN 2ND DEGREE - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/wapeka-jenkens/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JENKENS-WAPEKA-YOSITE.jpg" alt="Wapeka Jenkens"><div class="name">Wapeka Jenkens</div></a>
+<div class="reason">10/13/2024 | AFFRAY (FIGHTING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/timothy-jackson-46/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JACKSON-TIMOTHY-LEE.jpg" alt="Timothy Jackson"><div class="name">Timothy Jackson</div></a>
+<div class="reason">10/07/2024 | HOUSED FOR GREENE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/christopher-corbin-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CORBIN-CHRISTOPHER.jpg" alt="Christopher Corbin"><div class="name">Christopher Corbin</div></a>
+<div class="reason">10/08/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ricardo-emmanuel-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/EMMANUEL-RICARDO-ROBERT-1.jpg" alt="Ricardo Emmanuel"><div class="name">Ricardo Emmanuel</div></a>
+<div class="reason">10/08/2024 | THEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/roderick-cochran-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/COCHRAN-RODERICK.jpg" alt="Roderick Cochran"><div class="name">Roderick Cochran</div></a>
+<div class="reason">10/10/2024 | HOUSED FOR GREENE CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/matthew-cook-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/COOK-MATTHEW.jpg" alt="Matthew Cook"><div class="name">Matthew Cook</div></a>
+<div class="reason">10/13/2024 | HOLD FOR HENRY COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/shiza-chislom/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CHISLOM-SHIZA.jpg" alt="Shiza Chislom"><div class="name">Shiza Chislom</div></a>
+<div class="reason">10/13/2024 | AFFRAY (FIGHTING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/marlowe-brown/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BROWN-MARLOWE.jpg" alt="Marlowe Brown"><div class="name">Marlowe Brown</div></a>
+<div class="reason">10/08/2024 | BURGLARY 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/temoxtle-chipahua/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CHIPAHUA-TEMOXTLE-MARIANA.jpg" alt="Temoxtle Chipahua"><div class="name">Temoxtle Chipahua</div></a>
+<div class="reason">10/09/2024 | EXPIRED OR NO DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/michael-bellamy-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BELLAMY-MICHAEL-WAYNE.jpg" alt="Michael Bellamy"><div class="name">Michael Bellamy</div></a>
+<div class="reason">10/07/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/richard-wommack-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WOMMACK-RICHARD-TAYLOR-1.jpg" alt="Richard Wommack"><div class="name">Richard Wommack</div></a>
+<div class="reason">09/30/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/elisha-webb-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WEBB-ELISHA-STEVEN.jpg" alt="Elisha Webb"><div class="name">Elisha Webb</div></a>
+<div class="reason">10/04/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/sandrerica-vincent-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/VINCENT-SANDRERICA-ORIEON.jpg" alt="Sandrerica Vincent"><div class="name">Sandrerica Vincent</div></a>
+<div class="reason">10/05/2024 | PROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/rasheed-tripp/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TRIPP-RASHEED-CHAVEZ.jpg" alt="Rasheed Tripp"><div class="name">Rasheed Tripp</div></a>
+<div class="reason">10/06/2024 | FORGERY - 4TH DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/joshua-slaughter-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SLAUGHTER-JOSHUA-SHANE.jpg" alt="Joshua Slaughter"><div class="name">Joshua Slaughter</div></a>
+<div class="reason">10/03/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/daniel-odister-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ODISTER-DANIEL-ISSAC.jpg" alt="Daniel Odister"><div class="name">Daniel Odister</div></a>
+<div class="reason">10/04/2024 | HOUSED FOR GREENE CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kelvin-sanford-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SANFORD-KELVIN-ANTWAN.jpg" alt="Kelvin Sanford"><div class="name">Kelvin Sanford</div></a>
+<div class="reason">10/01/2024 | BACK FOR PENDING CHARGES-COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/brandy-morris-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MORRIS-BRANDY-LEAH.jpg" alt="Brandy Morris"><div class="name">Brandy Morris</div></a>
+<div class="reason">10/01/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/trimaine-monday-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MONDAY-TRIMAINE-GIVON.jpg" alt="Trimaine Monday"><div class="name">Trimaine Monday</div></a>
+<div class="reason">10/04/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/robert-mccannon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MCCANNON-ROBERT.jpg" alt="Robert McCannon"><div class="name">Robert McCannon</div></a>
+<div class="reason">10/03/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ashaley-mathis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MATHIS-ASHALEY-DANYILL.jpg" alt="Ashaley Mathis"><div class="name">Ashaley Mathis</div></a>
+<div class="reason">10/01/2024 | HOUSED FOR GREENE CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/nya-lewis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/LEWIS-NYA-LANEA.jpg" alt="Nya Lewis"><div class="name">Nya Lewis</div></a>
+<div class="reason">10/02/2024 | PUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/pedro-martinez-pineda/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MARTINEZ-PINEDA-PEDRO.jpg" alt="Pedro Martinez Pineda"><div class="name">Pedro Martinez Pineda</div></a>
+<div class="reason">09/30/2024 | RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/demarko-kellogg-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KELLOGG-DEMARKO-TYBEERIOUS.jpg" alt="Demarko Kellogg"><div class="name">Demarko Kellogg</div></a>
+<div class="reason">10/03/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/clarence-daniel-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DANIEL-CLARENCE-JEROME.jpg" alt="Clarence Daniel"><div class="name">Clarence Daniel</div></a>
+<div class="reason">10/03/2024 | HOUSED FOR GREENE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/diego-hernandez-arriola/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HERNANDEZ-ARRIOLA-DIEGO.jpg" alt="Diego Hernandez Arriola"><div class="name">Diego Hernandez Arriola</div></a>
+<div class="reason">10/03/2024 | FAILURE TO MAINTAIN LANEHOMICIDE BY VEHICLE IN 2ND DEGREE - MISDEMEANORHOMICIDE BY VEHICLE IN 2ND DEGREE - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/isaac-danford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DANFORD-ISAAC-RAY.jpg" alt="Isaac Danford"><div class="name">Isaac Danford</div></a>
+<div class="reason">10/02/2024 | HOUSED FOR GREENE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jaylan-colbert/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/COLBERT-JAYLAN.jpg" alt="Jaylan Colbert"><div class="name">Jaylan Colbert</div></a>
+<div class="reason">10/05/2024 | AGGRAVATED ASSAULT Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may exist. All...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jonathan-brown-50/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BROWN-JONATHAN-LEE.jpg" alt="Jonathan Brown"><div class="name">Jonathan Brown</div></a>
+<div class="reason">10/01/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/bryan-clark-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CLARK-BRYAN-JAMES.jpg" alt="Bryan Clark"><div class="name">Bryan Clark</div></a>
+<div class="reason">09/30/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/luxolo-vongwe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/VONGWE-LUXOLO.jpg" alt="Luxolo Vongwe"><div class="name">Luxolo Vongwe</div></a>
+<div class="reason">09/25/2024 | HOUSED FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jorge-ventura/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/VENTURA-JORGE.jpg" alt="Jorge Ventura"><div class="name">Jorge Ventura</div></a>
+<div class="reason">09/24/2024 | POSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF HEROIN SCHEDULE 1</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/breanna-simmons/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/SIMMONS-BREANNA-MARIE.jpg" alt="Breanna Simmons"><div class="name">Breanna Simmons</div></a>
+<div class="reason">09/24/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/joseph-smith-99/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/SMITH-JOSEPH-WADE.jpg" alt="Joseph Smith"><div class="name">Joseph Smith</div></a>
+<div class="reason">09/25/2024 | HOUSED FOR GREENE CO SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/patricia-rojas-gutierez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/ROJAS-GUTIEREZ-PATRICIA.jpg" alt="Patricia Rojas- Gutierez"><div class="name">Patricia Rojas- Gutierez</div></a>
+<div class="reason">09/23/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/chico-parrott-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/PARROTT-CHICO-MARCIUS.jpg" alt="Chico Parrott"><div class="name">Chico Parrott</div></a>
+<div class="reason">09/28/2024 | HOUSED FOR GREENE CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kendy-raymond/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/RAYMOND-KENDY.jpg" alt="Kendy Raymond"><div class="name">Kendy Raymond</div></a>
+<div class="reason">09/24/2024 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/henry-neal-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/NEAL-HENRY-2.jpg" alt="Henry Neal"><div class="name">Henry Neal</div></a>
+<div class="reason">09/24/2024 | HOUSED FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/rosalyn-mitchell-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/MITCHELL-ROSALYN.jpg" alt="Rosalyn Mitchell"><div class="name">Rosalyn Mitchell</div></a>
+<div class="reason">09/27/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/henry-neal-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/NEAL-HENRY-2.jpg" alt="Henry Neal"><div class="name">Henry Neal</div></a>
+<div class="reason">09/24/2024 | HOUSED FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tracey-hewell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/HEWELL-TRACEY-LYNN.jpg" alt="Tracey Hewell"><div class="name">Tracey Hewell</div></a>
+<div class="reason">09/24/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/frederick-ivey-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/IVEY-FREDERICK.jpg" alt="Frederick Ivey"><div class="name">Frederick Ivey</div></a>
+<div class="reason">09/24/2024 | HOUSED FOR ROCKDALE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/quenterius-mitchell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/MITCHELL-QUENTERIUS-DRONTE.jpg" alt="Quenterius Mitchell"><div class="name">Quenterius Mitchell</div></a>
+<div class="reason">09/24/2024 | POSSESSION OF HEROIN SCHEDULE 1 DRUGPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/james-glover-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/GLOVER-JAMES.jpg" alt="James Glover"><div class="name">James Glover</div></a>
+<div class="reason">09/24/2024 | POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF HEROIN SCHEDULE 1POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ned-hembree/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/HEMBREE-NED.jpg" alt="Ned Hembree"><div class="name">Ned Hembree</div></a>
+<div class="reason">09/24/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/sarah-hembree/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/HEMBREE-SARAH.jpg" alt="Sarah Hembree"><div class="name">Sarah Hembree</div></a>
+<div class="reason">09/24/2024 | THEFT BY SHOPLIFTINGTHEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/dameshia-gantt-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/GANTT-DAMESHIA-TERRA-LASHAYE-1.jpg" alt="Da’Meshia Gantt"><div class="name">Da’Meshia Gantt</div></a>
+<div class="reason">09/24/2024 | BOND SURRENDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/robert-bryant-33/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/BRYANT-ROBERT-KEITH.jpg" alt="Robert Bryant"><div class="name">Robert Bryant</div></a>
+<div class="reason">09/23/2024 | STOPPING, STANDING OR PARKING OUTSIDE OF A BUSINESS OR RESIDENCEDUI DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MOREPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/james-crowell-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/CROWELL-JAMES-WINSTON.jpg" alt="James Crowell"><div class="name">James Crowell</div></a>
+<div class="reason">09/24/2024 | PROBATION VIOLATION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kyle-blevins-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/BLEVINS-KYLE-THOMAS.jpg" alt="Kyle Blevins"><div class="name">Kyle Blevins</div></a>
+<div class="reason">09/24/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/keith-ackerman-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/ACKERMAN-KEITH-THOMAS-1.jpg" alt="Keith Ackerman"><div class="name">Keith Ackerman</div></a>
+<div class="reason">09/28/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kenneth-youngblood-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/YOUNGBLOOD-KENNETH-LEE-720x480.jpg" alt="Kenneth Youngblood"><div class="name">Kenneth Youngblood</div></a>
+<div class="reason">09/17/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/tammy-young-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/YOUNG-TAMMY-MICHELLE-1-720x480.jpg" alt="Tammy Young"><div class="name">Tammy Young</div></a>
+<div class="reason">09/19/2024 | SERVE 3 DAYS PER CITY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/damian-wright-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/WRIGHT-DAMIAN-ANDRE-720x480.jpg" alt="Damian Wright"><div class="name">Damian Wright</div></a>
+<div class="reason">09/20/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/shanequia-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/WILLIAMS-SHANEQUIA-LATRESS-720x480.jpg" alt="Shanequia Williams"><div class="name">Shanequia Williams</div></a>
+<div class="reason">09/18/2024 | POSSESSION OF COCAINEPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/alaejah-worrell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/WORRELL-ALAEJAH-720x480.jpg" alt="Alaejah Worrell"><div class="name">Alaejah Worrell</div></a>
+<div class="reason">09/20/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/lucas-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/WILLIAMS-LUCAS-ANTONIO-720x480.jpg" alt="Lucas Williams"><div class="name">Lucas Williams</div></a>
+<div class="reason">09/19/2024 | CRUELTY TO CHILDREN IN THE 3RD DEGREEBATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/billy-warren/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/WARREN-BILLY-CORTEZ-720x480.jpg" alt="Billy Warren"><div class="name">Billy Warren</div></a>
+<div class="reason">09/20/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/carlos-west/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/WEST-CARLOS-ANTONIO-720x480.jpg" alt="Carlos West"><div class="name">Carlos West</div></a>
+<div class="reason">09/17/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/joe-vinson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/VINSON-JOE-WAYNE-720x480.jpg" alt="Joe Vinson"><div class="name">Joe Vinson</div></a>
+<div class="reason">09/19/2024 | AGGRAVATED ASSAULTBATTERY/SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/william-thurman-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/THURMAN-WILLIAM-720x480.jpg" alt="William Thurman"><div class="name">William Thurman</div></a>
+<div class="reason">09/21/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/holly-steele/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/STEELE-HOLLY-AMANDA-720x480.jpg" alt="Holly Steele"><div class="name">Holly Steele</div></a>
+<div class="reason">09/19/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/lamarcus-stokes-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/STOKES-LAMARCUS-LORENZ-1-720x480.jpg" alt="Lamarcus Stokes"><div class="name">Lamarcus Stokes</div></a>
+<div class="reason">09/20/2024 | TO SERVE 3 DAYS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/amelia-riley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/RILEY-AMELIA-720x480.jpg" alt="Amelia Riley"><div class="name">Amelia Riley</div></a>
+<div class="reason">09/20/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/stan-schroeder/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/SCHROEDER-STAN-CHRISTIAN-720x480.jpg" alt="Stan Schroeder"><div class="name">Stan Schroeder</div></a>
+<div class="reason">09/19/2024 | LANDLORD'S DUTIES AS TO UTILITIES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/brandon-mullis-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/MULLIS-BRANDON-COLE-720x480.jpg" alt="Brandon Mullis"><div class="name">Brandon Mullis</div></a>
+<div class="reason">09/16/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/lakisha-ray-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/RAY-LAKISHA-ANNETTE-1-720x480.jpg" alt="Lakisha Ray"><div class="name">Lakisha Ray</div></a>
+<div class="reason">09/20/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/arley-morales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/MORALES-ARLEY-720x480.jpg" alt="Arley Morales"><div class="name">Arley Morales</div></a>
+<div class="reason">09/17/2024 | EXPIRED OR NO DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/robert-mahood-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/MAHOOD-ROBERT-720x480.jpg" alt="Robert Mahood"><div class="name">Robert Mahood</div></a>
+<div class="reason">09/21/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/denis-martinez-lopez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/MARTINEZ-LOPEZ-DENIS-OVIDIO-720x480.jpg" alt="Denis Martinez-Lopez"><div class="name">Denis Martinez-Lopez</div></a>
+<div class="reason">09/16/2024 | EXPIRED OR NO DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/malik-jordan-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/JORDAN-MALIK-CHRISTOPHER-720x480.jpg" alt="Malik Jordan"><div class="name">Malik Jordan</div></a>
+<div class="reason">09/20/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/lester-jones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/JONES-LESTER-720x480.jpg" alt="Lester Jones"><div class="name">Lester Jones</div></a>
+<div class="reason">09/22/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/jeremiah-jackson-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/JACKSON-JEREMIAH-DEANDRE-720x480.jpg" alt="Jeremiah Jackson"><div class="name">Jeremiah Jackson</div></a>
+<div class="reason">09/18/2024 | EXPIRED OR NO DRIVERS LICENSESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)FAILURE TO MAINTAIN INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/lane-jackson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/JACKSON-LANE-MARK-720x480.jpg" alt="Lane Jackson"><div class="name">Lane Jackson</div></a>
+<div class="reason">09/19/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/ronald-irvin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/IRVIN-RONALD-WAYNE-720x480.jpg" alt="Ronald Irvin"><div class="name">Ronald Irvin</div></a>
+<div class="reason">09/20/2024 | FLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICERSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)RECKLESS DRIVINGIMPROPER PASSINGAGGRESSIVE DRIVINGPOSSESSION OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/thomas-hannah-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/HANNAH-THOMAS-JEFFERY-720x480.jpg" alt="Thomas Hannah"><div class="name">Thomas Hannah</div></a>
+<div class="reason">09/17/2024 | HOUSED FOR GREENE COUNTY SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kandra-hardy-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/HARDY-KANDRA-NATASHA-720x480.jpg" alt="Kandra Hardy"><div class="name">Kandra Hardy</div></a>
+<div class="reason">09/19/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/anthony-gooden-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/GOODEN-ANTHONY-MAXWELL-720x480.jpg" alt="Anthony Gooden"><div class="name">Anthony Gooden</div></a>
+<div class="reason">09/16/2024 | HOUSED FOR GREENE CO SO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/dameshia-gantt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/GANTT-DAMESHIA-TERRA-LASHAYE-720x480.jpg" alt="Da’Meshia Gantt"><div class="name">Da’Meshia Gantt</div></a>
+<div class="reason">09/18/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/francisco-galindo-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/GALINDO-FRANCISCO-720x480.jpg" alt="Francisco Galindo"><div class="name">Francisco Galindo</div></a>
+<div class="reason">09/20/2024 | HOUSED FOR GREENE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/kayla-ellis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/ELLIS-KAYLA-RAE-720x480.jpg" alt="Kayla Ellis"><div class="name">Kayla Ellis</div></a>
+<div class="reason">09/16/2024 | POSSESSION OF OPEN ALCOHOL CONTAINERDRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/morgan/brendon-evans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/EVANS-BRENDON-THOMAS-720x480.jpg" alt="Brendon Evans"><div class="name">Brendon Evans</div></a>
+<div class="reason">09/22/2024 | HOUSED FOR GREENE COUNTY</div>
+</div>
+</div><div class="pagination"><a href="morgan4.html">Next Page</a></div></body></html>

@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/wanda-nalley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nalley-Wanda-Tench.jpg" alt="Wanda Nalley"><div class="name">Wanda Nalley</div></a>
+<div class="reason">02/22/2025 | POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEDUI - DRIVING UNDER THE INFLUENCE OF DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jamir-nichols/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nichols-Jamir.jpg" alt="Jamir Nichols"><div class="name">Jamir Nichols</div></a>
+<div class="reason">02/20/2025 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)EXPIRED OR NO REGISTRATION OR TITLEMARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/gary-mccollum/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McCollum-Gary.jpg" alt="Gary McCollum"><div class="name">Gary McCollum</div></a>
+<div class="reason">02/22/2025 | POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/estrada-margarito/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Margarito-Estrada-Rivera.jpg" alt="Estrada Margarito"><div class="name">Estrada Margarito</div></a>
+<div class="reason">02/17/2025 | FAILURE TO EXERCISE DUE CAREFAILURE TO MAINTAIN LANEDRIVING WITHOUT LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/shawn-mays-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mays-Shawn-Austin.jpg" alt="Shawn Mays"><div class="name">Shawn Mays</div></a>
+<div class="reason">02/22/2025 | WINDOW TINT VIOLATIONDRIVING WHILE LICENSE WITHDRAWNFAILURE TO MAINTAIN LANEFAILURE TO APPEAR - FELONYFAILURE TO APPEAR - FELONYHOLD FOR STEPHENS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jeffery-malone-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Malone-Jeffery.jpg" alt="Jeffery Malone"><div class="name">Jeffery Malone</div></a>
+<div class="reason">02/17/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tabitha-littleton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Littleton-Tabitha.jpg" alt="Tabitha Littleton"><div class="name">Tabitha Littleton</div></a>
+<div class="reason">02/23/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jeloni-jeter/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jeter-Jeloni.jpg" alt="Jeloni Jeter"><div class="name">Jeloni Jeter</div></a>
+<div class="reason">02/23/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/patricia-lewallen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lewallen-Patricia-Louise.jpg" alt="Patricia Lewallen"><div class="name">Patricia Lewallen</div></a>
+<div class="reason">02/19/2025 | HOLD FOR HABERSHAM COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/christy-hedden/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hedden-Christy-Deresia.jpg" alt="Christy Hedden"><div class="name">Christy Hedden</div></a>
+<div class="reason">02/21/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION OF COCAINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/anna-goss-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Goss-Anna-Morgan-Isabella.jpg" alt="Anna Goss"><div class="name">Anna Goss</div></a>
+<div class="reason">02/22/2025 | POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/quentin-galt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Galt-Quentin-Scott.jpg" alt="Quentin Galt"><div class="name">Quentin Galt</div></a>
+<div class="reason">02/17/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)POSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/salvador-gambino-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gambino-Salvador.jpg" alt="Salvador Gambino"><div class="name">Salvador Gambino</div></a>
+<div class="reason">02/23/2025 | TERRORISTIC THREATS AND ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/michael-gable-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gable-Michael-Vincent.jpg" alt="Michael Gable"><div class="name">Michael Gable</div></a>
+<div class="reason">02/23/2025 | FAILURE TO YIELD RIGHT OF WAY TO EMERGENCY VEHSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DUI - DRIVING UNDER THE INFLUENCE OF DRUGSPOSSESSION OF OPEN ALCOHOL CONTAINERHOLD FOR CHATHAM COUNTY SOHOLD FOR GWINNETT COUNTY SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/rivero-fernando/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fernando-Rivero-Tomas.jpg" alt="Rivero Fernando"><div class="name">Rivero Fernando</div></a>
+<div class="reason">02/20/2025 | DRIVING WITHOUT LICENSEIMPROPER USE OF CENTRAL TURN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/bobby-farley-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Farley-Bobby-Wayne.jpg" alt="Bobby Farley"><div class="name">Bobby Farley</div></a>
+<div class="reason">02/23/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG RELATED OBJECTSMISSING/DEFACED/OBSCURRED LICENSE PLATEDRIVER MUST APPLY FOR A NEW LICENSE WITHIN 60 DAYS OF A CHANGE OF NAME OR CHANGE OF ADDRESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/melissa-englin-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Englin-Melissa-Michelle.jpg" alt="Melissa Englin"><div class="name">Melissa Englin</div></a>
+<div class="reason">02/22/2025 | POSSESSION OF A SCHEDULE III, IV OR V CONTROLLED SUBSTANCE WITH INTENT TO DISTRIBUTE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/candy-combs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Combs-Candy.jpg" alt="Candy Combs"><div class="name">Candy Combs</div></a>
+<div class="reason">02/23/2025 | DEFECTIVE TIRESWINDOW TINT VIOLATIONWINDOW, WINDSHIELD, OR WIPER VIOLATIONFOLLOWING TOO CLOSELYDRIVING UNDER THE INFLUENCE/DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/davis-edwards/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Edwards-Davis-Lee.jpg" alt="Davis Edwards"><div class="name">Davis Edwards</div></a>
+<div class="reason">02/21/2025 | DRIVING UNDER THE INFLUENCE/ALCOHOLPOSSESSION OF OPEN ALCOHOL CONTAINERSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/christopher-colbert-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Colbert-Christopher-Rentrell.jpg" alt="Christopher Colbert"><div class="name">Christopher Colbert</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tanner-christian-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Christian-Tanner-Scott.jpg" alt="Tanner Christian"><div class="name">Tanner Christian</div></a>
+<div class="reason">02/18/2025 | POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSFAILURE TO APPEAR - FELONYFAILURE TO APPEAR - FELONYHOLD FOR GWINNETT COPOSSESSION, MANF. WITH INTENT [FELONY] SCH 1 & SCH 2MANUFACTURE/DELIVER/DISTRIBUTE/ADMINISTER/SELL/POSSESS W/INTENT TO DISTRIBUTE CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION,...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/michael-bryant-35/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bryant-Michael-Lynn.jpg" alt="Michael Bryant"><div class="name">Michael Bryant</div></a>
+<div class="reason">02/23/2025 | EXPIRED OR NO REGISTRATION OR TITLEFAILURE TO MAINTAIN INSURANCEEMERGING FROM ALLEY, DRIVEWAY, OR BUILDINGDRIVING WHILE LICENSE WITHDRAWNHOLD FOR PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tanner-christian-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Christian-Tanner-Scott.jpg" alt="Tanner Christian"><div class="name">Tanner Christian</div></a>
+<div class="reason">02/18/2025 | POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSFAILURE TO APPEAR - FELONYFAILURE TO APPEAR - FELONYHOLD FOR GWINNETT COPOSSESSION, MANF. WITH INTENT [FELONY] SCH 1 & SCH 2MANUFACTURE/DELIVER/DISTRIBUTE/ADMINISTER/SELL/POSSESS W/INTENT TO DISTRIBUTE CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION,...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/michael-bryant-35/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bryant-Michael-Lynn.jpg" alt="Michael Bryant"><div class="name">Michael Bryant</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/alexis-brogdon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brogdon-Alexis-Kay.jpg" alt="Alexis Brogdon"><div class="name">Alexis Brogdon</div></a>
+<div class="reason">02/22/2025 | POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/joshua-brock-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brock-Joshua-Curtis.jpg" alt="Joshua Brock"><div class="name">Joshua Brock</div></a>
+<div class="reason">02/23/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLEXPIRED OR NO REGISTRATION OR TITLEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/michael-belcher-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Belcher-Michael-Irving.jpg" alt="Michael Belcher"><div class="name">Michael Belcher</div></a>
+<div class="reason">02/19/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/danny-brannon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brannon-Danny-Cordes.jpg" alt="Danny Brannon"><div class="name">Danny Brannon</div></a>
+<div class="reason">02/19/2025 | BRAKE LIGHT/TURN SIGNAL VIOLATIONDRIVING WHILE LICENSE WITHDRAWNFAILURE TO MAINTAIN INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jerimah-williams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Jerimah-Nathan.jpg" alt="Jerimah Williams"><div class="name">Jerimah Williams</div></a>
+<div class="reason">02/11/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/paul-akin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Akin-Paul-Peeples.jpg" alt="Paul Akin"><div class="name">Paul Akin</div></a>
+<div class="reason">02/16/2025 | FAILURE TO MAINTAIN LANEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/james-veal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Veal-James-Warren.jpg" alt="James Veal"><div class="name">James Veal</div></a>
+<div class="reason">02/15/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)PRESCRIPTION DRUGS MUST BE IN THEIR ORIGINAL CONTAINER(S)POSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/andrew-tester/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Tester-Andrew-Douglas.jpg" alt="Andrew Tester"><div class="name">Andrew Tester</div></a>
+<div class="reason">02/15/2025 | MANUFACTURE/DELIVER/DISTRIBUTE/ADMINISTER/SELL/POSSESS W/INTENT TO DISTRIBUTE CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/dexter-strickland-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Strickland-Dexter-Charles.jpg" alt="Dexter Strickland"><div class="name">Dexter Strickland</div></a>
+<div class="reason">02/14/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/donald-snyder/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Snyder-Donald.jpg" alt="Donald Snyder"><div class="name">Donald Snyder</div></a>
+<div class="reason">02/14/2025 | PRESCRIPTION DRUGS MUST BE IN THEIR ORIGINAL CONTAINER(S)POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/john-shoemaker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shoemaker-John-Travis.jpg" alt="John Shoemaker"><div class="name">John Shoemaker</div></a>
+<div class="reason">02/11/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/malachi-shockey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shockey-Malachi-Lee.jpg" alt="Malachi Shockey"><div class="name">Malachi Shockey</div></a>
+<div class="reason">02/16/2025 | BURGLARY-1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jason-shehorn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shehorn-Jason-Jericho.jpg" alt="Jason Shehorn"><div class="name">Jason Shehorn</div></a>
+<div class="reason">02/14/2025 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/charles-rayford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rayford-Charles.jpg" alt="Charles Rayford"><div class="name">Charles Rayford</div></a>
+<div class="reason">02/12/2025 | POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEWINDOW TINT VIOLATIONEXPIRED OR NO REGISTRATION OR TITLECHILD RESTRAINT VIOLATION (UNDER 8 YEARS OF AGE)DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/regina-peaks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Peaks-Regina-Leanne.jpg" alt="Regina Peaks"><div class="name">Regina Peaks</div></a>
+<div class="reason">02/14/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)POSSESSION OF OPEN ALCOHOL CONTAINERDRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/onil-mejia-calderon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mejia-Calderon-Onil.jpg" alt="Onil Mejia Calderon"><div class="name">Onil Mejia Calderon</div></a>
+<div class="reason">02/12/2025 | DRIVING WITHOUT LICENSECOMMERCIAL VEHICLE DRIVER QUALIFICATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/marlon-mendez-anariba/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mendez-Anariba-Marlon.jpg" alt="Marlon Mendez Anariba"><div class="name">Marlon Mendez Anariba</div></a>
+<div class="reason">02/13/2025 | FAILURE TO MAINTAIN LANEDRIVING WITHOUT LICENSEHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENTPOSSESSION OF OPEN ALCOHOL CONTAINERDRIVER MUST APPLY FOR A NEW LICENSE WITHIN 60 DAYS OF A CHANGE OF NAME OR CHANGE OF ADDRESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ferry-mcilwain-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McIlwain-Ferry.jpg" alt="Ferry McIlwain"><div class="name">Ferry McIlwain</div></a>
+<div class="reason">02/14/2025 | SENTENCED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/alex-maynard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Maynard-Alex-Mitchell.jpg" alt="Alex Maynard"><div class="name">Alex Maynard</div></a>
+<div class="reason">02/12/2025 | DRIVING WITHOUT LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/thony-mathieu/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mathieu-Thony.jpg" alt="Thony Mathieu"><div class="name">Thony Mathieu</div></a>
+<div class="reason">02/13/2025 | FAILURE TO EXERCISE DUE CARE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/olivia-loudermilk/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Loudermilk-Olivia-Autumn.jpg" alt="Olivia Loudermilk"><div class="name">Olivia Loudermilk</div></a>
+<div class="reason">02/13/2025 | HOLD FOR GREENVILLE COUNTY, SC</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ohn-mar-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mar-Ohn.jpg" alt="Ohn Mar"><div class="name">Ohn Mar</div></a>
+<div class="reason">02/13/2025 | GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICEROBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/lacey-kirk-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kirk-Lacey-Aurelia.jpg" alt="Lacey Kirk"><div class="name">Lacey Kirk</div></a>
+<div class="reason">02/16/2025 | POSSESSION AND USE OF DRUG RELATED OBJECTSMARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION OF METHAMPHETAMINEPOSSESSION OF A SCHEDULE IIPOSSESSION OF A SCHEDULE IIEXPIRED OR NO REGISTRATION OR TITLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/olivin-herrera-galvez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Herrera-Galvez-Olivin-Yeriel.jpg" alt="Olivin Herrera-Galvez"><div class="name">Olivin Herrera-Galvez</div></a>
+<div class="reason">02/16/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WITHOUT LICENSEEXPIRED OR NO REGISTRATION OR TITLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/heather-holler/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Holler-Heather-Marie.jpg" alt="Heather Holler"><div class="name">Heather Holler</div></a>
+<div class="reason">02/13/2025 | POSESSION OF MARIJUANAPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/andrew-headen-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Headen-Andrew-Lee.jpg" alt="Andrew Headen"><div class="name">Andrew Headen</div></a>
+<div class="reason">02/12/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/kyle-hamburg/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hamburg-Kyle-Nicholas.jpg" alt="Kyle Hamburg"><div class="name">Kyle Hamburg</div></a>
+<div class="reason">02/11/2025 | FAILURE TO SIGNAL LANE CHANGE OR TURNDRIVING UNDER THE INFLUENCE/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/romaine-haywood/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Haywood-Romaine-Damar.jpg" alt="Romaine Haywood"><div class="name">Romaine Haywood</div></a>
+<div class="reason">02/11/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/brian-gomez-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gomez-Brian-Charlie.jpg" alt="Brian Gomez"><div class="name">Brian Gomez</div></a>
+<div class="reason">02/11/2025 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEWINDOW TINT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/christian-gibson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gibson-Christian-Xavier.jpg" alt="Christian Gibson"><div class="name">Christian Gibson</div></a>
+<div class="reason">02/10/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEDRIVING UNDER INFLUENCE DRUGS/ALCOHOLSEAT BELT VIOLATIONEXPIRED OR NO REGISTRATION OR TITLESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)MARIJUANA-POSSESS LESS THAN 1 OZ.CROSSING GUARD LINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/james-ellington-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ellington-James-Ross.jpg" alt="James Ellington"><div class="name">James Ellington</div></a>
+<div class="reason">02/10/2025 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/savannah-garrett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Garrett-Savannah-Kay.jpg" alt="Savannah Garrett"><div class="name">Savannah Garrett</div></a>
+<div class="reason">02/15/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/taylor-dodds/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dodds-Taylor.jpg" alt="Taylor Dodds"><div class="name">Taylor Dodds</div></a>
+<div class="reason">02/15/2025 | POSSESS W/INTENT TO OR SELL/DELIVER/DISTRIBUTE/DISPLAY, OR PROVIDE A MINOR ANY DRUG RELATED OBJECT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/robert-crocker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Crocker-Robert-Eligah.jpg" alt="Robert Crocker"><div class="name">Robert Crocker</div></a>
+<div class="reason">02/15/2025 | MANUFACTURE/DELIVER/DISTRIBUTE/ADMINISTER/SELL/POSSESS W/INTENT TO DISTRIBUTE CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/daniel-cook-23/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cook-Daniel-Ray.jpg" alt="Daniel Cook"><div class="name">Daniel Cook</div></a>
+<div class="reason">02/13/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO MAINTAIN INSURANCEEXPIRED OR NO REGISTRATION OR TITLEREMOVING OR AFFIXING LICENSE PLATE WITH INTENT TO CONCEAL OR MISREPRESENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/daniel-canada/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Canada-Daniel-Clifton.jpg" alt="Daniel Canada"><div class="name">Daniel Canada</div></a>
+<div class="reason">02/14/2025 | THEFT BY BRINGING STOLEN PROPERTY INTO STATE - FELONYSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/harvard-chavis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chavis-Harvard-Dean.jpg" alt="Harvard Chavis"><div class="name">Harvard Chavis</div></a>
+<div class="reason">02/13/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/daniel-brogan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brogan-Daniel-Lee-1.jpg" alt="Daniel Brogan"><div class="name">Daniel Brogan</div></a>
+<div class="reason">02/13/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/stephen-bolmon-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bolmon-Stephen-Eric.jpg" alt="Stephen Bolmon"><div class="name">Stephen Bolmon</div></a>
+<div class="reason">02/10/2025 | HARASSING PHONE CALLSSIMPLE BATTERYHOLD FOR BARROW COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/walter-benson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Benson-Walter-O.jpg" alt="Walter Benson"><div class="name">Walter Benson</div></a>
+<div class="reason">02/13/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)WINDOW TINT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/juliana-barbosa-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Barbosa-Juliana-Grace.jpg" alt="Juliana Barbosa"><div class="name">Juliana Barbosa</div></a>
+<div class="reason">02/16/2025 | BURGLARY-1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jazmin-aldrich/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Aldrich-Jazmin-Shamaine.jpg" alt="Jazmin Aldrich"><div class="name">Jazmin Aldrich</div></a>
+<div class="reason">02/14/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/james-wynn-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wynn-James-Lee.jpg" alt="James Wynn"><div class="name">James Wynn</div></a>
+<div class="reason">01/19/2025 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/michael-willis-23/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Willis-Michael-Walter.jpg" alt="Michael Willis"><div class="name">Michael Willis</div></a>
+<div class="reason">02/07/2025 | POSSESSION MANUFACTURE MARIJUANAPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/arthur-womble-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Womble-Arthur-Baker.jpg" alt="Arthur Womble"><div class="name">Arthur Womble</div></a>
+<div class="reason">01/30/2025 | POSSESSION OF OPEN ALCOHOL CONTAINERPOSSESSION OF OPEN ALCOHOL CONTAINERPOSSESSION OF OPEN ALCOHOL CONTAINERPOSSESSION OF OPEN ALCOHOL CONTAINERPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/lashanda-willis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Willis-Lashanda-Roslin.jpg" alt="Lashanda Willis"><div class="name">Lashanda Willis</div></a>
+<div class="reason">02/04/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.CRIMINAL TRESPASSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/todd-williams-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Todd-Jeffery.jpg" alt="Todd Williams"><div class="name">Todd Williams</div></a>
+<div class="reason">01/30/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG RELATED OBJECTSWINDOW, WINDSHIELD, OR WIPER VIOLATIONIMPROPER STARTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/kazlynn-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Kazlynn.jpg" alt="Kazlynn Williams"><div class="name">Kazlynn Williams</div></a>
+<div class="reason">01/24/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/marcques-williams-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Marcques-Kentrell.jpg" alt="Marcques Williams"><div class="name">Marcques Williams</div></a>
+<div class="reason">01/09/2025 | SHOPLIFTINGPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYBURGLARY - 2ND DEGREECRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/kasim-williams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Kasim-Devon-2.jpg" alt="Kasim Williams"><div class="name">Kasim Williams</div></a>
+<div class="reason">01/31/2025 | HOLD FOR ROCKDALE COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/keith-white-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/White-Keith-William.jpg" alt="Keith White"><div class="name">Keith White</div></a>
+<div class="reason">01/08/2025 | BATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/lashawn-wilds/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wilds-Lashawn-Michael.jpg" alt="Lashawn Wilds"><div class="name">Lashawn Wilds</div></a>
+<div class="reason">01/17/2025 | THEFT BY BRINGING STOLEN PROPERTY INTO STATE - FELONYFLEEING OR ATTEMPTING TO ELUDE POLICE OFFICERDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/chet-wheeler-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wheeler-Chet-Matthew.jpg" alt="Chet Wheeler"><div class="name">Chet Wheeler</div></a>
+<div class="reason">01/27/2025 | FAILURE TO APPEAR - FELONYHOLD FOR TOWNS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tesla-weeks-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Weeks-Tesla-Hope.jpg" alt="Tesla Weeks"><div class="name">Tesla Weeks</div></a>
+<div class="reason">01/25/2025 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLFOLLOWING TOO CLOSELYDRIVING WHILE LICENSE WITHDRAWNHOLD FOR STEPHENS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jade-lei-watford-lamar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Watford-Lamar-Jade-Lei-V.jpg" alt="Jade-Lei Watford-Lamar"><div class="name">Jade-Lei Watford-Lamar</div></a>
+<div class="reason">02/05/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/brandon-watkins-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Watkins-Brandon-Lee.jpg" alt="Brandon Watkins"><div class="name">Brandon Watkins</div></a>
+<div class="reason">01/27/2025 | SENTENCED AT COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/scott-wallis-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wallis-Scott-Allan-1.jpg" alt="Scott Wallis"><div class="name">Scott Wallis</div></a>
+<div class="reason">01/21/2025 | VIOLATION OF FAMILY VIOLENCE ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/daniel-walden-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Walden-Daniel-Thomas.jpg" alt="Daniel Walden"><div class="name">Daniel Walden</div></a>
+<div class="reason">02/07/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)MARIJUANA-POSSESS LESS THAN 1 OZ.DUI - DRIVING UNDER THE INFLUENCE OF DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/scott-wallis-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wallis-Scott-Allan.jpg" alt="Scott Wallis"><div class="name">Scott Wallis</div></a>
+<div class="reason">01/02/2025 | THEFT BY TAKING - FELONYTHEFT BY TAKING - FELONYBATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/rusty-wade/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wade-Rusty-Daniel.jpg" alt="Rusty Wade"><div class="name">Rusty Wade</div></a>
+<div class="reason">01/30/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCETAILLIGHTS / TAILLIGHT LENSES REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/virginia-uselton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Uselton-Virginia-Lee.jpg" alt="Virginia Uselton"><div class="name">Virginia Uselton</div></a>
+<div class="reason">12/30/2024 | DRIVING UNDER THE INFLUENCE/ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/brent-turpin-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Turpin-Brent-Edward.jpg" alt="Brent Turpin"><div class="name">Brent Turpin</div></a>
+<div class="reason">01/02/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/theodore-tinch/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Tinch-Theodore-Elijah.jpg" alt="Theodore Tinch"><div class="name">Theodore Tinch</div></a>
+<div class="reason">02/09/2025 | DRIVING UNDER THE INFLUENCE/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/stephanie-turner-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Turner-Stephanie-Nicole.jpg" alt="Stephanie Turner"><div class="name">Stephanie Turner</div></a>
+<div class="reason">01/02/2025 | HOLD FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/deon-taylor-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Taylor-Deon-Devmether.jpg" alt="Deon Taylor"><div class="name">Deon Taylor</div></a>
+<div class="reason">01/01/2025 | POSSESSION OF OPEN ALCOHOL CONTAINERDRIVING WITHOUT LICENSEMARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/william-sunkins-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sunkins-William-Phillip-Thomas.jpg" alt="William Sunkins"><div class="name">William Sunkins</div></a>
+<div class="reason">12/31/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLPOSSESSION OF OPEN ALCOHOL CONTAINERSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/david-stowers-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stowers-David-Jerome.jpg" alt="David Stowers"><div class="name">David Stowers</div></a>
+<div class="reason">01/16/2025 | FAILURE TO MAINTAIN LANEDRIVING UNDER THE INFLUENCE/ALCOHOLDEFECTIVE TIRES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tydassah-stripling/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stripling-Tydassah-Brooke.jpg" alt="Tydassah Stripling"><div class="name">Tydassah Stripling</div></a>
+<div class="reason">02/09/2025 | DRIVING WHILE LICENSE WITHDRAWNFAILURE TO OBEY STOP SIGNPOSSESSION OF A SCHEDULE I OR II CONTROLLED SUBSTANCE WITH INTENT TO DISTRIBUTEPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/johnny-story-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Story-Johnny-Eugene.jpg" alt="Johnny Story"><div class="name">Johnny Story</div></a>
+<div class="reason">01/27/2025 | THEFT BY TAKING - FELONYDRIVING WHILE LICENSE WITHDRAWNPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYHOLD FOR STEPHENS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/mark-stone/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stone-Mark-Edward.jpg" alt="Mark Stone"><div class="name">Mark Stone</div></a>
+<div class="reason">01/27/2025 | POSSESSION OF OPEN ALCOHOL CONTAINERDRIVING UNDER INFLUENCE DRUGS/ALCOHOLHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENTFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/johnny-story-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Story-Johnny-Eugene.jpg" alt="Johnny Story"><div class="name">Johnny Story</div></a>
+<div class="reason">01/27/2025 | THEFT BY TAKING - FELONYDRIVING WHILE LICENSE WITHDRAWNPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYHOLD FOR STEPHENS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/mark-stone/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stone-Mark-Edward.jpg" alt="Mark Stone"><div class="name">Mark Stone</div></a>
+<div class="reason">01/27/2025 | POSSESSION OF OPEN ALCOHOL CONTAINERDRIVING UNDER INFLUENCE DRUGS/ALCOHOLHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENTFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jamir-stokes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stokes-Jamir.jpg" alt="Jamir Stokes"><div class="name">Jamir Stokes</div></a>
+<div class="reason">01/02/2025 | SEAT BELT VIOLATIONWINDOW TINT VIOLATIONPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/warner-stinson-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stinson-Warner-Leon.jpg" alt="Warner Stinson"><div class="name">Warner Stinson</div></a>
+<div class="reason">01/15/2025 | POSSESSION OF METHAMPHETAMINECRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/alexander-stephenson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stephenson-Alexander-David.jpg" alt="Alexander Stephenson"><div class="name">Alexander Stephenson</div></a>
+<div class="reason">01/05/2025 | FLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICERSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)FAILURE TO OBEY STOP SIGNRECKLESS DRIVINGSEAT BELT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/erin-spears-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Spears-Erin-Davis-1.jpg" alt="Erin Spears"><div class="name">Erin Spears</div></a>
+<div class="reason">02/01/2025 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ida-springer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Springer-Ida-L.jpg" alt="Ida Springer"><div class="name">Ida Springer</div></a>
+<div class="reason">01/24/2025 | POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/brendan-sopo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sopo-Brendan-Alexander.jpg" alt="Brendan Sopo"><div class="name">Brendan Sopo</div></a>
+<div class="reason">01/31/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEDRIVING UNDER INFLUENCE DRUGS/ALCOHOLSEAT BELT VIOLATIONMARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/cedric-smith-26/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Cedric-Bernard.jpg" alt="Cedric Smith"><div class="name">Cedric Smith</div></a>
+<div class="reason">01/16/2025 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/james-smith-277/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-James-Roosevelt.jpg" alt="James Smith"><div class="name">James Smith</div></a>
+<div class="reason">01/10/2025 | FAILURE TO HAVE LICENSE ON PERSONFAILURE TO MAINTAIN INSURANCEEXPIRED OR NO REGISTRATION OR TITLEHOLD FOR BARROW COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/john-shirley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shirley-John-Thomas.jpg" alt="John Shirley"><div class="name">John Shirley</div></a>
+<div class="reason">01/18/2025 | KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/brian-segars-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Segars-Brian-Keith.jpg" alt="Brian Segars"><div class="name">Brian Segars</div></a>
+<div class="reason">01/24/2025 | HOLD FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/william-scott-25/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Scott-William-Lee.jpg" alt="William Scott"><div class="name">William Scott</div></a>
+<div class="reason">01/19/2025 | DEFECTIVE TIRESTAILLIGHTS / TAILLIGHT LENSES REQUIREDFAILURE TO MAINTAIN LANEPOSSESSION OF OPEN ALCOHOL CONTAINERDRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/emory-rowell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rowell-Emory-Chris.jpg" alt="Emory Rowell"><div class="name">Emory Rowell</div></a>
+<div class="reason">01/17/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/julian-salinas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Salinas-Julian-Joshua.jpg" alt="Julian Salinas"><div class="name">Julian Salinas</div></a>
+<div class="reason">01/26/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.EXPIRED OR NO REGISTRATION OR TITLEFAILURE TO MAINTAIN LANEHEADLIGHT REQUIREMENTSDRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/andrea-rouse-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rouse-Andrea-Nicole.jpg" alt="Andrea Rouse"><div class="name">Andrea Rouse</div></a>
+<div class="reason">01/15/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jose-rojas-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rojas-Jose-F.jpg" alt="Jose Rojas"><div class="name">Jose Rojas</div></a>
+<div class="reason">01/29/2025 | DRIVING WHILE LICENSE WITHDRAWNSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/steven-rogers-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rogers-Steven-Kyle.jpg" alt="Steven Rogers"><div class="name">Steven Rogers</div></a>
+<div class="reason">01/10/2025 | POSSESSION OF OPEN ALCOHOL CONTAINERDUI - DRIVING UNDER THE INFLUENCE OF DRUGSEXPIRED OR NO REGISTRATION OR TITLEPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEOPERATING W/OUT LIGHTS REQUIRED BY LAWPRESCRIPTION DRUGS MUST BE IN...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jose-rojas-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rojas-Jose-F.jpg" alt="Jose Rojas"><div class="name">Jose Rojas</div></a>
+<div class="reason">01/29/2025 | DRIVING WHILE LICENSE WITHDRAWNSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/steven-rogers-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rogers-Steven-Kyle.jpg" alt="Steven Rogers"><div class="name">Steven Rogers</div></a>
+<div class="reason">01/10/2025 | POSSESSION OF OPEN ALCOHOL CONTAINERDUI - DRIVING UNDER THE INFLUENCE OF DRUGSEXPIRED OR NO REGISTRATION OR TITLEPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCEOPERATING W/OUT LIGHTS REQUIRED BY LAWPRESCRIPTION DRUGS MUST BE IN...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/torey-rodgers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rodgers-Torey-Breahnah.jpg" alt="Torey Rodgers"><div class="name">Torey Rodgers</div></a>
+<div class="reason">01/24/2025 | POSSESSION OF METHAMPHETAMINE WITH INTENT TO DISTRIBUTEPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/shannon-roebuck-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Roebuck-Shannon-Annell-1.jpg" alt="Shannon Roebuck"><div class="name">Shannon Roebuck</div></a>
+<div class="reason">02/04/2025 | SUPERIOR COURT BENCH WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/shaun-roberts/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Roberts-Shaun.jpg" alt="Shaun Roberts"><div class="name">Shaun Roberts</div></a>
+<div class="reason">01/21/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESCOMMERCIAL VEHICLE DRIVER QUALIFICATION VIOLATIONFAILURE TO OBEY SIGNS OR CONTROL DEVICES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/lisa-rivera/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rivera-Lisa.jpg" alt="Lisa Rivera"><div class="name">Lisa Rivera</div></a>
+<div class="reason">01/24/2025 | POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/john-reisner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Reisner-John-Ross.jpg" alt="John Reisner"><div class="name">John Reisner</div></a>
+<div class="reason">01/16/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/shontaveous-riley-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Riley-Shontaveous-Latoya.jpg" alt="Shontaveous Riley"><div class="name">Shontaveous Riley</div></a>
+<div class="reason">02/08/2025 | DISORDERLY CONDUCTMARIJUANA-POSSESS LESS THAN 1 OZ.OBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANORPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANORPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/john-reed-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Reed-John-Baker-1.jpg" alt="John Reed"><div class="name">John Reed</div></a>
+<div class="reason">01/05/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANORHOLD FOR HART CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/deiondre-ramsey-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ramsey-Deiondre-Harrise.jpg" alt="Deiondre Ramsey"><div class="name">Deiondre Ramsey</div></a>
+<div class="reason">01/30/2025 | HOLD FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/diante-ramsey-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ramsey-Diante-Xavier.jpg" alt="Diante Ramsey"><div class="name">Diante Ramsey</div></a>
+<div class="reason">01/31/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jimmy-ramey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ramey-Jimmy-Hansel.jpg" alt="Jimmy Ramey"><div class="name">Jimmy Ramey</div></a>
+<div class="reason">01/17/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ben-quick-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Quick-Ben-Junior.jpg" alt="Ben Quick"><div class="name">Ben Quick</div></a>
+<div class="reason">02/05/2025 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/leslie-pullian/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pullian-Leslie-Paul.jpg" alt="Leslie Pullian"><div class="name">Leslie Pullian</div></a>
+<div class="reason">02/07/2025 | COURT ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/patricia-pruitt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pruitt-Patricia-Ann.jpg" alt="Patricia Pruitt"><div class="name">Patricia Pruitt</div></a>
+<div class="reason">02/04/2025 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/mario-price-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Price-Mario-Montez.jpg" alt="Mario Price"><div class="name">Mario Price</div></a>
+<div class="reason">01/04/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WITHOUT LICENSESEAT BELT VIOLATIONPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/shakima-price-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Price-Shakima-Latrice.jpg" alt="Shakima Price"><div class="name">Shakima Price</div></a>
+<div class="reason">01/28/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/dimitry-poole/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Poole-Dimitry-Jack.jpg" alt="Dimitry Poole"><div class="name">Dimitry Poole</div></a>
+<div class="reason">01/09/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jason-prather-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Prather-Jason-Keith.jpg" alt="Jason Prather"><div class="name">Jason Prather</div></a>
+<div class="reason">01/12/2025 | HOME INVASION 1STPEDESTRIAN UNDER THE INFLUENCE OF ALCOHOL OR DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/rafael-perez-ramirez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Perez-Ramirez-Rafael-Genaro.jpg" alt="Rafael Perez Ramirez"><div class="name">Rafael Perez Ramirez</div></a>
+<div class="reason">02/03/2025 | WINDOW TINT VIOLATIONDRIVING WITHOUT LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/christopher-peoples/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Peoples-Christopher-Lamain.jpg" alt="Christopher Peoples"><div class="name">Christopher Peoples</div></a>
+<div class="reason">02/08/2025 | DUI - MARIJUANAFOLLOWING TOO CLOSELYFAILURE TO SIGNAL LANE CHANGE OR TURN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/neftali-perez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Perez-Neftali-Cruz.jpg" alt="Neftali Perez"><div class="name">Neftali Perez</div></a>
+<div class="reason">01/12/2025 | DRIVING WITHOUT LICENSESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jeanpier-peluffo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Peluffo-Jeanpier-Arauvjo.jpg" alt="Jeanpier Peluffo"><div class="name">Jeanpier Peluffo</div></a>
+<div class="reason">01/15/2025 | DRIVING WITHOUT LICENSECHILD RESTRAINT VIOLATION (UNDER 8 YEARS OF AGE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/charles-patterson-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Patterson-Charles-Patrick.jpg" alt="Charles Patterson"><div class="name">Charles Patterson</div></a>
+<div class="reason">02/09/2025 | POSSESSION OF COCAINE WITH INTENT TO DISTRIBUTEPOSSESSION OF METHAMPHETAMINE WITH INTENT TO DISTRIBUTEPOSSESSION AND USE OF DRUG RELATED OBJECTSMARIJUANA-POSSESS LESS THAN 1 OZ.FAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/raymond-mason/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mason-Raymond-Antonio.jpg" alt="Raymond Mason"><div class="name">Raymond Mason</div></a>
+<div class="reason">01/05/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.DUI - DRIVING UNDER THE INFLUENCE OF DRUGSSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/christian-marycz-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Marycz-Christian-Tyler.jpg" alt="Christian Marycz"><div class="name">Christian Marycz</div></a>
+<div class="reason">01/01/2025 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/geoffery-manus/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Manus-Geoffery-Scott.jpg" alt="Geoffery Manus"><div class="name">Geoffery Manus</div></a>
+<div class="reason">01/11/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYHOLD FOR BANKS COPAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/david-marks-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Marks-David.jpg" alt="David Marks"><div class="name">David Marks</div></a>
+<div class="reason">02/07/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDEFECTIVE EQUIPMENT/UNSAFE VEHICLEDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/natisha-lowe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lowe-Natisha-Lanice.jpg" alt="Natisha Lowe"><div class="name">Natisha Lowe</div></a>
+<div class="reason">01/22/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF MARIJUANA LESS THAN 1 OZDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)POSSESSION OF OPEN ALCOHOL CONTAINERUNSAFE OPERATION OF VEHICLEDEFECTIVE TIRESPOSSESSION AND USE OF DRUG RELATED OBJECTSREGISTRATION AND LICENSE REQUIREMENTSPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tina-loner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Loner-Tina-Michelle.jpg" alt="Tina Loner"><div class="name">Tina Loner</div></a>
+<div class="reason">02/04/2025 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/virginia-norris/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Norris-Virginia-Lee.jpg" alt="Virginia Norris"><div class="name">Virginia Norris</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ron-nixon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nixon-Ron.jpg" alt="Ron Nixon"><div class="name">Ron Nixon</div></a>
+<div class="reason">01/09/2025 | FAILURE TO EXERCISE DUE CAREDRIVING WHILE LICENSE WITHDRAWNCOMMERCIAL VEHICLE DRIVER QUALIFICATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/dei-pitts/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pitts-Dei-Sean-Akeise.jpg" alt="Dei Pitts"><div class="name">Dei Pitts</div></a>
+<div class="reason">02/08/2025 | POSESSION OF MARIJUANAWINDOW TINT VIOLATIONPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/raashaun-newman-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Newman-Raashaun-Deshay.jpg" alt="Raashaun Newman"><div class="name">Raashaun Newman</div></a>
+<div class="reason">02/03/2025 | IDENTITY FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/derrick-newkirk/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Newkirk-Derrick-M.jpg" alt="Derrick Newkirk"><div class="name">Derrick Newkirk</div></a>
+<div class="reason">01/07/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/maurice-nesbitt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nesbitt-Maurice-M.jpg" alt="Maurice Nesbitt"><div class="name">Maurice Nesbitt</div></a>
+<div class="reason">01/07/2025 | SENTENCED TO DOC</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/michael-nash-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nash-Michael-Darrell.jpg" alt="Michael Nash"><div class="name">Michael Nash</div></a>
+<div class="reason">01/01/2025 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/nataleigh-neave/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Neave-Nataleigh-Starr.jpg" alt="Nataleigh Neave"><div class="name">Nataleigh Neave</div></a>
+<div class="reason">01/30/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/takias-nails-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nails-Takias-Terrell.jpg" alt="Takias Nails"><div class="name">Takias Nails</div></a>
+<div class="reason">01/30/2025 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/maria-moreno-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Moreno-Maria-Guadalupe.jpg" alt="Maria Moreno"><div class="name">Maria Moreno</div></a>
+<div class="reason">01/19/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WITHOUT LICENSEPOSSESSION OF OPEN ALCOHOL CONTAINEREXPIRED OR NO REGISTRATION OR TITLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/harold-morris-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Morris-Harold-James.jpg" alt="Harold Morris"><div class="name">Harold Morris</div></a>
+<div class="reason">01/14/2025 | OBSTRUCTION OF OFFICERCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/cody-moran/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Moran-Cody-James.jpg" alt="Cody Moran"><div class="name">Cody Moran</div></a>
+<div class="reason">01/15/2025 | TAILLIGHTS / TAILLIGHT LENSES REQUIREDDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/nelson-morales-ortiz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Morales-Ortiz-Nelson-J.jpg" alt="Nelson Morales Ortiz"><div class="name">Nelson Morales Ortiz</div></a>
+<div class="reason">01/01/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLHOLD FOR NORCROSS PD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/aliaksei-miranovich/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Miranovich-Aliaksei.jpg" alt="Aliaksei Miranovich"><div class="name">Aliaksei Miranovich</div></a>
+<div class="reason">01/11/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (FELONY) (FOURTH OR SUBSEQUENT OFFENSE)FAILURE TO MAINTAIN LANEEXPIRED OR NO REGISTRATION OR TITLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/mika-mitchum-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mitchum-Mika-Alexandra.jpg" alt="Mika Mitchum"><div class="name">Mika Mitchum</div></a>
+<div class="reason">01/14/2025 | SUPERIOR COURT BENCH WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tye-mintz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mintz-Tye-Carter.jpg" alt="Tye Mintz"><div class="name">Tye Mintz</div></a>
+<div class="reason">02/01/2025 | FAILURE TO OBEY SIGNS OR CONTROL DEVICESNO LOG BOOKMARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/brandon-mcfarlin-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McFarlin-Brandon-Lee.jpg" alt="Brandon McFarlin"><div class="name">Brandon McFarlin</div></a>
+<div class="reason">01/06/2025 | FAILURE TO MAINTAIN INSURANCEEXPIRED OR NO REGISTRATION OR TITLEIMPROPER U TURNDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tykeshia-meadows/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Meadows-Tykeshia-Renee.jpg" alt="Tykeshia Meadows"><div class="name">Tykeshia Meadows</div></a>
+<div class="reason">02/08/2025 | FAILURE TO YIELD RIGHT OF WAY TO EMERGENCY VEHDRIVING WITHOUT LICENSESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jessica-mcdaniel-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McDaniel-Jessica-Lynn.jpg" alt="Jessica McDaniel"><div class="name">Jessica McDaniel</div></a>
+<div class="reason">01/03/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)WINDOW, WINDSHIELD, OR WIPER VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/phillip-maynard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Maynard-Phillip-Randal.jpg" alt="Phillip Maynard"><div class="name">Phillip Maynard</div></a>
+<div class="reason">01/19/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE SUSPENDED OR REVOKED (FELONY) (FOURTH OR SUBSEQUENT OFFENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/kieth-mcclymont/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McClymont-Kieth-Alexander.jpg" alt="Kieth McClymont"><div class="name">Kieth McClymont</div></a>
+<div class="reason">02/07/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/charles-mayfield/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mayfield-Charles-Detory.jpg" alt="Charles Mayfield"><div class="name">Charles Mayfield</div></a>
+<div class="reason">01/05/2025 | AGGRAVATED ASSAULTCRIMINAL TRESPASSBATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISDOBSTRUCTING OR HINDERING PERSONS MAKING EMERGENCY TELEPHONE CALLHOLD FOR STEPHENS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/damsacus-mayes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mayes-Damsacus-Shaiquez.jpg" alt="Damsacus Mayes"><div class="name">Damsacus Mayes</div></a>
+<div class="reason">01/29/2025 | DRIVING WHILE LICENSE WITHDRAWNNO LOG BOOK</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/christopher-mathis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mathis-Christopher-Randall.jpg" alt="Christopher Mathis"><div class="name">Christopher Mathis</div></a>
+<div class="reason">01/12/2025 | VIOLATION OF FAMILY VIOLENCE ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/joyce-hayes-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hayes-Joyce-Ida.jpg" alt="Joyce Hayes"><div class="name">Joyce Hayes</div></a>
+<div class="reason">01/25/2025 | FINANCIAL TRANSACTION CARD FRAUDPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/nathaniel-higginbotham-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Higginbotham-Nathaniel-William.jpg" alt="Nathaniel Higginbotham"><div class="name">Nathaniel Higginbotham</div></a>
+<div class="reason">02/05/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/robert-hight-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hight-Robert-Dean.jpg" alt="Robert Hight"><div class="name">Robert Hight</div></a>
+<div class="reason">02/04/2025 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/raymond-mason/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mason-Raymond-Antonio.jpg" alt="Raymond Mason"><div class="name">Raymond Mason</div></a>
+<div class="reason">01/05/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.DUI - DRIVING UNDER THE INFLUENCE OF DRUGSSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/christian-marycz-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Marycz-Christian-Tyler.jpg" alt="Christian Marycz"><div class="name">Christian Marycz</div></a>
+<div class="reason">01/01/2025 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/geoffery-manus/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Manus-Geoffery-Scott.jpg" alt="Geoffery Manus"><div class="name">Geoffery Manus</div></a>
+<div class="reason">01/11/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYHOLD FOR BANKS COPAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/david-marks-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Marks-David.jpg" alt="David Marks"><div class="name">David Marks</div></a>
+<div class="reason">02/07/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDEFECTIVE EQUIPMENT/UNSAFE VEHICLEDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/natisha-lowe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lowe-Natisha-Lanice.jpg" alt="Natisha Lowe"><div class="name">Natisha Lowe</div></a>
+<div class="reason">01/22/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF MARIJUANA LESS THAN 1 OZDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)POSSESSION OF OPEN ALCOHOL CONTAINERUNSAFE OPERATION OF VEHICLEDEFECTIVE TIRESPOSSESSION AND USE OF DRUG RELATED OBJECTSREGISTRATION AND LICENSE REQUIREMENTSPOSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tina-loner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Loner-Tina-Michelle.jpg" alt="Tina Loner"><div class="name">Tina Loner</div></a>
+<div class="reason">02/04/2025 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/edvin-lopez-paredes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lopez-Paredes-Edvin-Estuardo.jpg" alt="Edvin Lopez Paredes"><div class="name">Edvin Lopez Paredes</div></a>
+<div class="reason">01/06/2025 | POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/elvis-lewis-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lewis-Elvis.jpg" alt="Elvis Lewis"><div class="name">Elvis Lewis</div></a>
+<div class="reason">01/15/2025 | OBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSHOLD FOR BANKS COUNTYPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ryan-latney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Latney-Ryan-S.jpg" alt="Ryan Latney"><div class="name">Ryan Latney</div></a>
+<div class="reason">01/24/2025 | POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/damion-knight-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Knight-Damion-Alexander.jpg" alt="Damion Knight"><div class="name">Damion Knight</div></a>
+<div class="reason">01/15/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/shaelin-keller/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Keller-Shaelin-Jamichale.jpg" alt="Shaelin Keller"><div class="name">Shaelin Keller</div></a>
+<div class="reason">12/30/2024 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tobias-kelly/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kelly-Tobias-Solomon.jpg" alt="Tobias Kelly"><div class="name">Tobias Kelly</div></a>
+<div class="reason">01/30/2025 | POSSESSION OF OPEN ALCOHOL CONTAINERMARIJUANA-POSSESS LESS THAN 1 OZ.DRIVING UNDER INFLUENCE DRUGS/ALCOHOLHOLD FOR HENDERSON COUNTY NCHOLD FOR ROCK HILL PD SC</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/santavius-johnson-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Santavius-Marjae.jpg" alt="Santavius Johnson"><div class="name">Santavius Johnson</div></a>
+<div class="reason">01/07/2025 | GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/abby-jordan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jordan-Abby-Gail.jpg" alt="Abby Jordan"><div class="name">Abby Jordan</div></a>
+<div class="reason">01/13/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO MAINTAIN INSURANCEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATIONOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/terrell-izard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Izard-Terrell.jpg" alt="Terrell Izard"><div class="name">Terrell Izard</div></a>
+<div class="reason">01/07/2025 | DRIVING WHILE LICENSE WITHDRAWNVIOLATING RESTRICTION OF DRIVER LICENSECOMMERCIAL VEHICLE DRIVER QUALIFICATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jason-jimenez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jimenez-Jason-O.jpg" alt="Jason Jimenez"><div class="name">Jason Jimenez</div></a>
+<div class="reason">01/11/2025 | HOLD FOR GWINNETT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/monica-hyde-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hyde-Monica-Suzanne.jpg" alt="Monica Hyde"><div class="name">Monica Hyde</div></a>
+<div class="reason">01/23/2025 | HOLD FOR COBB COUNTY SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/dustin-hudson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hudson-Dustin-Lee.jpg" alt="Dustin Hudson"><div class="name">Dustin Hudson</div></a>
+<div class="reason">01/02/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/pamela-hill-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hill-Pamela-Chris.jpg" alt="Pamela Hill"><div class="name">Pamela Hill</div></a>
+<div class="reason">01/04/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ontario-hopper/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hopper-Ontario.jpg" alt="Ontario Hopper"><div class="name">Ontario Hopper</div></a>
+<div class="reason">01/25/2025 | DRIVING WHILE LICENSE WITHDRAWNSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/hernan-hernandez-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hernandez-Hernan.jpg" alt="Hernan Hernandez"><div class="name">Hernan Hernandez</div></a>
+<div class="reason">01/19/2025 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/demario-henderson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Henderson-Demario-Rakeem.jpg" alt="Demario Henderson"><div class="name">Demario Henderson</div></a>
+<div class="reason">01/06/2025 | DRIVING WITHOUT LICENSEDRIVING WHILE LICENSE WITHDRAWNWINDOW, WINDSHIELD, OR WIPER VIOLATIONWINDOW TINT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/james-hebin-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hebin-James-Bernard.jpg" alt="James Hebin"><div class="name">James Hebin</div></a>
+<div class="reason">01/16/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.DRIVING WITHOUT LICENSEFAILURE TO SECURE LOADDEFECTIVE EQUIPMENT/UNSAFE VEHICLEFAILURE TO SIGNAL LANE CHANGE OR TURN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/michael-helms-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Helms-Michael-Shannon-Allen.jpg" alt="Michael Helms"><div class="name">Michael Helms</div></a>
+<div class="reason">02/07/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/logan-hart-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hart-Logan-Wayne.jpg" alt="Logan Hart"><div class="name">Logan Hart</div></a>
+<div class="reason">01/07/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/holly-harris-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harris-Holly-Lynn.jpg" alt="Holly Harris"><div class="name">Holly Harris</div></a>
+<div class="reason">02/09/2025 | POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINEHOLD FOR HART COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/cotrell-harper-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harper-Cotrell.jpg" alt="Cotrell Harper"><div class="name">Cotrell Harper</div></a>
+<div class="reason">12/31/2024 | ENTERING AUTOMOBILE OR OTHER MOTOR VEHICLE WITH INTENT TO COMMIT THEFT OR FELONYBATTERYTHEFT BY TAKING - MISDEMEANORFALSE IMPRISONMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/cotrell-harper-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harper-Cotrell-1.jpg" alt="Cotrell Harper"><div class="name">Cotrell Harper</div></a>
+<div class="reason">01/01/2025 | VIOLATION OF FAMILY VIOLENCE ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/derrick-harpe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harpe-Derrick-Lyzell.jpg" alt="Derrick Harpe"><div class="name">Derrick Harpe</div></a>
+<div class="reason">12/31/2024 | AGGRESSIVE DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/justin-grizzle-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Grizzle-Justin-Michael-2.jpg" alt="Justin Grizzle"><div class="name">Justin Grizzle</div></a>
+<div class="reason">01/31/2025 | HERE FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/joshua-harned/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harned-Joshua-Peyton.jpg" alt="Joshua Harned"><div class="name">Joshua Harned</div></a>
+<div class="reason">12/31/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/matthew-harden-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harden-Matthew-Elvis-1.jpg" alt="Matthew Harden"><div class="name">Matthew Harden</div></a>
+<div class="reason">01/05/2025 | HOLD FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/lamar-hare/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hare-Lamar-Cledell.jpg" alt="Lamar Hare"><div class="name">Lamar Hare</div></a>
+<div class="reason">01/08/2025 | DRIVING WITHOUT LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/shannon-hackett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hackett-Shannon-A.jpg" alt="Shannon Hackett"><div class="name">Shannon Hackett</div></a>
+<div class="reason">01/24/2025 | POSSESSION, MANUF OF CERTAIN CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/keith-grindstaff-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Grindstaff-Keith-Allen.jpg" alt="Keith Grindstaff"><div class="name">Keith Grindstaff</div></a>
+<div class="reason">02/04/2025 | DRIVING WHILE LICENSE WITHDRAWNFAILURE TO MAINTAIN LANEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/greg-green/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Green-Greg.jpg" alt="Greg Green"><div class="name">Greg Green</div></a>
+<div class="reason">01/26/2025 | ENDANGERING A CHILD BY DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGSENDANGERING A CHILD BY DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGSDRIVING UNDER THE INFLUENCE/DRUGSWINDOW TINT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ronald-goode-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Goode-Ronald-Keith.jpg" alt="Ronald Goode"><div class="name">Ronald Goode</div></a>
+<div class="reason">01/20/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESRECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/serrelle-gray-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gray-Serrelle-Amanda.jpg" alt="Serrelle Gray"><div class="name">Serrelle Gray</div></a>
+<div class="reason">01/15/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jesus-garcia-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Garcia-Jesus-Mercadoo.jpg" alt="Jesus Garcia"><div class="name">Jesus Garcia</div></a>
+<div class="reason">01/20/2025 | DRIVING WITHOUT LICENSEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/antwaun-gibson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gibson-Antwaun-Rashad.jpg" alt="Antwaun Gibson"><div class="name">Antwaun Gibson</div></a>
+<div class="reason">01/18/2025 | DRIVING WHILE LICENSE WITHDRAWNWINDOW TINT VIOLATIONDRIVING UNDER INFLUENCE DRUGS/ALCOHOLSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)MARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jaquaveus-foggie/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Foggie-Jaquaveus-Keonte.jpg" alt="Jaquaveus Foggie"><div class="name">Jaquaveus Foggie</div></a>
+<div class="reason">02/09/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE WITHDRAWNFAILURE TO YIELD RIGHT OF WAY TO EMERGENCY VEH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/larry-ferguson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ferguson-Larry-Michael.jpg" alt="Larry Ferguson"><div class="name">Larry Ferguson</div></a>
+<div class="reason">01/01/2025 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/malaney-evans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Evans-Malaney-Rian.jpg" alt="Malaney Evans"><div class="name">Malaney Evans</div></a>
+<div class="reason">01/29/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jasmine-ewing-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ewing-Jasmine-1.jpg" alt="Jasmine Ewing"><div class="name">Jasmine Ewing</div></a>
+<div class="reason">01/30/2025 | CONTRIBUTING TO DELINQUENCY OF MINOR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/robert-emory/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Emory-Robert-M.jpg" alt="Robert Emory"><div class="name">Robert Emory</div></a>
+<div class="reason">02/01/2025 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLPOSSESSION OF A SCHEDULE III CONTROLLED SUBSTANCETAG LIGHT REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/keantdre-edge/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Edge-Keantdre-Jaleel.jpg" alt="Keantdre Edge"><div class="name">Keantdre Edge</div></a>
+<div class="reason">01/31/2025 | DRIVING WHILE LICENSE WITHDRAWNVIOLATION OF OUT OF SERVICE ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/william-ellison-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ellison-William-Eugene.jpg" alt="William Ellison"><div class="name">William Ellison</div></a>
+<div class="reason">01/16/2025 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/sandra-dutton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dutton-Sandra-Lynn.jpg" alt="Sandra Dutton"><div class="name">Sandra Dutton</div></a>
+<div class="reason">02/03/2025 | FOLLOWING TOO CLOSELYDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MORE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/cheryl-dotson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dotson-Cheryl-Ann.jpg" alt="Cheryl Dotson"><div class="name">Cheryl Dotson</div></a>
+<div class="reason">01/03/2025 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/brittany-dean-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dean-Brittany-Phaedra.jpg" alt="Brittany Dean"><div class="name">Brittany Dean</div></a>
+<div class="reason">01/30/2025 | FAILURE TO MAINTAIN LANEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/alan-de-la-cruz-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/De-La-Cruz-Alan-Javier.jpg" alt="Alan De La Cruz"><div class="name">Alan De La Cruz</div></a>
+<div class="reason">02/05/2025 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/eric-de-la-cruz-garcia/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/De-La-Cruz-Garcia-Eric.jpg" alt="Eric De La Cruz Garcia"><div class="name">Eric De La Cruz Garcia</div></a>
+<div class="reason">01/19/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WITHOUT LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/syntaris-davis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Davis-Syntaris-Isaiah.jpg" alt="Syntaris Davis"><div class="name">Syntaris Davis</div></a>
+<div class="reason">01/09/2025 | SEAT BELT VIOLATIONEXPIRED OR NO REGISTRATION OR TITLEDRIVING WHILE LICENSE WITHDRAWNDRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/chelsea-elliot/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Elliot-Chelsea-Margaret.jpg" alt="Chelsea Elliot"><div class="name">Chelsea Elliot</div></a>
+<div class="reason">01/27/2025 | DRIVING UNDER THE INFLUENCE/ALCOHOLPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jose-escobar-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Escobar-Jose-Manuel.jpg" alt="Jose Escobar"><div class="name">Jose Escobar</div></a>
+<div class="reason">01/01/2025 | DRIVING WITHOUT LICENSEIMPROPER USE OF CENTRAL TURN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/nawuth-gafeney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gafeney-Nawuth-Kentae.jpg" alt="Nawuth Gafeney"><div class="name">Nawuth Gafeney</div></a>
+<div class="reason">12/30/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDISORDERLY CONDUCTPUBLIC DRUNKENNESSOBSTRUCTION OF OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/melanie-evans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Evans-Melanie-Lane.jpg" alt="Melanie Evans"><div class="name">Melanie Evans</div></a>
+<div class="reason">01/03/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)POSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/rex-gibby-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gibby-Rex-Lamar.jpg" alt="Rex Gibby"><div class="name">Rex Gibby</div></a>
+<div class="reason">01/07/2025 | POSSESSION OF MARIJUANA-MISD LESS THAN OZ.FAILURE TO MAINTAIN INSURANCEEXPIRED OR NO REGISTRATION OR TITLERECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERPOSSESSION OF METHAMPHETAMINEPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYRECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/larry-davis-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Davis-Larry-Steven.jpg" alt="Larry Davis"><div class="name">Larry Davis</div></a>
+<div class="reason">01/25/2025 | FAILURE TO APPEAR - MISDEMEANORHOLD FOR STEPHENS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/marcus-davenport-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Davenport-Marcus-Antonio.jpg" alt="Marcus Davenport"><div class="name">Marcus Davenport</div></a>
+<div class="reason">01/06/2025 | POSSESSION OF OPEN ALCOHOL CONTAINERPOSSESSION OF MARIJUANA-MISD LESS THAN OZ.POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESRECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERHOLD FOR ATHENS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/michael-crunkleton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Crunkleton-Michael-Dale.jpg" alt="Michael Crunkleton"><div class="name">Michael Crunkleton</div></a>
+<div class="reason">01/24/2025 | BATTERYDISORDERLY OR DISRUPTIVE CONDUCT AT ANY FUNERAL OR MEMORIAL SERVICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/austin-cruce-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cruce-Austin-James.jpg" alt="Austin Cruce"><div class="name">Austin Cruce</div></a>
+<div class="reason">02/07/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/john-crowe-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Crowe-John-Dwayne.jpg" alt="John Crowe"><div class="name">John Crowe</div></a>
+<div class="reason">01/09/2025 | FAILURE TO MAINTAIN LANEDEFECTIVE OR MISSING SPEEDOMETERDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/aimee-cronemeyer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cronemeyer-Aimee-Beth.jpg" alt="Aimee Cronemeyer"><div class="name">Aimee Cronemeyer</div></a>
+<div class="reason">12/30/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)EXPIRED OR NO REGISTRATION OR TITLEFAILURE TO MAINTAIN INSURANCEDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/armando-crisantos/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Crisantos-Armando.jpg" alt="Armando Crisantos"><div class="name">Armando Crisantos</div></a>
+<div class="reason">01/26/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MORESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)FOLLOWING TOO CLOSELYPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/tinn-crews/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Crews-Tinn-Alexander-1.jpg" alt="Tinn Crews"><div class="name">Tinn Crews</div></a>
+<div class="reason">01/24/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEMARIJUANA-POSSESS LESS THAN 1 OZ.FAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jeffrey-cooper-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cooper-Jeffrey-K.jpg" alt="Jeffrey Cooper"><div class="name">Jeffrey Cooper</div></a>
+<div class="reason">02/04/2025 | RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/kelton-conn-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Conn-Kelton-Alexander.jpg" alt="Kelton Conn"><div class="name">Kelton Conn</div></a>
+<div class="reason">02/07/2025 | POSSESSION OF METHAMPHETAMINEEXPIRED OR NO REGISTRATION OR TITLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/kelton-conn-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Conn-Kelton-Alexander-1.jpg" alt="Kelton Conn"><div class="name">Kelton Conn</div></a>
+<div class="reason">01/12/2025 | SEAT BELT VIOLATIONFAILURE TO HAVE LICENSE ON PERSONWINDOW, WINDSHIELD, OR WIPER VIOLATIONDEFECTIVE TIRESREGISTRATION AND LICENSE REQUIREMENTSBRAKE LIGHT/TURN SIGNAL VIOLATIONDRIVING UNDER INFLUENCE DRUGS/ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/diego-conde-silverio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Conde-Silverio-Diego-Alexander.jpg" alt="Diego Conde Silverio"><div class="name">Diego Conde Silverio</div></a>
+<div class="reason">02/05/2025 | DRIVING WITHOUT LICENSEWINDOW TINT VIOLATIONFAILURE TO MAINTAIN INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jose-colado/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Colado-Jose-Vecente.jpg" alt="Jose Colado"><div class="name">Jose Colado</div></a>
+<div class="reason">02/02/2025 | RECKLESS DRIVINGSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WITHOUT LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/mary-collins-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Collins-Mary-Ann.jpg" alt="Mary Collins"><div class="name">Mary Collins</div></a>
+<div class="reason">01/06/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/regina-coker-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Coker-Regina-Aileen.jpg" alt="Regina Coker"><div class="name">Regina Coker</div></a>
+<div class="reason">02/09/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG RELATED OBJECTSHOLD FOR BANKS COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ignacio-chaparro-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chaparro-Ignacio-Arroyo-1.jpg" alt="Ignacio Chaparro"><div class="name">Ignacio Chaparro</div></a>
+<div class="reason">01/09/2025 | DRIVING WITHOUT LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/todd-cavanaugh-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cavanaugh-Todd-Michael.jpg" alt="Todd Cavanaugh"><div class="name">Todd Cavanaugh</div></a>
+<div class="reason">01/21/2025 | THEFT BY TAKING - MISDEMEANORPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/ciera-chambers-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chambers-Ciera-Emani-1.jpg" alt="Ciera Chambers"><div class="name">Ciera Chambers</div></a>
+<div class="reason">01/30/2025 | HOLD FOR HENRY CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/bradley-causer-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Causer-Bradley-Scott.jpg" alt="Bradley Causer"><div class="name">Bradley Causer</div></a>
+<div class="reason">01/17/2025 | POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCESEAT BELT VIOLATIONSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)MANUFACTURE/DELIVER/DISTRIBUTE/ADMINISTER/SELL/POSSESS W/INTENT TO DISTRIBUTE CONTROLLED SUBSTANCEDUI - DRIVING UNDER THE INFLUENCE OF DRUGSPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYHOLD FOR HART...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/joseph-cartwright-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cartwright-Joseph-Franklin.jpg" alt="Joseph Cartwright"><div class="name">Joseph Cartwright</div></a>
+<div class="reason">02/01/2025 | HOLD FOR WAYNE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jeremy-carter-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Carter-Jeremy-David.jpg" alt="Jeremy Carter"><div class="name">Jeremy Carter</div></a>
+<div class="reason">01/24/2025 | POSSESSION OF METHAMPHETAMINE WITH INTENT TO DISTRIBUTEPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/octavius-campbell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Campbell-Octavius-Jarmaine.jpg" alt="Octavius Campbell"><div class="name">Octavius Campbell</div></a>
+<div class="reason">02/09/2025 | POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINEHOLD FOR PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/michael-carey-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Carey-Michael-Gabriel.jpg" alt="Michael Carey"><div class="name">Michael Carey</div></a>
+<div class="reason">01/15/2025 | DRIVING WHILE LICENSE WITHDRAWNEXPIRED OR NO REGISTRATION OR TITLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/braulio-cabrera-arreola-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cabrera-Arreola-Braulio.jpg" alt="Braulio Cabrera Arreola"><div class="name">Braulio Cabrera Arreola</div></a>
+<div class="reason">01/10/2025 | DRIVING WHILE LICENSE WITHDRAWNTOO FAST FOR CONDITIONS/PRIMA FACIE SPEEDFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/freddie-cagle/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cagle-Freddie-Wayne.jpg" alt="Freddie Cagle"><div class="name">Freddie Cagle</div></a>
+<div class="reason">01/30/2025 | EXPLOIT/INFLICT PAIN TO/DEPRIVE ESSENTIAL SERVICES TO DISABLED PERSON, ELDER PERSON OR RESIDENT (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jonathan-burt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Burt-Jonathan-Dustin.jpg" alt="Jonathan Burt"><div class="name">Jonathan Burt</div></a>
+<div class="reason">01/01/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)MARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/jackson-burton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Burton-Jackson-Bryce.jpg" alt="Jackson Burton"><div class="name">Jackson Burton</div></a>
+<div class="reason">01/26/2025 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/johnathan-burt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Burt-Johnathan-D.jpg" alt="Johnathan Burt"><div class="name">Johnathan Burt</div></a>
+<div class="reason">02/01/2025 | HOLD FOR WALTON COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/robert-bunn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bunn-Robert-Anthony.jpg" alt="Robert Bunn"><div class="name">Robert Bunn</div></a>
+<div class="reason">01/06/2025 | POSSESSION OF OPEN ALCOHOL CONTAINERMARIJUANA-POSSESS LESS THAN 1 OZ.TAILLIGHTS / TAILLIGHT LENSES REQUIREDWINDOW, WINDSHIELD, OR WIPER VIOLATIONFAILURE TO MAINTAIN LANEPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCERECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/christopher-browning-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Browning-Christopher-Shane-1.jpg" alt="Christopher Browning"><div class="name">Christopher Browning</div></a>
+<div class="reason">01/16/2025 | THEFT BY RECEIVING STOLEN PROPERTY- FELONYTHEFT BY RECEIVING STOLEN PROPERTY- FELONYPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESRECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/stamontay-brownlee-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brownlee-Stamontay-James-McClendon.jpg" alt="Stamontay Brownlee"><div class="name">Stamontay Brownlee</div></a>
+<div class="reason">01/12/2025 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/kendaijah-brown-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Kendaijah-Leisha.jpg" alt="Kendaijah Brown"><div class="name">Kendaijah Brown</div></a>
+<div class="reason">02/04/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/franklin/devon-brown-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Devon-Kimani.jpg" alt="Devon Brown"><div class="name">Devon Brown</div></a>
+<div class="reason">02/03/2025 | DUI - MARIJUANA</div>
+</div>
+</div><div class="pagination"><a href="franklin3.html">Next Page</a></div></body></html>

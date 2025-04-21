@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/hall/stephanie-pinson-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PINSON-STEPHANIE-JEAN.jpg" alt="Stephanie Pinson"><div class="name">Stephanie Pinson</div></a>
+<div class="reason">04/16/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/adan-hernandez-ceferino/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/HERNANDEZ-CEFERINO-ADAN.jpg" alt="Adan Hernandez Ceferino"><div class="name">Adan Hernandez Ceferino</div></a>
+<div class="reason">04/16/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/sharon-glasper-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GLASPER-SHARON-MICHELLE.jpg" alt="Sharon Glasper"><div class="name">Sharon Glasper</div></a>
+<div class="reason">04/16/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/robert-wetzel-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WETZEL-ROBERT-ELLIOT-1.jpg" alt="Robert Wetzel"><div class="name">Robert Wetzel</div></a>
+<div class="reason">04/16/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/mary-valasco-perez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VALASCO-PEREZ-MARY.jpg" alt="Mary Valasco-Perez"><div class="name">Mary Valasco-Perez</div></a>
+<div class="reason">04/16/2025 | PURCHASE, POSS, MANUF, DISTRIB</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/craig-trammell-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TRAMMELL-CRAIG-DEVIN-1.jpg" alt="Craig Trammell"><div class="name">Craig Trammell</div></a>
+<div class="reason">04/16/2025 | FAILURE TO APPEAR FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/brittany-shumaker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SHUMAKER-BRITTANY-NICHOLE.jpg" alt="Brittany Shumaker"><div class="name">Brittany Shumaker</div></a>
+<div class="reason">04/16/2025 | HOLD--OTHER COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/bryan-selles-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SELLES-BRYAN-PAUL.jpg" alt="Bryan Selles"><div class="name">Bryan Selles</div></a>
+<div class="reason">04/16/2025 | PAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/william-rosbury-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ROSBURY-WILLIAM-ALAN.jpg" alt="William Rosbury"><div class="name">William Rosbury</div></a>
+<div class="reason">04/16/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jaime-rosales-avellaneda/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ROSALES-AVELLANEDA-JAIME.jpg" alt="Jaime Rosales Avellaneda"><div class="name">Jaime Rosales Avellaneda</div></a>
+<div class="reason">04/16/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/sasha-robles-fernandez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ROBLES-FERNANDEZ-SASHA-INESSA.jpg" alt="Sasha Robles-Fernandez"><div class="name">Sasha Robles-Fernandez</div></a>
+<div class="reason">04/16/2025 | INTERFERENCE WITH GOVERNMENT P</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/ishmael-marsh-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MARSH-ISHMAEL-JOSHUA.jpg" alt="Ishmael Marsh"><div class="name">Ishmael Marsh</div></a>
+<div class="reason">04/16/2025 | AGGRAVATED BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/amy-lawrence-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/LAWRENCE-AMY-HOPE.jpg" alt="Amy Lawrence"><div class="name">Amy Lawrence</div></a>
+<div class="reason">04/16/2025 | RECKLESS DRIVING 1ST OFFENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/richard-johnson-44/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/JOHNSON-RICHARD-JULIUS.jpg" alt="Richard Johnson"><div class="name">Richard Johnson</div></a>
+<div class="reason">04/16/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/eron-hernandez-mendoza/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/HERNANDEZ-MENDOZA-ERON.jpg" alt="Eron Hernandez-Mendoza"><div class="name">Eron Hernandez-Mendoza</div></a>
+<div class="reason">04/16/2025 | POSSESSION MARIJUANA LESS THAN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/dillon-harrell-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/HARRELL-DILLON-RYAN-1.jpg" alt="Dillon Harrell"><div class="name">Dillon Harrell</div></a>
+<div class="reason">04/16/2025 | ARREST ORDER SUP CT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/blake-gearin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GEARIN-BLAKE-ALEXANDER.jpg" alt="Blake Gearin"><div class="name">Blake Gearin</div></a>
+<div class="reason">04/16/2025 | BATTERY FAMILY VIOLENCE ACT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joanna-barrett-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BARRETT-JOANNA-KAYLA.jpg" alt="Joanna Barrett"><div class="name">Joanna Barrett</div></a>
+<div class="reason">04/16/2025 | REMOVAL, DESTRUCTION OR CIRCUM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/mateo-alonzo-alonzo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ALONZO-ALONZO-MATEO.jpg" alt="Mateo Alonzo Alonzo"><div class="name">Mateo Alonzo Alonzo</div></a>
+<div class="reason">04/16/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/timothy-kidd-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/KIDD-TIMOTHY-EUGENE.jpg" alt="Timothy Kidd"><div class="name">Timothy Kidd</div></a>
+<div class="reason">04/15/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joan-yebra-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/YEBRA-JOAN-ANTHONY.jpg" alt="Joan Yebra"><div class="name">Joan Yebra</div></a>
+<div class="reason">04/15/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/kenneth-vaughn-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VAUGHN-KENNETH-ELLIOTT.jpg" alt="Kenneth Vaughn"><div class="name">Kenneth Vaughn</div></a>
+<div class="reason">04/15/2025 | SIMPLE BATTERY FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/neiby-urbina-rodriguez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/URBINA-RODRIGUEZ-NEIBY-SAID.jpg" alt="Neiby Urbina-Rodriguez"><div class="name">Neiby Urbina-Rodriguez</div></a>
+<div class="reason">04/15/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/tavarris-tate-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TATE-TAVARRIS-SHAQUESIS.jpg" alt="Tavarris Tate"><div class="name">Tavarris Tate</div></a>
+<div class="reason">04/15/2025 | PUBLIC INDECENCY/INDECENT EXPO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/david-reyes-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/REYES-DAVID.jpg" alt="David Reyes"><div class="name">David Reyes</div></a>
+<div class="reason">04/15/2025 | BATTERY FAMILY VIOLENCE ACT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/hunter-reed-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/REED-HUNTER-IRVIN.jpg" alt="Hunter Reed"><div class="name">Hunter Reed</div></a>
+<div class="reason">04/15/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/rachel-pendley-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PENDLEY-RACHEL-MECHELL-2.jpg" alt="Rachel Pendley"><div class="name">Rachel Pendley</div></a>
+<div class="reason">04/15/2025 | HOLD FOR CT STATE/PRISON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/gonser-mensahn-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MENSAHN-GONSER-MIAWAY.jpg" alt="Gonser Mensahn"><div class="name">Gonser Mensahn</div></a>
+<div class="reason">04/15/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/ambree-mennifee/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MENNIFEE-AMBREE-LYNNAY.jpg" alt="Ambree Mennifee"><div class="name">Ambree Mennifee</div></a>
+<div class="reason">04/15/2025 | SIMPLE ASSAULT/SPOUSES/PARENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/leonel-marceleno-pizano/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MARCELENO-PIZANO-LEONEL.jpg" alt="Leonel Marceleno-Pizano"><div class="name">Leonel Marceleno-Pizano</div></a>
+<div class="reason">04/15/2025 | BATTERY FAMILY VIOLENCE ACT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/guadalupe-mandujano-tinoco/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MANDUJANO-TINOCO-GUADALUPE.jpg" alt="Guadalupe Mandujano-Tinoco"><div class="name">Guadalupe Mandujano-Tinoco</div></a>
+<div class="reason">04/15/2025 | FAIL TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jason-looney-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/LOONEY-JASON-ALLEN.jpg" alt="Jason Looney"><div class="name">Jason Looney</div></a>
+<div class="reason">04/15/2025 | SERVING TIME (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/miguel-gonzalez-avila/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GONZALEZ-AVILA-MIGUEL.jpg" alt="Miguel Gonzalez Avila"><div class="name">Miguel Gonzalez Avila</div></a>
+<div class="reason">04/15/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/aaron-frick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FRICK-AARON-RYAN.jpg" alt="Aaron Frick"><div class="name">Aaron Frick</div></a>
+<div class="reason">04/15/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jamella-frazier/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FRAZIER-JAMELLA-VAN.jpg" alt="Jamella Frazier"><div class="name">Jamella Frazier</div></a>
+<div class="reason">04/15/2025 | SIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/louis-fabec-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FABEC-LOUIS-FRANCIS-1.jpg" alt="Louis Fabec"><div class="name">Louis Fabec</div></a>
+<div class="reason">04/15/2025 | DEPOSIT ACCOUNT FRAUD/BAD CHEC</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/sha-collier-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/COLLIER-SHA.jpg" alt="Sha Collier"><div class="name">Sha Collier</div></a>
+<div class="reason">04/15/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/abraham-cardozo-ramos-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CARDOZO-RAMOS-ABRAHAM.jpg" alt="Abraham Cardozo-Ramos"><div class="name">Abraham Cardozo-Ramos</div></a>
+<div class="reason">04/15/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/deric-byrd-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BYRD-DERIC-DAQUAN.jpg" alt="Deric Byrd"><div class="name">Deric Byrd</div></a>
+<div class="reason">04/15/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/james-brown-134/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BROWN-JAMES-ALAN-JR.jpg" alt="James Brown"><div class="name">James Brown</div></a>
+<div class="reason">04/15/2025 | AGGRAVATED ASSAULT/SPOUSE/PARE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/tony-berry-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BERRY-TONY-WILLIAM.jpg" alt="Tony Berry"><div class="name">Tony Berry</div></a>
+<div class="reason">04/15/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jose-bello-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BELLO-JOSE-ANTONIO.jpg" alt="Jose Bello"><div class="name">Jose Bello</div></a>
+<div class="reason">04/15/2025 | SERVING TIME (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/diana-barrera-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BARRERA-DIANA-ODELIA.jpg" alt="Diana Barrera"><div class="name">Diana Barrera</div></a>
+<div class="reason">04/15/2025 | DRIVING WHILE LICENSE SUSPENDE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/gerald-andujar-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ANDUJAR-GERALD-CHRISTOPHER.jpg" alt="Gerald Andujar"><div class="name">Gerald Andujar</div></a>
+<div class="reason">04/15/2025 | SIMPLE BATTERY FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/deandre-zelaya-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ZELAYA-DEANDRE-DESHAWN.jpg" alt="Deandre Zelaya"><div class="name">Deandre Zelaya</div></a>
+<div class="reason">04/14/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/emiliano-zamudio-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ZAMUDIO-EMILIANO.jpg" alt="Emiliano Zamudio"><div class="name">Emiliano Zamudio</div></a>
+<div class="reason">04/14/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/hollie-wynn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WYNN-HOLLIE-MICHELLE.jpg" alt="Hollie Wynn"><div class="name">Hollie Wynn</div></a>
+<div class="reason">04/14/2025 | PROBATION WT SUP CT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/christian-wetherington-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WETHERINGTON-CHRISTIAN.jpg" alt="Christian Wetherington"><div class="name">Christian Wetherington</div></a>
+<div class="reason">04/14/2025 | FAILURE TO APPEAR FOR A TRAFFI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/christopher-vargas-ponce/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VARGAS-PONCE-CHRISTOPHER-ANTONIO.jpg" alt="Christopher Vargas-Ponce"><div class="name">Christopher Vargas-Ponce</div></a>
+<div class="reason">04/14/2025 | DUTY TO STOP AT ACCIDENT (HIT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/peter-trinh-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TRINH-PETER-QUAN.jpg" alt="Peter Trinh"><div class="name">Peter Trinh</div></a>
+<div class="reason">04/14/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/naomy-tenorio-flores/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TENORIO-FLORES-NAOMY-BEYONCE.jpg" alt="Naomy Tenorio Flores"><div class="name">Naomy Tenorio Flores</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/tavis-starns-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/STARNS-TAVIS-DANIEL.jpg" alt="Tavis Starns"><div class="name">Tavis Starns</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/victorino-ramos-sica-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RAMOS-SICA-VICTORINO.jpg" alt="Victorino Ramos-Sica"><div class="name">Victorino Ramos-Sica</div></a>
+<div class="reason">04/14/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/melissa-pina-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PINA-MELISSA-AMBER.jpg" alt="Melissa Pina"><div class="name">Melissa Pina</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/ha-vuong-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VUONG-HA-TIEN.jpg" alt="Ha Vuong"><div class="name">Ha Vuong</div></a>
+<div class="reason">04/13/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/angel-vazquez-velez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VAZQUEZ-VELEZ-ANGEL.jpg" alt="Angel Vazquez Velez"><div class="name">Angel Vazquez Velez</div></a>
+<div class="reason">04/12/2025 | SIMPLE ASSAULT/SPOUSES/PARENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/hector-vargas-ramirez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VARGAS-RAMIREZ-HECTOR.jpg" alt="Hector Vargas-Ramirez"><div class="name">Hector Vargas-Ramirez</div></a>
+<div class="reason">04/12/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/abraham-valencia-garcia-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VALENCIA-GARCIA-ABRAHAM.jpg" alt="Abraham Valencia-Garcia"><div class="name">Abraham Valencia-Garcia</div></a>
+<div class="reason">04/11/2025 | SERVING TIME (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/christina-tye/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TYE-CHRISTINA-ACACIA.jpg" alt="Christina Tye"><div class="name">Christina Tye</div></a>
+<div class="reason">04/11/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/ashley-thompson-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/THOMPSON-ASHLEY-LANE.jpg" alt="Ashley Thompson"><div class="name">Ashley Thompson</div></a>
+<div class="reason">04/11/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/miguel-garcia-30/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GARCIA-MIGUEL-ANGEL.jpg" alt="Miguel Garcia"><div class="name">Miguel Garcia</div></a>
+<div class="reason">04/14/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/mark-fitts-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FITTS-MARK-ANTHONY.jpg" alt="Mark Fitts"><div class="name">Mark Fitts</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/shalaina-edwards-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/EDWARDS-SHALAINA-BLAIR.jpg" alt="Shalaina Edwards"><div class="name">Shalaina Edwards</div></a>
+<div class="reason">04/14/2025 | POSSESSION OF A SCHEDULE II CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/james-carney-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CARNEY-JAMES-SEAN.jpg" alt="James Carney"><div class="name">James Carney</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/sandra-bingham/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BINGHAM-SANDRA-RENAE-KNIGHT.jpg" alt="Sandra Bingham"><div class="name">Sandra Bingham</div></a>
+<div class="reason">04/14/2025 | SIMPLE BATTERY FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/tesia-bartelo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BARTELO-TESIA-MONIQUE.jpg" alt="Tesia Bartelo"><div class="name">Tesia Bartelo</div></a>
+<div class="reason">04/14/2025 | HOLD-GWINNETT COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/sirpatrick-taylor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TAYLOR-SIRPATRICK.jpg" alt="Sirpatrick Taylor"><div class="name">Sirpatrick Taylor</div></a>
+<div class="reason">04/11/2025 | ALTER/FORGE/COUNTERFEIT MV CER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/austin-shepard-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SHEPARD-AUSTIN-DAVID.jpg" alt="Austin Shepard"><div class="name">Austin Shepard</div></a>
+<div class="reason">04/11/2025 | RECKLESS DRIVING 1ST OFFENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/michael-sewell-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SEWELL-MICHAEL.jpg" alt="Michael Sewell"><div class="name">Michael Sewell</div></a>
+<div class="reason">04/13/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/david-seabolt-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SEABOLT-DAVID-FRANKLIN.jpg" alt="David Seabolt"><div class="name">David Seabolt</div></a>
+<div class="reason">04/12/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/anna-satterlee-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SATTERLEE-ANNA-MERIUM.jpg" alt="Anna Satterlee"><div class="name">Anna Satterlee</div></a>
+<div class="reason">04/11/2025 | ARREST ORDER SUP CT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/mario-sanchez-quinones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANCHEZ-QUINONES-MARIO.jpg" alt="Mario Sanchez-Quinones"><div class="name">Mario Sanchez-Quinones</div></a>
+<div class="reason">04/12/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/deonte-walker-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WALKER-DEONTE-JACOREY.jpg" alt="Deonte Walker"><div class="name">Deonte Walker</div></a>
+<div class="reason">04/13/2025 | CRIMINAL DAMAGE TO PROPERTY 2N</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/ha-vuong-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VUONG-HA-TIEN.jpg" alt="Ha Vuong"><div class="name">Ha Vuong</div></a>
+<div class="reason">04/13/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/angel-vazquez-velez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VAZQUEZ-VELEZ-ANGEL.jpg" alt="Angel Vazquez Velez"><div class="name">Angel Vazquez Velez</div></a>
+<div class="reason">04/12/2025 | SIMPLE ASSAULT/SPOUSES/PARENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/hector-vargas-ramirez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VARGAS-RAMIREZ-HECTOR.jpg" alt="Hector Vargas-Ramirez"><div class="name">Hector Vargas-Ramirez</div></a>
+<div class="reason">04/12/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/abraham-valencia-garcia-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VALENCIA-GARCIA-ABRAHAM.jpg" alt="Abraham Valencia-Garcia"><div class="name">Abraham Valencia-Garcia</div></a>
+<div class="reason">04/11/2025 | SERVING TIME (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/christina-tye/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TYE-CHRISTINA-ACACIA.jpg" alt="Christina Tye"><div class="name">Christina Tye</div></a>
+<div class="reason">04/11/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/ashley-thompson-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/THOMPSON-ASHLEY-LANE.jpg" alt="Ashley Thompson"><div class="name">Ashley Thompson</div></a>
+<div class="reason">04/11/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/amanda-thompson-35/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/THOMPSON-AMANDA.jpg" alt="Amanda Thompson"><div class="name">Amanda Thompson</div></a>
+<div class="reason">04/12/2025 | AFFRAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/adam-stinnett-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/STINNETT-ADAM-CLAUDE.jpg" alt="Adam Stinnett"><div class="name">Adam Stinnett</div></a>
+<div class="reason">04/11/2025 | HOLD--DRUG COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/william-smith-174/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SMITH-WILLIAM-1.jpg" alt="William Smith"><div class="name">William Smith</div></a>
+<div class="reason">04/11/2025 | HOLD-HENRY COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/enoch-smith-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SMITH-ENOCH-FRANKLIN-III.jpg" alt="Enoch Smith"><div class="name">Enoch Smith</div></a>
+<div class="reason">04/12/2025 | THEFT BY TAKING - MOTOR VEHICL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/emily-smith-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SMITH-EMILY-JOANN.jpg" alt="Emily Smith"><div class="name">Emily Smith</div></a>
+<div class="reason">04/12/2025 | THEFT BY TAKING - MOTOR VEHICL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/clint-skidmore-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SKIDMORE-CLINT-ROGER.jpg" alt="Clint Skidmore"><div class="name">Clint Skidmore</div></a>
+<div class="reason">04/11/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/sirpatrick-taylor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TAYLOR-SIRPATRICK.jpg" alt="Sirpatrick Taylor"><div class="name">Sirpatrick Taylor</div></a>
+<div class="reason">04/11/2025 | ALTER/FORGE/COUNTERFEIT MV CER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/austin-shepard-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SHEPARD-AUSTIN-DAVID.jpg" alt="Austin Shepard"><div class="name">Austin Shepard</div></a>
+<div class="reason">04/11/2025 | RECKLESS DRIVING 1ST OFFENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/michael-sewell-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SEWELL-MICHAEL.jpg" alt="Michael Sewell"><div class="name">Michael Sewell</div></a>
+<div class="reason">04/13/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/david-seabolt-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SEABOLT-DAVID-FRANKLIN.jpg" alt="David Seabolt"><div class="name">David Seabolt</div></a>
+<div class="reason">04/12/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/anna-satterlee-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SATTERLEE-ANNA-MERIUM.jpg" alt="Anna Satterlee"><div class="name">Anna Satterlee</div></a>
+<div class="reason">04/11/2025 | ARREST ORDER SUP CT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/mario-sanchez-quinones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANCHEZ-QUINONES-MARIO.jpg" alt="Mario Sanchez-Quinones"><div class="name">Mario Sanchez-Quinones</div></a>
+<div class="reason">04/12/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/diego-sanchez-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANCHEZ-DIEGO-CHEL.jpg" alt="Diego Sanchez"><div class="name">Diego Sanchez</div></a>
+<div class="reason">04/12/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/michael-rucker-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RUCKER-MICHAEL-KARR.jpg" alt="Michael Rucker"><div class="name">Michael Rucker</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/bryan-roberts-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ROBERTS-BRYAN-ALLEN.jpg" alt="Bryan Roberts"><div class="name">Bryan Roberts</div></a>
+<div class="reason">04/13/2025 | POSSESSION AND USE OF DRUG REL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/john-renick-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RENICK-JOHN-EDWARD.jpg" alt="John Renick"><div class="name">John Renick</div></a>
+<div class="reason">04/11/2025 | THEFT BY SHOPLIFTING UNDER $50</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/virgil-ragsdale-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RAGSDALE-VIRGIL-GARVIN.jpg" alt="Virgil Ragsdale"><div class="name">Virgil Ragsdale</div></a>
+<div class="reason">04/12/2025 | RECKLESS DRIVING 1ST OFFENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/michaela-ragone/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RAGONE-MICHAELA-RAE.jpg" alt="Michaela Ragone"><div class="name">Michaela Ragone</div></a>
+<div class="reason">04/13/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/elise-pritchard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PRITCHARD-ELISE-MICHELLE.jpg" alt="Elise Pritchard"><div class="name">Elise Pritchard</div></a>
+<div class="reason">04/11/2025 | POSSESSION OF MARIJUANA FEL -</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jefferson-parks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PARKS-JEFFERSON-DAVIS-JR.jpg" alt="Jefferson Parks"><div class="name">Jefferson Parks</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/doneka-parker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PARKER-DONEKA.jpg" alt="Doneka Parker"><div class="name">Doneka Parker</div></a>
+<div class="reason">04/12/2025 | HOLD-CLAYTON COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joshua-page-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PAGE-JOSHUA-ANDREW.jpg" alt="Joshua Page"><div class="name">Joshua Page</div></a>
+<div class="reason">04/13/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/michael-otting-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/OTTING-MICHAEL-JOSEPH.jpg" alt="Michael Otting"><div class="name">Michael Otting</div></a>
+<div class="reason">04/12/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/juan-gomez-gregorio-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GOMEZ-GREGORIO-JUAN.jpg" alt="Juan Gomez-Gregorio"><div class="name">Juan Gomez-Gregorio</div></a>
+<div class="reason">04/11/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/rafael-garrido-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GARRIDO-RAFAEL.jpg" alt="Rafael Garrido"><div class="name">Rafael Garrido</div></a>
+<div class="reason">04/11/2025 | SEXUAL EXPLOITATION OF CHILDRE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/anthony-gaddis-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GADDIS-ANTHONY-CURTIS.jpg" alt="Anthony Gaddis"><div class="name">Anthony Gaddis</div></a>
+<div class="reason">04/12/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jaelie-forrester/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FORRESTER-JAELIE-ELIZABETH.jpg" alt="Jaelie Forrester"><div class="name">Jaelie Forrester</div></a>
+<div class="reason">04/13/2025 | SIMPLE BATTERY FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jessica-fain-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FAIN-JESSICA-MICHELLE.jpg" alt="Jessica Fain"><div class="name">Jessica Fain</div></a>
+<div class="reason">04/13/2025 | SIMPLE ASSAULT/SPOUSES/PARENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/erin-elsamady-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ELSAMADY-ERIN-KATHERINE.jpg" alt="Erin Elsamady"><div class="name">Erin Elsamady</div></a>
+<div class="reason">04/12/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/lorena-martinez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MARTINEZ-LORENA.jpg" alt="Lorena Martinez"><div class="name">Lorena Martinez</div></a>
+<div class="reason">04/12/2025 | DRIVING WITH SUSPENDED/CANCELE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/christopher-martin-79/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MARTIN-CHRISTOPHER-THOMAS.jpg" alt="Christopher Martin"><div class="name">Christopher Martin</div></a>
+<div class="reason">04/11/2025 | ARREST ORDER SUP CT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/benjamin-martin-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MARTIN-BENJAMIN-CHASE.jpg" alt="Benjamin Martin"><div class="name">Benjamin Martin</div></a>
+<div class="reason">04/11/2025 | SERVING TIME (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/laurie-manning/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MANNING-LAURIE.jpg" alt="Laurie Manning"><div class="name">Laurie Manning</div></a>
+<div class="reason">04/11/2025 | THEFT BY SHOPLIFTING UNDER $50</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/daniel-mahroum-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MAHROUM-DANIEL-CABRINI.jpg" alt="Daniel Mahroum"><div class="name">Daniel Mahroum</div></a>
+<div class="reason">04/11/2025 | POSSESSION AND USE OF DRUG REL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/raylon-long/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/LONG-RAYLON-ADREAM.jpg" alt="Raylon Long"><div class="name">Raylon Long</div></a>
+<div class="reason">04/12/2025 | POSSESSION OF FIREARM BY CONVI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/russ-corry/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CORRY-RUSS-DAVIS.jpg" alt="Russ Corry"><div class="name">Russ Corry</div></a>
+<div class="reason">04/11/2025 | CRIMINAL TRESPASS (TRESPASSING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/zachary-coley-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/COLEY-ZACHARY-DANIEL.jpg" alt="Zachary Coley"><div class="name">Zachary Coley</div></a>
+<div class="reason">04/12/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/cheraline-cherezy-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CHEREZY-CHERALINE.jpg" alt="Cheraline Cherezy"><div class="name">Cheraline Cherezy</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/gonzalo-castillo-panuco/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CASTILLO-PANUCO-GONZALO.jpg" alt="Gonzalo Castillo-Panuco"><div class="name">Gonzalo Castillo-Panuco</div></a>
+<div class="reason">04/13/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/larry-burch/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BURCH-LARRY-EUGENE-JR.jpg" alt="Larry Burch"><div class="name">Larry Burch</div></a>
+<div class="reason">04/13/2025 | DUI-DRIVING UNDER INFLUENCE OF</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/gladys-bolden-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BOLDEN-GLADYS-RENEE.jpg" alt="Gladys Bolden"><div class="name">Gladys Bolden</div></a>
+<div class="reason">04/13/2025 | POSSESSION MARIJUANA LESS THAN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/dionicio-gomez-jorge/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GOMEZ-JORGE-DIONICIO.jpg" alt="Dionicio Gomez-Jorge"><div class="name">Dionicio Gomez-Jorge</div></a>
+<div class="reason">04/12/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/juan-gomez-gregorio-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GOMEZ-GREGORIO-JUAN.jpg" alt="Juan Gomez-Gregorio"><div class="name">Juan Gomez-Gregorio</div></a>
+<div class="reason">04/11/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/rafael-garrido-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GARRIDO-RAFAEL.jpg" alt="Rafael Garrido"><div class="name">Rafael Garrido</div></a>
+<div class="reason">04/11/2025 | SEXUAL EXPLOITATION OF CHILDRE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/anthony-gaddis-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GADDIS-ANTHONY-CURTIS.jpg" alt="Anthony Gaddis"><div class="name">Anthony Gaddis</div></a>
+<div class="reason">04/12/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jaelie-forrester/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FORRESTER-JAELIE-ELIZABETH.jpg" alt="Jaelie Forrester"><div class="name">Jaelie Forrester</div></a>
+<div class="reason">04/13/2025 | SIMPLE BATTERY FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jessica-fain-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FAIN-JESSICA-MICHELLE.jpg" alt="Jessica Fain"><div class="name">Jessica Fain</div></a>
+<div class="reason">04/13/2025 | SIMPLE ASSAULT/SPOUSES/PARENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/adams-aguila-hernandez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/AGUILA-HERNANDEZ-ADAMS.jpg" alt="Adams Aguila-Hernandez"><div class="name">Adams Aguila-Hernandez</div></a>
+<div class="reason">04/12/2025 | RACING ON HIGHWAY OR STREETS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/david-vilardo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VILARDO-DAVID-LEAO.jpg" alt="David Vilardo"><div class="name">David Vilardo</div></a>
+<div class="reason">04/10/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/miguel-valdez-gomez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VALDEZ-GOMEZ-MIGUEL.jpg" alt="Miguel Valdez-Gomez"><div class="name">Miguel Valdez-Gomez</div></a>
+<div class="reason">04/10/2025 | USE OF MULITPLE BEAM ROAD LIGH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/cameron-taylor-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TAYLOR-CAMERON-RILEY.jpg" alt="Cameron Taylor"><div class="name">Cameron Taylor</div></a>
+<div class="reason">04/10/2025 | POSSESSION MARIJUANA LESS THAN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/barry-summers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SUMMERS-BARRY-JARROD.jpg" alt="Barry Summers"><div class="name">Barry Summers</div></a>
+<div class="reason">04/10/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/april-sailors-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SAILORS-APRIL-DAWN.jpg" alt="April Sailors"><div class="name">April Sailors</div></a>
+<div class="reason">04/10/2025 | HOLD--HELP COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jose-rocha-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ROCHA-JOSE-STEPHEN.jpg" alt="Jose Rocha"><div class="name">Jose Rocha</div></a>
+<div class="reason">04/10/2025 | HOLD--HELP COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/gabriel-odales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ODALES-GABRIEL-ESTEBAN.jpg" alt="Gabriel Odales"><div class="name">Gabriel Odales</div></a>
+<div class="reason">04/10/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/keondre-morgan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MORGAN-KEONDRE-JASHAD.jpg" alt="Keondre Morgan"><div class="name">Keondre Morgan</div></a>
+<div class="reason">04/10/2025 | CRIMINAL TRESPASS (TRESPASSING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/kyle-milardo-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MILARDO-KYLE-DOUGLAS.jpg" alt="Kyle Milardo"><div class="name">Kyle Milardo</div></a>
+<div class="reason">04/10/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/samuel-martin-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MARTIN-SAMUEL-JOSEPH.jpg" alt="Samuel Martin"><div class="name">Samuel Martin</div></a>
+<div class="reason">04/10/2025 | THEFT BY TAKING - LESS THAN $</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/nicholas-lilly/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/LILLY-NICHOLAS-HUNTER.jpg" alt="Nicholas Lilly"><div class="name">Nicholas Lilly</div></a>
+<div class="reason">04/10/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/michael-kerr-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/KERR-MICHAEL-ALAN.jpg" alt="Michael Kerr"><div class="name">Michael Kerr</div></a>
+<div class="reason">04/10/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/blaise-kabambu-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/KABAMBU-BLAISE-KALEMBA.jpg" alt="Blaise Kabambu"><div class="name">Blaise Kabambu</div></a>
+<div class="reason">04/10/2025 | OPEN CONTAINER VIOLATION WHIL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joanna-garcia-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GARCIA-JOANNA.jpg" alt="Joanna Garcia"><div class="name">Joanna Garcia</div></a>
+<div class="reason">04/10/2025 | HOLD--DRUG COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/marc-foster/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FOSTER-MARC-ALLEN.jpg" alt="Marc Foster"><div class="name">Marc Foster</div></a>
+<div class="reason">04/10/2025 | THEFT BY SHOPLIFTING UNDER $50</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jamie-chambers-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CHAMBERS-JAMIE-LYN.jpg" alt="Jamie Chambers"><div class="name">Jamie Chambers</div></a>
+<div class="reason">04/10/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/steven-canup-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CANUP-STEVEN-DWIGHT.jpg" alt="Steven Canup"><div class="name">Steven Canup</div></a>
+<div class="reason">04/10/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/michael-alvarez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ALVAREZ-MICHAEL-EDWARD.jpg" alt="Michael Alvarez"><div class="name">Michael Alvarez</div></a>
+<div class="reason">04/11/2025 | FALSE REPORT OF A CRIME</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/adams-aguila-hernandez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/AGUILA-HERNANDEZ-ADAMS.jpg" alt="Adams Aguila-Hernandez"><div class="name">Adams Aguila-Hernandez</div></a>
+<div class="reason">04/12/2025 | RACING ON HIGHWAY OR STREETS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/david-vilardo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VILARDO-DAVID-LEAO.jpg" alt="David Vilardo"><div class="name">David Vilardo</div></a>
+<div class="reason">04/10/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/miguel-valdez-gomez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/VALDEZ-GOMEZ-MIGUEL.jpg" alt="Miguel Valdez-Gomez"><div class="name">Miguel Valdez-Gomez</div></a>
+<div class="reason">04/10/2025 | USE OF MULITPLE BEAM ROAD LIGH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/cameron-taylor-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TAYLOR-CAMERON-RILEY.jpg" alt="Cameron Taylor"><div class="name">Cameron Taylor</div></a>
+<div class="reason">04/10/2025 | POSSESSION MARIJUANA LESS THAN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/barry-summers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SUMMERS-BARRY-JARROD.jpg" alt="Barry Summers"><div class="name">Barry Summers</div></a>
+<div class="reason">04/10/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jason-white-39/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WHITE-JASON-TONY.jpg" alt="Jason White"><div class="name">Jason White</div></a>
+<div class="reason">04/09/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/pablo-gonzales-vargas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GONZALES-VARGAS-PABLO-ISRAEL.jpg" alt="Pablo Gonzales-Vargas"><div class="name">Pablo Gonzales-Vargas</div></a>
+<div class="reason">04/09/2025 | UNLAWFUL CONDUCT DURING 911 CA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jamie-sanchez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANCHEZ-JAMIE-ALBERTO.jpg" alt="Jamie Sanchez"><div class="name">Jamie Sanchez</div></a>
+<div class="reason">04/09/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jeremiah-rothell-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ROTHELL-JEREMIAH-BRIAN.jpg" alt="Jeremiah Rothell"><div class="name">Jeremiah Rothell</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/cassandra-peevy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PEEVY-CASSANDRA-LADAYE.jpg" alt="Cassandra Peevy"><div class="name">Cassandra Peevy</div></a>
+<div class="reason">04/09/2025 | PROBATION WARRANT FLOWERY BRAN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/kelvin-orr-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ORR-KELVIN-WILBURN.jpg" alt="Kelvin Orr"><div class="name">Kelvin Orr</div></a>
+<div class="reason">04/09/2025 | PEDESTRIAN OBEDIENCE TO TRAFFI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/nicholas-lilly/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/LILLY-NICHOLAS-HUNTER.jpg" alt="Nicholas Lilly"><div class="name">Nicholas Lilly</div></a>
+<div class="reason">04/10/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/michael-kerr-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/KERR-MICHAEL-ALAN.jpg" alt="Michael Kerr"><div class="name">Michael Kerr</div></a>
+<div class="reason">04/10/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/blaise-kabambu-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/KABAMBU-BLAISE-KALEMBA.jpg" alt="Blaise Kabambu"><div class="name">Blaise Kabambu</div></a>
+<div class="reason">04/10/2025 | OPEN CONTAINER VIOLATION WHIL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joanna-garcia-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GARCIA-JOANNA.jpg" alt="Joanna Garcia"><div class="name">Joanna Garcia</div></a>
+<div class="reason">04/10/2025 | HOLD--DRUG COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/marc-foster/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FOSTER-MARC-ALLEN.jpg" alt="Marc Foster"><div class="name">Marc Foster</div></a>
+<div class="reason">04/10/2025 | THEFT BY SHOPLIFTING UNDER $50</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jamie-chambers-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CHAMBERS-JAMIE-LYN.jpg" alt="Jamie Chambers"><div class="name">Jamie Chambers</div></a>
+<div class="reason">04/10/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/steven-canup-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CANUP-STEVEN-DWIGHT.jpg" alt="Steven Canup"><div class="name">Steven Canup</div></a>
+<div class="reason">04/10/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/alais-hale-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/HALE-ALAIS-WILLIAM-LUKE.jpg" alt="Alais Hale"><div class="name">Alais Hale</div></a>
+<div class="reason">04/10/2025 | HOLD--DRUG COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/brandy-calvet-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CALVET-BRANDY-MICHELLE.jpg" alt="Brandy Calvet"><div class="name">Brandy Calvet</div></a>
+<div class="reason">04/10/2025 | HOLD--HELP COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/destin-boyd-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BOYD-DESTIN-DANIELLE.jpg" alt="Destin Boyd"><div class="name">Destin Boyd</div></a>
+<div class="reason">04/10/2025 | ARREST ORDER SUP CT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/allen-bond-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BOND-ALLEN-MICHAEL.jpg" alt="Allen Bond"><div class="name">Allen Bond</div></a>
+<div class="reason">04/10/2025 | HOLD--DRUG COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/delvin-young-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/YOUNG-DELVIN-DEMISE.jpg" alt="Delvin Young"><div class="name">Delvin Young</div></a>
+<div class="reason">04/09/2025 | THEFT BY SHOPLIFTING UNDER $50</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/briantae-woods-carter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WOODS-CARTER-BRIANTAE-SHIMONE.jpg" alt="Briantae Woods-Carter"><div class="name">Briantae Woods-Carter</div></a>
+<div class="reason">04/09/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jason-white-39/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WHITE-JASON-TONY.jpg" alt="Jason White"><div class="name">Jason White</div></a>
+<div class="reason">04/09/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/pablo-gonzales-vargas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GONZALES-VARGAS-PABLO-ISRAEL.jpg" alt="Pablo Gonzales-Vargas"><div class="name">Pablo Gonzales-Vargas</div></a>
+<div class="reason">04/09/2025 | UNLAWFUL CONDUCT DURING 911 CA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jamie-sanchez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANCHEZ-JAMIE-ALBERTO.jpg" alt="Jamie Sanchez"><div class="name">Jamie Sanchez</div></a>
+<div class="reason">04/09/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jeremiah-rothell-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ROTHELL-JEREMIAH-BRIAN.jpg" alt="Jeremiah Rothell"><div class="name">Jeremiah Rothell</div></a>
+<div class="reason">04/09/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/cassandra-peevy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PEEVY-CASSANDRA-LADAYE.jpg" alt="Cassandra Peevy"><div class="name">Cassandra Peevy</div></a>
+<div class="reason">04/09/2025 | PROBATION WARRANT FLOWERY BRAN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joseph-savage-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SAVAGE-JOSEPH-WILTON.jpg" alt="Joseph Savage"><div class="name">Joseph Savage</div></a>
+<div class="reason">04/08/2025 | TERRORISTIC THREATS AND ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/doris-saucedo-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SAUCEDO-DORIS-XIOMARA.jpg" alt="Doris Saucedo"><div class="name">Doris Saucedo</div></a>
+<div class="reason">04/08/2025 | OBSTRUCTION-RESISTING OFFICER/</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/randall-satterfield-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SATTERFIELD-RANDALL-KEITH.jpg" alt="Randall Satterfield"><div class="name">Randall Satterfield</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/edrei-rodriguez-reyes-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RODRIGUEZ-REYES-EDREI.jpg" alt="Edrei Rodriguez-Reyes"><div class="name">Edrei Rodriguez-Reyes</div></a>
+<div class="reason">04/08/2025 | HOLD FOR CT STATE/PRISON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/darvin-rios-zabala-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RIOS-ZABALA-DARVIN-A.jpg" alt="Darvin Rios-Zabala"><div class="name">Darvin Rios-Zabala</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/nicole-reilly-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/REILLY-NICOLE-MICHELLE-1.jpg" alt="Nicole Reilly"><div class="name">Nicole Reilly</div></a>
+<div class="reason">04/08/2025 | AGGRAVATED STALKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/luis-de-la-torre-de-lira/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/DE-LA-TORRE-DE-LIRA-LUIS-A.jpg" alt="Luis De La Torre De Lira"><div class="name">Luis De La Torre De Lira</div></a>
+<div class="reason">04/09/2025 | DISPLAY OF LICENSE PLATES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/ernesto-davila/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/DAVILA-ERNESTO.jpg" alt="Ernesto Davila"><div class="name">Ernesto Davila</div></a>
+<div class="reason">04/09/2025 | TAG LIGHT REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/iyanna-cummings-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CUMMINGS-IYANNA-TAMIKE.jpg" alt="Iyanna Cummings"><div class="name">Iyanna Cummings</div></a>
+<div class="reason">04/09/2025 | THEFT BY SHOPLIFTING UNDER $50</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joshua-bolt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BOLT-JOSHUA-PAUL.jpg" alt="Joshua Bolt"><div class="name">Joshua Bolt</div></a>
+<div class="reason">04/09/2025 | FAILURE TO APPEAR FOR A TRAFFI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/melissa-blitch-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BLITCH-MELISSA-SUZANNE.jpg" alt="Melissa Blitch"><div class="name">Melissa Blitch</div></a>
+<div class="reason">04/09/2025 | BATTERY FAMILY VIOLENCE ACT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/dustin-bland-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BLAND-DUSTIN-JOHN.jpg" alt="Dustin Bland"><div class="name">Dustin Bland</div></a>
+<div class="reason">04/09/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/elijah-millsap-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MILLSAP-ELIJAH-KOERRO-1.jpg" alt="Elijah Millsap"><div class="name">Elijah Millsap</div></a>
+<div class="reason">04/08/2025 | FAIL TO YEILD VEHICLE ENTERING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/kelly-mcginley-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MCGINLEY-KELLY-ELAINE.jpg" alt="Kelly McGinley"><div class="name">Kelly McGinley</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jeremy-maney-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MANEY-JEREMY-DENNIS.jpg" alt="Jeremy Maney"><div class="name">Jeremy Maney</div></a>
+<div class="reason">04/08/2025 | POSSESSION OF A SCHEDULE II CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/poong-kim/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/KIM-POONG-BAI.jpg" alt="Poong Kim"><div class="name">Poong Kim</div></a>
+<div class="reason">04/08/2025 | PROSTITUTION-KEEPING A PLACE O</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/david-jenkins-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/JENKINS-DAVID-JEMEL-1.jpg" alt="David Jenkins"><div class="name">David Jenkins</div></a>
+<div class="reason">04/08/2025 | FAILURE TO APPEAR MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/zachary-hutchinson-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/HUTCHINSON-ZACHARY-MICHAEL.jpg" alt="Zachary Hutchinson"><div class="name">Zachary Hutchinson</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/ashley-smith-80/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SMITH-ASHLEY-PAIGE.jpg" alt="Ashley Smith"><div class="name">Ashley Smith</div></a>
+<div class="reason">04/08/2025 | BURGLARY - FORCED - RES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joseph-savage-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SAVAGE-JOSEPH-WILTON.jpg" alt="Joseph Savage"><div class="name">Joseph Savage</div></a>
+<div class="reason">04/08/2025 | TERRORISTIC THREATS AND ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/doris-saucedo-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SAUCEDO-DORIS-XIOMARA.jpg" alt="Doris Saucedo"><div class="name">Doris Saucedo</div></a>
+<div class="reason">04/08/2025 | OBSTRUCTION-RESISTING OFFICER/</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/randall-satterfield-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SATTERFIELD-RANDALL-KEITH.jpg" alt="Randall Satterfield"><div class="name">Randall Satterfield</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/edrei-rodriguez-reyes-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RODRIGUEZ-REYES-EDREI.jpg" alt="Edrei Rodriguez-Reyes"><div class="name">Edrei Rodriguez-Reyes</div></a>
+<div class="reason">04/08/2025 | HOLD FOR CT STATE/PRISON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/darvin-rios-zabala-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RIOS-ZABALA-DARVIN-A.jpg" alt="Darvin Rios-Zabala"><div class="name">Darvin Rios-Zabala</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/nicole-reilly-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/REILLY-NICOLE-MICHELLE-1.jpg" alt="Nicole Reilly"><div class="name">Nicole Reilly</div></a>
+<div class="reason">04/08/2025 | AGGRAVATED STALKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/courtney-price-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PRICE-COURTNEY-DEE.jpg" alt="Courtney Price"><div class="name">Courtney Price</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/katrina-parker-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PARKER-KATRINA-CHERI.jpg" alt="Katrina Parker"><div class="name">Katrina Parker</div></a>
+<div class="reason">04/08/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/john-norris-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/NORRIS-JOHN-JASON.jpg" alt="John Norris"><div class="name">John Norris</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/young-ngo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/NGO-YOUNG.jpg" alt="Young Ngo"><div class="name">Young Ngo</div></a>
+<div class="reason">04/08/2025 | PROSTITUTION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/katrina-new-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/NEW-KATRINA-MARIE.jpg" alt="Katrina New"><div class="name">Katrina New</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/william-mixon-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MIXON-WILLIAM-JACKSON.jpg" alt="William Mixon"><div class="name">William Mixon</div></a>
+<div class="reason">04/08/2025 | FAILURE TO APPEAR FOR A TRAFFI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/elijah-millsap-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MILLSAP-ELIJAH-KOERRO-1.jpg" alt="Elijah Millsap"><div class="name">Elijah Millsap</div></a>
+<div class="reason">04/08/2025 | FAIL TO YEILD VEHICLE ENTERING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/kelly-mcginley-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MCGINLEY-KELLY-ELAINE.jpg" alt="Kelly McGinley"><div class="name">Kelly McGinley</div></a>
+<div class="reason">04/08/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jeremy-maney-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MANEY-JEREMY-DENNIS.jpg" alt="Jeremy Maney"><div class="name">Jeremy Maney</div></a>
+<div class="reason">04/08/2025 | POSSESSION OF A SCHEDULE II CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/poong-kim/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/KIM-POONG-BAI.jpg" alt="Poong Kim"><div class="name">Poong Kim</div></a>
+<div class="reason">04/08/2025 | PROSTITUTION-KEEPING A PLACE O</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/david-jenkins-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/JENKINS-DAVID-JEMEL-1.jpg" alt="David Jenkins"><div class="name">David Jenkins</div></a>
+<div class="reason">04/08/2025 | FAILURE TO APPEAR MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/juan-navarrete-sanchez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/NAVARRETE-SANCHEZ-JUAN-P.jpg" alt="Juan Navarrete Sanchez"><div class="name">Juan Navarrete Sanchez</div></a>
+<div class="reason">04/07/2025 | DRIVING WHILE LICENSE SUSPENDE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/samuel-misenheimer-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MISENHEIMER-SAMUEL.jpg" alt="Samuel Misenheimer"><div class="name">Samuel Misenheimer</div></a>
+<div class="reason">04/07/2025 | POSSESSION OF MARIJUANA FEL -</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/mayra-maciel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MACIEL-MAYRA-S.jpg" alt="Mayra Maciel"><div class="name">Mayra Maciel</div></a>
+<div class="reason">04/07/2025 | HOLD-CHATHAM COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/patrick-kuanda-yeka/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/KUANDA-YEKA-PATRICK.jpg" alt="Patrick Kuanda Yeka"><div class="name">Patrick Kuanda Yeka</div></a>
+<div class="reason">04/07/2025 | FAILURE TO APPEAR FOR A TRAFFI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/naome-iradukunda/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/IRADUKUNDA-NAOME.jpg" alt="Naome Iradukunda"><div class="name">Naome Iradukunda</div></a>
+<div class="reason">04/07/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/bryan-hydrick-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/HYDRICK-BRYAN-JEFFERY.jpg" alt="Bryan Hydrick"><div class="name">Bryan Hydrick</div></a>
+<div class="reason">04/07/2025 | STOP YIELD SIGN VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/felicia-chambers-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CHAMBERS-FELICIA-ELIZABETH.jpg" alt="Felicia Chambers"><div class="name">Felicia Chambers</div></a>
+<div class="reason">04/07/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/ricky-gooch-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GOOCH-RICKY-JAMES.jpg" alt="Ricky Gooch"><div class="name">Ricky Gooch</div></a>
+<div class="reason">04/07/2025 | PROBATION VIOLATION (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/sean-gibbons-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/GIBBONS-SEAN-KENNETH.jpg" alt="Sean Gibbons"><div class="name">Sean Gibbons</div></a>
+<div class="reason">04/07/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/dioscelin-fernandez-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/FERNANDEZ-DIOSCELIN-MERLIN.jpg" alt="Dioscelin Fernandez"><div class="name">Dioscelin Fernandez</div></a>
+<div class="reason">04/07/2025 | FINANCIAL TRANSACTION CARD FRA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/phillip-browning-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/BROWNING-PHILLIP-DUANE.jpg" alt="Phillip Browning"><div class="name">Phillip Browning</div></a>
+<div class="reason">04/07/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/karla-arrieta-bojorquez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ARRIETA-BOJORQUEZ-KARLA-DEIDALINA.jpg" alt="Karla Arrieta Bojorquez"><div class="name">Karla Arrieta Bojorquez</div></a>
+<div class="reason">04/07/2025 | SERVING TIME (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/johnny-springer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SPRINGER-JOHNNY-LAMAR.jpg" alt="Johnny Springer"><div class="name">Johnny Springer</div></a>
+<div class="reason">04/07/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/antonio-simon-esteban-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SIMON-ESTEBAN-ANTONIO.jpg" alt="Antonio Simon Esteban"><div class="name">Antonio Simon Esteban</div></a>
+<div class="reason">04/07/2025 | FAILURE TO APPEAR MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/antonio-saucedo-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SAUCEDO-ANTONIO-DE-JESUS.jpg" alt="Antonio Saucedo"><div class="name">Antonio Saucedo</div></a>
+<div class="reason">04/07/2025 | FAILURE TO APPEAR MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/wanda-sanders/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANDERS-WANDA-ELAINE.jpg" alt="Wanda Sanders"><div class="name">Wanda Sanders</div></a>
+<div class="reason">04/07/2025 | POSSESSION OF A SCH I OR II CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/billy-sanders-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANDERS-BILLY-GENE-JR.jpg" alt="Billy Sanders"><div class="name">Billy Sanders</div></a>
+<div class="reason">04/07/2025 | POSSESSION OF A SCH I OR II CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jeffrey-parker-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/PARKER-JEFFREY-DYLAN-RUSSELL.jpg" alt="Jeffrey Parker"><div class="name">Jeffrey Parker</div></a>
+<div class="reason">04/07/2025 | PROBATION VIOLATION (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/sergio-reyes-hernandez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/REYES-HERNANDEZ-SERGIO.jpg" alt="Sergio Reyes-Hernandez"><div class="name">Sergio Reyes-Hernandez</div></a>
+<div class="reason">04/07/2025 | LICENSE - DRIVING WHILE UNLICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/juan-navarrete-sanchez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/NAVARRETE-SANCHEZ-JUAN-P.jpg" alt="Juan Navarrete Sanchez"><div class="name">Juan Navarrete Sanchez</div></a>
+<div class="reason">04/07/2025 | DRIVING WHILE LICENSE SUSPENDE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/samuel-misenheimer-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MISENHEIMER-SAMUEL.jpg" alt="Samuel Misenheimer"><div class="name">Samuel Misenheimer</div></a>
+<div class="reason">04/07/2025 | POSSESSION OF MARIJUANA FEL -</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/mayra-maciel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MACIEL-MAYRA-S.jpg" alt="Mayra Maciel"><div class="name">Mayra Maciel</div></a>
+<div class="reason">04/07/2025 | HOLD-CHATHAM COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/patrick-kuanda-yeka/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/KUANDA-YEKA-PATRICK.jpg" alt="Patrick Kuanda Yeka"><div class="name">Patrick Kuanda Yeka</div></a>
+<div class="reason">04/07/2025 | FAILURE TO APPEAR FOR A TRAFFI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/naome-iradukunda/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/IRADUKUNDA-NAOME.jpg" alt="Naome Iradukunda"><div class="name">Naome Iradukunda</div></a>
+<div class="reason">04/07/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joy-stringer-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/STRINGER-JOY-KELLY.jpg" alt="Joy Stringer"><div class="name">Joy Stringer</div></a>
+<div class="reason">04/04/2025 | CRIMINAL DAMAGE TO PROPERTY 2N</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/luis-santana-nunez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANTANA-NUNEZ-LUIS.jpg" alt="Luis Santana-Nunez"><div class="name">Luis Santana-Nunez</div></a>
+<div class="reason">04/05/2025 | DRIVING WHILE LICENSE SUSPENDE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/omar-sanchez-benavides-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANCHEZ-BENAVIDES-OMAR.jpg" alt="Omar Sanchez-Benavides"><div class="name">Omar Sanchez-Benavides</div></a>
+<div class="reason">04/04/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/diego-rojas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ROJAS-DIEGO.jpg" alt="Diego Rojas"><div class="name">Diego Rojas</div></a>
+<div class="reason">04/06/2025 | BATTERY FAMILY VIOLENCE ACT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/cesar-rios/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RIOS-CESAR-EDEN.jpg" alt="Cesar Rios"><div class="name">Cesar Rios</div></a>
+<div class="reason">04/05/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/mateo-ramos-lucas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RAMOS-LUCAS-MATEO.jpg" alt="Mateo Ramos-Lucas"><div class="name">Mateo Ramos-Lucas</div></a>
+<div class="reason">04/05/2025 | SIMPLE ASSAULT/SPOUSES/PARENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/karla-arrieta-bojorquez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ARRIETA-BOJORQUEZ-KARLA-DEIDALINA.jpg" alt="Karla Arrieta Bojorquez"><div class="name">Karla Arrieta Bojorquez</div></a>
+<div class="reason">04/07/2025 | SERVING TIME (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/adrian-araunjo-benitez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ARAUNJO-BENITEZ-ADRIAN.jpg" alt="Adrian Araunjo-Benitez"><div class="name">Adrian Araunjo-Benitez</div></a>
+<div class="reason">04/07/2025 | FOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jaadil-abd-al-ahad-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ABD-AL-AHAD-JAADIL-HAQ.jpg" alt="Jaadil Abd-Al-Ahad"><div class="name">Jaadil Abd-Al-Ahad</div></a>
+<div class="reason">04/07/2025 | SERVING TIME (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/matthew-mckeon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MCKEON-MATTHEW-TYLER.jpg" alt="Matthew McKeon"><div class="name">Matthew McKeon</div></a>
+<div class="reason">04/04/2025 | SIMPLE ASSAULT/SPOUSES/PARENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/henry-yanez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/YANEZ-HENRY.jpg" alt="Henry Yanez"><div class="name">Henry Yanez</div></a>
+<div class="reason">04/06/2025 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/michelle-witcher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WITCHER-MICHELLE-LEE.jpg" alt="Michelle Witcher"><div class="name">Michelle Witcher</div></a>
+<div class="reason">04/05/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/cora-watts-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WATTS-CORA-CATHERINE.jpg" alt="Cora Watts"><div class="name">Cora Watts</div></a>
+<div class="reason">04/04/2025 | FAILURE TO APPEAR MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/david-watkins-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WATKINS-DAVID-DWAYNE.jpg" alt="David Watkins"><div class="name">David Watkins</div></a>
+<div class="reason">04/04/2025 | SIMPLE BATTERY FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/donterious-walker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/WALKER-DONTERIOUS-DAQUAN.jpg" alt="Donterious Walker"><div class="name">Donterious Walker</div></a>
+<div class="reason">04/04/2025 | FAILURE TO APPEAR FOR A TRAFFI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/toddrick-turner-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TURNER-TODDRICK-PYRON.jpg" alt="Toddrick Turner"><div class="name">Toddrick Turner</div></a>
+<div class="reason">04/06/2025 | POSSESSION MARIJUANA LESS THAN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/jason-turner-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TURNER-JASON-WYNN-II.jpg" alt="Jason Turner"><div class="name">Jason Turner</div></a>
+<div class="reason">04/04/2025 | BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/dylan-travis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/TRAVIS-DYLAN-ERIC-CARTER.jpg" alt="Dylan Travis"><div class="name">Dylan Travis</div></a>
+<div class="reason">04/06/2025 | DISPLAY OF LICENSE PLATES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/gregory-thornton-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/THORNTON-GREGORY-DEON.jpg" alt="Gregory Thornton"><div class="name">Gregory Thornton</div></a>
+<div class="reason">04/05/2025 | POSSESSION OF MARIJUANA FEL -</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/joy-stringer-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/STRINGER-JOY-KELLY.jpg" alt="Joy Stringer"><div class="name">Joy Stringer</div></a>
+<div class="reason">04/04/2025 | CRIMINAL DAMAGE TO PROPERTY 2N</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/luis-santana-nunez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANTANA-NUNEZ-LUIS.jpg" alt="Luis Santana-Nunez"><div class="name">Luis Santana-Nunez</div></a>
+<div class="reason">04/05/2025 | DRIVING WHILE LICENSE SUSPENDE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/omar-sanchez-benavides-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/SANCHEZ-BENAVIDES-OMAR.jpg" alt="Omar Sanchez-Benavides"><div class="name">Omar Sanchez-Benavides</div></a>
+<div class="reason">04/04/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/diego-rojas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/ROJAS-DIEGO.jpg" alt="Diego Rojas"><div class="name">Diego Rojas</div></a>
+<div class="reason">04/06/2025 | BATTERY FAMILY VIOLENCE ACT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/cesar-rios/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RIOS-CESAR-EDEN.jpg" alt="Cesar Rios"><div class="name">Cesar Rios</div></a>
+<div class="reason">04/05/2025 | DUI - ALCOHOL/LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/mateo-ramos-lucas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/RAMOS-LUCAS-MATEO.jpg" alt="Mateo Ramos-Lucas"><div class="name">Mateo Ramos-Lucas</div></a>
+<div class="reason">04/05/2025 | SIMPLE ASSAULT/SPOUSES/PARENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hall/shimoye-powell-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/POWELL-SHIMOYE-CHENNELLE.jpg" alt="Shimoye Powell"><div class="name">Shimoye Powell</div></a>
+<div class="reason">04/04/2025 | SERVING TIME (M)</div>
+</div>
+</div><div class="pagination"><a href="hall2.html">Next Page</a></div></body></html>

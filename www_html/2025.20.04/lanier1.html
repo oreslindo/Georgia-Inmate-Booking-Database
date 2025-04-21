@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/debra-cribbs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Cribbs-Debra-Beverly.jpg" alt="Debra Cribbs"><div class="name">Debra Cribbs</div></a>
+<div class="reason">04/16/2025 | DUIfailure to maintain laneopen container in vehiclefailure to exercise due careseat belt violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/matthew-brinson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Brinson-Matthew-Addison.jpg" alt="Matthew Brinson"><div class="name">Matthew Brinson</div></a>
+<div class="reason">04/11/2025 | speedingexpired registrationdriving while license suspended or revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/troy-delk/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Delk-Troy-Allen.jpg" alt="Troy Delk"><div class="name">Troy Delk</div></a>
+<div class="reason">04/10/2025 | criminal damage to property 2nd degree 3x</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/marcus-edmond/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Edmond-Marcus-Lynn.jpg" alt="Marcus Edmond"><div class="name">Marcus Edmond</div></a>
+<div class="reason">04/10/2025 | speedingDUIDriving while license suspended or revoked and reckless driving</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/austin-davis-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Davis-Austin-Lee.jpg" alt="Austin Davis"><div class="name">Austin Davis</div></a>
+<div class="reason">04/08/2025 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/tommy-pearson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Pearson-Tommy-Ruffian.jpg" alt="Tommy Pearson"><div class="name">Tommy Pearson</div></a>
+<div class="reason">04/07/2025 | DUIreckless drivingfailure to maintain lane adult seatbelt violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/damon-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Johnson-Damon-Lee.jpg" alt="Damon Johnson"><div class="name">Damon Johnson</div></a>
+<div class="reason">04/07/2025 | violation of probation 2x</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/joshua-davis-79/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Davis-Joshua-Allen.jpg" alt="Joshua Davis"><div class="name">Joshua Davis</div></a>
+<div class="reason">04/05/2025 | DUI tag light requirements</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/john-dales-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Dales-John-David.jpg" alt="John Dales"><div class="name">John Dales</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/travis-googe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Googe-Travis-Lee.jpg" alt="Travis Googe"><div class="name">Travis Googe</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/sonya-higgins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Higgins-Sonya-Lynn.jpg" alt="Sonya Higgins"><div class="name">Sonya Higgins</div></a>
+<div class="reason">04/02/2025 | driving while license is suspendedexpired tagdriving with no insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/carl-west-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/West-Carl-G.jpg" alt="Carl West"><div class="name">Carl West</div></a>
+<div class="reason">04/01/2025 | battery family violence cruelty to children</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/kevin-white-35/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/White-Kevin-Murdoch.jpg" alt="Kevin White"><div class="name">Kevin White</div></a>
+<div class="reason">03/31/2025 | simple battery family violence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/daniel-carranza/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Carranza-Daniel-Eduardo-Calderon.jpg" alt="Daniel Carranza"><div class="name">Daniel Carranza</div></a>
+<div class="reason">03/29/2025 | speeding driving without/no license/ unlicensed.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/richard-rudd-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Rudd-Richard-Dean.jpg" alt="Richard Rudd"><div class="name">Richard Rudd</div></a>
+<div class="reason">03/25/2025 | violation of probation.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jonathan-boyd-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Boyd-Jonathan-Clint.jpg" alt="Jonathan Boyd"><div class="name">Jonathan Boyd</div></a>
+<div class="reason">03/22/2025 | criminal trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/phillip-thomas-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Thomas-Phillip-Michael.jpg" alt="Phillip Thomas"><div class="name">Phillip Thomas</div></a>
+<div class="reason">03/22/2025 | battery family violence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/andrew-woods-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Woods-Andrew-James.jpg" alt="Andrew Woods"><div class="name">Andrew Woods</div></a>
+<div class="reason">03/22/2025 | hold out another county</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/connor-chaney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Chaney-Connor-Alan.jpg" alt="Connor Chaney"><div class="name">Connor Chaney</div></a>
+<div class="reason">03/22/2025 | DUIspeeding open containerviolation of window tint</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/azzhir-butts/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Butts-Azzhir-Hakeem.jpg" alt="Azzhir Butts"><div class="name">Azzhir Butts</div></a>
+<div class="reason">03/21/2025 | driving without a valid licensespeedingmaking false statements regarding motor vehicle insurance.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/sabrina-burroughs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Burroughs-Sabrina-Alexis.jpg" alt="Sabrina Burroughs"><div class="name">Sabrina Burroughs</div></a>
+<div class="reason">03/21/2025 | possession of drug related objectpossession of low TCH oil</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jasper-boyd-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Boyd-Jasper.jpg" alt="Jasper Boyd"><div class="name">Jasper Boyd</div></a>
+<div class="reason">03/20/2025 | driving while license is suspended or revokedspeedingexpired tagdriving without insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/kevin-brown-64/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Brown-Kevin-Dale-1.jpg" alt="Kevin Brown"><div class="name">Kevin Brown</div></a>
+<div class="reason">03/20/2025 | theft for shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/monica-yearby/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Yearby-Monica-Maria.jpg" alt="Monica Yearby"><div class="name">Monica Yearby</div></a>
+<div class="reason">03/19/2025 | battery family violence theft by taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/james-phillips-29/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Phillips-James-Randall.jpg" alt="James Phillips"><div class="name">James Phillips</div></a>
+<div class="reason">03/14/2025 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jeremiah-griffin-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Griffin-Jeremiah-Nathaniel.jpg" alt="Jeremiah Griffin"><div class="name">Jeremiah Griffin</div></a>
+<div class="reason">03/14/2025 | simple assault.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/kendricks-flintroyal-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Flintroyal-Kendricks-Lamar.jpg" alt="Kendricks Flintroyal"><div class="name">Kendricks Flintroyal</div></a>
+<div class="reason">03/13/2025 | battery cruelty to children 2nd degree Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jermey-anderson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Anderson-Jermey-Billy.jpg" alt="Jermey Anderson"><div class="name">Jermey Anderson</div></a>
+<div class="reason">03/11/2025 | violation of probation.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/carroll-tranquille/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Tranquille-Carroll-Francine.jpg" alt="Carroll Tranquille"><div class="name">Carroll Tranquille</div></a>
+<div class="reason">03/12/2025 | violation of probation 3x.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/joshua-freeman-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Freeman-Joshua-Ryan.jpg" alt="Joshua Freeman"><div class="name">Joshua Freeman</div></a>
+<div class="reason">03/11/2025 | hold on another County</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/willie-byrdsong-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Byrdsong-Willie-James.jpg" alt="Willie Byrdsong"><div class="name">Willie Byrdsong</div></a>
+<div class="reason">03/07/2025 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/william-velaquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Velaquez-William-Giovanni.jpg" alt="William Velaquez"><div class="name">William Velaquez</div></a>
+<div class="reason">03/08/2025 | DUIdriving without a valid licensedrivers to exercise due carefailure to maintain laneno proof of insurance and too fast for conditions</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/shane-rashford-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Rashford-Shane-Brian.jpg" alt="Shane Rashford"><div class="name">Shane Rashford</div></a>
+<div class="reason">03/06/2025 | failure to obey stop signdriving with license suspended or revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/william-steedly-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Steedly-William-David.jpg" alt="William Steedly"><div class="name">William Steedly</div></a>
+<div class="reason">03/04/2025 | violation of probation 2x.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/bryce-jones-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Jones-Bryce-Nicholas.jpg" alt="Bryce Jones"><div class="name">Bryce Jones</div></a>
+<div class="reason">03/03/2025 | fleeing or attempting to elude a police officerwillful obstruction of law enforcement officersspeedingfailure to maintain lanefailure to exercise due carenot use of turn signalsseatbelt violation and hit and run of driver to stop at or return to scene of an accident</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/janard-tykel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Tykel-Janard-Sowell.jpg" alt="Janard Tykel"><div class="name">Janard Tykel</div></a>
+<div class="reason">02/28/2025 | Simple Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/hector-mateo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mateo-Hector-Emilo-Miguel.jpg" alt="Hector Mateo"><div class="name">Hector Mateo</div></a>
+<div class="reason">02/27/2025 | simple battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jason-harpe-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harpe-Jason-Lee.jpg" alt="Jason Harpe"><div class="name">Jason Harpe</div></a>
+<div class="reason">02/24/2025 | possession of methamphetamines</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jeffrey-ard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ard-Jeffrey-Alan.jpg" alt="Jeffrey Ard"><div class="name">Jeffrey Ard</div></a>
+<div class="reason">02/24/2025 | DUIfailure to maintain lane and open container</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/marvin-juarez-bonilla/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Juarez-Bonilla-Marvin-Noe.jpg" alt="Marvin Juarez-Bonilla"><div class="name">Marvin Juarez-Bonilla</div></a>
+<div class="reason">02/23/2025 | giving false names, address, or date of birth to law enforcement officers.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/catie-cruz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cruz-Catie-S.jpg" alt="Catie Cruz"><div class="name">Catie Cruz</div></a>
+<div class="reason">02/23/2025 | Drug related objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/carlos-bonilla-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bonilla-Carlos-Daniel-Juarez.jpg" alt="Carlos Bonilla"><div class="name">Carlos Bonilla</div></a>
+<div class="reason">02/23/2025 | Driving with no licensedriving without headlights when requiredopen containers in vehiclefugitive from justice for finger printable charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/talia-bernardino/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bernardino-Talia-Lonn.jpg" alt="Talia Bernardino"><div class="name">Talia Bernardino</div></a>
+<div class="reason">02/23/2025 | hold from another County.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/mark-adams-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Adams-Mark-Henry.jpg" alt="Mark Adams"><div class="name">Mark Adams</div></a>
+<div class="reason">02/22/2025 | DUIfailure to maintain lane improper backingdriving without license/no license on person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/carlos-gomez-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gomez-Carlos.jpg" alt="Carlos Gomez"><div class="name">Carlos Gomez</div></a>
+<div class="reason">02/17/2025 | driving without a valid drivers license</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jasper-boyd-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Boyd-Jasper.jpg" alt="Jasper Boyd"><div class="name">Jasper Boyd</div></a>
+<div class="reason">02/14/2025 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/quadree-thomas-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thomas-Quadree-Jamal.jpg" alt="Quadree Thomas"><div class="name">Quadree Thomas</div></a>
+<div class="reason">02/16/2025 | willful obstruction of law enforcement unlawful conduct during 911 calls or constants 911 and makes a false report.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jamaria-sims-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sims-Jamaria-Androplis-Jermaine.jpg" alt="Jamaria Sims"><div class="name">Jamaria Sims</div></a>
+<div class="reason">02/12/2025 | failure to appear 2x.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jamaria-sims-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sims-Jamaria-Androplis-Jermaine.jpg" alt="Jamaria Sims"><div class="name">Jamaria Sims</div></a>
+<div class="reason">02/12/2025 | failure to appear 2x.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/garry-miley-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Miley-Garry-Ledale.jpg" alt="Garry Miley"><div class="name">Garry Miley</div></a>
+<div class="reason">02/10/2025 | failure to appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/mcarther-murray-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Murray-McArther-Mack.jpg" alt="McArther Murray"><div class="name">McArther Murray</div></a>
+<div class="reason">02/09/2025 | willful obstruction of law enforcement officerspossession and use of drug related objectsinterference with government property</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/cameron-williams-44/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Cameron-Tyrone.jpg" alt="Cameron Williams"><div class="name">Cameron Williams</div></a>
+<div class="reason">02/04/2025 | speedingtheft for receipt of stolen propertypossession and use of drug related objectspossession of marijuana less than an ozpossession of firearm or knife during commission of or attempt to commit certain crimes</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jovany-vazquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Vazquez-Jovany-Jimenez.jpg" alt="Jovany Vazquez"><div class="name">Jovany Vazquez</div></a>
+<div class="reason">01/29/2025 | speeding driving without a valid license.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/robert-dare-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dare-Robert-Earl.jpg" alt="Robert Dare"><div class="name">Robert Dare</div></a>
+<div class="reason">01/30/2025 | special presentment bench warrant</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/misael-morales-velazquez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Morales-Velazquez-Misael.jpg" alt="Misael Morales-Velazquez"><div class="name">Misael Morales-Velazquez</div></a>
+<div class="reason">01/28/2025 | speeding driving without a valid license</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/steve-mercer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Mercer-Steve-Ray.jpg" alt="Steve Mercer"><div class="name">Steve Mercer</div></a>
+<div class="reason">01/25/2025 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/cameron-roberts-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Roberts-Cameron-Jarekkenya.jpg" alt="Cameron Roberts"><div class="name">Cameron Roberts</div></a>
+<div class="reason">01/21/2025 | failure to appear 2xviolation of probation 2x.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/harry-welton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Welton-Harry-Eugene.jpg" alt="Harry Welton"><div class="name">Harry Welton</div></a>
+<div class="reason">01/19/2025 | DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/robert-davis-81/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Davis-Robert-Lee.jpg" alt="Robert Davis"><div class="name">Robert Davis</div></a>
+<div class="reason">01/16/2025 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/tara-page-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Page-Tara-Chantel.jpg" alt="Tara Page"><div class="name">Tara Page</div></a>
+<div class="reason">01/15/2025 | failure to appeal</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/christopher-morton-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Morton-Christopher-Chase.jpg" alt="Christopher Morton"><div class="name">Christopher Morton</div></a>
+<div class="reason">01/14/2025 | driving while license is suspended or revoked speeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/maurice-brown-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Brown-Maurice-Jueroon.jpg" alt="Maurice Brown"><div class="name">Maurice Brown</div></a>
+<div class="reason">01/15/2025 | theft by taken</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/danny-creamer-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Creamer-Danny-Lee.jpg" alt="Danny Creamer"><div class="name">Danny Creamer</div></a>
+<div class="reason">01/13/2025 | hold on a state warrant.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/ross-stakich-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Stakich-Ross-William-1.jpg" alt="Ross Stakich"><div class="name">Ross Stakich</div></a>
+<div class="reason">01/10/2025 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/frank-wilson-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Wilson-Frank-Alexander.jpg" alt="Frank Wilson"><div class="name">Frank Wilson</div></a>
+<div class="reason">01/12/2025 | failure to appear on a finger printable charge</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/dustin-courson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Courson-Dustin-Scott.jpg" alt="Dustin Courson"><div class="name">Dustin Courson</div></a>
+<div class="reason">01/10/2025 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/tyquanda-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Williams-Tyquanda-Jereshia.jpg" alt="Tyquanda Williams"><div class="name">Tyquanda Williams</div></a>
+<div class="reason">01/07/2025 | special presentment bench warrant</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/demetrius-thompson-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Thompson-Demetrius-Zion.jpg" alt="Demetrius Thompson"><div class="name">Demetrius Thompson</div></a>
+<div class="reason">01/07/2025 | probation violationfinancial card transaction 2x</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/edgar-becton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Becton-Edgar-Phillip.jpg" alt="Edgar Becton"><div class="name">Edgar Becton</div></a>
+<div class="reason">01/07/2025 | failure to appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/kellie-neal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Neal-Kellie-Amanda.jpg" alt="Kellie Neal"><div class="name">Kellie Neal</div></a>
+<div class="reason">12/29/2024 | DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/cedrick-charles-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Charles-Cedrick-Antonio.jpg" alt="Cedrick Charles"><div class="name">Cedrick Charles</div></a>
+<div class="reason">12/29/2024 | special presentment bench warrant.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/marcus-mcgriff/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McGriff-Marcus.jpg" alt="Marcus McGriff"><div class="name">Marcus McGriff</div></a>
+<div class="reason">12/26/2024 | fleeing or attempting to elude a police officerdriving without headlights when requireddriving while license suspended</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/cedrick-charles-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Charles-Cedrick-Antonio.jpg" alt="Cedrick Charles"><div class="name">Cedrick Charles</div></a>
+<div class="reason">12/29/2024 | special presentment bench warrant.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/marcus-mcgriff/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McGriff-Marcus.jpg" alt="Marcus McGriff"><div class="name">Marcus McGriff</div></a>
+<div class="reason">12/26/2024 | fleeing or attempting to elude a police officerdriving without headlights when requireddriving while license suspended</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/tyeshon-young-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Young-TyeShon-Davion.jpg" alt="Tye’Shon Young"><div class="name">Tye’Shon Young</div></a>
+<div class="reason">12/23/2024 | violation of probation 2x</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/kevin-ketchum/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ketchum-Kevin-Reed.jpg" alt="Kevin Ketchum"><div class="name">Kevin Ketchum</div></a>
+<div class="reason">12/23/2024 | aggravated assault.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/meliton-cruz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cruz-Meliton.jpg" alt="Meliton Cruz"><div class="name">Meliton Cruz</div></a>
+<div class="reason">12/24/2024 | speeding driving without a valid license.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/noe-eleria/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Eleria-Noe-Bautista.jpg" alt="Noe Eleria"><div class="name">Noe Eleria</div></a>
+<div class="reason">12/20/2024 | speeding driving without a valid license.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/roy-royals/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Royals-Roy-Wade.jpg" alt="Roy Royals"><div class="name">Roy Royals</div></a>
+<div class="reason">12/21/2024 | driving while license is suspended or revokedspeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/juan-trejo-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Trejo-Juan-Fransisco-1.jpg" alt="Juan Trejo"><div class="name">Juan Trejo</div></a>
+<div class="reason">12/20/2024 | failure to appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/wiliam-escalante-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Escalante-Wiliam-Goivanni-Velazquez.jpg" alt="Wiliam Escalante"><div class="name">Wiliam Escalante</div></a>
+<div class="reason">12/20/2024 | driving with no license</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/isaac-burdon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Burdon-Isaac-Robert.jpg" alt="Isaac Burdon"><div class="name">Isaac Burdon</div></a>
+<div class="reason">12/19/2024 | aggravated assault possession or transport of firearm by a convicted felon</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/khaduah-donaldson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Donaldson-Khaduah-Nicole.jpg" alt="Khaduah Donaldson"><div class="name">Khaduah Donaldson</div></a>
+<div class="reason">12/14/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/smauel-herndon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Herndon-Smauel-Thomas.jpg" alt="Smauel Herndon"><div class="name">Smauel Herndon</div></a>
+<div class="reason">12/11/2024 | disorderly conductpossession and use of drug related objectstampering with evidencewillful obstruction of law enforcement officers.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/randall-smith-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Smith-Randall-Brad.jpg" alt="Randall Smith"><div class="name">Randall Smith</div></a>
+<div class="reason">12/06/2024 | special presentment bench warrant.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jerome-moore-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Moore-Jerome-Charles.jpg" alt="Jerome Moore"><div class="name">Jerome Moore</div></a>
+<div class="reason">12/05/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/denton-butler-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Butler-Denton-Thomas-1.jpg" alt="Denton Butler"><div class="name">Denton Butler</div></a>
+<div class="reason">12/06/2024 | Driving while license suspendedfinancial identity fraudforgery in the first degreegiving false information/or false namespeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/savion-green-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Green-Savion-Malike.jpg" alt="Savion Green"><div class="name">Savion Green</div></a>
+<div class="reason">12/02/2024 | special presentment bench warrant.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jerry-ward-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ward-Jerry-Maxwell.jpg" alt="Jerry Ward"><div class="name">Jerry Ward</div></a>
+<div class="reason">12/02/2024 | special presentment bench warrant</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/bryanna-browning-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Browning-Bryanna-Nicole.jpg" alt="Bryanna Browning"><div class="name">Bryanna Browning</div></a>
+<div class="reason">12/02/2024 | special presentment bench warrant</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jerry-ward-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ward-Jerry-Maxwell.jpg" alt="Jerry Ward"><div class="name">Jerry Ward</div></a>
+<div class="reason">12/02/2024 | special presentment bench warrant</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/bryanna-browning-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Browning-Bryanna-Nicole.jpg" alt="Bryanna Browning"><div class="name">Bryanna Browning</div></a>
+<div class="reason">12/02/2024 | special presentment bench warrant</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/miguel-aguilar-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Aguilar-Miguel-Angel-Ruiz.jpg" alt="Miguel Aguilar"><div class="name">Miguel Aguilar</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/casey-birdwell-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Birdwell-Casey-Cristine.jpg" alt="Casey Birdwell"><div class="name">Casey Birdwell</div></a>
+<div class="reason">11/29/2024 | failure to appear for a finger- printable charge</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jimmy-mazariegos-lopez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mazariegos-Lopez-Jimmy-Brankly.jpg" alt="Jimmy Mazariegos-Lopez"><div class="name">Jimmy Mazariegos-Lopez</div></a>
+<div class="reason">11/27/2024 | speeding  driving while license suspended.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/blake-long-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Long-Blake-Hunter-1.jpg" alt="Blake Long"><div class="name">Blake Long</div></a>
+<div class="reason">11/26/2024 | violation of parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/destinee-zeigler-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Zeigler-Destinee-Nichole.jpg" alt="Destinee Zeigler"><div class="name">Destinee Zeigler</div></a>
+<div class="reason">11/25/2024 | return by bondman</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/desinee-zeigler/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Zeigler-Desinee-Nichole.jpg" alt="Desinee Zeigler"><div class="name">Desinee Zeigler</div></a>
+<div class="reason">11/22/2024 | giving false names, address or birthday to law enforcement officerwillful obstruction of law enforcement officersaiding or permitting another to escape lawful custody or confinement</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/titus-barton-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Barton-Titus-Malone-1.jpg" alt="Titus Barton"><div class="name">Titus Barton</div></a>
+<div class="reason">11/24/2024 | escapegiving false name, date of birth to law enforcementpossession of marijuana less than an oncepossession and use of drug related objectspossession of a schedule II controlled substance 2x possession of methamphetamine</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/ben-clark-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Clark-Ben.jpg" alt="Ben Clark"><div class="name">Ben Clark</div></a>
+<div class="reason">11/24/2024 | DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/skyler-white/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/White-Skyler-Stephen.jpg" alt="Skyler White"><div class="name">Skyler White</div></a>
+<div class="reason">11/20/2024 | warrant are pending</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/joshua-gaines-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Gaines-Joshua-Lynn.jpg" alt="Joshua Gaines"><div class="name">Joshua Gaines</div></a>
+<div class="reason">11/20/2024 | violation of probation.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jackie-croft-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Croft-Jackie-Carlton.jpg" alt="Jackie Croft"><div class="name">Jackie Croft</div></a>
+<div class="reason">11/20/2024 | theft by taking.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/angel-richardson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Richardson-Angel-Marie.jpg" alt="Angel Richardson"><div class="name">Angel Richardson</div></a>
+<div class="reason">11/20/2024 | failure to appear on a finger-printable charge</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/miguel-rodriguez-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Rodriguez-Miguel-Iva-Palacious.jpg" alt="Miguel Rodriguez"><div class="name">Miguel Rodriguez</div></a>
+<div class="reason">11/20/2024 | DUI leaving scene of an accident</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/titus-barton-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Barton-Titus-Malone.jpg" alt="Titus Barton"><div class="name">Titus Barton</div></a>
+<div class="reason">11/20/2024 | Warrants are penning</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/dalton-paschal-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Paschal-Dalton-Tyler.jpg" alt="Dalton Paschal"><div class="name">Dalton Paschal</div></a>
+<div class="reason">11/19/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/brett-houpe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Houpe-Brett-Michael.jpg" alt="Brett Houpe"><div class="name">Brett Houpe</div></a>
+<div class="reason">11/18/2024 | speeding driving while license was suspended or revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jarrod-chancey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Chancey-Jarrod-Thomas.jpg" alt="Jarrod Chancey"><div class="name">Jarrod Chancey</div></a>
+<div class="reason">11/18/2024 | speeding driving while license suspended</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/charles-raymond-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Raymond-Charles-Christopher.jpg" alt="Charles Raymond"><div class="name">Charles Raymond</div></a>
+<div class="reason">11/14/2024 | battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/misty-rogers-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Rogers-Misty-Michelle.jpg" alt="Misty Rogers"><div class="name">Misty Rogers</div></a>
+<div class="reason">11/13/2024 | failure to appear on a finger-printable offense.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/ricky-hill-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hill-Ricky.jpg" alt="Ricky Hill"><div class="name">Ricky Hill</div></a>
+<div class="reason">11/13/2024 | Violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/kyle-brockington/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Brockington-Kyle-Austin.jpg" alt="Kyle Brockington"><div class="name">Kyle Brockington</div></a>
+<div class="reason">11/07/2024 | cruelty to children 3rd degreeaggravated assaultcruelty to children 2nd degree 2xcriminal damage to property 2nd degree simple assault</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/william-altan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Altan-William-Charles.jpg" alt="William Altan"><div class="name">William Altan</div></a>
+<div class="reason">11/06/2024 | cruelty to a childaggravated child molestation 2xaggravated sodomy 2x</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/quessandra-jenkins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Jenkins-Quessandra-Zena.jpg" alt="Quessandra Jenkins"><div class="name">Quessandra Jenkins</div></a>
+<div class="reason">11/05/2024 | theft by taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/james-hickman-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hickman-James-Bland.jpg" alt="James Hickman"><div class="name">James Hickman</div></a>
+<div class="reason">11/02/2024 | failure to register as a sex offender/comply with requirements</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/russell-fender-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Fender-Russell-Lee.jpg" alt="Russell Fender"><div class="name">Russell Fender</div></a>
+<div class="reason">11/01/2024 | failure to register as sex offender</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/guadalupe-hernandez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hernandez-Guadalupe-Gomez.jpg" alt="Guadalupe Hernandez"><div class="name">Guadalupe Hernandez</div></a>
+<div class="reason">10/31/2024 | speeding driving without license</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/oglienger-sangronis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Sangronis-Oglienger-Josue.jpg" alt="Oglienger Sangronis"><div class="name">Oglienger Sangronis</div></a>
+<div class="reason">10/31/2024 | speedingdefective equipmentexpired tagsdriving without a license</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/gilbert-locks-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Locks-Gilbert.jpg" alt="Gilbert Locks"><div class="name">Gilbert Locks</div></a>
+<div class="reason">10/28/2024 | being held by CID</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/gilbert-locks-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Locks-Gilbert.jpg" alt="Gilbert Locks"><div class="name">Gilbert Locks</div></a>
+<div class="reason">10/28/2024 | being held by CID</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jose-jacobo-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Jacobo-Jose-Alehandro-Paque.jpg" alt="Jose Jacobo"><div class="name">Jose Jacobo</div></a>
+<div class="reason">10/27/2024 | driving without a valid license.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/regina-saum-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Saum-Regina-Ann.jpg" alt="Regina Saum"><div class="name">Regina Saum</div></a>
+<div class="reason">10/24/2024 | theft of taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/marquette-mccrae/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/McCrae-Marquette-Keyshawn.jpg" alt="Marquette McCrae"><div class="name">Marquette McCrae</div></a>
+<div class="reason">10/24/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/benny-ryan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Ryan-Benny-Lou.jpg" alt="Benny Ryan"><div class="name">Benny Ryan</div></a>
+<div class="reason">10/23/2024 | battery cruelty to children 3x.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/rochelle-mcwhite/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/McWhite-Rochelle.jpg" alt="Rochelle McWhite"><div class="name">Rochelle McWhite</div></a>
+<div class="reason">10/23/2024 | batterycruelty to children 3x</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/melissa-conger/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Conger-Melissa-Lea.jpg" alt="Melissa Conger"><div class="name">Melissa Conger</div></a>
+<div class="reason">10/22/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/quadree-thomas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Thomas-Quadree-Jamal.jpg" alt="Quadree Thomas"><div class="name">Quadree Thomas</div></a>
+<div class="reason">10/20/2024 | failure to appear for finger printable chargesviolation of probation.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/fredrick-brown-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Brown-Fredrick-Larmar.jpg" alt="Fredrick Brown"><div class="name">Fredrick Brown</div></a>
+<div class="reason">10/18/2024 | DUIfailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/eddie-hulen-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hulen-Eddie-Robert.jpg" alt="Eddie Hulen"><div class="name">Eddie Hulen</div></a>
+<div class="reason">10/17/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/james-mason-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Mason-James-Hunter.jpg" alt="James Mason"><div class="name">James Mason</div></a>
+<div class="reason">10/16/2024 | seat belt violationspeedingtint violationdriving with no license on person  driving while license suspended</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/vantreacia-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Smith-Vantreacia-Shamya.jpg" alt="Vantreacia Smith"><div class="name">Vantreacia Smith</div></a>
+<div class="reason">10/16/2024 | driving without insuranceknowingly driving without motor vehicle on suspended, canceled, or revoked registration.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/gregory-sealey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Sealey-Gregory-Scott.jpg" alt="Gregory Sealey"><div class="name">Gregory Sealey</div></a>
+<div class="reason">10/15/2024 | failure to appear on fingerprinterable offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/blake-long/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Long-Blake-Hunter.jpg" alt="Blake Long"><div class="name">Blake Long</div></a>
+<div class="reason">10/15/2024 | violations of parole conditions</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/brittiney-grant/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Grant-Brittiney-Marie.jpg" alt="Brittiney Grant"><div class="name">Brittiney Grant</div></a>
+<div class="reason">10/15/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/ted-williams-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Williams-Ted-Allen.jpg" alt="Ted Williams"><div class="name">Ted Williams</div></a>
+<div class="reason">10/15/2024 | failure to register as a sex offender</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/sergio-torres-perez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Torres-Perez-Sergio-Javier.jpg" alt="Sergio Torres-Perez"><div class="name">Sergio Torres-Perez</div></a>
+<div class="reason">10/09/2024 | speeding driving w/no license/unlicensed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/timothy-gloster-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Gloster-Timothy-Tyrelle.jpg" alt="Timothy Gloster"><div class="name">Timothy Gloster</div></a>
+<div class="reason">10/07/2024 | violation for probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/valarie-cox-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Cox-Valarie-Christa.jpg" alt="Valarie Cox"><div class="name">Valarie Cox</div></a>
+<div class="reason">10/07/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/timothy-gloster-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Gloster-Timothy-Tyrelle.jpg" alt="Timothy Gloster"><div class="name">Timothy Gloster</div></a>
+<div class="reason">10/07/2024 | violation for probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/ryan-wright-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Wright-Ryan-Devon.jpg" alt="Ryan Wright"><div class="name">Ryan Wright</div></a>
+<div class="reason">10/05/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/billy-cowart-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Cowart-Billy-Joe.jpg" alt="Billy Cowart"><div class="name">Billy Cowart</div></a>
+<div class="reason">10/01/2024 | aggravated assault 2xcriminal attempt to commit felonyaggravated batterypossession of tools for commission of a crime manufacture, distribute, possess with intent to distribute, offer to distribute.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/austin-register/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Register-Austin-Tyler.jpg" alt="Austin Register"><div class="name">Austin Register</div></a>
+<div class="reason">09/25/2024 | fugitive from justice.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/elizabeth-swearingen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Swearingen-Elizabeth-Gail.jpg" alt="Elizabeth Swearingen"><div class="name">Elizabeth Swearingen</div></a>
+<div class="reason">09/24/2024 | purchase/possess or having control of any controlled substance in Schedule IItheft by shopliftinggiving false name, address or date of birth to law enforcement officer possession and use of drug related objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/fourgita-johnson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Johnson-Fourgita-Asyamma-720x480.jpg" alt="Fourgita Johnson"><div class="name">Fourgita Johnson</div></a>
+<div class="reason">09/23/2024 | willful obstruction of law enforcementgiving  false name, address, or date of birth to law enforcement</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/james-phillips-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Phillips-James-Randall-720x480.jpg" alt="James Phillips"><div class="name">James Phillips</div></a>
+<div class="reason">09/23/2024 | driving while license is suspended</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/brandi-foote-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Foote-Brandi-Nicole-720x480.jpg" alt="Brandi Foote"><div class="name">Brandi Foote</div></a>
+<div class="reason">09/23/2024 | theft by receiving stolen property.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/michael-brown-154/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Brown-Michael-1-720x480.jpg" alt="Michael Brown"><div class="name">Michael Brown</div></a>
+<div class="reason">09/20/2024 | batterycruelty to childrenwillful obstruction of law enforcement/officers</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/gerson-max/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Max-Gerson-Miqueas-Cojoc-720x480.jpg" alt="Gerson Max"><div class="name">Gerson Max</div></a>
+<div class="reason">09/18/2024 | DUIfailure to drive in a single laneopen container in vehicleillegal parkingdriving without a valid license</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/piece-screen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Screen-Piece-720x480.jpg" alt="Piece Screen"><div class="name">Piece Screen</div></a>
+<div class="reason">09/16/2024 | violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/kevin-crosby-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Crosby-Kevin-Joe-720x480.jpg" alt="Kevin Crosby"><div class="name">Kevin Crosby</div></a>
+<div class="reason">09/15/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/amber-vickery-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Vickery-Amber-Deanne-720x480.jpg" alt="Amber Vickery"><div class="name">Amber Vickery</div></a>
+<div class="reason">09/12/2024 | failure to appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/niquavion-powell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Powell-Niquavion-Deonte-720x480.jpg" alt="Niquavion Powell"><div class="name">Niquavion Powell</div></a>
+<div class="reason">09/12/2024 | cruelty to a child 5x</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/marcellous-waters/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Waters-Marcellous-Mikquon-720x480.jpg" alt="Marcellous Waters"><div class="name">Marcellous Waters</div></a>
+<div class="reason">09/10/2024 | reckless drivingdriving to fast for conditions</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/samantha-martin-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Martin-Samantha-Marie-720x480.jpg" alt="Samantha Martin"><div class="name">Samantha Martin</div></a>
+<div class="reason">09/10/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/william-brooks-23/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Brooks-William-Paul-720x480.jpg" alt="William Brooks"><div class="name">William Brooks</div></a>
+<div class="reason">09/10/2024 | criminal trespass 3xpossession of drug related objectpossession of methamphetamine</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jason-harpe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/financial-identity-fraud-720x480.jpg" alt="Jason Harpe"><div class="name">Jason Harpe</div></a>
+<div class="reason">09/09/2024 | financial identity fraud.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jacob-beach/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Beach-Jacob-Cameron-720x480.jpg" alt="Jacob Beach"><div class="name">Jacob Beach</div></a>
+<div class="reason">09/08/2024 | theft by taking.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/andrew-wright-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Wright-Andrew-James-720x480.jpg" alt="Andrew Wright"><div class="name">Andrew Wright</div></a>
+<div class="reason">09/08/2024 | DUIexpired tagfailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/john-phelps/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Phelps-John-Paul-720x480.jpg" alt="John Phelps"><div class="name">John Phelps</div></a>
+<div class="reason">09/06/2024 | simple batterybattery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/justin-north/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/North-Justin-Edward-720x480.jpg" alt="Justin North"><div class="name">Justin North</div></a>
+<div class="reason">09/05/2024 | aggravated stalking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/eddie-miller-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Miller-Eddie-Wayne-720x480.webp" alt="Eddie Miller"><div class="name">Eddie Miller</div></a>
+<div class="reason">09/02/2024 | criminal trespass (family violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/eddie-miller-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Miller-Eddie-Wayne-720x480.webp" alt="Eddie Miller"><div class="name">Eddie Miller</div></a>
+<div class="reason">09/02/2024 | criminal trespass (family violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/bogan-miller/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Miller-Bogan-Miguel-720x480.webp" alt="Bogan Miller"><div class="name">Bogan Miller</div></a>
+<div class="reason">09/02/2024 | public drunkenness.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jacob-frees-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Frees-Jacob-Lee-720x480.webp" alt="Jacob Frees"><div class="name">Jacob Frees</div></a>
+<div class="reason">08/31/2024 | failure to appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/melissa-marcatos-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Marcatos-Melissa-Ann-720x480.webp" alt="Melissa Marcatos"><div class="name">Melissa Marcatos</div></a>
+<div class="reason">08/30/2024 | possession and use of drug related objectspossession of firearms or knife during the commission of or attempt to commit certain crimespossession of methamphetamine with intent to distribute and receiptpossession or transport of firearm by convicted felon 2x</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/tunitra-webb/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Webb-Tunitra-Shamayne-720x480.webp" alt="Tunitra Webb"><div class="name">Tunitra Webb</div></a>
+<div class="reason">08/28/2024 | speeding  driving while license is suspended or revoked.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/titus-barton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Barton-Titus-Malone-720x480.webp" alt="Titus Barton"><div class="name">Titus Barton</div></a>
+<div class="reason">08/27/2024 | theft by taking.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/titus-barton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Barton-Titus-Malone-720x480.webp" alt="Titus Barton"><div class="name">Titus Barton</div></a>
+<div class="reason">08/27/2024 | theft by taking.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/warren-johnson-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Johnson-Warren-Randolph-720x480.webp" alt="Warren Johnson"><div class="name">Warren Johnson</div></a>
+<div class="reason">08/27/2024 | violation of probation.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/erica-harper-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Harper-Erica-Brooke-720x480.webp" alt="Erica Harper"><div class="name">Erica Harper</div></a>
+<div class="reason">08/25/2024 | criminal trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/john-flukers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Flukers-John-720x480.webp" alt="John Flukers"><div class="name">John Flukers</div></a>
+<div class="reason">08/22/2024 | DUIspeedingreckless drivingdriving without a valid license</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/josue-luna/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Luna-Josue-Elvira-720x480.webp" alt="Josue Luna"><div class="name">Josue Luna</div></a>
+<div class="reason">08/20/2024 | driving without/no license/unlicensedfailure to yield to emergency vehicleimproper turn expired tag.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/david-seamore-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Seamore-David-Earl-720x480.webp" alt="David Seamore"><div class="name">David Seamore</div></a>
+<div class="reason">08/20/2024 | Theft by taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/brian-garcia-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Garcia-Brian-Dario-720x480.webp" alt="Brian Garcia"><div class="name">Brian Garcia</div></a>
+<div class="reason">08/16/2024 | serious injury by vehicle</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/aliza-dickey-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Dickey-Aliza-Dejun-720x480.webp" alt="Aliza Dickey"><div class="name">Aliza Dickey</div></a>
+<div class="reason">08/15/2024 | violation of probation.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/katrina-camon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Camon-Katrina-Deatrice-720x480.webp" alt="Katrina Camon"><div class="name">Katrina Camon</div></a>
+<div class="reason">08/15/2024 | unlawful dumping</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/kedarius-sirmans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Sirmans-Kedarius-Leon-720x480.webp" alt="Kedarius Sirmans"><div class="name">Kedarius Sirmans</div></a>
+<div class="reason">08/14/2024 | violation of probation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/latonga-coxfield/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Coxfield-Latonga-Briana-720x480.webp" alt="Latonga Coxfield"><div class="name">Latonga Coxfield</div></a>
+<div class="reason">08/14/2024 | cruelty to children in 1st degree 5x.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/james-mcguire-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/McGuire-James-Marus-720x480.webp" alt="James McGuire"><div class="name">James McGuire</div></a>
+<div class="reason">08/13/2024 | burglary theft by receiving stolen property.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/latonga-coxfield/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Coxfield-Latonga-Briana-720x480.webp" alt="Latonga Coxfield"><div class="name">Latonga Coxfield</div></a>
+<div class="reason">08/14/2024 | cruelty to children in 1st degree 5x.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/manuel-herndon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Herndon-Manuel-Lee-720x480.webp" alt="Manuel Herndon"><div class="name">Manuel Herndon</div></a>
+<div class="reason">08/12/2024 | violation of probation.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/james-newsome-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Newsome-James-Ronald-720x480.webp" alt="James Newsome"><div class="name">James Newsome</div></a>
+<div class="reason">08/09/2024 | violation of probation 2x</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/clinton-walker-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Walker-Clinton-Duwayne-720x480.webp" alt="Clinton Walker"><div class="name">Clinton Walker</div></a>
+<div class="reason">08/09/2024 | failure to appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/justin-hendrix-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hendrix-Justin-Lee-720x480.webp" alt="Justin Hendrix"><div class="name">Justin Hendrix</div></a>
+<div class="reason">08/06/2024 | simple battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/samuel-blinn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Blinn-Samuel-Elijah-720x480.webp" alt="Samuel Blinn"><div class="name">Samuel Blinn</div></a>
+<div class="reason">08/06/2024 | speedingdriving while license is suspended or revokedtint violation.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/scott-kilmer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Kilmer-Scott-720x480.webp" alt="Scott Kilmer"><div class="name">Scott Kilmer</div></a>
+<div class="reason">08/03/2024 | failure to appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/gary-manning/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Manning-Gary-Lee-720x480.webp" alt="Gary Manning"><div class="name">Gary Manning</div></a>
+<div class="reason">08/04/2024 | violation of probation hold out of another county.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/tavares-butler/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Butler-Tavares-Samuel-720x480.webp" alt="Tavares Butler"><div class="name">Tavares Butler</div></a>
+<div class="reason">08/03/2024 | driving while license suspended or revokedseat belt violationspeedingtint violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/robert-sands-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Sands-Robert-George-720x480.webp" alt="Robert Sands"><div class="name">Robert Sands</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jerry-ward-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Ward-Jerry-Maxwell-720x480.webp" alt="Jerry Ward"><div class="name">Jerry Ward</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jeremiah-schaber/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Schaber-Jeremiah-David-720x480.webp" alt="Jeremiah Schaber"><div class="name">Jeremiah Schaber</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jennifer-biddle/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Biddle-Jennifer-720x480.webp" alt="Jennifer Biddle"><div class="name">Jennifer Biddle</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/juan-diaz-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Diaz-Juan-Carlos-Gomez-720x480.webp" alt="Juan Diaz"><div class="name">Juan Diaz</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/harold-roberson-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Roberson-Harold-Throne-720x480.webp" alt="Harold Roberson"><div class="name">Harold Roberson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/joseph-wheeler-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Wheeler-Joseph-Lavon-720x480.webp" alt="Joseph Wheeler"><div class="name">Joseph Wheeler</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/maria-mejia-aguirre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Mejia-Aguirre-Maria-Luisa-720x480.webp" alt="Maria Mejia-Aguirre"><div class="name">Maria Mejia-Aguirre</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/bernardo-gutierrez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Gutierrez-Bernardo-Garcia-720x480.webp" alt="Bernardo Gutierrez"><div class="name">Bernardo Gutierrez</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/robert-browning/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Browning-Robert-Stanley-720x480.webp" alt="Robert Browning"><div class="name">Robert Browning</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/javion-brown/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Brown-Javion-Marzel-720x480.webp" alt="Javion Brown"><div class="name">Javion Brown</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/mcarther-murray-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Murray-McArther-Mack-720x480.webp" alt="McArther Murray"><div class="name">McArther Murray</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/juan-gomez-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Gomez-Juan-Perez-720x480.webp" alt="Juan Gomez"><div class="name">Juan Gomez</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/gerren-miller/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Miller-Gerren-Davaughn-720x480.webp" alt="Gerren Miller"><div class="name">Gerren Miller</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/roy-stone-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Stone-Roy-Fulton-720x480.webp" alt="Roy Stone"><div class="name">Roy Stone</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/gerren-miller/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Miller-Gerren-Davaughn-720x480.webp" alt="Gerren Miller"><div class="name">Gerren Miller</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/roy-stone-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Stone-Roy-Fulton-720x480.webp" alt="Roy Stone"><div class="name">Roy Stone</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/miguel-caal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Caal-Miguel-Jo-720x480.webp" alt="Miguel Caal"><div class="name">Miguel Caal</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/christopher-spires-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Spires-Christopher-Allen-720x480.webp" alt="Christopher Spires"><div class="name">Christopher Spires</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/william-nash-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Nash-William-Donathan-720x480.webp" alt="William Nash"><div class="name">William Nash</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/savion-green-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Green-Savion-Malike-720x480.webp" alt="Savion Green"><div class="name">Savion Green</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/joshua-lane/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Lane-Joshua-Randall-720x480.webp" alt="Joshua Lane"><div class="name">Joshua Lane</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/phillip-crumpton-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Crumpton-Phillip-Jamarh-720x480.webp" alt="Phillip Crumpton"><div class="name">Phillip Crumpton</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/maison-zirkle-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Zirkle-Maison-D-720x480.webp" alt="Maison Zirkle"><div class="name">Maison Zirkle</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/darnez-hollow-payne/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hollow-Payne-Darnez-Camar-720x480.webp" alt="Darnez Hollow-Payne"><div class="name">Darnez Hollow-Payne</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jeremiah-griffin-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Griffin-Jeremiah-Nathaniel-720x480.webp" alt="Jeremiah Griffin"><div class="name">Jeremiah Griffin</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/gariel-jones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Jones-Gariel-Scott-720x480.webp" alt="Gariel Jones"><div class="name">Gariel Jones</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/monika-bradley-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Bradley-Monika-Yvette-720x480.webp" alt="Monika Bradley"><div class="name">Monika Bradley</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/kobe-gavin-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Gavin-Kobe-Juwan-1-720x480.webp" alt="Kobe Gavin"><div class="name">Kobe Gavin</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/scott-treadway-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Treadway-Scott-Allen-720x480.webp" alt="Scott Treadway"><div class="name">Scott Treadway</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/dustin-harrell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Harrell-Dustin-William-720x480.webp" alt="Dustin Harrell"><div class="name">Dustin Harrell</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/frank-wilson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Wilson-Frank-Alexander-720x480.webp" alt="Frank Wilson"><div class="name">Frank Wilson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/eston-hutto-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Hutto-Eston-Lee-720x480.webp" alt="Eston Hutto"><div class="name">Eston Hutto</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/frank-wilson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Wilson-Frank-Alexander-720x480.webp" alt="Frank Wilson"><div class="name">Frank Wilson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/eston-hutto-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Hutto-Eston-Lee-720x480.webp" alt="Eston Hutto"><div class="name">Eston Hutto</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/arthur-williams-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Williams-Arthur-Lee-720x480.webp" alt="Arthur Williams"><div class="name">Arthur Williams</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/bobby-ballinger/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Ballinger-Bobby-Ray-720x480.webp" alt="Bobby Ballinger"><div class="name">Bobby Ballinger</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/james-branch-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Branch-James-Scott-720x480.jpg" alt="James Branch"><div class="name">James Branch</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/michael-beecher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Beecher-Michael-Brandon-720x480.jpg" alt="Michael Beecher"><div class="name">Michael Beecher</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/fernando-ramos-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Ramos-Fernando-Ginez-720x480.webp" alt="Fernando Ramos"><div class="name">Fernando Ramos</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/dagoberto-fransico/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Fransico-Dagoberto-Carballo-720x480.webp" alt="Dagoberto Fransico"><div class="name">Dagoberto Fransico</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/john-young-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Young-John-Edward-720x480.webp" alt="John Young"><div class="name">John Young</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/lori-peters-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Peters-Lori-Day-720x480.webp" alt="Lori Peters"><div class="name">Lori Peters</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/corvousier-jackson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Jackson-Corvousier-Travion-720x480.webp" alt="Corvousier Jackson"><div class="name">Corvousier Jackson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/david-walker-38/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Walker-David-Carl-720x480.jpg" alt="David Walker"><div class="name">David Walker</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/domenick-calhoun-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Calhoun-Domenick-Kantae-720x480.jpg" alt="Domenick Calhoun"><div class="name">Domenick Calhoun</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/lori-peters-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Peters-Lori-Day-720x480.jpg" alt="Lori Peters"><div class="name">Lori Peters</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/jerrod-cisco/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Cisco-Jerrod-Zan-720x480.webp" alt="Jerrod Cisco"><div class="name">Jerrod Cisco</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/lonnie-stewart/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Stewart-Lonnie-Denzel-720x480.webp" alt="Lonnie Stewart"><div class="name">Lonnie Stewart</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/babara-allen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Allen-Babara-Jean-720x480.webp" alt="Babara Allen"><div class="name">Babara Allen</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/james-branch-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Branch-James-Scott-720x480.webp" alt="James Branch"><div class="name">James Branch</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/bruce-copeland-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Copeland-Bruce-Quincy-720x480.webp" alt="Bruce Copeland"><div class="name">Bruce Copeland</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/tyquanda-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Williams-Tyquanda-Jereshia-720x480.webp" alt="Tyquanda Williams"><div class="name">Tyquanda Williams</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/desiree-jones-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Jones-Desiree-Uvonne-720x480.webp" alt="Desiree Jones"><div class="name">Desiree Jones</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/tristian-green/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Green-Tristian-Ariano-Lee-720x480.jpg" alt="Tristian Green"><div class="name">Tristian Green</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/robert-horton-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Horton-Robert-Christopher-720x480.webp" alt="Robert Horton"><div class="name">Robert Horton</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/shauncee-fiffie/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Fiffie-Shauncee-Naomi-720x480.webp" alt="Shauncee Fiffie"><div class="name">Shauncee Fiffie</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/johnny-miller-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Miller-Johnny-720x480.webp" alt="Johnny Miller"><div class="name">Johnny Miller</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/brittany-shivers-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Shivers-Brittany-Erica-720x480.webp" alt="Brittany Shivers"><div class="name">Brittany Shivers</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/karren-vince/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Vince-Karren-Omar-720x480.webp" alt="Karren Vince"><div class="name">Karren Vince</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/danny-creamer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Creamer-Danny-Lee-720x480.webp" alt="Danny Creamer"><div class="name">Danny Creamer</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/michael-spikes-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Spikes-Michael-Allen-720x480.webp" alt="Michael Spikes"><div class="name">Michael Spikes</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/william-webb-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Webb-William-Nicholas-720x480.webp" alt="William Webb"><div class="name">William Webb</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/lucious-barnes-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/violation-of-probation-2x-720x480.webp" alt="Lucious Barnes"><div class="name">Lucious Barnes</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/corvousier-jackson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Jackson-Corvousier-Travion-720x480.webp" alt="Corvousier Jackson"><div class="name">Corvousier Jackson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/sterling-frazier/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Frazier-Sterling-Thomas-720x480.webp" alt="Sterling Frazier"><div class="name">Sterling Frazier</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/robert-reese-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Reese-Robert-Lee-720x480.webp" alt="Robert Reese"><div class="name">Robert Reese</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/donquavious-dennis-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Dennis-Donquavious-Demarcus-720x480.webp" alt="Donquavious Dennis"><div class="name">Donquavious Dennis</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/lesley-wainright-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Wainright-Lesley-Elizabeth-720x480.webp" alt="Lesley Wainright"><div class="name">Lesley Wainright</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/samuel-perez-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Perez-Samuel-720x480.webp" alt="Samuel Perez"><div class="name">Samuel Perez</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/lanier/monika-bradley-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Bradley-Monika-Yvette-720x480.webp" alt="Monika Bradley"><div class="name">Monika Bradley</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+</div><div class="pagination"><a href="lanier2.html">Next Page</a></div></body></html>

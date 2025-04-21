@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/ionut-tranca/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Tranca-Ionut.jpg" alt="Ionut Tranca"><div class="name">Ionut Tranca</div></a>
+<div class="reason">12/24/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/sherika-todd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Todd-Sherika-Shuntele.jpg" alt="Sherika Todd"><div class="name">Sherika Todd</div></a>
+<div class="reason">12/26/2024 | Driving W/Suspended Dr LicenseNo Proof of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/dante-thebaud/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Thebaud-Dante-Donovan.jpg" alt="Dante Thebaud"><div class="name">Dante Thebaud</div></a>
+<div class="reason">12/27/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/manuel-tellez-alcantara/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Tellez-Alcantara-Manuel.jpg" alt="Manuel Tellez-Alcantara"><div class="name">Manuel Tellez-Alcantara</div></a>
+<div class="reason">12/25/2024 | Driving Without A Valid LicensExcessive Tint On Windshield</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/trent-straub-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Straub-Trent-Albert.jpg" alt="Trent Straub"><div class="name">Trent Straub</div></a>
+<div class="reason">12/26/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/sean-stokes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stokes-Sean-Devin.jpg" alt="Sean Stokes"><div class="name">Sean Stokes</div></a>
+<div class="reason">12/23/2024 | Tampering with EvidencePossession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/embrea-marian-sandu/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sandu-Embrea-Marian.jpg" alt="Embrea-Marian Sandu"><div class="name">Embrea-Marian Sandu</div></a>
+<div class="reason">12/24/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/michael-petralia/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Petralia-Michael-Joseph.jpg" alt="Michael Petralia"><div class="name">Michael Petralia</div></a>
+<div class="reason">12/27/2024 | DUI of AlcoholImproper Use/Turning Sig/LightFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/deandre-nelson-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Nelson-Deandre-Miles.jpg" alt="Deandre Nelson"><div class="name">Deandre Nelson</div></a>
+<div class="reason">12/26/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/camelia-nelson-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Nelson-Camelia-Angelita.jpg" alt="Camelia Nelson"><div class="name">Camelia Nelson</div></a>
+<div class="reason">12/28/2024 | Public DrunknessCruelty to ChildrenDriving W/Suspended Dr LicenseDUI of AlcoholEndangering Child/DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/richard-mcintosh/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McIntosh-Richard.jpg" alt="Richard McIntosh"><div class="name">Richard McIntosh</div></a>
+<div class="reason">12/29/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/ahmed-mbengue-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mbengue-Ahmed-Teejan.jpg" alt="Ahmed Mbengue"><div class="name">Ahmed Mbengue</div></a>
+<div class="reason">12/28/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/malvin-mbaimabi/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mbaimabi-Malvin.jpg" alt="Malvin Mbaimabi"><div class="name">Malvin Mbaimabi</div></a>
+<div class="reason">12/26/2024 | DUI of AlcoholSpeedingMarijuana Possession less 1 oz</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/barry-manuel-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Manuel-Barry-Cornell.jpg" alt="Barry Manuel"><div class="name">Barry Manuel</div></a>
+<div class="reason">12/28/2024 | Obstruction of OfficerBattery/FVSimple Battery/FVCruelty to Children 3rdCruelty to Children 3rdCruelty to Children 3rd</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/eric-malcolm-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Malcolm-Eric-Bernard.jpg" alt="Eric Malcolm"><div class="name">Eric Malcolm</div></a>
+<div class="reason">12/26/2024 | Probation/Parole violationProbation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/welser-lopez-aguilar-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lopez-Aguilar-Welser-Obed.jpg" alt="Welser Lopez-Aguilar"><div class="name">Welser Lopez-Aguilar</div></a>
+<div class="reason">12/23/2024 | DUI of AlcoholOpen ContainerDriving Without A Valid LicensSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/moses-larkins-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Larkins-Moses.jpg" alt="Moses Larkins"><div class="name">Moses Larkins</div></a>
+<div class="reason">12/26/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/matthew-keller-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Keller-Matthew-Joseph.jpg" alt="Matthew Keller"><div class="name">Matthew Keller</div></a>
+<div class="reason">12/26/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/shekila-jones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jones-Shekila-Asenia.jpg" alt="Shekila Jones"><div class="name">Shekila Jones</div></a>
+<div class="reason">12/24/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/ayanna-jones-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jones-Ayanna-Shantrelle.jpg" alt="Ayanna Jones"><div class="name">Ayanna Jones</div></a>
+<div class="reason">12/26/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/aundra-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Johnson-Aundra-Breshay-B.jpg" alt="Aundra Johnson"><div class="name">Aundra Johnson</div></a>
+<div class="reason">12/23/2024 | Possession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/tia-jackson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jackson-Tia-Briana-Marie.jpg" alt="Tia Jackson"><div class="name">Tia Jackson</div></a>
+<div class="reason">12/24/2024 | Theft by Conversion</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jaquann-howell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Howell-Jaquann-Markie-1.jpg" alt="Jaquann Howell"><div class="name">Jaquann Howell</div></a>
+<div class="reason">12/27/2024 | Bench Warrant (Failure to Appear ONLY)Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kevin-hale-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hale-Kevin-Jermaine-Jr.jpg" alt="Kevin Hale"><div class="name">Kevin Hale</div></a>
+<div class="reason">12/23/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/richard-graves-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Graves-Richard-Wayne.jpg" alt="Richard Graves"><div class="name">Richard Graves</div></a>
+<div class="reason">12/24/2024 | Driving W/Suspended Dr LicensePoss/Use Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/terrance-goss-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Goss-Terrance-Terrell.jpg" alt="Terrance Goss"><div class="name">Terrance Goss</div></a>
+<div class="reason">12/27/2024 | Marijuana Possession less 1 ozExpired/No License Plate/DecalDriving W/Suspended Dr LicenseNo Proof of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/roger-fuentes-gomez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fuentes-Gomez-Roger-Eli.jpg" alt="Roger Fuentes Gomez"><div class="name">Roger Fuentes Gomez</div></a>
+<div class="reason">12/27/2024 | Driving Without A Valid Licens</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jose-fuentes-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fuentes-Jose-Eduardo.jpg" alt="Jose Fuentes"><div class="name">Jose Fuentes</div></a>
+<div class="reason">12/26/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kizmia-frazier/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Frazier-Kizmia.jpg" alt="Kizmia Frazier"><div class="name">Kizmia Frazier</div></a>
+<div class="reason">12/27/2024 | Possession of Marijuana <1 OunDriving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/antwon-ferrell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ferrell-Antwon-Levar.jpg" alt="Antwon Ferrell"><div class="name">Antwon Ferrell</div></a>
+<div class="reason">12/26/2024 | Open ContainerCity OrdinancePossession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/christine-fenton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fenton-Christine-Anne-1.jpg" alt="Christine Fenton"><div class="name">Christine Fenton</div></a>
+<div class="reason">12/28/2024 | Theft by ShopliftingObstruction of OfficerTheft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/anastasia-felton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Felton-Anastasia.jpg" alt="Anastasia Felton"><div class="name">Anastasia Felton</div></a>
+<div class="reason">12/23/2024 | Impersonating an OfficerPos of firearm/knife comm of cTheft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/haley-evans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Evans-Haley-Autumn.jpg" alt="Haley Evans"><div class="name">Haley Evans</div></a>
+<div class="reason">12/28/2024 | Aggressive drivingFail to Stop @ Acc W/DamagesFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/holly-dolan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Dolan-Holly-Christine.jpg" alt="Holly Dolan"><div class="name">Holly Dolan</div></a>
+<div class="reason">12/28/2024 | Bench Warrant (Failure to Appear ONLY)Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/charles-dolan-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Dolan-Charles-Thomas.jpg" alt="Charles Dolan"><div class="name">Charles Dolan</div></a>
+<div class="reason">12/26/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/derrick-dewitt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Dewitt-Derrick-Lamar.jpg" alt="Derrick Dewitt"><div class="name">Derrick Dewitt</div></a>
+<div class="reason">12/24/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/tavaris-despinosse/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Despinosse-Tavaris.jpg" alt="Tavaris Despinosse"><div class="name">Tavaris Despinosse</div></a>
+<div class="reason">12/23/2024 | Financial Identity FraudGiving False Name to OfficerTheft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/oluwatoyin-dedeigbo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Dedeigbo-Oluwatoyin-A.jpg" alt="Oluwatoyin Dedeigbo"><div class="name">Oluwatoyin Dedeigbo</div></a>
+<div class="reason">12/26/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/corey-cumbee/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cumbee-Corey-Charles.jpg" alt="Corey Cumbee"><div class="name">Corey Cumbee</div></a>
+<div class="reason">12/28/2024 | City Ordinance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/rene-cruz-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cruz-Rene.jpg" alt="Rene Cruz"><div class="name">Rene Cruz</div></a>
+<div class="reason">12/23/2024 | DUI of AlcoholCity Ordinance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/gilberto-cortez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cortez-Gilberto-Marcos.jpg" alt="Gilberto Cortez"><div class="name">Gilberto Cortez</div></a>
+<div class="reason">12/27/2024 | Ran Stop SignDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/myles-cook/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cook-Myles-Alexander.jpg" alt="Myles Cook"><div class="name">Myles Cook</div></a>
+<div class="reason">12/24/2024 | Possession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/zane-ceesay-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ceesay-Zane-Nyanya.jpg" alt="Zane Ceesay"><div class="name">Zane Ceesay</div></a>
+<div class="reason">12/27/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/nicholas-bush-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bush-Nicholas-Jermaine.jpg" alt="Nicholas Bush"><div class="name">Nicholas Bush</div></a>
+<div class="reason">12/26/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jaylin-ball-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ball-Jaylin.jpg" alt="Jaylin Ball"><div class="name">Jaylin Ball</div></a>
+<div class="reason">12/26/2024 | SpeedingDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kelly-andrew/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Andrew-Kelly-Elizabeth.jpg" alt="Kelly Andrew"><div class="name">Kelly Andrew</div></a>
+<div class="reason">12/23/2024 | Improper TurnDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/nakia-albro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Albro-Nakia.jpg" alt="Nakia Albro"><div class="name">Nakia Albro</div></a>
+<div class="reason">12/29/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/briana-abner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Abner-Briana-Dionne.jpg" alt="Briana Abner"><div class="name">Briana Abner</div></a>
+<div class="reason">12/27/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/michael-schmidt-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Schmidt-Michael-Allen.jpg" alt="Michael Schmidt"><div class="name">Michael Schmidt</div></a>
+<div class="reason">12/05/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/justin-white-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/White-Justin.jpg" alt="Justin White"><div class="name">Justin White</div></a>
+<div class="reason">12/18/2024 | Pos of firearm/knife comm of cPossession of Marijuana <1 OunDrug Possession/Sale/ManufactNo Proof of InsuranceSeat Belt ViolationDriving w/Suspen. Registration</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/julisa-young-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Young-Julisa-Symone.jpg" alt="Julisa Young"><div class="name">Julisa Young</div></a>
+<div class="reason">12/16/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/clarence-wyatt-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wyatt-Clarence-James.jpg" alt="Clarence Wyatt"><div class="name">Clarence Wyatt</div></a>
+<div class="reason">12/18/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/anthony-wright-30/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wright-Anthony-D.jpg" alt="Anthony Wright"><div class="name">Anthony Wright</div></a>
+<div class="reason">12/19/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/belinda-worsley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Worsley-Belinda-Nicole.jpg" alt="Belinda Worsley"><div class="name">Belinda Worsley</div></a>
+<div class="reason">12/17/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kesharia-woods/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Woods-Kesharia.jpg" alt="Kesharia Woods"><div class="name">Kesharia Woods</div></a>
+<div class="reason">12/17/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/trivian-williams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Williams-Trivian-Jeantrel-Sr.jpg" alt="Trivian Williams"><div class="name">Trivian Williams</div></a>
+<div class="reason">12/17/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/shaliyah-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Williams-Shaliyah-Angelina.jpg" alt="Shaliyah Williams"><div class="name">Shaliyah Williams</div></a>
+<div class="reason">12/16/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/terrance-wilford-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wilford-Terrance-Thomas.jpg" alt="Terrance Wilford"><div class="name">Terrance Wilford</div></a>
+<div class="reason">12/17/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jeremy-white-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/White-Jeremy-Isaiah.jpg" alt="Jeremy White"><div class="name">Jeremy White</div></a>
+<div class="reason">12/22/2024 | Improper Use/Turning Sig/LightFailure to maintain laneSpeedingPossession of Marijuana <1 OunDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/robert-swift-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Swift-Robert-Allen.jpg" alt="Robert Swift"><div class="name">Robert Swift</div></a>
+<div class="reason">12/19/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/mykuis-webb/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Webb-Mykuis-Durell.jpg" alt="Mykuis Webb"><div class="name">Mykuis Webb</div></a>
+<div class="reason">12/19/2024 | Reckless ConductTheft by ShopliftingFleeing/Eluding Law EnforcemenReckless DrivingImproper Use/Turning Sig/LightDriving W/Suspended Dr LicenseFailure to maintain laneObediance to Traffic Control DeviceFailure Yield Emergency Vehicl</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/leybi-velasquez-lopez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Velasquez-Lopez-Leybi-Yorleni.jpg" alt="Leybi Velasquez Lopez"><div class="name">Leybi Velasquez Lopez</div></a>
+<div class="reason">12/16/2024 | Driving Without A Valid LicensSeat Belt Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/anthony-turner-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Turner-Anthony-Duane.jpg" alt="Anthony Turner"><div class="name">Anthony Turner</div></a>
+<div class="reason">12/19/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/torin-thompson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Thompson-Torin-Menard.jpg" alt="Torin Thompson"><div class="name">Torin Thompson</div></a>
+<div class="reason">12/19/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/carl-thompson-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Thompson-Carl-McDonald.jpg" alt="Carl Thompson"><div class="name">Carl Thompson</div></a>
+<div class="reason">12/20/2024 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/demarcus-stokes-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stokes-Demarcus-Angelo.jpg" alt="Demarcus Stokes"><div class="name">Demarcus Stokes</div></a>
+<div class="reason">12/16/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/adrienne-simon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Simon-Adrienne.jpg" alt="Adrienne Simon"><div class="name">Adrienne Simon</div></a>
+<div class="reason">12/19/2024 | Financial Identity FraudFinancial Identity FraudFinancial Identity FraudFinancial Identity Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/chase-shears-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Shears-Chase-Alexander.jpg" alt="Chase Shears"><div class="name">Chase Shears</div></a>
+<div class="reason">12/18/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/gerardo-rutiaga/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rutiaga-Gerardo.jpg" alt="Gerardo Rutiaga"><div class="name">Gerardo Rutiaga</div></a>
+<div class="reason">12/21/2024 | Failure to maintain laneDriving Without A Valid Licens</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/adriana-rangel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rangel-Adriana.jpg" alt="Adriana Rangel"><div class="name">Adriana Rangel</div></a>
+<div class="reason">12/21/2024 | Expired/No License Plate/DecalNo Drivers License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/larry-rainey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rainey-Larry.jpg" alt="Larry Rainey"><div class="name">Larry Rainey</div></a>
+<div class="reason">12/20/2024 | Manufacture Sale of False IdManufacture Sale of False IdManufacture Sale of False IdManufacture Sale of False IdFinancial Identity FraudFinancial Identity FraudFinancial Identity Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/delmont-preston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Preston-Delmont-Sharod.jpg" alt="Delmont Preston"><div class="name">Delmont Preston</div></a>
+<div class="reason">12/19/2024 | Manufacture Sale of False IdManufacture Sale of False IdManufacture Sale of False IdManufacture Sale of False IdFinancial Identity FraudFinancial Identity FraudFinancial Identity Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jaterrion-phifer-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Phifer-Jaterrion-Robert.jpg" alt="Jaterrion Phifer"><div class="name">Jaterrion Phifer</div></a>
+<div class="reason">12/16/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/luis-perez-25/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Perez-Luis.jpg" alt="Luis Perez"><div class="name">Luis Perez</div></a>
+<div class="reason">12/22/2024 | Driving W/Suspended Dr LicenseSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/juan-perez-34/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Perez-Juan-Pablo.jpg" alt="Juan Perez"><div class="name">Juan Perez</div></a>
+<div class="reason">12/20/2024 | Driving Without A Valid LicensImproper Lane Change</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/nathan-pekoc/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Pekoc-Nathan-Jeremy.jpg" alt="Nathan Pekoc"><div class="name">Nathan Pekoc</div></a>
+<div class="reason">12/21/2024 | DUI of AlcoholImproper Turn</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/mona-noles-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Noles-Mona-Frances.jpg" alt="Mona Noles"><div class="name">Mona Noles</div></a>
+<div class="reason">12/21/2024 | DUI of AlcoholPoss/Use Drug Related ObjectsDrug Possession/Sale/Manufact</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/stephen-newton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Newton-Stephen-Kyle.jpg" alt="Stephen Newton"><div class="name">Stephen Newton</div></a>
+<div class="reason">12/19/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/larbi-mokri-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mokri-Larbi.jpg" alt="Larbi Mokri"><div class="name">Larbi Mokri</div></a>
+<div class="reason">12/17/2024 | Forgery in the 3rd DegreeTheft of ServicesTheft by Deception</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/brooke-mckillop/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McKillop-Brooke-Stinchcomb.jpg" alt="Brooke McKillop"><div class="name">Brooke McKillop</div></a>
+<div class="reason">12/17/2024 | Improper Use/Turning Sig/LightFailure to maintain laneDriver to exercise due careDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jonathan-mondragon-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mondragon-Jonathan-Isaac-1.jpg" alt="Jonathan Mondragon"><div class="name">Jonathan Mondragon</div></a>
+<div class="reason">12/12/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/tania-mckoy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McKoy-Tania-Armani.jpg" alt="Tania McKoy"><div class="name">Tania McKoy</div></a>
+<div class="reason">12/12/2024 | DUI of AlcoholCity Ordinance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/niles-mcadoo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McAdoo-Niles-Cox.jpg" alt="Niles McAdoo"><div class="name">Niles McAdoo</div></a>
+<div class="reason">12/11/2024 | Poss/Use Drug Related ObjectsStop Sign ViolationPossession of Marijuana <1 OunPoss/Use Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/andrew-lorkiewicz-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lorkiewicz-Andrew-Donald-3.jpg" alt="Andrew Lorkiewicz"><div class="name">Andrew Lorkiewicz</div></a>
+<div class="reason">12/10/2024 | Criminal TrespassCriminal Damage To Property 2nObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/dericco-lewis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lewis-Dericco-Lamar.jpg" alt="Dericco Lewis"><div class="name">Dericco Lewis</div></a>
+<div class="reason">12/15/2024 | DUI of AlcoholObediance to Traffic Control Device</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/ronald-lee-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lee-Ronald-Alfred.jpg" alt="Ronald Lee"><div class="name">Ronald Lee</div></a>
+<div class="reason">12/12/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/michael-maddox-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Maddox-Michael-Devon.jpg" alt="Michael Maddox"><div class="name">Michael Maddox</div></a>
+<div class="reason">12/20/2024 | DUI of AlcoholFailure to maintain laneFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/bryan-lopez-camarillo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lopez-Camarillo-Bryan.jpg" alt="Bryan Lopez-Camarillo"><div class="name">Bryan Lopez-Camarillo</div></a>
+<div class="reason">12/16/2024 | No Drivers License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jordan-knight/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Knight-Jordan-Armand.jpg" alt="Jordan Knight"><div class="name">Jordan Knight</div></a>
+<div class="reason">12/17/2024 | City OrdinanceSpeedingDriving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/david-key-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Key-David.jpg" alt="David Key"><div class="name">David Key</div></a>
+<div class="reason">12/18/2024 | Driving Without A Valid LicensObediance to Traffic Control Device</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/leonard-jones-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jones-Leonard-Obrian.jpg" alt="Leonard Jones"><div class="name">Leonard Jones</div></a>
+<div class="reason">12/17/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/charles-jones-50/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jones-Charles-Lee-Roy.jpg" alt="Charles Jones"><div class="name">Charles Jones</div></a>
+<div class="reason">12/18/2024 | Seat Belt ViolationFail to Stop @ Acc W/Damagesunlawful manufacture of drugsDrug Related ObjectsFollowing Too Close</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kylencia-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Johnson-Kylencia-B.jpg" alt="Kylencia Johnson"><div class="name">Kylencia Johnson</div></a>
+<div class="reason">12/21/2024 | Terroristic Threats & Acts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jonathan-johnson-34/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Johnson-Jonathan-Leon.jpg" alt="Jonathan Johnson"><div class="name">Jonathan Johnson</div></a>
+<div class="reason">12/20/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/mckinley-jenkins-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jenkins-McKinley-Everette-1.jpg" alt="McKinley Jenkins"><div class="name">McKinley Jenkins</div></a>
+<div class="reason">12/21/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/mckinley-jenkins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jenkins-McKinley-Everette.jpg" alt="McKinley Jenkins"><div class="name">McKinley Jenkins</div></a>
+<div class="reason">12/17/2024 | Driving W/Suspended Dr LicenseExpired/No License Plate/DecalTaillight violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/charles-james-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/James-Charles-Perry.jpg" alt="Charles James"><div class="name">Charles James</div></a>
+<div class="reason">12/20/2024 | Poss. of tools for comm. of crBurglary</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/xavier-hizine/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hizine-Xavier-Leon.jpg" alt="Xavier Hizine"><div class="name">Xavier Hizine</div></a>
+<div class="reason">12/18/2024 | Driving W/Suspended Dr LicenseExcessive Tint On Windshield</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/natasha-hill-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hill-Natasha-Nicole.jpg" alt="Natasha Hill"><div class="name">Natasha Hill</div></a>
+<div class="reason">12/20/2024 | Forgery in the First DegreeFinancial Identity Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/daniel-hicks-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hicks-Daniel-Glen.jpg" alt="Daniel Hicks"><div class="name">Daniel Hicks</div></a>
+<div class="reason">12/19/2024 | Criminal Damage To Property 1sObstruction of OfficerDisorderly conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/hollman-hernandez-cardenas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hernandez-Cardenas-Hollman-Ivan.jpg" alt="Hollman Hernandez-Cardenas"><div class="name">Hollman Hernandez-Cardenas</div></a>
+<div class="reason">12/22/2024 | City OrdinanceOpen ContainerDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/nancy-hearn-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Harrell-Dupree-Jawan.jpg" alt="Nancy Hearn"><div class="name">Nancy Hearn</div></a>
+<div class="reason">12/16/2024 | Criminal Damage To Property 2nCruelty to Children 3rd</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/joshua-hackett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hackett-Joshua-Tremetrius.jpg" alt="Joshua Hackett"><div class="name">Joshua Hackett</div></a>
+<div class="reason">12/19/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/cleon-guthrie/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Guthrie-Cleon.jpg" alt="Cleon Guthrie"><div class="name">Cleon Guthrie</div></a>
+<div class="reason">12/21/2024 | Improper TurnDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/mouhamed-gueye/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gueye-Mouhamed.jpg" alt="Mouhamed Gueye"><div class="name">Mouhamed Gueye</div></a>
+<div class="reason">12/22/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/melahn-gilead/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gilead-Melahn-Janae.jpg" alt="Melahn Gilead"><div class="name">Melahn Gilead</div></a>
+<div class="reason">12/17/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/lovie-gates/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gates-Lovie-Tanglea.jpg" alt="Lovie Gates"><div class="name">Lovie Gates</div></a>
+<div class="reason">12/20/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/devante-fox-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fox-Devante-Marquise.jpg" alt="Devante Fox"><div class="name">Devante Fox</div></a>
+<div class="reason">12/18/2024 | Theft by Conversion</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/james-ford-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ford-James-1.jpg" alt="James Ford"><div class="name">James Ford</div></a>
+<div class="reason">12/19/2024 | Theft by TakingCriminal Damage To Property 2n</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/adrian-ford-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ford-Adrian-Cordaro.jpg" alt="Adrian Ford"><div class="name">Adrian Ford</div></a>
+<div class="reason">12/17/2024 | Obstruction of OfficerSimple BatteryPublic Drunkness</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/che-fluellen-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fluellen-Che-Moacir.jpg" alt="Che Fluellen"><div class="name">Che Fluellen</div></a>
+<div class="reason">12/19/2024 | Simple BatteryCruelty to Children 3rdCruelty to Children 3rd</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/norris-dunlap-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Dunlap-Norris-Lenard.jpg" alt="Norris Dunlap"><div class="name">Norris Dunlap</div></a>
+<div class="reason">12/17/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/elizabeth-donovan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Donovan-Elizabeth-Mostowy.jpg" alt="Elizabeth Donovan"><div class="name">Elizabeth Donovan</div></a>
+<div class="reason">12/19/2024 | DUI of AlcoholOpen ContainerStop Sign ViolationReckless Driving</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/oscar-delgadillo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Delgadillo-Oscar.jpg" alt="Oscar Delgadillo"><div class="name">Oscar Delgadillo</div></a>
+<div class="reason">12/20/2024 | Driving Without A Valid Licens</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/brad-confer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Confer-Brad-Michael.jpg" alt="Brad Confer"><div class="name">Brad Confer</div></a>
+<div class="reason">12/22/2024 | Cruelty to Children 3rdAggravated Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/tyquon-coleman-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Coleman-Tyquon-Mark-Quail-Robert.jpg" alt="Tyquon Coleman"><div class="name">Tyquon Coleman</div></a>
+<div class="reason">12/18/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/christopher-coleman-28/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Coleman-Christopher-Sean.jpg" alt="Christopher Coleman"><div class="name">Christopher Coleman</div></a>
+<div class="reason">12/20/2024 | Stop Sign ViolationStop Sign ViolationStop Sign ViolationDriving on Wrong Side of RoadReckless DrivingSpeedingFailure to maintain laneWrong Way On One-Way RoadwayObediance to Traffic Control DeviceReckless ConductReckless ConductCriminal Interference Govt. PrReckless ConductObstruction of OfficerFleeing/Eluding Law EnforcemenPoss. of tools for comm. of crBurglary</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/yuri-clay/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Clay-Yuri-Tavarus.jpg" alt="Yuri Clay"><div class="name">Yuri Clay</div></a>
+<div class="reason">12/21/2024 | Failure to maintain laneOpen ContainerDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/zachary-clark-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Clark-Zachary-Taylor.jpg" alt="Zachary Clark"><div class="name">Zachary Clark</div></a>
+<div class="reason">12/16/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/rufus-clark-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Clark-Rufus.jpg" alt="Rufus Clark"><div class="name">Rufus Clark</div></a>
+<div class="reason">12/17/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/quantavious-clark-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Clark-Quantavious-Darnell.jpg" alt="Quantavious Clark"><div class="name">Quantavious Clark</div></a>
+<div class="reason">12/17/2024 | Probation/Parole violationBench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/mitchell-childs-oliveira/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Childs-Oliveira-Mitchell-Ericson.jpg" alt="Mitchell Childs-Oliveira"><div class="name">Mitchell Childs-Oliveira</div></a>
+<div class="reason">12/22/2024 | DUI of AlcoholInst. Permits/Temp. LicenseMotorized Cart Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/rudy-chenier-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Chenier-Rudy-Okeith.jpg" alt="Rudy Chenier"><div class="name">Rudy Chenier</div></a>
+<div class="reason">12/20/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/cole-chapple/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Chapple-Cole-Evan.jpg" alt="Cole Chapple"><div class="name">Cole Chapple</div></a>
+<div class="reason">12/17/2024 | Stop Sign ViolationDriving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/robert-chappelle-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Chappelle-Robert-Rashad.jpg" alt="Robert Chappelle"><div class="name">Robert Chappelle</div></a>
+<div class="reason">12/19/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/lisa-chamberlain-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Chamberlain-Lisa-Louise.jpg" alt="Lisa Chamberlain"><div class="name">Lisa Chamberlain</div></a>
+<div class="reason">12/19/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/tyrik-carroll/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Carroll-Tyrik-T.jpg" alt="Tyrik Carroll"><div class="name">Tyrik Carroll</div></a>
+<div class="reason">12/20/2024 | No Drivers LicenseChild Restraint ViolationNo Proof of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/nathan-bushee/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bushee-Nathan-Harvey.jpg" alt="Nathan Bushee"><div class="name">Nathan Bushee</div></a>
+<div class="reason">12/21/2024 | Driving W/Suspended Dr LicensePassing on Solid Yellow LineNo Proof of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/joseph-bugeja-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bugeja-Joseph-Dominic.jpg" alt="Joseph Bugeja"><div class="name">Joseph Bugeja</div></a>
+<div class="reason">12/21/2024 | DUI of AlcoholImproper Lane ChangeRan Stop SignFailure to maintain laneSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jasmesha-brown/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Brown-Jasmesha-Lashee.jpg" alt="Jasmesha Brown"><div class="name">Jasmesha Brown</div></a>
+<div class="reason">12/20/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/amy-brown-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Brown-Amy-Ruth.jpg" alt="Amy Brown"><div class="name">Amy Brown</div></a>
+<div class="reason">12/22/2024 | Improper BackingDUI of AlcoholDuty Upon Striking Fixture</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/alan-braun-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Braun-Alan-Henry.jpg" alt="Alan Braun"><div class="name">Alan Braun</div></a>
+<div class="reason">12/16/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/brandon-boyd-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Boyd-Brandon-Stephan.jpg" alt="Brandon Boyd"><div class="name">Brandon Boyd</div></a>
+<div class="reason">12/21/2024 | Driving W/Suspended Dr LicenseFailure to Yield/Turning Left</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/dvonte-bowie-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bowie-DVonte-Love.jpg" alt="D’Vonte Bowie"><div class="name">D’Vonte Bowie</div></a>
+<div class="reason">12/22/2024 | City OrdinanceDriving W/Suspended Dr LicenseSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/robert-benson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Benson-Robert-Steven-Jr.jpg" alt="Robert Benson"><div class="name">Robert Benson</div></a>
+<div class="reason">12/20/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/carlton-benjamin-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Benjamin-Carlton.jpg" alt="Carlton Benjamin"><div class="name">Carlton Benjamin</div></a>
+<div class="reason">12/20/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/michael-avillo-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Avillo-Michael-Anthony.jpg" alt="Michael Avillo"><div class="name">Michael Avillo</div></a>
+<div class="reason">12/21/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/alexis-austin-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Austin-Alexis-Neliesha.jpg" alt="Alexis Austin"><div class="name">Alexis Austin</div></a>
+<div class="reason">12/18/2024 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/blanca-aponte/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Aponte-Blanca.jpg" alt="Blanca Aponte"><div class="name">Blanca Aponte</div></a>
+<div class="reason">12/16/2024 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/irma-alvarado-muniz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Alvarado-Muniz-Irma-Alicia.jpg" alt="Irma Alvarado Muniz"><div class="name">Irma Alvarado Muniz</div></a>
+<div class="reason">12/16/2024 | Driving Without A Valid Licens</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/joseph-allen-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Allen-Joseph.jpg" alt="Joseph Allen"><div class="name">Joseph Allen</div></a>
+<div class="reason">12/19/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/alexis-alexander-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Alexander-Alexis-Geneva.jpg" alt="Alexis Alexander"><div class="name">Alexis Alexander</div></a>
+<div class="reason">12/20/2024 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kenneth-aldridge/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Aldridge-Kenneth-C.jpg" alt="Kenneth Aldridge"><div class="name">Kenneth Aldridge</div></a>
+<div class="reason">12/19/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/daniel-acuna-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Acuna-Daniel.jpg" alt="Daniel Acuna"><div class="name">Daniel Acuna</div></a>
+<div class="reason">12/21/2024 | Driver to exercise due careNo Drivers License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/natrevor-wineglass/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wineglass-Natrevor-Jarmer.jpg" alt="Natrevor Wineglass"><div class="name">Natrevor Wineglass</div></a>
+<div class="reason">12/09/2024 | Battery/FVCruelty to Children 3rd</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/bryana-wilson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wilson-Bryana-Shawnisha.jpg" alt="Bryana Wilson"><div class="name">Bryana Wilson</div></a>
+<div class="reason">12/09/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/saquan-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Williams-Saquan-IKim.jpg" alt="Saquan Williams"><div class="name">Saquan Williams</div></a>
+<div class="reason">12/10/2024 | Driving W/Suspended Dr LicensePossession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/brandon-williams-127/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Williams-Brandon-Marcus.jpg" alt="Brandon Williams"><div class="name">Brandon Williams</div></a>
+<div class="reason">12/13/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/terrance-watson-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Watson-Terrance-Scott.jpg" alt="Terrance Watson"><div class="name">Terrance Watson</div></a>
+<div class="reason">12/11/2024 | Bench Warrant (Failure to Appear ONLY)Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/samuel-walthour-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Walthour-Samuel-Phillip.jpg" alt="Samuel Walthour"><div class="name">Samuel Walthour</div></a>
+<div class="reason">12/15/2024 | DUI of AlcoholFollowing Too Close</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/james-turner-47/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Turner-James-Howard.jpg" alt="James Turner"><div class="name">James Turner</div></a>
+<div class="reason">12/11/2024 | Driving W/Suspended Dr LicenseExcessive Tint On Windshield</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/dayvon-turner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Turner-Dayvon.jpg" alt="Dayvon Turner"><div class="name">Dayvon Turner</div></a>
+<div class="reason">12/10/2024 | Financial Identity Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/darrel-tapley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Tapley-Darrel-Anthony.jpg" alt="Darrel Tapley"><div class="name">Darrel Tapley</div></a>
+<div class="reason">12/12/2024 | Driving W/Suspended Dr LicenseNo Proof of InsuranceRem/False/Deface TagDrug Possession/Sale/ManufactDrug Possession/Sale/ManufactDrug Possession/Sale/ManufactPos of firearm/knife comm of c</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kenneth-stewart-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stewart-Kenneth-Lee.jpg" alt="Kenneth Stewart"><div class="name">Kenneth Stewart</div></a>
+<div class="reason">12/12/2024 | Driving W/Suspended Dr LicenseNo InsuranceCity Ordinance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jordan-stewart-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stewart-Jordan-Jerome.jpg" alt="Jordan Stewart"><div class="name">Jordan Stewart</div></a>
+<div class="reason">12/09/2024 | Drug Possession/Sale/ManufactExpired/No License Plate/DecalDrug Possession/Sale/Manufact</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/stephanie-stephond/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stephond-Stephanie-Assidnee.jpg" alt="Stephanie Stephond"><div class="name">Stephanie Stephond</div></a>
+<div class="reason">12/11/2024 | Possession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/caleb-starr-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Starr-Caleb-Lavonnte.jpg" alt="Caleb Starr"><div class="name">Caleb Starr</div></a>
+<div class="reason">12/11/2024 | Obediance to Traffic Control DevicePossession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/eric-stafford-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stafford-Eric-1.jpg" alt="Eric Stafford"><div class="name">Eric Stafford</div></a>
+<div class="reason">12/11/2024 | Conspiracy to commit a crime</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/alhaji-sowe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sowe-Alhaji-Ibrahima.jpg" alt="Alhaji Sowe"><div class="name">Alhaji Sowe</div></a>
+<div class="reason">12/13/2024 | Drug Possession/Sale/ManufactPoss/Use Drug Related ObjectsPos of firearm/knife comm of cFailure to maintain lanePossession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/juan-satina/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Satina-Juan.jpg" alt="Juan Satina"><div class="name">Juan Satina</div></a>
+<div class="reason">12/09/2024 | Driving Without A Valid LicensSeat Belt ViolationObscured/Missing License Plate</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/loukisha-sallye/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sallye-Loukisha-Lenitha.jpg" alt="Loukisha Sallye"><div class="name">Loukisha Sallye</div></a>
+<div class="reason">12/13/2024 | Theft by Receiving Stolen PropObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/lea-rogers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rogers-Lea-Claudette.jpg" alt="Lea Rogers"><div class="name">Lea Rogers</div></a>
+<div class="reason">12/10/2024 | Obstruction of OfficerDriving on Wrong Side of RoadFail to Stop @ Acc W/DamagesNo Proof of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/bianca-ratliff/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ratliff-Bianca.jpg" alt="Bianca Ratliff"><div class="name">Bianca Ratliff</div></a>
+<div class="reason">12/13/2024 | Pos. non-labled presc. drugsDriver to exercise due careDrug Possession/Sale/ManufactPossession of Marijuana <1 OunFailure to maintain laneDUI of Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/eduardo-quezada/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Quezada-Eduardo.jpg" alt="Eduardo Quezada"><div class="name">Eduardo Quezada</div></a>
+<div class="reason">12/13/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/shadrach-qawiy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Qawiy-Shadrach.jpg" alt="Shadrach Qawiy"><div class="name">Shadrach Qawiy</div></a>
+<div class="reason">12/15/2024 | Failure to maintain laneDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/heather-phillips-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Phillips-Heather-Marie.jpg" alt="Heather Phillips"><div class="name">Heather Phillips</div></a>
+<div class="reason">12/09/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/hilda-ntiamoah/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ntiamoah-Hilda-Baaba.jpg" alt="Hilda Ntiamoah"><div class="name">Hilda Ntiamoah</div></a>
+<div class="reason">12/15/2024 | Driving W/Suspended Dr LicenseFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/brayan-montoya/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Montoya-Brayan.jpg" alt="Brayan Montoya"><div class="name">Brayan Montoya</div></a>
+<div class="reason">12/14/2024 | No Drivers License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/mark-monsanto-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Monsanto-Mark-Anthony.jpg" alt="Mark Monsanto"><div class="name">Mark Monsanto</div></a>
+<div class="reason">12/15/2024 | Possession of Marijuana <1 OunDrug Possession/Sale/Manufact</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jonathan-mondragon-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mondragon-Jonathan-Isaac-1.jpg" alt="Jonathan Mondragon"><div class="name">Jonathan Mondragon</div></a>
+<div class="reason">12/12/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/tania-mckoy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McKoy-Tania-Armani.jpg" alt="Tania McKoy"><div class="name">Tania McKoy</div></a>
+<div class="reason">12/12/2024 | DUI of AlcoholCity Ordinance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/niles-mcadoo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McAdoo-Niles-Cox.jpg" alt="Niles McAdoo"><div class="name">Niles McAdoo</div></a>
+<div class="reason">12/11/2024 | Poss/Use Drug Related ObjectsStop Sign ViolationPossession of Marijuana <1 OunPoss/Use Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/andrew-lorkiewicz-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lorkiewicz-Andrew-Donald-3.jpg" alt="Andrew Lorkiewicz"><div class="name">Andrew Lorkiewicz</div></a>
+<div class="reason">12/10/2024 | Criminal TrespassCriminal Damage To Property 2nObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/dericco-lewis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lewis-Dericco-Lamar.jpg" alt="Dericco Lewis"><div class="name">Dericco Lewis</div></a>
+<div class="reason">12/15/2024 | DUI of AlcoholObediance to Traffic Control Device</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/ronald-lee-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lee-Ronald-Alfred.jpg" alt="Ronald Lee"><div class="name">Ronald Lee</div></a>
+<div class="reason">12/12/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/tycora-lawson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lawson-Tycora-Tyrisha.jpg" alt="Tycora Lawson"><div class="name">Tycora Lawson</div></a>
+<div class="reason">12/13/2024 | Change of Address or NameDriving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/roger-larimer-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Larimer-Roger-Wayne.jpg" alt="Roger Larimer"><div class="name">Roger Larimer</div></a>
+<div class="reason">12/15/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/dylan-kujawski/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Kujawski-Dylan.jpg" alt="Dylan Kujawski"><div class="name">Dylan Kujawski</div></a>
+<div class="reason">12/10/2024 | Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/rhonda-knight/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Knight-Rhonda.jpg" alt="Rhonda Knight"><div class="name">Rhonda Knight</div></a>
+<div class="reason">12/09/2024 | Excessive Tint On WindshieldDriving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/damonte-kelly-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Kelly-Damonte-Antonio.jpg" alt="Damonte Kelly"><div class="name">Damonte Kelly</div></a>
+<div class="reason">12/12/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/iland-harris/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Harris-Iland-Joehaun.jpg" alt="Iland Harris"><div class="name">Iland Harris</div></a>
+<div class="reason">12/12/2024 | Marijuana Possession less 1 oz</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/filogonio-juarez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Juarez-Filogonio-Gonzalez.jpg" alt="Filogonio Juarez"><div class="name">Filogonio Juarez</div></a>
+<div class="reason">12/09/2024 | Simple AssaultGiving False Name to Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/sidney-jones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jones-Sidney.jpg" alt="Sidney Jones"><div class="name">Sidney Jones</div></a>
+<div class="reason">12/15/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/marlon-jones-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jones-Marlon-Christopher.jpg" alt="Marlon Jones"><div class="name">Marlon Jones</div></a>
+<div class="reason">12/13/2024 | In For Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/randy-johnson-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Johnson-Randy-Charles.jpg" alt="Randy Johnson"><div class="name">Randy Johnson</div></a>
+<div class="reason">12/12/2024 | Pos of firearm/knife comm of cDrug Possession/Sale/ManufactDrug Possession/Sale/ManufactDrug Possession/Sale/ManufactGiving False Name to OfficerConvicted Felons Poss.of Weapo</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/charles-jennings-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jennings-Charles-III.jpg" alt="Charles Jennings"><div class="name">Charles Jennings</div></a>
+<div class="reason">12/09/2024 | Probation/Parole violationBench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/joshua-jackson-68/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jackson-Joshua-Deshawn.jpg" alt="Joshua Jackson"><div class="name">Joshua Jackson</div></a>
+<div class="reason">12/10/2024 | Theft by Receiving Stolen PropPossession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/hakeem-jackson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jackson-Hakeem-Jukie-Shariff.jpg" alt="Hakeem Jackson"><div class="name">Hakeem Jackson</div></a>
+<div class="reason">12/14/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/arshad-jackson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jackson-Arshad-Anthony.jpg" alt="Arshad Jackson"><div class="name">Arshad Jackson</div></a>
+<div class="reason">12/12/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/henry-inglesby/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Inglesby-Henry-Bradford.jpg" alt="Henry Inglesby"><div class="name">Henry Inglesby</div></a>
+<div class="reason">12/13/2024 | Criminal TrespassEntering Auto</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/darren-husak-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Husak-Darren-William.jpg" alt="Darren Husak"><div class="name">Darren Husak</div></a>
+<div class="reason">12/11/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/destini-hines-dozier/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hines-Dozier-Destini-Joy.jpg" alt="Destini Hines-Dozier"><div class="name">Destini Hines-Dozier</div></a>
+<div class="reason">12/15/2024 | RICO ACTFinancial Identity FraudFinancial Identity FraudFinancial Identity Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/sean-hilley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hilley-Sean-Christopher.jpg" alt="Sean Hilley"><div class="name">Sean Hilley</div></a>
+<div class="reason">12/14/2024 | DUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/brenda-harper/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Harper-Brenda-F.jpg" alt="Brenda Harper"><div class="name">Brenda Harper</div></a>
+<div class="reason">12/11/2024 | Theft by Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kishani-harley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Harley-Kishani-Princess-Blessing.jpg" alt="Kishani Harley"><div class="name">Kishani Harley</div></a>
+<div class="reason">12/13/2024 | Driving W/Suspended Dr LicenseNo Proof of InsurancePossession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/ashley-green-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Green-Ashley-Monique-Everly.jpg" alt="Ashley Green"><div class="name">Ashley Green</div></a>
+<div class="reason">12/09/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/joseph-gordon-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gordon-Joseph-Roland.jpg" alt="Joseph Gordon"><div class="name">Joseph Gordon</div></a>
+<div class="reason">12/15/2024 | DUI more than .08 (after 3 hrsFailure Yield from Driveway</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jenisa-gomez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gomez-Jenisa-K-Lee.jpg" alt="Jenisa Gomez"><div class="name">Jenisa Gomez</div></a>
+<div class="reason">12/15/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/justin-gillis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gillis-Justin-Ray.jpg" alt="Justin Gillis"><div class="name">Justin Gillis</div></a>
+<div class="reason">12/14/2024 | DUI of AlcoholCity Ordinance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/daniel-garrido-diaz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Garrido-Diaz-Daniel-1.jpg" alt="Daniel Garrido-Diaz"><div class="name">Daniel Garrido-Diaz</div></a>
+<div class="reason">12/09/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/german-leonel-fronco-ramirez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fronco-Ramirez-German-Leonel.jpg" alt="German-Leonel Fronco-Ramirez"><div class="name">German-Leonel Fronco-Ramirez</div></a>
+<div class="reason">12/13/2024 | Obstructing an IntersectionDriving Without A Valid Licens</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/johnny-fisher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fisher-Johnny-Montez.jpg" alt="Johnny Fisher"><div class="name">Johnny Fisher</div></a>
+<div class="reason">12/12/2024 | Criminal Damage To Property 2nObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/frank-ferrell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ferrell-Frank.jpg" alt="Frank Ferrell"><div class="name">Frank Ferrell</div></a>
+<div class="reason">12/14/2024 | DUI of AlcoholObscured/Missing License PlateFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/edwin-espinal-osorto/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Espinal-Osorto-Edwin.jpg" alt="Edwin Espinal Osorto"><div class="name">Edwin Espinal Osorto</div></a>
+<div class="reason">12/14/2024 | Driving Without A Valid LicensFailure to Dim HeadlightsObscured/Missing License Plate</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/timothy-donerson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Donerson-Timothy.jpg" alt="Timothy Donerson"><div class="name">Timothy Donerson</div></a>
+<div class="reason">12/13/2024 | Disorderly conductSimple AssaultTerroristic Threats & ActsPublic Drunkness</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/michael-dean-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Dean-Michael-Robert.jpg" alt="Michael Dean"><div class="name">Michael Dean</div></a>
+<div class="reason">12/11/2024 | Driving Without A Valid LicensImproper Equipment</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/antwan-davis-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Davis-Antwan-Lamar.jpg" alt="Antwan Davis"><div class="name">Antwan Davis</div></a>
+<div class="reason">12/14/2024 | DUI of AlcoholFail to Stop @ Acc W/DamagesDuty Upon Striking Fixture</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/mary-cunningham-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cunningham-Mary-Ann.jpg" alt="Mary Cunningham"><div class="name">Mary Cunningham</div></a>
+<div class="reason">12/15/2024 | Theft by ShopliftingDriving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/dreama-compton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Compton-Dreama-Leann.jpg" alt="Dreama Compton"><div class="name">Dreama Compton</div></a>
+<div class="reason">12/14/2024 | Poss/Use Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/ryan-collins-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Collins-Ryan-Holder.jpg" alt="Ryan Collins"><div class="name">Ryan Collins</div></a>
+<div class="reason">12/12/2024 | Theft by DeceptionTheft by DeceptionELDER ABUSEELDER ABUSEELDER ABUSEELDER ABUSETheft by TakingTheft by TakingTheft by TakingTheft by Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/christa-coles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Coles-Christa-Briana.jpg" alt="Christa Coles"><div class="name">Christa Coles</div></a>
+<div class="reason">12/11/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/salim-cisse/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cisse-Salim.jpg" alt="Salim Cisse"><div class="name">Salim Cisse</div></a>
+<div class="reason">12/13/2024 | Possession of Marijuana <1 OunTheft by Receiving Stolen PropOpen Container</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/aly-cisse/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cisse-Aly.jpg" alt="Aly Cisse"><div class="name">Aly Cisse</div></a>
+<div class="reason">12/13/2024 | Theft by Receiving Stolen PropPossession of Marijuana <1 OunOpen Container</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/reginald-casey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Casey-Reginald-Jerome.jpg" alt="Reginald Casey"><div class="name">Reginald Casey</div></a>
+<div class="reason">12/12/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/michael-broaden-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Broaden-Michael-1.jpg" alt="Michael Broaden"><div class="name">Michael Broaden</div></a>
+<div class="reason">12/12/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jason-boyd-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Boyd-Jason-Thomas.jpg" alt="Jason Boyd"><div class="name">Jason Boyd</div></a>
+<div class="reason">12/10/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/tyler-beck/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Beck-Tyler-Jackson.jpg" alt="Tyler Beck"><div class="name">Tyler Beck</div></a>
+<div class="reason">12/14/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/anastazia-barrett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Barrett-Anastazia-Nisheika.jpg" alt="Anastazia Barrett"><div class="name">Anastazia Barrett</div></a>
+<div class="reason">12/13/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/norman-barial-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Barial-Norman-Jerome.jpg" alt="Norman Barial"><div class="name">Norman Barial</div></a>
+<div class="reason">12/09/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/courtney-arnold-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Arnold-Courtney-Montez.jpg" alt="Courtney Arnold"><div class="name">Courtney Arnold</div></a>
+<div class="reason">12/11/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kenney-angeles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Angeles-Kenney.jpg" alt="Kenney Angeles"><div class="name">Kenney Angeles</div></a>
+<div class="reason">12/10/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/anthony-amoroso-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Amoroso-Anthony-Vincent.jpg" alt="Anthony Amoroso"><div class="name">Anthony Amoroso</div></a>
+<div class="reason">12/09/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/john-alonzo-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Alonzo-John-Paul.jpg" alt="John Alonzo"><div class="name">John Alonzo</div></a>
+<div class="reason">12/10/2024 | Bench Warrant (Failure to Appear ONLY)Theft by TakingPoss. of tools for comm. of crSmash and grab burglaryObstructing License PlateSmash and grab burglary</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/wesley-adams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Adams-Wesley-Aaron.jpg" alt="Wesley Adams"><div class="name">Wesley Adams</div></a>
+<div class="reason">12/11/2024 | Controlled Subtances Sched IBrake Light/Turn Signal Violat</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/shurong-zhang/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Zhang-Shurong.jpg" alt="Shurong Zhang"><div class="name">Shurong Zhang</div></a>
+<div class="reason">12/02/2024 | DUI of AlcoholCity Ordinance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/khristian-zachary/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Zachary-Khristian.jpg" alt="Khristian Zachary"><div class="name">Khristian Zachary</div></a>
+<div class="reason">12/05/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/bryant-wood-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wood-Bryant-Conrad.jpg" alt="Bryant Wood"><div class="name">Bryant Wood</div></a>
+<div class="reason">12/08/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/chieuitia-wise-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wise-Chieuitia-Denise.jpg" alt="Chieuitia Wise"><div class="name">Chieuitia Wise</div></a>
+<div class="reason">12/04/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/steven-wilson-37/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wilson-Steven-Trent-Chandler.jpg" alt="Steven Wilson"><div class="name">Steven Wilson</div></a>
+<div class="reason">12/05/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jordan-williams-gray/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Williams-Gray-Jordan-Deshaun.jpg" alt="Jordan Williams-Gray"><div class="name">Jordan Williams-Gray</div></a>
+<div class="reason">12/02/2024 | Brake Light/Turn Signal ViolatDriving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/lovell-watters/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Watters-Lovell.jpg" alt="Lovell Watters"><div class="name">Lovell Watters</div></a>
+<div class="reason">12/08/2024 | Public Drunkness</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/keith-williams-46/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Williams-Keith-Jr.jpg" alt="Keith Williams"><div class="name">Keith Williams</div></a>
+<div class="reason">12/06/2024 | In For Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/derrick-watson-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Watson-Derrick-Lamar.jpg" alt="Derrick Watson"><div class="name">Derrick Watson</div></a>
+<div class="reason">12/06/2024 | Convicted Felons Poss.of WeapoNo Proof of InsuranceDriving W/Suspended Dr LicenseFailure to maintain laneOpen ContainerDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/douglas-warren/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Warren-Douglas-Eugene.jpg" alt="Douglas Warren"><div class="name">Douglas Warren</div></a>
+<div class="reason">12/05/2024 | Driving W/Suspended Dr LicenseExcessive Tint On Windshield</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jamal-vazquez-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Vazquez-Jamal-Jr.jpg" alt="Jamal Vazquez"><div class="name">Jamal Vazquez</div></a>
+<div class="reason">12/05/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/iyyana-usher-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Usher-Iyyana-Monique.jpg" alt="Iyyana Usher"><div class="name">Iyyana Usher</div></a>
+<div class="reason">12/07/2024 | Simple Battery/FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/dashon-tutt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Tutt-Dashon-Sheldon.jpg" alt="Dashon Tutt"><div class="name">Dashon Tutt</div></a>
+<div class="reason">12/02/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/daquan-thornton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Thornton-Daquan-Nydel.jpg" alt="Daquan Thornton"><div class="name">Daquan Thornton</div></a>
+<div class="reason">12/07/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/aaron-terrell-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Terrell-Aaron-Raymond-1.jpg" alt="Aaron Terrell"><div class="name">Aaron Terrell</div></a>
+<div class="reason">12/06/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/otto-studiemyer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Studiemyer-Otto-Quennel.jpg" alt="Otto Studiemyer"><div class="name">Otto Studiemyer</div></a>
+<div class="reason">12/03/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/hollis-stephens-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stephens-Hollis-Eric.jpg" alt="Hollis Stephens"><div class="name">Hollis Stephens</div></a>
+<div class="reason">12/06/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/andre-stafford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stafford-Andre-Glenn.jpg" alt="Andre Stafford"><div class="name">Andre Stafford</div></a>
+<div class="reason">12/02/2024 | Improper Stopping on RoadwayDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/marcus-sorrells-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sorrells-Marcus-Lee-1.jpg" alt="Marcus Sorrells"><div class="name">Marcus Sorrells</div></a>
+<div class="reason">12/04/2024 | Bench Warrant (Failure to Appear ONLY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/damond-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Smith-Damond-Lamont.jpg" alt="Damond Smith"><div class="name">Damond Smith</div></a>
+<div class="reason">12/08/2024 | DUI of AlcoholFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/alicia-smith-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Smith-Alicia-Marie.jpg" alt="Alicia Smith"><div class="name">Alicia Smith</div></a>
+<div class="reason">12/08/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/nathaniel-small/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Small-Nathaniel-Sean.jpg" alt="Nathaniel Small"><div class="name">Nathaniel Small</div></a>
+<div class="reason">12/05/2024 | Financial Identity FraudTheft by Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/asia-sivell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sivell-Asia-Deshon.jpg" alt="Asia Sivell"><div class="name">Asia Sivell</div></a>
+<div class="reason">12/06/2024 | SpeedingDriving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/alicia-seal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Seal-Alicia.jpg" alt="Alicia Seal"><div class="name">Alicia Seal</div></a>
+<div class="reason">12/08/2024 | Controlled Subtances Sched IIPos. non-labled presc. drugsPoss/Use Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/kathlynn-sarver-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sarver-Kathlynn-Denise.jpg" alt="Kathlynn Sarver"><div class="name">Kathlynn Sarver</div></a>
+<div class="reason">12/05/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/dream-santiago-lugo-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Santiago-Lugo-Dream-Amari.jpg" alt="Dream Santiago-Lugo"><div class="name">Dream Santiago-Lugo</div></a>
+<div class="reason">12/05/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/briana-rowland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rowland-Briana-Fitzgerald.jpg" alt="Briana Rowland"><div class="name">Briana Rowland</div></a>
+<div class="reason">12/07/2024 | Simple Battery/FVCriminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/maria-rivera-ortiz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rivera-Ortiz-Maria-Estela.jpg" alt="Maria Rivera-Ortiz"><div class="name">Maria Rivera-Ortiz</div></a>
+<div class="reason">12/04/2024 | Driving Without A Valid Licens</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/renato-rivera/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rivera-Renato.jpg" alt="Renato Rivera"><div class="name">Renato Rivera</div></a>
+<div class="reason">12/07/2024 | DUI of AlcoholFailure to maintain laneSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/adam-reinertsen-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Reinertsen-Adam-Blake.jpg" alt="Adam Reinertsen"><div class="name">Adam Reinertsen</div></a>
+<div class="reason">12/05/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/johntavius-phillips/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Phillips-Johntavius.jpg" alt="Johntavius Phillips"><div class="name">Johntavius Phillips</div></a>
+<div class="reason">12/08/2024 | Arrest Wanted Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/jasper-phillips-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Phillips-Jasper-Andreco.jpg" alt="Jasper Phillips"><div class="name">Jasper Phillips</div></a>
+<div class="reason">12/05/2024 | Sentenced on Previous Offense</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/rodney-philigence-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Philigence-Rodney-Nassor-Roy-Jr.jpg" alt="Rodney Philigence"><div class="name">Rodney Philigence</div></a>
+<div class="reason">12/06/2024 | Bench Warrant (Failure to Appear ONLY)Obstruction of OfficerDrug Possession/Sale/ManufactLicense Plate RequirementsSeat Belt ViolationFailure To Register Vehicle w/in 7 Days</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/davon-petersen-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Petersen-Davon-Marvin.jpg" alt="Davon Petersen"><div class="name">Davon Petersen</div></a>
+<div class="reason">12/02/2024 | Probation/Parole violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/nigel-penn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Penn-Nigel-David.jpg" alt="Nigel Penn"><div class="name">Nigel Penn</div></a>
+<div class="reason">12/07/2024 | Possession of Marijuana <1 Oun</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/fayette/cedric-page/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Page-Cedric.jpg" alt="Cedric Page"><div class="name">Cedric Page</div></a>
+<div class="reason">12/03/2024 | Armed Robbery, Robbery by Inti</div>
+</div>
+</div><div class="pagination"><a href="fayette7.html">Next Page</a></div></body></html>

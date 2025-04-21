@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/michael-walden-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Walden-II.-Michael-Louis.jpg" alt="Michael Walden"><div class="name">Michael Walden</div></a>
+<div class="reason">10/18/2024 | Failure to Comply/Treatment Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/norman-wymbs-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Wymbs-Norman-Leonard.jpg" alt="Norman Wymbs"><div class="name">Norman Wymbs</div></a>
+<div class="reason">10/14/2024 | State Inmate</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kristina-smith-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Smith-Kristina-Heather.jpg" alt="Kristina Smith"><div class="name">Kristina Smith</div></a>
+<div class="reason">10/16/2024 | Failure to Comply/Treatment court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/issac-santamaria-ortiz-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Santamaria-Ortiz-Issac.jpg" alt="Issac Santamaria Ortiz"><div class="name">Issac Santamaria Ortiz</div></a>
+<div class="reason">10/19/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/fernando-lucero-linares/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Lucero-Linares-Fernando-Antonio.jpg" alt="Fernando Lucero Linares"><div class="name">Fernando Lucero Linares</div></a>
+<div class="reason">10/17/2024 | No RegistrationHolding/Supporting Wireless Telecommunication DeviceD.U.I. / AlcoholFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jesse-lance-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Lance-Jesse-Jefferson.jpg" alt="Jesse Lance"><div class="name">Jesse Lance</div></a>
+<div class="reason">10/19/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/montreo-jones-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Jones-Montreo.jpg" alt="Montreo Jones"><div class="name">Montreo Jones</div></a>
+<div class="reason">10/17/2024 | Criminal AttemptIdentity Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/aiden-jones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Jones-Aiden-Joshua.jpg" alt="Aiden Jones"><div class="name">Aiden Jones</div></a>
+<div class="reason">10/16/2024 | Failure to Comply/TREATMENT COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jacqueline-hunt-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hunt-Jacqueline-Anita.jpg" alt="Jacqueline Hunt"><div class="name">Jacqueline Hunt</div></a>
+<div class="reason">10/15/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/christopher-holcombe-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Holcombe-Jr.-Christopher-Stephen.jpg" alt="Christopher Holcombe"><div class="name">Christopher Holcombe</div></a>
+<div class="reason">10/17/2024 | Simple Battery (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/matthew-hodges/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hodges-Matthew-Clark.jpg" alt="Matthew Hodges"><div class="name">Matthew Hodges</div></a>
+<div class="reason">10/16/2024 | Failure to Comply/TREATMENT COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jeremy-heath-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Heath-Jeremy-Michael.jpg" alt="Jeremy Heath"><div class="name">Jeremy Heath</div></a>
+<div class="reason">10/19/2024 | Driving While License Suspended/RevokedOpen Container ViolationReckless DrivingD.U.I. / Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jennifer-hall-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hall-Jennifer-Ann.jpg" alt="Jennifer Hall"><div class="name">Jennifer Hall</div></a>
+<div class="reason">10/16/2024 | Serving County Sentence (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/terry-foreman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Foreman-Terry-Lee.jpg" alt="Terry Foreman"><div class="name">Terry Foreman</div></a>
+<div class="reason">10/20/2024 | Pedestrian Under The Influence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/bj-stearnes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Stearnes-Bj-Franklin.jpg" alt="Bj Stearnes"><div class="name">Bj Stearnes</div></a>
+<div class="reason">10/18/2024 | Simple Assault (Family Violence)Aggravated Assault (Family Violence)Simple Battery (Family Violence)Simple Battery (Family Violence)Battery (Family Violence)Battery (Family Violence)Battery (Family Violence)False Imprisonment</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/rinesh-charaniya/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Charaniya-Rinesh-Shabanbhai.jpg" alt="Rinesh Charaniya"><div class="name">Rinesh Charaniya</div></a>
+<div class="reason">10/16/2024 | Driving Without License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jennifer-evans-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Evans-Jennifer-Lynn.jpg" alt="Jennifer Evans"><div class="name">Jennifer Evans</div></a>
+<div class="reason">10/14/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/nerene-elliott-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Elliott-Nerene-Starling.jpg" alt="Nerene Elliott"><div class="name">Nerene Elliott</div></a>
+<div class="reason">10/18/2024 | Driving While License Suspended/Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/broderick-durany/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Durany-Broderick.jpg" alt="Broderick Durany"><div class="name">Broderick Durany</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/ethan-charles-dunn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Dunn-Ethan-Charles-Asher.jpg" alt="Ethan-Charles Dunn"><div class="name">Ethan-Charles Dunn</div></a>
+<div class="reason">10/16/2024 | Driving While License Suspended/Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/corey-delk-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Delk-Corey-Eugene-Ryan.jpg" alt="Corey Delk"><div class="name">Corey Delk</div></a>
+<div class="reason">10/14/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/hardy-day-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Day-Hardy-James.jpg" alt="Hardy Day"><div class="name">Hardy Day</div></a>
+<div class="reason">10/18/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/rhiannon-darnell-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Darnell-Rhiannon-Lynn.jpg" alt="Rhiannon Darnell"><div class="name">Rhiannon Darnell</div></a>
+<div class="reason">10/14/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/adrielle-da-silva-vieira/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Da-Silva-Vieira-Adrielle.jpg" alt="Adrielle Da Silva Vieira"><div class="name">Adrielle Da Silva Vieira</div></a>
+<div class="reason">10/17/2024 | False Imprisonment</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/robert-curtis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Curtis-Robert-Brian.jpg" alt="Robert Curtis"><div class="name">Robert Curtis</div></a>
+<div class="reason">10/18/2024 | Serving County Sentence (MISD) (35 HOURS 15 MINUTES)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/macayle-brown/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Brown-Macayle-Deitrick.jpg" alt="Macayle Brown"><div class="name">Macayle Brown</div></a>
+<div class="reason">10/17/2024 | Obstruction Of OfficerFalse Name/date of birth</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/mary-braswell-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Braswell-Mary-Elizabeth.jpg" alt="Mary Braswell"><div class="name">Mary Braswell</div></a>
+<div class="reason">10/17/2024 | D.U.I. / DrugsFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/melissa-bennett-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Bennett-Melissa-Allene.jpg" alt="Melissa Bennett"><div class="name">Melissa Bennett</div></a>
+<div class="reason">10/20/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/trinity-allen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Allen-Trinity-Greg.jpg" alt="Trinity Allen"><div class="name">Trinity Allen</div></a>
+<div class="reason">10/20/2024 | D.U.I. / Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/patience-alizadeh-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Alizadeh-Patience-Nevaeh-1.jpg" alt="Patience Alizadeh"><div class="name">Patience Alizadeh</div></a>
+<div class="reason">10/18/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/lisa-ieremia/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Ieremia-Lisa-Marie.jpg" alt="Lisa Ieremia"><div class="name">Lisa Ieremia</div></a>
+<div class="reason">10/20/2024 | Hit And Run</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/nicholas-williams-39/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Williams-Nicholas-Stephen.jpg" alt="Nicholas Williams"><div class="name">Nicholas Williams</div></a>
+<div class="reason">10/15/2024 | Child MolestationProbation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jeremiah-mann/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Mann-Jeremiah-Daniel.jpg" alt="Jeremiah Mann"><div class="name">Jeremiah Mann</div></a>
+<div class="reason">10/17/2024 | Hit And Run</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kenneth-stewart-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Stewart-Kenneth-Webster.jpg" alt="Kenneth Stewart"><div class="name">Kenneth Stewart</div></a>
+<div class="reason">10/07/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/daniel-sosebee-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Sosebee-Daniel-Edwin.jpg" alt="Daniel Sosebee"><div class="name">Daniel Sosebee</div></a>
+<div class="reason">10/08/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/erikson-sieber-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Sieber-Erikson-Kai.jpg" alt="Erikson Sieber"><div class="name">Erikson Sieber</div></a>
+<div class="reason">10/11/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/cierra-seay-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Seay-Cierra-Faith.jpg" alt="Cierra Seay"><div class="name">Cierra Seay</div></a>
+<div class="reason">10/10/2024 | Probation Violation (MISD)Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/sui-pum/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Pum-Sui.jpg" alt="Sui Pum"><div class="name">Sui Pum</div></a>
+<div class="reason">10/12/2024 | SpeedingOpen Container ViolationD.U.I. / AlcoholFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/ruth-porter/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Porter-Ruth-Antoinette.jpg" alt="Ruth Porter"><div class="name">Ruth Porter</div></a>
+<div class="reason">10/13/2024 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/joshua-patterson-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Patterson-Joshua-Kenneth.jpg" alt="Joshua Patterson"><div class="name">Joshua Patterson</div></a>
+<div class="reason">10/10/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/andrew-parks-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Parks-Andrew-Holden.jpg" alt="Andrew Parks"><div class="name">Andrew Parks</div></a>
+<div class="reason">10/07/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/tristan-nault-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Nault-Tristan-Rayner-1.jpg" alt="Tristan Nault"><div class="name">Tristan Nault</div></a>
+<div class="reason">10/11/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/angela-law/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Law-Angela-Marie.jpg" alt="Angela Law"><div class="name">Angela Law</div></a>
+<div class="reason">10/09/2024 | Requirements Upon Striking Unattended VehicleD.U.I. / Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/shiquan-johnson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Johnson-Shiquan-Montrell.jpg" alt="Shiquan Johnson"><div class="name">Shiquan Johnson</div></a>
+<div class="reason">10/09/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kevin-jiminez-lopez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Jiminez-Lopez-Kevin-Josue.jpg" alt="Kevin Jiminez Lopez"><div class="name">Kevin Jiminez Lopez</div></a>
+<div class="reason">10/12/2024 | Driving Without License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kyle-hudson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hudson-Kyle-Robert.jpg" alt="Kyle Hudson"><div class="name">Kyle Hudson</div></a>
+<div class="reason">10/09/2024 | Open Container ViolationD.U.I. / AlcoholFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/william-hester-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hester-William-Joel.jpg" alt="William Hester"><div class="name">William Hester</div></a>
+<div class="reason">10/08/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/heidy-gutierrez-gonzalez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Gutierrez-Gonzalez-Heidy-Karina.jpg" alt="Heidy Gutierrez Gonzalez"><div class="name">Heidy Gutierrez Gonzalez</div></a>
+<div class="reason">10/08/2024 | Driving Without LicenseHolding/Supporting Wireless Telecommunication DeviceSafety Belts-ChildrenFailure to Wear Seat Belt</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/anibal-flores-rodriguez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Flores-Rodriguez-Anibal-Nahum.jpg" alt="Anibal Flores Rodriguez"><div class="name">Anibal Flores Rodriguez</div></a>
+<div class="reason">10/08/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/don-ferguson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Ferguson-Don.jpg" alt="Don Ferguson"><div class="name">Don Ferguson</div></a>
+<div class="reason">10/09/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/bryan-dodd-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Dodd-Bryan-Keith.jpg" alt="Bryan Dodd"><div class="name">Bryan Dodd</div></a>
+<div class="reason">10/11/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/megan-clenny-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Clenny-Megan-Elizabeth.jpg" alt="Megan Clenny"><div class="name">Megan Clenny</div></a>
+<div class="reason">10/08/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/charles-chumley-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Chumley-Charles-Patrick.jpg" alt="Charles Chumley"><div class="name">Charles Chumley</div></a>
+<div class="reason">10/09/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/james-broxton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Broxton-Jr.-James-Edward.jpg" alt="James Broxton"><div class="name">James Broxton</div></a>
+<div class="reason">10/10/2024 | Theft By ShopliftingTheft By Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jacob-browder-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Browder-Jacob-Paul.jpg" alt="Jacob Browder"><div class="name">Jacob Browder</div></a>
+<div class="reason">10/07/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jesus-bonilla-escobar-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Bonilla-Escobar-Jesus-Edgardo.jpg" alt="Jesus Bonilla Escobar"><div class="name">Jesus Bonilla Escobar</div></a>
+<div class="reason">10/11/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/harry-benton-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Benton-Harry-Jackson.jpg" alt="Harry Benton"><div class="name">Harry Benton</div></a>
+<div class="reason">10/08/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/robert-belk-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Belk-Robert-Leon.jpg" alt="Robert Belk"><div class="name">Robert Belk</div></a>
+<div class="reason">10/11/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jeffrey-allison-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Allison-Jeffrey-Wayne.jpg" alt="Jeffrey Allison"><div class="name">Jeffrey Allison</div></a>
+<div class="reason">10/08/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/maria-aguirre-padilla/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Aguirre-Padilla-Maria-Del-Rocio.jpg" alt="Maria Aguirre-Padilla"><div class="name">Maria Aguirre-Padilla</div></a>
+<div class="reason">10/13/2024 | No RegistrationDriver Must apply for a new license within 60 days of a changeD.U.I. / DrugsFailure to Maintain LaneTire Requirements</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/troy-arnold-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Arnold-Troy-Donald.jpg" alt="Troy Arnold"><div class="name">Troy Arnold</div></a>
+<div class="reason">10/09/2024 | Terroristic ThreatsAggravated Assault (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/connor-brunn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Brunn-Connor-Liam.jpg" alt="Connor Brunn"><div class="name">Connor Brunn</div></a>
+<div class="reason">10/10/2024 | Hit And RunRequirements Upon Striking Unattended Vehicle</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/austin-holdash-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Holdash-Austin-Riley.jpg" alt="Austin Holdash"><div class="name">Austin Holdash</div></a>
+<div class="reason">10/09/2024 | Aggravated Assault (Family Violence)Simple Battery (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jimmy-lynn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Lynn-Jimmy-Donnell.jpg" alt="Jimmy Lynn"><div class="name">Jimmy Lynn</div></a>
+<div class="reason">10/08/2024 | Driving Without LicenseD.U.I. / AlcoholPublic Indecency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kimberly-wall/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Wall-Kimberly-Patricia.jpg" alt="Kimberly Wall"><div class="name">Kimberly Wall</div></a>
+<div class="reason">10/03/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/donald-vickers-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Vickers-Donald-Paul.jpg" alt="Donald Vickers"><div class="name">Donald Vickers</div></a>
+<div class="reason">10/01/2024 | Failure To Comply</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/wilmer-tovar-charry-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Tovar-Charry-Wilmer-Alexander.jpg" alt="Wilmer Tovar-Charry"><div class="name">Wilmer Tovar-Charry</div></a>
+<div class="reason">10/05/2024 | Theft By Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/dylan-thomas-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Thomas-Dylan-Matthew.jpg" alt="Dylan Thomas"><div class="name">Dylan Thomas</div></a>
+<div class="reason">10/03/2024 | Simple Battery (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/paul-swanson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Swanson-Paul-Briar.jpg" alt="Paul Swanson"><div class="name">Paul Swanson</div></a>
+<div class="reason">10/03/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/janet-shields/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Shields-Janet-Harris.jpg" alt="Janet Shields"><div class="name">Janet Shields</div></a>
+<div class="reason">10/02/2024 | Poss. Of Firearm/Knife During Comm. Of CrimePossession of Marijuana <1 oz.Possession of a controlled substancePossession of a controlled sub. w/intent to distributeDrug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kelley-sanders-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Sanders-Kelley-McArthur.jpg" alt="Kelley Sanders"><div class="name">Kelley Sanders</div></a>
+<div class="reason">10/02/2024 | Failure to Comply/Trtmnt Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jessica-samples-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Samples-Jessica-Leigh.jpg" alt="Jessica Samples"><div class="name">Jessica Samples</div></a>
+<div class="reason">10/02/2024 | Failure to Comply/Trtmt Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jessica-pitchford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Pitchford-Jessica-Erin.jpg" alt="Jessica Pitchford"><div class="name">Jessica Pitchford</div></a>
+<div class="reason">10/04/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/marius-nikolaychuk-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Nikolaychuk-Marius.jpg" alt="Marius Nikolaychuk"><div class="name">Marius Nikolaychuk</div></a>
+<div class="reason">10/05/2024 | Battery (Family Violence)Cruelty to Children, Third Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/tanya-nicholson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Nicholson-Tanya-Dimealeen.jpg" alt="Tanya Nicholson"><div class="name">Tanya Nicholson</div></a>
+<div class="reason">10/02/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/phillip-mize-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Mize-Phillip-Matthew.jpg" alt="Phillip Mize"><div class="name">Phillip Mize</div></a>
+<div class="reason">10/03/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/rachel-millwood-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Millwood-Rachel-Michelle.jpg" alt="Rachel Millwood"><div class="name">Rachel Millwood</div></a>
+<div class="reason">10/04/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/travis-miller-36/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Miller-Travis-Dylan.jpg" alt="Travis Miller"><div class="name">Travis Miller</div></a>
+<div class="reason">10/01/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/timothy-miller-36/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Miller-Timothy-Wade.jpg" alt="Timothy Miller"><div class="name">Timothy Miller</div></a>
+<div class="reason">10/02/2024 | Theft By Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/sean-mckiddy-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/McKiddy-Sean-Paul.jpg" alt="Sean McKiddy"><div class="name">Sean McKiddy</div></a>
+<div class="reason">10/03/2024 | Failure to Comply/TREATMENT COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/james-king-49/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/King-James-Anthony.jpg" alt="James King"><div class="name">James King</div></a>
+<div class="reason">10/02/2024 | Poss. Of Firearm/Knife During Comm. Of CrimePossession of Marijuana <1 oz.Possession of a controlled substancePossession of a controlled substancePossession of a controlled sub. w/intent to distributeDrug Related ObjectsUnsafe Operation of Vehicle</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jennifer-kerby-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Kerby-Jennifer-Ann.jpg" alt="Jennifer Kerby"><div class="name">Jennifer Kerby</div></a>
+<div class="reason">10/05/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/raymond-herbst-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Herbst-Raymond-Joseph.jpg" alt="Raymond Herbst"><div class="name">Raymond Herbst</div></a>
+<div class="reason">10/04/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jorge-gonzalez-jimenez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Gonzalez-Jimenez-Jorge.jpg" alt="Jorge Gonzalez Jimenez"><div class="name">Jorge Gonzalez Jimenez</div></a>
+<div class="reason">10/02/2024 | Open Container ViolationD.U.I. / Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/craig-fowler-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Fowler-Craig-Mitchell.jpg" alt="Craig Fowler"><div class="name">Craig Fowler</div></a>
+<div class="reason">09/30/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/joseph-fink-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Fink-Joseph-David.jpg" alt="Joseph Fink"><div class="name">Joseph Fink</div></a>
+<div class="reason">10/02/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kawan-sanders-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Sanders-Kawan-Wayne-Eugene.jpg" alt="Kawan Sanders"><div class="name">Kawan Sanders</div></a>
+<div class="reason">10/03/2024 | Aggravated Battery (Order for Arrest)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kevin-english-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/English-Kevin-Warren.jpg" alt="Kevin English"><div class="name">Kevin English</div></a>
+<div class="reason">09/30/2024 | FAILURE TO REGISTER AS A SEX OFFENDERFAILURE TO REGISTER AS A SEX OFFENDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/scott-edwards-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Edwards-Scott-Joseph.jpg" alt="Scott Edwards"><div class="name">Scott Edwards</div></a>
+<div class="reason">10/03/2024 | Failure to Comply/Treatment Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/david-dudley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Dudley-David-Wade.jpg" alt="David Dudley"><div class="name">David Dudley</div></a>
+<div class="reason">10/02/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/david-delong-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Delong-David-Tanner.jpg" alt="David Delong"><div class="name">David Delong</div></a>
+<div class="reason">10/01/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/william-coggins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Coggins-William-Joseph.jpg" alt="William Coggins"><div class="name">William Coggins</div></a>
+<div class="reason">10/01/2024 | Possession of a controlled substanceDrug Related ObjectsPossession of Dangerous Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/shawn-clayton-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Clayton-Shawn-Michael.jpg" alt="Shawn Clayton"><div class="name">Shawn Clayton</div></a>
+<div class="reason">09/30/2024 | Possession of a controlled substanceCriminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/david-chumbler-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Chumbler-David-Wade.jpg" alt="David Chumbler"><div class="name">David Chumbler</div></a>
+<div class="reason">10/01/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/sonya-caviness-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Caviness-Sonya-Colene.jpg" alt="Sonya Caviness"><div class="name">Sonya Caviness</div></a>
+<div class="reason">10/04/2024 | Failure to Comply/Treatment Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/adelfo-catalan-figueroa/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Catalan-Figueroa-Adelfo.jpg" alt="Adelfo Catalan Figueroa"><div class="name">Adelfo Catalan Figueroa</div></a>
+<div class="reason">10/03/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/randy-carter-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Carter-Randy-Wayne-1.jpg" alt="Randy Carter"><div class="name">Randy Carter</div></a>
+<div class="reason">10/02/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/scott-callan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Callan-Scott-Joseph.jpg" alt="Scott Callan"><div class="name">Scott Callan</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/megan-bowling/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Bowling-Megan-Alina.jpg" alt="Megan Bowling"><div class="name">Megan Bowling</div></a>
+<div class="reason">10/01/2024 | Simple Battery (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/lucas-bastos-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Bastos-Lucas-Andre.jpg" alt="Lucas Bastos"><div class="name">Lucas Bastos</div></a>
+<div class="reason">10/02/2024 | State Inmate</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/horace-barnes-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Barnes-Horace-Isaac.jpg" alt="Horace Barnes"><div class="name">Horace Barnes</div></a>
+<div class="reason">10/01/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/ross-banasik-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Banasik-Ross-Andrew.jpg" alt="Ross Banasik"><div class="name">Ross Banasik</div></a>
+<div class="reason">10/03/2024 | Possession Of Firearm By Convicted FelonReckless ConductCriminal Use Of Article With Altered IDProbation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/luke-baggett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Baggett-Luke-Alexander.jpg" alt="Luke Baggett"><div class="name">Luke Baggett</div></a>
+<div class="reason">10/02/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jason-alexander-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Alexander-Jason-Guy.jpg" alt="Jason Alexander"><div class="name">Jason Alexander</div></a>
+<div class="reason">10/04/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jason-hunt-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hunt-Jason-Todd.jpg" alt="Jason Hunt"><div class="name">Jason Hunt</div></a>
+<div class="reason">10/02/2024 | Unlawful Eavesdropping/Surveillance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/richard-wommack-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Wommack-Richard-Taylor.jpg" alt="Richard Wommack"><div class="name">Richard Wommack</div></a>
+<div class="reason">09/28/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/anthony-waldrop-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Waldrop-Anthony-Eugene.jpg" alt="Anthony Waldrop"><div class="name">Anthony Waldrop</div></a>
+<div class="reason">09/26/2024 | Bench Warrant/Failure to Appear In CourtFailure to Comply//Conditional Release</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/christy-turner-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Turner-Christy-Lynn.jpg" alt="Christy Turner"><div class="name">Christy Turner</div></a>
+<div class="reason">09/23/2024 | OUT OF COUNTY 29'S</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/alicia-tallant/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Tallant-Alicia-Mae.jpg" alt="Alicia Tallant"><div class="name">Alicia Tallant</div></a>
+<div class="reason">09/29/2024 | D.U.I. / AlcoholFollowing Too Closely</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/douglas-sines/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Sines-Douglas-William.jpg" alt="Douglas Sines"><div class="name">Douglas Sines</div></a>
+<div class="reason">09/23/2024 | Driving While License Suspended/Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/tonya-shirvani-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Shirvani-Tonya-Zahra.jpg" alt="Tonya Shirvani"><div class="name">Tonya Shirvani</div></a>
+<div class="reason">09/23/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/zackery-rumsey-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Rumsey-Zackery-Keith-Stephen.jpg" alt="Zackery Rumsey"><div class="name">Zackery Rumsey</div></a>
+<div class="reason">09/27/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/gena-puckett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Puckett-Gena-Livingston.jpg" alt="Gena Puckett"><div class="name">Gena Puckett</div></a>
+<div class="reason">09/24/2024 | D.U.I. / Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/stephen-naidyhorski-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Naidyhorski-Stephen-John.jpg" alt="Stephen Naidyhorski"><div class="name">Stephen Naidyhorski</div></a>
+<div class="reason">09/26/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/camerin-mitchell-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Mitchell-Camerin-Ansley-1.jpg" alt="Camerin Mitchell"><div class="name">Camerin Mitchell</div></a>
+<div class="reason">09/24/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/casey-matthews-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Matthews-Casey-Andrew.jpg" alt="Casey Matthews"><div class="name">Casey Matthews</div></a>
+<div class="reason">09/23/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jason-lewis-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Lewis-Jason-William.jpg" alt="Jason Lewis"><div class="name">Jason Lewis</div></a>
+<div class="reason">09/25/2024 | Possession of a controlled substance (SCHEDULE II)Possession of a controlled substance (SCHEDULE IV)Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/john-karne/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Karne-John.jpg" alt="John Karne"><div class="name">John Karne</div></a>
+<div class="reason">09/26/2024 | Simple Assault (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/john-johnson-52/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Johnson-John-Willie.jpg" alt="John Johnson"><div class="name">John Johnson</div></a>
+<div class="reason">09/24/2024 | D.U.I. / AlcoholFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/robert-howell-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Howell-Jr.-Robert-Nelson.jpg" alt="Robert Howell"><div class="name">Robert Howell</div></a>
+<div class="reason">09/25/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jason-gravitt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Gravitt-Jason-Lee.jpg" alt="Jason Gravitt"><div class="name">Jason Gravitt</div></a>
+<div class="reason">09/23/2024 | Battery (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kenzie-flood-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Flood-Kenzie-Sean.jpg" alt="Kenzie Flood"><div class="name">Kenzie Flood</div></a>
+<div class="reason">09/23/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/ashley-fernandez-alejos/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Fernandez-Alejos-Ashley-Cristine.jpg" alt="Ashley Fernandez-Alejos"><div class="name">Ashley Fernandez-Alejos</div></a>
+<div class="reason">09/26/2024 | Obstruction Of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/amari-ealy-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Ealy-Amari-Jabar.jpg" alt="Amari Ealy"><div class="name">Amari Ealy</div></a>
+<div class="reason">09/26/2024 | Theft By Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/billy-croy-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Croy-Billy-G.j.jpg" alt="Billy Croy"><div class="name">Billy Croy</div></a>
+<div class="reason">09/28/2024 | Theft By Receiving Stolen PropertyNo RegistrationDriving Without LicenseNo Proof Of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kimberly-cox-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Cox-Kimberly-Denise.jpg" alt="Kimberly Cox"><div class="name">Kimberly Cox</div></a>
+<div class="reason">09/24/2024 | D.U.I. / DrugsFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/dylan-brown-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Brown-Dylan-Thomas.jpg" alt="Dylan Brown"><div class="name">Dylan Brown</div></a>
+<div class="reason">09/25/2024 | Striking Fixed ObjectD.U.I. / Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/willjhomglyt-baezsequeri/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Baezsequeri-Willjhomglyt-Enrique.jpg" alt="Willjhomglyt Baezsequeri"><div class="name">Willjhomglyt Baezsequeri</div></a>
+<div class="reason">09/24/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/paula-vaughn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Vaughn-Paula-Annette-720x480.jpg" alt="Paula Vaughn"><div class="name">Paula Vaughn</div></a>
+<div class="reason">09/18/2024 | Endangering Security Interest</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/william-torres-parra/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Torres-Parra-William-Andres-720x480.jpg" alt="William Torres Parra"><div class="name">William Torres Parra</div></a>
+<div class="reason">09/19/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/colton-thibault-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Thibault-Colton-Bradley-720x480.jpg" alt="Colton Thibault"><div class="name">Colton Thibault</div></a>
+<div class="reason">09/18/2024 | Serving County Sentence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/johnny-taylor-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Taylor-Johnny-Frank-720x480.jpg" alt="Johnny Taylor"><div class="name">Johnny Taylor</div></a>
+<div class="reason">09/20/2024 | False Name/date of birthTheft By Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/twilya-streetman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Streetman-Twilya-Mashell-720x480.jpg" alt="Twilya Streetman"><div class="name">Twilya Streetman</div></a>
+<div class="reason">09/21/2024 | Driving While License Suspended/RevokedDefective or No Taillights</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/rodney-rider-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Rider-Rodney-William-720x480.jpg" alt="Rodney Rider"><div class="name">Rodney Rider</div></a>
+<div class="reason">09/20/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/erik-reeves/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Reeves-Erik-Samuel-720x480.jpg" alt="Erik Reeves"><div class="name">Erik Reeves</div></a>
+<div class="reason">09/17/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jagger-owca/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Owca-Jagger-Joseph-720x480.jpg" alt="Jagger Owca"><div class="name">Jagger Owca</div></a>
+<div class="reason">09/18/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/blair-housley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Housley-Blair-Boyd-720x480.jpg" alt="Blair Housley"><div class="name">Blair Housley</div></a>
+<div class="reason">09/16/2024 | D.U.I. / AlcoholFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/marilyn-hope-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hope-Marilyn-Yvonne-720x480.jpg" alt="Marilyn Hope"><div class="name">Marilyn Hope</div></a>
+<div class="reason">09/19/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/josue-hernandez-garcia/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hernandez-Garcia-Josue-Silvino-720x480.jpg" alt="Josue Hernandez Garcia"><div class="name">Josue Hernandez Garcia</div></a>
+<div class="reason">09/19/2024 | Driving Without LicenseSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kaycee-hayes-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hayes-Kaycee-Leigh-720x480.jpg" alt="Kaycee Hayes"><div class="name">Kaycee Hayes</div></a>
+<div class="reason">09/17/2024 | Pedestrian Under The Influence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/dakato-estes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Estes-Dakato-Lee-720x480.jpg" alt="Dakato Estes"><div class="name">Dakato Estes</div></a>
+<div class="reason">09/20/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/steven-derrick-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Derrick-Steven-Andrew-720x480.jpg" alt="Steven Derrick"><div class="name">Steven Derrick</div></a>
+<div class="reason">09/16/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/allen-del-campo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Del-Campo-Allen-Mark-720x480.jpg" alt="Allen Del Campo"><div class="name">Allen Del Campo</div></a>
+<div class="reason">09/18/2024 | Violation of Family Violence Order</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/leonard-cantrell-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Cantrell-Leonard-720x480.jpg" alt="Leonard Cantrell"><div class="name">Leonard Cantrell</div></a>
+<div class="reason">09/08/2024 | Obstruction Of OfficerDistribution of a controlled substancePossession of Dangerous Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/hardy-day/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Day-Hardy-James-720x480.jpg" alt="Hardy Day"><div class="name">Hardy Day</div></a>
+<div class="reason">09/22/2024 | Simple Assault (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/joyce-davis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Davis-Joyce-Ann-720x480.jpg" alt="Joyce Davis"><div class="name">Joyce Davis</div></a>
+<div class="reason">09/17/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/gregory-chambers-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Chambers-Gregory-Mark-720x480.jpg" alt="Gregory Chambers"><div class="name">Gregory Chambers</div></a>
+<div class="reason">09/16/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jose-cedeno-valera/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Cedeno-Valera-Jose-Daniel-720x480.jpg" alt="Jose Cedeno-Valera"><div class="name">Jose Cedeno-Valera</div></a>
+<div class="reason">09/21/2024 | Driving Without LicenseUnsafe Operation of Vehicle</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/william-barnhardt-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Barnhardt-William-Ray-720x480.jpg" alt="William Barnhardt"><div class="name">William Barnhardt</div></a>
+<div class="reason">09/17/2024 | Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/mousa-awad/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Awad-Mousa-Tawfiq-720x480.jpg" alt="Mousa Awad"><div class="name">Mousa Awad</div></a>
+<div class="reason">09/17/2024 | Exploits, threatens, intimidates a disabled or elderly personAggravated Assault (Family Violence)Aggravated Assault (Family Violence)Battery (Family Violence)Battery (Family Violence)False ImprisonmentExploits, threatens, intimidates a disabled or elderly personAggravated Assault (Family Violence)Simple Battery (Family Violence)Battery (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/james-caldwell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Caldwell-James-Alan-720x480.jpg" alt="James Caldwell"><div class="name">James Caldwell</div></a>
+<div class="reason">09/20/2024 | Tampering With EvidencePoss. Of Firearm/Knife During Comm. Of CrimeAggravated AssaultAggravated AssaultReckless Conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/ruben-lara-otelo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Lara-Otelo-Ruben-Alejandro-720x480.jpg" alt="Ruben Lara-Otelo"><div class="name">Ruben Lara-Otelo</div></a>
+<div class="reason">09/21/2024 | Driving Without LicenseD.U.I. / AlcoholSerious Injury By VehicleFailure to Yield Right Of Way While Turning Left</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/hector-saintkitts-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Saintkitts-Hector-Luis-720x480.jpg" alt="Hector Saintkitts"><div class="name">Hector Saintkitts</div></a>
+<div class="reason">09/20/2024 | Obstruction Of OfficerDisorderly ConductSimple Assault (Family Violence)Criminal Trespass (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/joseph-wize/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Wize-Joseph-Lamar-720x480.jpg" alt="Joseph Wize"><div class="name">Joseph Wize</div></a>
+<div class="reason">09/14/2024 | Terroristic Threats</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kayla-willoughby-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Willoughby-Kayla-Ann-720x480.jpg" alt="Kayla Willoughby"><div class="name">Kayla Willoughby</div></a>
+<div class="reason">09/11/2024 | Failure to Comply/Drug Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/darron-stone-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Stone-Darron-Rarnard-720x480.jpg" alt="Darron Stone"><div class="name">Darron Stone</div></a>
+<div class="reason">09/11/2024 | Endangering Security Interest</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jay-rogers-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Rogers-Jr.-Jay-Shannon-720x480.jpg" alt="Jay Rogers"><div class="name">Jay Rogers</div></a>
+<div class="reason">09/10/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/lucas-ray-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Ray-Jr.-Lucas-Jerome-1-720x480.jpg" alt="Lucas Ray"><div class="name">Lucas Ray</div></a>
+<div class="reason">09/10/2024 | Failure to Comply/Pretrial</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/amanda-payne-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Payne-Amanda-Louise-720x480.jpg" alt="Amanda Payne"><div class="name">Amanda Payne</div></a>
+<div class="reason">09/11/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jeffrey-padgett-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Padgett-Jeffrey-Andrew-720x480.jpg" alt="Jeffrey Padgett"><div class="name">Jeffrey Padgett</div></a>
+<div class="reason">09/11/2024 | Driving While License Suspended/RevokedD.U.I. / Alcohol & DrugsFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/michael-madren/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Madren-Michael-Thomas-720x480.jpg" alt="Michael Madren"><div class="name">Michael Madren</div></a>
+<div class="reason">09/10/2024 | Driving While License Suspended/Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/matthew-kemp-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Kemp-Matthew-Alexander-720x480.jpg" alt="Matthew Kemp"><div class="name">Matthew Kemp</div></a>
+<div class="reason">09/13/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/christina-ingram-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Ingram-Christina-Lynn-720x480.jpg" alt="Christina Ingram"><div class="name">Christina Ingram</div></a>
+<div class="reason">09/12/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/rocky-hutchison/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hutchison-Rocky-Ray-720x480.jpg" alt="Rocky Hutchison"><div class="name">Rocky Hutchison</div></a>
+<div class="reason">09/10/2024 | Possession of Marijuana <1 oz.Possession of a controlled substancePossession of a controlled substanceReckless DrivingImproper Passing On LeftParole Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/catherine-hollinshead-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hollinshead-Catherine-Sue-720x480.jpg" alt="Catherine Hollinshead"><div class="name">Catherine Hollinshead</div></a>
+<div class="reason">09/13/2024 | Driving Without License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/austin-holdash/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Holdash-Austin-Riley-720x480.jpg" alt="Austin Holdash"><div class="name">Austin Holdash</div></a>
+<div class="reason">09/10/2024 | Too Fast For ConditionsReckless DrivingFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/francisco-hernandez-madrid-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hernandez-Madrid-Francisco-Salvador-720x480.jpg" alt="Francisco Hernandez Madrid"><div class="name">Francisco Hernandez Madrid</div></a>
+<div class="reason">09/09/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/charles-haynes-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Haynes-Charles-Theo-720x480.jpg" alt="Charles Haynes"><div class="name">Charles Haynes</div></a>
+<div class="reason">09/14/2024 | D.U.I. / AlcoholCrossing Median in Divided Highway</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/cameron-haynes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Haynes-Cameron-Jesse-720x480.jpg" alt="Cameron Haynes"><div class="name">Cameron Haynes</div></a>
+<div class="reason">09/14/2024 | D.U.I. / AlcoholFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/billy-hambrick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hambrick-Billy-Duran-720x480.jpg" alt="Billy Hambrick"><div class="name">Billy Hambrick</div></a>
+<div class="reason">09/14/2024 | Theft By Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/maxwell-swanson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Swanson-Maxwell-Kegan-720x480.jpg" alt="Maxwell Swanson"><div class="name">Maxwell Swanson</div></a>
+<div class="reason">09/13/2024 | Unauthorized Practice of Law ForbiddenFalse Report Of A CrimeBattery (Family Violence)Battery (Family Violence)Theft By Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jose-gonzalez-navarro-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Gonzalez-Navarro-Jose-Luis-720x480.jpg" alt="Jose Gonzalez Navarro"><div class="name">Jose Gonzalez Navarro</div></a>
+<div class="reason">09/11/2024 | Driving Without LicenseLittering Highway</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/craig-fowler-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Fowler-Craig-Mitchell-720x480.jpg" alt="Craig Fowler"><div class="name">Craig Fowler</div></a>
+<div class="reason">09/13/2024 | Criminal Trespass (Family Violence)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/david-fields-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Fields-David-Anthony-720x480.jpg" alt="David Fields"><div class="name">David Fields</div></a>
+<div class="reason">09/13/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jason-durenda-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Durenda-Jason-Alan-720x480.jpg" alt="Jason Durenda"><div class="name">Jason Durenda</div></a>
+<div class="reason">09/12/2024 | Probation Violation (MISD)Probation Violation (MISD)Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/helder-covarrubias-mendez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Covarrubias-Mendez-Helder-Josue-720x480.jpg" alt="Helder Covarrubias Mendez"><div class="name">Helder Covarrubias Mendez</div></a>
+<div class="reason">09/11/2024 | Driving While License Suspended/RevokedSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/christina-cole-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Cole-Christina-Marie-720x480.jpg" alt="Christina Cole"><div class="name">Christina Cole</div></a>
+<div class="reason">09/10/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/sandra-coffey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Coffey-Sandra-Jacqueline-720x480.jpg" alt="Sandra Coffey"><div class="name">Sandra Coffey</div></a>
+<div class="reason">09/10/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/abhisek-chakraborty/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Chakraborty-Abhisek-720x480.jpg" alt="Abhisek Chakraborty"><div class="name">Abhisek Chakraborty</div></a>
+<div class="reason">09/14/2024 | Theft By Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/laura-capizzi-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Capizzi-Laura-720x480.jpg" alt="Laura Capizzi"><div class="name">Laura Capizzi</div></a>
+<div class="reason">09/13/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jackson-ayers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Ayers-Jackson-720x480.jpg" alt="Jackson Ayers"><div class="name">Jackson Ayers</div></a>
+<div class="reason">09/09/2024 | Simple Battery (Family Violence)False Imprisonment</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/william-walker-59/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Walker-William-Alexander-720x480.jpg" alt="William Walker"><div class="name">William Walker</div></a>
+<div class="reason">09/04/2024 | Endangering Security Interest</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/marianne-waldroup-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Waldroup-Marianne-Elizabeth-720x480.jpg" alt="Marianne Waldroup"><div class="name">Marianne Waldroup</div></a>
+<div class="reason">09/03/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/john-waldroup-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Waldroup-John-Cassidy-720x480.jpg" alt="John Waldroup"><div class="name">John Waldroup</div></a>
+<div class="reason">09/03/2024 | Driving While License Suspended/RevokedNo Proof Of InsuranceSuspended Vehicle RegistrationNo Brake Lights Or Working Turn Signals</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/trayla-thomason-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Thomason-Trayla-Rose-720x480.jpg" alt="Trayla Thomason"><div class="name">Trayla Thomason</div></a>
+<div class="reason">09/06/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/shauntel-taylor-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Taylor-Shauntel-Katie-720x480.jpg" alt="Shauntel Taylor"><div class="name">Shauntel Taylor</div></a>
+<div class="reason">09/05/2024 | D.U.I. / DrugsFailure To Yield Crossing/Intersection</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/david-summitt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Summitt-Jr.-David-Allen-720x480.jpg" alt="David Summitt"><div class="name">David Summitt</div></a>
+<div class="reason">09/05/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/alex-suarez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Suarez-Alex-Eugenio-720x480.jpg" alt="Alex Suarez"><div class="name">Alex Suarez</div></a>
+<div class="reason">09/03/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/gheorghe-schipor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Schipor-Gheorghe-720x480.jpg" alt="Gheorghe Schipor"><div class="name">Gheorghe Schipor</div></a>
+<div class="reason">09/02/2024 | D.U.I. / AlcoholFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/gary-sanders-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Sanders-Gary-Alan-720x480.jpg" alt="Gary Sanders"><div class="name">Gary Sanders</div></a>
+<div class="reason">09/06/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jessica-samples-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Samples-Jessica-Leigh-720x480.jpg" alt="Jessica Samples"><div class="name">Jessica Samples</div></a>
+<div class="reason">09/04/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jose-polanco-castro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Polanco-Castro-Jose-Raul-720x480.jpg" alt="Jose Polanco Castro"><div class="name">Jose Polanco Castro</div></a>
+<div class="reason">09/05/2024 | Driving Without LicenseSpeedingFailure to Yield to Emergency VehicleNo Material Obstruct Driver's Vision</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/cara-myhre-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Myhre-Cara-Susan-720x480.jpg" alt="Cara Myhre"><div class="name">Cara Myhre</div></a>
+<div class="reason">09/06/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/miguel-melchor-benito/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Melchor-Benito-Miguel-720x480.jpg" alt="Miguel Melchor Benito"><div class="name">Miguel Melchor Benito</div></a>
+<div class="reason">09/04/2024 | Driving Without LicenseFollowing Too Closely</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/bryan-martin-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Martin-Bryan-Keith-720x480.jpg" alt="Bryan Martin"><div class="name">Bryan Martin</div></a>
+<div class="reason">09/04/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/josiah-linton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Linton-Josiah-Daniel-720x480.jpg" alt="Josiah Linton"><div class="name">Josiah Linton</div></a>
+<div class="reason">09/03/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/tyler-latham-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Latham-Tyler-Aaron-720x480.jpg" alt="Tyler Latham"><div class="name">Tyler Latham</div></a>
+<div class="reason">09/05/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/macy-ladd-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Ladd-Macy-Jordan-720x480.jpg" alt="Macy Ladd"><div class="name">Macy Ladd</div></a>
+<div class="reason">09/03/2024 | Failure to Comply/Drug Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/ryan-howington/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Howington-Ryan-Austin-720x480.jpg" alt="Ryan Howington"><div class="name">Ryan Howington</div></a>
+<div class="reason">09/06/2024 | Public Drunkenness</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/phillip-holt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Holt-Phillip-Anthony-720x480.jpg" alt="Phillip Holt"><div class="name">Phillip Holt</div></a>
+<div class="reason">09/07/2024 | Driving Without License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jamarris-marks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Marks-Jamarris-Tyree-720x480.webp" alt="Jamarris Marks"><div class="name">Jamarris Marks</div></a>
+<div class="reason">08/25/2024 | Obstruction Of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/carlos-londono-garcia/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Londono-Garcia-Carlos-A-720x480.webp" alt="Carlos Londono Garcia"><div class="name">Carlos Londono Garcia</div></a>
+<div class="reason">08/25/2024 | Financial Transaction Card TheftFinancial Transaction Card FraudFinancial Transaction Card FraudFinancial Transaction Card Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/aaron-hunsinger-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hunsinger-Aaron-Warren-720x480.webp" alt="Aaron Hunsinger"><div class="name">Aaron Hunsinger</div></a>
+<div class="reason">08/25/2024 | Identity FraudDriving While License Suspended/RevokedNo Proof Of InsuranceObstruction Of OfficerObstruction Of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/herman-holloway-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Holloway-Herman-Lee-720x480.jpg" alt="Herman Holloway"><div class="name">Herman Holloway</div></a>
+<div class="reason">09/03/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jessica-hamilton-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hamilton-Jessica-Lee-720x480.jpg" alt="Jessica Hamilton"><div class="name">Jessica Hamilton</div></a>
+<div class="reason">09/03/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/courtney-goodwin-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Goodwin-Courtney-Hope-720x480.jpg" alt="Courtney Goodwin"><div class="name">Courtney Goodwin</div></a>
+<div class="reason">09/06/2024 | Failure To ComplyProbation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/debbie-gee-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Gee-Debbie-Lynn-720x480.jpg" alt="Debbie Gee"><div class="name">Debbie Gee</div></a>
+<div class="reason">09/05/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/steven-davis-30/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Davis-Steven-Lynn-720x480.jpg" alt="Steven Davis"><div class="name">Steven Davis</div></a>
+<div class="reason">09/04/2024 | Aggravated StalkingProbation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/john-churchwell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Churchwell-John-720x480.jpg" alt="John Churchwell"><div class="name">John Churchwell</div></a>
+<div class="reason">09/03/2024 | Open Container ViolationD.U.I. / Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/frederick-campbell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Campbell-Frederick-Lewis-720x480.jpg" alt="Frederick Campbell"><div class="name">Frederick Campbell</div></a>
+<div class="reason">09/04/2024 | Pedestrian Under The Influence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/ivey-bradfield/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Bradfield-Ivey-Marie-720x480.jpg" alt="Ivey Bradfield"><div class="name">Ivey Bradfield</div></a>
+<div class="reason">09/03/2024 | Disorderly Conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/michael-belcher-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Belcher-Michael-Robert-720x480.jpg" alt="Michael Belcher"><div class="name">Michael Belcher</div></a>
+<div class="reason">09/05/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/lucas-ray-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/RAY-Jr.-Lucas-Jerome-720x480.jpg" alt="Lucas Ray"><div class="name">Lucas Ray</div></a>
+<div class="reason">09/06/2024 | Violation of Family Violence OrderInterference with a 911 Call (BOND SURRENDER)Battery (Family Violence) (BOND SURRENDER)False Imprisonment (BOND SURRENDER)Cruelty to Children, Third Degree (BOND SURRENDER)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/david-waters-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Waters-David-Matthew-720x480.webp" alt="David Waters"><div class="name">David Waters</div></a>
+<div class="reason">09/01/2024 | Public Drunkenness</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/susan-ware/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Ware-Susan-Gabrielle-720x480.webp" alt="Susan Ware"><div class="name">Susan Ware</div></a>
+<div class="reason">08/27/2024 | D.U.I. / AlcoholFailure to Maintain LaneHeadlights on Sunset/Sunrise And In Rain</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/john-turner-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Turner-John-Dennis-720x480.webp" alt="John Turner"><div class="name">John Turner</div></a>
+<div class="reason">08/27/2024 | Endangering Security Interest</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/sarah-thornton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Thornton-Sarah-Abbigail-720x480.webp" alt="Sarah Thornton"><div class="name">Sarah Thornton</div></a>
+<div class="reason">08/26/2024 | Possession of a controlled sub. w/intent to distributeD.U.I. / DrugsHeadlight Requirement</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/david-supernor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Supernor-David-720x480.webp" alt="David Supernor"><div class="name">David Supernor</div></a>
+<div class="reason">09/01/2024 | D.U.I. / Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/ashley-rupert-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Rupert-Ashley-Rose-720x480.webp" alt="Ashley Rupert"><div class="name">Ashley Rupert</div></a>
+<div class="reason">08/26/2024 | Failure To Comply with Pre-Trial</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/travis-raven-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Raven-Travis-Wayne-720x480.webp" alt="Travis Raven"><div class="name">Travis Raven</div></a>
+<div class="reason">08/26/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/john-pilgrim-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Pilgrim-John-Preston-720x480.webp" alt="John Pilgrim"><div class="name">John Pilgrim</div></a>
+<div class="reason">09/01/2024 | Bench Warrant/Failure to Appear In CourtOpen Container ViolationD.U.I. / AlcoholNo Brake Lights Or Working Turn Signals</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/stephen-picciotti-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Picciotti-Stephen-Tyler-720x480.webp" alt="Stephen Picciotti"><div class="name">Stephen Picciotti</div></a>
+<div class="reason">08/26/2024 | Driving While License Suspended/RevokedSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/david-patterson-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Patterson-David-Ralph-720x480.webp" alt="David Patterson"><div class="name">David Patterson</div></a>
+<div class="reason">08/30/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/samuel-obryant-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/OBryant-Samuel-Thad-720x480.webp" alt="Samuel O’Bryant"><div class="name">Samuel O’Bryant</div></a>
+<div class="reason">08/29/2024 | D.U.I. / Alcohol & DrugsFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/john-nichols-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Nichols-John-Cletus-720x480.webp" alt="John Nichols"><div class="name">John Nichols</div></a>
+<div class="reason">08/30/2024 | Driving While License Suspended/RevokedFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/bobbie-moore-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Moore-Bobbie-Paulette-720x480.webp" alt="Bobbie Moore"><div class="name">Bobbie Moore</div></a>
+<div class="reason">08/31/2024 | Driving While License Suspended/RevokedD.U.I. / Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/louis-montgomery-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Montgomery-Louis-Dwain-720x480.webp" alt="Louis Montgomery"><div class="name">Louis Montgomery</div></a>
+<div class="reason">08/26/2024 | Obedience to Traffic Control DeviceD.U.I. / AlcoholFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/clay-monroe-melancon-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Monroe-Melancon-Clay-720x480.webp" alt="Clay Monroe-Melancon"><div class="name">Clay Monroe-Melancon</div></a>
+<div class="reason">08/31/2024 | Failure to Comply/BOND CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jimmy-laminack-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Laminack-Jimmy-Ray-720x480.webp" alt="Jimmy Laminack"><div class="name">Jimmy Laminack</div></a>
+<div class="reason">08/31/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kati-kraft/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Kraft-Kati-Lynn-720x480.webp" alt="Kati Kraft"><div class="name">Kati Kraft</div></a>
+<div class="reason">08/31/2024 | No Drivers License on PersonOpen Container ViolationD.U.I. / Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/michael-king-54/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/King-Michael-A-720x480.webp" alt="Michael King"><div class="name">Michael King</div></a>
+<div class="reason">08/30/2024 | Obstruction Of OfficerPossession Of Marijuana</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/robert-johnson-104/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Johnson-Robert-Kevin-720x480.webp" alt="Robert Johnson"><div class="name">Robert Johnson</div></a>
+<div class="reason">08/30/2024 | D.U.I. / Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/tia-grindle-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Grindle-Tia-Rashell-720x480.webp" alt="Tia Grindle"><div class="name">Tia Grindle</div></a>
+<div class="reason">08/27/2024 | Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/ginger-gilbert-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Gilbert-Ginger-Cobb-720x480.webp" alt="Ginger Gilbert"><div class="name">Ginger Gilbert</div></a>
+<div class="reason">08/29/2024 | Bench Warrant/Failure to Appear In Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/eli-dempsey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Dempsey-Eli-Greysen-720x480.webp" alt="Eli Dempsey"><div class="name">Eli Dempsey</div></a>
+<div class="reason">09/01/2024 | Driving While License Suspended/Revoked</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/clinton-davis-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Davis-Clinton-Scott-720x480.webp" alt="Clinton Davis"><div class="name">Clinton Davis</div></a>
+<div class="reason">08/26/2024 | Obstruction Of OfficerPossession of Marijuana <1 oz.Possession of a controlled sub. w/intent to distribute</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/adam-cruz-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Cruz-Adam-720x480.webp" alt="Adam Cruz"><div class="name">Adam Cruz</div></a>
+<div class="reason">08/27/2024 | Hold for Other Agency</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/armando-caudillo-juarez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Caudillo-Juarez-Armando-720x480.webp" alt="Armando Caudillo Juarez"><div class="name">Armando Caudillo Juarez</div></a>
+<div class="reason">08/27/2024 | Driving Without Valid LicenseFailure To Yield</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/stephen-fry/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Fry-Stephen-Alexander-720x480.webp" alt="Stephen Fry"><div class="name">Stephen Fry</div></a>
+<div class="reason">08/30/2024 | Driving Without LicenseHit And RunFollowing Too Closely</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/dannie-wight/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Wight-Dannie-Eugene-720x480.webp" alt="Dannie Wight"><div class="name">Dannie Wight</div></a>
+<div class="reason">08/28/2024 | Hit And Run</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/mary-wilson-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Wilson-Mary-Ann-720x480.webp" alt="Mary Wilson"><div class="name">Mary Wilson</div></a>
+<div class="reason">08/19/2024 | Obstruction Of OfficerNo Proof Of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/clyde-wilson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Wilson-Clyde-Larry-720x480.webp" alt="Clyde Wilson"><div class="name">Clyde Wilson</div></a>
+<div class="reason">08/23/2024 | Failure to Stop and Render Aid</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/brandon-webster-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Webster-Brandon-Lee-2-720x480.webp" alt="Brandon Webster"><div class="name">Brandon Webster</div></a>
+<div class="reason">08/23/2024 | Probation Violation (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jorge-tambriz-arauz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Tambriz-Arauz-Jorge-720x480.webp" alt="Jorge Tambriz Arauz"><div class="name">Jorge Tambriz Arauz</div></a>
+<div class="reason">08/24/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/corey-seignious/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Seignious-Corey-David-720x480.webp" alt="Corey Seignious"><div class="name">Corey Seignious</div></a>
+<div class="reason">08/19/2024 | D.U.I. / Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/gabrielle-saltzgaber-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Saltzgaber-Gabrielle-Capri-720x480.webp" alt="Gabrielle Saltzgaber"><div class="name">Gabrielle Saltzgaber</div></a>
+<div class="reason">08/23/2024 | Possession of a controlled substancePossession of a controlled substanceDrug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/brione-russell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Russell-Brione-Carnell-720x480.webp" alt="Brione Russell"><div class="name">Brione Russell</div></a>
+<div class="reason">08/21/2024 | Conspiracy To Commit a CrimeDamaging/Interfering With Public UtilitiesTheft By Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/magdaleno-rodriguez-sevilla/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Rodriguez-Sevilla-Magdaleno-Gregorio-720x480.webp" alt="Magdaleno Rodriguez-Sevilla"><div class="name">Magdaleno Rodriguez-Sevilla</div></a>
+<div class="reason">08/22/2024 | Possession of Marijuana <1 oz.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jorvin-rodriguez-sevilla/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Rodriguez-Sevilla-Jorvin-Esneyder-720x480.webp" alt="Jorvin Rodriguez-Sevilla"><div class="name">Jorvin Rodriguez-Sevilla</div></a>
+<div class="reason">08/22/2024 | Possession of Marijuana <1 oz.Driving while license expiredD.U.I. / Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/anthony-rider-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Rider-Anthony-Charles-720x480.webp" alt="Anthony Rider"><div class="name">Anthony Rider</div></a>
+<div class="reason">08/22/2024 | Possession of a controlled substance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/samuel-quema-cotit/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Quema-Cotit-Samuel-Alfonzo-720x480.webp" alt="Samuel Quema-Cotit"><div class="name">Samuel Quema-Cotit</div></a>
+<div class="reason">08/24/2024 | Driving Without LicenseFailure to Yield Right Of Way While Turning Left</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/brian-prater-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Prater-Brian-Keith-720x480.webp" alt="Brian Prater"><div class="name">Brian Prater</div></a>
+<div class="reason">08/23/2024 | Here for Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/donald-porter/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Porter-Donald-Douglas-720x480.webp" alt="Donald Porter"><div class="name">Donald Porter</div></a>
+<div class="reason">08/20/2024 | Holding/Supporting Wireless Telecommunication DeviceD.U.I. / AlcoholFailure to Maintain LaneVisibility (Glazed Material) ViolationsFailure to Wear Seat Belt</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/henry-ortiz-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Ortiz-Henry-Alexander-720x480.webp" alt="Henry Ortiz"><div class="name">Henry Ortiz</div></a>
+<div class="reason">08/21/2024 | Probation Violation (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/alan-nava/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Nava-Alan-720x480.webp" alt="Alan Nava"><div class="name">Alan Nava</div></a>
+<div class="reason">08/22/2024 | Too Fast For ConditionsD.U.I. / AlcoholFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/donald-frey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Frey-II.-Donald-Edward-720x480.webp" alt="Donald Frey"><div class="name">Donald Frey</div></a>
+<div class="reason">08/24/2024 | Serving County Sentence (MISD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/floridaima-mendizabal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Mendizabal-Floridaima-720x480.webp" alt="Floridaima Mendizabal"><div class="name">Floridaima Mendizabal</div></a>
+<div class="reason">08/24/2024 | Driving while license expiredFailure to Maintain Lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/jacob-mavromatidis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Mavromatidis-Jacob-Daniel-720x480.webp" alt="Jacob Mavromatidis"><div class="name">Jacob Mavromatidis</div></a>
+<div class="reason">08/22/2024 | No RegistrationNo Proof Of Insurance (MOTORCYCLE)Reckless DrivingFleeing/Eluding Police OfficerPassing In A No Passing ZoneFailure To Stop For Stop Sign</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/tony-lewis-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Lewis-II.-Tony-Demetrius-720x480.webp" alt="Tony Lewis"><div class="name">Tony Lewis</div></a>
+<div class="reason">08/24/2024 | Theft By Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/dawson/kendrick-larkin-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Larkin-Kendrick-Jerrell-720x480.webp" alt="Kendrick Larkin"><div class="name">Kendrick Larkin</div></a>
+<div class="reason">08/21/2024 | Obstruction Of OfficerConspiracy To Commit a CrimeDamaging/Interfering With Public UtilitiesTheft By Taking</div>
+</div>
+</div><div class="pagination"><a href="dawson5.html">Next Page</a></div></body></html>

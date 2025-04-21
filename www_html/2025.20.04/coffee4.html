@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/james-quails/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Quails-James.jpg" alt="James Quails"><div class="name">James Quails</div></a>
+<div class="reason">10/22/2024 | CRIMINAL DAMAGE TO PROPERTY- 2ND DEGREE48 HOUR DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/miquavis-morris-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Morris-Miquavis-Shonquel.jpg" alt="Miquavis Morris"><div class="name">Miquavis Morris</div></a>
+<div class="reason">10/22/2024 | FEDERAL INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/john-perez-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Perez-John-Henry.jpg" alt="John Perez"><div class="name">John Perez</div></a>
+<div class="reason">10/22/2024 | AGGRAVATED ASSAULT48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/megan-lukes-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lukes-Megan-Diana.jpg" alt="Megan Lukes"><div class="name">Megan Lukes</div></a>
+<div class="reason">10/22/2024 | 48 DETAINERPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/gavede-hansley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hansley-Gavede.jpg" alt="Gavede Hansley"><div class="name">Gavede Hansley</div></a>
+<div class="reason">10/22/2024 | HIT AND RUN / LEAVING THE SCENE THE OF AN ACCIDENT DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MORE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/alvin-davis-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Davis-Alvin.jpg" alt="Alvin Davis"><div class="name">Alvin Davis</div></a>
+<div class="reason">10/22/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/diamond-thomas-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Thomas-Diamond.jpg" alt="Diamond Thomas"><div class="name">Diamond Thomas</div></a>
+<div class="reason">11/03/2024 | PROBATION VIOLATION (IMPROPER BACKING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/billy-raymond-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Raymond-Billy-Lee.jpg" alt="Billy Raymond"><div class="name">Billy Raymond</div></a>
+<div class="reason">11/03/2024 | REMOVING OR AFFIXING LICENSE PLATE W/INTENT TO CONCEALPURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANADRIVING WHILE LICENSE SUSPENDED OR REVOKEDKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/oscar-rojas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rojas-Oscar.jpg" alt="Oscar Rojas"><div class="name">Oscar Rojas</div></a>
+<div class="reason">11/03/2024 | FAILURE TO OBEY TRAFFIC-CONTROL DEVICESNO INSURANCEREMOVING OR AFFIXING LICENSE PLATEDRIVING WITHOUT A VALID LICENSEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/mary-mason-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mason-Mary-Dianetta.jpg" alt="Mary Mason"><div class="name">Mary Mason</div></a>
+<div class="reason">11/03/2024 | CRIMINAL TRESPASS48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jessica-ornelas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ornelas-Jessica-Michelle.jpg" alt="Jessica Ornelas"><div class="name">Jessica Ornelas</div></a>
+<div class="reason">11/03/2024 | POSSESSION OF METHAMPHETAMINE48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/gildardo-lopez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lopez-Gildardo-Rea.jpg" alt="Gildardo Lopez"><div class="name">Gildardo Lopez</div></a>
+<div class="reason">11/03/2024 | FAILURE TO MAINTAIN LANETOO FAST FOR CONDITIONSDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/leo-kennedy-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Kennedy-Jr-Leo.jpg" alt="Leo Kennedy"><div class="name">Leo Kennedy</div></a>
+<div class="reason">11/03/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/melendres-gonzales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gonzales-Melendres-Zamora.jpg" alt="Melendres Gonzales"><div class="name">Melendres Gonzales</div></a>
+<div class="reason">11/03/2024 | DRIVING IN WRONG SIDE OF ROADWAYPOSSESION OF OPEN CONTAINE IN VEHCICLE PASSENGER AREADUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kemon-clark/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Clark-Kemon-Necarl.jpg" alt="Kemon Clark"><div class="name">Kemon Clark</div></a>
+<div class="reason">11/03/2024 | FAILURE TO DIM HEADLIGHTSUSE OF SAFETY BELTS IN PASSENGER VEHICLESDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL UNDER THE AGE OF 21</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/preston-corley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Corley-Preston-Issac.jpg" alt="Preston Corley"><div class="name">Preston Corley</div></a>
+<div class="reason">11/03/2024 | FAILURE TO STOP AT STOP SIGNIMPROPER TURN/IMPROPER LANE CHANGEPROHIBITED ACTSDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL UNDER THE AGE OF 21</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/reny-castillo-ortiz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Castillo-Ortiz-Reny-Salvador.jpg" alt="Reny Castillo-Ortiz"><div class="name">Reny Castillo-Ortiz</div></a>
+<div class="reason">11/03/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/deangelo-ingram-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Ingram-Deangelo-Heroid.jpg" alt="Deangelo Ingram"><div class="name">Deangelo Ingram</div></a>
+<div class="reason">09/25/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/amber-purvis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Purvis-Amber-Kaye.jpg" alt="Amber Purvis"><div class="name">Amber Purvis</div></a>
+<div class="reason">09/18/2024 | BENCH WARRANT (DRIVING UNDER THE INFLUENCE OF ALCOHOL (DUI), DEFECTIVE OR NO TAILIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/bryan-hugley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hugley-Bryan-L.jpg" alt="Bryan Hugley"><div class="name">Bryan Hugley</div></a>
+<div class="reason">09/24/2024 | Held for Clinch County</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/quadree-thomas-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Thomas-Quadree-Jamal.jpg" alt="Quadree Thomas"><div class="name">Quadree Thomas</div></a>
+<div class="reason">10/20/2024 | HOUSING FOR LANIER CO. (FAILURE TO APPEAR, PROBATION VIOLATION)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tyler-willard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Willard-Tyler-Alexander.jpg" alt="Tyler Willard"><div class="name">Tyler Willard</div></a>
+<div class="reason">10/20/2024 | FURNISH PRODUCT CONTAINING PSEUDOEPHEDRINE WITH INT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/dung-guyen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Guyen-Dung.jpg" alt="Dung Guyen"><div class="name">Dung Guyen</div></a>
+<div class="reason">10/20/2024 | DRIVING ON THE WRONG SIDE OF THE ROADWAYDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tommy-mcalpine/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/McAlpine-Tommy.jpg" alt="Tommy McAlpine"><div class="name">Tommy McAlpine</div></a>
+<div class="reason">10/20/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/christopher-flanagan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Flanagan-Christopher.jpg" alt="Christopher Flanagan"><div class="name">Christopher Flanagan</div></a>
+<div class="reason">10/20/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/roshed-carter-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Carter-Roshed-Camentaye-1.jpg" alt="Roshed Carter"><div class="name">Roshed Carter</div></a>
+<div class="reason">10/20/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kajun-durrance/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Durrance-Kajun-Lee.jpg" alt="Kajun Durrance"><div class="name">Kajun Durrance</div></a>
+<div class="reason">10/20/2024 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/april-black-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Black-April-Dawn.jpg" alt="April Black"><div class="name">April Black</div></a>
+<div class="reason">10/20/2024 | DISORDERLY CONDUCT48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jerry-campbell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Campbell-Jerry-Tyrone-1.jpg" alt="Jerry Campbell"><div class="name">Jerry Campbell</div></a>
+<div class="reason">10/20/2024 | PROBATION VIOLATION (THEFT BY TAKING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/zackary-white/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/White-Zackary-Trevor.jpg" alt="Zackary White"><div class="name">Zackary White</div></a>
+<div class="reason">10/19/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/naviontai-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Smith-Naviontai-Navielle.jpg" alt="Naviontai Smith"><div class="name">Naviontai Smith</div></a>
+<div class="reason">10/19/2024 | EXPIRED TAGNO PROOF OF INSURANCE / MOTOR VEHICLESSAFETY RESTRAINT VIOLATION ( UNDER 8 YEARS OF AGE)SPEEDING IN EXCESS OF MAXIMUM LIMITSENDANGERING A CHILD BY DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGSDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/james-reynolds-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Reynolds-Jr-James-Robert.jpg" alt="James Reynolds"><div class="name">James Reynolds</div></a>
+<div class="reason">10/19/2024 | NO INSURANCESPEEDING IN EXCESS OF MAXIMUM LIMITSDUI - DRIVING UNDER THE INFLUENCE OF MULTIPLE SUBSTANCESKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/edgar-rodriguez-21/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Rodriguez-Edgar.jpg" alt="Edgar Rodriguez"><div class="name">Edgar Rodriguez</div></a>
+<div class="reason">10/19/2024 | DRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/ruben-dominguez-arias/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Dominguez-Arias-Ruben.jpg" alt="Ruben Dominguez-Arias"><div class="name">Ruben Dominguez-Arias</div></a>
+<div class="reason">10/19/2024 | FAILURE TO OBEY TRAFFIC-CONTROL DEVICESDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/julia-carithers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Carithers-Julia-Rebecca.jpg" alt="Julia Carithers"><div class="name">Julia Carithers</div></a>
+<div class="reason">10/19/2024 | THEFT BY TAKINGCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/al-tinnell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Tinnell-Al-Ricky.jpg" alt="Al Tinnell"><div class="name">Al Tinnell</div></a>
+<div class="reason">10/17/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tearra-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Williams-Tearra-Natrice.jpg" alt="Tearra Williams"><div class="name">Tearra Williams</div></a>
+<div class="reason">10/17/2024 | PROBATION VIOLATION (DRIVING WITHOUT LICENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/scott-sears/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Sears-Scott-Calvin.jpg" alt="Scott Sears"><div class="name">Scott Sears</div></a>
+<div class="reason">10/17/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/ryan-smith-38/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Smith-Ryan-Andrew.jpg" alt="Ryan Smith"><div class="name">Ryan Smith</div></a>
+<div class="reason">10/17/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/mary-mason-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Mason-Mary-Dianetta-1.jpg" alt="Mary Mason"><div class="name">Mary Mason</div></a>
+<div class="reason">10/17/2024 | SIMPLE BATTERYDISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/eddie-hulen-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hulen-Eddie-Robert.jpg" alt="Eddie Hulen"><div class="name">Eddie Hulen</div></a>
+<div class="reason">10/17/2024 | HOUSING FOR LANIER CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/william-fields-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Fields-William-Carlyle.jpg" alt="William Fields"><div class="name">William Fields</div></a>
+<div class="reason">10/17/2024 | HOLDING FOR ATKINSON COUNTY S.O.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/michael-bussey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bussey-Michael.jpg" alt="Michael Bussey"><div class="name">Michael Bussey</div></a>
+<div class="reason">10/17/2024 | AGGRAVATED ASSAULTAGGRAVATED ASSAULTAGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/robert-boston-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Boston-Jr-Robert-Darnell.jpg" alt="Robert Boston"><div class="name">Robert Boston</div></a>
+<div class="reason">10/17/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jasmin-coleman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Coleman-Jasmin-Rene.jpg" alt="Jasmin Coleman"><div class="name">Jasmin Coleman</div></a>
+<div class="reason">10/16/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/johnny-tarrant/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Tarrant-Johnny.jpg" alt="Johnny Tarrant"><div class="name">Johnny Tarrant</div></a>
+<div class="reason">10/16/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)CRUELTY TO CHILDREN-3RD DEGREECRUELTY TO CHILDREN-3RD DEGREE48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/sinatra-brewton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Brewton-Sinatra-Deangleo.jpg" alt="Sinatra Brewton"><div class="name">Sinatra Brewton</div></a>
+<div class="reason">10/16/2024 | SOLICITING ALMS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/ted-williams-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Williams-Ted.jpg" alt="Ted Williams"><div class="name">Ted Williams</div></a>
+<div class="reason">10/15/2024 | HOUSING FOR LANIER CO (FAILURE TO REGISTER)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/corveon-white-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/White-Corveon.jpg" alt="Corveon White"><div class="name">Corveon White</div></a>
+<div class="reason">10/15/2024 | BENCH WARRANT (NO INSURANCE,DRIVING WITH SUSPENDED TAG,POSS. OF DRUG RELATED OBJECTS,HEADLIGHTS REQUIREMENTS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/timothy-shellman-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Shellman-Timothy-Jawann.jpg" alt="Timothy Shellman"><div class="name">Timothy Shellman</div></a>
+<div class="reason">10/15/2024 | HOLD FOR CHARLTON CO (POSS OF CONTR SUBS./ OBSTR OF OFC)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/zacirion-reed/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Reed-Zacirion.jpg" alt="Zacirion Reed"><div class="name">Zacirion Reed</div></a>
+<div class="reason">10/15/2024 | POSSESSION OF PISTOL OR REVOLVER BY PERSON UNDER 18 YOA - 1ST OFFENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/gregory-sealey-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Sealey-Gregory-Scott.jpg" alt="Gregory Sealey"><div class="name">Gregory Sealey</div></a>
+<div class="reason">10/15/2024 | HOUSING FOR LANIER CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/cupris-morgan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Morgan-Cupris.jpg" alt="Cupris Morgan"><div class="name">Cupris Morgan</div></a>
+<div class="reason">10/15/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/blake-long-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Long-Blake-Hunter.jpg" alt="Blake Long"><div class="name">Blake Long</div></a>
+<div class="reason">10/15/2024 | HOUSING FOR LANIER COUNTY SHERIFF'S OFFICE (PRAROLE VIOLATION)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/sedaveion-holland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Holland-Sedaveion-Marquavious.jpg" alt="Sedaveion Holland"><div class="name">Sedaveion Holland</div></a>
+<div class="reason">10/15/2024 | MARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/james-landers-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Landers-Jr-James-Anthony.jpg" alt="James Landers"><div class="name">James Landers</div></a>
+<div class="reason">10/15/2024 | PROBATION VIOLATION(BURG)PROBATION VIOLATION(BURG)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/stazeya-hill-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hill-Stazeya.jpg" alt="Stazeya Hill"><div class="name">Stazeya Hill</div></a>
+<div class="reason">10/15/2024 | SENTENCED TO 21.5 HOURS PER JUDGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/anthony-gaskins-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Gaskins-Anthony-Dale.jpg" alt="Anthony Gaskins"><div class="name">Anthony Gaskins</div></a>
+<div class="reason">10/15/2024 | SENTENCED TO 22.5 HRS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/brittany-grant-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Grant-Brittany-Marie.jpg" alt="Brittany Grant"><div class="name">Brittany Grant</div></a>
+<div class="reason">10/15/2024 | HOUSING FOR LANIER CO (PROBATION VIOLATION)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jennifer-garza/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Garza-Jennifer-Annett.jpg" alt="Jennifer Garza"><div class="name">Jennifer Garza</div></a>
+<div class="reason">10/15/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/lashanda-davis-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Davis-Lashanda-Ann.jpg" alt="Lashanda Davis"><div class="name">Lashanda Davis</div></a>
+<div class="reason">10/15/2024 | DRIVING IN EMERGENCY LANEDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/fredy-garcia-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Garcia-Fredy-David.jpg" alt="Fredy Garcia"><div class="name">Fredy Garcia</div></a>
+<div class="reason">10/15/2024 | SPEEDINGDRIVING WITHOUT A VALID LICENSEAFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSION/REFLECTANCE OF WINDOWS/WINDSHIELDS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/audreyanna-crump-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Crump-Audreyanna-Lasharne.jpg" alt="Audreyanna Crump"><div class="name">Audreyanna Crump</div></a>
+<div class="reason">10/15/2024 | SENTENCED 22 HOURS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/sherry-brogdon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Brogdon-Sherry.jpg" alt="Sherry Brogdon"><div class="name">Sherry Brogdon</div></a>
+<div class="reason">10/15/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/mary-mason/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Mason-Mary-Dianetta.jpg" alt="Mary Mason"><div class="name">Mary Mason</div></a>
+<div class="reason">10/14/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/austin-smith-42/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Smith-Austin-Tyler.jpg" alt="Austin Smith"><div class="name">Austin Smith</div></a>
+<div class="reason">10/14/2024 | PROBATION VIOLATION (THEFT BY TAKING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/allie-kirkland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Kirkland-Allie-Shyanne.jpg" alt="Allie Kirkland"><div class="name">Allie Kirkland</div></a>
+<div class="reason">10/14/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jamale-jefferson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Jefferson-Jamale-Matthew.jpg" alt="Jamale Jefferson"><div class="name">Jamale Jefferson</div></a>
+<div class="reason">10/14/2024 | PROBATION VIOLATION (S/D/ COCAINE) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/julio-gonzales-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Gonzales-Julio-Antonio.jpg" alt="Julio Gonzales"><div class="name">Julio Gonzales</div></a>
+<div class="reason">10/14/2024 | IMPROPER BACKINGSAFETY RESTRAINT VIOLATION (UNDER 8 YEARS OF AGE)DRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/nyckol-goins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Goins-Nyckol-Deann.jpg" alt="Nyckol Goins"><div class="name">Nyckol Goins</div></a>
+<div class="reason">10/14/2024 | BURGLARY - 1ST DEGREETHEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/ahmad-cross/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Cross-Ahmad-Rashad.jpg" alt="Ahmad Cross"><div class="name">Ahmad Cross</div></a>
+<div class="reason">10/14/2024 | PROBATION VIOLATION (CRIMINAL DAMAGE 2ND DEGREE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/anthony-demmer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Demmer-Anthony-Stephen.jpg" alt="Anthony Demmer"><div class="name">Anthony Demmer</div></a>
+<div class="reason">10/14/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/terisa-speziali/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Speziali-Terisa-Kay.jpg" alt="Terisa Speziali"><div class="name">Terisa Speziali</div></a>
+<div class="reason">10/13/2024 | PROBATION VIOLATION (CRIMINAL TRESPASS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kelsey-manning-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Manning-Kelsey-Anne-1.jpg" alt="Kelsey Manning"><div class="name">Kelsey Manning</div></a>
+<div class="reason">10/13/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tyree-cooper-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Cooper-Tyree-Anjoris.jpg" alt="Tyree Cooper"><div class="name">Tyree Cooper</div></a>
+<div class="reason">10/13/2024 | PUBLIC INDECENCY48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/ana-garcia-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Garcia-Ana-Lisa-Maria.jpg" alt="Ana Garcia"><div class="name">Ana Garcia</div></a>
+<div class="reason">10/13/2024 | FORGERY - 4TH DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/nancy-zambrano/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Zambrano-Nancy-C.jpg" alt="Nancy Zambrano"><div class="name">Nancy Zambrano</div></a>
+<div class="reason">10/12/2024 | FAILURE TO DIM HEADLIGHTSDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tommy-bailey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bailey-Tommy-Ray.jpg" alt="Tommy Bailey"><div class="name">Tommy Bailey</div></a>
+<div class="reason">10/13/2024 | DISORDERLY CONDUCT48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/robert-wilson-30/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Wilson-Robert-Tyree-1.jpg" alt="Robert Wilson"><div class="name">Robert Wilson</div></a>
+<div class="reason">10/12/2024 | UNLAWFUL FOR ANY PERSON TO PURCHASE, POSSESS, OR HAVE UNDER HIS CONTROL ANY CONTROLLED SUBSTANCEWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERSCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/dexter-watts-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Watts-Jr-Dexter-Jerome.jpg" alt="Dexter Watts"><div class="name">Dexter Watts</div></a>
+<div class="reason">10/12/2024 | THEFT BY SHOPLIFTINGTHEFT BY SHOPLIFTINGTHEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jermaine-nathan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Nathan-Jermaine-Theo.jpg" alt="Jermaine Nathan"><div class="name">Jermaine Nathan</div></a>
+<div class="reason">10/12/2024 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/johnny-smith-35/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Smith-Johnny-David.jpg" alt="Johnny Smith"><div class="name">Johnny Smith</div></a>
+<div class="reason">10/12/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/lonnie-higgins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Higgins-Lonnie-Richard.jpg" alt="Lonnie Higgins"><div class="name">Lonnie Higgins</div></a>
+<div class="reason">10/12/2024 | BENCH WARRANT (DUI, OPEN CONTAINER, DEFECTIVE TIRES, TAG LIGHT REQUIREMENT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jeremy-gordon-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Gordon-Jeremy-Stacey-Dewayne.jpg" alt="Jeremy Gordon"><div class="name">Jeremy Gordon</div></a>
+<div class="reason">10/12/2024 | HOLDING FOR ATCO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kevin-harris-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Harris-Jr-Kevin-Jerome.jpg" alt="Kevin Harris"><div class="name">Kevin Harris</div></a>
+<div class="reason">10/12/2024 | PROBATION VIOLATION (WINDOW TINT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/santiz-gomez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Gomez-Santiz.jpg" alt="Santiz Gomez"><div class="name">Santiz Gomez</div></a>
+<div class="reason">10/12/2024 | FAILURE TO MAINTAIN LANEDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/corey-beale-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Beale-Corey.jpg" alt="Corey Beale"><div class="name">Corey Beale</div></a>
+<div class="reason">10/12/2024 | HOUSING FOR HOMERVILLE POLICE DEPT (DUI, WRONG WAY ON ONE WAY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/courtney-chestnut/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Chestnut-Courtney-Cierra.jpg" alt="Courtney Chestnut"><div class="name">Courtney Chestnut</div></a>
+<div class="reason">10/12/2024 | SIMPLE BATTERY - FAMILY VIOLENCEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/anthony-franklin-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Franklin-Anthony-Jaytuan.jpg" alt="Anthony Franklin"><div class="name">Anthony Franklin</div></a>
+<div class="reason">10/12/2024 | PROBATION VIOLATION (SPEEDING/NO LICENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kristy-bailey-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bailey-Kristy.jpg" alt="Kristy Bailey"><div class="name">Kristy Bailey</div></a>
+<div class="reason">10/12/2024 | CRIMINAL TRESPASS- FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/byron-schardt-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Schardt-Jr-Byron-Lee-1.jpg" alt="Byron Schardt"><div class="name">Byron Schardt</div></a>
+<div class="reason">10/11/2024 | FAILURE TO MAINTAIN LANEIMPROPER SLOWING OR STOPPING ON ROADWAYBENCH WARRANT (DRIVING WHILE LIC. SUSP/REVOKED)POSSESSION OF METHAMPHETAMINEVIOLATE FAMILY VIOLENCE ORDERPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESDRIVING WHILE LICENSE SUSPENDED OR REVOKED48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/sherri-ortiz-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Ortiz-Sherri.jpg" alt="Sherri Ortiz"><div class="name">Sherri Ortiz</div></a>
+<div class="reason">10/11/2024 | FAILURE TO YIELD AFTER STOPPONG AT A STOP SIGNDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kevin-lott/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Lott-Kevin-Leroy.jpg" alt="Kevin Lott"><div class="name">Kevin Lott</div></a>
+<div class="reason">10/11/2024 | BENCH WARRANT (CRIM TRESP / THEFT BY TAKING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kelsey-manning/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Manning-Kelsey-Anne.jpg" alt="Kelsey Manning"><div class="name">Kelsey Manning</div></a>
+<div class="reason">10/11/2024 | PEDESTRAIN UNDER THE INFLUENCE OF ALCOHOL OR DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/walter-king-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/King-Walter-Earl.jpg" alt="Walter King"><div class="name">Walter King</div></a>
+<div class="reason">10/11/2024 | PUBLIC INDECENCY - 3RD OR SUBSEQUENT CONVICTIONCRIMINAL TRESPASS48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kayla-hersey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hersey-Kayla-Ann.jpg" alt="Kayla Hersey"><div class="name">Kayla Hersey</div></a>
+<div class="reason">10/11/2024 | HIT AND RUN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/amy-anderson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Anderson-Amy-Lynn.jpg" alt="Amy Anderson"><div class="name">Amy Anderson</div></a>
+<div class="reason">10/11/2024 | HIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/bradley-dailey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Dailey-Bradley-Edward.jpg" alt="Bradley Dailey"><div class="name">Bradley Dailey</div></a>
+<div class="reason">10/11/2024 | AGGRAVATED STALKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tiffany-tape/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Tape-Tiffany.jpg" alt="Tiffany Tape"><div class="name">Tiffany Tape</div></a>
+<div class="reason">10/09/2024 | POSSESSION OF METHAMPHETAMINEPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF A SCHEDULE I OR II CONTROLLED SUBSTANCE WITH INTENT TO DISTRIBUTEPOSSESSION OF A SCHEDULE I OR II CONTROLLED SUBSTANCE WITH...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/marquan-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Williams-Marquan-Deandre.jpg" alt="Marquan Williams"><div class="name">Marquan Williams</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/elisha-meeks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Meeks-Elisha-Landon.jpg" alt="Elisha Meeks"><div class="name">Elisha Meeks</div></a>
+<div class="reason">10/09/2024 | FAILURE TO MAINTAIN LANEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MORE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/courtney-tanner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Tanner-Courtney.jpg" alt="Courtney Tanner"><div class="name">Courtney Tanner</div></a>
+<div class="reason">10/09/2024 | CRIMINAL TRESPASS48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jason-foskey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Foskey-Jason-Danny.jpg" alt="Jason Foskey"><div class="name">Jason Foskey</div></a>
+<div class="reason">10/09/2024 | TRAFFICKING IN COCAINE, ILLEGAL DRUGS, MARIJUANA, OR METHAMPHETAMINETRAFFICKING IN COCAINE, ILLEGAL DRUGS, MARIJUANA, OR METHAMPHETAMINEPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESRECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/keyshun-jackson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Jackson-Keyshun-Elvin.jpg" alt="Keyshun Jackson"><div class="name">Keyshun Jackson</div></a>
+<div class="reason">10/09/2024 | HEADLIGHTS ON 1/2 HOUR AFTER SUNSET TO 1/2 HOUR BEFORE SUNSETSAFETY RESTRAINT VIOLATION (UNDER 8 YEARS OF AGE)SAFETY RESTRAINT VIOLATION (UNDER 8 YEARS OF AGE)ENDANGERING A CHILD BY DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGSENDANGERING A CHILD BY DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGSDUI...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/timothy-clay-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Clay-Timothy-Kenard.jpg" alt="Timothy Clay"><div class="name">Timothy Clay</div></a>
+<div class="reason">10/09/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/cerenydi-thornton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Thornton-Cerenydi-Sanshae.jpg" alt="Cerenydi Thornton"><div class="name">Cerenydi Thornton</div></a>
+<div class="reason">10/08/2024 | BENCH WARRANT (THEFT BY SHOPLIFTING)PROBATION VIOLATION (THEFT BY SHOPLIFTING)48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kevin-anderson-25/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Anderson-Kevin-Ladon.jpg" alt="Kevin Anderson"><div class="name">Kevin Anderson</div></a>
+<div class="reason">10/09/2024 | FAILURE TO YIELD AFTER STOPPING AT STOP SIGNDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/heather-thomas-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Thomas-Heather-Noel.jpg" alt="Heather Thomas"><div class="name">Heather Thomas</div></a>
+<div class="reason">10/08/2024 | BRAKE LIGHTREMOVING OR AFFIXING LICENSEDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/demaurio-sutton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Sutton-Demaurio-Dion.jpg" alt="Demaurio Sutton"><div class="name">Demaurio Sutton</div></a>
+<div class="reason">10/08/2024 | CRIMINAL TRESPASS - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/amber-spikes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Spikes-Amber-Lynn.jpg" alt="Amber Spikes"><div class="name">Amber Spikes</div></a>
+<div class="reason">10/08/2024 | THEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/erica-hunnewell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hunnewell-Erica.jpg" alt="Erica Hunnewell"><div class="name">Erica Hunnewell</div></a>
+<div class="reason">10/08/2024 | BATTERY (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/richard-jewell-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Jewell-Richard-Shannon-1.jpg" alt="Richard Jewell"><div class="name">Richard Jewell</div></a>
+<div class="reason">10/08/2024 | THEFT BY TAKINGPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/deangelo-harris-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Harris-Deangelo.jpg" alt="Deangelo Harris"><div class="name">Deangelo Harris</div></a>
+<div class="reason">10/08/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/shannon-clemons/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Clemons-Shannon.jpg" alt="Shannon Clemons"><div class="name">Shannon Clemons</div></a>
+<div class="reason">10/08/2024 | BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jeveonte-finney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Finney-Jeveonte-Barkez.jpg" alt="Jeveonte Finney"><div class="name">Jeveonte Finney</div></a>
+<div class="reason">10/08/2024 | BURGLARY- SMASH AND GRAB</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/james-williams-180/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Williams-James.jpg" alt="James Williams"><div class="name">James Williams</div></a>
+<div class="reason">10/07/2024 | FAILURE TO NOTIFY OWNER UPON STRIKING FIXTUREPOSSESSION OF OPEN CONTAINER IN VEHICLE PASENGER VEHICLERESISTING OFFICERSDUI - ALCOHOL/CONTROLLED SUBSTANCE PRESENT IN BLOOD OR URINE 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/daniel-wilcox/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Wilcox-Daniel-Antwon.jpg" alt="Daniel Wilcox"><div class="name">Daniel Wilcox</div></a>
+<div class="reason">10/07/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kahlil-whitley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Whitley-Kahlil-1.jpg" alt="Kahlil Whitley"><div class="name">Kahlil Whitley</div></a>
+<div class="reason">10/07/2024 | ENTERING AUTOMOBILE OR OTHER MOTOR VEHICLE WITH INTENT TO COMMIT THEFT OR FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/santiago-tijerina/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Tijerina-Jr-Santiago-Jessie.jpg" alt="Santiago Tijerina"><div class="name">Santiago Tijerina</div></a>
+<div class="reason">10/07/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGEPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/lorenzi-tyson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Tyson-Lorenzi.jpg" alt="Lorenzi Tyson"><div class="name">Lorenzi Tyson</div></a>
+<div class="reason">10/07/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/deboriah-stewart/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Stewart-Deboriah.jpg" alt="Deboriah Stewart"><div class="name">Deboriah Stewart</div></a>
+<div class="reason">10/07/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/trey-thomas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Thomas-Trey-Lane.jpg" alt="Trey Thomas"><div class="name">Trey Thomas</div></a>
+<div class="reason">10/07/2024 | THEFT BY TAKINGDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVING WHILE LICENSE SUSPENDED OR REVOKED48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/michael-harper-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Harper-Michael-Alton.jpg" alt="Michael Harper"><div class="name">Michael Harper</div></a>
+<div class="reason">10/07/2024 | PURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/timothy-gloster-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Gloster-Timothy.jpg" alt="Timothy Gloster"><div class="name">Timothy Gloster</div></a>
+<div class="reason">10/07/2024 | HOUSING FOR LANIER COUNTY (PROBATION VIOLATION)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/andre-devost/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Devost-Andre-Keith-Lamar.jpg" alt="Andre Devost"><div class="name">Andre Devost</div></a>
+<div class="reason">10/07/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kennith-weldon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Weldon-Jr-Kennith-Allen.jpg" alt="Kennith Weldon"><div class="name">Kennith Weldon</div></a>
+<div class="reason">10/06/2024 | IMPROPER LEFT OR RIGHT TURNPROBATION VIOLATION (DRIVING ON / WITH SUSPENDED LICENSE [1ST])DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/valarie-cox-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Cox-Valarie-Christa.jpg" alt="Valarie Cox"><div class="name">Valarie Cox</div></a>
+<div class="reason">10/07/2024 | HOLD FOR LANIER COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/vera-saavedra-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Saavedra-Vera-Noelle.jpg" alt="Vera Saavedra"><div class="name">Vera Saavedra</div></a>
+<div class="reason">10/06/2024 | THEFT BY RECEIVING STOLEN PROPERTY48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/ronnie-alexander/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Alexander-Jr-Ronnie-James.jpg" alt="Ronnie Alexander"><div class="name">Ronnie Alexander</div></a>
+<div class="reason">10/06/2024 | CONTEMPT OF STATE COURT (CHILD SUPPORT)CONTEMPT OF STATE COURT (CHILD SUPPORT)CONTEMPT OF STATE COURT (CHILD SUPPORT)POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kathleen-newson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Newson-Kathleen.jpg" alt="Kathleen Newson"><div class="name">Kathleen Newson</div></a>
+<div class="reason">10/06/2024 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/christine-stone/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Stone-Christine-Danielle.jpg" alt="Christine Stone"><div class="name">Christine Stone</div></a>
+<div class="reason">10/05/2024 | BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/ariel-adams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Adams-Ariel-Eden.jpg" alt="Ariel Adams"><div class="name">Ariel Adams</div></a>
+<div class="reason">10/05/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/apolonio-mendez-lopez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Mendez-Lopez-Apolonio.jpg" alt="Apolonio Mendez Lopez"><div class="name">Apolonio Mendez Lopez</div></a>
+<div class="reason">10/05/2024 | BENCH WARRANT(DRIVING WHILE LICENSE SUSPENDED)BENCH WARRANT(HANDS FREE VIOLATION)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/cameron-wright-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Wright-Cameron.jpg" alt="Cameron Wright"><div class="name">Cameron Wright</div></a>
+<div class="reason">10/04/2024 | BURGLARY - 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/rishaun-richardson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Richardson-Rishaun-Marquis.jpg" alt="Rishaun Richardson"><div class="name">Rishaun Richardson</div></a>
+<div class="reason">10/04/2024 | FEDERAL INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/erin-newell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Newell-Erin-Christine.jpg" alt="Erin Newell"><div class="name">Erin Newell</div></a>
+<div class="reason">10/04/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jonathan-lonergan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Lonergan-Jonathan.jpg" alt="Jonathan Lonergan"><div class="name">Jonathan Lonergan</div></a>
+<div class="reason">10/04/2024 | BURGLARY - 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/elton-james/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/James-Jr-Elton.jpg" alt="Elton James"><div class="name">Elton James</div></a>
+<div class="reason">10/04/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/damaris-hernandez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hernandez-Damaris.jpg" alt="Damaris Hernandez"><div class="name">Damaris Hernandez</div></a>
+<div class="reason">10/04/2024 | FAILURE TO MAINTAINDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/alex-bazile-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bazile-Alex.jpg" alt="Alex Bazile"><div class="name">Alex Bazile</div></a>
+<div class="reason">10/04/2024 | HOUSING FOR CHARLTON CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/arresta-fussell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Fussell-Arresta.jpg" alt="Arresta Fussell"><div class="name">Arresta Fussell</div></a>
+<div class="reason">10/04/2024 | PROBATION VIOLATION (THEFT BY SHOPLIFTING X 3)THEFT BY SHOPLIFTINGGIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kahlil-whitley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Whitley-Kahlil.jpg" alt="Kahlil Whitley"><div class="name">Kahlil Whitley</div></a>
+<div class="reason">10/03/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/rupert-furman-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Furman-Rupert-Cornelius.jpg" alt="Rupert Furman"><div class="name">Rupert Furman</div></a>
+<div class="reason">10/03/2024 | PROBATION VIOLATION (DRIVING ON/WITH SUSPENDED LICENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/shawn-taylor-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Taylor-Shawn-Caleb.jpg" alt="Shawn Taylor"><div class="name">Shawn Taylor</div></a>
+<div class="reason">10/03/2024 | POSSESION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/daniel-castro-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Castro-Daniel.jpg" alt="Daniel Castro"><div class="name">Daniel Castro</div></a>
+<div class="reason">10/03/2024 | FAILURE TO STOP AT STOP SIGN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/raul-rodriguez-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Rodriguez-Raul.jpg" alt="Raul Rodriguez"><div class="name">Raul Rodriguez</div></a>
+<div class="reason">10/03/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/rivan-trimmings/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Trimmings-Rivan-Martis-Deaunta.jpg" alt="Rivan Trimmings"><div class="name">Rivan Trimmings</div></a>
+<div class="reason">10/02/2024 | POSSESSION OF MARIJUANAHIT AND RUN RESULTING IN SERIOUS INJURY OR DEATH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/benjamin-stephens-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Stephens-Benjamin-Alan.jpg" alt="Benjamin Stephens"><div class="name">Benjamin Stephens</div></a>
+<div class="reason">10/02/2024 | THEFT BY SHOPLIFTINGCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/stanley-kirkland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Kirkland-Stanley-Dewayne-1.jpg" alt="Stanley Kirkland"><div class="name">Stanley Kirkland</div></a>
+<div class="reason">10/02/2024 | PROWLING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/larry-mcleod/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/McLeod-Larry-A.jpg" alt="Larry McLeod"><div class="name">Larry McLeod</div></a>
+<div class="reason">10/02/2024 | 48 DETAINER (AGG ASSAULT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/james-francis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Francis-James-Ira.jpg" alt="James Francis"><div class="name">James Francis</div></a>
+<div class="reason">10/02/2024 | THEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kaalan-grantham/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Grantham-Kaalan-Ryan.jpg" alt="Kaalan Grantham"><div class="name">Kaalan Grantham</div></a>
+<div class="reason">10/02/2024 | BENCH WARRANT (NOINSURANCE-1ST OFFENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/william-chauncey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Chauncey-William-Matthew.jpg" alt="William Chauncey"><div class="name">William Chauncey</div></a>
+<div class="reason">10/02/2024 | BATTERY FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/ricky-campbell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Campbell-Ricky.jpg" alt="Ricky Campbell"><div class="name">Ricky Campbell</div></a>
+<div class="reason">10/02/2024 | REFUND FRAUD - $500 OR LESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/cassie-chauncey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Chauncey-Cassie.jpg" alt="Cassie Chauncey"><div class="name">Cassie Chauncey</div></a>
+<div class="reason">10/02/2024 | HOLDING FOR CHEROKKEE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/mark-adams-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Adams-Mark-Henry.jpg" alt="Mark Adams"><div class="name">Mark Adams</div></a>
+<div class="reason">10/02/2024 | POSSESION OF OPEN CONTAINER IN VEHICLE PASSENGER AREADUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/chrisyonna-wimberly/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Wimberly-Chrisyonna-Agnes.jpg" alt="Chrisyonna Wimberly"><div class="name">Chrisyonna Wimberly</div></a>
+<div class="reason">10/01/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/juan-perez-mendez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Perez-Mendez-Juan-Gabriel.jpg" alt="Juan Perez-Mendez"><div class="name">Juan Perez-Mendez</div></a>
+<div class="reason">10/01/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/asshunti-taylor-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Taylor-Asshunti-Emoya.jpg" alt="Asshunti Taylor"><div class="name">Asshunti Taylor</div></a>
+<div class="reason">10/01/2024 | PROBATION VIOLATION (DRIVING WHILE SUSPENDED, CHILD RESTRAINTX'S4)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tiko-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Williams-Tiko-Montreal.jpg" alt="Tiko Williams"><div class="name">Tiko Williams</div></a>
+<div class="reason">10/01/2024 | BENCH WARRANT (THEFT BY TAKING, WILLFUL OBST OF LAW OFC.)WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERSGIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICERCONTEMPT OF STATE COURT FOR FINGERPRINTABLE CHARGE (CHILD SUPPORT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/bersain-perez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Perez-Bersain.jpg" alt="Bersain Perez"><div class="name">Bersain Perez</div></a>
+<div class="reason">10/01/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/maurilio-perez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Perez-Maurilio-Mendez.jpg" alt="Maurilio Perez"><div class="name">Maurilio Perez</div></a>
+<div class="reason">10/01/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tranace-peace/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Peace-Tranace-Nishelle.jpg" alt="Tranace Peace"><div class="name">Tranace Peace</div></a>
+<div class="reason">10/01/2024 | POSS OF OPEN CONTAINER IN VEHICLE PASSENGER AREADUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/willie-lane-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Lane-Willie-Calvin.jpg" alt="Willie Lane"><div class="name">Willie Lane</div></a>
+<div class="reason">10/01/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/luis-gustavo-mendez-jimnez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Mendez-Jimnez-Luis-Gustavo.jpg" alt="Luis-Gustavo Mendez-Jimnez"><div class="name">Luis-Gustavo Mendez-Jimnez</div></a>
+<div class="reason">10/01/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/spencer-carter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Carter-Spencer-Antonio.jpg" alt="Spencer Carter"><div class="name">Spencer Carter</div></a>
+<div class="reason">10/01/2024 | OPEN CONTAINERPUBLIC INDECENCY-1ST OR 2ND CONVICTION48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/galen-obrien/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Obrien-Galen-Alexander.jpg" alt="Galen Obrien"><div class="name">Galen Obrien</div></a>
+<div class="reason">09/30/2024 | HOUSING FOR DODGE CO SO (BENCH WARRANT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/byron-schardt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Schardt-Jr-Byron-Lee.jpg" alt="Byron Schardt"><div class="name">Byron Schardt</div></a>
+<div class="reason">09/30/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/richard-jewell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Jewell-Richard-Shannon.jpg" alt="Richard Jewell"><div class="name">Richard Jewell</div></a>
+<div class="reason">09/30/2024 | SIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/pamela-hurst/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hurst-Pamela.jpg" alt="Pamela Hurst"><div class="name">Pamela Hurst</div></a>
+<div class="reason">09/30/2024 | TERRORISTIC THREATS AND ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/olan-harrison-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Harrison-Olan-Fredrick-2.jpg" alt="Olan Harrison"><div class="name">Olan Harrison</div></a>
+<div class="reason">09/30/2024 | BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jeffery-byrd-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Byrd-Jeffery-Deewayne.jpg" alt="Jeffery Byrd"><div class="name">Jeffery Byrd</div></a>
+<div class="reason">09/30/2024 | OPEN CONTAINERHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENTDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/thomas-fussell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Fussell-Thomas-Anthony.jpg" alt="Thomas Fussell"><div class="name">Thomas Fussell</div></a>
+<div class="reason">09/30/2024 | BENCH WARRANT (POSS OF METH)PROBATION VIOLATION (POSS OF METH)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/curtis-bailey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bailey-Curtis-Bradford.jpg" alt="Curtis Bailey"><div class="name">Curtis Bailey</div></a>
+<div class="reason">09/30/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/stanley-mills/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Mills-Stanley-Keith.jpg" alt="Stanley Mills"><div class="name">Stanley Mills</div></a>
+<div class="reason">09/29/2024 | DISORDERLY CONDUCT48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/porcia-coates-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Coates-Porcia-Lecha.jpg" alt="Porcia Coates"><div class="name">Porcia Coates</div></a>
+<div class="reason">09/29/2024 | CURFEW VIOLATIONPROWLING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tony-harper-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Harper-Tony.jpg" alt="Tony Harper"><div class="name">Tony Harper</div></a>
+<div class="reason">09/29/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/nardreonna-wilcox/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Wilcox-Nardreonna.jpg" alt="Nardreonna Wilcox"><div class="name">Nardreonna Wilcox</div></a>
+<div class="reason">09/28/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jahedwin-whitfield-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Whitfield-Jahedwin-Mhilee.jpg" alt="Jahedwin Whitfield"><div class="name">Jahedwin Whitfield</div></a>
+<div class="reason">09/28/2024 | DISORDERLY CONDUCT (CITY ORDINANCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/stan-kafouse/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Kafouse-Stan.jpg" alt="Stan Kafouse"><div class="name">Stan Kafouse</div></a>
+<div class="reason">09/28/2024 | IMPEDING THE FLOW OF TRAFFICDISORDERLY CONDUCT48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/megan-lukes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Lukes-Megan-Diana.jpg" alt="Megan Lukes"><div class="name">Megan Lukes</div></a>
+<div class="reason">09/28/2024 | BURGLARY - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/talisa-fletcher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Fletcher-Talisa-Rene.jpg" alt="Talisa Fletcher"><div class="name">Talisa Fletcher</div></a>
+<div class="reason">09/28/2024 | BURGLARY - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/volvick-durenat/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Durenat-Volvick.jpg" alt="Volvick Durenat"><div class="name">Volvick Durenat</div></a>
+<div class="reason">09/28/2024 | BURGLARY - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/lavell-musgrove/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Musgrove-Lavell.jpg" alt="Lavell Musgrove"><div class="name">Lavell Musgrove</div></a>
+<div class="reason">09/27/2024 | RECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERRECKLESS CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/aaron-sabanilla-lozano/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Sabanilla-Lozano-Aaron.jpg" alt="Aaron Sabanilla-Lozano"><div class="name">Aaron Sabanilla-Lozano</div></a>
+<div class="reason">09/27/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/louquinn-zeigler-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Zeigler-Louquinn-Johann.jpg" alt="Louquinn Zeigler"><div class="name">Louquinn Zeigler</div></a>
+<div class="reason">09/27/2024 | HOLDING FOR FULTON CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/asia-moses/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Moses-Asia.jpg" alt="Asia Moses"><div class="name">Asia Moses</div></a>
+<div class="reason">09/27/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tammy-stone-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Stone-Tammy-Sue.jpg" alt="Tammy Stone"><div class="name">Tammy Stone</div></a>
+<div class="reason">09/26/2024 | PROBATION VIOLATION (FRAUDULENT CREDIT CARD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/erinarco-rodriguez-vasquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Rodriguez-Vasquez-Erinarco.jpg" alt="Erinarco Rodriguez Vasquez"><div class="name">Erinarco Rodriguez Vasquez</div></a>
+<div class="reason">09/26/2024 | DRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/abner-simon-de-leon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Simon-De-Leon-Abner.jpg" alt="Abner Simon De Leon"><div class="name">Abner Simon De Leon</div></a>
+<div class="reason">09/26/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/courtney-mcmillan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/McMillan-Courtney-Leann.jpg" alt="Courtney McMillan"><div class="name">Courtney McMillan</div></a>
+<div class="reason">09/26/2024 | PROBATION VIOLATION (THEFT BY TAKING) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/xavion-lester/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Lester-Xavion.jpg" alt="Xavion Lester"><div class="name">Xavion Lester</div></a>
+<div class="reason">09/26/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/mark-brigmond/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Brigmond-Mark-Travis.jpg" alt="Mark Brigmond"><div class="name">Mark Brigmond</div></a>
+<div class="reason">09/26/2024 | TAILLIGHTS/ TAILLIGHTS LENSES REQUIREDDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/stanley-kirkland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Kirkland-Stanley-Dewayne.jpg" alt="Stanley Kirkland"><div class="name">Stanley Kirkland</div></a>
+<div class="reason">09/26/2024 | BENCH WARRANT (PROWLING OR LOITERING (CITY ORDINANCE))</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/roberto-vega/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Vega-Roberto.jpg" alt="Roberto Vega"><div class="name">Roberto Vega</div></a>
+<div class="reason">09/25/2024 | DRIVING WITHOUT A VALID LICENSESPEEDING IN EXCESS OF MAXIMUM LIMITS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/larry-thomas-29/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Thomas-Larry-James.jpg" alt="Larry Thomas"><div class="name">Larry Thomas</div></a>
+<div class="reason">09/25/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/anton-mccoggle/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/McCoggle-Anton-Jabion.jpg" alt="Anton McCoggle"><div class="name">Anton McCoggle</div></a>
+<div class="reason">09/25/2024 | HOUSING FOR CLINCH CO. (PROBATION VIOLATION)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/isaac-swinson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Swinson-Isaac-Hayes.jpg" alt="Isaac Swinson"><div class="name">Isaac Swinson</div></a>
+<div class="reason">09/25/2024 | IMPERSONATING A PUBLIC OFFICER OR EMPLOYEE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/michael-wilson-73/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Wilson-Michael-Andrew.jpg" alt="Michael Wilson"><div class="name">Michael Wilson</div></a>
+<div class="reason">09/24/2024 | HERE FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/alvin-martinez-sales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Martinez-Sales-Alvin-Guillermo.jpg" alt="Alvin Martinez-Sales"><div class="name">Alvin Martinez-Sales</div></a>
+<div class="reason">09/25/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/charles-watts-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Watts-Charles-Thomas.jpg" alt="Charles Watts"><div class="name">Charles Watts</div></a>
+<div class="reason">09/24/2024 | PEDESTRAIN UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/brandi-steverson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Steverson-Brandi.jpg" alt="Brandi Steverson"><div class="name">Brandi Steverson</div></a>
+<div class="reason">09/24/2024 | 48 DETAINER (CONSPIRACY TO COMMIT MURDER)CRIMINAL ATTEMPT TO COMMIT A FELONYCONSPIRACY TO COMMIT A FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/andre-stubbs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Stubbs-Andre-Corey.jpg" alt="Andre Stubbs"><div class="name">Andre Stubbs</div></a>
+<div class="reason">09/24/2024 | THEFT BY SHOPLIFTINGTHEFT BY SHOPLIFTINGTHEFT BY SHOPLIFTINGTHEFT BY SHOPLIFTINGPAROLE VIOLATIONCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/wykesha-taylor-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Taylor-Wykesha-Maria.jpg" alt="Wykesha Taylor"><div class="name">Wykesha Taylor</div></a>
+<div class="reason">09/24/2024 | PROBATION VIOLATION (FAILURE TO STOP AT STOP SIGN) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/juwaski-stanley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Stanley-Juwaski-Laushaun.jpg" alt="Juwaski Stanley"><div class="name">Juwaski Stanley</div></a>
+<div class="reason">09/24/2024 | PROBATION VIOLATION (CARRYING CONCEALED WEAPON)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kevin-smith-87/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Smith-Kevin-Lamar.jpg" alt="Kevin Smith"><div class="name">Kevin Smith</div></a>
+<div class="reason">09/24/2024 | PROBATION VIOLATION (THEFT BY SHOPLIFTING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/scott-rice/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Rice-Scott-Wayne.jpg" alt="Scott Rice"><div class="name">Scott Rice</div></a>
+<div class="reason">09/24/2024 | SENTENCED (WAITING ON PAPERWORK)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kendall-sanders-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Sanders-Kendall.jpg" alt="Kendall Sanders"><div class="name">Kendall Sanders</div></a>
+<div class="reason">09/24/2024 | HOUSING FOR CLINCH CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/shekinah-leggett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Leggett-Shekinah-Donyelle.jpg" alt="Shekinah Leggett"><div class="name">Shekinah Leggett</div></a>
+<div class="reason">09/24/2024 | FAILURE TO YIELD TO EMERGENCY VEHICLEPROBATION VIOLATION (DRIVING ON/WITH SUSPENDED LICENSE)BENCH WARRANT (DRIVING WHILE LICENSE SUSPENDED OR REVOKED 2ND)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/trevor-posley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Posley-Trevor-D.jpg" alt="Trevor Posley"><div class="name">Trevor Posley</div></a>
+<div class="reason">09/24/2024 | HOUSING FOR CLINCH CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tyler-hendrix-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hendrix-Tyler-Jay-Larkin.jpg" alt="Tyler Hendrix"><div class="name">Tyler Hendrix</div></a>
+<div class="reason">09/24/2024 | HOUSING FOR CLINCH COUNTY (MURDER; FELONY MURDER//AGG. ASSAULT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/olan-harrison-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Harrison-Olan-Fredrick-1.jpg" alt="Olan Harrison"><div class="name">Olan Harrison</div></a>
+<div class="reason">09/24/2024 | 48 DETAINERS (INDECEN EXPOSURE)PUBLIC INDECENCY-1ST OR 2ND CONVICTION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jarkell-fann/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Fann-Jarkell-Devontae.jpg" alt="Jarkell Fann"><div class="name">Jarkell Fann</div></a>
+<div class="reason">09/24/2024 | HOUSING FOR CLINCH CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/nathan-francis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Francis-Nathan-Rahjon.jpg" alt="Nathan Francis"><div class="name">Nathan Francis</div></a>
+<div class="reason">09/24/2024 | BENCH WARRANT (THEFT BY SHOPLIFTING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/rodriquez-daniels/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Daniels-Rodriquez-Stephon.jpg" alt="Rodriquez Daniels"><div class="name">Rodriquez Daniels</div></a>
+<div class="reason">09/24/2024 | PROBATION VIOLATION (OBSTRUCTION) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/roshed-carter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Carter-Roshed-Camentaye.jpg" alt="Roshed Carter"><div class="name">Roshed Carter</div></a>
+<div class="reason">09/24/2024 | BENCH WARRANT (DRIVING WHILE LICENSE SUSPENDED OR REVOKED)BENCH WARRANT (FAILURE TO YIELD TO EMERGENCY VEHICLE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tracey-cooper/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Cooper-Tracey.jpg" alt="Tracey Cooper"><div class="name">Tracey Cooper</div></a>
+<div class="reason">09/24/2024 | HOLDING FOR FULTON CO.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jerry-campbell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Campbell-Jerry-Tyrone.jpg" alt="Jerry Campbell"><div class="name">Jerry Campbell</div></a>
+<div class="reason">09/24/2024 | RESISTING OFFICERSBENCH WARRANT (THEFT BY SHOPLIFTING 3RD)48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/robert-wilson-29/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Wilson-Robert-Tyree.jpg" alt="Robert Wilson"><div class="name">Robert Wilson</div></a>
+<div class="reason">09/23/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/donnie-williams-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Williams-Donnie-Raheem-Dequanta.jpg" alt="Donnie Williams"><div class="name">Donnie Williams</div></a>
+<div class="reason">09/23/2024 | BENCH WARRANT (DUI, FAILURE TO MAINTAIN, FAILURE TO EXERCISE DUEBENCH WARRANT (FAILURE STOP AT STOP SIGN)BENCH WARRANT (PASSENGER IN POSSESSION OF OPEN CONTAINER OF</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/kyle-materne/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Materne-Kyle-Adolf.jpg" alt="Kyle Materne"><div class="name">Kyle Materne</div></a>
+<div class="reason">09/23/2024 | KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/brandy-kirkland-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Kirkland-Brandy-Darlene.jpg" alt="Brandy Kirkland"><div class="name">Brandy Kirkland</div></a>
+<div class="reason">09/23/2024 | BENCH WARRANT(DISORDERLY CONDUCT, OBSTRUCTION)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/christopher-kirkland-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Kirkland-Christopher-Harold.jpg" alt="Christopher Kirkland"><div class="name">Christopher Kirkland</div></a>
+<div class="reason">09/23/2024 | PROBATION VIOLATION (SPEEDING, DRIVING WHILE LICENSE SUSPENDED 1ST DEGREE, NO PROOF OF INSURANCE, NO TAG, SEATBELT VIOLATION)THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/brandon-high/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/High-Brandon-Xavier.jpg" alt="Brandon High"><div class="name">Brandon High</div></a>
+<div class="reason">09/23/2024 | DISSEMENATION OF INFORMATION RELATING TO TERRORISTIC ACTS VIA COMPUTER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/edward-harper-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Harper-Edward-Tate.jpg" alt="Edward Harper"><div class="name">Edward Harper</div></a>
+<div class="reason">09/23/2024 | POSSESSION OF METHAMPHETAMINE48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/olan-harrison-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Harrison-Olan-Fredrick.jpg" alt="Olan Harrison"><div class="name">Olan Harrison</div></a>
+<div class="reason">09/23/2024 | PEDESTRIAN UNDER THE INFLUENCETERRORISTIC THREATS AND ACTSCRIMINAL DAMAGE TO PROPERTY - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/marvin-fish/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Fish-Marvin-Dwayne.jpg" alt="Marvin Fish"><div class="name">Marvin Fish</div></a>
+<div class="reason">09/23/2024 | BENCH WARRANT(WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS- MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/brandi-foote-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Foote-Brandi-Nicole.jpg" alt="Brandi Foote"><div class="name">Brandi Foote</div></a>
+<div class="reason">09/23/2024 | HOLD FOR LANIER CO.S.O.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/morris-chaffin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Chaffin-Morris.jpg" alt="Morris Chaffin"><div class="name">Morris Chaffin</div></a>
+<div class="reason">09/23/2024 | HOLDING/SUPPORTING WIRELESS TELECOMMUNICATION DEVICEGITIVE FROM JUSTICE FOR FINGERPRINTABLE CHARGE48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/roy-scott/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Scott-Roy.jpg" alt="Roy Scott"><div class="name">Roy Scott</div></a>
+<div class="reason">09/03/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jordan-kornegay/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Kornegay-Jordan.jpg" alt="Jordan Kornegay"><div class="name">Jordan Kornegay</div></a>
+<div class="reason">08/28/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/joshua-williams-101/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Williams-Joshua-Tobias.jpg" alt="Joshua Williams"><div class="name">Joshua Williams</div></a>
+<div class="reason">09/22/2024 | PROBATION VIOLATION (POSS FIREARM COVCT FELON, THEFT BY TAKING) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/elizabeth-swearington/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Swearington-Elizabeth.jpg" alt="Elizabeth Swearington"><div class="name">Elizabeth Swearington</div></a>
+<div class="reason">09/22/2024 | HOUSING FOR LAKELAND PD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/candace-smith-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Smith-Candace-Denise.jpg" alt="Candace Smith"><div class="name">Candace Smith</div></a>
+<div class="reason">09/22/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/dstaceon-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Johnson-Dstaceon-Markeyse.jpg" alt="Dstaceon Johnson"><div class="name">Dstaceon Johnson</div></a>
+<div class="reason">09/22/2024 | CRIMINAL DAMAGE TO PROPERTY= 2ND DEGREE48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/jeremy-smith-48/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Smith-Jeremy-Dewayne.jpg" alt="Jeremy Smith"><div class="name">Jeremy Smith</div></a>
+<div class="reason">09/22/2024 | BATTRY-FAMILY VIOLENCE (1ST) OFFENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/vance-taft/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Taft-Vance.jpg" alt="Vance Taft"><div class="name">Vance Taft</div></a>
+<div class="reason">09/21/2024 | 48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/joshua-bennett-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Bennett-Joshua.jpg" alt="Joshua Bennett"><div class="name">Joshua Bennett</div></a>
+<div class="reason">09/21/2024 | FAILURE TO MAINTAIN LANEPOSSESION OF OPEN CONTAINERENDANGERING A CHILD BY DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGSENDANGERING A CHILD BY DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGSDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/alton-smith-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Smith-Alton-Lee.jpg" alt="Alton Smith"><div class="name">Alton Smith</div></a>
+<div class="reason">09/21/2024 | PEDESTRIAN UNDER THE INFLUENCE OF ALCOHOLPROBATION VIOLATION (THEFT BY SHOPLIFTING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/austin-register-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Register-Austin.jpg" alt="Austin Register"><div class="name">Austin Register</div></a>
+<div class="reason">09/21/2024 | HOUSING FOR LAKELAND PD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/tracy-hogan-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hogan-Tracy.jpg" alt="Tracy Hogan"><div class="name">Tracy Hogan</div></a>
+<div class="reason">09/21/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/patrick-jackson-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Jackson-Patrick-Emanual.jpg" alt="Patrick Jackson"><div class="name">Patrick Jackson</div></a>
+<div class="reason">09/21/2024 | SIMPLE BATTERY48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/robert-boston-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Boston-Jr-Robert-Darnell.jpg" alt="Robert Boston"><div class="name">Robert Boston</div></a>
+<div class="reason">09/21/2024 | FAILURE TO STOP AT A STOP SIGNDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/keisha-wild/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Wild-Keisha-Marie.jpg" alt="Keisha Wild"><div class="name">Keisha Wild</div></a>
+<div class="reason">09/20/2024 | IDENTITY THEFT FRAUD TO CREATE/USE/POSSESS COUNTERFEIT/FICTIOUS IDENTYING INFO CONCERNING REAL PERSON FORIDENTITY THEFT FRAUD TO CREATE/USE/POSSESS COUNTERFEIT/FICTIOUS IDENTYING INFO CONCERNING REAL PERSON FOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/shaquille-sharpe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Sharpe-Shaquille.jpg" alt="Shaquille Sharpe"><div class="name">Shaquille Sharpe</div></a>
+<div class="reason">09/20/2024 | POSSESSION OF COCAINE WITH INTENT TO DISTRIBUTE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/andrea-rouse-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Rouse-Andrea.jpg" alt="Andrea Rouse"><div class="name">Andrea Rouse</div></a>
+<div class="reason">09/20/2024 | PROBATION VIOLATION (CRIM DAM 2ND DEGREE/THEFT X TAKING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/akeyah-laster/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Laster-AKeyah.jpg" alt="A’Keyah Laster"><div class="name">A’Keyah Laster</div></a>
+<div class="reason">09/20/2024 | HOLDING/SUPPORTING WIRELESS COMMUNICATIONDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/cornelius-king-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/King-Cornelius-1.jpg" alt="Cornelius King"><div class="name">Cornelius King</div></a>
+<div class="reason">09/20/2024 | HOLDING FOR LIBERTY CO SO HINESVILLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/christopher-johnson-138/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Johnson-Christopher-Lashaun.jpg" alt="Christopher Johnson"><div class="name">Christopher Johnson</div></a>
+<div class="reason">09/20/2024 | BENCH WARRANT(CRIM.TRES.,POSS. OF FIREARM BY CONVICTED FELON,POSS. OF METH)THEFT BY TAKINGPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/olan-harrison/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Harrison-Olan-Fredrick.jpg" alt="Olan Harrison"><div class="name">Olan Harrison</div></a>
+<div class="reason">09/20/2024 | FAILURE TO MAINTAIN LANEFAILURE TO NOTIFY OWNER UPON STRIKING FIXTURETAG LIGHT REQUIREDTAILLIGHTS/TAILLIGHT LENSES REQUIREDDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/william-harrell-23/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Harrell-William-Ronald.jpg" alt="William Harrell"><div class="name">William Harrell</div></a>
+<div class="reason">09/20/2024 | EQUIPMENT REQUIREMENTS OF BICYCLEPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE48 DETAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/shona-grady/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Grady-Shona-Estevez.jpg" alt="Shona Grady"><div class="name">Shona Grady</div></a>
+<div class="reason">09/20/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/april-harrell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Harrell-April-Brandy.jpg" alt="April Harrell"><div class="name">April Harrell</div></a>
+<div class="reason">09/20/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/byron-gay/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Gay-Byron-Virgil.jpg" alt="Byron Gay"><div class="name">Byron Gay</div></a>
+<div class="reason">09/20/2024 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - FELONYTERRORISTIC THREATS AND ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/sanquille-brown-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Brown-Sanquille-Latoya-1.jpg" alt="Sanquille Brown"><div class="name">Sanquille Brown</div></a>
+<div class="reason">09/20/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/eduardo-colmenero/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Colmenero-Eduardo.jpg" alt="Eduardo Colmenero"><div class="name">Eduardo Colmenero</div></a>
+<div class="reason">09/20/2024 | HOLDING/ SUPPORTING WIRELESS TELECOMMUNICATIONDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/michael-brown-159/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Brown-Sanquille-Latoya.jpg" alt="Michael Brown"><div class="name">Michael Brown</div></a>
+<div class="reason">09/20/2024 | HOUSING FOR LANIER COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/amos-blank/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Blank-Amos-Dewayne.jpg" alt="Amos Blank"><div class="name">Amos Blank</div></a>
+<div class="reason">09/20/2024 | PROBATION VIOLATION (GIVING FALSE NAME, DUI, SEATBELT VIOLATION) FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/gabriel-velazquez-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Velazquez-Gabriel.jpg" alt="Gabriel Velazquez"><div class="name">Gabriel Velazquez</div></a>
+<div class="reason">09/19/2024 | FAILURE TO MAINTAIN LANEPOSSESSION OF OPEN CONTAINER IN VEHICLE PASSENGER AREADUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coffee/quinton-page/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Page-Quinton.jpg" alt="Quinton Page"><div class="name">Quinton Page</div></a>
+<div class="reason">09/19/2024 | HOLDING FOR FITZGERALD</div>
+</div>
+</div><div class="pagination"><a href="coffee5.html">Next Page</a></div></body></html>

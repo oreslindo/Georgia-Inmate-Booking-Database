@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/hart/johnathan-shope-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Shope-Johnathan-Malcolm.jpg" alt="Johnathan Shope"><div class="name">Johnathan Shope</div></a>
+<div class="reason">10/02/2024 | HOUSE FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-schwarz-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Schwarz-William-Kord-1.jpg" alt="William Schwarz"><div class="name">William Schwarz</div></a>
+<div class="reason">10/02/2024 | HOUSED FOR HABERSHAM CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rodney-rowan-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Rowan-Rodney-Wayne-1.jpg" alt="Rodney Rowan"><div class="name">Rodney Rowan</div></a>
+<div class="reason">10/02/2024 | HOUSE FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-kershner-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Kershner-William-Curley.jpg" alt="William Kershner"><div class="name">William Kershner</div></a>
+<div class="reason">09/30/2024 | PROBATION VIOLATION ARSON 2ND DEGREEPROBATION VIOLATION SEX OFFENDER FAIL REGISTRY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christopher-hester-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hester-Christopher-Ryan.jpg" alt="Christopher Hester"><div class="name">Christopher Hester</div></a>
+<div class="reason">10/02/2024 | HOUSE FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/henry-hammond/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hammond-III-Henry-Edward.jpg" alt="Henry Hammond"><div class="name">Henry Hammond</div></a>
+<div class="reason">10/06/2024 | FAILURE TO APPEAR PROBATE COURT DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/levi-gunn-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Gunn-Levi-Austin-James.jpg" alt="Levi Gunn"><div class="name">Levi Gunn</div></a>
+<div class="reason">10/02/2024 | HOUSED FOR HABERSHAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/michael-gray-weaver-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Gray-Weaver-Michael-Alexander.jpg" alt="Michael Gray-Weaver"><div class="name">Michael Gray-Weaver</div></a>
+<div class="reason">10/04/2024 | VIOLATION OF BOND ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jordon-flanagan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Flanagan-Jordon-Lee.jpg" alt="Jordon Flanagan"><div class="name">Jordon Flanagan</div></a>
+<div class="reason">10/02/2024 | HOUSED FOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/destiny-earle/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Earle-Destiny-Joy.jpg" alt="Destiny Earle"><div class="name">Destiny Earle</div></a>
+<div class="reason">10/04/2024 | POSSESSION OF MARIJUANA LESS THAN 1 OZGRAND JURY ARREST WARRANT CRIM. ATTP MISD, DRUG REL OBJS X3POSSESSION OF DRUG RELATED OBJECT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/dylan-dorsey-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Dorsey-Dylan-Kent.jpg" alt="Dylan Dorsey"><div class="name">Dylan Dorsey</div></a>
+<div class="reason">10/02/2024 | HOUSED FOOR HABERSHAM CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/reuni-daniels/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Daniels-Reuni-Lequan.jpg" alt="Reuni Daniels"><div class="name">Reuni Daniels</div></a>
+<div class="reason">10/06/2024 | CRUELTY TO ANIMALSCRUELTY TO ANIMALSCRUELTY TO ANIMALSCRUELTY TO ANIMALSCRUELTY TO ANIMALS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amanda-cox-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Cox-Amanda-Marie-720x480.jpg" alt="Amanda Cox"><div class="name">Amanda Cox</div></a>
+<div class="reason">09/20/2024 | CRIMINAL ATTEMPT. TO COMMIT - MISD MARIJUANAPOSSESSION OF A CONTROLLED SUBSTANCE METHAMPHETAMINE W/INTENTPOSSESSION OF FIREARM DURING COMMISSION OF A CRIMEPOSSESSION OF FIREARM DURING COMMISSION OF A CRIMEPOSSESSION OF A CONTROLLED SUBSTANCE S II - ACETAMINOPHEN/HYDROCODONEPOSSESSION OF A CONTROLLED SUBSTANCE SCH II - OXYCODONEPOSSESSION OF FIREARM DURING COMMISSION...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/michelle-chapman-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Chapman-Michelle-Annette-720x480.jpg" alt="Michelle Chapman"><div class="name">Michelle Chapman</div></a>
+<div class="reason">09/17/2024 | HOUSE FOR STEPHENS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rodtravis-brewer-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Brewer-Rodtravis-Donta-720x480.jpg" alt="Rodtravis Brewer"><div class="name">Rodtravis Brewer</div></a>
+<div class="reason">09/20/2024 | HERE TO BOND ONLY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jermaine-blassingame/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Blassingame-Jermaine-Hindson-720x480.jpg" alt="Jermaine Blassingame"><div class="name">Jermaine Blassingame</div></a>
+<div class="reason">09/21/2024 | PROBATION HOLD LETTER GAINESBATTERYFALSE IMPRISONMENTOBSTRUCTION OF AN OFFICERSEXUAL BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tammy-austin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Austin-Tammy-Marie-720x480.jpg" alt="Tammy Austin"><div class="name">Tammy Austin</div></a>
+<div class="reason">09/22/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jennifer-albergotti-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Albergotti-Jennifer-Robin-1-720x480.jpg" alt="Jennifer Albergotti"><div class="name">Jennifer Albergotti</div></a>
+<div class="reason">09/13/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ayana-morrison-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Morrison-Ayana-Jaquai.jpg" alt="Ayana Morrison"><div class="name">Ayana Morrison</div></a>
+<div class="reason">09/24/2024 | PROBATION VIOLATION DUI, OPEN CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/robert-hulen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hulen-Robert-Jay.jpg" alt="Robert Hulen"><div class="name">Robert Hulen</div></a>
+<div class="reason">09/29/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/michayla-hester/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Hester-Michayla-Marie.jpg" alt="Michayla Hester"><div class="name">Michayla Hester</div></a>
+<div class="reason">09/25/2024 | CONSUMPTION OF ALCOHOL BY MINOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/keith-curry/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Curry-Keith-Devanner.jpg" alt="Keith Curry"><div class="name">Keith Curry</div></a>
+<div class="reason">09/25/2024 | THEFT BY RECEIVING STOLEN PROPERTY.THEFT BY RECEIVING STOLEN PROPERTY.THEFT BY RECEIVING STOLEN PROPERTY.THEFT BY RECEIVING STOLEN PROPERTY.THEFT BY RECEIVING STOLEN PROPERTY.THEFT BY RECEIVING STOLEN PROPERTY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tadderick-cade-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Cade-Tadderick-Lacraig.jpg" alt="Tadderick Cade"><div class="name">Tadderick Cade</div></a>
+<div class="reason">09/24/2024 | BURGLARY - 1ST DEGREE (FELONY)THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jenny-byers-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/Byers-Jenny-McLane.jpg" alt="Jenny Byers"><div class="name">Jenny Byers</div></a>
+<div class="reason">09/25/2024 | ADULT RESTRAINT LAW SEAT BELT 18 ANDRIVING UNDER INFLUENCE DRUGS/ALCOHOLDRUGS TO BE KEPT IN ORIGINAL CONTAINER.FAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/david-allen-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Allen-David-Tyrell-720x480.jpg" alt="David Allen"><div class="name">David Allen</div></a>
+<div class="reason">09/14/2024 | PROBATION VIOLATION AGG. STALKING FV, BATTERY FVTERRORISTIC THREATS AND ACTS - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/willie-surrency-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Surrency-Willie-Terrell-720x480.jpg" alt="Willie Surrency"><div class="name">Willie Surrency</div></a>
+<div class="reason">09/15/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/henry-rowland-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Rowland-Henry-Marshall-720x480.jpg" alt="Henry Rowland"><div class="name">Henry Rowland</div></a>
+<div class="reason">09/13/2024 | HOLD LETTERAGGRAVATED ASSAULTTERRORISTIC THREATS AND ACTS - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/berna-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Johnson-Berna-Cariah-720x480.jpg" alt="Berna Johnson"><div class="name">Berna Johnson</div></a>
+<div class="reason">09/10/2024 | ELDER FINANCIAL NEGLECT ABUSEFINANCIAL TRANSACTION CARD FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/dillon-findley-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Findley-Dillon-Anthony-720x480.jpg" alt="Dillon Findley"><div class="name">Dillon Findley</div></a>
+<div class="reason">09/12/2024 | CRIMINAL DAMAGE TO PROPERTY - 2ND DEGREEFALSE IMPRISONMENT.SIMPLE BATTERY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/audrey-ellison-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Ellison-Audrey-Taylor-720x480.jpg" alt="Audrey Ellison"><div class="name">Audrey Ellison</div></a>
+<div class="reason">09/11/2024 | OBSTRUCTION OF AN OFFICER (MISDEMEANOR)DRIVING W/O LICENSE ON PERSONTAIL LIGHTS REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/keira-degrave/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Degrave-Keira-Grace-720x480.jpg" alt="Keira Degrave"><div class="name">Keira Degrave</div></a>
+<div class="reason">09/10/2024 | POSSESSION OF A CONTROLLED SUBSTANCE SCH I-DAB PEN WITH LIQUID THC</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kenothy-brown-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Brown-Kenothy-Leroy-720x480.jpg" alt="Kenothy Brown"><div class="name">Kenothy Brown</div></a>
+<div class="reason">09/10/2024 | HERE FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jason-williams-61/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Williams-Jason-Joseph-720x480.jpg" alt="Jason Williams"><div class="name">Jason Williams</div></a>
+<div class="reason">09/10/2024 | FAILURE TO APPEAR - TRIAL POSS METH, DRUG REL OBJECTS, BATTERY FVPROBATION VIOLATION SUSP LIC, REVOKED REGISTRATION, DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/deandre-watford-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Watford-Deandre-Zamel-720x480.jpg" alt="Deandre Watford"><div class="name">Deandre Watford</div></a>
+<div class="reason">09/11/2024 | ORDER TO INCARCERATE BOND REVOCATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/thomeatrius-waller-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Waller-Thomeatrius-720x480.jpg" alt="Thomeatrius Waller"><div class="name">Thomeatrius Waller</div></a>
+<div class="reason">09/11/2024 | POSSESSION MARIJUANA W/INTENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/deanthony-smith-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Smith-Deanthony-Wiltavis-720x480.jpg" alt="Deanthony Smith"><div class="name">Deanthony Smith</div></a>
+<div class="reason">09/12/2024 | HOUSING FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/cass-dutton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Dutton-Cass-Manuel-720x480.jpg" alt="Cass Dutton"><div class="name">Cass Dutton</div></a>
+<div class="reason">09/17/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/lisa-drake-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Drake-Lisa-Dawn-720x480.jpg" alt="Lisa Drake"><div class="name">Lisa Drake</div></a>
+<div class="reason">09/17/2024 | POSSESSION AND USE OF DRUG-RELATED OBJECTSPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/warren-briggs-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Briggs-Warren-Baker-720x480.jpg" alt="Warren Briggs"><div class="name">Warren Briggs</div></a>
+<div class="reason">09/17/2024 | HOLD FOR GWINNETT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kaelan-bowman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Bowman-Kaelan-Eugene-720x480.jpg" alt="Kaelan Bowman"><div class="name">Kaelan Bowman</div></a>
+<div class="reason">09/18/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLSPEEDING 72/55 MPH ZONE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/krystal-bailey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Bailey-Krystal-Michelle-720x480.jpg" alt="Krystal Bailey"><div class="name">Krystal Bailey</div></a>
+<div class="reason">09/21/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/janelle-wolfe-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Wolfe-Janelle-Leigh-720x480.jpg" alt="Janelle Wolfe"><div class="name">Janelle Wolfe</div></a>
+<div class="reason">09/22/2024 | POSSESSION OF METHAMPHETAMINEDRUG RELATED OBJECTS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brian-holder-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Holder-Brian-Keith-720x480.jpg" alt="Brian Holder"><div class="name">Brian Holder</div></a>
+<div class="reason">09/12/2024 | HOUSED FOR OGLETHOPRE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/michael-hart-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hart-Michael-Louis-720x480.jpg" alt="Michael Hart"><div class="name">Michael Hart</div></a>
+<div class="reason">09/11/2024 | ORDER TO INCARCERATE - BOND REVOCATION TO STAY IN JAIL UNTIL TRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/sekou-fade-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Fade-Sekou-720x480.jpg" alt="Sekou Fade"><div class="name">Sekou Fade</div></a>
+<div class="reason">09/12/2024 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christopher-couch-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Couch-Christopher-Adam-720x480.jpg" alt="Christopher Couch"><div class="name">Christopher Couch</div></a>
+<div class="reason">09/11/2024 | CRIMINAL ATTEMPT TO COMMIT A MISDEMEANOR (MISD. MARIJUANA)GIVING FALSE INFORMATION OR FALSE NAMEBONDSMAN OFF BOND - BULLDOG BONDINGBONDSMAN OFF BOND- BULLDOG BONDING DOCKETDRUG RELATED OBJECTS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tyler-chastain-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Chastain-Tyler-Patrick-720x480.jpg" alt="Tyler Chastain"><div class="name">Tyler Chastain</div></a>
+<div class="reason">09/09/2024 | PROBATION VIOLATION SIMPLE ASSAULT- FVA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/isaiah-burt-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Burt-Isaiah-Jerrell-720x480.jpg" alt="Isaiah Burt"><div class="name">Isaiah Burt</div></a>
+<div class="reason">09/11/2024 | HOUSED FOR SCSO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/johnny-turman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Turman-Johnny-Eugene-720x480.jpg" alt="Johnny Turman"><div class="name">Johnny Turman</div></a>
+<div class="reason">09/05/2024 | THEFT BY SHOPLIFTING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/zachary-pearson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Pearson-Zachary-Seth-720x480.jpg" alt="Zachary Pearson"><div class="name">Zachary Pearson</div></a>
+<div class="reason">09/04/2024 | PROBATION VIOLATION BURG 1ST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-lloyd-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Lloyd-William-Isaiah-720x480.jpg" alt="William Lloyd"><div class="name">William Lloyd</div></a>
+<div class="reason">09/08/2024 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSSPEEDING 71/55</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/chelsea-krug-galanski/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Krug-Galanski-Chelsea-Alexandra-720x480.jpg" alt="Chelsea Krug-Galanski"><div class="name">Chelsea Krug-Galanski</div></a>
+<div class="reason">09/03/2024 | CRIMINAL ATTEMPT TO COMMIT A MISDEMEANOR POSSESSION OF MARIJUANA LESS THAN 1OZDRUGS NOT IN ORIGINAL CONTAINER - MISDEMEANORPOSSESSION OF METHAMPHETAMINEPOSSESSION SCH IV CONT SUBSTANCE ALPRAZOLAM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/faustino-gonzalez-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Gonzalez-Jr-Faustino-720x480.jpg" alt="Faustino Gonzalez"><div class="name">Faustino Gonzalez</div></a>
+<div class="reason">09/03/2024 | BATTERY FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jennifer-albergotti-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Albergotti-Jennifer-Robin-720x480.jpg" alt="Jennifer Albergotti"><div class="name">Jennifer Albergotti</div></a>
+<div class="reason">09/06/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tammy-austin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Austin-Tammy-Marie-720x480.jpg" alt="Tammy Austin"><div class="name">Tammy Austin</div></a>
+<div class="reason">09/22/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jennifer-albergotti-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Albergotti-Jennifer-Robin-1-720x480.jpg" alt="Jennifer Albergotti"><div class="name">Jennifer Albergotti</div></a>
+<div class="reason">09/13/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jonathan-deaton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Deaton-Jonathan-Neal-720x480.jpg" alt="Jonathan Deaton"><div class="name">Jonathan Deaton</div></a>
+<div class="reason">09/14/2024 | PROBATION VIOLATION AGGRAVATED ASSAULT, TERR. THREATS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/alijah-mccan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/McCan-Alijah-Bernard-720x480.jpg" alt="Alijah McCan"><div class="name">Alijah McCan</div></a>
+<div class="reason">09/13/2024 | POSSESSION OF DRUG RELATED OBJECTCRIMINAL ATTEMPT TO COMMIT A MISDEMEANOR - MARIJUANATHEFT BY RECEIVING STOLEN PROPERTY. - 6 Counts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/john-harrison-25/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Harrison-John-Paul-720x480.jpg" alt="John Harrison"><div class="name">John Harrison</div></a>
+<div class="reason">09/14/2024 | CRIMINAL TRESPASSTHEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jesse-goodwin-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Goodwin-Jesse-Norman-720x480.jpg" alt="Jesse Goodwin"><div class="name">Jesse Goodwin</div></a>
+<div class="reason">09/13/2024 | PROBATION VIOLATION BURG 1ST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/leah-brown-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Brown-Leah-Kristina-720x480.jpg" alt="Leah Brown"><div class="name">Leah Brown</div></a>
+<div class="reason">09/15/2024 | SIMPLE BATTERY. FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/xavier-brown-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Brown-Xavier-Tremayne-720x480.jpg" alt="Xavier Brown"><div class="name">Xavier Brown</div></a>
+<div class="reason">09/13/2024 | POSSESSION OF DRUG RELATED OBJECTPOSSESSION OF FIREARM DURING COMMISSION OF A CRIMEPOSS. SCH I CONTROL SUBSTANCE THCTHEFT BY RECEING STOLEN PROPERTYTHEFT BY RECEIVING STOLEN PROPERTYTHEFT BY RECEIVING STOLEN PROPERTYTHEFT BY RECEIVING STOLEN PROPERTY- FELONYTHEFT BY RECEIVING STOLEN PROPERTY- FELONYTHEFT BY RECEIVING STOLEN PROPERTY- FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/david-allen-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Allen-David-Tyrell-720x480.jpg" alt="David Allen"><div class="name">David Allen</div></a>
+<div class="reason">09/14/2024 | PROBATION VIOLATION AGG. STALKING FV, BATTERY FVTERRORISTIC THREATS AND ACTS - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/willie-surrency-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Surrency-Willie-Terrell-720x480.jpg" alt="Willie Surrency"><div class="name">Willie Surrency</div></a>
+<div class="reason">09/15/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/henry-rowland-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Rowland-Henry-Marshall-720x480.jpg" alt="Henry Rowland"><div class="name">Henry Rowland</div></a>
+<div class="reason">09/13/2024 | HOLD LETTERAGGRAVATED ASSAULTTERRORISTIC THREATS AND ACTS - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/berna-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Johnson-Berna-Cariah-720x480.jpg" alt="Berna Johnson"><div class="name">Berna Johnson</div></a>
+<div class="reason">09/10/2024 | ELDER FINANCIAL NEGLECT ABUSEFINANCIAL TRANSACTION CARD FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brittney-caudell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Caudell-Brittney-Bowen-720x480.webp" alt="Brittney Caudell"><div class="name">Brittney Caudell</div></a>
+<div class="reason">08/31/2024 | OPERATING VESSEL UNDER THE INFLUENCE OF ALCOHOL - MISDEMEANORFAILURE TO OBEY REGULATORY MARKER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-hammond-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hammond-James-Asbury-720x480.webp" alt="James Hammond"><div class="name">James Hammond</div></a>
+<div class="reason">09/01/2024 | OBSTRUCTION OF AN OFFICER - 2 COUNTSPOSSESSION OF FIREARM BY A CONVICTED FELONPOSSESSION OF METHAMPHETAMINE WITH INTENT TO DISTRIBUTE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/michael-tucker-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Tucker-Jr-Michael-Joseph-720x480.webp" alt="Michael Tucker"><div class="name">Michael Tucker</div></a>
+<div class="reason">09/02/2024 | SEX OFFENDER REGISTRY VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tommy-smith-26/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Smith-Jr-Tommy-Lee-720x480.webp" alt="Tommy Smith"><div class="name">Tommy Smith</div></a>
+<div class="reason">08/31/2024 | PROBATION VIOLATION-(SUSP LIC, POSS F/A BY FELON, POSS METH, TXT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/harry-rowland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Rowland-Jr-Harry-Edward-720x480.webp" alt="Harry Rowland"><div class="name">Harry Rowland</div></a>
+<div class="reason">08/30/2024 | SIMPLE ASSAULT.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/reginald-harper-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Harper-Reginald-Harris-720x480.webp" alt="Reginald Harper"><div class="name">Reginald Harper</div></a>
+<div class="reason">08/30/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (FELONY) (FOURTH OR SUBSEQUENT OFFENS)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFALSE STATEMENTS OR WRITINGS; CONCEAL FACTS OR FRAUDULENT DOCUMENTS IN MATTERS OGIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICEROPEN CONTAINER IN VEHICLEPROBATION VIOLATION FALSE SWEARING, DUI, OBSTRUCTIONPROBATION VIOLATION...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/steve-goldsmith-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Goldsmith-Steve-Robert-720x480.webp" alt="Steve Goldsmith"><div class="name">Steve Goldsmith</div></a>
+<div class="reason">09/02/2024 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rose-goldsmith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Goldsmith-Rose-Katrina-720x480.webp" alt="Rose Goldsmith"><div class="name">Rose Goldsmith</div></a>
+<div class="reason">08/31/2024 | FAILURE TO APPEAR-MAGISTRATE COURT DOG AT LARGE X3</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/edward-christopher-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Christopher-Edward-Gene-720x480.webp" alt="Edward Christopher"><div class="name">Edward Christopher</div></a>
+<div class="reason">08/30/2024 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/cornelius-bennett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Bennett-Cornelius-Alexander-720x480.webp" alt="Cornelius Bennett"><div class="name">Cornelius Bennett</div></a>
+<div class="reason">08/30/2024 | HOUSED FOR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/gary-armstrong-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Armstrong-Gary-Lemorse-720x480.webp" alt="Gary Armstrong"><div class="name">Gary Armstrong</div></a>
+<div class="reason">08/30/2024 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bryon-teasley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Teasley-Bryon-ONeal-720x480.webp" alt="Bryon Teasley"><div class="name">Bryon Teasley</div></a>
+<div class="reason">08/28/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brandon-lee-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Lee-Brandon-Austin-720x480.jpg" alt="Brandon Lee"><div class="name">Brandon Lee</div></a>
+<div class="reason">09/12/2024 | HOUSED FOR OGELTHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/karlie-kearns-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Kearns-Karlie-Auton-720x480.jpg" alt="Karlie Kearns"><div class="name">Karlie Kearns</div></a>
+<div class="reason">09/09/2024 | CRUELTY TO CHILDREN - 2ND DEGREE (FELONY)CRUELTY TO CHILDREN - 2ND DEGREE (FELONY)RECKLESS CONDUCTRECKLESS CONDUCTSALE, DISTRIBUTION, OR POSSESSION OF DANGEROUS DRUGS-DOXEPINSALE, DISTRIBUTION, OR POSSESSION OF DANGEROUS DRUGS-GABAEMTOMTHEFT BY TAKING - MISDEMEANORTHEFT BY TAKING - MISDEMEANORTHEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brian-holder-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Holder-Brian-Keith-720x480.jpg" alt="Brian Holder"><div class="name">Brian Holder</div></a>
+<div class="reason">09/12/2024 | HOUSED FOR OGLETHOPRE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/michael-hart-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hart-Michael-Louis-720x480.jpg" alt="Michael Hart"><div class="name">Michael Hart</div></a>
+<div class="reason">09/11/2024 | ORDER TO INCARCERATE - BOND REVOCATION TO STAY IN JAIL UNTIL TRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/sekou-fade-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Fade-Sekou-720x480.jpg" alt="Sekou Fade"><div class="name">Sekou Fade</div></a>
+<div class="reason">09/12/2024 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christopher-couch-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Couch-Christopher-Adam-720x480.jpg" alt="Christopher Couch"><div class="name">Christopher Couch</div></a>
+<div class="reason">09/11/2024 | CRIMINAL ATTEMPT TO COMMIT A MISDEMEANOR (MISD. MARIJUANA)GIVING FALSE INFORMATION OR FALSE NAMEBONDSMAN OFF BOND - BULLDOG BONDINGBONDSMAN OFF BOND- BULLDOG BONDING DOCKETDRUG RELATED OBJECTS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brian-kay/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Kay-Brian-Anderson-720x480.webp" alt="Brian Kay"><div class="name">Brian Kay</div></a>
+<div class="reason">08/26/2024 | AGGRAVATED ASSAULT FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tristin-chesbro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Chesbro-Tristin-Grove-720x480.webp" alt="Tristin Chesbro"><div class="name">Tristin Chesbro</div></a>
+<div class="reason">08/28/2024 | ADULT RESTRAINT LAW SEAT BELT 18 ANDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLOPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/justin-cain-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Cain-Justin-Dewayne-720x480.webp" alt="Justin Cain"><div class="name">Justin Cain</div></a>
+<div class="reason">08/28/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/raymond-brewster/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Brewster-Raymond-Kyle-720x480.webp" alt="Raymond Brewster"><div class="name">Raymond Brewster</div></a>
+<div class="reason">08/28/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tyler-alewine-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Alewine-Tyler-Brice-720x480.webp" alt="Tyler Alewine"><div class="name">Tyler Alewine</div></a>
+<div class="reason">08/27/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-schneider-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Schneider-James-Darrell-720x480.webp" alt="James Schneider"><div class="name">James Schneider</div></a>
+<div class="reason">08/29/2024 | PROBATION VIOLATION POSS METHPROBATION VIOLATION POSS METH W/INTENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/douglas-roberts-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Roberts-Jr-Douglas-Edward-720x480.webp" alt="Douglas Roberts"><div class="name">Douglas Roberts</div></a>
+<div class="reason">08/29/2024 | CLASSES OF LICENSESDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANEIMPROPER TAG DISPLAYTIRES SLICK TIRESPROBATION HOLD LETTER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/todd-porterfield-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Porterfield-Todd-Anthony-720x480.webp" alt="Todd Porterfield"><div class="name">Todd Porterfield</div></a>
+<div class="reason">08/28/2024 | PROBATION VIOLATION CRIM ATTEMPT, POSS METH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/corey-neal-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Neal-Corey-Javal-720x480.webp" alt="Corey Neal"><div class="name">Corey Neal</div></a>
+<div class="reason">08/28/2024 | CRIMINAL TRESPASSPAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joshua-dornellas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/DOrnellas-Joshua-B-720x480.webp" alt="Joshua D’Ornellas"><div class="name">Joshua D’Ornellas</div></a>
+<div class="reason">08/29/2024 | HOUSED FOR FRANKLIN CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/robert-hight-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hight-Jr-Robert-Dean-720x480.webp" alt="Robert Hight"><div class="name">Robert Hight</div></a>
+<div class="reason">08/27/2024 | PROBATION VIOLATION DUI, SUSP LIC, PUBLIC DRUNK</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/alyssa-crowe-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Crowe-Alyssa-Marie-720x480.webp" alt="Alyssa Crowe"><div class="name">Alyssa Crowe</div></a>
+<div class="reason">08/26/2024 | ORDER TO INCARCERATE- FOR BOND REVOCATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/shannika-bowman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Bowman-Shannika-Lavoya-720x480.webp" alt="Shannika Bowman"><div class="name">Shannika Bowman</div></a>
+<div class="reason">08/29/2024 | DISORDERLY HOUSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-lindley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Lindley-William-Blake-720x480.webp" alt="William Lindley"><div class="name">William Lindley</div></a>
+<div class="reason">08/28/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)EXPIRED VEHICLE TAG OR DECALNO PROOF OF INSURANCE (motor vehicl)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/billy-moore-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Moore-Billy-Dean-720x480.webp" alt="Billy Moore"><div class="name">Billy Moore</div></a>
+<div class="reason">08/20/2024 | CRUELTY TO CHILDREN. 3RD DEGREESIMPLE ASSAULT.BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/neria-sanchez-morza/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Sanchez-Morza-Neria--720x480.webp" alt="Neria Sanchez Morza"><div class="name">Neria Sanchez Morza</div></a>
+<div class="reason">08/25/2024 | DRIVING W/O LICENSE (UNLICENSED/WRONG CL)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/alijah-mccan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/McCan-Alijah-Bernard-720x480.webp" alt="Alijah McCan"><div class="name">Alijah McCan</div></a>
+<div class="reason">08/21/2024 | VIOLATION OF WINDOW TINT LAWDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)UNLAWFUL POSSESSION OF FIREARM OR WEAPONS.THEFT BY RECEIVING STOLEN PROPERTY- FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/lavarious-johnson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Johnson-Lavarious-DVon-720x480.webp" alt="Lavarious Johnson"><div class="name">Lavarious Johnson</div></a>
+<div class="reason">08/24/2024 | DRIVING W/O HEADLIGHTS WHEN REQUIREDDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bryson-jones-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Jones-Bryson-Lance-720x480.webp" alt="Bryson Jones"><div class="name">Bryson Jones</div></a>
+<div class="reason">08/21/2024 | THEFT BY RECEIVING STOLEN PROPERTY.UNLAWFUL POSSESSION OF FIREARM OR WEAPONS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/davis-duncan-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Duncan-Davis-Jordan-2-720x480.webp" alt="Davis Duncan"><div class="name">Davis Duncan</div></a>
+<div class="reason">08/25/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ernest-bryant-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Bryant-Ernest-Eugene-1-720x480.webp" alt="Ernest Bryant"><div class="name">Ernest Bryant</div></a>
+<div class="reason">08/22/2024 | THEFT BY SHOPLIFTING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/xavier-brown-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Brown-Xavier-Tremayne-720x480.webp" alt="Xavier Brown"><div class="name">Xavier Brown</div></a>
+<div class="reason">08/20/2024 | THEFT BY RECEIVING PROPERTY STOLEN IN ANOTHER STATE - FELONYUNLAWFUL POSSESSION OF FIREARM OR WEAPONS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christian-timms/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Timms-Christian-Levi-720x480.webp" alt="Christian Timms"><div class="name">Christian Timms</div></a>
+<div class="reason">08/20/2024 | AGGRAVATED ASSAULTAGGRAVATED ASSAULT.CHILD RESTRAINT LAW CHILD SEAT SAFETY BEDRIVE BY SHOOTINGDRIVING ON WRONG SIDE OF THE ROADFAILURE TO DRIVE WITHIN SINGLE LANEFAILURE TO DRIVE WITHIN SINGLE LANEFAILURE TO STOP FOR STOP SIGNIMPROPER TAGPOSSESSION OF FIREARM DURING COMMISSION OF A CRIMERECKLESS DRIVINGSPEEDING 100/55SPEEDING 72/55AGGRAVATED ASSAULTFLEEING OR ATTEMPTING TO...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/morgan-tilson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Tilson-Morgan-Ellisa-720x480.webp" alt="Morgan Tilson"><div class="name">Morgan Tilson</div></a>
+<div class="reason">08/24/2024 | HOUSED FOR FRANKLIN CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/harry-rowland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Rowland-Jr-Harry-Edward-720x480.webp" alt="Harry Rowland"><div class="name">Harry Rowland</div></a>
+<div class="reason">08/30/2024 | SIMPLE ASSAULT.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/reginald-harper-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Harper-Reginald-Harris-720x480.webp" alt="Reginald Harper"><div class="name">Reginald Harper</div></a>
+<div class="reason">08/30/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (FELONY) (FOURTH OR SUBSEQUENT OFFENS)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFALSE STATEMENTS OR WRITINGS; CONCEAL FACTS OR FRAUDULENT DOCUMENTS IN MATTERS OGIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICEROPEN CONTAINER IN VEHICLEPROBATION VIOLATION FALSE SWEARING, DUI, OBSTRUCTIONPROBATION VIOLATION...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/steve-goldsmith-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Goldsmith-Steve-Robert-720x480.webp" alt="Steve Goldsmith"><div class="name">Steve Goldsmith</div></a>
+<div class="reason">09/02/2024 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rose-goldsmith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Goldsmith-Rose-Katrina-720x480.webp" alt="Rose Goldsmith"><div class="name">Rose Goldsmith</div></a>
+<div class="reason">08/31/2024 | FAILURE TO APPEAR-MAGISTRATE COURT DOG AT LARGE X3</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/edward-christopher-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Christopher-Edward-Gene-720x480.webp" alt="Edward Christopher"><div class="name">Edward Christopher</div></a>
+<div class="reason">08/30/2024 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/cornelius-bennett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Bennett-Cornelius-Alexander-720x480.webp" alt="Cornelius Bennett"><div class="name">Cornelius Bennett</div></a>
+<div class="reason">08/30/2024 | HOUSED FOR OGLETHORPE CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/gary-armstrong-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Armstrong-Gary-Lemorse-720x480.webp" alt="Gary Armstrong"><div class="name">Gary Armstrong</div></a>
+<div class="reason">08/30/2024 | HOUSED FOR OGLETHORPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/breth-melgoza-cruz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Melgoza-Cruz-Breth-Esgardo-720x480.webp" alt="Breth Melgoza Cruz"><div class="name">Breth Melgoza Cruz</div></a>
+<div class="reason">08/27/2024 | FAILURE TO DRIVE WITHIN SINGLE LANEDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)LEAVING THE SCENE OF ACCIDENT (HIT & RUN)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bryon-teasley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Teasley-Bryon-ONeal-720x480.webp" alt="Bryon Teasley"><div class="name">Bryon Teasley</div></a>
+<div class="reason">08/28/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/nailah-james/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/James-Nailah-Louise-Regina-720x480.webp" alt="Nailah James"><div class="name">Nailah James</div></a>
+<div class="reason">08/27/2024 | POSSESSION OF A CONTROLLED SUBSTANCE SCH I - THC LIQUID DAB PENS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/garrett-hill-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hill-Garrett-Mark-1-720x480.webp" alt="Garrett Hill"><div class="name">Garrett Hill</div></a>
+<div class="reason">08/28/2024 | THEFT BY DECEPTION.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jamie-fuller/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Fuller-Jamie-Adair-720x480.webp" alt="Jamie Fuller"><div class="name">Jamie Fuller</div></a>
+<div class="reason">08/29/2024 | SIMPLE BATTERY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/angel-hernandez-leal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hernandez-Leal-Angel-720x480.webp" alt="Angel Hernandez Leal"><div class="name">Angel Hernandez Leal</div></a>
+<div class="reason">08/16/2024 | OPEN CONTAINER IN VEHICLEDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DUI 1ST OFFENSEIMPEDING TRAFFIC FLOWIMPROPER BACKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/chad-christian-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Christian-Chad-Kevin-720x480.webp" alt="Chad Christian"><div class="name">Chad Christian</div></a>
+<div class="reason">08/13/2024 | PROBATION VIOLATION DUI 4TH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/quometric-smith-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Smith-Quometric-Quashawn-720x480.webp" alt="Quometric Smith"><div class="name">Quometric Smith</div></a>
+<div class="reason">08/15/2024 | PROBATION VIOLATION RECKLESS DRIVING - REDUCED FROM DUI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christopher-randall-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Randall-Christopher-Paul-720x480.webp" alt="Christopher Randall"><div class="name">Christopher Randall</div></a>
+<div class="reason">08/13/2024 | CHILD MOLESTATIONRAPE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/corey-neal-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Neal-Corey-Javal-720x480.webp" alt="Corey Neal"><div class="name">Corey Neal</div></a>
+<div class="reason">08/18/2024 | TERRORISTIC THREATS AND ACTS - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/makayla-lack-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Lack-Makayla-Lyn-720x480.webp" alt="Makayla Lack"><div class="name">Makayla Lack</div></a>
+<div class="reason">08/16/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-herrington-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Herrington-James-Bruce-720x480.webp" alt="James Herrington"><div class="name">James Herrington</div></a>
+<div class="reason">08/13/2024 | PROBATION VIOLATION SUSPEND LICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/scotty-henson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Henson-Scotty-Ray-1-720x480.webp" alt="Scotty Henson"><div class="name">Scotty Henson</div></a>
+<div class="reason">08/18/2024 | FAILURE TO APPEAR - PROBATE SUSPENDED LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/mac-cunningham-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Cunningham-Mac-Jamar-720x480.webp" alt="Mac Cunningham"><div class="name">Mac Cunningham</div></a>
+<div class="reason">08/13/2024 | AGGRAVATED ASSAULTBATTERY F/VKIDNAPPING F/VSIMPLE BATTERY - FAMILY VIOLENCETHEFT BY TAKING - FELONYUSE OF FIREARM BY CONVICTED FELON DURING COMMISSION OF A CRIMEHOLD PROBATIONPOSSESSION OF FIREARM BY A CONVICTED FELON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ashton-childs-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Childs-Ashton-Bodee-720x480.webp" alt="Ashton Childs"><div class="name">Ashton Childs</div></a>
+<div class="reason">08/15/2024 | PROBATION VIOLATION BURGLARY 1STPROBATION VIOLATION PIOSS MARIJUANA W/I</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joseph-clark-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Clark-Joseph-Derran-720x480.webp" alt="Joseph Clark"><div class="name">Joseph Clark</div></a>
+<div class="reason">08/17/2024 | DRIVING UNDER INFLUENCE ALCOHOL 3RD OFFENSEEXPIRED DRIVER'S LICENSEFAILURE TO DRIVE WITHIN SINGLE LANEFAILURE TO STOP FOR STOP SIGNOPEN CONTAINER IN VEHICLERECKLESS DRIVINGSPEEDING 77/55FAILURE TO APPEAR -CALENDAR CALL POSS F/A DUR COM CRIME, POSS MARIJ W/IOFLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICER - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/derrick-bensch-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Bensch-Derrick-Brence-720x480.webp" alt="Derrick Bensch"><div class="name">Derrick Bensch</div></a>
+<div class="reason">08/15/2024 | HOUSED FOR SCSO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/robert-hight-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hight-Jr-Robert-Dean-720x480.webp" alt="Robert Hight"><div class="name">Robert Hight</div></a>
+<div class="reason">08/27/2024 | PROBATION VIOLATION DUI, SUSP LIC, PUBLIC DRUNK</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/alyssa-crowe-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Crowe-Alyssa-Marie-720x480.webp" alt="Alyssa Crowe"><div class="name">Alyssa Crowe</div></a>
+<div class="reason">08/26/2024 | ORDER TO INCARCERATE- FOR BOND REVOCATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/shannika-bowman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Bowman-Shannika-Lavoya-720x480.webp" alt="Shannika Bowman"><div class="name">Shannika Bowman</div></a>
+<div class="reason">08/29/2024 | DISORDERLY HOUSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/william-lindley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Lindley-William-Blake-720x480.webp" alt="William Lindley"><div class="name">William Lindley</div></a>
+<div class="reason">08/28/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)EXPIRED VEHICLE TAG OR DECALNO PROOF OF INSURANCE (motor vehicl)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/billy-moore-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Moore-Billy-Dean-720x480.webp" alt="Billy Moore"><div class="name">Billy Moore</div></a>
+<div class="reason">08/20/2024 | CRUELTY TO CHILDREN. 3RD DEGREESIMPLE ASSAULT.BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/neria-sanchez-morza/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Sanchez-Morza-Neria--720x480.webp" alt="Neria Sanchez Morza"><div class="name">Neria Sanchez Morza</div></a>
+<div class="reason">08/25/2024 | DRIVING W/O LICENSE (UNLICENSED/WRONG CL)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/alijah-mccan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/McCan-Alijah-Bernard-720x480.webp" alt="Alijah McCan"><div class="name">Alijah McCan</div></a>
+<div class="reason">08/21/2024 | VIOLATION OF WINDOW TINT LAWDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)UNLAWFUL POSSESSION OF FIREARM OR WEAPONS.THEFT BY RECEIVING STOLEN PROPERTY- FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bryson-jones-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Jones-Bryson-Lance-720x480.webp" alt="Bryson Jones"><div class="name">Bryson Jones</div></a>
+<div class="reason">08/21/2024 | THEFT BY RECEIVING STOLEN PROPERTY.UNLAWFUL POSSESSION OF FIREARM OR WEAPONS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/lavarious-johnson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Johnson-Lavarious-DVon-720x480.webp" alt="Lavarious Johnson"><div class="name">Lavarious Johnson</div></a>
+<div class="reason">08/24/2024 | DRIVING W/O HEADLIGHTS WHEN REQUIREDDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/davis-duncan-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Duncan-Davis-Jordan-2-720x480.webp" alt="Davis Duncan"><div class="name">Davis Duncan</div></a>
+<div class="reason">08/25/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ernest-bryant-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Bryant-Ernest-Eugene-1-720x480.webp" alt="Ernest Bryant"><div class="name">Ernest Bryant</div></a>
+<div class="reason">08/22/2024 | THEFT BY SHOPLIFTING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/xavier-brown-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Brown-Xavier-Tremayne-720x480.webp" alt="Xavier Brown"><div class="name">Xavier Brown</div></a>
+<div class="reason">08/20/2024 | THEFT BY RECEIVING PROPERTY STOLEN IN ANOTHER STATE - FELONYUNLAWFUL POSSESSION OF FIREARM OR WEAPONS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/christian-timms/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Timms-Christian-Levi-720x480.webp" alt="Christian Timms"><div class="name">Christian Timms</div></a>
+<div class="reason">08/20/2024 | AGGRAVATED ASSAULTAGGRAVATED ASSAULT.CHILD RESTRAINT LAW CHILD SEAT SAFETY BEDRIVE BY SHOOTINGDRIVING ON WRONG SIDE OF THE ROADFAILURE TO DRIVE WITHIN SINGLE LANEFAILURE TO DRIVE WITHIN SINGLE LANEFAILURE TO STOP FOR STOP SIGNIMPROPER TAGPOSSESSION OF FIREARM DURING COMMISSION OF A CRIMERECKLESS DRIVINGSPEEDING 100/55SPEEDING 72/55AGGRAVATED ASSAULTFLEEING OR ATTEMPTING TO...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/morgan-tilson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Tilson-Morgan-Ellisa-720x480.webp" alt="Morgan Tilson"><div class="name">Morgan Tilson</div></a>
+<div class="reason">08/24/2024 | HOUSED FOR FRANKLIN CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/lasha-teasley-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Teasley-Lasha-Dianeshia-720x480.webp" alt="Lasha Teasley"><div class="name">Lasha Teasley</div></a>
+<div class="reason">08/20/2024 | PROBATION VIOLATION O/C SUSPENDED LICFINANCIAL TRANSACTION CARD THEFT.FINANCIAL TRANSACTION CARD FRAUDFINANCIAL TRANSACTION CARD FRAUDFINANCIAL TRANSACTION CARD FRAUDIDENTIY THEFTTHEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/krysta-tanner-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Tanner-Krysta-720x480.webp" alt="Krysta Tanner"><div class="name">Krysta Tanner</div></a>
+<div class="reason">08/24/2024 | HOUSED FOR FRANLKIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ishmael-settles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Settles-Ishmael-Rasheed-720x480.webp" alt="Ishmael Settles"><div class="name">Ishmael Settles</div></a>
+<div class="reason">08/19/2024 | POSSESSION OF METHAMPHETAMINEPEEPING TOMCRIMINAL ATTEMPT TO COMMIT A FELONY (BURGLARY)PROBATION VIOLATIONPROBATION VIOLATION MUTINY IN PENAL INSTITUTIONPROBATION VIOLATION MUTINY IN PENAL INSTITUTIONPROBATION VIOLATION PUBLIC INDECENY, SEXUAL BATTERY Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/codney-alexander-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Alexander-Codney-Jermaine-720x480.webp" alt="Codney Alexander"><div class="name">Codney Alexander</div></a>
+<div class="reason">08/25/2024 | CRIMINAL ATTEMPT. COCAINEDRIVING W/O LICENSE ON PERSONFAILURE TO DRIVE WITHIN SINGLE LANEPOSSESSION OF DRUG RELATED OBJECTPROBATION VIOLATION - MISD PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/gregory-nicholson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Nicholson-Gregory-Zane-720x480.webp" alt="Gregory Nicholson"><div class="name">Gregory Nicholson</div></a>
+<div class="reason">08/23/2024 | HOUSED FOR STEPHENS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ashley-childs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Childs-Ashley-Michelle-720x480.webp" alt="Ashley Childs"><div class="name">Ashley Childs</div></a>
+<div class="reason">08/23/2024 | OBSTRUCTION OF AN OFFICER (MISDEMEANOR)DRIVING WHILE LICENSE WITHDRAWNIMPROPER TAG DISPLAYTURNING POSITION; SIGNALS REQUIREDWINDSHIELDS AND WINDSHIELD WIPERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/chelsie-bales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Bales-Chelsie-Renee-720x480.webp" alt="Chelsie Bales"><div class="name">Chelsie Bales</div></a>
+<div class="reason">08/23/2024 | ALLOWING UNLICENSED PERSON TO DRIVEOBSTRUCTION OF AN OFFICER (MISDEMEANOR)POSSESSION OF DRUG RELATED OBJECTPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jason-walker-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Walker-Jason-Adam-720x480.webp" alt="Jason Walker"><div class="name">Jason Walker</div></a>
+<div class="reason">08/16/2024 | POSSESSION AND USE OF DRUG-RELATED OBJECTSPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAINPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/orlando-martinez-rodriguez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Martinez-Rodriguez-Orlando-720x480.webp" alt="Orlando Martinez Rodriguez"><div class="name">Orlando Martinez Rodriguez</div></a>
+<div class="reason">08/18/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/debra-singletary/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Singletary-Debra-Delores-720x480.webp" alt="Debra Singletary"><div class="name">Debra Singletary</div></a>
+<div class="reason">08/16/2024 | CRUELTY TO ANIMALS - 26 Counts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ricky-starrett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Starrett-Ricky-Lewis-720x480.webp" alt="Ricky Starrett"><div class="name">Ricky Starrett</div></a>
+<div class="reason">08/02/2024 | CONTEMPT OF SUPERIOR COURT-CHILD SUPPORTPROBATION VIOLATION POSS METH W/ INTENT, DRUG-RELATED OBJECT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/omar-smith-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Smith-Omar-Rashad-720x480.webp" alt="Omar Smith"><div class="name">Omar Smith</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amy-miller-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Miller-Amy-Nellieoreed-720x480.webp" alt="Amy Miller"><div class="name">Amy Miller</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bennie-mcintosh-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/McIntosh-Jr-Bennie-Richard-720x480.webp" alt="Bennie McIntosh"><div class="name">Bennie McIntosh</div></a>
+<div class="reason">08/02/2024 | FAILURE TO APPEAR DEPOSIT ACCOUNT FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-manley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Manley-James-Foster-720x480.webp" alt="James Manley"><div class="name">James Manley</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marcus-lewis-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Lewis-Marcus-Justin-720x480.webp" alt="Marcus Lewis"><div class="name">Marcus Lewis</div></a>
+<div class="reason">08/03/2024 | AGGRAVATED STALKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/april-lee-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Lee-April-Dawn-720x480.webp" alt="April Lee"><div class="name">April Lee</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/terrence-huff-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Huff-Terrence-Lavak-720x480.webp" alt="Terrence Huff"><div class="name">Terrence Huff</div></a>
+<div class="reason">08/02/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICERLIGHTED HEADLIGHTS REQUIRED AT CERTAIN TIMES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joshua-harkcom-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Harkcom-Joshua-Wayne-720x480.webp" alt="Joshua Harkcom"><div class="name">Joshua Harkcom</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-hammond-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hammond-James-Asbury-720x480.webp" alt="James Hammond"><div class="name">James Hammond</div></a>
+<div class="reason">08/04/2024 | BATTERY.CRIMINAL TRESPASSNEGLECT OF A DISABLED ADULT, ELDER PERSON, OR RESIDENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/edgardo-gonzalez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Gonzalez-Edgardo-Valle-720x480.webp" alt="Edgardo Gonzalez"><div class="name">Edgardo Gonzalez</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kristi-chamlee-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Chamlee-Kristi-Pearson-720x480.webp" alt="Kristi Chamlee"><div class="name">Kristi Chamlee</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joseph-clark-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Clark-Joseph-Derran-720x480.webp" alt="Joseph Clark"><div class="name">Joseph Clark</div></a>
+<div class="reason">08/17/2024 | DRIVING UNDER INFLUENCE ALCOHOL 3RD OFFENSEEXPIRED DRIVER'S LICENSEFAILURE TO DRIVE WITHIN SINGLE LANEFAILURE TO STOP FOR STOP SIGNOPEN CONTAINER IN VEHICLERECKLESS DRIVINGSPEEDING 77/55FAILURE TO APPEAR -CALENDAR CALL POSS F/A DUR COM CRIME, POSS MARIJ W/IOFLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICER - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/derrick-bensch-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Bensch-Derrick-Brence-720x480.webp" alt="Derrick Bensch"><div class="name">Derrick Bensch</div></a>
+<div class="reason">08/15/2024 | HOUSED FOR SCSO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/mary-armstrong/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Armstrong-Mary-Kathryn-720x480.webp" alt="Mary Armstrong"><div class="name">Mary Armstrong</div></a>
+<div class="reason">08/18/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANEPOSSESSION AND USE OF DRUG-RELATED OBJECTSPURCHASE, POSSESS OR HAVE CONTROL OF CONTROLLED SUBSTANCE IN SCHEDULE I OR NARCOPURCHASE, POSSESS OR HAVE CONTROL OF CONTROLLED SUBSTANCE IN SCHEDULE I OR NARCO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/deshawn-allison-mcgee/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Allison-Mcgee-Deshawn-720x480.webp" alt="Deshawn Allison-Mcgee"><div class="name">Deshawn Allison-Mcgee</div></a>
+<div class="reason">08/18/2024 | TERRORISTIC THREATS AND ACTS - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/richard-wallace-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Wallace-Richard-Joseph-720x480.webp" alt="Richard Wallace"><div class="name">Richard Wallace</div></a>
+<div class="reason">08/09/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANELEAVING THE SCENE OF ACCIDENT (HIT & RUN)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/morgan-sweeney-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Sweeney-Morgan-Skylar-720x480.webp" alt="Morgan Sweeney"><div class="name">Morgan Sweeney</div></a>
+<div class="reason">08/05/2024 | HOLD FOR GWINETT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/quincy-jones-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Jones-Quincy-Terrone-720x480.webp" alt="Quincy Jones"><div class="name">Quincy Jones</div></a>
+<div class="reason">08/05/2024 | DRIVING WHILE LICENSE WITHDRAWNDUI 1ST OFFENSEFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ricky-herrington/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Herrington-Ricky-Eugene-720x480.webp" alt="Ricky Herrington"><div class="name">Ricky Herrington</div></a>
+<div class="reason">08/11/2024 | PROBATION VIOLATION CHILD MOLESTATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/george-hanks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hanks-George-Matthew-720x480.webp" alt="George Hanks"><div class="name">George Hanks</div></a>
+<div class="reason">08/06/2024 | FAILURE TO DRIVE WITHIN SINGLE LANEFAILURE TO PROVIDE ASSISTANCE, REPORT ACNO PROOF OF INSURANCE IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jose-galvan-flores/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Galvan-Flores-Jose-Alfredo-720x480.webp" alt="Jose Galvan Flores"><div class="name">Jose Galvan Flores</div></a>
+<div class="reason">08/10/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FAILURE TO REGISTER VEHICLENO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/crystal-cason-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Cason-Crystal-Joann-1-720x480.webp" alt="Crystal Cason"><div class="name">Crystal Cason</div></a>
+<div class="reason">08/07/2024 | HOLD FOR RICHMOND CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/john-allen-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Allen-John-720x480.webp" alt="John Allen"><div class="name">John Allen</div></a>
+<div class="reason">08/06/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jeremy-manning-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Manning-Jeremy-Mark-720x480.webp" alt="Jeremy Manning"><div class="name">Jeremy Manning</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brian-dailey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Dailey-Brian-Keith-720x480.webp" alt="Brian Dailey"><div class="name">Brian Dailey</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ronald-woolwine/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Woolwine-Ronald-Lee-720x480.webp" alt="Ronald Woolwine"><div class="name">Ronald Woolwine</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rickey-verhine-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Verhine-Rickey-Keith-720x480.webp" alt="Rickey Verhine"><div class="name">Rickey Verhine</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ricardo-stowers-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Stowers-Ricardo-Dequan-720x480.webp" alt="Ricardo Stowers"><div class="name">Ricardo Stowers</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/erin-spears-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Spears-Erin-Davis-720x480.webp" alt="Erin Spears"><div class="name">Erin Spears</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/javier-osorio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Osorio-Javier-720x480.webp" alt="Javier Osorio"><div class="name">Javier Osorio</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/elijah-moon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Moon-Elijah-Cane-720x480.webp" alt="Elijah Moon"><div class="name">Elijah Moon</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jastanford-mattox-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Mattox-Jastanford-Lynndricke-720x480.webp" alt="Jastanford Mattox"><div class="name">Jastanford Mattox</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/chelsea-langston-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Langston-Chelsea-Montana-720x480.webp" alt="Chelsea Langston"><div class="name">Chelsea Langston</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/shaedrika-hickman-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hickman-Shaedrika-Annitrice-720x480.webp" alt="Shaedrika Hickman"><div class="name">Shaedrika Hickman</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/broderick-gunter-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Gunter-Broderick-Gene-720x480.webp" alt="Broderick Gunter"><div class="name">Broderick Gunter</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/chad-brown-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Brown-Chad-Mathew-720x480.webp" alt="Chad Brown"><div class="name">Chad Brown</div></a>
+<div class="reason">08/02/2024 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSMARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/johnny-story-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Story-Johnny-Eugene-2-720x480.webp" alt="Johnny Story"><div class="name">Johnny Story</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ricky-starrett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Starrett-Ricky-Lewis-720x480.webp" alt="Ricky Starrett"><div class="name">Ricky Starrett</div></a>
+<div class="reason">08/02/2024 | CONTEMPT OF SUPERIOR COURT-CHILD SUPPORTPROBATION VIOLATION POSS METH W/ INTENT, DRUG-RELATED OBJECT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/omar-smith-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Smith-Omar-Rashad-720x480.webp" alt="Omar Smith"><div class="name">Omar Smith</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amy-miller-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Miller-Amy-Nellieoreed-720x480.webp" alt="Amy Miller"><div class="name">Amy Miller</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/bennie-mcintosh-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/McIntosh-Jr-Bennie-Richard-720x480.webp" alt="Bennie McIntosh"><div class="name">Bennie McIntosh</div></a>
+<div class="reason">08/02/2024 | FAILURE TO APPEAR DEPOSIT ACCOUNT FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-manley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Manley-James-Foster-720x480.webp" alt="James Manley"><div class="name">James Manley</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marcus-lewis-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Lewis-Marcus-Justin-720x480.webp" alt="Marcus Lewis"><div class="name">Marcus Lewis</div></a>
+<div class="reason">08/03/2024 | AGGRAVATED STALKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/april-lee-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Lee-April-Dawn-720x480.webp" alt="April Lee"><div class="name">April Lee</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/terrence-huff-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Huff-Terrence-Lavak-720x480.webp" alt="Terrence Huff"><div class="name">Terrence Huff</div></a>
+<div class="reason">08/02/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICERLIGHTED HEADLIGHTS REQUIRED AT CERTAIN TIMES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joshua-harkcom-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Harkcom-Joshua-Wayne-720x480.webp" alt="Joshua Harkcom"><div class="name">Joshua Harkcom</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN CO SO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-hammond-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hammond-James-Asbury-720x480.webp" alt="James Hammond"><div class="name">James Hammond</div></a>
+<div class="reason">08/04/2024 | BATTERY.CRIMINAL TRESPASSNEGLECT OF A DISABLED ADULT, ELDER PERSON, OR RESIDENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/edgardo-gonzalez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Gonzalez-Edgardo-Valle-720x480.webp" alt="Edgardo Gonzalez"><div class="name">Edgardo Gonzalez</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kristi-chamlee-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Chamlee-Kristi-Pearson-720x480.webp" alt="Kristi Chamlee"><div class="name">Kristi Chamlee</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/michael-bryant-31/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Bryant-Michael-Lynn-720x480.webp" alt="Michael Bryant"><div class="name">Michael Bryant</div></a>
+<div class="reason">08/04/2024 | HOUSED FOR FRANKLIN COUNTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/misty-white/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/White-Misty-Dawn-720x480.webp" alt="Misty White"><div class="name">Misty White</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/crystal-pilgrim/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Pilgrim-Crystal-Dale-720x480.webp" alt="Crystal Pilgrim"><div class="name">Crystal Pilgrim</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/julie-mcguire/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/McGuire-Julie-Ellen-720x480.webp" alt="Julie McGuire"><div class="name">Julie McGuire</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brady-williams-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Williams-Brady-Miles-720x480.webp" alt="Brady Williams"><div class="name">Brady Williams</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/shaun-mcmillan-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/McMillan-Shaun-Michael-720x480.webp" alt="Shaun McMillan"><div class="name">Shaun McMillan</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/donovan-mallard-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Mallard-Donovan-Tomenski-1-720x480.webp" alt="Donovan Mallard"><div class="name">Donovan Mallard</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brent-ledford-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Ledford-Brent-James-720x480.webp" alt="Brent Ledford"><div class="name">Brent Ledford</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/kimberly-huff-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Huff-Kimberly-Dawn-720x480.webp" alt="Kimberly Huff"><div class="name">Kimberly Huff</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/saphelle-daniel-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Daniel-Saphelle-Alonzo-720x480.webp" alt="Saphelle Daniel"><div class="name">Saphelle Daniel</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/nathan-chitwood-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Chitwood-Nathan-Owen-720x480.webp" alt="Nathan Chitwood"><div class="name">Nathan Chitwood</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/wildarius-bowman-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Bowman-Wildarius-Keyshawn-720x480.webp" alt="Wildarius Bowman"><div class="name">Wildarius Bowman</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jeremy-manning-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Manning-Jeremy-Mark-720x480.webp" alt="Jeremy Manning"><div class="name">Jeremy Manning</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/brian-dailey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Dailey-Brian-Keith-720x480.webp" alt="Brian Dailey"><div class="name">Brian Dailey</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ronald-woolwine/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Woolwine-Ronald-Lee-720x480.webp" alt="Ronald Woolwine"><div class="name">Ronald Woolwine</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/rickey-verhine-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Verhine-Rickey-Keith-720x480.webp" alt="Rickey Verhine"><div class="name">Rickey Verhine</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ricardo-stowers-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Stowers-Ricardo-Dequan-720x480.webp" alt="Ricardo Stowers"><div class="name">Ricardo Stowers</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/erin-spears-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Spears-Erin-Davis-720x480.webp" alt="Erin Spears"><div class="name">Erin Spears</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/javier-osorio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Osorio-Javier-720x480.webp" alt="Javier Osorio"><div class="name">Javier Osorio</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/elijah-moon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Moon-Elijah-Cane-720x480.webp" alt="Elijah Moon"><div class="name">Elijah Moon</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jastanford-mattox-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Mattox-Jastanford-Lynndricke-720x480.webp" alt="Jastanford Mattox"><div class="name">Jastanford Mattox</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/chelsea-langston-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Langston-Chelsea-Montana-720x480.webp" alt="Chelsea Langston"><div class="name">Chelsea Langston</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/shaedrika-hickman-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hickman-Shaedrika-Annitrice-720x480.webp" alt="Shaedrika Hickman"><div class="name">Shaedrika Hickman</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/broderick-gunter-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Gunter-Broderick-Gene-720x480.webp" alt="Broderick Gunter"><div class="name">Broderick Gunter</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-green-30/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Green-James-William-720x480.webp" alt="James Green"><div class="name">James Green</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/diego-corio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Corio-Diego-Raymundo-720x480.webp" alt="Diego Corio"><div class="name">Diego Corio</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/james-boles-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Boles-James-Allen-1-720x480.webp" alt="James Boles"><div class="name">James Boles</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/hunter-beard-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Beard-Hunter-Kelton-720x480.webp" alt="Hunter Beard"><div class="name">Hunter Beard</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/chad-beam/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Beam-Chad-Jenkins-720x480.webp" alt="Chad Beam"><div class="name">Chad Beam</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/waltavious-allen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Allen-Waltavious-CoVonte-720x480.webp" alt="Waltavious Allen"><div class="name">Waltavious Allen</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/butler-webb/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Webb-Butler-Lanier-720x480.webp" alt="Butler Webb"><div class="name">Butler Webb</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/lois-sorrow-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Sorrow-Lois-Elizabeth-720x480.webp" alt="Lois Sorrow"><div class="name">Lois Sorrow</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/austin-johnson-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Johnson-Austin-Lee-720x480.webp" alt="Austin Johnson"><div class="name">Austin Johnson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ellis-hunter-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hunter-Ellis-Tramaine-1-720x480.webp" alt="Ellis Hunter"><div class="name">Ellis Hunter</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/nicholas-brown-33/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Brown-Nicholas-Gregory-720x480.webp" alt="Nicholas Brown"><div class="name">Nicholas Brown</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/francisco-sebastian-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Sebastian-Francisco-720x480.webp" alt="Francisco Sebastian"><div class="name">Francisco Sebastian</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ayana-morrison-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Morrison-Ayana-Jaquai-720x480.webp" alt="Ayana Morrison"><div class="name">Ayana Morrison</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/chaderick-mccord-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/McCord-Chaderick-Lee-720x480.webp" alt="Chaderick McCord"><div class="name">Chaderick McCord</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/anthony-marsingill-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Marsingill-Anthony-Scott-720x480.webp" alt="Anthony Marsingill"><div class="name">Anthony Marsingill</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ellis-hunter-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hunter-Ellis-Tramaine-720x480.webp" alt="Ellis Hunter"><div class="name">Ellis Hunter</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/joseph-graham-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Graham-Joseph-Andrew-720x480.webp" alt="Joseph Graham"><div class="name">Joseph Graham</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/patrick-donovan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Donovan-Patrick-Eamonn-720x480.webp" alt="Patrick Donovan"><div class="name">Patrick Donovan</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/vonnie-beck/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Beck-Vonnie-720x480.webp" alt="Vonnie Beck"><div class="name">Vonnie Beck</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/tevin-alexander-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Alexander-Tevin-Blake-720x480.webp" alt="Tevin Alexander"><div class="name">Tevin Alexander</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/jamarcus-allen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Allen-Jamarcus-Dysha-720x480.webp" alt="Jamarcus Allen"><div class="name">Jamarcus Allen</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/codney-alexander-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Alexander-Codney-Jermaine-720x480.webp" alt="Codney Alexander"><div class="name">Codney Alexander</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/marquesh-winkfield-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Winkfield-Marquesh-Dejuan-720x480.webp" alt="Marquesh Winkfield"><div class="name">Marquesh Winkfield</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ben-white-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/White-Ben-Allison-720x480.webp" alt="Ben White"><div class="name">Ben White</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/ryan-sweazey-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Sweazey-Ryan-Blake-720x480.webp" alt="Ryan Sweazey"><div class="name">Ryan Sweazey</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/hubert-pickens-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Pickens-Sr-Hubert-Clifford-720x480.webp" alt="Hubert Pickens"><div class="name">Hubert Pickens</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/clinton-miller-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Miller-Clinton-Patrick-720x480.webp" alt="Clinton Miller"><div class="name">Clinton Miller</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/lakeikus-harper-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Harper-Lakeikus-Charmez-720x480.webp" alt="Lakeikus Harper"><div class="name">Lakeikus Harper</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/amy-miller-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Miller-Amy-Nellieoreed-720x480.webp" alt="Amy Miller"><div class="name">Amy Miller</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/hart/scott-clay/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Clay-Scott-Michael-720x480.webp" alt="Scott Clay"><div class="name">Scott Clay</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+</div><div class="pagination"><a href="hart5.html">Next Page</a></div></body></html>

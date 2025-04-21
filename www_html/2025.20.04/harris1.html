@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/harris/teriyana-coley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Coley-Teriyana-Deshun-Marie.jpg" alt="Teriyana Coley"><div class="name">Teriyana Coley</div></a>
+<div class="reason">04/13/2025 | DUI - COMBINATION OF A1 & A5FOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/benny-dominy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Dominy-Benny-David.jpg" alt="Benny Dominy"><div class="name">Benny Dominy</div></a>
+<div class="reason">04/11/2025 | SIMPLE ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/samuel-gil-caceres/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Gil-Caceres-Samuel.jpg" alt="Samuel Gil Caceres"><div class="name">Samuel Gil Caceres</div></a>
+<div class="reason">04/11/2025 | TAILLIGHTS/LENSES REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/christopher-garner-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Garner-Christopher.jpg" alt="Christopher Garner"><div class="name">Christopher Garner</div></a>
+<div class="reason">04/11/2025 | STALKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/richard-heinze-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Heinze-Richard-Jerome.jpg" alt="Richard Heinze"><div class="name">Richard Heinze</div></a>
+<div class="reason">04/11/2025 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/leandro-salas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Salas-Leandro-Castillo.jpg" alt="Leandro Salas"><div class="name">Leandro Salas</div></a>
+<div class="reason">04/13/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kyntraveus-sutton-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Sutton-Kyntraveus-Jamal-1.jpg" alt="Kyntraveus Sutton"><div class="name">Kyntraveus Sutton</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/ginger-brown-findley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Brown-Findley-Ginger.jpg" alt="Ginger Brown-Findley"><div class="name">Ginger Brown-Findley</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tianna-fryerson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Fryerson-Tianna-Latresa.jpg" alt="Tianna Fryerson"><div class="name">Tianna Fryerson</div></a>
+<div class="reason">04/08/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/eric-waldon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Waldon-Eric-Lee.jpg" alt="Eric Waldon"><div class="name">Eric Waldon</div></a>
+<div class="reason">04/09/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/monica-parker-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Parker-Monica-Nicole.jpg" alt="Monica Parker"><div class="name">Monica Parker</div></a>
+<div class="reason">04/10/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/michell-watson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Watson-Michell-Lynn.jpg" alt="Michell Watson"><div class="name">Michell Watson</div></a>
+<div class="reason">04/08/2025 | PARTY TO A CRIME</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/denarrius-morgan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MORGAN-DENARRIUS-JAQUAY.jpg" alt="De’Narrius Morgan"><div class="name">De’Narrius Morgan</div></a>
+<div class="reason">04/04/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCETHEFT BY RECEIVING STOLEN PROPERTY - MISDEMEANORPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CER FELONIESSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jada-camp-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/CAMP-JADA-NEVAEH.jpg" alt="Jada Camp"><div class="name">Jada Camp</div></a>
+<div class="reason">04/06/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/demyion-daniel-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/DANIEL-DEMYION.jpg" alt="De’Myion Daniel"><div class="name">De’Myion Daniel</div></a>
+<div class="reason">04/04/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/gloria-moreno/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/MORENO-GLORIA.jpg" alt="Gloria Moreno"><div class="name">Gloria Moreno</div></a>
+<div class="reason">04/06/2025 | ARSON 1ST DEGREERECKLESS CONDUCT - 5 CountsCRUELTY TO CHILDRENCRUELTY TO CHILDRENCRUELTY TO CHILDRENCRUELTY TO CHILDRENCRIMINAL DAMAGE TO PROPERTY IN THE 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/cedric-adams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Adams-Cedric-Alonzo.jpg" alt="Cedric Adams"><div class="name">Cedric Adams</div></a>
+<div class="reason">04/02/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/william-hamby-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Hamby-William-D.jpg" alt="William Hamby"><div class="name">William Hamby</div></a>
+<div class="reason">04/01/2025 | THEFT BY DECEPTION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/sheila-holden-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Holden-Sheila-Kay.jpg" alt="Sheila Holden"><div class="name">Sheila Holden</div></a>
+<div class="reason">04/03/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/thomas-miller-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Miller-Thomas-Lee.jpg" alt="Thomas Miller"><div class="name">Thomas Miller</div></a>
+<div class="reason">03/31/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVING WHILE LICENSE SUSPENDEDWEAVING OVER ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/albert-martin-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Martin-Albert-Benzin.jpg" alt="Albert Martin"><div class="name">Albert Martin</div></a>
+<div class="reason">04/02/2025 | NO PROOF OF INSURANCEPOSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG-RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/heather-monk/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Monk-Heather-Kay.jpg" alt="Heather Monk"><div class="name">Heather Monk</div></a>
+<div class="reason">03/29/2025 | DUI - DRUGS LESS SAFEWEAVING OVER ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jabari-mccamey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/McCamey-Jabari-Tyee.jpg" alt="Jabari McCamey"><div class="name">Jabari McCamey</div></a>
+<div class="reason">03/29/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/johnathan-moore-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Moore-Johnathan-Lane.jpg" alt="Johnathan Moore"><div class="name">Johnathan Moore</div></a>
+<div class="reason">03/28/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/danielle-moore-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/04/Moore-Danielle-Lynn.jpg" alt="Danielle Moore"><div class="name">Danielle Moore</div></a>
+<div class="reason">03/28/2025 | THEFT BY TAKING - MISDEMEANORCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/fernando-perez-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/PEREZ-FERNANDO-AGUAZUL.jpg" alt="Fernando Perez"><div class="name">Fernando Perez</div></a>
+<div class="reason">03/27/2025 | FOLLOWING TOO CLOSELYDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/lorzie-meadows-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/MEADOWS-LORZIE.jpg" alt="Lorzie Meadows"><div class="name">Lorzie Meadows</div></a>
+<div class="reason">03/26/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/alvin-curry/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/CURRY-ALVIN-LEON.jpg" alt="Alvin Curry"><div class="name">Alvin Curry</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/alexia-crawford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/CRAWFORD-ALEXIA-SATCHEL.jpg" alt="Alexia Crawford"><div class="name">Alexia Crawford</div></a>
+<div class="reason">03/26/2025 | AGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kimani-copeland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/COPELAND-KIMANI.jpg" alt="Kimani Copeland"><div class="name">Kimani Copeland</div></a>
+<div class="reason">03/27/2025 | OBSTRUCTIONDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kimani-copeland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/COPELAND-KIMANI.jpg" alt="Kimani Copeland"><div class="name">Kimani Copeland</div></a>
+<div class="reason">03/27/2025 | OBSTRUCTIONDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jaidion-carreker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/CARREKER-JAIDION-QUONTA.jpg" alt="Jaidion Carreker"><div class="name">Jaidion Carreker</div></a>
+<div class="reason">03/26/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/marvin-bailey-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/BAILEY-MARVIN-WESLEY.jpg" alt="Marvin Bailey"><div class="name">Marvin Bailey</div></a>
+<div class="reason">03/24/2025 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG-RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/brad-abercrombie/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/ABERCROMBIE-BRAD-A.jpg" alt="Brad Abercrombie"><div class="name">Brad Abercrombie</div></a>
+<div class="reason">03/26/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/sarah-akerlund/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Akerlund-Sarah-Eve.jpg" alt="Sarah Akerlund"><div class="name">Sarah Akerlund</div></a>
+<div class="reason">03/21/2025 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/herlin-herrera-alaniz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Herrera-Alaniz-Herlin-Hebel.jpg" alt="Herlin Herrera Alaniz"><div class="name">Herlin Herrera Alaniz</div></a>
+<div class="reason">03/22/2025 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/sean-lyons-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Lyons-Sean-Robert.jpg" alt="Sean Lyons"><div class="name">Sean Lyons</div></a>
+<div class="reason">03/22/2025 | DUI - ALCOHOL 0.08 GM OR MORE,21 OR OVER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/camron-rosser-kimber-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Rosser-Kimber-Camron-Wayne.jpg" alt="Camron Rosser-Kimber"><div class="name">Camron Rosser-Kimber</div></a>
+<div class="reason">03/23/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/zachary-merriott-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Merriott-Zachary-Braden.jpg" alt="Zachary Merriott"><div class="name">Zachary Merriott</div></a>
+<div class="reason">03/21/2025 | DRIVING WHILE LICENSE SUSPENDEDFLEEING OR ATTEMPTING TO ELUDE POLICE OFFICERDRIVING ON WRONG SIDE OF ROADRECKLESS DRIVINGPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/bridgett-temmis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Temmis-Bridgett-Jamillya.jpg" alt="Bridgett Temmis"><div class="name">Bridgett Temmis</div></a>
+<div class="reason">03/22/2025 | DUI - COMBINATION OF A1 & A5WEAVING OVER ROADWAYSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/matthias-brooks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Brooks-Matthias.jpg" alt="Matthias Brooks"><div class="name">Matthias Brooks</div></a>
+<div class="reason">03/18/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/micheal-jones-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Jones-Micheal-Christopher.jpg" alt="Micheal Jones"><div class="name">Micheal Jones</div></a>
+<div class="reason">03/17/2025 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/malik-pope-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Pope-Malik-C.jpg" alt="Malik Pope"><div class="name">Malik Pope</div></a>
+<div class="reason">03/19/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/sherod-ellis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Ellis-Sherod-Eugene.jpg" alt="Sherod Ellis"><div class="name">Sherod Ellis</div></a>
+<div class="reason">03/13/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jamey-hilton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Hilton-Jamey-Ryan.jpg" alt="Jamey Hilton"><div class="name">Jamey Hilton</div></a>
+<div class="reason">03/10/2025 | BATTERYCRUELTY TO CHILDREN IN THE 3RD DEGREE 3RD OR SUBSEQUENT OFFENSEAGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/matthew-hawkins-brown/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Hawkins-Brown-Matthew-Verranzo.jpg" alt="Matthew Hawkins-Brown"><div class="name">Matthew Hawkins-Brown</div></a>
+<div class="reason">03/12/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/cordera-miles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Miles-Cordera-Marquett.jpg" alt="Cordera Miles"><div class="name">Cordera Miles</div></a>
+<div class="reason">03/16/2025 | FLEEING OR ATTEMPTING TO ELUDE POLICE OFFICERRECKLESS DRIVINGSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/christon-neal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Neal-Christon-Wamecus.jpg" alt="Christon Neal"><div class="name">Christon Neal</div></a>
+<div class="reason">03/10/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kimberly-roberts-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Roberts-Kimberly-Renee.jpg" alt="Kimberly Roberts"><div class="name">Kimberly Roberts</div></a>
+<div class="reason">03/10/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/da-west/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/WEST-DA-NAITYRESE.jpg" alt="Da West"><div class="name">Da West</div></a>
+<div class="reason">03/08/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/cory-trees/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/TREES-CORY-TYLER.jpg" alt="Cory Trees"><div class="name">Cory Trees</div></a>
+<div class="reason">03/09/2025 | DRIVING WHILE LICENSE SUSPENDEDTO FAST FOR CONDITIONSDRIVING ON WRONG SIDE OF ROADDUI - ALCOHOL LESS SAFEFLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICEROPERATION OF UNREGISTERED VEHICLE OR VEHICLE WITHOUT CURRENT LICENSE PLATE, REVALIDATION DECAL, OR COUNTY DECAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/demetris-robinson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/ROBINSON-DEMETRIS-D.jpg" alt="Demetris Robinson"><div class="name">Demetris Robinson</div></a>
+<div class="reason">03/09/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/fiera-moss-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/MOSS-FIERA-NYPORZIA-GABRIEL.jpg" alt="Fiera Moss"><div class="name">Fiera Moss</div></a>
+<div class="reason">03/08/2025 | DRIVING WHILE LICENSE SUSPENDEDFALSE STATMENTS OR WRITINGS TO AN OFFICERFAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jarniah-daniel-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DANIEL-JARNIAH-TREYVON.jpg" alt="Jarniah Daniel"><div class="name">Jarniah Daniel</div></a>
+<div class="reason">03/07/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/cory-trees/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/TREES-CORY-TYLER.jpg" alt="Cory Trees"><div class="name">Cory Trees</div></a>
+<div class="reason">03/09/2025 | DRIVING WHILE LICENSE SUSPENDEDTO FAST FOR CONDITIONSDRIVING ON WRONG SIDE OF ROADDUI - ALCOHOL LESS SAFEFLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICEROPERATION OF UNREGISTERED VEHICLE OR VEHICLE WITHOUT CURRENT LICENSE PLATE, REVALIDATION DECAL, OR COUNTY DECAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/fiera-moss-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/MOSS-FIERA-NYPORZIA-GABRIEL.jpg" alt="Fiera Moss"><div class="name">Fiera Moss</div></a>
+<div class="reason">03/08/2025 | DRIVING WHILE LICENSE SUSPENDEDFALSE STATMENTS OR WRITINGS TO AN OFFICERFAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jarniah-daniel-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DANIEL-JARNIAH-TREYVON.jpg" alt="Jarniah Daniel"><div class="name">Jarniah Daniel</div></a>
+<div class="reason">03/07/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/douglas-duke/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DUKE-DOUGLAS-JAMES.jpg" alt="Douglas Duke"><div class="name">Douglas Duke</div></a>
+<div class="reason">03/08/2025 | DUIPOSSESSION OF OPEN ALCOHOL CONTAINERWEAVING OVER ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/john-croker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/CROKER-JOHN-GABRIEL.jpg" alt="John Croker"><div class="name">John Croker</div></a>
+<div class="reason">03/07/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAIL TO RPT STRIKING FIXED OBJECTFAIL TO RPT STRIKING FIXED OBJECTFAIL TO RPT STRIKING FIXED OBJECT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/andrew-coleman-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Coleman-Andrew-James.jpg" alt="Andrew Coleman"><div class="name">Andrew Coleman</div></a>
+<div class="reason">03/03/2025 | DUI - COMBINATION OF A1 & A5POSSESSION OF OPEN ALCOHOL CONTAINERWEAVING OVER ROADWAYFAILURE TO OBEY STOP SIGN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/william-chentlen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Chentlen-William-Christen.jpg" alt="William Chentlen"><div class="name">William Chentlen</div></a>
+<div class="reason">03/06/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/brandi-debice-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Debice-Brandi-Nicole.jpg" alt="Brandi Debice"><div class="name">Brandi Debice</div></a>
+<div class="reason">03/03/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/denitha-floyd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Floyd-Denitha-Maria.jpg" alt="Denitha Floyd"><div class="name">Denitha Floyd</div></a>
+<div class="reason">03/04/2025 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/sheila-holden-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Holden-Sheila-Kay.jpg" alt="Sheila Holden"><div class="name">Sheila Holden</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/elohim-hill/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Hill-Elohim.jpg" alt="Elohim Hill"><div class="name">Elohim Hill</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/darius-mitchell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Mitchell-Darius-Lamar.jpg" alt="Darius Mitchell"><div class="name">Darius Mitchell</div></a>
+<div class="reason">03/04/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCECROSSING STATE/COUNTY GUARD LINES WITH WEAPONS, INTOXICANTS, DRUGS WITHOUT CONSENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/fiera-moss-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Moss-Fiera-Nyparzia.jpg" alt="Fiera Moss"><div class="name">Fiera Moss</div></a>
+<div class="reason">03/05/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/ronald-roe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Roe-Ronald-Scott.jpg" alt="Ronald Roe"><div class="name">Ronald Roe</div></a>
+<div class="reason">03/03/2025 | ILLEGAL POSSESSION OF CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF OPEN ALCOHOL CONTAINERSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)POSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESCRIMINAL USE OF AN ARTICLE WITH ALTERED ID MARK (OTHER...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/nigel-tucker-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Tucker-Nigel-Isaiah.jpg" alt="Nigel Tucker"><div class="name">Nigel Tucker</div></a>
+<div class="reason">03/05/2025 | ENTERING AUTOMOBILE OR OTHER MOTOR VEHICLE WITH INTENT TO COMMIT THEFT OR FECRIMINAL DAMAGE TO PROPERTY IN THE 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/patrick-stewart-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Stewart-Patrick-Lee.jpg" alt="Patrick Stewart"><div class="name">Patrick Stewart</div></a>
+<div class="reason">03/02/2025 | WEAVING OVER ROADWAYDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLPOSSESSION OF OPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/trevor-white-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/White-Trevor-Clay.jpg" alt="Trevor White"><div class="name">Trevor White</div></a>
+<div class="reason">03/01/2025 | AGGRAVATED ASSAULTEXPLOITATION AND INTIMIDATION OF DISABLED ADULTS, ELDER PERSONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/sherri-thomas-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Thomas-Sherri-Sha-Connie.jpg" alt="Sherri Thomas"><div class="name">Sherri Thomas</div></a>
+<div class="reason">02/28/2025 | KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRAWEAVING OVER ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/alyssa-boyer-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Boyer-Alyssa-Chantell.jpg" alt="Alyssa Boyer"><div class="name">Alyssa Boyer</div></a>
+<div class="reason">02/25/2025 | GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/patrick-chandler-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chandler-Patrick-Ray.jpg" alt="Patrick Chandler"><div class="name">Patrick Chandler</div></a>
+<div class="reason">02/25/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/benjamin-giordano-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Giordano-Benjamin-Michael.jpg" alt="Benjamin Giordano"><div class="name">Benjamin Giordano</div></a>
+<div class="reason">02/25/2025 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/dartavious-jones-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Dartavious-Marquez.jpg" alt="Dartavious Jones"><div class="name">Dartavious Jones</div></a>
+<div class="reason">02/24/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/javanti-holland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Holland-Javanti-Arkel.jpg" alt="Javanti Holland"><div class="name">Javanti Holland</div></a>
+<div class="reason">02/25/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/dustin-miller-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Miller-Dustin-Clayton.jpg" alt="Dustin Miller"><div class="name">Dustin Miller</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kizzy-quinn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Quinn-Kizzy-Augusta.jpg" alt="Kizzy Quinn"><div class="name">Kizzy Quinn</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/charles-owens-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Owens-Charles-Wade.jpg" alt="Charles Owens"><div class="name">Charles Owens</div></a>
+<div class="reason">02/24/2025 | OWNING, OPERATING OR CONDUCTING A CHOP SHOPREMOVAL OR FALSIFICATION OF MOTOR VEHICLE OR ENGINE IDENTIFICATION NUMBER WITH INTENT TO DEFRAUD-FELREMOVAL OR FALSIFICATION OF MOTOR VEHICLE OR ENGINE IDENTIFICATION NUMBER WITH INTENT TO DEFRAUD-FELBUY, SELL, ETC. MOTOR VEHICLE, OR PART WHICH SERIAL NUMBERS HAVE BEEN ALTERED TO CONCEAL...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jerry-scott-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Scott-Jerry-Arnold.jpg" alt="Jerry Scott"><div class="name">Jerry Scott</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jerald-tibbs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Tibbs-Jerald-Matthew.jpg" alt="Jerald Tibbs"><div class="name">Jerald Tibbs</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/xavier-brown-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BROWN-XAVIER-DE-NONTA.jpg" alt="Xavier Brown"><div class="name">Xavier Brown</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/joshua-oneal-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ONEAL-JOSHUA-CONTRELL.jpg" alt="Joshua Oneal"><div class="name">Joshua Oneal</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kaylin-bales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BALES-KAYLIN-SAVANNAH.jpg" alt="Kaylin Bales"><div class="name">Kaylin Bales</div></a>
+<div class="reason">02/21/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/ron-bryant-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bryant-Ron-Elliott.jpg" alt="Ron Bryant"><div class="name">Ron Bryant</div></a>
+<div class="reason">02/18/2025 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/shayla-bennett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bennett-Shayla-Dominique.jpg" alt="Shayla Bennett"><div class="name">Shayla Bennett</div></a>
+<div class="reason">02/17/2025 | TEXTING WHILE DRIVINGDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/dontavious-bunkley-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bunkley-Dontavious-Deandre.jpg" alt="Dontavious Bunkley"><div class="name">Dontavious Bunkley</div></a>
+<div class="reason">02/17/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tariq-fields-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fields-Tariq-Zahir.jpg" alt="Tariq Fields"><div class="name">Tariq Fields</div></a>
+<div class="reason">02/18/2025 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/brett-easler/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Easler-Brett-Allen.jpg" alt="Brett Easler"><div class="name">Brett Easler</div></a>
+<div class="reason">02/20/2025 | DUI – DRIVING UNDER THE INFLUENCE OF ALCOHOL – CONCENTRATION IS 0.08G OR MORE W 3 HRS OR MOREPOSSESSION OF OPEN ALCOHOL CONTAINERWEAVING OVER ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/margaret-richards-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Richards-Margaret-Ebony.jpg" alt="Margaret Richards"><div class="name">Margaret Richards</div></a>
+<div class="reason">02/17/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/trevon-taylor-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Taylor-Trevon-Lapreal.jpg" alt="Trevon Taylor"><div class="name">Trevon Taylor</div></a>
+<div class="reason">02/17/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/justin-ferguson-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/FERGUSON-JUSTIN-LEE.jpg" alt="Justin Ferguson"><div class="name">Justin Ferguson</div></a>
+<div class="reason">02/12/2025 | THEFT BY DECEPTION - FELONY - 30 Counts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/randy-nickerson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/NICKERSON-RANDY-LEON.jpg" alt="Randy Nickerson"><div class="name">Randy Nickerson</div></a>
+<div class="reason">02/13/2025 | GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/demetris-robinson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ROBINSON-DEMETRIS-DANYELL.jpg" alt="Demetris Robinson"><div class="name">Demetris Robinson</div></a>
+<div class="reason">02/13/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tyriq-wade-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WADE-TYRIQ-KHALIL.jpg" alt="Tyriq Wade"><div class="name">Tyriq Wade</div></a>
+<div class="reason">02/11/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jennifer-andre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Andre-Jennifer-Rose.jpg" alt="Jennifer Andre"><div class="name">Jennifer Andre</div></a>
+<div class="reason">02/07/2025 | DUI - COMBINATION OF A1 & A5</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/taylor-hamby/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hamby-Taylor-Nathaniel.jpg" alt="Taylor Hamby"><div class="name">Taylor Hamby</div></a>
+<div class="reason">02/09/2025 | TERRORISTIC THREATS AND ACTSSIMPLE BATTERY - FAMILY VIOLENCESIMPLE BATTERY - FAMILY VIOLENCEOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/shane-donovan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Donovan-Shane-Irvin.jpg" alt="Shane Donovan"><div class="name">Shane Donovan</div></a>
+<div class="reason">02/08/2025 | OPERATING BOAT W/OUT LIGHTS AT NIGHTOPERATING BOAT W/OUT PFD READILY ACCESS.OPERATION OF WATERCRAFT UNDER THE INFLUENCE OF ALCOHOL OR DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/gregory-moore-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Moore-Gregory-Alan.jpg" alt="Gregory Moore"><div class="name">Gregory Moore</div></a>
+<div class="reason">02/07/2025 | NO PROOF OF INSURANCEDRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/michael-kennedy-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kennedy-Michael-Bryan.jpg" alt="Michael Kennedy"><div class="name">Michael Kennedy</div></a>
+<div class="reason">02/08/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/cali-rosen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rosen-Cali-Mae.jpg" alt="Cali Rosen"><div class="name">Cali Rosen</div></a>
+<div class="reason">02/09/2025 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/gregory-moore-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Moore-Gregory-Alan.jpg" alt="Gregory Moore"><div class="name">Gregory Moore</div></a>
+<div class="reason">02/07/2025 | NO PROOF OF INSURANCEDRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/michael-kennedy-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kennedy-Michael-Bryan.jpg" alt="Michael Kennedy"><div class="name">Michael Kennedy</div></a>
+<div class="reason">02/08/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/cali-rosen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rosen-Cali-Mae.jpg" alt="Cali Rosen"><div class="name">Cali Rosen</div></a>
+<div class="reason">02/09/2025 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/raymond-watkins-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Watkins-Raymond-Torez.jpg" alt="Raymond Watkins"><div class="name">Raymond Watkins</div></a>
+<div class="reason">02/07/2025 | PEEPING TOM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/miracle-faye-baltimore/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Baltimore-Miracle-Faye-Verlow.jpg" alt="Miracle-Faye Baltimore"><div class="name">Miracle-Faye Baltimore</div></a>
+<div class="reason">02/04/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/john-garner-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Garner-John-Fitzgerald.jpg" alt="John Garner"><div class="name">John Garner</div></a>
+<div class="reason">02/06/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/earlene-mcfarland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McFarland-Earlene-Diana.jpg" alt="Earlene McFarland"><div class="name">Earlene McFarland</div></a>
+<div class="reason">02/04/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tristan-maddix-ham/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Maddix-Ham-Tristan-Cecil.jpg" alt="Tristan Maddix Ham"><div class="name">Tristan Maddix Ham</div></a>
+<div class="reason">02/04/2025 | AGGRAVATED BATTERYCRUELTY TO CHILDREN Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/gregory-shelton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shelton-Gregory-Jay.jpg" alt="Gregory Shelton"><div class="name">Gregory Shelton</div></a>
+<div class="reason">02/06/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG-RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tottiyana-moore/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Moore-Tottiyana-Lachelle.jpg" alt="Tottiyana Moore"><div class="name">Tottiyana Moore</div></a>
+<div class="reason">02/04/2025 | CRUELTY TO CHILDRENAGGRAVATED BATTERY Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/rodney-carter-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/CARTER-RODNEY-BERNARD.jpg" alt="Rodney Carter"><div class="name">Rodney Carter</div></a>
+<div class="reason">01/31/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jimmy-buchanan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BUCHANAN-JIMMY-LEWIS.jpg" alt="Jimmy Buchanan"><div class="name">Jimmy Buchanan</div></a>
+<div class="reason">01/31/2025 | ARSON - 1ST DEGREEARSON - 1ST DEGREEARSON - 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/wallace-copeland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/COPELAND-WALLACE-BERNARD.jpg" alt="Wallace Copeland"><div class="name">Wallace Copeland</div></a>
+<div class="reason">01/31/2025 | ARSON - 1ST DEGREEARSON - 1ST DEGREEARSON - 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/steven-haynie-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/HAYNIE-STEVEN-WILLIAM.jpg" alt="Steven Haynie"><div class="name">Steven Haynie</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/joseph-hefflin-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/HEFFLIN-JOSEPH.jpg" alt="Joseph Hefflin"><div class="name">Joseph Hefflin</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/justin-oliver-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/OLIVER-JUSTIN-KANE.jpg" alt="Justin Oliver"><div class="name">Justin Oliver</div></a>
+<div class="reason">02/02/2025 | IMPROPER LEFT OR RIGHT TURNDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/justin-johnson-50/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JOHNSON-JUSTIN-MONCHEZ.jpg" alt="Justin Johnson"><div class="name">Justin Johnson</div></a>
+<div class="reason">01/31/2025 | ARSON 1ST DEGREECONSPIRACY TO COMMIT A FELONYINSURANCE FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/shaikemia-owens-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/OWENS-SHAIKEMIA-SHANISE.jpg" alt="Shaikemia Owens"><div class="name">Shaikemia Owens</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/andrew-harbuck-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harbuck-Andrew-Alec.jpg" alt="Andrew Harbuck"><div class="name">Andrew Harbuck</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/crispin-hollis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hollis-Crispin-Nathaniel.jpg" alt="Crispin Hollis"><div class="name">Crispin Hollis</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/colton-jones-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Colton-Bradley.jpg" alt="Colton Jones"><div class="name">Colton Jones</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/anthony-thomas-51/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thomas-Anthony-Jermayne.jpg" alt="Anthony Thomas"><div class="name">Anthony Thomas</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/clinton-kelley-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kelley-Clinton-Joseph.jpg" alt="Clinton Kelley"><div class="name">Clinton Kelley</div></a>
+<div class="reason">01/30/2025 | RECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERPOSSESSION AND USE OF DRUG-RELATED OBJECTSPOSSESSION OF A SCHEDULE I OR II CONTROLLED SUBSTANCE WITH INTENT TO DISTRIBUTE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kaden-williams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Kaden-Vaughn.jpg" alt="Kaden Williams"><div class="name">Kaden Williams</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/anthony-thomas-51/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thomas-Anthony-Jermayne.jpg" alt="Anthony Thomas"><div class="name">Anthony Thomas</div></a>
+<div class="reason">01/27/2025 | DRIVER EXERCISE DUE CAREDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/clinton-kelley-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kelley-Clinton-Joseph.jpg" alt="Clinton Kelley"><div class="name">Clinton Kelley</div></a>
+<div class="reason">01/30/2025 | RECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERPOSSESSION AND USE OF DRUG-RELATED OBJECTSPOSSESSION OF A SCHEDULE I OR II CONTROLLED SUBSTANCE WITH INTENT TO DISTRIBUTE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kaden-williams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Kaden-Vaughn.jpg" alt="Kaden Williams"><div class="name">Kaden Williams</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/matttieva-taylor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Taylor-Matttieva-Ossienya.jpg" alt="Matttieva Taylor"><div class="name">Matttieva Taylor</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/cashmere-bullard-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bullard-Cashmere-Shavonstarr.jpg" alt="Cashmere Bullard"><div class="name">Cashmere Bullard</div></a>
+<div class="reason">01/24/2025 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/keevin-hudson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hudson-Keevin-Cortez.jpg" alt="Keevin Hudson"><div class="name">Keevin Hudson</div></a>
+<div class="reason">01/24/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/safonzo-garner-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Garner-Safonzo-Natshun.jpg" alt="Safonzo Garner"><div class="name">Safonzo Garner</div></a>
+<div class="reason">01/24/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/andre-murphy-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Murphy-Andre-Lavon.jpg" alt="Andre Murphy"><div class="name">Andre Murphy</div></a>
+<div class="reason">01/24/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tommy-rush-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Rush-Tommy.jpg" alt="Tommy Rush"><div class="name">Tommy Rush</div></a>
+<div class="reason">01/26/2025 | SIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/ellis-thomas-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Thomas-Ellis.jpg" alt="Ellis Thomas"><div class="name">Ellis Thomas</div></a>
+<div class="reason">01/24/2025 | Failure To Appear - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kenneth-taylor-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Taylor-Kenneth-Angelo.jpg" alt="Kenneth Taylor"><div class="name">Kenneth Taylor</div></a>
+<div class="reason">01/26/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/antoine-thorn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Thorn-Antoine-Boyea.jpg" alt="Antoine Thorn"><div class="name">Antoine Thorn</div></a>
+<div class="reason">01/26/2025 | DUI - COMBINATION OF A1 & A5POSSESSION OF OPEN ALCOHOL CONTAINER DRIVING WHILE LICENSE SUSPENDEDTAILLIGHTS/LENSES REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/prince-smith-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/SMITH-PRINCE-ANTHONY.jpg" alt="Prince Smith"><div class="name">Prince Smith</div></a>
+<div class="reason">01/22/2025 | CRIMINAL TRESPASS -FVA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/holly-hatchett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/HATCHETT-HOLLY-DIANE.jpg" alt="Holly Hatchett"><div class="name">Holly Hatchett</div></a>
+<div class="reason">01/21/2025 | WEAVING OVER ROADWAYDUI - COMBINATION OF A1 & A5</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/steven-mummert/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/MUMMERT-STEVEN-CHRISTOPHER.jpg" alt="Steven Mummert"><div class="name">Steven Mummert</div></a>
+<div class="reason">01/21/2025 | DUI - COMBINATION OF A1 & A5WEAVING OVER ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jeremiah-bridges-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BRIDGES-JEREMIAH-ANTWAN.jpg" alt="Jeremiah Bridges"><div class="name">Jeremiah Bridges</div></a>
+<div class="reason">01/23/2025 | HOME INVASIONAGGRAVATED ASSAULTAGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/eduardo-aguilar-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/AGUILAR-EDUARDO.jpg" alt="Eduardo Aguilar"><div class="name">Eduardo Aguilar</div></a>
+<div class="reason">01/21/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)NO PROOF OF INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kristy-atkins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Atkins-Kristy.jpg" alt="Kristy Atkins"><div class="name">Kristy Atkins</div></a>
+<div class="reason">01/19/2025 | FALSE IMPRISONMENTSIMPLE BATTERYSIMPLE ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/james-raymond-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Raymond-James-Deon.jpg" alt="James Raymond"><div class="name">James Raymond</div></a>
+<div class="reason">01/18/2025 | PURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANAPOSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCETAILLIGHTS/LENSES REQUIREDDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FLEEING OR ATTEMPTING TO ELUDE POLICE OFFICERABANDONMENT OF CERTAIN DANGEROUS DRUGS, POISONS, OR CONTROLLED SUBSTANCES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/dominique-lee-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lee-Dominique.jpg" alt="Dominique Lee"><div class="name">Dominique Lee</div></a>
+<div class="reason">01/17/2025 | FAILURE TO APPEAR - MISDEMEANORDRIVING WHILE LICENSE SUSPENDEDNO PROOF OF INSURANCEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/marquellis-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Williams-Marquellis-Jaquon.jpg" alt="Marquellis Williams"><div class="name">Marquellis Williams</div></a>
+<div class="reason">01/17/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/bianca-bailey-abner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bailey-Abner-Bianca-Lenora.jpg" alt="Bianca Bailey Abner"><div class="name">Bianca Bailey Abner</div></a>
+<div class="reason">01/17/2025 | HEADLIGHT REQUIREMENTSDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/angela-gaultney-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gaultney-Angela.jpg" alt="Angela Gaultney"><div class="name">Angela Gaultney</div></a>
+<div class="reason">01/17/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/justin-cleveland-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Cleveland-Justin-Andrew.jpg" alt="Justin Cleveland"><div class="name">Justin Cleveland</div></a>
+<div class="reason">01/18/2025 | PURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANAPOSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEABANDONMENT OF CERTAIN DANGEROUS DRUGS, POISONS, OR CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tracy-bryan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bryan-Tracy-Nicole.jpg" alt="Tracy Bryan"><div class="name">Tracy Bryan</div></a>
+<div class="reason">01/19/2025 | BATTERYCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/laquawn-davis-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Davis-Laquawn-Antonio.jpg" alt="Laquawn Davis"><div class="name">Laquawn Davis</div></a>
+<div class="reason">01/19/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jeffery-hightower-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hightower-Jeffery.jpg" alt="Jeffery Hightower"><div class="name">Jeffery Hightower</div></a>
+<div class="reason">01/17/2025 | CRIMINAL TRESPASSPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kimberly-threatt-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Threatt-Kimberly-Latrice.jpg" alt="Kimberly Threatt"><div class="name">Kimberly Threatt</div></a>
+<div class="reason">01/17/2025 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/patrick-williams-60/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Williams-Patrick-Donovan.jpg" alt="Patrick Williams"><div class="name">Patrick Williams</div></a>
+<div class="reason">01/19/2025 | BATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kalieb-barron-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Barron-Kalieb-Miquan.jpg" alt="Kalieb Barron"><div class="name">Kalieb Barron</div></a>
+<div class="reason">01/13/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/terrell-parks-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Parks-Terrell-Raeshun.jpg" alt="Terrell Parks"><div class="name">Terrell Parks</div></a>
+<div class="reason">01/13/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANORFAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/landon-miller-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Miller-Landon-Antonio.jpg" alt="Landon Miller"><div class="name">Landon Miller</div></a>
+<div class="reason">01/14/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/joshua-prather-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Prather-Joshua-Cordarrel-1.jpg" alt="Joshua Prather"><div class="name">Joshua Prather</div></a>
+<div class="reason">01/13/2025 | POSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESRECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERAGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/antonio-walker-33/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Walker-Antonio-Terrez.jpg" alt="Antonio Walker"><div class="name">Antonio Walker</div></a>
+<div class="reason">01/15/2025 | FAILURE TO OBEY STOP SIGNDUI - COMBINATION OF A1 & A5TAILLIGHTS/LENSES REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jillian-shannon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Shannon-Jillian-Davis.jpg" alt="Jillian Shannon"><div class="name">Jillian Shannon</div></a>
+<div class="reason">01/16/2025 | THEFT BY CONVERSION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/steven-haynie-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Haynie-Steven-William.jpg" alt="Steven Haynie"><div class="name">Steven Haynie</div></a>
+<div class="reason">01/12/2025 | CRIMINAL TRESPASS FVA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/ernesto-rivera-rodriguez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Rivera-Rodriguez-Ernesto.jpg" alt="Ernesto Rivera-Rodriguez"><div class="name">Ernesto Rivera-Rodriguez</div></a>
+<div class="reason">01/11/2025 | TERRORISTIC THREATS AND ACTSTERRORISTIC THREATS AND ACTSTERRORISTIC THREATS AND ACTSTERRORISTIC THREATS AND ACTSSIMPLE BATTERY - FAMILY VIOLENCESIMPLE BATTERY - FAMILY VIOLENCEOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jonathan-williams-69/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Williams-Jonathan-Kemis.jpg" alt="Jonathan Williams"><div class="name">Jonathan Williams</div></a>
+<div class="reason">01/10/2025 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/nahomie-dorval/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dorval-Nahomie.jpg" alt="Nahomie Dorval"><div class="name">Nahomie Dorval</div></a>
+<div class="reason">01/11/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/marvin-morales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Morales-Marvin.jpg" alt="Marvin Morales"><div class="name">Marvin Morales</div></a>
+<div class="reason">01/12/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/travis-talley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Talley-Travis-Derrell.jpg" alt="Travis Talley"><div class="name">Travis Talley</div></a>
+<div class="reason">01/10/2025 | THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/rodrick-coleman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Coleman-Rodrick-Demond.jpg" alt="Rodrick Coleman"><div class="name">Rodrick Coleman</div></a>
+<div class="reason">01/08/2025 | NO-TAGDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/marvin-morales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Morales-Marvin.jpg" alt="Marvin Morales"><div class="name">Marvin Morales</div></a>
+<div class="reason">01/12/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/travis-talley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Talley-Travis-Derrell.jpg" alt="Travis Talley"><div class="name">Travis Talley</div></a>
+<div class="reason">01/10/2025 | THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/rodrick-coleman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Coleman-Rodrick-Demond.jpg" alt="Rodrick Coleman"><div class="name">Rodrick Coleman</div></a>
+<div class="reason">01/08/2025 | NO-TAGDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/veronica-banks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Banks-Veronica-Denise.jpg" alt="Veronica Banks"><div class="name">Veronica Banks</div></a>
+<div class="reason">01/08/2025 | FAILURE TO APPEAR - MISDEMEANORDRIVING WHILE LICENSE SUSPENDEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/dakota-fuller-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Fuller-Dakota-Wayne.jpg" alt="Dakota Fuller"><div class="name">Dakota Fuller</div></a>
+<div class="reason">01/07/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/douglas-johnson-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-Douglas-Allan.jpg" alt="Douglas Johnson"><div class="name">Douglas Johnson</div></a>
+<div class="reason">01/09/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jose-gomez-morales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gomez-Morales-Jose.jpg" alt="Jose Gomez-Morales"><div class="name">Jose Gomez-Morales</div></a>
+<div class="reason">01/06/2025 | SIMPLE BATTERY - FAMILY VIOLENCERECKLESS CONDUCTINTERFERE W/CUSTODY (INTERSTATE, INTRASTATE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tyson-morris/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Morris-Tyson-John.jpg" alt="Tyson Morris"><div class="name">Tyson Morris</div></a>
+<div class="reason">01/06/2025 | DUI - COMBINATION OF A1 & A5WEAVING OVER ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/willie-jones-68/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jones-Willie-Frank-2.jpg" alt="Willie Jones"><div class="name">Willie Jones</div></a>
+<div class="reason">01/06/2025 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/andrew-parris-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Parris-Andrew-Trevon.jpg" alt="Andrew Parris"><div class="name">Andrew Parris</div></a>
+<div class="reason">01/09/2025 | DRIVING WHILE LICENSE SUSPENDEDFAILURE TO YIELD TO EMERGENCY VEHICLENO PROOF OF INSURANCEDRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/adam-sheppard-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Sheppard-Adam-Lamar.jpg" alt="Adam Sheppard"><div class="name">Adam Sheppard</div></a>
+<div class="reason">01/07/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/trevon-williams-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WILLIAMS-TREVON-DEVANTE.jpg" alt="Trevon Williams"><div class="name">Trevon Williams</div></a>
+<div class="reason">01/03/2025 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/macenta-stafford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/STAFFORD-MACENTA-JAMICHAEL.jpg" alt="Macenta Stafford"><div class="name">Macenta Stafford</div></a>
+<div class="reason">01/05/2025 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/siyoon-lee/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/LEE-SIYOON.jpg" alt="Siyoon Lee"><div class="name">Siyoon Lee</div></a>
+<div class="reason">01/05/2025 | FLEEING OR ATTEMPTING TO ELUDE POLICE OFFICERSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/andrew-lee-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/LEE-ANDREW-RICKEY.jpg" alt="Andrew Lee"><div class="name">Andrew Lee</div></a>
+<div class="reason">01/04/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jermaine-jones-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/JONES-JERMAINE-VANTREZ.jpg" alt="Jermaine Jones"><div class="name">Jermaine Jones</div></a>
+<div class="reason">01/03/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jafed-gonzalez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/GONZALEZ-JAFED-SALVADOR.jpg" alt="Jafed Gonzalez"><div class="name">Jafed Gonzalez</div></a>
+<div class="reason">01/04/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/shane-craft-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CRAFT-SHANE-A.jpg" alt="Shane Craft"><div class="name">Shane Craft</div></a>
+<div class="reason">01/03/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/lucas-da-costa-e-silva-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Da-Costa-E-Silva-Lucas-Schettini.jpg" alt="Lucas Da Costa E Silva"><div class="name">Lucas Da Costa E Silva</div></a>
+<div class="reason">12/30/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/andrew-foster-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Foster-Andrew-Dennis.jpg" alt="Andrew Foster"><div class="name">Andrew Foster</div></a>
+<div class="reason">01/02/2025 | OBSTRUCTION CITY ORDINANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/donnie-foster/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Foster-Donnie-Richard.jpg" alt="Donnie Foster"><div class="name">Donnie Foster</div></a>
+<div class="reason">01/02/2025 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/ryan-jackson-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jackson-Ryan-Earl-1.jpg" alt="Ryan Jackson"><div class="name">Ryan Jackson</div></a>
+<div class="reason">12/30/2024 | CONTEMPT OF COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kalli-jones-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jones-Kalli-Brooke-1.jpg" alt="Kalli Jones"><div class="name">Kalli Jones</div></a>
+<div class="reason">12/31/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/lorenza-madden/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Madden-Lorenza-Davonta.jpg" alt="Lorenza Madden"><div class="name">Lorenza Madden</div></a>
+<div class="reason">12/31/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/ebonie-leonard-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Leonard-Ebonie-Andretta.jpg" alt="Ebonie Leonard"><div class="name">Ebonie Leonard</div></a>
+<div class="reason">12/30/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE W 3 HRS OR MOREFAILURE TO MAINTAIN LANEIMPROPER U TURN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kirin-martin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Martin-Kirin-Grey.jpg" alt="Kirin Martin"><div class="name">Kirin Martin</div></a>
+<div class="reason">01/01/2025 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)WEAVING OVER ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/shabreka-milton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Milton-Shabreka-Laquisha.jpg" alt="Shabreka Milton"><div class="name">Shabreka Milton</div></a>
+<div class="reason">01/01/2025 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/joseph-norton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Norton-Joseph-Paul.jpg" alt="Joseph Norton"><div class="name">Joseph Norton</div></a>
+<div class="reason">01/02/2025 | CONVERSION OF PAYMENTS FOR REAL PROPERTY IMPROVEMENTSEXPLOITATION AND INTIMIDATION OF DISABLED ADULTS, ELDER PERSONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jeffery-sheppard-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Sheppard-Jeffery-Dennis.jpg" alt="Jeffery Sheppard"><div class="name">Jeffery Sheppard</div></a>
+<div class="reason">01/02/2025 | BURGLARY 2ND DEGREEBURGLARY 2ND DEGREEBURGLARY 2ND DEGREECRIMINAL TRESPASSCRIMINAL TRESPASSCRIMINAL TRESPASSCRIMINAL TRESPASSTHEFT BY TAKING - FELONYTHEFT BY TAKING - FELONYTHEFT BY TAKING - FELONYFALSE STATEMENTS OR WRITINGS; CONCEAL FACTS OR FRAUDULENT DOCUMENTS IN MATTERS OF GOVERNMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/terrance-woods-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Woods-Terrance-Tyrique.jpg" alt="Terrance Woods"><div class="name">Terrance Woods</div></a>
+<div class="reason">01/01/2025 | OBEY TRAFFIC CONTROL DEVICENO-TAGDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/caleb-smith-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Smith-Caleb-Powell-McLnnis.jpg" alt="Caleb Smith"><div class="name">Caleb Smith</div></a>
+<div class="reason">12/31/2024 | RECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERUNLAWFUL POSS OR USE OF WILDLIFE/UNLAWFUL CONCEALMENTTAKING OVER THE SEASON LIMIT OF ANTLER DEERRECORDING REQUIREMENTS FOR GAME ANIMALS AND BIRDS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/john-yarbrough-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Yarbrough-John-Markeith.jpg" alt="John Yarbrough"><div class="name">John Yarbrough</div></a>
+<div class="reason">12/31/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/evan-chen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CHEN-EVAN-MICHAEL.jpg" alt="Evan Chen"><div class="name">Evan Chen</div></a>
+<div class="reason">12/27/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tanasha-walker-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WALKER-TANASHA-JARCORA.jpg" alt="Tanasha Walker"><div class="name">Tanasha Walker</div></a>
+<div class="reason">12/28/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jezebel-brown-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-JEZEBEL-1.jpg" alt="Jezebel Brown"><div class="name">Jezebel Brown</div></a>
+<div class="reason">12/27/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/robert-vaughn-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VAUGHN-ROBERT.jpg" alt="Robert Vaughn"><div class="name">Robert Vaughn</div></a>
+<div class="reason">12/26/2024 | RECKLESS DRIVINGDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FLEEING OR ATTEMPTING TO ELUDE POLICE OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jermaine-mccoy-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MCCOY-JERMAINE-EDWARD.jpg" alt="Jermaine McCoy"><div class="name">Jermaine McCoy</div></a>
+<div class="reason">12/26/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/benny-matney-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MATNEY-BENNY-LEE.jpg" alt="Benny Matney"><div class="name">Benny Matney</div></a>
+<div class="reason">12/26/2024 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jaela-harvey-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HARVEY-JAELA-NICOLE.jpg" alt="Jaela Harvey"><div class="name">Jaela Harvey</div></a>
+<div class="reason">12/23/2024 | FAILURE TO APPEAR - MISDEMEANORBAIL JUMPING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/britt-dowda-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DOWDA-BRITT-COLE.jpg" alt="Britt Dowda"><div class="name">Britt Dowda</div></a>
+<div class="reason">12/26/2024 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/taiya-bell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BELL-TAIYA-NIOMI.jpg" alt="Taiya Bell"><div class="name">Taiya Bell</div></a>
+<div class="reason">12/25/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/rickey-anderson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ANDERSON-RICKEY-LYNN.jpg" alt="Rickey Anderson"><div class="name">Rickey Anderson</div></a>
+<div class="reason">12/21/2024 | NO TAGDRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/britt-dowda-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DOWDA-BRITT-COLE.jpg" alt="Britt Dowda"><div class="name">Britt Dowda</div></a>
+<div class="reason">12/26/2024 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/taiya-bell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BELL-TAIYA-NIOMI.jpg" alt="Taiya Bell"><div class="name">Taiya Bell</div></a>
+<div class="reason">12/25/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/rickey-anderson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ANDERSON-RICKEY-LYNN.jpg" alt="Rickey Anderson"><div class="name">Rickey Anderson</div></a>
+<div class="reason">12/21/2024 | NO TAGDRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/damon-biggers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BIGGERS-DAMON-JERMAINE.jpg" alt="Damon Biggers"><div class="name">Damon Biggers</div></a>
+<div class="reason">12/21/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/corey-jordan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JORDAN-COREY-JAMES.jpg" alt="Corey Jordan"><div class="name">Corey Jordan</div></a>
+<div class="reason">12/22/2024 | THEFT OF LOST/MISLAID PROPERTY - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/brian-carroll-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CARROLL-BRIAN-CHRISTOPHER.jpg" alt="Brian Carroll"><div class="name">Brian Carroll</div></a>
+<div class="reason">12/22/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/alyse-madden/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MADDEN-ALYSE-CHAMIL.jpg" alt="Alyse Madden"><div class="name">Alyse Madden</div></a>
+<div class="reason">12/20/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jalen-nettles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/NETTLES-JALEN-MALAAN.jpg" alt="Jalen Nettles"><div class="name">Jalen Nettles</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/eric-williams-81/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-ERIC-TRAVETO.jpg" alt="Eric Williams"><div class="name">Eric Williams</div></a>
+<div class="reason">12/22/2024 | RECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/gabrielle-reinhardt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/REINHARDT-GABRIELLE-ELIZABETH.jpg" alt="Gabrielle Reinhardt"><div class="name">Gabrielle Reinhardt</div></a>
+<div class="reason">12/22/2024 | BURGLARYCRIMINAL DAMAGE TO PROPERTY IN THE 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/joshua-frederick-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Frederick-Joshua-Alan-1.jpg" alt="Joshua Frederick"><div class="name">Joshua Frederick</div></a>
+<div class="reason">12/16/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/cory-haywood/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Haywood-Cory-James.jpg" alt="Cory Haywood"><div class="name">Cory Haywood</div></a>
+<div class="reason">12/16/2024 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORPOSSESSION AND USE OF DRUG-RELATED OBJECTSDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/samuel-mitchell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mitchell-Samuel-Kamalii.jpg" alt="Samuel Mitchell"><div class="name">Samuel Mitchell</div></a>
+<div class="reason">12/16/2024 | DUI - ALCOHOL 0.08 GM OR MORE,21 OR OVERSEAT BELT VIOLATIONSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVER EXERCISE DUE CARE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/frankie-larson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Larson-Frankie.jpg" alt="Frankie Larson"><div class="name">Frankie Larson</div></a>
+<div class="reason">12/16/2024 | RECKLESS CONDUCTPOINTING OR AIMING GUN OR PISTOL AT ANOTHER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/michael-henderson-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Henderson-Michael-Aaron.jpg" alt="Michael Henderson"><div class="name">Michael Henderson</div></a>
+<div class="reason">12/19/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tequira-porter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Porter-Tequira-Valshene-1.jpg" alt="Tequira Porter"><div class="name">Tequira Porter</div></a>
+<div class="reason">12/19/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/eranest-moss-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Moss-Eranest-Deon.jpg" alt="Eranest Moss"><div class="name">Eranest Moss</div></a>
+<div class="reason">12/19/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jeffeory-reames-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Reames-Jeffeory-Durand.jpg" alt="Jeffeory Reames"><div class="name">Jeffeory Reames</div></a>
+<div class="reason">12/17/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/ebony-warren-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Warren-Ebony-Nicole-1.jpg" alt="Ebony Warren"><div class="name">Ebony Warren</div></a>
+<div class="reason">12/16/2024 | FAILURE TO APPEAR - MISDEMEANORDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tiffany-chambliss/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Chambliss-Tiffany-Machelle.jpg" alt="Tiffany Chambliss"><div class="name">Tiffany Chambliss</div></a>
+<div class="reason">12/14/2024 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/anthony-gibbs-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gibbs-Anthony-Dylan.jpg" alt="Anthony Gibbs"><div class="name">Anthony Gibbs</div></a>
+<div class="reason">12/14/2024 | NO PROOF OF INSURANCEDRIVING WHILE LICENSE SUSPENDEDKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRAILLEGAL POSSESSION OF CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG-RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/brandon-hill-33/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hill-Brandon-Dantwon.jpg" alt="Brandon Hill"><div class="name">Brandon Hill</div></a>
+<div class="reason">12/13/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kristin-redd-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Redd-Kristin-Renee.jpg" alt="Kristin Redd"><div class="name">Kristin Redd</div></a>
+<div class="reason">12/14/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYPOSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPRESCRIPTION DRUGS MUST BE IN THEIR ORIGINAL CONTAINER(S)ILLEGAL POSSESSION OF CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/brandon-jackson-48/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jackson-Brandon-James.jpg" alt="Brandon Jackson"><div class="name">Brandon Jackson</div></a>
+<div class="reason">12/14/2024 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/brandon-hill-33/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hill-Brandon-Dantwon.jpg" alt="Brandon Hill"><div class="name">Brandon Hill</div></a>
+<div class="reason">12/13/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kristin-redd-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Redd-Kristin-Renee.jpg" alt="Kristin Redd"><div class="name">Kristin Redd</div></a>
+<div class="reason">12/14/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYPOSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPRESCRIPTION DRUGS MUST BE IN THEIR ORIGINAL CONTAINER(S)ILLEGAL POSSESSION OF CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/brandon-jackson-48/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jackson-Brandon-James.jpg" alt="Brandon Jackson"><div class="name">Brandon Jackson</div></a>
+<div class="reason">12/14/2024 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/thaddeus-todd-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Todd-Thaddeus-Thamond.jpg" alt="Thaddeus Todd"><div class="name">Thaddeus Todd</div></a>
+<div class="reason">12/15/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/mannquil-davenport-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DAVENPORT-MANNQUIL-LAQUAN-1.jpg" alt="Mannquil Davenport"><div class="name">Mannquil Davenport</div></a>
+<div class="reason">12/09/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/marcus-cotney-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COTNEY-MARCUS-DILLON.jpg" alt="Marcus Cotney"><div class="name">Marcus Cotney</div></a>
+<div class="reason">12/11/2024 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/raymond-watkins-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WATKINS-RAYMOND-TOREZ.jpg" alt="Raymond Watkins"><div class="name">Raymond Watkins</div></a>
+<div class="reason">12/11/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kiara-west/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WEST-KIARA-NICOLE.jpg" alt="Kiara West"><div class="name">Kiara West</div></a>
+<div class="reason">12/10/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/toshia-wimberly-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WIMBERLY-TOSHIA-LATINA.jpg" alt="Toshia Wimberly"><div class="name">Toshia Wimberly</div></a>
+<div class="reason">12/10/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/kiondria-james/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JAMES-KIONDRIA-AYADA.jpg" alt="Kiondria James"><div class="name">Kiondria James</div></a>
+<div class="reason">12/07/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/norma-herrera-ramira/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HERRERA-RAMIRA-NORMA-PATRICIA.jpg" alt="Norma Herrera-Ramira"><div class="name">Norma Herrera-Ramira</div></a>
+<div class="reason">12/06/2024 | REMOVING OR AFFIXING LICENSE PLATE WITH INTENT TO CONCEAL OR MISREPRESENTNO PROOF OF INSURANCEDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jarquavious-jeff-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JEFF-JARQUAVIOUS-CORTEZ.jpg" alt="Jarquavious Jeff"><div class="name">Jarquavious Jeff</div></a>
+<div class="reason">12/06/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jamaal-scott-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SCOTT-JAMAAL-RASHAAD.jpg" alt="Jamaal Scott"><div class="name">Jamaal Scott</div></a>
+<div class="reason">12/08/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/charles-wooden-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WOODEN-CHARLES-KENZIE.jpg" alt="Charles Wooden"><div class="name">Charles Wooden</div></a>
+<div class="reason">12/08/2024 | DISORDERLY CONDUCTWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/janaya-banks-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BANKS-JANAYA-ELAINE.jpg" alt="Janaya Banks"><div class="name">Janaya Banks</div></a>
+<div class="reason">12/02/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/dyvionte-brooks-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROOKS-DYVIONTE-DELIQUE.jpg" alt="Dyvionte Brooks"><div class="name">Dyvionte Brooks</div></a>
+<div class="reason">12/02/2024 | INTERFERENCE WITH GOVERNMENT PROPERTY - FELONYDAMAGING, INJURING OR INTERFERING WITH PROPERTY OF PUBLIC UTILITY COMPANIESRECKLESS DRIVINGSPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FLEEING OR ATTEMPTING TO ELUDE POLICE OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/anthony-dowdell-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DOWDELL-ANTHONY-TERRELL.jpg" alt="Anthony Dowdell"><div class="name">Anthony Dowdell</div></a>
+<div class="reason">12/02/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/shyim-cunningham/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CUNNINGHAM-SHYIM-MALQUAN.jpg" alt="Shy’Im Cunningham"><div class="name">Shy’Im Cunningham</div></a>
+<div class="reason">12/04/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/tony-gray/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GRAY-TONY-JASON.jpg" alt="Tony Gray"><div class="name">Tony Gray</div></a>
+<div class="reason">12/04/2024 | THEFT BY DECEPTION - FELONYEXPLOITATION AND INTIMIDATION OF DISABLED ADULTS, ELDER PERSONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/deshanna-harris/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HARRIS-DESHANNA-SHANDREKA.jpg" alt="Deshanna Harris"><div class="name">Deshanna Harris</div></a>
+<div class="reason">12/04/2024 | DRIVING WHILE LICENSE SUSPENDEDNO PROOF OF INSURANCEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/octavius-hall-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HALL-OCTAVIUS-MARQUIS.jpg" alt="Octavius Hall"><div class="name">Octavius Hall</div></a>
+<div class="reason">12/03/2024 | UNLAWFUL TO POSSESS, CONTROL, MANUF., DELIVER, DISTRIBUTE, DISPENSE, ADMINISTER, PURCHASE, SELL, OR POSSESS W/INTENT TO DIST. MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/christian-mowers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MOWERS-CHRISTIAN-BLAKE.jpg" alt="Christian Mowers"><div class="name">Christian Mowers</div></a>
+<div class="reason">12/04/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/markell-lindsey-kelley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LINDSEY-KELLEY-MARKELL-TYVON.jpg" alt="Markell Lindsey Kelley"><div class="name">Markell Lindsey Kelley</div></a>
+<div class="reason">12/04/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)NO PROOF OF INSURANCEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/waldrop-samford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SAMFORD-WALDROP-ONEAL.jpg" alt="Waldrop Samford"><div class="name">Waldrop Samford</div></a>
+<div class="reason">12/04/2024 | FALSE IMPRISONMENTOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSFALSE IMPRISONMENTFALSE IMPRISONMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/jacoree-riggins-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RIGGINS-JACOREE-NAKIETH.jpg" alt="Jacoree Riggins"><div class="name">Jacoree Riggins</div></a>
+<div class="reason">12/02/2024 | FAILURE TO APPEAR - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/harris/michael-sims-38/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SIMS-MICHAEL-JAMAINE.jpg" alt="Michael Sims"><div class="name">Michael Sims</div></a>
+<div class="reason">12/04/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+</div><div class="pagination"><a href="harris2.html">Next Page</a></div></body></html>

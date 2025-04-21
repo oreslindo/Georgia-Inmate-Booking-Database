@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/miguel-alcaraz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Alcaraz-Miguel-Villa-720x480.jpg" alt="Miguel Alcaraz"><div class="name">Miguel Alcaraz</div></a>
+<div class="reason">09/13/2024 | NO VALID DRIVERS LICENSESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/anderson-becerra-garica/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Becerra-Garica-Anderson-Humberto-720x480.jpg" alt="Anderson Becerra-Garica"><div class="name">Anderson Becerra-Garica</div></a>
+<div class="reason">09/11/2024 | FAILURE TO DIM LIGHTSNO VALID DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/richard-howell-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Howell-Richard-Allen-720x480.jpg" alt="Richard Howell"><div class="name">Richard Howell</div></a>
+<div class="reason">09/12/2024 | FAILURE TO APPEAR - FELONYTHEFT BY TAKING - FELONYOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSOBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICERSPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESPOSSESSION AND USE...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/austin-giddens-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Giddens-Austin-Phillip-720x480.jpg" alt="Austin Giddens"><div class="name">Austin Giddens</div></a>
+<div class="reason">09/10/2024 | WINDOW, WINDSHIELD, OR WIPER VIOLATIONDRIVING WHILE LICENSE WITHDRAWNBRAKE LIGHT/TURN SIGNAL VIOLATIONPOSSESSION OF TOOLS FOR COMMISSION OF A CRIMEPOSSESSION AND USE OF DRUG RELATED OBJECTSCRIMINAL TRESPASSCRIMINAL TRESPASSCRIMINAL TRESPASSPOSSESSION OF TOOLS FOR COMMISSION OF A CRIMETHEFT BY RECEVING STOLEN PROPERTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/charla-durden-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Durden-Charla-Lewis-720x480.jpg" alt="Charla Durden"><div class="name">Charla Durden</div></a>
+<div class="reason">09/09/2024 | POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINEPOSSESSION OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/daniel-craft-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Craft-Daniel-William-720x480.jpg" alt="Daniel Craft"><div class="name">Daniel Craft</div></a>
+<div class="reason">09/10/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/chance-floyd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Floyd-Chance-Tucker-720x480.jpg" alt="Chance Floyd"><div class="name">Chance Floyd</div></a>
+<div class="reason">09/10/2024 | COUNTY ORDINANCE- DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/eddie-rouse-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Rouse-Eddie-Lee-720x480.jpg" alt="Eddie Rouse"><div class="name">Eddie Rouse</div></a>
+<div class="reason">09/06/2024 | SEX OFFENDER REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/cesar-ramonis-rodriguez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Ramonis-Rodriguez-Cesar-Ramon-720x480.jpg" alt="Cesar Ramonis-Rodriguez"><div class="name">Cesar Ramonis-Rodriguez</div></a>
+<div class="reason">09/07/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)TOO FAST FOR CONDITIONS/PRIMA FACIE SPEEDWINDOW TINT VIOLATIONRECKLESS DRIVINGNO VALID DRIVERS LICENSEFAILURE TO MAINTAIN LANEOPERATION OF UNREGISTERED VEHICLE OR VEHICLE WITHOUT CURRENT LICENSE PLATE, REVALIDATION DECAL, OR COUNTY DECAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/anol-oyuela-andino/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Oyuela-Andino-Anol-Dor-720x480.jpg" alt="Anol Oyuela-Andino"><div class="name">Anol Oyuela-Andino</div></a>
+<div class="reason">09/08/2024 | IMPEDING FLOW OF TRAFFICNO VALID DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/lee-levingston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Levingston-Lee-Willis-720x480.jpg" alt="Lee Levingston"><div class="name">Lee Levingston</div></a>
+<div class="reason">09/06/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/salia-holt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Holt-Salia-L-720x480.jpg" alt="Salia Holt"><div class="name">Salia Holt</div></a>
+<div class="reason">09/07/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)TOO FAST FOR CONDITIONS/PRIMA FACIE SPEEDWINDOW TINT VIOLATIONFOLLOWING TOO CLOSELYRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/daniel-goodermote/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Goodermote-Daniel-Duane-720x480.jpg" alt="Daniel Goodermote"><div class="name">Daniel Goodermote</div></a>
+<div class="reason">09/06/2024 | FAILURE TO OBEY STOP SIGNFAILURE TO SIGNAL LANE CHANGE OR TURNIMPROPER PASSING ON HILL/CURVEIMPROPER PASSING IN NO PASSING ZONETOO FAST FOR CONDITIONS/PRIMA FACIE SPEEDRECKLESS DRIVINGFLEEING OR ATTEMPTING TO ELUDE POLICE OFFICEROPERATION OF UNREGISTERED VEHICLE OR VEHICLE WITHOUT CURRENT LICENSE PLATE, REVALIDATION DECAL, OR COUNTY DECALREMOVING OR AFFIXING...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/aleisha-franco-udotong/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Franco-Udotong-Aleisha-P-720x480.jpg" alt="Aleisha Franco-Udotong"><div class="name">Aleisha Franco-Udotong</div></a>
+<div class="reason">09/08/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)HOLD FOR OUTSIDE AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/david-foster-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Foster-David-Brock-720x480.jpg" alt="David Foster"><div class="name">David Foster</div></a>
+<div class="reason">09/08/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/ronzy-echols-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Echols-Ronzy-Lee-720x480.jpg" alt="Ronzy Echols"><div class="name">Ronzy Echols</div></a>
+<div class="reason">09/07/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)WINDOW TINT VIOLATIONDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/skyler-baggs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Baggs-Skyler-Dae-720x480.jpg" alt="Skyler Baggs"><div class="name">Skyler Baggs</div></a>
+<div class="reason">09/06/2024 | HOLD FOR OUTSIDE AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/bobby-soles-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Soles-Bobby-Kenneth-720x480.jpg" alt="Bobby Soles"><div class="name">Bobby Soles</div></a>
+<div class="reason">09/08/2024 | COUNTY ORDINANCE- DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/amanda-rogers-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Rogers-Amanda-720x480.jpg" alt="Amanda Rogers"><div class="name">Amanda Rogers</div></a>
+<div class="reason">09/07/2024 | CRUELTY TO CHILDREN-DEPRIVATION OF NECESSARY SUSTENANCE 1ST DEGREERECKLESS CONDUCTABANDOMENT OF DEPENDENT CHILD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/lon-mccoy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/McCoy-Lon-Eric-720x480.jpg" alt="Lon McCoy"><div class="name">Lon McCoy</div></a>
+<div class="reason">09/08/2024 | COUNTY ORDINANCE- DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/larry-deason/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Deason-Larry-Eugene-720x480.jpg" alt="Larry Deason"><div class="name">Larry Deason</div></a>
+<div class="reason">09/06/2024 | CRIMINAL TRESPASSEXPLOIT/INFLICT PAIN TO/DEPRIVE ESSENTIAL SERVICES TO DISABLED PERSON, ELDER PERSON OR RESIDENTBURGLARYTERRORISTIC THREATS AND ACTSTERRORISTIC THREATS AND ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/charles-dozier-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Dozier-Charles-Owen-1-720x480.webp" alt="Charles Dozier"><div class="name">Charles Dozier</div></a>
+<div class="reason">09/05/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/timothy-little-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Little-Timothy-Blake-720x480.webp" alt="Timothy Little"><div class="name">Timothy Little</div></a>
+<div class="reason">09/05/2024 | CHILD SUPPORT - INCARCERATION ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/aron-smith-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Smith-Aron-Ramon-720x480.webp" alt="Aron Smith"><div class="name">Aron Smith</div></a>
+<div class="reason">09/04/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/paul-cerew/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Cerew-Paul-Christopher-720x480.webp" alt="Paul Cerew"><div class="name">Paul Cerew</div></a>
+<div class="reason">09/05/2024 | FINANCIAL IDENTITY THEFT WHEN USING ID OF PERSON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/brian-kockentiet-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Kockentiet-Brian-Lee-720x480.webp" alt="Brian Kockentiet"><div class="name">Brian Kockentiet</div></a>
+<div class="reason">09/03/2024 | BATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jaron-hollis-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hollis-Jaron-Terell-720x480.webp" alt="Jaron Hollis"><div class="name">Jaron Hollis</div></a>
+<div class="reason">09/03/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/dorothy-webber/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Webber-Dorothy-Jane-720x480.webp" alt="Dorothy Webber"><div class="name">Dorothy Webber</div></a>
+<div class="reason">08/29/2024 | THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/thomas-wasdin-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Wasdin-Thomas-R-720x480.webp" alt="Thomas Wasdin"><div class="name">Thomas Wasdin</div></a>
+<div class="reason">09/01/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/henry-mcwhirter/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/McWhirter-Henry-Walter-720x480.webp" alt="Henry McWhirter"><div class="name">Henry McWhirter</div></a>
+<div class="reason">09/02/2024 | FAILURE TO OBEY SIGNS OR CONTROL DEVICESDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/rachael-tomberlin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Tomberlin-Rachael-Dianne-720x480.webp" alt="Rachael Tomberlin"><div class="name">Rachael Tomberlin</div></a>
+<div class="reason">09/03/2024 | AGGRAVATED ASSAULTCRUELTY TO CHILDREN-DEPRIVATION OF NECESSARY SUSTENANCE 1ST DEGREE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/troy-hancock-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Hancock-Troy-Brian-720x480.webp" alt="Troy Hancock"><div class="name">Troy Hancock</div></a>
+<div class="reason">08/30/2024 | BENCH WARRANTDRIVING UNDER THE INFLUENCE LESS SAFE / DRUGSHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENTNO VALID DRIVERS LICENSEUNLAWFUL TO POSSESS CONTROL MANUF. DELIVER DIST. DISP PURCHASE OR SELL INTENT TO DIST. MARIJUANAPOSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEFOLLOWING TOO...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/amber-gallegly-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Gallegly-Amber-Marie-720x480.webp" alt="Amber Gallegly"><div class="name">Amber Gallegly</div></a>
+<div class="reason">09/02/2024 | AGGRAVATED ASSAULT (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/samuel-davis-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Davis-Samuel-Lewis-720x480.webp" alt="Samuel Davis"><div class="name">Samuel Davis</div></a>
+<div class="reason">08/30/2024 | HOLD FOR OUTSIDE AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/laqeisha-burns/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Burns-Laqeisha-Sharell-720x480.webp" alt="Laqeisha Burns"><div class="name">Laqeisha Burns</div></a>
+<div class="reason">08/31/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)CHILD OR YOUTH RESTRAINT NOT USED PROPERLYCHILD OR YOUTH RESTRAINT NOT USED PROPERLYCHILD OR YOUTH RESTRAINT NOT USED PROPERLYDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/james-brock-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/09/Brock-James-Derrick-720x480.webp" alt="James Brock"><div class="name">James Brock</div></a>
+<div class="reason">08/30/2024 | TAILLIGHTS / TAILLIGHT LENSES REQUIREDPOSSESSION OF OPEN ALCOHOL CONTAINERDRIVING UNDER THE INFLUENCE - ALCOHOLREFUSED TEST - IMPLIED CONSENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/joshua-byrd-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Byrd-Joshua-Aaron-720x480.webp" alt="Joshua Byrd"><div class="name">Joshua Byrd</div></a>
+<div class="reason">08/28/2024 | SEX OFFENDER REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jason-hewell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hewell-Jason-Lynn-720x480.jpg" alt="Jason Hewell"><div class="name">Jason Hewell</div></a>
+<div class="reason">08/27/2024 | IDENTITY FRAUDPOSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/audra-pierce-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Pierce-Audra-Joan-Giddens-720x480.webp" alt="Audra Pierce"><div class="name">Audra Pierce</div></a>
+<div class="reason">08/26/2024 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/alayia-arias/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Arias-Alayia-Gabrielle-720x480.webp" alt="Alayia Arias"><div class="name">Alayia Arias</div></a>
+<div class="reason">08/26/2024 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/monteigaus-tyler-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Tyler-Monteigaus-Santonio-720x480.webp" alt="Monteigaus Tyler"><div class="name">Monteigaus Tyler</div></a>
+<div class="reason">08/23/2024 | HOLD FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/john-green-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Green-John-Henry-720x480.webp" alt="John Green"><div class="name">John Green</div></a>
+<div class="reason">08/24/2024 | POSSESSION OF MARIJUANAWINDOW TINT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/bartez-clark-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Clark-Bartez-L-720x480.webp" alt="Bartez Clark"><div class="name">Bartez Clark</div></a>
+<div class="reason">08/23/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/colin-brooks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Brooks-Colin-720x480.webp" alt="Colin Brooks"><div class="name">Colin Brooks</div></a>
+<div class="reason">08/24/2024 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jordan-pittman-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Pittman-Jordan-Robert-720x480.webp" alt="Jordan Pittman"><div class="name">Jordan Pittman</div></a>
+<div class="reason">08/25/2024 | HIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENTFOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jordan-spann-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Spann-Jordan-Duane-720x480.webp" alt="Jordan Spann"><div class="name">Jordan Spann</div></a>
+<div class="reason">08/22/2024 | HOLD FOR COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/david-rippetoe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Rippetoe-David-Timothy-720x480.webp" alt="David Rippetoe"><div class="name">David Rippetoe</div></a>
+<div class="reason">08/21/2024 | DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/donavon-mccloud-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/McCloud-Donavon-720x480.webp" alt="Donavon McCloud"><div class="name">Donavon McCloud</div></a>
+<div class="reason">08/21/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/william-nasworthy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Nasworthy-William-Yankton-720x480.webp" alt="William Nasworthy"><div class="name">William Nasworthy</div></a>
+<div class="reason">08/20/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONYPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/cleiber-magdaleno-lara/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Magdaleno-Lara-Cleiber-Ismael-1-720x480.webp" alt="Cleiber Magdaleno-Lara"><div class="name">Cleiber Magdaleno-Lara</div></a>
+<div class="reason">08/14/2024 | NO VALID DRIVERS LICENSESPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/christen-jamison/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Jamison-Christen-Jane-1-720x480.webp" alt="Christen Jamison"><div class="name">Christen Jamison</div></a>
+<div class="reason">08/15/2024 | IMPROPER PASSING OF EMERGENCY VEHICLEOBSCURED OR MISSING LICENSE PLATEDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/evaristo-pacay-caal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Pacay-Caal-Evaristo-720x480.webp" alt="Evaristo Pacay Caal"><div class="name">Evaristo Pacay Caal</div></a>
+<div class="reason">08/19/2024 | IMPEDING FLOW OF TRAFFICNO VALID DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/andrew-lozano/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Lozano-Andrew-Ryan-720x480.webp" alt="Andrew Lozano"><div class="name">Andrew Lozano</div></a>
+<div class="reason">08/19/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)WINDOW TINT VIOLATIONRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/darrell-edwards-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Edwards-Darrell-Tunney-720x480.webp" alt="Darrell Edwards"><div class="name">Darrell Edwards</div></a>
+<div class="reason">08/19/2024 | THEFT BY RECEIVING STOLEN PROPERTYFALSIFICATION OF VIN OR REGISTRATION PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/maurice-watkins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Watkins-Maurice-D-720x480.webp" alt="Maurice Watkins"><div class="name">Maurice Watkins</div></a>
+<div class="reason">08/18/2024 | HOLD FOR OUTSIDE AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/bryce-ellison-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Ellison-Bryce-Thurmon-720x480.webp" alt="Bryce Ellison"><div class="name">Bryce Ellison</div></a>
+<div class="reason">08/16/2024 | FAILURE TO APPEAR - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/tramaine-basley-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Basley-Tramaine-720x480.webp" alt="Tramaine Basley"><div class="name">Tramaine Basley</div></a>
+<div class="reason">08/16/2024 | TAILLIGHTS / TAILLIGHT LENSES REQUIREDDRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/erica-basley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Basley-Erica-Nicole-720x480.webp" alt="Erica Basley"><div class="name">Erica Basley</div></a>
+<div class="reason">08/18/2024 | FAILURE TO MAINTAIN LANEHANDS FREE DEVICE REQUIREDDRIVING UNDER INFLUENCE DRUGS/ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/shaquavis-clark/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Clark-Shaquavis-Trantez-720x480.webp" alt="Shaquavis Clark"><div class="name">Shaquavis Clark</div></a>
+<div class="reason">08/18/2024 | COUNTY ORDINANCE- DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/harvey-barfield-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Barfield-Harvey-Richard-720x480.webp" alt="Harvey Barfield"><div class="name">Harvey Barfield</div></a>
+<div class="reason">08/16/2024 | COUNTY ORDINANCE- DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/amber-watkins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Watkins-Amber-Michelle-720x480.webp" alt="Amber Watkins"><div class="name">Amber Watkins</div></a>
+<div class="reason">08/13/2024 | HOUSED FOR OUTSIDE ANGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/wayne-lockett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Lockett-Wayne-720x480.webp" alt="Wayne Lockett"><div class="name">Wayne Lockett</div></a>
+<div class="reason">08/12/2024 | BATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/steven-todd-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Todd-Steven-James-720x480.webp" alt="Steven Todd"><div class="name">Steven Todd</div></a>
+<div class="reason">08/13/2024 | FAILURE TO REGISTER AS SEXOFFENDER/FAILURE TO COMPLY WITH REQUIREMENTS/PROVIDED FALSE INFORMATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/trevor-daniels/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Daniels-Trevor-Ashtonjoo-720x480.webp" alt="Trevor Daniels"><div class="name">Trevor Daniels</div></a>
+<div class="reason">08/12/2024 | SPEEDING IN EXCESS OF MAXIMUM LIMITS (STATE SPEED AND ZONE LIMITS)DRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/miguel-arcos-moreno/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Arcos-Moreno-Miguel-Angel-720x480.webp" alt="Miguel Arcos Moreno"><div class="name">Miguel Arcos Moreno</div></a>
+<div class="reason">08/12/2024 | WINDOW TINT VIOLATIONWINDOW TINT VIOLATIONNO VALID DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/flor-perez-soto/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Perez-Soto-Flor-Marlene-720x480.webp" alt="Flor Perez Soto"><div class="name">Flor Perez Soto</div></a>
+<div class="reason">08/11/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLFAILURE TO EXERCISE DUE CAREDRIVING WHILE LICENSE WITHDRAWNPOSSESSION OF OPEN ALCOHOL CONTAINERFAILURE TO MAINTAIN LANEDUI - CHILD ENDANGERMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/larry-sanders-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Sanders-Larry-720x480.webp" alt="Larry Sanders"><div class="name">Larry Sanders</div></a>
+<div class="reason">08/09/2024 | MANUFACTURE/DELIVER/DISTRIBUTE/ADMINISTER/SELL/POSSESS W/INTENT TO DISTRIBUTE CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/rosenberg-perez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Perez-Rosenberg-Santizo-720x480.webp" alt="Rosenberg Perez"><div class="name">Rosenberg Perez</div></a>
+<div class="reason">08/11/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLFAILURE TO MAINTAIN LANEDRIVING WHILE LICENSE WITHDRAWN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/unique-rouse/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Rouse-Unique-Keyonna-720x480.webp" alt="Unique Rouse"><div class="name">Unique Rouse</div></a>
+<div class="reason">08/06/2024 | HOLD FOR OUTSIDE AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jaron-hollis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hollis-Jaron-Terell-720x480.webp" alt="Jaron Hollis"><div class="name">Jaron Hollis</div></a>
+<div class="reason">08/06/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/peter-diehl-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Diehl-Peter-Alan-720x480.webp" alt="Peter Diehl"><div class="name">Peter Diehl</div></a>
+<div class="reason">08/05/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLNO VALID DRIVERS LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/tierra-turner-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Turner-Tierra-Rashon-720x480.webp" alt="Tierra Turner"><div class="name">Tierra Turner</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/robert-rogers-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Rogers-Robert-Allen-720x480.webp" alt="Robert Rogers"><div class="name">Robert Rogers</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/clayton-pender-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Pender-Clayton-Hubert-720x480.webp" alt="Clayton Pender"><div class="name">Clayton Pender</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/tonya-lumley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Lumley-Tonya-Michele-720x480.webp" alt="Tonya Lumley"><div class="name">Tonya Lumley</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/justin-johnson-36/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Johnson-Justin-Ray-720x480.webp" alt="Justin Johnson"><div class="name">Justin Johnson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/kirsten-hill/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hill-Kirsten-Nicole-720x480.webp" alt="Kirsten Hill"><div class="name">Kirsten Hill</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/bernard-hangi/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Hangi-Bernard-720x480.webp" alt="Bernard Hangi"><div class="name">Bernard Hangi</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/carlos-cotogno-suarez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Cotogno-Suarez-Carlos-Eduardo-720x480.webp" alt="Carlos Cotogno Suarez"><div class="name">Carlos Cotogno Suarez</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/franklin-cardona-aguilar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Cardona-Aguilar-Franklin-Danery-720x480.webp" alt="Franklin Cardona Aguilar"><div class="name">Franklin Cardona Aguilar</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/latravia-wilcher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Wilcher-Latravia-Shanqual-720x480.webp" alt="Latravia Wilcher"><div class="name">Latravia Wilcher</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/trenton-mallard-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Mallard-Trenton-Dean-720x480.webp" alt="Trenton Mallard"><div class="name">Trenton Mallard</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jerry-hampton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hampton-Jerry-720x480.webp" alt="Jerry Hampton"><div class="name">Jerry Hampton</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/pierre-frishner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Frishner-Pierre-720x480.webp" alt="Pierre Frishner"><div class="name">Pierre Frishner</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/michael-taylor-70/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Taylor-Michael-Vincent-720x480.webp" alt="Michael Taylor"><div class="name">Michael Taylor</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/braylon-shanks-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Shanks-Braylon-Allen-720x480.webp" alt="Braylon Shanks"><div class="name">Braylon Shanks</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/bayron-martinez-silva/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Martinez-Silva-Bayron-Ivan-720x480.webp" alt="Bayron Martinez Silva"><div class="name">Bayron Martinez Silva</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/shannon-hufstetler/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hufstetler-Shannon-Cole-720x480.webp" alt="Shannon Hufstetler"><div class="name">Shannon Hufstetler</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jakyra-green/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Green-Jakyra-Daniyel-720x480.webp" alt="Jakyra Green"><div class="name">Jakyra Green</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/katelin-freeman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Freeman-Katelin-Erin-720x480.webp" alt="Katelin Freeman"><div class="name">Katelin Freeman</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/angel-cruz-reyes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Cruz-Reyes-Angel-720x480.webp" alt="Angel Cruz Reyes"><div class="name">Angel Cruz Reyes</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/michael-clevenger/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Clevenger-Michael-Kyle-720x480.webp" alt="Michael Clevenger"><div class="name">Michael Clevenger</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/christian-burney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Burney-Christian-Blake-720x480.webp" alt="Christian Burney"><div class="name">Christian Burney</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/taranicka-vickers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Vickers-Taranicka-Symone-720x480.webp" alt="Taranicka Vickers"><div class="name">Taranicka Vickers</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/edwin-brown/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/08/Brown-Edwin-Thomas-720x480.webp" alt="Edwin Brown"><div class="name">Edwin Brown</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/tommy-walker-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Walker-Tommy-Lee-720x480.webp" alt="Tommy Walker"><div class="name">Tommy Walker</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/tykendrick-quainton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Quainton-Tykendrick-Malik-720x480.webp" alt="Tykendrick Quainton"><div class="name">Tykendrick Quainton</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/arieana-neda/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Neda-Arieana-720x480.webp" alt="Arieana Neda"><div class="name">Arieana Neda</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/carlon-moore/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Moore-Carlon-720x480.webp" alt="Carlon Moore"><div class="name">Carlon Moore</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jadarian-flowers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Flowers-Jadarian-Shamar-720x480.webp" alt="Jadarian Flowers"><div class="name">Jadarian Flowers</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/james-elvine/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Elvine-James-720x480.webp" alt="James Elvine"><div class="name">James Elvine</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/latesya-bryant/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Bryant-Latesya-Marjana-720x480.webp" alt="Latesya Bryant"><div class="name">Latesya Bryant</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/ignacio-balcazar-lucas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Balcazar-Lucas-Ignacio-Alexis-720x480.webp" alt="Ignacio Balcazar Lucas"><div class="name">Ignacio Balcazar Lucas</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/charvis-anderson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Anderson-Charvis-720x480.webp" alt="Charvis Anderson"><div class="name">Charvis Anderson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/james-jordan-47/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Jordan-James-P-720x480.webp" alt="James Jordan"><div class="name">James Jordan</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/lisa-boyd-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Boyd-Lisa-720x480.webp" alt="Lisa Boyd"><div class="name">Lisa Boyd</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/sherrie-sauls-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Sauls-Sherrie-Yvonne-720x480.jpg" alt="Sherrie Sauls"><div class="name">Sherrie Sauls</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/elimber-perez-velasquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Perez-Velasquez-Elimber-Yonatan-720x480.jpg" alt="Elimber Perez Velasquez"><div class="name">Elimber Perez Velasquez</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/christopher-llanos/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Llanos-Christopher-James-720x480.jpg" alt="Christopher Llanos"><div class="name">Christopher Llanos</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/layla-alfred/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Alfred-Layla-Rose-720x480.jpg" alt="Layla Alfred"><div class="name">Layla Alfred</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/billy-loftis-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Loftis-Billy-Jack-720x480.webp" alt="Billy Loftis"><div class="name">Billy Loftis</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/quwon-lawson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Lawson-Quwon-Shaminor-720x480.webp" alt="Quwon Lawson"><div class="name">Quwon Lawson</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/sequioa-butler-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Butler-Sequioa-720x480.webp" alt="Sequioa Butler"><div class="name">Sequioa Butler</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/keith-coney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Coney-Keith-Elliott-720x480.webp" alt="Keith Coney"><div class="name">Keith Coney</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/ruiz-gerardo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Gerardo-Ruiz-Reyes-720x480.webp" alt="Ruiz Gerardo"><div class="name">Ruiz Gerardo</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/carlos-lynch/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Lynch-Carlos-Antonio-720x480.webp" alt="Carlos Lynch"><div class="name">Carlos Lynch</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/kristen-wynne/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Wynne-Kristen-Joy-720x480.webp" alt="Kristen Wynne"><div class="name">Kristen Wynne</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/rogena-mathers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Mathers-Rogena-Kilman-720x480.webp" alt="Rogena Mathers"><div class="name">Rogena Mathers</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/gary-george-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/George-Gary-Leon-720x480.webp" alt="Gary George"><div class="name">Gary George</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/enrique-jimenez-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Jimenez-Enrique-Maldonado-720x480.webp" alt="Enrique Jimenez"><div class="name">Enrique Jimenez</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/curtis-sanders-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Sanders-Curtis-D-720x480.webp" alt="Curtis Sanders"><div class="name">Curtis Sanders</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/allen-smith-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Smith-Allen-W-720x480.webp" alt="Allen Smith"><div class="name">Allen Smith</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/alejandrino-juarez-salinas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Juarez-Salinas-Alejandrino-720x480.webp" alt="Alejandrino Juarez Salinas"><div class="name">Alejandrino Juarez Salinas</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/ramos-chappell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Chappell-Ramos-Derrell-720x480.webp" alt="Ramos Chappell"><div class="name">Ramos Chappell</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/damber-austin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Austin-DAmber-Yvonne-720x480.webp" alt="D’Amber Austin"><div class="name">D’Amber Austin</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/darrell-tinsley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Tinsley-Darrell-Dewayne-720x480.webp" alt="Darrell Tinsley"><div class="name">Darrell Tinsley</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/elliot-hendrix-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hendrix-Elliot-Clay-720x480.webp" alt="Elliot Hendrix"><div class="name">Elliot Hendrix</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/ronald-dixon-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Dixon-Ronald-720x480.webp" alt="Ronald Dixon"><div class="name">Ronald Dixon</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/sherry-dukes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Dukes-Sherry-Renee-720x480.webp" alt="Sherry Dukes"><div class="name">Sherry Dukes</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/anthony-buchanan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Buchanan-Anthony-Q-720x480.webp" alt="Anthony Buchanan"><div class="name">Anthony Buchanan</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jadaveon-jones-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Jones-Jadaveon-Alonzo-720x480.webp" alt="Jadaveon Jones"><div class="name">Jadaveon Jones</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/hannah-driggers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Driggers-Hannah-Caitlyn-720x480.webp" alt="Hannah Driggers"><div class="name">Hannah Driggers</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/lentrellis-stephens-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Stephens-Lentrellis-Jaquan-720x480.webp" alt="Lentrellis Stephens"><div class="name">Lentrellis Stephens</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/tommy-shine-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Shine-Tommy-Tommy-720x480.webp" alt="Tommy Shine"><div class="name">Tommy Shine</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jeffrey-rutledge-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Rutledge-Jeffrey-Ray-720x480.webp" alt="Jeffrey Rutledge"><div class="name">Jeffrey Rutledge</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/walter-lewis-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Lewis-Walter-720x480.webp" alt="Walter Lewis"><div class="name">Walter Lewis</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/angel-mercado-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Mercado-Angel-Daniel-720x480.webp" alt="Angel Mercado"><div class="name">Angel Mercado</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/darren-floyd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Floyd-Darren-720x480.webp" alt="Darren Floyd"><div class="name">Darren Floyd</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/michael-brown-140/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Brown-Michael-Willard-1-720x480.webp" alt="Michael Brown"><div class="name">Michael Brown</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/gregory-towns/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Towns-Gregory-720x480.webp" alt="Gregory Towns"><div class="name">Gregory Towns</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/tyler-sparrow/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Sparrow-Tyler-N-720x480.webp" alt="Tyler Sparrow"><div class="name">Tyler Sparrow</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/timothy-sparrow-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Sparrow-Timothy-Bruce-720x480.webp" alt="Timothy Sparrow"><div class="name">Timothy Sparrow</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/mathew-pippin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Pippin-Mathew-Wayne-720x480.webp" alt="Mathew Pippin"><div class="name">Mathew Pippin</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/audra-pierce-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Pierce-Audra-Joan-Giddens-720x480.webp" alt="Audra Pierce"><div class="name">Audra Pierce</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/david-hodges-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hodges-David-A-720x480.webp" alt="David Hodges"><div class="name">David Hodges</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/franklin-hartley-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hartley-Franklin-720x480.webp" alt="Franklin Hartley"><div class="name">Franklin Hartley</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/alisha-deshotel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Deshotel-Alisha-Lynn-720x480.webp" alt="Alisha Deshotel"><div class="name">Alisha Deshotel</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/nigel-bell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Bell-Nigel-Savon-720x480.webp" alt="Nigel Bell"><div class="name">Nigel Bell</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/cinthia-lucas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Lucas-Cinthia-720x480.webp" alt="Cinthia Lucas"><div class="name">Cinthia Lucas</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/junior-aguilar-garcia/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Aguilar-Garcia-Junior-Alexander-720x480.webp" alt="Junior Aguilar-Garcia"><div class="name">Junior Aguilar-Garcia</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/nicolas-cruz-giraldo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Cruz-Giraldo-Nicolas-720x480.webp" alt="Nicolas Cruz-Giraldo"><div class="name">Nicolas Cruz-Giraldo</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/todd-ward-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Ward-Todd-Lamanze-720x480.webp" alt="Todd Ward"><div class="name">Todd Ward</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/dmarques-watson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Watson-DMarques-Keon-720x480.jpg" alt="D’Marques Watson"><div class="name">D’Marques Watson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/malik-reeves/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Reeves-Malik-LeeSean-720x480.jpg" alt="Malik Reeves"><div class="name">Malik Reeves</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/edwarduo-mccluster-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/McCluster-Edwarduo-720x480.jpg" alt="Edwarduo McCluster"><div class="name">Edwarduo McCluster</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/kameron-jackson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Jackson-Kameron-Xavier-Touche-720x480.jpg" alt="Kameron Jackson"><div class="name">Kameron Jackson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/shavonne-hayes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Hayes-Shavonne-Nicole-720x480.jpg" alt="Shavonne Hayes"><div class="name">Shavonne Hayes</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/keith-wiggins-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Wiggins-Keith-720x480.webp" alt="Keith Wiggins"><div class="name">Keith Wiggins</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/michael-brown-138/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Brown-Michael-Willard-720x480.webp" alt="Michael Brown"><div class="name">Michael Brown</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/lashundra-mays-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Mays-Lashundra-Lachon-720x480.jpg" alt="Lashundra Mays"><div class="name">Lashundra Mays</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/heath-johnson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Johnson-Heath-Barron-720x480.jpg" alt="Heath Johnson"><div class="name">Heath Johnson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/robert-mcclinton-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/McClinton-Robert-Curry-720x480.webp" alt="Robert McClinton"><div class="name">Robert McClinton</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/bradrick-rawlings-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Rawlings-Bradrick-Rodrigues-720x480.webp" alt="Bradrick Rawlings"><div class="name">Bradrick Rawlings</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/malayzia-jackson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Jackson-Malayzia-Elizabeth-720x480.webp" alt="Malayzia Jackson"><div class="name">Malayzia Jackson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/gregorio-botello-acosta/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Botello-Acosta-Gregorio-720x480.webp" alt="Gregorio Botello Acosta"><div class="name">Gregorio Botello Acosta</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/courtlee-taner-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Taner-Courtlee-Wilton-720x480.webp" alt="Courtlee Taner"><div class="name">Courtlee Taner</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/patricia-wright-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Wright-Patricia-Butler-720x480.webp" alt="Patricia Wright"><div class="name">Patricia Wright</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/monteigaus-tyler-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Tyler-Monteigaus-Santonio-720x480.webp" alt="Monteigaus Tyler"><div class="name">Monteigaus Tyler</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/christopher-rice-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Rice-Christopher-Allen-720x480.webp" alt="Christopher Rice"><div class="name">Christopher Rice</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/murshaud-lowe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Lowe-Murshaud-Kahlil-1-720x480.webp" alt="Murshaud Lowe"><div class="name">Murshaud Lowe</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/karl-merker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Merker-Karl-Christopher-1-720x480.webp" alt="Karl Merker"><div class="name">Karl Merker</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/stefani-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Johnson-Stefani-E-1-720x480.webp" alt="Stefani Johnson"><div class="name">Stefani Johnson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/christopher-ingram-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Merker-Karl-Christopher-720x480.webp" alt="Christopher Ingram"><div class="name">Christopher Ingram</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/lashay-favors/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Lowe-Murshaud-Kahlil-720x480.webp" alt="Lashay Favors"><div class="name">Lashay Favors</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/laduaris-elder/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Johnson-Stefani-E-720x480.webp" alt="Laduaris Elder"><div class="name">Laduaris Elder</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/justin-brown-39/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/07/Ingram-Christopher-Lee-720x480.webp" alt="Justin Brown"><div class="name">Justin Brown</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/dezmere-reid/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Reid-Dezmere-Ahmaya-720x480.webp" alt="Dezmere Reid"><div class="name">Dezmere Reid</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/brandon-stewart-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Stewart-Brandon-Maurice-720x480.webp" alt="Brandon Stewart"><div class="name">Brandon Stewart</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jeremiah-poucher-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Poucher-Jeremiah-D-720x480.webp" alt="Jeremiah Poucher"><div class="name">Jeremiah Poucher</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/janesa-peebles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Peebles-Janesa-C-720x480.webp" alt="Janesa Peebles"><div class="name">Janesa Peebles</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/matthew-kubis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Kubis-Matthew-John-720x480.webp" alt="Matthew Kubis"><div class="name">Matthew Kubis</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/demetrius-lawrence/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Lawrence-Demetrius-Terrell-720x480.webp" alt="Demetrius Lawrence"><div class="name">Demetrius Lawrence</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jonathan-kirk-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Kirk-Jonathan-720x480.webp" alt="Jonathan Kirk"><div class="name">Jonathan Kirk</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/willie-horne-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Horne-Willie-Lewis-720x480.webp" alt="Willie Horne"><div class="name">Willie Horne</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/garrik-hogan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Hogan-Garrik-Lyndon-720x480.webp" alt="Garrik Hogan"><div class="name">Garrik Hogan</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/joshua-dodson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Dodson-Joshua-720x480.webp" alt="Joshua Dodson"><div class="name">Joshua Dodson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/franklin-cruz-sandoval-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Cruz-Sandoval-Franklin-Jose-1-720x480.webp" alt="Franklin Cruz Sandoval"><div class="name">Franklin Cruz Sandoval</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/michael-walden-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Walden-Michael-James-720x480.webp" alt="Michael Walden"><div class="name">Michael Walden</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/starlet-cornelious/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Cornelious-Starlet-Vun-720x480.webp" alt="Starlet Cornelious"><div class="name">Starlet Cornelious</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/koren-cornelious/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Cornelious-Koren-Mekel-720x480.webp" alt="Koren Cornelious"><div class="name">Koren Cornelious</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jamesha-williams-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Williams-Jamesha-1-720x480.webp" alt="Jamesha Williams"><div class="name">Jamesha Williams</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/dante-sanchez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Sanchez-Dante-Sebastian-720x480.webp" alt="Dante Sanchez"><div class="name">Dante Sanchez</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jameika-graddy/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Graddy-Jameika-Shatel-720x480.webp" alt="Jameika Graddy"><div class="name">Jameika Graddy</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/diego-chavez-santiago/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Chavez-Santiago-Diego-720x480.webp" alt="Diego Chavez Santiago"><div class="name">Diego Chavez Santiago</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/nyochia-cody/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Cody-Nyochia-Marshe-720x480.webp" alt="Nyochia Cody"><div class="name">Nyochia Cody</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/monterrio-wilson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Wilson-Monterrio-720x480.webp" alt="Monterrio Wilson"><div class="name">Monterrio Wilson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/joshua-sloat-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Sloat-Joshua-Daron-720x480.webp" alt="Joshua Sloat"><div class="name">Joshua Sloat</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jay-johnson-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Johnson-Jay-W-720x480.webp" alt="Jay Johnson"><div class="name">Jay Johnson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jabre-mosley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Mosley-Jabre-Ishmel-720x480.webp" alt="Jabre Mosley"><div class="name">Jabre Mosley</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/kim-jooyung/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Jooyung-Kim-720x480.webp" alt="Kim Jooyung"><div class="name">Kim Jooyung</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jamesha-williams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Williams-Jamesha-720x480.webp" alt="Jamesha Williams"><div class="name">Jamesha Williams</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jamontae-vail/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Vail-Jamontae-Dashon-720x480.webp" alt="Jamontae Vail"><div class="name">Jamontae Vail</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/joseph-lynn-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Lynn-Joseph-Lee-1-720x480.webp" alt="Joseph Lynn"><div class="name">Joseph Lynn</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/justin-herring/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Herring-Justin-Charles-720x480.webp" alt="Justin Herring"><div class="name">Justin Herring</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/christopher-driggers-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Driggers-Christopher-Thomas-720x480.webp" alt="Christopher Driggers"><div class="name">Christopher Driggers</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/marcus-rose-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Rose-Marcus-Tyrone-720x480.webp" alt="Marcus Rose"><div class="name">Marcus Rose</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/christorial-hightower/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Hightower-Christorial-Qun-Tunja-720x480.webp" alt="Christorial Hightower"><div class="name">Christorial Hightower</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/latunya-hightower/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Hightower-Latunya-Thomas-720x480.webp" alt="Latunya Hightower"><div class="name">Latunya Hightower</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/antonio-wadsworth/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Wadsworth-Antonio-Sentell-720x480.jpg" alt="Antonio Wadsworth"><div class="name">Antonio Wadsworth</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/travis-sego-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Sego-Travis-James-720x480.jpg" alt="Travis Sego"><div class="name">Travis Sego</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/taylor-bell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Bell-Taylor-Harrison-720x480.jpg" alt="Taylor Bell"><div class="name">Taylor Bell</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/carlos-reyes-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Reyes-Carlos-M-720x480.webp" alt="Carlos Reyes"><div class="name">Carlos Reyes</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/samual-hall/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Hall-Samual-Trevon-720x480.webp" alt="Samual Hall"><div class="name">Samual Hall</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/helen-sapp/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Sapp-Helen-Nicole-720x480.webp" alt="Helen Sapp"><div class="name">Helen Sapp</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/christopher-stewart-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Stewart-Christopher-Derek-720x480.webp" alt="Christopher Stewart"><div class="name">Christopher Stewart</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/justin-stahl-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Stahl-Justin-Paul-720x480.webp" alt="Justin Stahl"><div class="name">Justin Stahl</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/fabiola-morales-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Morales-Fabiola-Itzel-720x480.webp" alt="Fabiola Morales"><div class="name">Fabiola Morales</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jorge-lopez-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Lopez-Jorge-Gomez-720x480.webp" alt="Jorge Lopez"><div class="name">Jorge Lopez</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/kyungsu-lee/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Lee-Kyungsu-720x480.webp" alt="Kyungsu Lee"><div class="name">Kyungsu Lee</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/kania-kimbrough-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Kimbrough-Kania-R-720x480.webp" alt="Kania Kimbrough"><div class="name">Kania Kimbrough</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/antania-kidd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Kidd-Antania-Tamaria-720x480.webp" alt="Antania Kidd"><div class="name">Antania Kidd</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/harrison-hitchcock/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Hitchcock-Harrison-720x480.webp" alt="Harrison Hitchcock"><div class="name">Harrison Hitchcock</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/robert-mcclinton-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/McClinton-Robert-Curry-720x480.webp" alt="Robert McClinton"><div class="name">Robert McClinton</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/john-harris-26/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Harris-John-Cecil-720x480.webp" alt="John Harris"><div class="name">John Harris</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/felecia-childress/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Childress-Felecia-Samantha-720x480.webp" alt="Felecia Childress"><div class="name">Felecia Childress</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/michael-grimsley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Grimsley-Michael-Dewayne-720x480.webp" alt="Michael Grimsley"><div class="name">Michael Grimsley</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jonathon-baldwin-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Baldwin-Jonathon-Edward-720x480.webp" alt="Jonathon Baldwin"><div class="name">Jonathon Baldwin</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/monterrio-wilson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Wilson-Monterrio-Wilson-720x480.webp" alt="Monterrio Wilson"><div class="name">Monterrio Wilson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/shiheed-small-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Small-Shiheed-Jamill-720x480.webp" alt="Shiheed Small"><div class="name">Shiheed Small</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/tatiana-kankienza/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Kankienza-Tatiana-J-720x480.webp" alt="Tatiana Kankienza"><div class="name">Tatiana Kankienza</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jutia-burnett-patterson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Burnett-Patterson-Jutia-A-720x480.webp" alt="Jutia Burnett-Patterson"><div class="name">Jutia Burnett-Patterson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/roberto-apolinar-nieves/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Apolinar-Nieves-Roberto-Iran-720x480.webp" alt="Roberto Apolinar Nieves"><div class="name">Roberto Apolinar Nieves</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/clayton-pender-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Pender-Clayton-C-720x480.webp" alt="Clayton Pender"><div class="name">Clayton Pender</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/eric-durham-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Durham-Eric-720x480.webp" alt="Eric Durham"><div class="name">Eric Durham</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/zoe-brown-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Brown-Zoe-B-720x480.webp" alt="Zoe Brown"><div class="name">Zoe Brown</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/gerald-thompson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Thompson-Gerald-Frederick-720x480.webp" alt="Gerald Thompson"><div class="name">Gerald Thompson</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jose-aguilar-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Aguilar-Jose-Enrique-720x480.webp" alt="Jose Aguilar"><div class="name">Jose Aguilar</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/edward-pitts-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Pitts-Edward-720x480.webp" alt="Edward Pitts"><div class="name">Edward Pitts</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/raequan-lewis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Lewis-Raequan-Tyrek-720x480.webp" alt="Raequan Lewis"><div class="name">Raequan Lewis</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jordan-crockett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Crockett-Jordan-Alexandrea-720x480.webp" alt="Jordan Crockett"><div class="name">Jordan Crockett</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/james-todd-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Todd-James-Steven-720x480.webp" alt="James Todd"><div class="name">James Todd</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/daniel-hicks-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Hicks-Daniel-720x480.webp" alt="Daniel Hicks"><div class="name">Daniel Hicks</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/tenia-burnett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/06/Burnett-Tenia-720x480.webp" alt="Tenia Burnett"><div class="name">Tenia Burnett</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/manuel-serrano-lara/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Serrano-Lara-Manuel-720x480.webp" alt="Manuel Serrano-Lara"><div class="name">Manuel Serrano-Lara</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/robert-glover-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Glover-Robert-Anthony-720x480.webp" alt="Robert Glover"><div class="name">Robert Glover</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/michael-cancel-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Cancel-Michael-720x480.webp" alt="Michael Cancel"><div class="name">Michael Cancel</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/robert-kilcrease/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Kilcrease-Robert-Leon-720x480.webp" alt="Robert Kilcrease"><div class="name">Robert Kilcrease</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/drew-dube/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Dube-Drew-Ryan-720x480.webp" alt="Drew Dube"><div class="name">Drew Dube</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/kianna-whitfield-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Whitfield-Kianna-Azalea-720x480.webp" alt="Kianna Whitfield"><div class="name">Kianna Whitfield</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/ronnie-catlin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Catlin-Ronnie-720x480.webp" alt="Ronnie Catlin"><div class="name">Ronnie Catlin</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/jung-sungwoo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Sungwoo-Jung-720x480.webp" alt="Jung Sungwoo"><div class="name">Jung Sungwoo</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/ryan-smith-34/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Smith-Ryan-Neil-720x480.webp" alt="Ryan Smith"><div class="name">Ryan Smith</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/john-pristell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Pristell-John-720x480.webp" alt="John Pristell"><div class="name">John Pristell</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/alejandro-palafox-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Palafox-Alejandro-Lopez-720x480.webp" alt="Alejandro Palafox"><div class="name">Alejandro Palafox</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/alegra-leonardo-esteban/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Leonardo-Esteban-Alegra-Pinto-720x480.webp" alt="Alegra Leonardo Esteban"><div class="name">Alegra Leonardo Esteban</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/joaquin-zarate/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Zarate-Joaquin-Jr-720x480.webp" alt="Joaquin Zarate"><div class="name">Joaquin Zarate</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/miguel-villar-zuniga-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Villar-Zuniga-Miguel-720x480.webp" alt="Miguel Villar-Zuniga"><div class="name">Miguel Villar-Zuniga</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/shaquille-mans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Mans-Shaquille-Donnell-720x480.webp" alt="Shaquille Mans"><div class="name">Shaquille Mans</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/matthew-pritchett-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Pritchett-Matthew-K-720x480.webp" alt="Matthew Pritchett"><div class="name">Matthew Pritchett</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/twiggs/lateysa-bryant/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/05/Bryant-Lateysa-Marjana-720x480.webp" alt="Lateysa Bryant"><div class="name">Lateysa Bryant</div></a>
+<div class="reason">The page you visited is archived. We archive content ~60 days after publishing. Archived content is only available to TGG subscribers. Subscribe Below Join thousands of readers by subscribing to The Georgia Gazette for unlimited, ad-free access to real independent news, free from bias or agenda. Basic Monthly Subscription ✓ Unlimited access ✓ Ad-free experience...</div>
+</div>
+</div><div class="pagination"><a href="twiggs4.html">Next Page</a></div></body></html>

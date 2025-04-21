@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/antwan-holt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/HOLT-ANTWAN-LACARRIS.jpg" alt="Antwan Holt"><div class="name">Antwan Holt</div></a>
+<div class="reason">01/17/2025 | PROBATION VIOLATION O/C POSS. MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/dalin-mack-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/MACK-DALIN-RASHAD.jpg" alt="Dalin Mack"><div class="name">Dalin Mack</div></a>
+<div class="reason">01/18/2025 | DRIVING UNDER INFLUENCE ALCOHOL/ DRUGSSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/charles-clemons-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CLEMONS-JR-CHARLES-EDWARD.jpg" alt="Charles Clemons"><div class="name">Charles Clemons</div></a>
+<div class="reason">01/18/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/erick-ortiz-garcia/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ORTIZ-GARCIA-ERICK.jpg" alt="Erick Ortiz Garcia"><div class="name">Erick Ortiz Garcia</div></a>
+<div class="reason">01/19/2025 | SPEEDINGUNSAFE OPERATION OF RADIO OR TELEPHONEOPEN CONTAINERDRIVING UNDER INFLUENCE ALCOHOL/ DRUGSOPEN CONTAINERRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/patricio-ponce-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/PONCE-PATRICIO.jpg" alt="Patricio Ponce"><div class="name">Patricio Ponce</div></a>
+<div class="reason">01/10/2025 | IMPROPER TAG DISPLAYEXPIRED VEHICLE TAG OR DECALOPEN CONTAINERDRIVING W/O LICENSE ON PERSONDUIFAILURE TO MAINTAIN LANERECKLESS DRIVINGFLEEING OR ATTEMPTING TO ELUDE POLICE OFFICERIMPROPER PASSINGOBSTRUCTION OF AN OFFICER (MISDEMEANOR)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/daron-anderson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ANDERSON-DARON-DERELL.jpg" alt="Daron Anderson"><div class="name">Daron Anderson</div></a>
+<div class="reason">01/10/2025 | FAILURE TO MAINTAIN LANEDUI-LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kelvon-gibson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/GIBSON-KELVON-MANNIQUE.jpg" alt="Kelvon Gibson"><div class="name">Kelvon Gibson</div></a>
+<div class="reason">01/11/2025 | PROBATION VIOLATION O/C DUIPOSSESSION OF CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/alain-camacho-ortiz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CAMACHO-ORTIZ-ALAIN-SAMUEL.jpg" alt="Alain Camacho Ortiz"><div class="name">Alain Camacho Ortiz</div></a>
+<div class="reason">01/11/2025 | DRIVING UNDER THE INFLUENCE - ALCOHOLFAILURE TO MAINTAIN LANEOPEN CONTAINERDRIVING WITHOUT LICENSEOPEN CONTAINEROPEN CONTAINEROPEN CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/robert-kirbo-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/KIRBO-ROBERT-PARKS.jpg" alt="Robert Kirbo"><div class="name">Robert Kirbo</div></a>
+<div class="reason">01/11/2025 | CRIMINAL TRESPASSSIMPLE BATTERY (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/joshua-butler-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BUTLER-JOSHUA-TERRELL.jpg" alt="Joshua Butler"><div class="name">Joshua Butler</div></a>
+<div class="reason">01/11/2025 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/keon-green-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/GREEN-KEON-RASHOWN.jpg" alt="Keon Green"><div class="name">Keon Green</div></a>
+<div class="reason">01/16/2025 | CRUELTY TO CHILDREN- 3RD DEGREE (FAMILY VIOLENCE)SIMPLE BATTERY (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/byron-ferguson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/FERGUSON-BYRON-JOHN.jpg" alt="Byron Ferguson"><div class="name">Byron Ferguson</div></a>
+<div class="reason">01/16/2025 | POSSESSION OF MARIJUANA LESS THAN 1 OZOPEN CONTAINERFAILURE TO MAINTAIN LANEDRIVING UNDER THE INFLUENCE - ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/deandre-hampton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/HAMPTON-DEANDRE.jpg" alt="Deandre Hampton"><div class="name">Deandre Hampton</div></a>
+<div class="reason">01/15/2025 | ILLEGAL POSSESSION OF CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/marquez-holmes-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/HOLMES-MARQUEZ-DIAUEREZ.jpg" alt="Marquez Holmes"><div class="name">Marquez Holmes</div></a>
+<div class="reason">01/15/2025 | POSSESSION OF A CONTROLLED SUBSTANCE (BOND SURRENDER)POSSESSION OF FIREARM OR KNIFE WHILE COMMITING CRIMES (BOND SURRENDER)POSSESSION OF FIREARM BY A CONVICTED FELON (BOND SURRENDER)POSSESSION OF MARIJUANA (BOND SURRENDER)FAILURE TO APPEAR O/C TRAFFICKING METH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/danny-baker-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BAKER-JR-DANNY-LEON.jpg" alt="Danny Baker"><div class="name">Danny Baker</div></a>
+<div class="reason">01/14/2025 | OBSTRUCTION OF AN OFFICERPOSS OF SCHEDULE I CONTROLLED SUBSTANCEDRUG RELATED OBJECTS.LOITERINGPOSS OF SCHEDULE II CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/detrix-knight/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/KNIGHT-DETRIX-TYDARIUS-1.jpg" alt="Detrix Knight"><div class="name">Detrix Knight</div></a>
+<div class="reason">01/14/2025 | SPEEDINGDRIVING UNDER INFLUENCE DRUGS/ALCOHOLDRIVER TO EXERCISE DUE CARE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/gramodius-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WILLIAMS-GRAMODIUS-ANTWANE.jpg" alt="Gramodius Williams"><div class="name">Gramodius Williams</div></a>
+<div class="reason">01/14/2025 | SIMPLE ASSAULT ( FV)POSSESS. OF ARMS BY CONVICTED FELONSILLEGAL POSSESSION OF CONTROLLED SUBSTANCE W/ INTENTILLEGAL POSSESSION OF CONTROLLED SUBSTANCE W/ INTENTILLEGAL POSSESSION OF CONTROLLED SUBSTANCE W/ INTENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ruben-villegas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/VILLEGAS-RUBEN.jpg" alt="Ruben Villegas"><div class="name">Ruben Villegas</div></a>
+<div class="reason">01/13/2025 | CRUELTY TO ANIMALS. Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may exist....</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/brandon-williams-131/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WILLIAMS-BRANDON-DELSHAWN.jpg" alt="Brandon Williams"><div class="name">Brandon Williams</div></a>
+<div class="reason">01/13/2025 | FINANCIAL TRANSACTION CARD THEFTTHEFT OF LOST OR MISLAID PROPERTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ontarion-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WILLIAMS-ONTARION-TYRONE.jpg" alt="Ontarion Williams"><div class="name">Ontarion Williams</div></a>
+<div class="reason">01/13/2025 | DRIVING UNDER INFLUENCE ALCOHOL/ DRUGSBRAKE LIGHTS AND TURN SIGNALS REQUIREDFAILURE TO STOP FOR STOP SIGN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kimberly-burke-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BURKE-KIMBERLY-NICOLE.jpg" alt="Kimberly Burke"><div class="name">Kimberly Burke</div></a>
+<div class="reason">01/14/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/andre-hayes-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/HAYES-ANDRE-RASHAD-1.jpg" alt="Andre Hayes"><div class="name">Andre Hayes</div></a>
+<div class="reason">01/10/2025 | FAILURE TO APPEAR O/C AGGRAVATED ASSAULT POSS OF FIREARM BY FELON; THEFT BY RECEIV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/patricio-ponce-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/PONCE-PATRICIO.jpg" alt="Patricio Ponce"><div class="name">Patricio Ponce</div></a>
+<div class="reason">01/10/2025 | IMPROPER TAG DISPLAYEXPIRED VEHICLE TAG OR DECALOPEN CONTAINERDRIVING W/O LICENSE ON PERSONDUIFAILURE TO MAINTAIN LANERECKLESS DRIVINGFLEEING OR ATTEMPTING TO ELUDE POLICE OFFICERIMPROPER PASSINGOBSTRUCTION OF AN OFFICER (MISDEMEANOR)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/daron-anderson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ANDERSON-DARON-DERELL.jpg" alt="Daron Anderson"><div class="name">Daron Anderson</div></a>
+<div class="reason">01/10/2025 | FAILURE TO MAINTAIN LANEDUI-LESS SAFE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kelvon-gibson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/GIBSON-KELVON-MANNIQUE.jpg" alt="Kelvon Gibson"><div class="name">Kelvon Gibson</div></a>
+<div class="reason">01/11/2025 | PROBATION VIOLATION O/C DUIPOSSESSION OF CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/alain-camacho-ortiz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CAMACHO-ORTIZ-ALAIN-SAMUEL.jpg" alt="Alain Camacho Ortiz"><div class="name">Alain Camacho Ortiz</div></a>
+<div class="reason">01/11/2025 | DRIVING UNDER THE INFLUENCE - ALCOHOLFAILURE TO MAINTAIN LANEOPEN CONTAINERDRIVING WITHOUT LICENSEOPEN CONTAINEROPEN CONTAINEROPEN CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/robert-kirbo-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/KIRBO-ROBERT-PARKS.jpg" alt="Robert Kirbo"><div class="name">Robert Kirbo</div></a>
+<div class="reason">01/11/2025 | CRIMINAL TRESPASSSIMPLE BATTERY (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/joshua-butler-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BUTLER-JOSHUA-TERRELL.jpg" alt="Joshua Butler"><div class="name">Joshua Butler</div></a>
+<div class="reason">01/11/2025 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/tatyana-miles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/MILES-TATYANA-TAPUNIQUE.jpg" alt="Tatyana Miles"><div class="name">Tatyana Miles</div></a>
+<div class="reason">01/12/2025 | DRIVING UNDER THE INFLUENCE - ALCOHOLDRIVING W/O LICENSE ON PERSONNO INSURANCEDRIVING WHILE TAG IS SUSPENDED 1STDRIVER TO EXERCISE DUE CAREFOLLOWING TO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/glenn-ware/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WARE-JR-GLENN-EDWARD.jpg" alt="Glenn Ware"><div class="name">Glenn Ware</div></a>
+<div class="reason">01/12/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jaelon-washington-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WASHINGTON-JAELON-AMORI.jpg" alt="Jaelon Washington"><div class="name">Jaelon Washington</div></a>
+<div class="reason">01/09/2025 | FAILURE TO APPEAR O/C CRIMINAL TRESPASSFAILURE TO APPEAR O/C CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/zachary-torres/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/TORRES-ZACHARY-TYLER.jpg" alt="Zachary Torres"><div class="name">Zachary Torres</div></a>
+<div class="reason">01/09/2025 | SIMPLE BATTERY. (FV)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/richard-tolbert-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/TOLBERT-RICHARD-JAMES.jpg" alt="Richard Tolbert"><div class="name">Richard Tolbert</div></a>
+<div class="reason">01/06/2025 | THEFT BY SHOPLIFTING 1ST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/davaughn-clarke-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CLARKE-DAVAUGHN-MICHAEL.jpg" alt="Davaughn Clarke"><div class="name">Davaughn Clarke</div></a>
+<div class="reason">01/08/2025 | PROBATION VIOLATION O/C POSSESSION OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/laggarrick-tolbert/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/TOLBERT-LAGGARRICK-DERIK.jpg" alt="Laggarrick Tolbert"><div class="name">Laggarrick Tolbert</div></a>
+<div class="reason">01/08/2025 | AGGRAVATED ASSAULTKIDNAPPINGFALSE IMPRISONMENTPOSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMESBATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/brooklynn-carver/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CARVER-BROOKLYNN-DIANE.jpg" alt="Brooklynn Carver"><div class="name">Brooklynn Carver</div></a>
+<div class="reason">01/07/2025 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSDRUGS TO BE KEPT IN ORIGINAL CONTAINER.POSSESSION OF A SCHEDULE IV CONTROLLED SUBSTANCEPOSSESSION OF MARIJUANA LESS THAN 1 OZ</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kenoisha-patterson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/PATTERSON-KENOISHA-ISHAH.jpg" alt="Kenoisha Patterson"><div class="name">Kenoisha Patterson</div></a>
+<div class="reason">01/06/2025 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/cory-hall-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/HALL-CORY-DAVID.jpg" alt="Cory Hall"><div class="name">Cory Hall</div></a>
+<div class="reason">01/06/2025 | INCESTSODOMY - FELONYCHILD MOLESTATION; AGGRAVATED CHILD MOLESTATION.CHILD MOLESTATIONSTATUTORY RAPE - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/brandie-williams-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WILLIAMS-BRANDIE-JANE.jpg" alt="Brandie Williams"><div class="name">Brandie Williams</div></a>
+<div class="reason">01/03/2025 | PROBATION VIOLATION O/C FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jesse-smith-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/SMITH-JESSE-LEE.jpg" alt="Jesse Smith"><div class="name">Jesse Smith</div></a>
+<div class="reason">01/03/2025 | PROBATION VIOLATION O/C POSS. OF METH</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/steven-norton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/NORTON-STEVEN-NEAL.jpg" alt="Steven Norton"><div class="name">Steven Norton</div></a>
+<div class="reason">01/03/2025 | FUGITIVE FROM JUSTICE (CITRUS COUNTY SHERIFF OFFICE WARRANT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kimberly-walker-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WALKER-KIMBERLY-NICOLE.jpg" alt="Kimberly Walker"><div class="name">Kimberly Walker</div></a>
+<div class="reason">01/03/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDOBSTRUCTION OF AN OFFICEROPERATION OF VEHICLE WITH IMPROPER PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/dustin-gilbert/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/GILBERT-DUSTIN-GARRETT.jpg" alt="Dustin Gilbert"><div class="name">Dustin Gilbert</div></a>
+<div class="reason">01/04/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/marcos-cruz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CRUZ-MARCOS-ANTHONY.jpg" alt="Marcos Cruz"><div class="name">Marcos Cruz</div></a>
+<div class="reason">01/04/2025 | FAILURE TO MAINTAIN LANEDRIVING UNDER THE INFLUENCE - ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jimmy-johnson-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/JOHNSON-JIMMY-LEE.jpg" alt="Jimmy Johnson"><div class="name">Jimmy Johnson</div></a>
+<div class="reason">01/04/2025 | DRIVING UNDER INFLUENCE ALCOHOL/ DRUGSOPEN CONTAINERFAILURE TO STOP AT A STOP SIGN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/nykhia-jackson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/JACKSON-NYKHIA-YASMYANNA.jpg" alt="Nykhia Jackson"><div class="name">Nykhia Jackson</div></a>
+<div class="reason">01/04/2025 | CRIMINAL DAMAGE TO PROPERTY IN THE SECOND DEGREE.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/chelsea-cloud-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CLOUD-CHELSEA-MICHELLE-1.jpg" alt="Chelsea Cloud"><div class="name">Chelsea Cloud</div></a>
+<div class="reason">01/05/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/justin-mobley-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/MOBLEY-JUSTIN-LADERRICK.jpg" alt="Justin Mobley"><div class="name">Justin Mobley</div></a>
+<div class="reason">01/04/2025 | AGGRAVATED ASSAULT.ARMED ROBBERY; INTIMIDATION; TAKING CONTROL OF SUBSTANCE.PROBATION VIOLATION O/C BURGLARY 2ND DEGREEPOSSESS. OF ARMS BY CONVICTED FELONS & FIRST OFFEND. PROBATNPOSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.CONSPIRACY TO COMMIT A CRIME.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/john-reynolds-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/REYNOLDS-JOHN-TAYLOR.jpg" alt="John Reynolds"><div class="name">John Reynolds</div></a>
+<div class="reason">12/31/2024 | DRIVING W/SUSP OR REVOKED DL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jessica-matthews/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/MATTHEWS-JESSICA-NICOLE.jpg" alt="Jessica Matthews"><div class="name">Jessica Matthews</div></a>
+<div class="reason">12/31/2024 | THEFT BY TAKING.VIOLATION OF OATH BY PUBLIC OFFICER.FINANCIAL TRANSACTION CARD FRAUD.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/scott-simmons/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/SIMMONS-SCOTT-DEAN.jpg" alt="Scott Simmons"><div class="name">Scott Simmons</div></a>
+<div class="reason">12/31/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/chelsea-cloud-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CLOUD-CHELSEA-MICHELLE.jpg" alt="Chelsea Cloud"><div class="name">Chelsea Cloud</div></a>
+<div class="reason">12/31/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jakari-jefferson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/JEFFERSON-JAKARI-WENDALL.jpg" alt="Jakari Jefferson"><div class="name">Jakari Jefferson</div></a>
+<div class="reason">01/01/2025 | SEATBELT VIOLATION - ADULTTHEFT BY RECEIVING STOLEN PROPERTY.FAILURE TO DIM HEADLIGHTSD.U.I. / AlcoholDRIVER TO EXERCISE DUE CARE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/freddy-simpson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/SIMPSON-FREDDY-LEE.jpg" alt="Freddy Simpson"><div class="name">Freddy Simpson</div></a>
+<div class="reason">01/01/2025 | POSSESS. OF ARMS BY CONVICTED FELONS & FIRST OFFEND. PROBATN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/deovion-west/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WEST-DEOVION-SHAQUIERE.jpg" alt="Deovion West"><div class="name">Deovion West</div></a>
+<div class="reason">01/01/2025 | DRIVING UNDER INFLUENCE ALCOHOL/ DRUGSADULT RESTRAINT LAW SEAT BELT 18 ANUNSAFE OPERATION OF RADIO OR TELEPHONEOPEN CONTAINERFAILURE TO STOP FOR STOP SIGN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/elizabeth-toliver/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/TOLIVER-ELIZABETH-JILL.jpg" alt="Elizabeth Toliver"><div class="name">Elizabeth Toliver</div></a>
+<div class="reason">01/01/2025 | COMPULSORY SCHOOL ATTENDANCE (FAILURE TO SEND CHILD TO SCHOOL)GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICERMIRRORS (NO SIDE VIEW MIRRORS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jesus-martinez-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/MARTINEZ-JESUS.jpg" alt="Jesus Martinez"><div class="name">Jesus Martinez</div></a>
+<div class="reason">01/02/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/titus-madge-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/MADGE-JR-TITUS-DEWITT.jpg" alt="Titus Madge"><div class="name">Titus Madge</div></a>
+<div class="reason">12/31/2024 | FAILURE TO APPEAR O/C AGG. SODOMY; ENTICING CHILD; INCEST AGG. SEX BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/beau-brock-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BROCK-BEAU-BUFORD.jpg" alt="Beau Brock"><div class="name">Beau Brock</div></a>
+<div class="reason">12/31/2024 | DUI 1ST OFFENSELAMPS AND OTHER EQUIPMENT ON BICYCLESDRIVING ON WRONG SIDE OF THE ROADPOSS, MANU, DISTRIB, ETC VGCSPOSSESSION OF DRUG RELATED OBJECTTAMPERING WITH EVIDENCE.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ryan-allen-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ALLEN-RYAN-FREDRICK.jpg" alt="Ryan Allen"><div class="name">Ryan Allen</div></a>
+<div class="reason">12/31/2024 | IMPROPER/ERRATIC LANE CHANGETAIL LIGHTS REQUIREDSEATBELT VIOLATION - ADULTDRIVING UNDER INFLUENCE DRUGS/ALCOHOLUNSAFE OPERATION OF RADIO OR TELEPHONECRIMINAL GANG ACTIVITYPOSSESS. OF ARMS BY CONVICTED FELONS & FIRST OFFEND. PROBATNILLEGAL POSSESSION OF CONTROLLED SUBSTANCEPOSS, MANU, DISTRIB, ETC VGCSPOSSESSION OF DRUG RELATED OBJECTTAMPERING WITH EVIDENCE.POSSESSION OF FIREARM OR KNIFE WHILE TRYING...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ashlie-smith-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/SMITH-ASHLIE-LOSHAWN.jpg" alt="Ashlie Smith"><div class="name">Ashlie Smith</div></a>
+<div class="reason">12/30/2024 | TERRORISTIC THREATS AND ACTS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/zoe-evans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/EVANS-ZOE-KISONIE-LEVON.jpg" alt="Zoe Evans"><div class="name">Zoe Evans</div></a>
+<div class="reason">12/30/2024 | VIOLATION OF WINDOW TINT LAWDRIVING WITH LEARNERS PERMIT W/O LIC DRIDRIVING UNDER THE INFLUENCE - ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jaquille-altieri/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ALTIERI-JAQUILLE-DEMETRIUS.jpg" alt="Jaquille Altieri"><div class="name">Jaquille Altieri</div></a>
+<div class="reason">12/30/2024 | DRIVING UNDER INFLUENCE ALCOHOL/ DRUGSVIOLATION OF WINDOW TINT LAWUNSAFE OPERATION OF RADIO OR TELEPHONE/ DISTRACT DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/keiara-richey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/RICHEY-KEIARA-RENEE.jpg" alt="Keiara Richey"><div class="name">Keiara Richey</div></a>
+<div class="reason">12/30/2024 | UNSAFE OPERATION OF RADIO OR TELEPHONE/ DISTRACT DRIVINGTAIL LIGHTS REQUIREDDRIVING UNDER INFLUENCE ALCOHOL/ DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/cadarius-kimble-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/KIMBLE-CADARIUS-KEMONE.jpg" alt="Cadarius Kimble"><div class="name">Cadarius Kimble</div></a>
+<div class="reason">12/28/2024 | PROBATION VIOLATION (LEON CO CHARGE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/quintin-gadson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GADSON-QUINTIN-QUISHONE.jpg" alt="Quintin Gadson"><div class="name">Quintin Gadson</div></a>
+<div class="reason">12/28/2024 | D.U.I./ALCOHOLSPEEDINGOPEN CONTAINERDRIVING WHILE TAG IS SUSPENDED 1STUNSAFE OPERATION OF RADIO OR TELEPHONE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/orlando-miller/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MILLER-ORLANDO-DONNELL.jpg" alt="Orlando Miller"><div class="name">Orlando Miller</div></a>
+<div class="reason">12/28/2024 | FUGITIVE FROM JUSTICE (JACKSON CO SO FL CHARGE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/samantha-rabon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RABON-SAMANTHA-LANE.jpg" alt="Samantha Rabon"><div class="name">Samantha Rabon</div></a>
+<div class="reason">12/29/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/troy-davidson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DAVIDSON-TROY-ALEX-TYRONE.jpg" alt="Troy Davidson"><div class="name">Troy Davidson</div></a>
+<div class="reason">12/29/2024 | FAILURE TO APPEAR (SUPERIOR COURT INDICTMENT)FAILURE TO APPEAR (O/C FORGERY 1ST DEGREE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kimberly-brown-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-KIMBERLY-COX.jpg" alt="Kimberly Brown"><div class="name">Kimberly Brown</div></a>
+<div class="reason">12/30/2024 | SPEEDINGDRIVING UNDER THE INFLUENCE - ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/nicholas-willingham/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLINGHAM-NICHOLAS-DERRICK.jpg" alt="Nicholas Willingham"><div class="name">Nicholas Willingham</div></a>
+<div class="reason">12/29/2024 | SPEEDINGDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)IDENTITY THEFT FRAUD WHEN USING/POSSESSING IDENT INFO CONCERNING A PERSON - FELOFRAUDULENT DRIVERS LICENSE OR IDENTIFICATION CARD; FALSE STATEMENTS IN APPLICATIGIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kenya-thomas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/THOMAS-KENYA-TREMAINE.jpg" alt="Kenya Thomas"><div class="name">Kenya Thomas</div></a>
+<div class="reason">12/29/2024 | DEFECTIVE OR NO HEADLIGHTSMARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION OF A SCHEDULE I OR II CONTROLLED SUBSTANCE WITH INTENT TO DISTRIBUTE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/anthony-mckay-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MCKAY-ANTHONY-TERRELL.jpg" alt="Anthony McKay"><div class="name">Anthony McKay</div></a>
+<div class="reason">12/29/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/gerald-mccormick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MCCORMICK-GERALD-LEWIS.jpg" alt="Gerald McCormick"><div class="name">Gerald McCormick</div></a>
+<div class="reason">12/29/2024 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/chelsea-brown-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-CHELSEA-MICHELLE.jpg" alt="Chelsea Brown"><div class="name">Chelsea Brown</div></a>
+<div class="reason">12/24/2024 | CONTRIBUTING TO DELINQUENCY OR DEPENDENCY OF A MINOR - MISDEMEANORTHEFT BY TAKING.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/tristan-love/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LOVE-TRISTAN-DEE.jpg" alt="Tristan Love"><div class="name">Tristan Love</div></a>
+<div class="reason">12/17/2024 | FORGERY OF FINANCIAL TRANSACTTION CARD FORGERYFORGERY OF FINANCIAL TRANSACCTION CARD FORGERYFORGERY OF FINANCIAL TRANSACTION CARD FORGERYFORGERY OF FINANCIAL TRANSACTION CARD FORGERYEXPLOITATION AND INTIMIDATION OF DISABLED ADULTS, ELDERS PERSONSFORGERY OF FINANCIAL TRANSACTION CARD FORGERYTHEFT BY TAKING.THEFT BY TAKING. Officer’s Narrative:[Please note: The following is a direct transcription from...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/javarrio-burke-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BURKE-JAVARRIO-DEVONTE.jpg" alt="Javarrio Burke"><div class="name">Javarrio Burke</div></a>
+<div class="reason">12/17/2024 | THEFT BY SHOPLIFTING 1ST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ravan-adams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ADAMS-RAVAN-BIYONKA.jpg" alt="Ravan Adams"><div class="name">Ravan Adams</div></a>
+<div class="reason">12/23/2024 | THEFT BY SHOPLIFTING 1ST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/eric-davis-55/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DAVIS-ERIC-BENARD.jpg" alt="Eric Davis"><div class="name">Eric Davis</div></a>
+<div class="reason">12/24/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/sanford-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-SANFORD-EDWARD.jpg" alt="Sanford Williams"><div class="name">Sanford Williams</div></a>
+<div class="reason">12/26/2024 | TURNING POSITION; SIGNALS REQUIREDDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jose-solis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SOLIS-JOSE-ANGEL.jpg" alt="Jose Solis"><div class="name">Jose Solis</div></a>
+<div class="reason">12/24/2024 | SIMPLE BATTERY-FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/harold-jackson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JACKSON-HAROLD-ENOCH-1.jpg" alt="Harold Jackson"><div class="name">Harold Jackson</div></a>
+<div class="reason">12/25/2024 | DUI 1ST OFFENSEEXPIRED VEHICLE TAG OR DECALFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/nathan-gibson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GIBSON-JR-NATHAN-L.jpg" alt="Nathan Gibson"><div class="name">Nathan Gibson</div></a>
+<div class="reason">12/26/2024 | SIMPLE BATTERY (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ariana-snell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SNELL-ARIANA.jpg" alt="Ariana Snell"><div class="name">Ariana Snell</div></a>
+<div class="reason">12/26/2024 | SIMPLE BATTERY- FAMILY VIOLENCECRIMINAL TRESPASS- FAMILY VIOLENCEOBSTRUCTION OF AN OFFICER (MISDEMEANOR)SIMPLE BATTERY- FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/janie-kincaid/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/KINCAID-JANIE-RENEE.jpg" alt="Janie Kincaid"><div class="name">Janie Kincaid</div></a>
+<div class="reason">12/17/2024 | TERRORISTIC THREATS AND ACTS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/albert-perkins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PERKINS-JR-ALBERT-SOLOMAN.jpg" alt="Albert Perkins"><div class="name">Albert Perkins</div></a>
+<div class="reason">12/16/2024 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jeffrey-weathersby/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WEATHERSBY-JEFFREY-D.jpg" alt="Jeffrey Weathersby"><div class="name">Jeffrey Weathersby</div></a>
+<div class="reason">12/16/2024 | DRIVING UNDER INFLUENCE ALCOHOL/ DRUGSDRIVING WHILE TAG IS SUSPENDED 1STOPEN CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/nathaniel-george/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GEORGE-NATHANIEL-SHEROD.jpg" alt="Nathaniel George"><div class="name">Nathaniel George</div></a>
+<div class="reason">12/16/2024 | DRIVING UNDER INFLUENCE ALCOHOL/ DRUGSPOSSESSION OF MARIJUANA - MISDVIOLATION OF WINDOW TINT LAWDUE CARESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/michelle-hand/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HAND-MICHELLE-IRENE.jpg" alt="Michelle Hand"><div class="name">Michelle Hand</div></a>
+<div class="reason">12/17/2024 | RECKLESS CONDUCT (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/john-perry-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PERRY-JOHN.jpg" alt="John Perry"><div class="name">John Perry</div></a>
+<div class="reason">12/15/2024 | DRIVING W/O LICENSE ON PERSON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/clifton-miller-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MILLER-CLIFTON-JAMES.jpg" alt="Clifton Miller"><div class="name">Clifton Miller</div></a>
+<div class="reason">12/16/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/sharon-smith-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SMITH-SHARON-DEANASE.jpg" alt="Sharon Smith"><div class="name">Sharon Smith</div></a>
+<div class="reason">12/14/2024 | OPEN CONTAINERILLEGAL POSSESSION OF CONTROLLED SUBSTANCEDRUG RELATED OBJECTS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/chelsea-cloud-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CLOUD-CHELSEA-MICHELLE.jpg" alt="Chelsea Cloud"><div class="name">Chelsea Cloud</div></a>
+<div class="reason">12/15/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/nolan-messer-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MESSER-NOLAN-JAY.jpg" alt="Nolan Messer"><div class="name">Nolan Messer</div></a>
+<div class="reason">12/12/2024 | PROBATION VIOLATION O/C SUSPENDED LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/tommy-boozer-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BOOZER-TOMMY-EUGENE.jpg" alt="Tommy Boozer"><div class="name">Tommy Boozer</div></a>
+<div class="reason">12/12/2024 | CONSPIRACY TO COMMIT A CRIME.CRIMINAL SOLICITATION.CRIMINAL SOLICITATION.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/fred-walker-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WALKER-FRED-WAYNE.jpg" alt="Fred Walker"><div class="name">Fred Walker</div></a>
+<div class="reason">12/12/2024 | ARMED ROBBERY; INTIMIDATION; TAKING CONTROL OF SUBSTANCE.CONSPIRACY TO COMMIT A CRIME.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/anthony-wimberly/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WIMBERLY-ANTHONY.jpg" alt="Anthony Wimberly"><div class="name">Anthony Wimberly</div></a>
+<div class="reason">12/12/2024 | SIMPLE ASSAULT.SIMPLE ASSAULT.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/billy-hand-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HAND-BILLY-RAY-1.jpg" alt="Billy Hand"><div class="name">Billy Hand</div></a>
+<div class="reason">12/12/2024 | CONSPIRACY TO COMMIT A CRIME.CONSPIRACY TO COMMIT A CRIME.PROBATION VIOLATION O/C THEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/cedric-rogers-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ROGERS-CEDRIC-LAMONT.jpg" alt="Cedric Rogers"><div class="name">Cedric Rogers</div></a>
+<div class="reason">12/11/2024 | SIMPLE BATTERY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jamichael-alexander-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ALEXANDER-JAMICHAEL-DEYONTREL.jpg" alt="Jamichael Alexander"><div class="name">Jamichael Alexander</div></a>
+<div class="reason">12/11/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/philip-jackson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JACKSON-PHILIP-EMANUEL.jpg" alt="Philip Jackson"><div class="name">Philip Jackson</div></a>
+<div class="reason">12/09/2024 | CONTEMPT OF COURT (CHILD SUPPORT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/shawn-webb-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WEBB-SHAWN-AVERY.jpg" alt="Shawn Webb"><div class="name">Shawn Webb</div></a>
+<div class="reason">12/09/2024 | FAILURE TO APPEAR O/C POSS OF CONTROL SUST W/I; POSS OF METHAMPETAMINE W/I</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/xzavier-alexander/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ALEXANDER-XZAVIER-DEMONTE.jpg" alt="Xzavier Alexander"><div class="name">Xzavier Alexander</div></a>
+<div class="reason">12/10/2024 | LEAVING THE SCENE OF ACCIDENT (HIT & RUN)FAILURE TO MAINTAIN LANEOPEN CONTAINERDRIVING UNDER INFLUENCE ALCOHOL/ DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/raymond-miller-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MILLER-RAYMOND-CARLTON.jpg" alt="Raymond Miller"><div class="name">Raymond Miller</div></a>
+<div class="reason">12/10/2024 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/joseph-young-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/YOUNG-JOSEPH-AMONDO.jpg" alt="Joseph Young"><div class="name">Joseph Young</div></a>
+<div class="reason">12/10/2024 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/willie-cooper-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COOPER-WILLIE-ULYSSES.jpg" alt="Willie Cooper"><div class="name">Willie Cooper</div></a>
+<div class="reason">12/11/2024 | MURDER; FELONY MURDER. (GRADY CO CHARGE)MURDER; FELONY MURDER. (GRADY CO CHARGE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/keno-johnson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JOHNSON-KENO-OWEN.jpg" alt="Keno Johnson"><div class="name">Keno Johnson</div></a>
+<div class="reason">12/09/2024 | PURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANAPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEFLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICER - MISDEMEANORPOSSESSION AND USE OF DRUG RELATED OBJECTSOPERATION OF VEHICLE WITH IMPROPER PLATECHILD RESTRAINT LAW CHILD SEAT SAFETY BELTSTANDARDS FOR BRAKE LIGHTS AND SIGNAL DEVICESADULT RESTRAINT...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ethan-hurst/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HURST-ETHAN-ELIJAH.jpg" alt="Ethan Hurst"><div class="name">Ethan Hurst</div></a>
+<div class="reason">12/06/2024 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEDRUG RELATED OBJECTS.POSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ashley-ward-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WARD-ASHLEY-NICOLE.jpg" alt="Ashley Ward"><div class="name">Ashley Ward</div></a>
+<div class="reason">12/06/2024 | FORGERY - 4TH DEGREE (MISDEMEANOR)FORGERY - 4TH DEGREE (MISDEMEANOR)FORGERY - 4TH DEGREE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kimberly-burke-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BURKE-KIMBERLY-NICOLE.jpg" alt="Kimberly Burke"><div class="name">Kimberly Burke</div></a>
+<div class="reason">12/08/2024 | FAILURE TO APPEAR O/C INDECENT EXPOSURE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/harold-jackson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JACKSON-HAROLD-ENOCH.jpg" alt="Harold Jackson"><div class="name">Harold Jackson</div></a>
+<div class="reason">12/08/2024 | IMPEDING TRAFFIC FLOWOBSTRUCTION OF AN OFFICEROPEN CONTAINERDRIVING UNDER THE INFLUENCE - ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/chastanna-green-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GREEN-CHASTANNA-JAKIERRA.jpg" alt="Chastanna Green"><div class="name">Chastanna Green</div></a>
+<div class="reason">12/09/2024 | AGGRAVATED ASSAULT SUPERIOR COURT INDICTMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/windy-siegel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SIEGEL-WINDY-JO.jpg" alt="Windy Siegel"><div class="name">Windy Siegel</div></a>
+<div class="reason">11/28/2024 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE- COCAINEPOSSESSION OF DRUG RELATED OBJECTPOSSESSION OF CONTROLLED SUBSTANCE FENTANYL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kejaun-colston-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COLSTON-KEJAUN-ARZAVEOUS.jpg" alt="Kejaun Colston"><div class="name">Kejaun Colston</div></a>
+<div class="reason">11/27/2024 | ARMED ROBBERY; INTIMIDATION; TAKING CONTROL OF SUBSTANCE.AGGRAVATED ASSAULT.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/elree-anderson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ANDERSON-ELREE.jpg" alt="Elree Anderson"><div class="name">Elree Anderson</div></a>
+<div class="reason">11/25/2024 | AGGRAVATED STALKINGVIOLATION OF FAMILY VIOLENCE ORDER (FV)BURGLARY - 1ST DEGREE (FELONY)OBSTRUCTION OF AN OFFICERBATTERY. (FV)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/daniel-bivins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BIVINS-DANIEL-JEFFREY.jpg" alt="Daniel Bivins"><div class="name">Daniel Bivins</div></a>
+<div class="reason">11/26/2024 | PAROLE VIOLATION O/C THEFT BY TAKING.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kendle-trawick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/TRAWICK-KENDLE-WAYAN.jpg" alt="Kendle Trawick"><div class="name">Kendle Trawick</div></a>
+<div class="reason">11/27/2024 | DRIVE-BY SHOOTINGTERRORISTIC THREATS AND ACTS.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jodie-ninteau-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/NINTEAU-JODIE-LYNN.jpg" alt="Jodie Ninteau"><div class="name">Jodie Ninteau</div></a>
+<div class="reason">11/29/2024 | POSSESSION OF METHAMPHETAMINEDRUG RELATED OBJECTSDRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/john-smith-85/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SMITH-JOHN-GREER.jpg" alt="John Smith"><div class="name">John Smith</div></a>
+<div class="reason">12/04/2024 | FAILURE TO APPEAR (BENCH WARRANT) O/C THEFT BY RECEIVING; THEFT BY DECEPTION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/lajarvis-norwood/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/NORWOOD-LAJARVIS-TYSHON.jpg" alt="La’Jarvis Norwood"><div class="name">La’Jarvis Norwood</div></a>
+<div class="reason">12/04/2024 | THEFT BY SHOPLIFTING 1ST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jordan-cowan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COWAN-JORDAN-LARRY.jpg" alt="Jordan Cowan"><div class="name">Jordan Cowan</div></a>
+<div class="reason">12/04/2024 | PROBATION VIOLATION O/C ROBBERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/john-swaney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SWANEY-JOHN-PAUL.jpg" alt="John Swaney"><div class="name">John Swaney</div></a>
+<div class="reason">12/04/2024 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENTSEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jarrell-brown/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-JARRELL-JACOBY.jpg" alt="Jarrell Brown"><div class="name">Jarrell Brown</div></a>
+<div class="reason">12/05/2024 | BATTERY (FAMILY VIOLENCE) (THOMAS COUNTY SO WARRANT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/javante-hunter-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HUNTER-JAVANTE-JAMAL.jpg" alt="Javante Hunter"><div class="name">Javante Hunter</div></a>
+<div class="reason">12/03/2024 | FAILURE TO APPEAR-OC THEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/reginald-colston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COLSTON-REGINALD-TAVAROUS.jpg" alt="Reginald Colston"><div class="name">Reginald Colston</div></a>
+<div class="reason">12/03/2024 | UNLAWFUL POSSESSION OF FIREARM OR WEAPONS (LEON COUNTY SO CHARGE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/artis-richardson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RICHARDSON-ARTIS-WOODELL.jpg" alt="Artis Richardson"><div class="name">Artis Richardson</div></a>
+<div class="reason">12/03/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/patricia-scott-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SCOTT-PATRICIA-LOUISE-1.jpg" alt="Patricia Scott"><div class="name">Patricia Scott</div></a>
+<div class="reason">12/02/2024 | FAILURE TO APPEAR O/C DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/eldrick-jacobs-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JACOBS-ELDRICK-TYRONE-1.jpg" alt="Eldrick Jacobs"><div class="name">Eldrick Jacobs</div></a>
+<div class="reason">12/02/2024 | THEFT BY SHOPLIFTING 1ST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jarrett-walker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WALKER-JARRETT-LEE.jpg" alt="Jarrett Walker"><div class="name">Jarrett Walker</div></a>
+<div class="reason">12/02/2024 | INTERFERENCE WITH CUSTODY.INTERFERENCE WITH CUSTODY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/timothy-peterson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PETERSON-TIMOTHY-COLE.jpg" alt="Timothy Peterson"><div class="name">Timothy Peterson</div></a>
+<div class="reason">11/27/2024 | SUPERIOR COURT INDICTMENT (CHILD MOLESTATION / 7 COUNTS)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/windy-siegel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SIEGEL-WINDY-JO.jpg" alt="Windy Siegel"><div class="name">Windy Siegel</div></a>
+<div class="reason">11/28/2024 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE- COCAINEPOSSESSION OF DRUG RELATED OBJECTPOSSESSION OF CONTROLLED SUBSTANCE FENTANYL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kejaun-colston-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COLSTON-KEJAUN-ARZAVEOUS.jpg" alt="Kejaun Colston"><div class="name">Kejaun Colston</div></a>
+<div class="reason">11/27/2024 | ARMED ROBBERY; INTIMIDATION; TAKING CONTROL OF SUBSTANCE.AGGRAVATED ASSAULT.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/elree-anderson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ANDERSON-ELREE.jpg" alt="Elree Anderson"><div class="name">Elree Anderson</div></a>
+<div class="reason">11/25/2024 | AGGRAVATED STALKINGVIOLATION OF FAMILY VIOLENCE ORDER (FV)BURGLARY - 1ST DEGREE (FELONY)OBSTRUCTION OF AN OFFICERBATTERY. (FV)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/daniel-bivins/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BIVINS-DANIEL-JEFFREY.jpg" alt="Daniel Bivins"><div class="name">Daniel Bivins</div></a>
+<div class="reason">11/26/2024 | PAROLE VIOLATION O/C THEFT BY TAKING.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kendle-trawick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/TRAWICK-KENDLE-WAYAN.jpg" alt="Kendle Trawick"><div class="name">Kendle Trawick</div></a>
+<div class="reason">11/27/2024 | DRIVE-BY SHOOTINGTERRORISTIC THREATS AND ACTS.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jodie-ninteau-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/NINTEAU-JODIE-LYNN.jpg" alt="Jodie Ninteau"><div class="name">Jodie Ninteau</div></a>
+<div class="reason">11/29/2024 | POSSESSION OF METHAMPHETAMINEDRUG RELATED OBJECTSDRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/christopher-cobb-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COBB-CHRISTOPHER-HOWARD.jpg" alt="Christopher Cobb"><div class="name">Christopher Cobb</div></a>
+<div class="reason">11/29/2024 | DRUG RELATED OBJECTS.POSSESSION OF METHAMPHETAMINEDRUG RELATED OBJECTS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jason-velez-rivera-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VELEZ-RIVERA-JASON-ROBERT.jpg" alt="Jason Velez-Rivera"><div class="name">Jason Velez-Rivera</div></a>
+<div class="reason">11/27/2024 | SUPERIOR COURT INDICTMENT (AGGRAVATED SEXUAL BATTERY)SUPERIOR COURT INDICTMENT (CHILD MOLESTATION)SUPERIOR COURT INDICTMENT (INTICING A CHILD FOR INDECENT PURPOSES)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/john-mcbride-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MCBRIDE-JOHN-ANTHONY.jpg" alt="John McBride"><div class="name">John McBride</div></a>
+<div class="reason">11/29/2024 | PAROLE VIOLATIONARSON IN THE FIRST DEGREE.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/eric-davis-54/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DAVIS-ERIC-BENARD.jpg" alt="Eric Davis"><div class="name">Eric Davis</div></a>
+<div class="reason">11/23/2024 | THEFT BY SHOPLIFTING 1STCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/susan-bennett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BENNETT-SUSAN-REBECCA.jpg" alt="Susan Bennett"><div class="name">Susan Bennett</div></a>
+<div class="reason">11/23/2024 | FAILURE TO APPEAR OC ENTERING WMA W/O LAND PASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/shamyra-little-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LITTLE-SHAMYRA-JANAY.jpg" alt="Shamyra Little"><div class="name">Shamyra Little</div></a>
+<div class="reason">11/24/2024 | FAILURE TO APPEAR O/C AGG ASSAULT (2X) CRIM DAM TO PROPERTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/daniel-harris-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HARRIS-DANIEL-SCOTT.jpg" alt="Daniel Harris"><div class="name">Daniel Harris</div></a>
+<div class="reason">11/21/2024 | PROBATION VIOLATION O/C CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/james-lowery-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LOWERY-JAMES-COLT.jpg" alt="James Lowery"><div class="name">James Lowery</div></a>
+<div class="reason">11/20/2024 | PROBATION VIOLATION O/C AGG. BATT.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/joseph-lurry-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LURRY-JOSEPH-LEON.jpg" alt="Joseph Lurry"><div class="name">Joseph Lurry</div></a>
+<div class="reason">11/20/2024 | HARASSING PHONE CALLSFUGITIVE FROM JUSTICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/emma-smith-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-EMMA-TYE.jpg" alt="Emma Smith"><div class="name">Emma Smith</div></a>
+<div class="reason">11/20/2024 | SPEEDINGDRIVER TO EXERCISE DUE CAREDUI - DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/vinnie-tatum-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/TATUM-JR-VINNIE-ZACHARY.jpg" alt="Vinnie Tatum"><div class="name">Vinnie Tatum</div></a>
+<div class="reason">11/20/2024 | THEFT BY SHOPLIFTING 1STTHEFT BY SHOPLIFTING 1ST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/xavier-benton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BENTON-XAVIER-ONEAL.jpg" alt="Xavier Benton"><div class="name">Xavier Benton</div></a>
+<div class="reason">11/20/2024 | ADULT RESTRAINT LAW SEAT BELT 18 ANDRIVING UNDER INFLUENCE ALCOHOL/ DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/gary-wallace-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WALLACE-GARY-DANUAIL.jpg" alt="Gary Wallace"><div class="name">Gary Wallace</div></a>
+<div class="reason">11/18/2024 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/dontavious-hicks-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HICKS-DONTAVIOUS-DEVARIO.jpg" alt="Dontavious Hicks"><div class="name">Dontavious Hicks</div></a>
+<div class="reason">11/18/2024 | AGGRAVATED ASSAULT.AGGRAVATED ASSAULT.POSSESSION OF FIREARM BY CONVICTED FELONPROBATION VIOLATION O/C ARSON 1ST DEGREEHOME INVASION, 1ST DEGREECRIMINAL DAMAGE TO PROPERTY IN THE SECOND DEGREE.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES. Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report....</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/terrill-white-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WHITE-TERRILL-VASHAWN.jpg" alt="Terrill White"><div class="name">Terrill White</div></a>
+<div class="reason">11/14/2024 | FAILURE TO APPEAR O/C FORGERY 3RD DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/sereddrick-adams-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ADAMS-SEREDDRICK-DESHAWN.jpg" alt="Sereddrick Adams"><div class="name">Sereddrick Adams</div></a>
+<div class="reason">11/16/2024 | PROBATION VIOLATION O/C ROBBERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/david-jose/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JOSE-DAVID.jpg" alt="David Jose"><div class="name">David Jose</div></a>
+<div class="reason">11/16/2024 | BATTERY. (FAMILY VIOLENCE)CRUELTY TO CHILDREN, 3RD DEGREE (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/keith-nunnally/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/NUNNALLY-KEITH-DAMON.jpg" alt="Keith Nunnally"><div class="name">Keith Nunnally</div></a>
+<div class="reason">11/15/2024 | FAILURE TO APPEAR O/C PRINTING OF FICTITIOUS CHECKS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kejaun-colston-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COLSTON-KEJAUN-ARZAVEOUS-1.jpg" alt="Kejaun Colston"><div class="name">Kejaun Colston</div></a>
+<div class="reason">11/18/2024 | VIOLATION OF WINDOW TINT LAWDUI - DRIVING UNDER THE INFLUENCE OF DRUGSTIRESTAIL LIGHTS REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/angela-veliz-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/VELIZ-ANGELA-GWEN-1.jpg" alt="Angela Veliz"><div class="name">Angela Veliz</div></a>
+<div class="reason">11/18/2024 | AGGRAVATED ASSAULT.ARMED ROBBERY; INTIMIDATION; TAKING CONTROL OF SUBSTANCE.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/devetrice-mcintyre-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCINTYRE-DEVETRICE-RYSHAWN.jpg" alt="Devetrice McIntyre"><div class="name">Devetrice McIntyre</div></a>
+<div class="reason">11/14/2024 | CRIMINAL TRESPASSDISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/calvin-davis-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DAVIS-SR-CALVIN-MICHAEL.jpg" alt="Calvin Davis"><div class="name">Calvin Davis</div></a>
+<div class="reason">11/13/2024 | CONTEMPT OF CIVIL/MAGISTRATE COURT ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/benny-jones-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JONES-BENNY-LEE.jpg" alt="Benny Jones"><div class="name">Benny Jones</div></a>
+<div class="reason">11/13/2024 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST REQ (FROM COURT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/joseph-thompson-41/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/THOMPSON-JOSEPH-1.jpg" alt="Joseph Thompson"><div class="name">Joseph Thompson</div></a>
+<div class="reason">11/12/2024 | CRIMINAL DAMAGE TO PROPERTY IN THE FIRST DEGREE. (RNT FROM CRT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/joseph-thompson-41/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/THOMPSON-JOSEPH-1.jpg" alt="Joseph Thompson"><div class="name">Joseph Thompson</div></a>
+<div class="reason">11/12/2024 | CRIMINAL DAMAGE TO PROPERTY IN THE FIRST DEGREE. (RNT FROM CRT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/larvous-harrison-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HARRISON-LARVOUS-KEONTAL-1.jpg" alt="Larvous Harrison"><div class="name">Larvous Harrison</div></a>
+<div class="reason">11/08/2024 | RECKLESS CONDUCT (MISDEMEANOR)TERRORISTIC THREATS AND ACTS.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/edward-wade-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WADE-EDWARD-LANCE.jpg" alt="Edward Wade"><div class="name">Edward Wade</div></a>
+<div class="reason">11/10/2024 | FAILURE TO APPEAR O/C LEAVING THE SCENE OF ACCIDENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/maston-maynor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MAYNOR-MASTON-MIKE.jpg" alt="Maston Maynor"><div class="name">Maston Maynor</div></a>
+<div class="reason">11/10/2024 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jaelon-washington-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WASHINGTON-JAELON-AMORI.jpg" alt="Jaelon Washington"><div class="name">Jaelon Washington</div></a>
+<div class="reason">11/10/2024 | FAILURE TO APPEAR O/C CRIMINAL TRESPASSFAILURE TO APPEAR O/C CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/derrick-tyler-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/TYLER-DERRICK-DEWAYNE.jpg" alt="Derrick Tyler"><div class="name">Derrick Tyler</div></a>
+<div class="reason">11/10/2024 | PROBATION VIOLATION O/C SALE OF COCAINE; USE OF COMM.FACILITY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/anthony-taylor-40/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/TAYLOR-ANTHONY.jpg" alt="Anthony Taylor"><div class="name">Anthony Taylor</div></a>
+<div class="reason">11/11/2024 | SIMPLE BATTERY ( FV)BATTERY.CRUELTY TO CHILDREN, 3RD DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/anthony-mccarson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCCARSON-ANTHONY-LEE.jpg" alt="Anthony McCarson"><div class="name">Anthony McCarson</div></a>
+<div class="reason">11/11/2024 | BURGLARY - 1ST DEGREE (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/deja-james-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JAMES-DEJA-ANNTHONICE.jpg" alt="Deja James"><div class="name">Deja James</div></a>
+<div class="reason">11/12/2024 | PROBATION VIOLATION O/C THEFT BY REC STOLEN PROPERTYPROBATION VIOLATION O/C THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/william-nichols-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/NICHOLS-WILLIAM-MORRIS.jpg" alt="William Nichols"><div class="name">William Nichols</div></a>
+<div class="reason">11/11/2024 | OPEN CONTAINERWINDSHIELDS AND WINDSHIELD WIPERSDRIVING UNDER THE INFLUENCE - ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/larvous-harrison/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HARRISON-LARVOUS-KEONTAL.jpg" alt="Larvous Harrison"><div class="name">Larvous Harrison</div></a>
+<div class="reason">11/07/2024 | OBSTRUCTION OF AN OFFICERBATTERY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/samuel-thomas-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/THOMAS-SAMUEL-JEROME.jpg" alt="Samuel Thomas"><div class="name">Samuel Thomas</div></a>
+<div class="reason">11/07/2024 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/dennis-faircloth-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/FAIRCLOTH-DENNIS-FRANK.jpg" alt="Dennis Faircloth"><div class="name">Dennis Faircloth</div></a>
+<div class="reason">11/06/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/garrett-hartzog-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HARTZOG-GARRETT-THOMAS.jpg" alt="Garrett Hartzog"><div class="name">Garrett Hartzog</div></a>
+<div class="reason">11/06/2024 | CRIMINAL TRESPASSING DAMAGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/daer-soto-vaca/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SOTO-VACA-DAER-ADALI.jpg" alt="Daer Soto-Vaca"><div class="name">Daer Soto-Vaca</div></a>
+<div class="reason">11/06/2024 | HOLD FOR ICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/earnest-lowery/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LOWERY-EARNEST-LARRY.jpg" alt="Earnest Lowery"><div class="name">Earnest Lowery</div></a>
+<div class="reason">11/05/2024 | FAILURE TO APPEAR ST CT BW OC SUSPENDED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/moses-jones-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JONES-MOSES-BERNARD.jpg" alt="Moses Jones"><div class="name">Moses Jones</div></a>
+<div class="reason">11/06/2024 | CONTEMPT OF COURT (CHILD SUPPORT)CONTEMPT OF COURT (CHILD SUPPORT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/stacie-zompetti-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ZOMPETTI-STACIE-LYNN.jpg" alt="Stacie Zompetti"><div class="name">Stacie Zompetti</div></a>
+<div class="reason">11/04/2024 | FUGITIVE FROM JUSTICE STATE OF TENNESSEE SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/aaron-khan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/KHAN-AARON-SHAH.jpg" alt="Aaron Khan"><div class="name">Aaron Khan</div></a>
+<div class="reason">11/04/2024 | FUGITIVE FROM JUSTICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/brian-hicks-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HICKS-BRIAN-TEWAYNE.jpg" alt="Brian Hicks"><div class="name">Brian Hicks</div></a>
+<div class="reason">11/04/2024 | FAILURE TO MAINTAIN LANEDRIVING UNDER INFLUENCE DRUGS/ALCOHOLDRIVER TO EXERCISE DUE CARE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/nicholas-parker-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PARKER-NICHOLAS-LAMAR.jpg" alt="Nicholas Parker"><div class="name">Nicholas Parker</div></a>
+<div class="reason">11/05/2024 | OPEN CONTAINEROPEN CONTAINERDRIVING UNDER THE INFLUENCE - ALCOHOLDRIVING W/O HEADLIGHTS WHEN REQUIREDDRIVER TO EXERCISE DUE CARE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/joseph-ausgood-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/AUSGOOD-JOSEPH-GERARD.jpg" alt="Joseph Ausgood"><div class="name">Joseph Ausgood</div></a>
+<div class="reason">11/05/2024 | PROBATION VIOLATION O/C AGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/walter-jones-28/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JONES-WALTER-LEE.jpg" alt="Walter Jones"><div class="name">Walter Jones</div></a>
+<div class="reason">11/04/2024 | CRUELTY TO CHILDREN - 1ST DEGREECRUELTY TO CHILDREN - 1ST DEGREECRUELTY TO CHILDREN - 1ST DEGREECRUELTY TO CHILDREN - 1ST DEGREECRUELTY TO CHILDREN - 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/henry-hill-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HILL-HENRY-ZAVIAN.jpg" alt="Henry Hill"><div class="name">Henry Hill</div></a>
+<div class="reason">11/01/2024 | PURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/deyon-bouie-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BOUIE-DEYON-ZIKEEM.jpg" alt="Deyon Bouie"><div class="name">Deyon Bouie</div></a>
+<div class="reason">11/01/2024 | THEFT BY TAKING.FAILURE TO APPEAR O/C SHOPLIFTINGOBSTRUCTION OF AN OFFICERFUGITIVE FROM JUSTICEESCAPE.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/angela-veliz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/VELIZ-ANGELA-GWEN.jpg" alt="Angela Veliz"><div class="name">Angela Veliz</div></a>
+<div class="reason">11/01/2024 | PURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kejaun-colston-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COLSTON-KEJAUN-ARZAVEOUS.jpg" alt="Kejaun Colston"><div class="name">Kejaun Colston</div></a>
+<div class="reason">11/01/2024 | PURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANANO INSURANCESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/marco-ramirez-reyes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RAMIREZ-REYES-MARCO.jpg" alt="Marco Ramirez Reyes"><div class="name">Marco Ramirez Reyes</div></a>
+<div class="reason">11/02/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/sanford-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMS-SANFORD-EDWARD.jpg" alt="Sanford Williams"><div class="name">Sanford Williams</div></a>
+<div class="reason">11/02/2024 | SEATBELT VIOLATION - ADULTDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kevin-williams-70/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMS-KEVIN-EVANDER.jpg" alt="Kevin Williams"><div class="name">Kevin Williams</div></a>
+<div class="reason">11/02/2024 | POSS, MANU, DISTRIB, ETC VGCS (MARIJUANA)ILLEGAL POSSESSION OF CONTROLLED SUBSTANCEPOSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.POSSESSION OF DRUG RELATED OBJECT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/daniel-mathis-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MATHIS-DANIEL-ALBERT.jpg" alt="Daniel Mathis"><div class="name">Daniel Mathis</div></a>
+<div class="reason">11/02/2024 | DRIVING UNDER INFLUENCE ALCOHOL/ DRUGS (BOND SURRENDER)DRIVER TO EXERCISE DUE CARE (BOND SURRENDER)OPEN CONTAINER (BOND SURRENDER)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/joshua-johnson-107/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JOHNSON-JOSHUA-STEVEN.jpg" alt="Joshua Johnson"><div class="name">Joshua Johnson</div></a>
+<div class="reason">11/02/2024 | FELONY, MANUFACTURE/DISTRIBUTE/DISPENCE/ POSSESS WID OF SCHEDULE I DURG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/tyree-williams-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMS-TYREE-BERNARD.jpg" alt="Tyree Williams"><div class="name">Tyree Williams</div></a>
+<div class="reason">11/02/2024 | DRIVING UNDER THE INFLUENCE - ALCOHOLDRIVING W/O LICENSE ON PERSONILLEGAL POSSESSION OF CONTROLLED SUBSTANCEFAILURE TO MAINTAIN LANEPOSSESS. OF ARMS BY CONVICTED FELONS & FIRST OFFEND. PROBATNOPEN CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jessica-connell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CONNELL-JESSICA-LAUREN.jpg" alt="Jessica Connell"><div class="name">Jessica Connell</div></a>
+<div class="reason">11/03/2024 | FAILURE TO APPEAR O/C SIMPLE BATTERY-FV, SUSPENDED LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/dewayne-logan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LOGAN-DEWAYNE-DENERUSE.jpg" alt="Dewayne Logan"><div class="name">Dewayne Logan</div></a>
+<div class="reason">11/03/2024 | PROBATION VIOLATION O/C RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/willie-powell-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/POWELL-WILLIE-LAFETTE.jpg" alt="Willie Powell"><div class="name">Willie Powell</div></a>
+<div class="reason">11/04/2024 | FAILURE TO REGISTER AS SEX OFFENDER/FAILURE TO COMPLY WITH REQUIREMENTS/PROVIDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ronald-dixon-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DIXON-RONALD-LAMAR.jpg" alt="Ronald Dixon"><div class="name">Ronald Dixon</div></a>
+<div class="reason">11/04/2024 | ENTERING AN AUTO OR OTHER MOTO VEHICLE WITH INTENT OF FELONY.THEFT BY TAKING.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jacqueline-smith-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-JACQUELINE-VERONICA.jpg" alt="Jacqueline Smith"><div class="name">Jacqueline Smith</div></a>
+<div class="reason">11/04/2024 | THEFT BY TAKING.ENTERING AN AUTO OR OTHER MOTO VEHICLE WITH INTENT OF FELONY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/louisa-robertson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ROBERTSON-LOUISA-CHANTEL.jpg" alt="Louisa Robertson"><div class="name">Louisa Robertson</div></a>
+<div class="reason">10/31/2024 | POSSESSION OF DRUGS/WEAPONS BY INMATES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/dontee-brown/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BROWN-DONTEE-LYNN.jpg" alt="Dontee Brown"><div class="name">Dontee Brown</div></a>
+<div class="reason">11/01/2024 | DRIVING UNDER INFLUENCE ALCOHOL/ DRUGSFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/charles-mcfield/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCFIELD-CHARLES-VERNON.jpg" alt="Charles McField"><div class="name">Charles McField</div></a>
+<div class="reason">11/01/2024 | THEFT BY RECEIVING STOLEN PROPERTY.OPEN CONTAINERDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/elree-aderson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ADERSON-ELREE.jpg" alt="Elree Aderson"><div class="name">Elree Aderson</div></a>
+<div class="reason">10/29/2024 | THEFT BY TAKING - MISDEMEANORTHEFT BY TAKING - MISDEMEANOROBSTRUCTION OF AN OFFICER (MISDEMEANOR)FINANCIAL TRANSACTION CARD THEFT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/terry-williams-45/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WILLIAMS-JR-TERRY-LEON.jpg" alt="Terry Williams"><div class="name">Terry Williams</div></a>
+<div class="reason">10/29/2024 | CRIMINAL TRESPASS (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/keyal-stamper/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/STAMPER-KEYAL-JARON.jpg" alt="Keyal Stamper"><div class="name">Keyal Stamper</div></a>
+<div class="reason">10/28/2024 | PROBATION VIOLATION O/C AGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/courtavian-james/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JAMES-COURTAVIAN-QUONTEZ.jpg" alt="Courtavian James"><div class="name">Courtavian James</div></a>
+<div class="reason">10/30/2024 | PROBATION VIOLATION (THOMAS COUNTY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/rachel-malphurs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MALPHURS-RACHEL-LEIGH.jpg" alt="Rachel Malphurs"><div class="name">Rachel Malphurs</div></a>
+<div class="reason">10/28/2024 | FUGITIVE FROM JUSTICE (LEON COUNTY SO)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/alfonso-martinez-de-jesus/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MARTINEZ-DE-JESUS-ALFONSO.jpg" alt="Alfonso Martinez De Jesus"><div class="name">Alfonso Martinez De Jesus</div></a>
+<div class="reason">10/28/2024 | FAILURE TO MAINTAIN LANEDRIVING UNDER THE INFLUENCE - ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/efrain-sarmiento-vasquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SARMIENTO-VASQUEZ-EFRAIN.jpg" alt="Efrain Sarmiento-Vasquez"><div class="name">Efrain Sarmiento-Vasquez</div></a>
+<div class="reason">10/28/2024 | OBSTRUCTION OF AN OFFICEROPEN CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/daniel-mathis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MATHIS-DANIEL-ALBERT.jpg" alt="Daniel Mathis"><div class="name">Daniel Mathis</div></a>
+<div class="reason">10/29/2024 | OPEN CONTAINERDRIVING UNDER INFLUENCE ALCOHOL/ DRUGSUNSAFE OPERATION OF RADIO OR TELEPHONE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jayson-hicks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HICKS-JAYSON-CLAY.jpg" alt="Jayson Hicks"><div class="name">Jayson Hicks</div></a>
+<div class="reason">10/28/2024 | DEPOSIT ACCOUNT FRAUD.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/cale-harris-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HARRIS-CALE-GILBERT.jpg" alt="Cale Harris"><div class="name">Cale Harris</div></a>
+<div class="reason">10/27/2024 | PROBATION VIOLATION O/C GIVING FALSE NAME</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ana-gallegos-barahona/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GALLEGOS-BARAHONA-ANA-YESENIA.jpg" alt="Ana Gallegos Barahona"><div class="name">Ana Gallegos Barahona</div></a>
+<div class="reason">10/27/2024 | TAIL LIGHTS REQUIREDDRIVING UNDER INFLUENCE ALCOHOL/ DRUGSEXPIRED DRIVER'S LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/richard-ward-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WARD-RICHARD-DUSTIN.jpg" alt="Richard Ward"><div class="name">Richard Ward</div></a>
+<div class="reason">10/28/2024 | SIMPLE BATTERY (FV)TERRORISTIC THREATS AND ACTS.CRIMINAL DAMAGE TO PROPERTY IN THE FIRST DEGREE.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/brandon-washington-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WASHINGTON-BRANDON-TERRELL.jpg" alt="Brandon Washington"><div class="name">Brandon Washington</div></a>
+<div class="reason">10/24/2024 | DRIVING UNDER THE INFLUENCE - ALCOHOLADULT RESTRAINT LAW SEAT BELT 18 AN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/gary-davis-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DAVIS-GARY-LEE.jpg" alt="Gary Davis"><div class="name">Gary Davis</div></a>
+<div class="reason">10/16/2024 | DRIVING WITHOUT LICENSEFAILURE TO MAINTAIN LANEDEFECTIVE EQUIPMENTAFFIXING MATERIALS THAT REDUCE OR INCREASE TRANSMISSION/REFLECTANCE OF WINDOWVIOLATION OF WINDOW TINT LAW</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ashley-kelley-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KELLEY-ASHLEY-DANIELLE.jpg" alt="Ashley Kelley"><div class="name">Ashley Kelley</div></a>
+<div class="reason">10/15/2024 | FINANCIAL TRANSACTION CARD THEFT.FINANCIAL TRANSACTION CARD THEFT.NO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/austin-mccall-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MCCALL-AUSTIN-JESSE.jpg" alt="Austin McCall"><div class="name">Austin McCall</div></a>
+<div class="reason">10/15/2024 | PROBATION VIOLATION O/C FORGERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/benjamin-maxwell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MAXWELL-BENJAMIN-WAYNE.jpg" alt="Benjamin Maxwell"><div class="name">Benjamin Maxwell</div></a>
+<div class="reason">10/15/2024 | POSSESSION OF METHAMPHETAMINEFINANCIAL TRANSACTION CARD FRAUDFINANCIAL TRANSACTION CARD FRAUDTHEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kaleisha-jackson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JACKSON-KALEISHA-LOUISE.jpg" alt="Kaleisha Jackson"><div class="name">Kaleisha Jackson</div></a>
+<div class="reason">10/12/2024 | SIMPLE BATTERY.SIMPLE BATTERY.PUBLIC DRUNKOBSTRUCTION OF AN OFFICER (MISDEMEANOR)SIMPLE BATTERY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/william-pollock/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/POLLOCK-II-WILLIAM-HERBERT.jpg" alt="William Pollock"><div class="name">William Pollock</div></a>
+<div class="reason">10/12/2024 | FRAUD (LEON COUNTY SO CHARGE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/zackary-krantz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KRANTZ-ZACKARY-NORRIS.jpg" alt="Zackary Krantz"><div class="name">Zackary Krantz</div></a>
+<div class="reason">10/11/2024 | THEFT BY RECEIVING STOLEN PROPERTY.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.POSSESS. OF ARMS BY CONVICTED FELONS & FIRST OFFEND. PROBATN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/darrin-nundra/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/NUNDRA-DARRIN-BERNARD.jpg" alt="Darrin Nundra"><div class="name">Darrin Nundra</div></a>
+<div class="reason">10/12/2024 | MURDER; FELONY MURDER.TAMPERING WITH EVIDENCE.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ibrahim-ilgun/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ILGUN-IBRAHIM.jpg" alt="Ibrahim Ilgun"><div class="name">Ibrahim Ilgun</div></a>
+<div class="reason">10/12/2024 | ELECTRONICALLY FURNISHING OBSCENE MATERIAL TO MINORSTRAFFICKING A PERSON FOR SEXUAL SERVITUDE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/james-swatts/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SWATTS-JR-JAMES.jpg" alt="James Swatts"><div class="name">James Swatts</div></a>
+<div class="reason">10/11/2024 | FUGITIVE FROM JUSTICE (LEON COUNTY SO WARRANT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/callie-close-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CLOSE-CALLIE-MARIA.jpg" alt="Callie Close"><div class="name">Callie Close</div></a>
+<div class="reason">10/10/2024 | PUBLIC INDECENCYCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/todd-laufenburger/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/LAUFENBURGER-TODD-MICHAEL.jpg" alt="Todd Laufenburger"><div class="name">Todd Laufenburger</div></a>
+<div class="reason">10/09/2024 | LEAVING THE SCENE OF ACCIDENT (HIT & RUN)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/timothy-melton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MELTON-TIMOTHY-DEAN.jpg" alt="Timothy Melton"><div class="name">Timothy Melton</div></a>
+<div class="reason">10/21/2024 | PROBATION VIOLATION O/C FLEEING /ELUDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/martin-jackson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JACKSON-III-MARTIN.jpg" alt="Martin Jackson"><div class="name">Martin Jackson</div></a>
+<div class="reason">10/21/2024 | PAROLE VIOLATION OUT OF FLORIDA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kimberly-burke-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BURKE-KIMBERLY-NICOLE.jpg" alt="Kimberly Burke"><div class="name">Kimberly Burke</div></a>
+<div class="reason">10/22/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/paul-chandler-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CHANDLER-PAUL-VASHAWN.jpg" alt="Paul Chandler"><div class="name">Paul Chandler</div></a>
+<div class="reason">10/18/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDOBSTRUCTION OF AN OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/milton-gayle-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GAYLE-MILTON-THOMAS.jpg" alt="Milton Gayle"><div class="name">Milton Gayle</div></a>
+<div class="reason">10/18/2024 | FAILURE TO APPEAR O/C RAPE (DEKALB COUNTY SO WARRANT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/john-ware-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WARE-JOHN-HENRY.jpg" alt="John Ware"><div class="name">John Ware</div></a>
+<div class="reason">10/20/2024 | POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCETAMPERING WITH EVIDENCE - MISDEMEANORWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/danielle-washington-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WASHINGTON-DANIELLE-SHANICE.jpg" alt="Danielle Washington"><div class="name">Danielle Washington</div></a>
+<div class="reason">10/18/2024 | FAILURE TO MAINTAIN LANEDRIVING UNDER INFLUENCE ALCOHOL/ DRUGSOPEN CONTAINERDRIVING WHILE LICENSE SUSPENDED OR REVOKEDUNSAFE OPERATION OF RADIO OR TELEPHONE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/mary-register/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/REGISTER-MARY-ROBYN.jpg" alt="Mary Register"><div class="name">Mary Register</div></a>
+<div class="reason">10/18/2024 | BATTERY. (FV)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/bryan-collins-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/COLLINS-JR-BRYAN-ELLIS.jpg" alt="Bryan Collins"><div class="name">Bryan Collins</div></a>
+<div class="reason">10/18/2024 | BATTERY.(FV)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/bobby-wallace/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WALLACE-JR-BOBBY.jpg" alt="Bobby Wallace"><div class="name">Bobby Wallace</div></a>
+<div class="reason">10/17/2024 | NO INSURANCEIMPROPER/ERRATIC LANE CHANGEDRIVING WHILE LICENSE SUSPENDED OR REVOKEDFAILURE TO KEEP IN PROPER LANEDRIVING WHILE TAG IS SUSPENDED 1STDRIVING UNDER INFLUENCE ALCOHOLOPEN CONTAINERBRAKE LIGHTS AND TURN SIGNALS REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/larry-rhodes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RHODES-LARRY-LEON.jpg" alt="Larry Rhodes"><div class="name">Larry Rhodes</div></a>
+<div class="reason">10/15/2024 | SEX OFFENDER: FAILURE TO REGISTER FAILURE TO MEET REGIST. REQUIREMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/shyanna-wynn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WYNN-SHYANNA-NICOLE.jpg" alt="Shyanna Wynn"><div class="name">Shyanna Wynn</div></a>
+<div class="reason">10/15/2024 | THEFT BY RECEIVING STOLEN PROPERTY.FALSE STATEMENTS AND WRITINGSFALSE STATEMENTS AND WRITINGSIDENTITY FRAUDGIVING FALSE INFORMATION OR FALSE NAMEPOSSESS. OF ARMS BY CONVICTED FELONS & FIRST OFFEND. PROBATNFALSE STATEMENTS AND WRITINGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/daniel-cooper-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/COOPER-DANIEL-LONNIE.jpg" alt="Daniel Cooper"><div class="name">Daniel Cooper</div></a>
+<div class="reason">10/16/2024 | IMPROPER TAG DISPLAYPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/gary-davis-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DAVIS-GARY-LEE.jpg" alt="Gary Davis"><div class="name">Gary Davis</div></a>
+<div class="reason">10/16/2024 | DRIVING WITHOUT LICENSEFAILURE TO MAINTAIN LANEDEFECTIVE EQUIPMENTAFFIXING MATERIALS THAT REDUCE OR INCREASE TRANSMISSION/REFLECTANCE OF WINDOWVIOLATION OF WINDOW TINT LAW</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ashley-kelley-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KELLEY-ASHLEY-DANIELLE.jpg" alt="Ashley Kelley"><div class="name">Ashley Kelley</div></a>
+<div class="reason">10/15/2024 | FINANCIAL TRANSACTION CARD THEFT.FINANCIAL TRANSACTION CARD THEFT.NO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/austin-mccall-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MCCALL-AUSTIN-JESSE.jpg" alt="Austin McCall"><div class="name">Austin McCall</div></a>
+<div class="reason">10/15/2024 | PROBATION VIOLATION O/C FORGERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/benjamin-maxwell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MAXWELL-BENJAMIN-WAYNE.jpg" alt="Benjamin Maxwell"><div class="name">Benjamin Maxwell</div></a>
+<div class="reason">10/15/2024 | POSSESSION OF METHAMPHETAMINEFINANCIAL TRANSACTION CARD FRAUDFINANCIAL TRANSACTION CARD FRAUDTHEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/kaleisha-jackson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/JACKSON-KALEISHA-LOUISE.jpg" alt="Kaleisha Jackson"><div class="name">Kaleisha Jackson</div></a>
+<div class="reason">10/12/2024 | SIMPLE BATTERY.SIMPLE BATTERY.PUBLIC DRUNKOBSTRUCTION OF AN OFFICER (MISDEMEANOR)SIMPLE BATTERY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/william-pollock/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/POLLOCK-II-WILLIAM-HERBERT.jpg" alt="William Pollock"><div class="name">William Pollock</div></a>
+<div class="reason">10/12/2024 | FRAUD (LEON COUNTY SO CHARGE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/zackary-krantz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/KRANTZ-ZACKARY-NORRIS.jpg" alt="Zackary Krantz"><div class="name">Zackary Krantz</div></a>
+<div class="reason">10/11/2024 | THEFT BY RECEIVING STOLEN PROPERTY.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.POSSESS. OF ARMS BY CONVICTED FELONS & FIRST OFFEND. PROBATN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/darrin-nundra/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/NUNDRA-DARRIN-BERNARD.jpg" alt="Darrin Nundra"><div class="name">Darrin Nundra</div></a>
+<div class="reason">10/12/2024 | MURDER; FELONY MURDER.TAMPERING WITH EVIDENCE.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/ibrahim-ilgun/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/ILGUN-IBRAHIM.jpg" alt="Ibrahim Ilgun"><div class="name">Ibrahim Ilgun</div></a>
+<div class="reason">10/12/2024 | ELECTRONICALLY FURNISHING OBSCENE MATERIAL TO MINORSTRAFFICKING A PERSON FOR SEXUAL SERVITUDE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/james-swatts/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SWATTS-JR-JAMES.jpg" alt="James Swatts"><div class="name">James Swatts</div></a>
+<div class="reason">10/11/2024 | FUGITIVE FROM JUSTICE (LEON COUNTY SO WARRANT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/callie-close-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CLOSE-CALLIE-MARIA.jpg" alt="Callie Close"><div class="name">Callie Close</div></a>
+<div class="reason">10/10/2024 | PUBLIC INDECENCYCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/todd-laufenburger/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/LAUFENBURGER-TODD-MICHAEL.jpg" alt="Todd Laufenburger"><div class="name">Todd Laufenburger</div></a>
+<div class="reason">10/09/2024 | LEAVING THE SCENE OF ACCIDENT (HIT & RUN)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/aaron-spivie/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SPIVIE-SR-AARON-LATRAIL.jpg" alt="Aaron Spivie"><div class="name">Aaron Spivie</div></a>
+<div class="reason">10/09/2024 | FAILURE TO MAINTAIN LANEFAILURE TO YIELD TO EMERGENCY VEHICLEOBSTRUCTION OF AN OFFICER (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jessie-miller-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/MILLER-JESSIE-ROKELL.jpg" alt="Jessie Miller"><div class="name">Jessie Miller</div></a>
+<div class="reason">10/09/2024 | DRIVING UNDER THE INFLUENCE - ALCOHOLDRIVING WITHOUT LICENSEDRIVER TO EXERCISE DUE CARE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/peter-chappa/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CHAPPA-PETER-JOSEPH.jpg" alt="Peter Chappa"><div class="name">Peter Chappa</div></a>
+<div class="reason">10/09/2024 | THEFT BY SHOPLIFTING 1ST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/leonard-borders/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BORDERS-LEONARD-JEFFERY.jpg" alt="Leonard Borders"><div class="name">Leonard Borders</div></a>
+<div class="reason">10/08/2024 | AGGRAVATED ASSAULT.AGGRAVATED ASSAULT.AGGRAVATED ASSAULT.AGGRAVATED ASSAULT.POSSESS. OF ARMS BY CONVICTED FELONS & FIRST OFFEND. PROBATNPOSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.POSSESS. OF ARMS BY CONVICTED FELONS & FIRST OFFEND. PROBATNARMED ROBBERY; INTIMIDATION; TAKING CONTROL OF SUBSTANCE.POSSESSION OF FIREARM OR KNIFE WHILE TRYING TO COMMIT CRIMES.PAROLE...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/korey-bennett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/BENNETT-KOREY-WILLIAM.jpg" alt="Korey Bennett"><div class="name">Korey Bennett</div></a>
+<div class="reason">10/07/2024 | PROBATION VIOLATION O/C SUSPENDED LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/jonathan-turner-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/TURNER-JONATHAN-LEE.jpg" alt="Jonathan Turner"><div class="name">Jonathan Turner</div></a>
+<div class="reason">10/04/2024 | PROBATION VIOLATION (THOMAS CO SO WARRANT)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/eddie-choice/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CHOICE-JR-EDDIE-TYRONE.jpg" alt="Eddie Choice"><div class="name">Eddie Choice</div></a>
+<div class="reason">10/05/2024 | DRIVING UNDER THE INFLUENCE - ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/henry-graham-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GRAHAM-HENRY-JAMES.jpg" alt="Henry Graham"><div class="name">Henry Graham</div></a>
+<div class="reason">10/05/2024 | SIMPLE BATTERY (FAMILY VIOLENCE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/decatur/quamir-crawford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CRAWFORD-QUAMIR-DAVON.jpg" alt="Quamir Crawford"><div class="name">Quamir Crawford</div></a>
+<div class="reason">10/05/2024 | FAILURE TO REGISTER AS SEX OFFENDER/FAILURE TO COMPLY WITH REQUIREMENTS/PROVIDEDSIMPLE BATTERYWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+</div><div class="pagination"><a href="decatur3.html">Next Page</a></div></body></html>

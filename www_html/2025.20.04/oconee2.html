@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/barry-pope-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pope-Barry-Mandriall.jpg" alt="Barry Pope"><div class="name">Barry Pope</div></a>
+<div class="reason">02/13/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/mehki-pettigrew-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pettigrew-Mehki-Avant-1.jpg" alt="Mehki Pettigrew"><div class="name">Mehki Pettigrew</div></a>
+<div class="reason">02/14/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/preston-peavy-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Peavy-Preston-Scott.jpg" alt="Preston Peavy"><div class="name">Preston Peavy</div></a>
+<div class="reason">02/13/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jhon-parra/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Parra-Jhon-Mauricio.jpg" alt="Jhon Parra"><div class="name">Jhon Parra</div></a>
+<div class="reason">02/15/2025 | NO REGISTRATIONDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/luis-padilla-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Padilla-Luis-Angel.jpg" alt="Luis Padilla"><div class="name">Luis Padilla</div></a>
+<div class="reason">02/16/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/josajandi-navarrete/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Navarrete-Josajandi.jpg" alt="Josajandi Navarrete"><div class="name">Josajandi Navarrete</div></a>
+<div class="reason">02/15/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/robert-morton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Morton-Robert-William.jpg" alt="Robert Morton"><div class="name">Robert Morton</div></a>
+<div class="reason">02/13/2025 | EXPIRED OR NO LICENSE PLATES OR DECALDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)NO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/juan-meraz-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Meraz-Juan-Carlos.jpg" alt="Juan Meraz"><div class="name">Juan Meraz</div></a>
+<div class="reason">02/15/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/aaron-lehan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lehan-Aaron-Louis.jpg" alt="Aaron Lehan"><div class="name">Aaron Lehan</div></a>
+<div class="reason">02/14/2025 | THEFT BY SHOPLIFTING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/tylor-legg/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Legg-Tylor-1.jpg" alt="Tylor Legg"><div class="name">Tylor Legg</div></a>
+<div class="reason">02/11/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jaquavious-king-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/King-Jaquavious-Deonta.jpg" alt="Jaquavious King"><div class="name">Jaquavious King</div></a>
+<div class="reason">02/11/2025 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/quinntavious-jackson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jackson-Quinntavious-Antwain.jpg" alt="Quinntavious Jackson"><div class="name">Quinntavious Jackson</div></a>
+<div class="reason">02/11/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/emma-hilley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hilley-Emma-Elizabeth.jpg" alt="Emma Hilley"><div class="name">Emma Hilley</div></a>
+<div class="reason">02/11/2025 | CONTEMPT OF STATE COURT FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/marcus-harthorne-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harthorne-Marcus.jpg" alt="Marcus Harthorne"><div class="name">Marcus Harthorne</div></a>
+<div class="reason">02/11/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/quanjuana-hamilton-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hamilton-Quanjuana.jpg" alt="Quanjuana Hamilton"><div class="name">Quanjuana Hamilton</div></a>
+<div class="reason">02/11/2025 | BATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/felipe-guzman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Guzman-Felipe-De-Jesus.jpg" alt="Felipe Guzman"><div class="name">Felipe Guzman</div></a>
+<div class="reason">02/16/2025 | TOO FAST FOR CONDITIONSFAILURE TO REPORT ACCIDENT RESULTING IN PROP. DAMAGEDUI - DRIVING UNDER THE INFLUENCE OF MULTIPLE SUBSTANCES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/keelee-green-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Green-Keelee-Rian.jpg" alt="Keelee Green"><div class="name">Keelee Green</div></a>
+<div class="reason">02/16/2025 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/darien-foster-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Foster-Darien-Devante.jpg" alt="Darien Foster"><div class="name">Darien Foster</div></a>
+<div class="reason">02/14/2025 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/syed-faem/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Faem-Syed-Abdul.jpg" alt="Syed Faem"><div class="name">Syed Faem</div></a>
+<div class="reason">02/14/2025 | SPEEDINGDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/cheyenne-eller-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Eller-Cheyenne-Faith.jpg" alt="Cheyenne Eller"><div class="name">Cheyenne Eller</div></a>
+<div class="reason">02/14/2025 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG RELATED OBJECTSFAILURE TO SIGNAL WHEN CHANGING LANESOBEDIENCE TO TRAFFIC-CONTROL DEVICES REQUIREDFAILURE TO EXERCISE DUE CAREDUTY UPON STRIKING FIXTUREDUTY UPON STRIKING FIXTURERECKLESS DRIVINGFLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICERFAILURE TO MAINTAIN LANEHEADLIGHTS REQUIRMENTSCROSSING STATE/COUNTY GUARD LINES...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/geoffrey-dennis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dennis-Geoffrey-Kevin.jpg" alt="Geoffrey Dennis"><div class="name">Geoffrey Dennis</div></a>
+<div class="reason">02/10/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)STRIKING UNATTENDED VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/donald-dennis-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dennis-III-Donald.jpg" alt="Donald Dennis"><div class="name">Donald Dennis</div></a>
+<div class="reason">02/15/2025 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/shannon-custis-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Custis-Shannon-Monique.jpg" alt="Shannon Custis"><div class="name">Shannon Custis</div></a>
+<div class="reason">02/10/2025 | PROBATION VIOLATION - FELONYPROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/michael-culbreath-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Culbreath-Michael-Eugene.jpg" alt="Michael Culbreath"><div class="name">Michael Culbreath</div></a>
+<div class="reason">02/11/2025 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/andrea-coniglio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Coniglio-Andrea-Michelle.jpg" alt="Andrea Coniglio"><div class="name">Andrea Coniglio</div></a>
+<div class="reason">02/14/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/johnathon-childs-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Childs-Johnathon-Lee-1.jpg" alt="Johnathon Childs"><div class="name">Johnathon Childs</div></a>
+<div class="reason">02/15/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/charles-cater-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cater-Charles-Lamario.jpg" alt="Charles Cater"><div class="name">Charles Cater</div></a>
+<div class="reason">02/10/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)TOO FAST FOR CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/dylan-brown-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Dylan-Cody.jpg" alt="Dylan Brown"><div class="name">Dylan Brown</div></a>
+<div class="reason">02/13/2025 | FORGERY - 3RD DEGREEFORGERY - 4TH DEGREE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/dominique-bradley-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bradley-Dominique-Darqufase.jpg" alt="Dominique Bradley"><div class="name">Dominique Bradley</div></a>
+<div class="reason">02/13/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)NO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/emanuel-bailey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bailey-Emanuel.jpg" alt="Emanuel Bailey"><div class="name">Emanuel Bailey</div></a>
+<div class="reason">02/11/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/ronald-babecka-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Babecka-Ronald-Roy.jpg" alt="Ronald Babecka"><div class="name">Ronald Babecka</div></a>
+<div class="reason">02/11/2025 | SENTENCED INMATESENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/will-wright-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wright-Will-1.jpg" alt="Will Wright"><div class="name">Will Wright</div></a>
+<div class="reason">02/05/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/andrea-webb-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Webb-Andrea.jpg" alt="Andrea Webb"><div class="name">Andrea Webb</div></a>
+<div class="reason">01/08/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/michael-watson-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Watson-Michael-Owen.jpg" alt="Michael Watson"><div class="name">Michael Watson</div></a>
+<div class="reason">02/07/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jose-valdez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Valdez-Jose.jpg" alt="Jose Valdez"><div class="name">Jose Valdez</div></a>
+<div class="reason">02/07/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/emmanuella-tuffuor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Tuffuor-Emmanuella-Ohene.jpg" alt="Emmanuella Tuffuor"><div class="name">Emmanuella Tuffuor</div></a>
+<div class="reason">02/09/2025 | SIMPLE ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/hollis-steed/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Steed-Hollis-Riddoc.jpg" alt="Hollis Steed"><div class="name">Hollis Steed</div></a>
+<div class="reason">02/08/2025 | UNLAWFUL TO POSSESS, DISPLAY, OR USE ANY FALSE, FRAUDULENT, ALTERED IDENTIFICATION DOCUMENTSPEEDINGRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/latesha-purnell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Purnell-Latesha.jpg" alt="Latesha Purnell"><div class="name">Latesha Purnell</div></a>
+<div class="reason">02/06/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)OBEDIENCE TO TRAFFIC-CONTROL DEVICES REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/sean-powell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Powell-Sean-Nicholas.jpg" alt="Sean Powell"><div class="name">Sean Powell</div></a>
+<div class="reason">02/05/2025 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/rishi-patel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Patel-Rishi-Paresh.jpg" alt="Rishi Patel"><div class="name">Rishi Patel</div></a>
+<div class="reason">02/05/2025 | RECKLESS DRIVINGOBSCURRED OR MISSING LICENSE PLATEFOLLOWING TOO CLOSELYEXHAUST SYSTEM VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/leah-knight/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Knight-Leah-Ayn.jpg" alt="Leah Knight"><div class="name">Leah Knight</div></a>
+<div class="reason">02/07/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/alyssa-jones-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Alyssa-Makenzie.jpg" alt="Alyssa Jones"><div class="name">Alyssa Jones</div></a>
+<div class="reason">02/07/2025 | COURTESY HOLDWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORRECKLESS CONDUCTDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVING ON WRONG SIDE OF ROADWAYHEADLIGHTS REQUIRMENTSUSE OF SAFETY BELTS IN PASSENGER VEHICLESENDANGERING A CHILD WHILE OPERATING A VESSEL UNDER THE INFLUENCE - MISDEMEANORWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/kenneth-johnson-63/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Kenneth-Mathew.jpg" alt="Kenneth Johnson"><div class="name">Kenneth Johnson</div></a>
+<div class="reason">02/08/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/kyle-holmes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Holmes-Kyle-Lamont.jpg" alt="Kyle Holmes"><div class="name">Kyle Holmes</div></a>
+<div class="reason">02/09/2025 | THEFT BY RECEIVING PROPERTY STOLEN IN ANOTHER STATE - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/katherine-hill-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hill-Katherine-Denise.jpg" alt="Katherine Hill"><div class="name">Katherine Hill</div></a>
+<div class="reason">02/07/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/romeo-herrera-ruiz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Herrera-Ruiz-Romeo.jpg" alt="Romeo Herrera-Ruiz"><div class="name">Romeo Herrera-Ruiz</div></a>
+<div class="reason">02/05/2025 | EXPIRED OR NO LICENSE PLATE OR DECALDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/mhina-hammons-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hammons-Mhina-Ralynn.jpg" alt="Mhina Hammons"><div class="name">Mhina Hammons</div></a>
+<div class="reason">02/08/2025 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/louis-ellerbe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ellerbe-Louis.jpg" alt="Louis Ellerbe"><div class="name">Louis Ellerbe</div></a>
+<div class="reason">02/05/2025 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/tyler-denning/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Denning-Tyler-Warren.jpg" alt="Tyler Denning"><div class="name">Tyler Denning</div></a>
+<div class="reason">02/06/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/antonio-de-luna-esparza/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/De-Luna-Esparza-Antonio.jpg" alt="Antonio De Luna Esparza"><div class="name">Antonio De Luna Esparza</div></a>
+<div class="reason">02/05/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)TOO FAST FOR CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/melanie-daniel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Daniel-Melanie-Ann.jpg" alt="Melanie Daniel"><div class="name">Melanie Daniel</div></a>
+<div class="reason">02/06/2025 | POSSESSION OF METHAMPHETAMINEDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)PASSING SCHOOL BUS-LOADING/UNLOADING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/ernest-cook/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cook-Ernest.jpg" alt="Ernest Cook"><div class="name">Ernest Cook</div></a>
+<div class="reason">02/05/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/john-colatosti/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Colatosti-III-John-Tanner.jpg" alt="John Colatosti"><div class="name">John Colatosti</div></a>
+<div class="reason">02/06/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/megan-chambers-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Chambers-Megan-Lee.jpg" alt="Megan Chambers"><div class="name">Megan Chambers</div></a>
+<div class="reason">02/05/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/christian-buitrago-galviz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Buitrago-Galviz-Christian-Fabian.jpg" alt="Christian Buitrago-Galviz"><div class="name">Christian Buitrago-Galviz</div></a>
+<div class="reason">02/05/2025 | AFFIXING LICENSE PLATE TO MISREPRESENTNO REGISTRATIONDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)NO INSURANCECHILD OR YOUTH RESTRAINT NOT USED PROPERLY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/rickie-brown-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Rickie-Brendell.jpg" alt="Rickie Brown"><div class="name">Rickie Brown</div></a>
+<div class="reason">02/05/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/kesha-brown/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Kesha-L.jpg" alt="Kesha Brown"><div class="name">Kesha Brown</div></a>
+<div class="reason">02/03/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/brandi-beasley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Beasley-Brandi-Lynn-1.jpg" alt="Brandi Beasley"><div class="name">Brandi Beasley</div></a>
+<div class="reason">02/04/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jarvis-walker-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Walker-Jarvis-Leon.jpg" alt="Jarvis Walker"><div class="name">Jarvis Walker</div></a>
+<div class="reason">01/30/2025 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/elton-taylor-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Taylor-Elton-Maurice.jpg" alt="Elton Taylor"><div class="name">Elton Taylor</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/sanchez-smith-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Sanchez.jpg" alt="Sanchez Smith"><div class="name">Sanchez Smith</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/rodney-smith-41/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Rodney-Darrell.jpg" alt="Rodney Smith"><div class="name">Rodney Smith</div></a>
+<div class="reason">01/30/2025 | THEFT BY SHOPLIFTING - FELONYTHEFT BY SHOPLIFTING - MISDEMEANORTHEFT BY SHOPLIFTING - FELONYTHEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/daniele-shavers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shavers-Daniele-Lanier.jpg" alt="Daniele Shavers"><div class="name">Daniele Shavers</div></a>
+<div class="reason">02/01/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)CHILD OR YOUTH RESTRAINT NOT USED PROPERLY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/darrion-saffo-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Saffo-Darrion.jpg" alt="Darrion Saffo"><div class="name">Darrion Saffo</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/elliott-rosemond-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rosemond-Elliott.jpg" alt="Elliott Rosemond"><div class="name">Elliott Rosemond</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/antonio-reeves-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Reeves-Antonio.jpg" alt="Antonio Reeves"><div class="name">Antonio Reeves</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/john-puleo-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Puleo-John-Donald.jpg" alt="John Puleo"><div class="name">John Puleo</div></a>
+<div class="reason">01/28/2025 | UNLAWFUL EAVESDROPPING OR SURVEILLANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/laxile-price-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Price-LaXile.jpg" alt="La’Xile Price"><div class="name">La’Xile Price</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jeffrey-poulnot/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Poulnot-Jr.-Jeffrey-Owen.jpg" alt="Jeffrey Poulnot"><div class="name">Jeffrey Poulnot</div></a>
+<div class="reason">01/30/2025 | IMPROPER U-TURNDUI - DRIVING UNDER THE INFLUENCE OF DRUGSUSE OF SAFETY BELTS IN PASSENGER VEHICLES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/audrey-page-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Page-Audrey-Leann.jpg" alt="Audrey Page"><div class="name">Audrey Page</div></a>
+<div class="reason">02/01/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/diego-mojica-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mojica-Diego-Armando.jpg" alt="Diego Mojica"><div class="name">Diego Mojica</div></a>
+<div class="reason">01/28/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/ernesto-martinez-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Martinez-Ernesto-Jose-1.jpg" alt="Ernesto Martinez"><div class="name">Ernesto Martinez</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/makenzie-martin-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Martin-Makenzie-Paige.jpg" alt="Makenzie Martin"><div class="name">Makenzie Martin</div></a>
+<div class="reason">01/30/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/manuel-lazo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lazo-Jr.-Manuel.jpg" alt="Manuel Lazo"><div class="name">Manuel Lazo</div></a>
+<div class="reason">01/27/2025 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/juan-lara-grafias/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lara-Grafias-Juan-Carlos.jpg" alt="Juan Lara-Grafias"><div class="name">Juan Lara-Grafias</div></a>
+<div class="reason">01/27/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)OBEDIENCE TO TRAFFIC-CONTROL DEVICES REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/shanteanna-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Shanteanna-Shaney.jpg" alt="Shanteanna Johnson"><div class="name">Shanteanna Johnson</div></a>
+<div class="reason">02/01/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/barbara-caton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Caton-Barbara-Jean.jpg" alt="Barbara Caton"><div class="name">Barbara Caton</div></a>
+<div class="reason">02/02/2025 | EXPIRED OR NO LICENSE PLATES OR DECALDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)NO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/gabriel-johnson-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Gabriel.jpg" alt="Gabriel Johnson"><div class="name">Gabriel Johnson</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/adam-hyatt-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hyatt-Adam-Wallace.jpg" alt="Adam Hyatt"><div class="name">Adam Hyatt</div></a>
+<div class="reason">01/28/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/todd-hardison/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hardison-Todd-Andrew.jpg" alt="Todd Hardison"><div class="name">Todd Hardison</div></a>
+<div class="reason">01/27/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/tracy-graham-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Graham-Tracy-Deontavious.jpg" alt="Tracy Graham"><div class="name">Tracy Graham</div></a>
+<div class="reason">01/28/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/zykeeria-cox-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cox-Zykeeria-Ciniya.jpg" alt="Zykeeria Cox"><div class="name">Zykeeria Cox</div></a>
+<div class="reason">01/30/2025 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/charles-eckstein/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Eckstein-Charles-Alva.jpg" alt="Charles Eckstein"><div class="name">Charles Eckstein</div></a>
+<div class="reason">02/02/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/donna-callihan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Callihan-Donna-Marie.jpg" alt="Donna Callihan"><div class="name">Donna Callihan</div></a>
+<div class="reason">02/02/2025 | AGGRAVATED ASSAULTBATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISDCRUELTY TO CHILDREN IN THE 3RD DEGREE - 1ST OR 2ND OFFENSE - MISDEMEANOR Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/malik-brown-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Malik.jpg" alt="Malik Brown"><div class="name">Malik Brown</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/brandi-beasley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Beasley-Brandi-Lynn.jpg" alt="Brandi Beasley"><div class="name">Brandi Beasley</div></a>
+<div class="reason">01/31/2025 | GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICERDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/rico-arnold-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Arnold-Rico.jpg" alt="Rico Arnold"><div class="name">Rico Arnold</div></a>
+<div class="reason">01/29/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/chandler-smith-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Chandler-William.jpg" alt="Chandler Smith"><div class="name">Chandler Smith</div></a>
+<div class="reason">01/30/2025 | EXPLIOT/INFLICT PAIN TO/DEPRIVE ESSENTAIL SERVICES TO DISABLED PERSON/ELDERLY/RESIDENTEXPLIOT/INFLICT PAIN TO/DEPRIVE ESSENTAIL SERVICES TO DISABLED PERSON/ELDERLY/RESIDENTCRIMINAL DAMAGE TO PROPERTY - 2ND DEGREE Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/fernando-tellez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Tellez-Fernando-Salas.jpg" alt="Fernando Tellez"><div class="name">Fernando Tellez</div></a>
+<div class="reason">01/20/2025 | FALSE IMPRISONMENTTHEFT BY TAKING - FELONYTHEFT BY TAKING - MISDEMEANORDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLTERRORISTIC THREATS AND ACTSHARASSING PHONE CALLS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/tori-smith-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Smith-Tori-Nakita.jpg" alt="Tori Smith"><div class="name">Tori Smith</div></a>
+<div class="reason">01/24/2025 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORFAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANORRECKLESS DRIVINGFLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICER FOR A FELONY OFFENSEFAILURE TO MAINTAIN LANEHOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/melissa-smallen-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Smallen-Melissa-Ann.jpg" alt="Melissa Smallen"><div class="name">Melissa Smallen</div></a>
+<div class="reason">01/23/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/robert-scott-32/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Scott-Robert-Perez.jpg" alt="Robert Scott"><div class="name">Robert Scott</div></a>
+<div class="reason">01/26/2025 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOROBSTRUCTION OF LAW ENFORCEMENT OFFICER WHEN ENGAGED ON OFFICIAL DUTY WHICH RESULTS IN SERIOUS PHYSICAL HARM OR INJURY TO SUCH OFFICER (FELONY)UNLAWFUL FOR ANY PERSON TO PURCHASE, POSSESS, OR HAVE UNDER HIS CONTROL ANY CONTROLLED SUBSTANCEBATTERYNO REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/gerardo-santoyo-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Santoyo-Gerardo.jpg" alt="Gerardo Santoyo"><div class="name">Gerardo Santoyo</div></a>
+<div class="reason">01/21/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jeremy-ray-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Ray-Jeremy-Wayne.jpg" alt="Jeremy Ray"><div class="name">Jeremy Ray</div></a>
+<div class="reason">01/20/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG RELATED OBJECTSDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)SPEEDINGLITTERING HIGHWAYDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/abraham-parraga-merado/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Parraga-Merado-Abraham-David.jpg" alt="Abraham Parraga-Merado"><div class="name">Abraham Parraga-Merado</div></a>
+<div class="reason">01/23/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/meredith-mull-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Mull-Meredith-Cole.jpg" alt="Meredith Mull"><div class="name">Meredith Mull</div></a>
+<div class="reason">01/20/2025 | POSSESSION OF METHAMPHETAMINEPOSSESSION AND USE OF DRUG RELATED OBJECTSTHEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/oscar-morales-felipe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Morales-Felipe-Oscar-Orlando.jpg" alt="Oscar Morales-Felipe"><div class="name">Oscar Morales-Felipe</div></a>
+<div class="reason">01/25/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/saron-kesete/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Kesete-Saron-Andre.jpg" alt="Saron Kesete"><div class="name">Saron Kesete</div></a>
+<div class="reason">01/25/2025 | SPEEDINGRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/mubarik-kennedy-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Kennedy-Mubarik.jpg" alt="Mubarik Kennedy"><div class="name">Mubarik Kennedy</div></a>
+<div class="reason">01/24/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/zackery-judy-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Judy-Zackery-Raymond.jpg" alt="Zackery Judy"><div class="name">Zackery Judy</div></a>
+<div class="reason">01/23/2025 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/terrance-jones-21/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jones-Terrance-Oneal.jpg" alt="Terrance Jones"><div class="name">Terrance Jones</div></a>
+<div class="reason">01/22/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION AND USE OF DRUG-RELATED OBJECTSOBEDIENCE TO TRAFFIC-CONTROL DEVICES REQUIREDOPEN CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/shannon-custis-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Custis-Shannon-Monique.jpg" alt="Shannon Custis"><div class="name">Shannon Custis</div></a>
+<div class="reason">01/24/2025 | CRUELTY TO ANIMALS Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/alan-hogan-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hogan-Alan-Maurice-2.jpg" alt="Alan Hogan"><div class="name">Alan Hogan</div></a>
+<div class="reason">01/24/2025 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/michael-gresham-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gresham-Michael-Dupree.jpg" alt="Michael Gresham"><div class="name">Michael Gresham</div></a>
+<div class="reason">01/23/2025 | PROBATION VIOLATION (PROB TERMS ALTERED)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/shannon-dowdy-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dowdy-Shannon-Frassrand.jpg" alt="Shannon Dowdy"><div class="name">Shannon Dowdy</div></a>
+<div class="reason">01/23/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jason-cortez-tovar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Cortez-Tovar-Jason.jpg" alt="Jason Cortez Tovar"><div class="name">Jason Cortez Tovar</div></a>
+<div class="reason">01/21/2025 | GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICERRECKLESS CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/mandy-cole-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Cole-Mandy.jpg" alt="Mandy Cole"><div class="name">Mandy Cole</div></a>
+<div class="reason">01/21/2025 | NO INSURANCEFOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/thomas-carlson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Carlson-Thomas-Logan.jpg" alt="Thomas Carlson"><div class="name">Thomas Carlson</div></a>
+<div class="reason">01/24/2025 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/robert-butler-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Butler-Robert-Ray.jpg" alt="Robert Butler"><div class="name">Robert Butler</div></a>
+<div class="reason">01/26/2025 | FALSE IMPRISONMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/kenddarious-brooks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Brooks-Kenddarious-K.jpg" alt="Kenddarious Brooks"><div class="name">Kenddarious Brooks</div></a>
+<div class="reason">01/26/2025 | BATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISDFALSE IMPRISONMENTCRUELTY TO CHILDREN IN THE 3RD DEGREE 3RD OR SUBSEQUENT OFFENSECRUELTY TO CHILDREN IN THE 3RD DEGREE 3RD OR SUBSEQUENT OFFENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/brian-bagwell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bagwell-Brian-James-1.jpg" alt="Brian Bagwell"><div class="name">Brian Bagwell</div></a>
+<div class="reason">01/20/2025 | HOUSED INMATEDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)NO INSURANCEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/armando-white-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/White-Armando.jpg" alt="Armando White"><div class="name">Armando White</div></a>
+<div class="reason">01/15/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/brandon-watkins-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Watkins-Brandon-Eugene.jpg" alt="Brandon Watkins"><div class="name">Brandon Watkins</div></a>
+<div class="reason">01/16/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/alex-varela-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Varela-Alex-Mariano.jpg" alt="Alex Varela"><div class="name">Alex Varela</div></a>
+<div class="reason">01/18/2025 | POSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESRECEIPT, POSSESSION OR TRANSFER OF FIREARM BY CONVICTED FELON OR FELONY FIRST OFFENDERMARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION OF COCAINEDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)NO INSURANCEOPEN CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/mark-toporski-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Toporski-Mark-David.jpg" alt="Mark Toporski"><div class="name">Mark Toporski</div></a>
+<div class="reason">01/15/2025 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/konyate-soulemane/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Soulemane-Konyate.jpg" alt="Konyate Soulemane"><div class="name">Konyate Soulemane</div></a>
+<div class="reason">01/15/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jasmine-sloan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Sloan-Jasmine-Nicole.jpg" alt="Jasmine Sloan"><div class="name">Jasmine Sloan</div></a>
+<div class="reason">01/16/2025 | THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/rodney-shelnutt-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Shelnutt-Rodney-Eugene.jpg" alt="Rodney Shelnutt"><div class="name">Rodney Shelnutt</div></a>
+<div class="reason">01/14/2025 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/norman-miller-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Miller-Norman-D.jpg" alt="Norman Miller"><div class="name">Norman Miller</div></a>
+<div class="reason">01/15/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/will-mauck-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Mauck-Will-Franklin.jpg" alt="Will Mauck"><div class="name">Will Mauck</div></a>
+<div class="reason">01/15/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jeremy-lucas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lucas-Jeremy.jpg" alt="Jeremy Lucas"><div class="name">Jeremy Lucas</div></a>
+<div class="reason">01/18/2025 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jordan-lipscomb-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lipscomb-Jordan-Terrell.jpg" alt="Jordan Lipscomb"><div class="name">Jordan Lipscomb</div></a>
+<div class="reason">01/18/2025 | PROBATION VIOLATION - FELONYPROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/daniel-hughes-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hughes-Daniel-Ian-1.jpg" alt="Daniel Hughes"><div class="name">Daniel Hughes</div></a>
+<div class="reason">01/13/2025 | SIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/ashley-hendrick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hendrick-Ashley.jpg" alt="Ashley Hendrick"><div class="name">Ashley Hendrick</div></a>
+<div class="reason">01/19/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/randy-heard-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Heard-Randy-1.jpg" alt="Randy Heard"><div class="name">Randy Heard</div></a>
+<div class="reason">01/15/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/randall-harrison-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Harrison-Randall-K-1.jpg" alt="Randall Harrison"><div class="name">Randall Harrison</div></a>
+<div class="reason">01/15/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/richard-hajdu-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hajdu-Richard.jpg" alt="Richard Hajdu"><div class="name">Richard Hajdu</div></a>
+<div class="reason">01/18/2025 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/damian-gordon-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gordon-Damian-Dewayne.jpg" alt="Damian Gordon"><div class="name">Damian Gordon</div></a>
+<div class="reason">01/14/2025 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/omar-doobay/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Doobay-Omar-Hussain.jpg" alt="Omar Doobay"><div class="name">Omar Doobay</div></a>
+<div class="reason">01/13/2025 | THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/danreco-dean-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dean-Danreco-1.jpg" alt="Danreco Dean"><div class="name">Danreco Dean</div></a>
+<div class="reason">01/17/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/chloe-crisp-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Crisp-Chloe.jpg" alt="Chloe Crisp"><div class="name">Chloe Crisp</div></a>
+<div class="reason">01/13/2025 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPOSSESSION OF A SCHEDULE IV CONTROLLED SUBSTANCEPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/erik-chacon-duarte/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Chacon-Duarte-Erik-Agusto.jpg" alt="Erik Chacon Duarte"><div class="name">Erik Chacon Duarte</div></a>
+<div class="reason">01/15/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/brad-bowden/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bowden-Brad-Clinton.jpg" alt="Brad Bowden"><div class="name">Brad Bowden</div></a>
+<div class="reason">01/15/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/nicholas-mirisola/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Mirisola-Nicholas-Anthony.jpg" alt="Nicholas Mirisola"><div class="name">Nicholas Mirisola</div></a>
+<div class="reason">01/16/2025 | TERRORISTIC THREATS AND ACTSAGGRAVATED ASSAULTSIMPLE BATTERY Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets....</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/mary-whiteman-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Whiteman-Mary-Bartlett-1.jpg" alt="Mary Whiteman"><div class="name">Mary Whiteman</div></a>
+<div class="reason">01/08/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/andrea-webb/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Webb-Andrea.jpg" alt="Andrea Webb"><div class="name">Andrea Webb</div></a>
+<div class="reason">01/08/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/elton-taylor-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Taylor-Elton-Maurice.jpg" alt="Elton Taylor"><div class="name">Elton Taylor</div></a>
+<div class="reason">01/08/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/sanchez-smith-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Smith-Sanchez.jpg" alt="Sanchez Smith"><div class="name">Sanchez Smith</div></a>
+<div class="reason">01/08/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/matthew-sennett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Sennett-Matthew.jpg" alt="Matthew Sennett"><div class="name">Matthew Sennett</div></a>
+<div class="reason">01/07/2025 | OPEN CONTAINERDUI - ALCOHOL/CONTROLLED SUBSTANCE PRESENT IN BLOOD OR URINE SUBJ TOFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jhovanny-saldana-juarez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Saldana-Juarez-Jhovanny.jpg" alt="Jhovanny Saldana-Juarez"><div class="name">Jhovanny Saldana-Juarez</div></a>
+<div class="reason">01/06/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/michael-richardson-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Richardson-Michael-Leon.jpg" alt="Michael Richardson"><div class="name">Michael Richardson</div></a>
+<div class="reason">01/08/2025 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORPOSSESSION AND USE OF DRUG-RELATED OBJECTSTHEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/sandra-ramirez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Ramirez-Sandra.jpg" alt="Sandra Ramirez"><div class="name">Sandra Ramirez</div></a>
+<div class="reason">01/06/2025 | IDENTITY THEFT FRAUD WHEN USING/POSSESSING IDENTIFYING INFO CONCERNING A PERSON - FELONYDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/joshua-peek-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Peek-Joshua-Dakota-1.jpg" alt="Joshua Peek"><div class="name">Joshua Peek</div></a>
+<div class="reason">01/06/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/gary-lucas-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lucas-Gary-Leroy.jpg" alt="Gary Lucas"><div class="name">Gary Lucas</div></a>
+<div class="reason">01/08/2025 | THEFT BY SHOPLIFTING - MISDEMEANORHOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/quinntavious-jackson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jackson-Quinntavious-Antwain.jpg" alt="Quinntavious Jackson"><div class="name">Quinntavious Jackson</div></a>
+<div class="reason">01/07/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/donovan-housworth-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Housworth-Donovan-1.jpg" alt="Donovan Housworth"><div class="name">Donovan Housworth</div></a>
+<div class="reason">01/08/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jason-hadley-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hadley-Jason-Armand.jpg" alt="Jason Hadley"><div class="name">Jason Hadley</div></a>
+<div class="reason">01/12/2025 | PUBLIC DRUNK</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/marion-gould-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gould-Marion-1.jpg" alt="Marion Gould"><div class="name">Marion Gould</div></a>
+<div class="reason">01/09/2025 | THEFT BY CONVERSION - FELONYTHEFT BY CONVERSION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/david-goodman-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Goodman-David-Lane.jpg" alt="David Goodman"><div class="name">David Goodman</div></a>
+<div class="reason">01/06/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jasmine-francois-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Francois-Jasmine-Saint-Ebony-Lucie.jpg" alt="Jasmine Francois"><div class="name">Jasmine Francois</div></a>
+<div class="reason">01/06/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/joshua-nesmith-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Nesmith-Joshua-Christopher.jpg" alt="Joshua Nesmith"><div class="name">Joshua Nesmith</div></a>
+<div class="reason">01/10/2025 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/paul-naclerio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Naclerio-Paul-Martin.jpg" alt="Paul Naclerio"><div class="name">Paul Naclerio</div></a>
+<div class="reason">01/08/2025 | POSSESS OR CONTROL ANY MATERIAL DEPICTING MINOR IN SEXUALLY EXPLICIT CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/victor-rodriguez-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Rodriguez-Victor-Hugo.jpg" alt="Victor Rodriguez"><div class="name">Victor Rodriguez</div></a>
+<div class="reason">01/09/2025 | BATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISDCRUELTY TO CHILDREN - 2ND DEGREECRUELTY TO CHILDREN IN THE 3RD DEGREE - 1ST OR 2ND OFFENSE - MISDEMEANOR Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/edgar-duran-crespo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Duran-Crespo-Edgar-Alexander.jpg" alt="Edgar Duran-Crespo"><div class="name">Edgar Duran-Crespo</div></a>
+<div class="reason">01/09/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/danreco-dean-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dean-Danreco.jpg" alt="Danreco Dean"><div class="name">Danreco Dean</div></a>
+<div class="reason">01/09/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/kaye-davis-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Davis-Kaye.jpg" alt="Kaye Davis"><div class="name">Kaye Davis</div></a>
+<div class="reason">01/10/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/joseph-daniels-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Daniels-Joseph-Christopher.jpg" alt="Joseph Daniels"><div class="name">Joseph Daniels</div></a>
+<div class="reason">01/08/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/ashley-daniel-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Daniel-Ashley-Lynn.jpg" alt="Ashley Daniel"><div class="name">Ashley Daniel</div></a>
+<div class="reason">01/09/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/hailey-craig/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Craig-Hailey-Grace.jpg" alt="Hailey Craig"><div class="name">Hailey Craig</div></a>
+<div class="reason">01/06/2025 | SIMPLE BATTERY - FAMILY VIOLENCECRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/dakota-coggins-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Coggins-Dakota-James.jpg" alt="Dakota Coggins"><div class="name">Dakota Coggins</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/justin-cobb-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Cobb-Justin.jpg" alt="Justin Cobb"><div class="name">Justin Cobb</div></a>
+<div class="reason">01/08/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/bobby-clay-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Clay-Bobby-Michael.jpg" alt="Bobby Clay"><div class="name">Bobby Clay</div></a>
+<div class="reason">01/08/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/william-bentley-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bentley-William-Robert.jpg" alt="William Bentley"><div class="name">William Bentley</div></a>
+<div class="reason">01/08/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/rico-arnold/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Arnold-Rico.jpg" alt="Rico Arnold"><div class="name">Rico Arnold</div></a>
+<div class="reason">01/08/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/edmond-duffey-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Duffey-Edmond-Brett.jpg" alt="Edmond Duffey"><div class="name">Edmond Duffey</div></a>
+<div class="reason">01/11/2025 | AGGRAVATED ASSAULTAGGRAVATED ASSAULTAGGRAVATED ASSAULTAGGRAVATED ASSAULTRECKLESS CONDUCTRECKLESS CONDUCTRECKLESS CONDUCTRECKLESS CONDUCTCRUELTY TO CHILDREN - 2ND DEGREEDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO HAVE LICENSE ON PERSONFAILURE TO SIGNAL WHEN CHANGING LANESOBEDIENCE TO TRAFFIC-CONTROL DEVICES REQUIREDHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/napile-wingfield/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Wingfield-Napile-Nacole.jpg" alt="Napile Wingfield"><div class="name">Napile Wingfield</div></a>
+<div class="reason">01/01/2025 | OPEN CONTAINERDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DIM LIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/brett-williams-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Williams-Brett-Alan.jpg" alt="Brett Williams"><div class="name">Brett Williams</div></a>
+<div class="reason">01/03/2025 | POSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/barney-white-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/White-Jr.-Barney-Hugh.jpg" alt="Barney White"><div class="name">Barney White</div></a>
+<div class="reason">12/31/2024 | MARIJUANA-POSSESS LESS THAN 1 OZ.DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)OPEN CONTAINERDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANEFOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/daniel-shavers-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Shavers-Daniel-Lanier.jpg" alt="Daniel Shavers"><div class="name">Daniel Shavers</div></a>
+<div class="reason">01/03/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jamorious-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Smith-Jamorious-Dwayne.jpg" alt="Jamorious Smith"><div class="name">Jamorious Smith</div></a>
+<div class="reason">01/01/2025 | BATTERY - FAMILY VIOLENCE (1ST OFFENSE) MISD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/tynesia-power/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Power-Tynesia-Iquan.jpg" alt="Tynesia Power"><div class="name">Tynesia Power</div></a>
+<div class="reason">01/05/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/lauren-pittman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Pittman-Lauren.jpg" alt="Lauren Pittman"><div class="name">Lauren Pittman</div></a>
+<div class="reason">12/31/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/gabriela-perdomo-sarmiento/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Perdomo-Sarmiento-Gabriela-Alexandra.jpg" alt="Gabriela Perdomo-Sarmiento"><div class="name">Gabriela Perdomo-Sarmiento</div></a>
+<div class="reason">12/30/2024 | ACQUIRING LICENSE PLATE FOR PURPOSE OF CONCEALING IDENTIFICATION OF MOTOR VEHICLEDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)NO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/carissa-patman-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Patman-Carissa-Octavia.jpg" alt="Carissa Patman"><div class="name">Carissa Patman</div></a>
+<div class="reason">01/03/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/thomas-norris-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Norris-Thomas-Jeffery-1.jpg" alt="Thomas Norris"><div class="name">Thomas Norris</div></a>
+<div class="reason">01/03/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/tommi-murdock-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Murdock-Tommi-Jane.jpg" alt="Tommi Murdock"><div class="name">Tommi Murdock</div></a>
+<div class="reason">01/03/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jesus-moreno-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Moreno-Jesus-Alejandro.jpg" alt="Jesus Moreno"><div class="name">Jesus Moreno</div></a>
+<div class="reason">12/30/2024 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/carrie-jaindl/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Jaindl-Carrie-Elizabeth.jpg" alt="Carrie Jaindl"><div class="name">Carrie Jaindl</div></a>
+<div class="reason">12/31/2024 | SIMPLE ASSAULT - FAMILY VIOLENCECRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/isaac-green-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Green-Isaac-Lee.jpg" alt="Isaac Green"><div class="name">Isaac Green</div></a>
+<div class="reason">01/04/2025 | NO REGISTRATIONDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/alexander-geyer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Geyer-Alexander-James-Joseph.jpg" alt="Alexander Geyer"><div class="name">Alexander Geyer</div></a>
+<div class="reason">01/05/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)WINDOW, WINDSHIELD, OR WIPER VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/james-eaden-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Eaden-James-William.jpg" alt="James Eaden"><div class="name">James Eaden</div></a>
+<div class="reason">12/30/2024 | RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jaydin-dyer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Dyer-Jaydin-Robert.jpg" alt="Jaydin Dyer"><div class="name">Jaydin Dyer</div></a>
+<div class="reason">01/03/2025 | POSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESPOSSESSION OF SAWED-OFF SHOTGUN, SAWED-OFF RIFLE, MACHINE GUN, DANGEROUS WEAPON, OR SILENCERPOSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANAUSE OF SAFETY BELTS IN PASSENGER VEHICLES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/rebecca-diaz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Diaz-Rebecca.jpg" alt="Rebecca Diaz"><div class="name">Rebecca Diaz</div></a>
+<div class="reason">01/01/2025 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/james-depaola-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Depaola-James-Lee.jpg" alt="James Depaola"><div class="name">James Depaola</div></a>
+<div class="reason">01/02/2025 | THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/sherman-clark-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Clark-Jr.-Sherman.jpg" alt="Sherman Clark"><div class="name">Sherman Clark</div></a>
+<div class="reason">01/05/2025 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/trena-barnes-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Barnes-Trena-Ann.jpg" alt="Trena Barnes"><div class="name">Trena Barnes</div></a>
+<div class="reason">01/05/2025 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/deonte-bailey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bailey-Deonte-Kenneth.jpg" alt="Deonte Bailey"><div class="name">Deonte Bailey</div></a>
+<div class="reason">01/05/2025 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/christopher-alford-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Alford-Christopher-Scott.jpg" alt="Christopher Alford"><div class="name">Christopher Alford</div></a>
+<div class="reason">12/31/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/myresheia-white/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/White-Myresheia.jpg" alt="Myresheia White"><div class="name">Myresheia White</div></a>
+<div class="reason">12/30/2024 | MARIJUANA-POSSESS LESS THAN 1 OZ.OPEN CONTAINERHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENTDUI - DRIVING UNDER THE INFLUENCE OF MULTIPLE SUBSTANCESFOLLOWING TOO CLOSELY Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/joshua-thompson-carter-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Thompson-Carter-Joshua-Amenomopemelche.jpg" alt="Joshua Thompson-Carter"><div class="name">Joshua Thompson-Carter</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/brianna-sims/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sims-Brianna-Nicole.jpg" alt="Brianna Sims"><div class="name">Brianna Sims</div></a>
+<div class="reason">12/24/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)WINDSHIELDS/FRONT DOOR(TINTED/CERTAIN MATERIALS PROHIBITED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/erin-rothrock/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rothrock-Erin-Mhai.jpg" alt="Erin Rothrock"><div class="name">Erin Rothrock</div></a>
+<div class="reason">12/26/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/justin-peck/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Peck-Justin-Craig.jpg" alt="Justin Peck"><div class="name">Justin Peck</div></a>
+<div class="reason">12/26/2024 | FAILURE TO EXERCISE DUE CAREDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jordan-mitchell-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mitchell-Jordan-M.jpg" alt="Jordan Mitchell"><div class="name">Jordan Mitchell</div></a>
+<div class="reason">12/23/2024 | THEFT BY DECEPTION - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/robert-hambrick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hambrick-Robert-Dewitt.jpg" alt="Robert Hambrick"><div class="name">Robert Hambrick</div></a>
+<div class="reason">12/23/2024 | OPEN CONTAINERDUI - DRIVING UNDER THE INFLUENCE OF MULTIPLE SUBSTANCES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/victoria-george/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/George-Victoria-Dawn.jpg" alt="Victoria George"><div class="name">Victoria George</div></a>
+<div class="reason">12/23/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/lepatrick-durham/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Durham-Lepatrick-Alexander.jpg" alt="Lepatrick Durham"><div class="name">Lepatrick Durham</div></a>
+<div class="reason">12/26/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATIONSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/david-daniel-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Daniel-David-Hiram-1.jpg" alt="David Daniel"><div class="name">David Daniel</div></a>
+<div class="reason">12/29/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/lusie-cruz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cruz-Lusie-Muriel.jpg" alt="Lusie Cruz"><div class="name">Lusie Cruz</div></a>
+<div class="reason">12/26/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jamie-bridges-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bridges-Jamie.jpg" alt="Jamie Bridges"><div class="name">Jamie Bridges</div></a>
+<div class="reason">12/25/2024 | FINANCIAL TRANSACTION CARD THEFTFINANCIAL TRANSACTION CARD FRAUDFINANCIAL TRANSACTION CARD THEFTFINANCIAL TRANSACTION CARD FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/cody-wright-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wright-Cody-Michael.jpg" alt="Cody Wright"><div class="name">Cody Wright</div></a>
+<div class="reason">12/21/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jessica-woodall/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Woodall-Jessica-Marie.jpg" alt="Jessica Woodall"><div class="name">Jessica Woodall</div></a>
+<div class="reason">12/18/2024 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCENO INSURANCEKNOWINGLY MAKING A FALSE STATEMENT PERTAINING TO MOTOR VEHICLE INSURANCE REQUIREMENTSKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/kimberly-winford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Winford-Kimberly-Purvis.jpg" alt="Kimberly Winford"><div class="name">Kimberly Winford</div></a>
+<div class="reason">12/19/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/dolo-whatley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Whatley-Dolo-Jeff-1.jpg" alt="Dolo Whatley"><div class="name">Dolo Whatley</div></a>
+<div class="reason">12/19/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/michael-vickery-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Vickery-Michael-Alexander.jpg" alt="Michael Vickery"><div class="name">Michael Vickery</div></a>
+<div class="reason">12/22/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/daniel-vanderford-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Vanderford-Daniel.jpg" alt="Daniel Vanderford"><div class="name">Daniel Vanderford</div></a>
+<div class="reason">12/18/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/richard-vandemark/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Vandemark-Richard-Everett.jpg" alt="Richard Vandemark"><div class="name">Richard Vandemark</div></a>
+<div class="reason">12/21/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/edward-tulenko/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Tulenko-Edward.jpg" alt="Edward Tulenko"><div class="name">Edward Tulenko</div></a>
+<div class="reason">12/16/2024 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL - CONCENTRATION IS 0.08G OR MORE WITHIN 3 HRS OR MORE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/tarin-tripp/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Tripp-Tarin-Marie.jpg" alt="Tarin Tripp"><div class="name">Tarin Tripp</div></a>
+<div class="reason">12/18/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/seth-tanner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Tanner-Seth.jpg" alt="Seth Tanner"><div class="name">Seth Tanner</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/kevin-suhadolnik-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Suhadolnik-Kevin-Michael.jpg" alt="Kevin Suhadolnik"><div class="name">Kevin Suhadolnik</div></a>
+<div class="reason">12/16/2024 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/ignacio-solorzano/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Solorzano-Ignacio-Sesmas.jpg" alt="Ignacio Solorzano"><div class="name">Ignacio Solorzano</div></a>
+<div class="reason">12/21/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/hope-smith-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Smith-Hope-S.jpg" alt="Hope Smith"><div class="name">Hope Smith</div></a>
+<div class="reason">12/20/2024 | THEFT BY TAKING - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/emmitt-smith-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Smith-Emmitt-Michael.jpg" alt="Emmitt Smith"><div class="name">Emmitt Smith</div></a>
+<div class="reason">12/21/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/victor-sanchez-herrera/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sanchez-Herrera-Victor-Ramon.jpg" alt="Victor Sanchez-Herrera"><div class="name">Victor Sanchez-Herrera</div></a>
+<div class="reason">12/20/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DEFECTIVE OR NO HEADLIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/pedro-ramirez-sarrameda-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ramirez-Sarrameda-Pedro-Enrique.jpg" alt="Pedro Ramirez-Sarrameda"><div class="name">Pedro Ramirez-Sarrameda</div></a>
+<div class="reason">12/17/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/john-myers-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Myers-John-Andrew.jpg" alt="John Myers"><div class="name">John Myers</div></a>
+<div class="reason">12/18/2024 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/bryce-miller-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Miller-Bryce-Michelle.jpg" alt="Bryce Miller"><div class="name">Bryce Miller</div></a>
+<div class="reason">12/19/2024 | EXPIRED OR NO REGISTRATION OR TITLEDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/lisa-mathis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mathis-Lisa-Sharetta.jpg" alt="Lisa Mathis"><div class="name">Lisa Mathis</div></a>
+<div class="reason">12/21/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jonathan-martinez-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Martinez-Jonathan-Armando.jpg" alt="Jonathan Martinez"><div class="name">Jonathan Martinez</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jesse-lee-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lee-Jesse-Taylor.jpg" alt="Jesse Lee"><div class="name">Jesse Lee</div></a>
+<div class="reason">12/21/2024 | POSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTEMPT TO COMMIT CERTAIN FELONIESPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEDUI - DRIVING UNDER THE INFLUENCE OF DRUGSFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/david-lattimore/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lattimore-David-Zorick.jpg" alt="David Lattimore"><div class="name">David Lattimore</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/ronald-jenkins-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jenkins-Ronald.jpg" alt="Ronald Jenkins"><div class="name">Ronald Jenkins</div></a>
+<div class="reason">12/18/2024 | THEFT BY SHOPLIFTING - MISDEMEANORTHEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/donovan-housworth/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Housworth-Donovan.jpg" alt="Donovan Housworth"><div class="name">Donovan Housworth</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/meredith-gwyn-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gwyn-Meredith-Katelyn.jpg" alt="Meredith Gwyn"><div class="name">Meredith Gwyn</div></a>
+<div class="reason">12/22/2024 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/charles-franklin-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Franklin-Charles-Wayne.jpg" alt="Charles Franklin"><div class="name">Charles Franklin</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/eddie-fields/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fields-Eddie.jpg" alt="Eddie Fields"><div class="name">Eddie Fields</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/michael-cox-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cox-Jr.-Michael-Thomas.jpg" alt="Michael Cox"><div class="name">Michael Cox</div></a>
+<div class="reason">12/17/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/demonte-clark-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Clark-Demonte-Raiquoni.jpg" alt="Demonte Clark"><div class="name">Demonte Clark</div></a>
+<div class="reason">12/21/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/hannah-chipman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Chipman-Hannah-Lena.jpg" alt="Hannah Chipman"><div class="name">Hannah Chipman</div></a>
+<div class="reason">12/18/2024 | MARIJUANA-POSSESS LESS THAN 1 OZ.NO INSURANCEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATIONDUI - DRIVING UNDER THE INFLUENCE OF MULTIPLE SUBSTANCESFAILURE TO MAINTAIN LANEFOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/xavier-carter-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Carter-Xavier.jpg" alt="Xavier Carter"><div class="name">Xavier Carter</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/daniel-brown-46/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Brown-Daniel-Menelio.jpg" alt="Daniel Brown"><div class="name">Daniel Brown</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/connor-brown-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Brown-Connor-Lee.jpg" alt="Connor Brown"><div class="name">Connor Brown</div></a>
+<div class="reason">12/19/2024 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/braelyn-brown-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Brown-Braelyn.jpg" alt="Braelyn Brown"><div class="name">Braelyn Brown</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/adrian-bohannon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bohannon-Adrian-Dimitri.jpg" alt="Adrian Bohannon"><div class="name">Adrian Bohannon</div></a>
+<div class="reason">12/17/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/scott-blanton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Blanton-Scott-Timothy.jpg" alt="Scott Blanton"><div class="name">Scott Blanton</div></a>
+<div class="reason">12/17/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/michael-woolfolk-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Woolfolk-Michael-Joseph.jpg" alt="Michael Woolfolk"><div class="name">Michael Woolfolk</div></a>
+<div class="reason">12/11/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/antwan-watson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Watson-Antwan.jpg" alt="Antwan Watson"><div class="name">Antwan Watson</div></a>
+<div class="reason">12/11/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/trevion-ward-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ward-Trevion.jpg" alt="Trevion Ward"><div class="name">Trevion Ward</div></a>
+<div class="reason">12/11/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/aaron-ward-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ward-Aaron.jpg" alt="Aaron Ward"><div class="name">Aaron Ward</div></a>
+<div class="reason">12/15/2024 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/victor-wallace-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wallace-Victor-Richard.jpg" alt="Victor Wallace"><div class="name">Victor Wallace</div></a>
+<div class="reason">12/09/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/kiera-turner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Turner-Kiera-Shyane.jpg" alt="Kiera Turner"><div class="name">Kiera Turner</div></a>
+<div class="reason">12/13/2024 | SIMPLE ASSAULT - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/elton-taylor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Taylor-Elton-Maurice.jpg" alt="Elton Taylor"><div class="name">Elton Taylor</div></a>
+<div class="reason">12/11/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/davion-taylor-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Taylor-Davion-Lamar.jpg" alt="Davion Taylor"><div class="name">Davion Taylor</div></a>
+<div class="reason">12/13/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/tamela-strickland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Strickland-Tamela-Gail.jpg" alt="Tamela Strickland"><div class="name">Tamela Strickland</div></a>
+<div class="reason">12/11/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/rafael-stevenson-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stevenson-Rafael-Dwayne.jpg" alt="Rafael Stevenson"><div class="name">Rafael Stevenson</div></a>
+<div class="reason">12/12/2024 | HOUSED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/brenda-rubinos/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rubinos-Brenda.jpg" alt="Brenda Rubinos"><div class="name">Brenda Rubinos</div></a>
+<div class="reason">12/15/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/matthew-schofill-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Schofill-Matthew-Ryan.jpg" alt="Matthew Schofill"><div class="name">Matthew Schofill</div></a>
+<div class="reason">12/10/2024 | Return of SuretyEXPLIOT/INFLICT PAIN TO/DEPRIVE ESSENTIAL SERVICES TO DISABLED PERSON/ELDERLY/RESIDENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/dotson-riffe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Riffe-Dotson-Delano.jpg" alt="Dotson Riffe"><div class="name">Dotson Riffe</div></a>
+<div class="reason">12/14/2024 | BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/gillette-pulliam-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Pulliam-Gillette-Shaunte.jpg" alt="Gillette Pulliam"><div class="name">Gillette Pulliam</div></a>
+<div class="reason">12/10/2024 | IDENTITY THEFT FRAUD WHEN USING/POSSESSING IDENTIFYING INFO CONCERNING A PERSON - FELONYPOSSESS, DISPLAY, FALSE IDENTIFICATION WITH GOVERNMENT LOGO OR SEAL FOR CRIMINAL ACTALTERING FORGING COUNTERFEITING MOTOR VEHICLE CERTIFICATE OF TITLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/devon-morrison-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Morrison-Devon-Edward.jpg" alt="Devon Morrison"><div class="name">Devon Morrison</div></a>
+<div class="reason">12/10/2024 | PROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/destiny-malinasky-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Malinasky-Destiny-Michelle.jpg" alt="Destiny Malinasky"><div class="name">Destiny Malinasky</div></a>
+<div class="reason">12/13/2024 | PROBATION VIOLATION - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/thomas-malcom-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Malcom-Thomas-Jake.jpg" alt="Thomas Malcom"><div class="name">Thomas Malcom</div></a>
+<div class="reason">12/11/2024 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORMARIJUANA-POSSESS LESS THAN 1 OZ.SALE, DISTRIBUTION, OR POSSESSION OF DANGEROUS DRUGSDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO SIGNAL WHEN CHANGING LANESOBEDIENCE TO TRAFFIC-CONTROL DEVICES REQUIREDOBEDIENCE TO TRAFFIC-CONTROL DEVICES REQUIREDRECKLESS DRIVINGDUI - DRIVING UNDER THE INFLUENCE OF DRUGSFLEEING OR ATTEMPTING...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/jasmine-malcom-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Malcom-Jasmine-Danielle.jpg" alt="Jasmine Malcom"><div class="name">Jasmine Malcom</div></a>
+<div class="reason">12/12/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLENDANGERING A CHILD BY DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGS - MISDEMEANORENDANGERING A CHILD BY DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGS - MISDEMEANORFAILURE TO MAINTAIN LANECHILD OR YOUTH RESTRAINT NOT...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/issa-lopez-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lopez-Issa-Rene.jpg" alt="Issa Lopez"><div class="name">Issa Lopez</div></a>
+<div class="reason">12/09/2024 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/fabian-johnson-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Johnson-Fabian-Albert.jpg" alt="Fabian Johnson"><div class="name">Fabian Johnson</div></a>
+<div class="reason">12/10/2024 | CRIMINAL TRESPASSPROBATION VIOLATION FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/oscar-huamani/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Huamani-Oscar-Christopher.jpg" alt="Oscar Huamani"><div class="name">Oscar Huamani</div></a>
+<div class="reason">12/15/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/carlos-hernandez-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hernandez-Carlos-Jeovany.jpg" alt="Carlos Hernandez"><div class="name">Carlos Hernandez</div></a>
+<div class="reason">12/13/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)NO TAILLIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/david-haynes-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Haynes-Jr.-David-Lee.jpg" alt="David Haynes"><div class="name">David Haynes</div></a>
+<div class="reason">12/13/2024 | SENTENCED INMATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/oconee/joshua-herrington-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Herrington-Joshua-Dawayne.jpg" alt="Joshua Herrington"><div class="name">Joshua Herrington</div></a>
+<div class="reason">12/11/2024 | HOMICIDE BY VEHICLE IN 2ND DEGREE - MISDEMEANORFAILURE TO MAINTAIN LANE</div>
+</div>
+</div><div class="pagination"><a href="oconee3.html">Next Page</a></div></body></html>

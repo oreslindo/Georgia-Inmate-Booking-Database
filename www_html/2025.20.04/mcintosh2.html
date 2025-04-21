@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/ricky-knox-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/KNOX-RICKY.jpg" alt="Ricky Knox"><div class="name">Ricky Knox</div></a>
+<div class="reason">01/04/2025 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/stephanie-babb-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BABB-STEPHANIE.jpg" alt="Stephanie Babb"><div class="name">Stephanie Babb</div></a>
+<div class="reason">01/03/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/teena-hope/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/HOPE-TEENA.jpg" alt="Teena Hope"><div class="name">Teena Hope</div></a>
+<div class="reason">01/03/2025 | PARTY TO A CRIME (THEFT BY TAKING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/silas-moody-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/MOODY-SILAS.jpg" alt="Silas Moody"><div class="name">Silas Moody</div></a>
+<div class="reason">01/03/2025 | SIMPLE BATTERY (FVA)INTERFERENCE WITH EMERGENCY CALLCRIMINAL TRESPASS (FVA)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/armindo-ventura-gutierrez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/VENTURA-GUTIERREZ-ARMINDO.jpg" alt="Armindo Ventura-Gutierrez"><div class="name">Armindo Ventura-Gutierrez</div></a>
+<div class="reason">01/01/2025 | DRIVING WITHOUT A LICENSETAILLIGHT REQUIREMENTSFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/cleiton-rogoski-nogueira/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ROGOSKI-NOGUEIRA-CLEITON.jpg" alt="Cleiton Rogoski-Nogueira"><div class="name">Cleiton Rogoski-Nogueira</div></a>
+<div class="reason">12/31/2024 | DRIVING WITHOUT A LICENSENO PROOF OF INSURANCEREGISTRATION AND LICENSE REQUIREMENTSFAILURE TO STOP AT A STOP SIGNSEAT BELT VIOLATIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/anthony-shearin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/SHEARIN-ANTHONY.jpg" alt="Anthony Shearin"><div class="name">Anthony Shearin</div></a>
+<div class="reason">12/31/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 90/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/albert-perez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/PEREZ-ALBERT.jpg" alt="Albert Perez"><div class="name">Albert Perez</div></a>
+<div class="reason">12/31/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/anthony-amor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/AMOR-ANTHONY.jpg" alt="Anthony Amor"><div class="name">Anthony Amor</div></a>
+<div class="reason">12/31/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/johnny-rojas-espada-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ROJAS-ESPADA-JOHNNY.jpg" alt="Johnny Rojas-Espada"><div class="name">Johnny Rojas-Espada</div></a>
+<div class="reason">12/31/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/tshombe-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/WILLIAMS-TSHOMBE.jpg" alt="Tshombe Williams"><div class="name">Tshombe Williams</div></a>
+<div class="reason">12/31/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/erica-jackson-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/JACKSON-ERICA.jpg" alt="Erica Jackson"><div class="name">Erica Jackson</div></a>
+<div class="reason">12/30/2024 | RECKLESS CONDUCTDISORDERLY HOUSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/eric-jackson-44/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/JACKSON-ERIC.jpg" alt="Eric Jackson"><div class="name">Eric Jackson</div></a>
+<div class="reason">12/30/2024 | RECKLESS CONDUCTDISORDERLY HOUSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/cheryl-jackson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/JACKSON-CHERYL.jpg" alt="Cheryl Jackson"><div class="name">Cheryl Jackson</div></a>
+<div class="reason">12/30/2024 | RECKLESS CONDUCTDISORDERLY HOUSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/darvin-castillo-raymundo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CASTILLO-RAYMUNDO-DARVIN.jpg" alt="Darvin Castillo-Raymundo"><div class="name">Darvin Castillo-Raymundo</div></a>
+<div class="reason">12/29/2024 | DRIVING WITHOUT A LICENSEFAILURE TO MAINTAINTOO FAST FOR CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/carlos-vazquez-cameron/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/VAZQUEZ-CAMERON-CARLOS.jpg" alt="Carlos Vazquez-Cameron"><div class="name">Carlos Vazquez-Cameron</div></a>
+<div class="reason">12/29/2024 | DRIVING WITHOUT A LICENSESPEEDING 90/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/christina-vincent-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/VINCENT-CHRISTINA.jpg" alt="Christina Vincent"><div class="name">Christina Vincent</div></a>
+<div class="reason">12/29/2024 | DRIVING WHILE LICENSE SUSPENDEDFOLLOWING TOO CLOSELYOBSCURRED OR MISSING LICENSE PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/pak-leung/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/LEUNG-PAK.jpg" alt="Pak Leung"><div class="name">Pak Leung</div></a>
+<div class="reason">12/28/2024 | DRIVING WITHOUT A LICENESSPEEDING 102/70RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jorge-deniz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/DENIZ-JORGE.jpg" alt="Jorge Deniz"><div class="name">Jorge Deniz</div></a>
+<div class="reason">12/28/2024 | DRIVING WITHOUT A LICENSEEXPIRED OR NO REGISTRATIONREMOVING OR AFFIXING LICENSE PLATE WITH INTENT TO CONCEAL IDENTITY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jonah-tillman-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/TILLMAN-JONAH.jpg" alt="Jonah Tillman"><div class="name">Jonah Tillman</div></a>
+<div class="reason">12/26/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jerome-carter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CARTER-JEROME.jpg" alt="Jerome Carter"><div class="name">Jerome Carter</div></a>
+<div class="reason">12/25/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/guery-garcia-panozo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/GARCIA-PANOZO-GUERY.jpg" alt="Guery Garcia-Panozo"><div class="name">Guery Garcia-Panozo</div></a>
+<div class="reason">12/25/2024 | DRIVING UNDER THE INFLUENCEOPEN ALCOHOL CONTAINERFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/carlos-vazquez-cameron/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/VAZQUEZ-CAMERON-CARLOS.jpg" alt="Carlos Vazquez-Cameron"><div class="name">Carlos Vazquez-Cameron</div></a>
+<div class="reason">12/29/2024 | DRIVING WITHOUT A LICENSESPEEDING 90/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/christina-vincent-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/VINCENT-CHRISTINA.jpg" alt="Christina Vincent"><div class="name">Christina Vincent</div></a>
+<div class="reason">12/29/2024 | DRIVING WHILE LICENSE SUSPENDEDFOLLOWING TOO CLOSELYOBSCURRED OR MISSING LICENSE PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/pak-leung/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/LEUNG-PAK.jpg" alt="Pak Leung"><div class="name">Pak Leung</div></a>
+<div class="reason">12/28/2024 | DRIVING WITHOUT A LICENESSPEEDING 102/70RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jorge-deniz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/DENIZ-JORGE.jpg" alt="Jorge Deniz"><div class="name">Jorge Deniz</div></a>
+<div class="reason">12/28/2024 | DRIVING WITHOUT A LICENSEEXPIRED OR NO REGISTRATIONREMOVING OR AFFIXING LICENSE PLATE WITH INTENT TO CONCEAL IDENTITY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jonah-tillman-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/TILLMAN-JONAH.jpg" alt="Jonah Tillman"><div class="name">Jonah Tillman</div></a>
+<div class="reason">12/26/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jerome-carter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CARTER-JEROME.jpg" alt="Jerome Carter"><div class="name">Jerome Carter</div></a>
+<div class="reason">12/25/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/guery-garcia-panozo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/GARCIA-PANOZO-GUERY.jpg" alt="Guery Garcia-Panozo"><div class="name">Guery Garcia-Panozo</div></a>
+<div class="reason">12/25/2024 | DRIVING UNDER THE INFLUENCEOPEN ALCOHOL CONTAINERFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jose-morales-moran/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MORALES-MORAN-JOSE.jpg" alt="Jose Morales-Moran"><div class="name">Jose Morales-Moran</div></a>
+<div class="reason">12/24/2024 | DRIVING WITHOUT A LICENSESPEEDING 89/70EXPIRED OR NO VEHICLE REGISTRATIONOBSCURRED OR MISSING LICENSE PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/harkim-handsboro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HANDSBORO-HARKIM.jpg" alt="Harkim Handsboro"><div class="name">Harkim Handsboro</div></a>
+<div class="reason">12/24/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 92/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/wandel-voltaire/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VOLTAIRE-WANDEL.jpg" alt="Wandel Voltaire"><div class="name">Wandel Voltaire</div></a>
+<div class="reason">12/24/2024 | FAILURE TO YIELD TO EMERGENCY VEHICLEFAILURE TO MAINTAIN LANESPEEDING 100/70RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/raul-godinez-lopez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GODINEZ-LOPEZ-RAUL.jpg" alt="Raul Godinez-Lopez"><div class="name">Raul Godinez-Lopez</div></a>
+<div class="reason">12/24/2024 | DRIVING WITHOUT A LICENSESPEEDING 88/70FAILURE TO MAINTAIN LANESEAT BELT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/delonte-allen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ALLEN-DELONTE.jpg" alt="Delonte Allen"><div class="name">Delonte Allen</div></a>
+<div class="reason">12/24/2024 | THEFT BY RECEIVING STOLEN PROPERTYPOSSESSION OF VEHICLE WITH ALTERED V.I.N.SPEEDING 87/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jonah-tillman-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/TILLMAN-JONAH.jpg" alt="Jonah Tillman"><div class="name">Jonah Tillman</div></a>
+<div class="reason">12/26/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jerome-carter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/CARTER-JEROME.jpg" alt="Jerome Carter"><div class="name">Jerome Carter</div></a>
+<div class="reason">12/25/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/guery-garcia-panozo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/GARCIA-PANOZO-GUERY.jpg" alt="Guery Garcia-Panozo"><div class="name">Guery Garcia-Panozo</div></a>
+<div class="reason">12/25/2024 | DRIVING UNDER THE INFLUENCEOPEN ALCOHOL CONTAINERFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jose-morales-moran/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MORALES-MORAN-JOSE.jpg" alt="Jose Morales-Moran"><div class="name">Jose Morales-Moran</div></a>
+<div class="reason">12/24/2024 | DRIVING WITHOUT A LICENSESPEEDING 89/70EXPIRED OR NO VEHICLE REGISTRATIONOBSCURRED OR MISSING LICENSE PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/harkim-handsboro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HANDSBORO-HARKIM.jpg" alt="Harkim Handsboro"><div class="name">Harkim Handsboro</div></a>
+<div class="reason">12/24/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 92/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/wandel-voltaire/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VOLTAIRE-WANDEL.jpg" alt="Wandel Voltaire"><div class="name">Wandel Voltaire</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/raul-godinez-lopez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GODINEZ-LOPEZ-RAUL.jpg" alt="Raul Godinez-Lopez"><div class="name">Raul Godinez-Lopez</div></a>
+<div class="reason">12/24/2024 | DRIVING WITHOUT A LICENSESPEEDING 88/70FAILURE TO MAINTAIN LANESEAT BELT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/delonte-allen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ALLEN-DELONTE.jpg" alt="Delonte Allen"><div class="name">Delonte Allen</div></a>
+<div class="reason">12/24/2024 | THEFT BY RECEIVING STOLEN PROPERTYPOSSESSION OF VEHICLE WITH ALTERED V.I.N.SPEEDING 87/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/tanisha-thomas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/THOMAS-TANISHA.jpg" alt="Tanisha Thomas"><div class="name">Tanisha Thomas</div></a>
+<div class="reason">12/27/2024 | RECKLESS DRIVINGSPEEDING 109/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/aaron-drake/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DRAKE-AARON.jpg" alt="Aaron Drake"><div class="name">Aaron Drake</div></a>
+<div class="reason">12/27/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/latesha-burnley-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BURNLEY-LATESHA.jpg" alt="Latesha Burnley"><div class="name">Latesha Burnley</div></a>
+<div class="reason">12/27/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jeffrey-cash-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CASH-JEFFREY.jpg" alt="Jeffrey Cash"><div class="name">Jeffrey Cash</div></a>
+<div class="reason">12/27/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/christopher-king-42/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/King-Christopher.jpg" alt="Christopher King"><div class="name">Christopher King</div></a>
+<div class="reason">12/18/2024 | DRIVING WHILE LICENSE SUSPENDED/WITHDRAWN 1ST/2NDREAR VIEW OBSTRUCTION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/steven-florence/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Florence-Steven.jpg" alt="Steven Florence"><div class="name">Steven Florence</div></a>
+<div class="reason">12/18/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/francis-polite/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/POLITE-FRANCIS.jpg" alt="Francis Polite"><div class="name">Francis Polite</div></a>
+<div class="reason">12/17/2024 | DRIVING WHILE LICENSE SUSPENDEDHEADLIGHT REQUIREMENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/kinsey-pinkham-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PINKHAM-KINSEY.jpg" alt="Kinsey Pinkham"><div class="name">Kinsey Pinkham</div></a>
+<div class="reason">12/17/2024 | FELONY PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/timothy-frazier-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/FRAZIER-TIMOTHY.jpg" alt="Timothy Frazier"><div class="name">Timothy Frazier</div></a>
+<div class="reason">12/17/2024 | THEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/thao-phung/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PHUNG-THAO.jpg" alt="Thao Phung"><div class="name">Thao Phung</div></a>
+<div class="reason">12/16/2024 | FLEEING OR ATTEMPTING TO ELUDERECKLESS DRIVINGDRIVING WHILE LICENSE SUSPENDEDMOVE OVER LAWD.U.I.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/joyce-jacob/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jacob-Joyce.jpg" alt="Joyce Jacob"><div class="name">Joyce Jacob</div></a>
+<div class="reason">12/21/2024 | DRIVING WHILE LICENSE SUSPENDED/WITHDRAWN 1ST/2NDTAILLIGHT REQUIREMENTS/DEFECTIVE/NO TAILLIGHTSSEAT BELT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/roberto-gayo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gayo-Roberto.jpg" alt="Roberto Gayo"><div class="name">Roberto Gayo</div></a>
+<div class="reason">12/21/2024 | SPEEDING (91/70)DRIVING WHILE LICENSE SUSPENDED/WITHDRAWN 1ST/2ND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/gary-adams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Adams-Gary.jpg" alt="Gary Adams"><div class="name">Gary Adams</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/bernabe-osorio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Osorio-Bernabe-Quiroz.jpg" alt="Bernabe Osorio"><div class="name">Bernabe Osorio</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/eric-mickles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mickles-Eric.jpg" alt="Eric Mickles"><div class="name">Eric Mickles</div></a>
+<div class="reason">12/19/2024 | SPEEDING 86/70DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/larenzo-fisher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fisher-Larenzo.jpg" alt="Larenzo Fisher"><div class="name">Larenzo Fisher</div></a>
+<div class="reason">12/19/2024 | MOVE OVER LAWDRIVING WITHOUT LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/hillary-fisher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fisher-Hillary.jpg" alt="Hillary Fisher"><div class="name">Hillary Fisher</div></a>
+<div class="reason">12/21/2024 | DRIVING WHILE LICENSE SUSPENDED/WITHDRAWN 1ST/2NDFAILURE TO MAINTAIN INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/donna-gosnell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gosnell-Donna.jpg" alt="Donna Gosnell"><div class="name">Donna Gosnell</div></a>
+<div class="reason">12/21/2024 | OBSTRUCTION OF A LAW ENFORCEMENT OFFICERPUBLIC DRUNKENNESSDRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/joyce-jacob/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jacob-Joyce.jpg" alt="Joyce Jacob"><div class="name">Joyce Jacob</div></a>
+<div class="reason">12/21/2024 | DRIVING WHILE LICENSE SUSPENDED/WITHDRAWN 1ST/2NDTAILLIGHT REQUIREMENTS/DEFECTIVE/NO TAILLIGHTSSEAT BELT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/roberto-gayo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Gayo-Roberto.jpg" alt="Roberto Gayo"><div class="name">Roberto Gayo</div></a>
+<div class="reason">12/21/2024 | SPEEDING (91/70)DRIVING WHILE LICENSE SUSPENDED/WITHDRAWN 1ST/2ND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/gary-adams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Adams-Gary.jpg" alt="Gary Adams"><div class="name">Gary Adams</div></a>
+<div class="reason">12/19/2024 | REFUSAL TO SIGN TRAFFIC SUMMONSSPEEDING 89/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/bernabe-osorio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Osorio-Bernabe-Quiroz.jpg" alt="Bernabe Osorio"><div class="name">Bernabe Osorio</div></a>
+<div class="reason">12/19/2024 | SPEEDING 103/70DRIVING WITHOUT LICENSERECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/mickiel-saddler-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SADDLER-MICKIEL.jpg" alt="Mickiel Saddler"><div class="name">Mickiel Saddler</div></a>
+<div class="reason">12/13/2024 | FELONY PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/terry-lewis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LEWIS-TERRY.jpg" alt="Terry Lewis"><div class="name">Terry Lewis</div></a>
+<div class="reason">12/13/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 88/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/robert-edwards-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/EDWARDS-ROBERT.jpg" alt="Robert Edwards"><div class="name">Robert Edwards</div></a>
+<div class="reason">12/12/2024 | ILLEGAL POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEILLEGAL POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/elias-paz-ramirez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PAZ-RAMIREZ-ELIAS.jpg" alt="Elias Paz-Ramirez"><div class="name">Elias Paz-Ramirez</div></a>
+<div class="reason">12/12/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 86/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/renee-roth/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ROTH-RENEE.jpg" alt="Renee Roth"><div class="name">Renee Roth</div></a>
+<div class="reason">12/12/2024 | SPEEDINGRECKLESS DRIVINGIMPROPER/ERRATIC LANE CHANGEFOLLOWING TOO CLOSELYOBSCURED OR MISSING LICENSE PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/yemal-hevia-perez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HEVIA-PEREZ-YEMAL.jpg" alt="Yemal Hevia-Perez"><div class="name">Yemal Hevia-Perez</div></a>
+<div class="reason">12/12/2024 | DRIVING WITHOUT A LICENSESPEEDING 96/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/thao-phung/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PHUNG-THAO.jpg" alt="Thao Phung"><div class="name">Thao Phung</div></a>
+<div class="reason">12/16/2024 | FLEEING OR ATTEMPTING TO ELUDERECKLESS DRIVINGDRIVING WHILE LICENSE SUSPENDEDMOVE OVER LAWD.U.I.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/mykaella-huggins-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HUGGINS-MYKAELLA.jpg" alt="Mykaella Huggins"><div class="name">Mykaella Huggins</div></a>
+<div class="reason">12/16/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/carlos-hidalgo-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HIDALGO-CARLOS.jpg" alt="Carlos Hidalgo"><div class="name">Carlos Hidalgo</div></a>
+<div class="reason">12/16/2024 | DRIVING WHILE LICENSE SUSPENDEDFAILURE TO OBEY TRAFFIC CONTROL DEVICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/deshayna-buckhanon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BUCKHANON-DESHAYNA.jpg" alt="Deshayna Buckhanon"><div class="name">Deshayna Buckhanon</div></a>
+<div class="reason">12/16/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 101/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/makayla-mcintyre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MCINTYRE-MAKAYLA.jpg" alt="Makayla McIntyre"><div class="name">Makayla McIntyre</div></a>
+<div class="reason">12/16/2024 | ILLEGAL POSSESSION OF A CONTROLLED SUBSTANCEPOSSESSION OF ALCOHOL BY MINOROPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/dayana-savedra/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SAVEDRA-DAYANA.jpg" alt="Dayana Savedra"><div class="name">Dayana Savedra</div></a>
+<div class="reason">12/16/2024 | OPEN ALCOHOL CONTAINERPOSSESSION OF ALCOHOL BY MINORDRUG RELATED OBJECTSSPEEDING 85/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/kinsey-pinkham-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PINKHAM-KINSEY.jpg" alt="Kinsey Pinkham"><div class="name">Kinsey Pinkham</div></a>
+<div class="reason">12/17/2024 | FELONY PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/timothy-frazier-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/FRAZIER-TIMOTHY.jpg" alt="Timothy Frazier"><div class="name">Timothy Frazier</div></a>
+<div class="reason">12/17/2024 | THEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/thao-phung/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PHUNG-THAO.jpg" alt="Thao Phung"><div class="name">Thao Phung</div></a>
+<div class="reason">12/16/2024 | FLEEING OR ATTEMPTING TO ELUDERECKLESS DRIVINGDRIVING WHILE LICENSE SUSPENDEDMOVE OVER LAWD.U.I.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/mykaella-huggins-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HUGGINS-MYKAELLA.jpg" alt="Mykaella Huggins"><div class="name">Mykaella Huggins</div></a>
+<div class="reason">12/16/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/carlos-hidalgo-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HIDALGO-CARLOS.jpg" alt="Carlos Hidalgo"><div class="name">Carlos Hidalgo</div></a>
+<div class="reason">12/16/2024 | DRIVING WHILE LICENSE SUSPENDEDFAILURE TO OBEY TRAFFIC CONTROL DEVICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/deshayna-buckhanon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BUCKHANON-DESHAYNA.jpg" alt="Deshayna Buckhanon"><div class="name">Deshayna Buckhanon</div></a>
+<div class="reason">12/16/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 101/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/melodie-wrenn-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WRENN-MELODIE.jpg" alt="Melodie Wrenn"><div class="name">Melodie Wrenn</div></a>
+<div class="reason">12/08/2024 | ILLEGAL POSSESSION OF A CONTROLLED SUBSTANCEINMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/josh-anderson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ANDERSON-JOSH.jpg" alt="Josh Anderson"><div class="name">Josh Anderson</div></a>
+<div class="reason">12/08/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/oscar-velandia-moscoso/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VELANDIA-MOSCOSO-OSCAR.jpg" alt="Oscar Velandia-Moscoso"><div class="name">Oscar Velandia-Moscoso</div></a>
+<div class="reason">12/08/2024 | SPEEDING 103/70FOLLOWING TOO CLOSELYCHILD SAFETY RESTRAINTRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/curtis-west-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WEST-CURTIS.jpg" alt="Curtis West"><div class="name">Curtis West</div></a>
+<div class="reason">12/07/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/rafael-pacheco-camouzano/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PACHECO-CAMOUZANO-RAFAEL.jpg" alt="Rafael Pacheco-Camouzano"><div class="name">Rafael Pacheco-Camouzano</div></a>
+<div class="reason">12/08/2024 | DRIVING WITHOUT A LICENSESPEEDING 85/70FAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/flor-castro-cabrera/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CASTRO-CABRERA-FLOR.jpg" alt="Flor Castro-Cabrera"><div class="name">Flor Castro-Cabrera</div></a>
+<div class="reason">12/07/2024 | DRIVING WITHOUT A LICENSEFAILURE TO STOP AT STOP SIGN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/blake-undestad/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/UNDESTAD-BLAKE.jpg" alt="Blake Undestad"><div class="name">Blake Undestad</div></a>
+<div class="reason">12/14/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 88/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jeremias-gonzales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GONZALES-JEREMIAS.jpg" alt="Jeremias Gonzales"><div class="name">Jeremias Gonzales</div></a>
+<div class="reason">12/14/2024 | DRIVING WITHOUT A LICENSEHEADLIGHT REQUIREMENTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/pablo-pena-sanchez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PENA-SANCHEZ-PABLO.jpg" alt="Pablo Pena-Sanchez"><div class="name">Pablo Pena-Sanchez</div></a>
+<div class="reason">12/13/2024 | DRIVING WHILE LICENSE SUSPENDEDRECKLESS DRIVINGSPEEDING 102/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/mickiel-saddler-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SADDLER-MICKIEL.jpg" alt="Mickiel Saddler"><div class="name">Mickiel Saddler</div></a>
+<div class="reason">12/13/2024 | FELONY PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/terry-lewis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LEWIS-TERRY.jpg" alt="Terry Lewis"><div class="name">Terry Lewis</div></a>
+<div class="reason">12/13/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 88/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/robert-edwards-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/EDWARDS-ROBERT.jpg" alt="Robert Edwards"><div class="name">Robert Edwards</div></a>
+<div class="reason">12/12/2024 | ILLEGAL POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEILLEGAL POSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/shannon-rumfola-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RUMFOLA-SHANNON.jpg" alt="Shannon Rumfola"><div class="name">Shannon Rumfola</div></a>
+<div class="reason">12/06/2024 | FELONY PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/leslie-alston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ALSTON-LESLIE.jpg" alt="Leslie Alston"><div class="name">Leslie Alston</div></a>
+<div class="reason">12/05/2024 | DRIVING WHILE LICENSE SUSPENDEDOBSCURED OR MISSING LICENSE PLATEOPERATING VEHICLE WITH SUSPENDED/CANCELLED REGISTRATIONHEADLIGHT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/oscar-gonzalez-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GONZALEZ-OSCAR.jpg" alt="Oscar Gonzalez"><div class="name">Oscar Gonzalez</div></a>
+<div class="reason">12/05/2024 | DRIVING WITHOUT A LICENSESPEEDING 88/70CHILD SAFETY RESTRAINTSEAT BELT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/mjutba-palmer-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PALMER-MJUTBA.jpg" alt="Mjutba Palmer"><div class="name">Mjutba Palmer</div></a>
+<div class="reason">12/05/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/wayne-williams-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-WAYNE.jpg" alt="Wayne Williams"><div class="name">Wayne Williams</div></a>
+<div class="reason">12/04/2024 | FELONY PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jamarius-sullivan-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SULLIVAN-JAMARIUS.jpg" alt="Jamarius Sullivan"><div class="name">Jamarius Sullivan</div></a>
+<div class="reason">12/04/2024 | OBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/kiree-lanier-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LANIER-KIREE.jpg" alt="Kiree Lanier"><div class="name">Kiree Lanier</div></a>
+<div class="reason">12/10/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/ebony-crosdale/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CROSDALE-EBONY.jpg" alt="Ebony Crosdale"><div class="name">Ebony Crosdale</div></a>
+<div class="reason">12/09/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/crystal-mckinney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MCKINNEY-CRYSTAL.jpg" alt="Crystal McKinney"><div class="name">Crystal McKinney</div></a>
+<div class="reason">12/09/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/azavian-evans/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/EVANS-AZAVIAN.jpg" alt="Azavian Evans"><div class="name">Azavian Evans</div></a>
+<div class="reason">12/09/2024 | SIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/brian-young-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/YOUNG-BRIAN.jpg" alt="Brian Young"><div class="name">Brian Young</div></a>
+<div class="reason">12/09/2024 | NO LICENSE ON PERSONRECKLESS DRIVINGSPEEDING 109/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/raudelis-herrera-rosa/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HERRERA-ROSA-RAUDELIS.jpg" alt="Raudelis Herrera-Rosa"><div class="name">Raudelis Herrera-Rosa</div></a>
+<div class="reason">12/08/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 110/70RECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/amanda-wiggins-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WIGGINS-AMANDA.jpg" alt="Amanda Wiggins"><div class="name">Amanda Wiggins</div></a>
+<div class="reason">12/03/2024 | FORGERY 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/davonnis-johnson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JOHNSON-DAVONNIS.jpg" alt="Davonnis Johnson"><div class="name">Davonnis Johnson</div></a>
+<div class="reason">12/03/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/luis-castillo-machado-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CASTILLO-MACHADO-LUIS.jpg" alt="Luis Castillo-Machado"><div class="name">Luis Castillo-Machado</div></a>
+<div class="reason">12/03/2024 | BOND CANCELLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/yaping-yi/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/YI-YAPING.jpg" alt="Yaping Yi"><div class="name">Yaping Yi</div></a>
+<div class="reason">12/02/2024 | RECKLESS DRIVINGFAILURE TO STOP AT STOP SIGNFAILURE TO YIELD AT YIELD SIGN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/angel-morales-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MORALES-ANGEL.jpg" alt="Angel Morales"><div class="name">Angel Morales</div></a>
+<div class="reason">12/02/2024 | DRIVING WHILE LICENSE SUSPENDEDOPEN ALCOHOL CONTAINEREXPIRED REGISTRATIONSEAT BELT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/lawrence-dobson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DOBSON-LAWRENCE.jpg" alt="Lawrence Dobson"><div class="name">Lawrence Dobson</div></a>
+<div class="reason">12/02/2024 | SPEEDING 105/70RECKLESS DRIVINGNO PROOF OF INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/paul-walden/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WALDEN-PAUL.jpg" alt="Paul Walden"><div class="name">Paul Walden</div></a>
+<div class="reason">11/30/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/taylor-kersey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/KERSEY-TAYLOR.jpg" alt="Taylor Kersey"><div class="name">Taylor Kersey</div></a>
+<div class="reason">11/28/2024 | RECKLESS CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/adam-newman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/NEWMAN-ADAM.jpg" alt="Adam Newman"><div class="name">Adam Newman</div></a>
+<div class="reason">11/27/2024 | CONTEMPT OF COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/adonious-mcpherson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MCPHERSON-ADONIOUS.jpg" alt="Adonious McPherson"><div class="name">Adonious McPherson</div></a>
+<div class="reason">11/27/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 90/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/thomas-perez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PEREZ-THOMAS.jpg" alt="Thomas Perez"><div class="name">Thomas Perez</div></a>
+<div class="reason">11/27/2024 | DRIVING WHILE LICENSE SUSPENEDEDSPEEDING 86/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/peyton-randolph/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RANDOLPH-PEYTON.jpg" alt="Peyton Randolph"><div class="name">Peyton Randolph</div></a>
+<div class="reason">11/27/2024 | RECKLESS DRIVINGSPEEDING 108/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/ashley-wheeler-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WHEELER-ASHLEY.jpg" alt="Ashley Wheeler"><div class="name">Ashley Wheeler</div></a>
+<div class="reason">11/26/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/garrett-abray-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ABRAY-GARRETT.jpg" alt="Garrett Abray"><div class="name">Garrett Abray</div></a>
+<div class="reason">11/25/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 96/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/veronica-barroso-sierra/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BARROSO-SIERRA-VERONICA.jpg" alt="Veronica Barroso-Sierra"><div class="name">Veronica Barroso-Sierra</div></a>
+<div class="reason">11/26/2024 | DRIVING WITHOUT A LICENSESPEEDING 86/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/mark-bechtel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BECHTEL-MARK.jpg" alt="Mark Bechtel"><div class="name">Mark Bechtel</div></a>
+<div class="reason">11/24/2024 | SPEEDING 105/70RECKLESS DRIVINGDRIVING WHILE LICENSE SUSPENDEDIMPROPER LANE CHANGEFOLLOWING TOO CLOSELYPOSSESSION OF OPEN ALCOHOL CONTAINERNO PROOF OF INSURANCEREMOVING OR AFFIXING LICENSE PLATE WITH INTENT TO CONCEAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jamie-aki-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/AKI-JAMIE.jpg" alt="Jamie Aki"><div class="name">Jamie Aki</div></a>
+<div class="reason">11/25/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/adrian-hardwick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HARDWICK-ADRIAN.jpg" alt="Adrian Hardwick"><div class="name">Adrian Hardwick</div></a>
+<div class="reason">11/24/2024 | REFUSAL TO SIGN TRAFFIC SUMMONSSPEEDING 88/70HANDS FREE LAW</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/mjutba-palmer-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PALMER-MJUTBA.jpg" alt="Mjutba Palmer"><div class="name">Mjutba Palmer</div></a>
+<div class="reason">12/05/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/wayne-williams-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-WAYNE.jpg" alt="Wayne Williams"><div class="name">Wayne Williams</div></a>
+<div class="reason">12/04/2024 | FELONY PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jamarius-sullivan-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SULLIVAN-JAMARIUS.jpg" alt="Jamarius Sullivan"><div class="name">Jamarius Sullivan</div></a>
+<div class="reason">12/04/2024 | OBSTRUCTING OR HINDERING LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/rashad-golden/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GOLDEN-RASHAD.jpg" alt="Rashad Golden"><div class="name">Rashad Golden</div></a>
+<div class="reason">12/04/2024 | ILLEGAL POSSESSION OF A CONTROLLED SUBSTANCEFELONY POSSESSION OF MARIJUANAILLEGAL POSSESSION OF MARIJUANA WITH INTENT TO DISTRIBUTEDRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jamie-cooper-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COOPER-JAMIE.jpg" alt="Jamie Cooper"><div class="name">Jamie Cooper</div></a>
+<div class="reason">12/04/2024 | FAILURE TO APPEARDRIVING WHILE LICENSE SUSPENDEDSPEEDING 87/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/timothy-bryan-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BRYAN-TIMOTHY.jpg" alt="Timothy Bryan"><div class="name">Timothy Bryan</div></a>
+<div class="reason">12/04/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/earnest-mcintosh-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCINTOSH-EARNEST.jpg" alt="Earnest McIntosh"><div class="name">Earnest McIntosh</div></a>
+<div class="reason">11/21/2024 | CHILD SUPPORT PICK UP ORDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/sebastian-guerra/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GUERRA-SEBASTIAN.jpg" alt="Sebastian Guerra"><div class="name">Sebastian Guerra</div></a>
+<div class="reason">11/21/2024 | SPEEDING 85/70DRIVING WITHOUT A LICENSEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/tjean-pierre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PIERRE-TJEAN.jpg" alt="Tjean Pierre"><div class="name">Tjean Pierre</div></a>
+<div class="reason">11/21/2024 | SPEEDING 108/70RECKLESS DRIVINGEXPIRED DRIVER’S LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/kristian-cooley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COOLEY-KRISTIAN.jpg" alt="Kristian Cooley"><div class="name">Kristian Cooley</div></a>
+<div class="reason">11/20/2024 | DRIVING WHILE LICENSE SUSPENDEDFAILURE TO SIGNAL LANE CHANGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/gavin-mcquaig/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCQUAIG-GAVIN.jpg" alt="Gavin McQuaig"><div class="name">Gavin McQuaig</div></a>
+<div class="reason">11/18/2024 | POSSESSION OF MARIJUANA LESS THAN ONE OUNCEFAILURE TO MAINTAIN LANEDRIVING UNDER THE INFLUENCENO LICENSE ON PERSON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/david-martin-perez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MARTIN-PEREZ-DAVID.jpg" alt="David Martin-Perez"><div class="name">David Martin-Perez</div></a>
+<div class="reason">11/18/2024 | RECKLESS DRIVINGSPEEDING 117/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/diana-timaran-castano/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/TIMARAN-CASTANO-DIANA.jpg" alt="Diana Timaran-Castano"><div class="name">Diana Timaran-Castano</div></a>
+<div class="reason">11/18/2024 | RECKLESS DRIVINGSPEEDING 109/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/karina-moz-aguilar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MOZ-AGUILAR-KARINA.jpg" alt="Karina Moz-Aguilar"><div class="name">Karina Moz-Aguilar</div></a>
+<div class="reason">11/18/2024 | DRIVING WITHOUT A LICENSESPEED LESS THAN MINIMUMFAILURE TO MAINTAIN LANECHILD SAFETY RESTRAINT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/brandon-sharp/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SHARP-BRANDON.jpg" alt="Brandon Sharp"><div class="name">Brandon Sharp</div></a>
+<div class="reason">11/17/2024 | RECKLESS DRIVINGSPEEDING 128/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/james-dennis-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DENNIS-JAMES.jpg" alt="James Dennis"><div class="name">James Dennis</div></a>
+<div class="reason">11/17/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 88/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/elisha-groves/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GROVES-ELISHA.jpg" alt="Elisha Groves"><div class="name">Elisha Groves</div></a>
+<div class="reason">11/17/2024 | SPEEDING 85/70DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/shamonte-massey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MASSEY-SHAMONTE.jpg" alt="Shamonte Massey"><div class="name">Shamonte Massey</div></a>
+<div class="reason">11/17/2024 | OPEN ALCOHOL CONTAINERDRIVING WHILE LICENSE SUSPENDEDSPEEDING 92/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/shane-heck-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HECK-SHANE.jpg" alt="Shane Heck"><div class="name">Shane Heck</div></a>
+<div class="reason">11/17/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/wilner-luc/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LUC-WILNER.jpg" alt="Wilner Luc"><div class="name">Wilner Luc</div></a>
+<div class="reason">11/16/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/conshondra-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-CONSHONDRA.jpg" alt="Conshondra Smith"><div class="name">Conshondra Smith</div></a>
+<div class="reason">11/16/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 87/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/daryl-crusoe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CRUSOE-DARYL.jpg" alt="Daryl Crusoe"><div class="name">Daryl Crusoe</div></a>
+<div class="reason">11/16/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 86/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jennifer-frey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/FREY-JENNIFER.jpg" alt="Jennifer Frey"><div class="name">Jennifer Frey</div></a>
+<div class="reason">11/16/2024 | DRIVING WHILE LICENSE SUSPENDEDDRIVING UNDER THE INFLUENCEFAILURE TO OBEY TRAFFIC CONTROL DEVICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/xavier-bythwood-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BYTHWOOD-XAVIER.jpg" alt="Xavier Bythwood"><div class="name">Xavier Bythwood</div></a>
+<div class="reason">11/15/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 89/70FAILURE TO MAINTAIN LANESEAT BELT VIOLATIONOPERATING VEHICLE WITHOUT REGISTRATIONFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/francisco-garcia-bautista/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GARCIA-BAUTISTA-FRANCISCO.jpg" alt="Francisco Garcia-Bautista"><div class="name">Francisco Garcia-Bautista</div></a>
+<div class="reason">11/15/2024 | DRIVING WITHOUT A LICENSESPEEDING 88/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/bryan-funez-canales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/FUNEZ-CANALES-BRYAN.jpg" alt="Bryan Funez-Canales"><div class="name">Bryan Funez-Canales</div></a>
+<div class="reason">11/15/2024 | DRIVING WITHOUT A LICENSESPEEDING 91/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/alex-vining/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/VINING-ALEX.jpg" alt="Alex Vining"><div class="name">Alex Vining</div></a>
+<div class="reason">11/07/2024 | DRIVING UNDER THE INFLUENCEOPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/andre-thomas-cobb/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/THOMAS-COBB-ANDRE.jpg" alt="Andre Thomas-Cobb"><div class="name">Andre Thomas-Cobb</div></a>
+<div class="reason">11/14/2024 | DRIVING WHILE LICENSE SUSPENDEDFAILURE TO MAINTAIN LANESPEEDING 90/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/rebekah-sears/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SEARS-REBEKAH.jpg" alt="Rebekah Sears"><div class="name">Rebekah Sears</div></a>
+<div class="reason">11/14/2024 | ILLEGALL POSSESSION OF A CONTROLLED SUBSTANCEOBSCURRED OR MISSING LICENSE PLATENO REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jarrod-banner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BANNER-JARROD.jpg" alt="Jarrod Banner"><div class="name">Jarrod Banner</div></a>
+<div class="reason">11/14/2024 | BOND REVOCATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/david-brannen-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BRANNEN-DAVID.jpg" alt="David Brannen"><div class="name">David Brannen</div></a>
+<div class="reason">11/14/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/brantley-hall-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HALL-BRANTLEY.jpg" alt="Brantley Hall"><div class="name">Brantley Hall</div></a>
+<div class="reason">11/13/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/stephen-wray/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WRAY-STEPHEN.jpg" alt="Stephen Wray"><div class="name">Stephen Wray</div></a>
+<div class="reason">11/13/2024 | DRIVING WITHOUT A LICENSENO LICENSE ON PERSONSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/william-lucas-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LUCAS-WILLIAM.jpg" alt="William Lucas"><div class="name">William Lucas</div></a>
+<div class="reason">11/13/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/quincy-reed-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/REED-QUINCY.jpg" alt="Quincy Reed"><div class="name">Quincy Reed</div></a>
+<div class="reason">11/13/2024 | DRIVING UNDER THE INFLUENCEOPEN ALCOHOL CONTAINERFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/colorado-garcia/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GARCIA-COLORADO.jpg" alt="Colorado Garcia"><div class="name">Colorado Garcia</div></a>
+<div class="reason">11/13/2024 | DRIVING WITHOUT A LICENSESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/tina-williams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMS-TINA.jpg" alt="Tina Williams"><div class="name">Tina Williams</div></a>
+<div class="reason">11/13/2024 | POSSESSION OF MARIJUANA LESS THAN ONE OUNCEIMPROPER LANE CHANGERECKLESS DRIVINGSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/tiffany-cochrane/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COCHRANE-TIFFANY.jpg" alt="Tiffany Cochrane"><div class="name">Tiffany Cochrane</div></a>
+<div class="reason">11/13/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/dallas-powell-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/POWELL-DALLAS.jpg" alt="Dallas Powell"><div class="name">Dallas Powell</div></a>
+<div class="reason">11/13/2024 | THEFT BY TAKINGTHEFT BY TAKINGBURGLARY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/tawain-hollis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HOLLIS-TAWAIN.jpg" alt="Tawain Hollis"><div class="name">Tawain Hollis</div></a>
+<div class="reason">11/13/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/cameron-bell-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BELL-CAMERON.jpg" alt="Cameron Bell"><div class="name">Cameron Bell</div></a>
+<div class="reason">11/13/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/amir-wilson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILSON-AMIR.jpg" alt="Amir Wilson"><div class="name">Amir Wilson</div></a>
+<div class="reason">11/12/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/elizabeth-whitley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WHITLEY-ELIZABETH.jpg" alt="Elizabeth Whitley"><div class="name">Elizabeth Whitley</div></a>
+<div class="reason">11/12/2024 | DRIVIER TO USE DUE CARESPEEDING 89/70FAILURE TO STOP AT STOP SIGNREFUSAL TO SIGN TRAFFIC SUMMONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/clifford-shirley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SHIRLEY-CLIFFORD.jpg" alt="Clifford Shirley"><div class="name">Clifford Shirley</div></a>
+<div class="reason">11/12/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 88/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/yesen-posadas-munoz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/POSADAS-MUNOZ-YESEN.jpg" alt="Yesen Posadas-Munoz"><div class="name">Yesen Posadas-Munoz</div></a>
+<div class="reason">11/12/2024 | RECKLESS DRIVINGSPEEDING 104/70EXPIRED OR NO REGISTRATIONFOLLOWING TOO CLOSELYOBSCURRED OR MISSING LICENSE PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/eric-corbitt-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CORBITT-ERIC.jpg" alt="Eric Corbitt"><div class="name">Eric Corbitt</div></a>
+<div class="reason">11/12/2024 | GIVING FALSE NAME, DOB, OR ADDRESS TO LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/david-smith-129/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SMITH-DAVID.jpg" alt="David Smith"><div class="name">David Smith</div></a>
+<div class="reason">11/12/2024 | AGGRAVATED ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/melodi-graves/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GRAVES-MELODI.jpg" alt="Melodi Graves"><div class="name">Melodi Graves</div></a>
+<div class="reason">11/11/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/brittany-tarpley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/TARPLEY-BRITTANY.jpg" alt="Brittany Tarpley"><div class="name">Brittany Tarpley</div></a>
+<div class="reason">11/10/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 86/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/shaylon-wilkes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILKES-SHAYLON.jpg" alt="Shaylon Wilkes"><div class="name">Shaylon Wilkes</div></a>
+<div class="reason">11/10/2024 | RECKLESS DRIVINGSPEEDING 126/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/luisa-perez-rosero/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PEREZ-ROSERO-LUISA.jpg" alt="Luisa Perez-Rosero"><div class="name">Luisa Perez-Rosero</div></a>
+<div class="reason">11/10/2024 | DRIVING WITHOUT A LICENSERECKLESS DRIVINGSPEEDING 109/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/isabela-posada-rave/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/POSADA-RAVE-ISABELA.jpg" alt="Isabela Posada-Rave"><div class="name">Isabela Posada-Rave</div></a>
+<div class="reason">11/09/2024 | RECKLESS DRIVINGSPEEDING 103/70FAILURE TO DIM HEADLIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/keiona-byfield-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BYFIELD-KEIONA.jpg" alt="Keiona Byfield"><div class="name">Keiona Byfield</div></a>
+<div class="reason">11/09/2024 | POSSESSION OF MARIJUANA LESS THAN ONE OUNCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/hannah-sapp/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SAPP-HANNAH.jpg" alt="Hannah Sapp"><div class="name">Hannah Sapp</div></a>
+<div class="reason">11/08/2024 | PUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/tevin-lewis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LEWIS-TEVIN.jpg" alt="Tevin Lewis"><div class="name">Tevin Lewis</div></a>
+<div class="reason">11/08/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 85/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/ian-crews/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CREWS-IAN.jpg" alt="Ian Crews"><div class="name">Ian Crews</div></a>
+<div class="reason">11/08/2024 | RECKLESS DRIVINGIMPROPER LANE CHANGESPEEDING 98/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/kyial-spann-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SPANN-KYIAL.jpg" alt="Kyial Spann"><div class="name">Kyial Spann</div></a>
+<div class="reason">11/08/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 88/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/ettner-albert/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ALBERT-ETTNER.jpg" alt="Ettner Albert"><div class="name">Ettner Albert</div></a>
+<div class="reason">11/08/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING 92/70</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/aaron-mccrary/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCCRARY-AARON.jpg" alt="Aaron McCrary"><div class="name">Aaron McCrary</div></a>
+<div class="reason">11/08/2024 | FALSE STATEMENTS AND WRITINGSGIVING FALSE NAME, DOB OR ADDRESS TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/chordarrol-milton-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MILTON-CHORDARROL.jpg" alt="Chordarrol Milton"><div class="name">Chordarrol Milton</div></a>
+<div class="reason">11/07/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/george-campbell-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CAMPBELL-GEORGE.jpg" alt="George Campbell"><div class="name">George Campbell</div></a>
+<div class="reason">11/07/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/litoyuah-english-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ENGLISH-LITOYUAH.jpg" alt="Litoyuah English"><div class="name">Litoyuah English</div></a>
+<div class="reason">11/07/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/miles-anderson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ANDERSON-MILES.jpg" alt="Miles Anderson"><div class="name">Miles Anderson</div></a>
+<div class="reason">11/07/2024 | FAILURE TO SIGN TRAFFIC SUMMONSOPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/keith-armstrong-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ARMSTRONG-KEITH.jpg" alt="Keith Armstrong"><div class="name">Keith Armstrong</div></a>
+<div class="reason">11/07/2024 | AGGRAVATED BATTERYEXPLOITATION OF ELDERLY PERSON 65 OR OLDER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/charles-jeancharles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JEANCHARLES-CHARLES.jpg" alt="Charles Jeancharles"><div class="name">Charles Jeancharles</div></a>
+<div class="reason">11/06/2024 | DRIVING UNDER THE INFLUENCEPOSSESSION OF MARIJUANA LESS THAN ONE OUNCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/albert-middlebrooks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MIDDLEBROOKS-ALBERT.jpg" alt="Albert Middlebrooks"><div class="name">Albert Middlebrooks</div></a>
+<div class="reason">11/06/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/marvin-rideout-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RIDEOUT-MARVIN.jpg" alt="Marvin Rideout"><div class="name">Marvin Rideout</div></a>
+<div class="reason">11/06/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/zacaria-mortin-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MORTIN-ZACARIA.jpg" alt="Zacaria Mortin"><div class="name">Zacaria Mortin</div></a>
+<div class="reason">11/06/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/troy-blackwell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BLACKWELL-TROY.jpg" alt="Troy Blackwell"><div class="name">Troy Blackwell</div></a>
+<div class="reason">11/06/2024 | DRIVING WHILE LICENSE SUSPENDEDEXPIRED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/richard-bradley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BRADLEY-RICHARD.jpg" alt="Richard Bradley"><div class="name">Richard Bradley</div></a>
+<div class="reason">11/05/2024 | AGGRESSIVE DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/alec-ward/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WARD-ALEC.jpg" alt="Alec Ward"><div class="name">Alec Ward</div></a>
+<div class="reason">11/05/2024 | AGGRESSIVE DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/candi-palmer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PALMER-CANDI.jpg" alt="Candi Palmer"><div class="name">Candi Palmer</div></a>
+<div class="reason">11/05/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/dustin-pearce/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PEARCE-DUSTIN.jpg" alt="Dustin Pearce"><div class="name">Dustin Pearce</div></a>
+<div class="reason">11/05/2024 | DRIVING WHILE LICENSE SUSPENDEDREAR VIEW OBSTRUCTION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/todd-prestenback/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PRESTENBACK-TODD.jpg" alt="Todd Prestenback"><div class="name">Todd Prestenback</div></a>
+<div class="reason">11/05/2024 | RECKLESS DRIVINGSPEEDINGFAILURE TO SIGNAL LANE CHANGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/gabrelia-chavis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CHAVIS-GABRELIA.jpg" alt="Gabrelia Chavis"><div class="name">Gabrelia Chavis</div></a>
+<div class="reason">11/05/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jha-maine-edwards/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/EDWARDS-JHA-MAINE.jpg" alt="Jha-Maine Edwards"><div class="name">Jha-Maine Edwards</div></a>
+<div class="reason">11/05/2024 | DRIVING WITHOUT A LICENSESPEEDINGNO/EXPIRED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/ronald-palmer-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PALMER-RONALD.jpg" alt="Ronald Palmer"><div class="name">Ronald Palmer</div></a>
+<div class="reason">11/05/2024 | BATTERY/SIMPLE BATTERY-FAMILY VIOLENCEFAILURE TO APPEARFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jasmine-cruz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CRUZ-JASMINE.jpg" alt="Jasmine Cruz"><div class="name">Jasmine Cruz</div></a>
+<div class="reason">10/28/2024 | ILLEGAL POSSESSION OF A CONTROLLED SUBSTANCEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/marquita-marshall/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MARSHALL-MARQUITA.jpg" alt="Marquita Marshall"><div class="name">Marquita Marshall</div></a>
+<div class="reason">11/04/2024 | DRIVING UNDER THE INFLUENCEOPEN ALCOHOL CONTAINERFAILURE TO STOP AT A STOP SIGNNO/EXPIRED LICENSE PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/erick-soledad-gonzalez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SOLEDAD-GONZALEZ-ERICK.jpg" alt="Erick Soledad-Gonzalez"><div class="name">Erick Soledad-Gonzalez</div></a>
+<div class="reason">11/04/2024 | DRIVING WITHOUT A LICENSEFAILURE TO MAINTAIN LANECRACKED WINDSHIELD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/mckenson-jean/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JEAN-MCKENSON.jpg" alt="McKenson Jean"><div class="name">McKenson Jean</div></a>
+<div class="reason">11/04/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/kahleeb-mcintyre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCINTYRE-KAHLEEB.jpg" alt="Kahleeb McIntyre"><div class="name">Kahleeb McIntyre</div></a>
+<div class="reason">11/03/2024 | ILLEGAL POSSESSION OF A CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/nicole-emeott-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/EMEOTT-NICOLE.jpg" alt="Nicole Emeott"><div class="name">Nicole Emeott</div></a>
+<div class="reason">11/03/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/heather-varanelli/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/VARANELLI-HEATHER.jpg" alt="Heather Varanelli"><div class="name">Heather Varanelli</div></a>
+<div class="reason">11/03/2024 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jesse-alston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ALSTON-JESSE.jpg" alt="Jesse Alston"><div class="name">Jesse Alston</div></a>
+<div class="reason">11/03/2024 | PUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/luis-suarez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SUAREZ-LUIS.jpg" alt="Luis Suarez"><div class="name">Luis Suarez</div></a>
+<div class="reason">11/03/2024 | DRIVING WITHOUT A LICENSESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/timothy-frazier-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/FRAZIER-TIMOTHY.jpg" alt="Timothy Frazier"><div class="name">Timothy Frazier</div></a>
+<div class="reason">11/02/2024 | DISORDERLY CONDUCTPUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/julian-williamson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMSON-JULIAN.jpg" alt="Julian Williamson"><div class="name">Julian Williamson</div></a>
+<div class="reason">11/01/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDINGFAILURE TO SIGNAL LANE CHANGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/joshua-baals/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BAALS-JOSHUA.jpg" alt="Joshua Baals"><div class="name">Joshua Baals</div></a>
+<div class="reason">11/01/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/cheryl-griffin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GRIFFIN-CHERYL.jpg" alt="Cheryl Griffin"><div class="name">Cheryl Griffin</div></a>
+<div class="reason">11/01/2024 | MAGISTRATE COURT SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/frank-muir/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MUIR-FRANK.jpg" alt="Frank Muir"><div class="name">Frank Muir</div></a>
+<div class="reason">10/31/2024 | FLEEING OR ATTEMPTING TO ELUDE POLICE OFFICERSPEEDING 90/70SPEEDING 105/70SPEEDING 100/70FAILURE TO SIGNAL LANE CHANGEIMPROPER/ERRATIC LANE CHANGEFAILURE TO MAINTAIN LANEAGGRESSIVE DRIVINGRECKLESS DRIVINGPASSING ON SHOULDER OF ROADHIT AND RUN-FAILURE TO STOP AND RENDER AIDIMPROPER PASSING ON RIGHTLITTERING FROM A MOTOR VEHICLEIMPROPER STOPPING ON ROADWAYFOLLOWING TOO CLOSELYMUST HAVE HEADLIGHT AND TAILLIGHT...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/fernandez-rodriguez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RODRIGUEZ-FERNANDEZ.jpg" alt="Fernandez Rodriguez"><div class="name">Fernandez Rodriguez</div></a>
+<div class="reason">10/30/2024 | DRIVING WITHOUT A LICENSEFAILURE TO MAINTAIN INSURANCEEXPIRED REGISTRATIONFAILURE TO STOP AT A STOP SIGNREMOVING OR AFFIXING LICENSE PLATE TO CONCEAL VEHICLE IDENTITYSEAT BELT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/terry-simpson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SIMPSON-TERRY.jpg" alt="Terry Simpson"><div class="name">Terry Simpson</div></a>
+<div class="reason">10/30/2024 | CONTEMPT OF COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/russell-sharp/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SHARP-RUSSELL.jpg" alt="Russell Sharp"><div class="name">Russell Sharp</div></a>
+<div class="reason">10/30/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDINGUNAUTHORIZED BLUE LIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/douglas-sizemore-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SIZEMORE-DOUGLAS.jpg" alt="Douglas Sizemore"><div class="name">Douglas Sizemore</div></a>
+<div class="reason">10/30/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/palma-aguilar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/AGUILAR-PALMA.jpg" alt="Palma Aguilar"><div class="name">Palma Aguilar</div></a>
+<div class="reason">10/30/2024 | DRIVING WITHOUT A LICENSEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/richard-bradley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BRADLEY-RICHARD.jpg" alt="Richard Bradley"><div class="name">Richard Bradley</div></a>
+<div class="reason">11/05/2024 | AGGRESSIVE DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/alec-ward/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WARD-ALEC.jpg" alt="Alec Ward"><div class="name">Alec Ward</div></a>
+<div class="reason">11/05/2024 | AGGRESSIVE DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/candi-palmer/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PALMER-CANDI.jpg" alt="Candi Palmer"><div class="name">Candi Palmer</div></a>
+<div class="reason">11/05/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/dustin-pearce/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PEARCE-DUSTIN.jpg" alt="Dustin Pearce"><div class="name">Dustin Pearce</div></a>
+<div class="reason">11/05/2024 | DRIVING WHILE LICENSE SUSPENDEDREAR VIEW OBSTRUCTION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/todd-prestenback/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PRESTENBACK-TODD.jpg" alt="Todd Prestenback"><div class="name">Todd Prestenback</div></a>
+<div class="reason">11/05/2024 | RECKLESS DRIVINGSPEEDINGFAILURE TO SIGNAL LANE CHANGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/gabrelia-chavis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CHAVIS-GABRELIA.jpg" alt="Gabrelia Chavis"><div class="name">Gabrelia Chavis</div></a>
+<div class="reason">11/05/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jha-maine-edwards/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/EDWARDS-JHA-MAINE.jpg" alt="Jha-Maine Edwards"><div class="name">Jha-Maine Edwards</div></a>
+<div class="reason">11/05/2024 | DRIVING WITHOUT A LICENSESPEEDINGNO/EXPIRED REGISTRATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/ronald-palmer-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PALMER-RONALD.jpg" alt="Ronald Palmer"><div class="name">Ronald Palmer</div></a>
+<div class="reason">11/05/2024 | BATTERY/SIMPLE BATTERY-FAMILY VIOLENCEFAILURE TO APPEARFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jasmine-cruz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CRUZ-JASMINE.jpg" alt="Jasmine Cruz"><div class="name">Jasmine Cruz</div></a>
+<div class="reason">10/28/2024 | ILLEGAL POSSESSION OF A CONTROLLED SUBSTANCEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/marquita-marshall/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MARSHALL-MARQUITA.jpg" alt="Marquita Marshall"><div class="name">Marquita Marshall</div></a>
+<div class="reason">11/04/2024 | DRIVING UNDER THE INFLUENCEOPEN ALCOHOL CONTAINERFAILURE TO STOP AT A STOP SIGNNO/EXPIRED LICENSE PLATE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/erick-soledad-gonzalez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SOLEDAD-GONZALEZ-ERICK.jpg" alt="Erick Soledad-Gonzalez"><div class="name">Erick Soledad-Gonzalez</div></a>
+<div class="reason">11/04/2024 | DRIVING WITHOUT A LICENSEFAILURE TO MAINTAIN LANECRACKED WINDSHIELD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/mckenson-jean/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JEAN-MCKENSON.jpg" alt="McKenson Jean"><div class="name">McKenson Jean</div></a>
+<div class="reason">11/04/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/kahleeb-mcintyre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MCINTYRE-KAHLEEB.jpg" alt="Kahleeb McIntyre"><div class="name">Kahleeb McIntyre</div></a>
+<div class="reason">11/03/2024 | ILLEGAL POSSESSION OF A CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/nicole-emeott-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/EMEOTT-NICOLE.jpg" alt="Nicole Emeott"><div class="name">Nicole Emeott</div></a>
+<div class="reason">11/03/2024 | INMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/heather-varanelli/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/VARANELLI-HEATHER.jpg" alt="Heather Varanelli"><div class="name">Heather Varanelli</div></a>
+<div class="reason">11/03/2024 | DRIVING UNDER THE INFLUENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jesse-alston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ALSTON-JESSE.jpg" alt="Jesse Alston"><div class="name">Jesse Alston</div></a>
+<div class="reason">11/03/2024 | PUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/luis-suarez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SUAREZ-LUIS.jpg" alt="Luis Suarez"><div class="name">Luis Suarez</div></a>
+<div class="reason">11/03/2024 | DRIVING WITHOUT A LICENSESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/timothy-frazier-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/FRAZIER-TIMOTHY.jpg" alt="Timothy Frazier"><div class="name">Timothy Frazier</div></a>
+<div class="reason">11/02/2024 | DISORDERLY CONDUCTPUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/julian-williamson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMSON-JULIAN.jpg" alt="Julian Williamson"><div class="name">Julian Williamson</div></a>
+<div class="reason">11/01/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDINGFAILURE TO SIGNAL LANE CHANGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/joshua-baals/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BAALS-JOSHUA.jpg" alt="Joshua Baals"><div class="name">Joshua Baals</div></a>
+<div class="reason">11/01/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/cheryl-griffin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GRIFFIN-CHERYL.jpg" alt="Cheryl Griffin"><div class="name">Cheryl Griffin</div></a>
+<div class="reason">11/01/2024 | MAGISTRATE COURT SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/frank-muir/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MUIR-FRANK.jpg" alt="Frank Muir"><div class="name">Frank Muir</div></a>
+<div class="reason">10/31/2024 | FLEEING OR ATTEMPTING TO ELUDE POLICE OFFICERSPEEDING 90/70SPEEDING 105/70SPEEDING 100/70FAILURE TO SIGNAL LANE CHANGEIMPROPER/ERRATIC LANE CHANGEFAILURE TO MAINTAIN LANEAGGRESSIVE DRIVINGRECKLESS DRIVINGPASSING ON SHOULDER OF ROADHIT AND RUN-FAILURE TO STOP AND RENDER AIDIMPROPER PASSING ON RIGHTLITTERING FROM A MOTOR VEHICLEIMPROPER STOPPING ON ROADWAYFOLLOWING TOO CLOSELYMUST HAVE HEADLIGHT AND TAILLIGHT...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/fernandez-rodriguez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/RODRIGUEZ-FERNANDEZ.jpg" alt="Fernandez Rodriguez"><div class="name">Fernandez Rodriguez</div></a>
+<div class="reason">10/30/2024 | DRIVING WITHOUT A LICENSEFAILURE TO MAINTAIN INSURANCEEXPIRED REGISTRATIONFAILURE TO STOP AT A STOP SIGNREMOVING OR AFFIXING LICENSE PLATE TO CONCEAL VEHICLE IDENTITYSEAT BELT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/terry-simpson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SIMPSON-TERRY.jpg" alt="Terry Simpson"><div class="name">Terry Simpson</div></a>
+<div class="reason">10/30/2024 | CONTEMPT OF COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/russell-sharp/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SHARP-RUSSELL.jpg" alt="Russell Sharp"><div class="name">Russell Sharp</div></a>
+<div class="reason">10/30/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDINGUNAUTHORIZED BLUE LIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/douglas-sizemore-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/SIZEMORE-DOUGLAS.jpg" alt="Douglas Sizemore"><div class="name">Douglas Sizemore</div></a>
+<div class="reason">10/30/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/palma-aguilar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/AGUILAR-PALMA.jpg" alt="Palma Aguilar"><div class="name">Palma Aguilar</div></a>
+<div class="reason">10/30/2024 | DRIVING WITHOUT A LICENSEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/donovan-costilla/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COSTILLA-DONOVAN.jpg" alt="Donovan Costilla"><div class="name">Donovan Costilla</div></a>
+<div class="reason">10/30/2024 | DRIVING WITHOUT A LICENSESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/roblero-gonzalez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GONZALEZ-ROBLERO.jpg" alt="Roblero Gonzalez"><div class="name">Roblero Gonzalez</div></a>
+<div class="reason">10/29/2024 | DRIVING WITHOUT A LICENSEOPEN ALCOHOL CONTAINERSPEEDINGDEFECTIVE EQUIPMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/emmanuel-cabrera-pinales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CABRERA-PINALES-EMMANUEL.jpg" alt="Emmanuel Cabrera-Pinales"><div class="name">Emmanuel Cabrera-Pinales</div></a>
+<div class="reason">10/30/2024 | RECKLESS DRIVINGSPEEDINGIMPROPER/ERRATIC LANE CHANGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/christian-cifuentes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CIFUENTES-CHRISTIAN.jpg" alt="Christian Cifuentes"><div class="name">Christian Cifuentes</div></a>
+<div class="reason">10/29/2024 | ILLEGAL POSSESSION OF A CONTROLLED SUBSTANCEOPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/antwaine-owens/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/OWENS-ANTWAINE.jpg" alt="Antwaine Owens"><div class="name">Antwaine Owens</div></a>
+<div class="reason">10/29/2024 | DRIVING WHILE LICENSE SUSPENDEDEXPIRED REGISTRATIONDEFECTIVE EQUIPMENTINMATE HELD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/uribe-vazquez-aragon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/VAZQUEZ-ARAGON-URIBE.jpg" alt="Uribe Vazquez-Aragon"><div class="name">Uribe Vazquez-Aragon</div></a>
+<div class="reason">10/29/2024 | DRIVING WITHOUT A LICENSESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/romulus-harris/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/HARRIS-ROMULUS.jpg" alt="Romulus Harris"><div class="name">Romulus Harris</div></a>
+<div class="reason">10/29/2024 | SIMPLE ASSAULTRECKLESS CONDUCTALLOWING UNLICENSED PERSON TO DRIVEHIT AND RUNPEDESTRIAN UNDER THE INFLUENCE OF ALCOHOLOPEN ALCOHOL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/brooke-clark-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/CLARK-BROOKE.jpg" alt="Brooke Clark"><div class="name">Brooke Clark</div></a>
+<div class="reason">10/29/2024 | DRIVING WHILE LICENSE SUSPENDED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/crystal-ford-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/FORD-CRYSTAL.jpg" alt="Crystal Ford"><div class="name">Crystal Ford</div></a>
+<div class="reason">10/28/2024 | DRIVING WHILE LICENSE SUSPENDEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/jose-ponce-martinez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/PONCE-MARTINEZ-JOSE.jpg" alt="Jose Ponce-Martinez"><div class="name">Jose Ponce-Martinez</div></a>
+<div class="reason">10/28/2024 | DRIVING WITHOUT A LICENSENO PROOF OF INSURANCESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/illanie-rodriguez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/RODRIGUEZ-ILLANIE.jpg" alt="Illanie Rodriguez"><div class="name">Illanie Rodriguez</div></a>
+<div class="reason">10/28/2024 | RECKLESS DRIVINGSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/joanne-wood/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/WOOD-JOANNE.jpg" alt="Joanne Wood"><div class="name">Joanne Wood</div></a>
+<div class="reason">10/28/2024 | DRIVING UNDER THE INFLUENCEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/mcintosh/yeixon-garcia-paez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/GARCIA-PAEZ-YEIXON.jpg" alt="Yeixon Garcia-Paez"><div class="name">Yeixon Garcia-Paez</div></a>
+<div class="reason">10/28/2024 | DRIVING WITHOUT A LICENSEFOLLOWING TOO CLOSELYDEFECTIVE EQUIPMENTRECKLESS DRIVINGSPEEDING</div>
+</div>
+</div><div class="pagination"><a href="mcintosh3.html">Next Page</a></div></body></html>

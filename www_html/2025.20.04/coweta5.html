@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/mark-terrell-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Terrell-Mark-Demond.jpg" alt="Mark Terrell"><div class="name">Mark Terrell</div></a>
+<div class="reason">02/23/2025 | IDENTITY THEFT FRAUD WHEN USING/POSSESSING IDENTIFYING INFON</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/nicolas-taylor-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Taylor-Nicolas-Obryan-1.jpg" alt="Nicolas Taylor"><div class="name">Nicolas Taylor</div></a>
+<div class="reason">02/20/2025 | SUPERIOR COURT SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/michael-stewart-25/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stewart-Michael-Travis.jpg" alt="Michael Stewart"><div class="name">Michael Stewart</div></a>
+<div class="reason">02/21/2025 | SIMPLE ASSAULT - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/lemuel-stanley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stanley-Lemuel-Juwan.jpg" alt="Lemuel Stanley"><div class="name">Lemuel Stanley</div></a>
+<div class="reason">02/22/2025 | ENDANGERING SECURITY INTEREST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/stephanie-smoot/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smoot-Stephanie-Lynn.jpg" alt="Stephanie Smoot"><div class="name">Stephanie Smoot</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDNO PROOF OF INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/stewart-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Stewart-Douglas-Jr.jpg" alt="Stewart Smith"><div class="name">Stewart Smith</div></a>
+<div class="reason">02/21/2025 | NO PROOF OF INSURANCEDRIVING WHILE LICENSE SUSPENDED OR REVOKEDLICENSE FEE TO ACCOMPANY APPLICATION FOR REGISTRATIONDRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kani-smith-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Kani-Karrington.jpg" alt="Kani Smith"><div class="name">Kani Smith</div></a>
+<div class="reason">02/20/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/larry-sheats-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sheats-Larry-Ronald-Jr.jpg" alt="Larry Sheats"><div class="name">Larry Sheats</div></a>
+<div class="reason">02/20/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/troy-sarid-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sarid-Troy-Daniel.jpg" alt="Troy Sarid"><div class="name">Troy Sarid</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDNO PROOF OF INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/keenan-sanford-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sanford-Keenan-Lamont.jpg" alt="Keenan Sanford"><div class="name">Keenan Sanford</div></a>
+<div class="reason">02/18/2025 | NO PROOF OF INSURANCEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR N</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kevin-rosebeary-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rosebeary-Kevin-Eugene.jpg" alt="Kevin Rosebeary"><div class="name">Kevin Rosebeary</div></a>
+<div class="reason">02/19/2025 | PUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/michael-roe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Roe-Michael-Anthony.jpg" alt="Michael Roe"><div class="name">Michael Roe</div></a>
+<div class="reason">02/23/2025 | SIMPLE BATTERY - FAMILY VIOLENCECRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/anthony-roe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Roe-Anthony-Joseph.jpg" alt="Anthony Roe"><div class="name">Anthony Roe</div></a>
+<div class="reason">02/23/2025 | SIMPLE BATTERY - FAMILY VIOLENCECRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/walter-rivers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rivers-Walter-Omar.jpg" alt="Walter Rivers"><div class="name">Walter Rivers</div></a>
+<div class="reason">02/23/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION AND USE OF DRUG RELATED OBJECTSNO TAILLIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/abel-ramirez-mendoza/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ramirez-Mendoza-Abel-Eliseo.jpg" alt="Abel Ramirez-Mendoza"><div class="name">Abel Ramirez-Mendoza</div></a>
+<div class="reason">02/21/2025 | OPERATING VEHICLE WITHOUT REGISTRATION/VALID TAGDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/laryan-ragland-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ragland-Laryan-Marquise-1.jpg" alt="Laryan Ragland"><div class="name">Laryan Ragland</div></a>
+<div class="reason">02/20/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/gaspar-quiej-pelico/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Quiej-Pelico-Gaspar.jpg" alt="Gaspar Quiej Pelico"><div class="name">Gaspar Quiej Pelico</div></a>
+<div class="reason">02/18/2025 | DRIVING WHILE UNLICENSEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/timothy-price-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Price-Timothy-Allan-Jr.jpg" alt="Timothy Price"><div class="name">Timothy Price</div></a>
+<div class="reason">02/21/2025 | LOITERING OR PROWLINGCRIMINAL TRESPASSPOSSESSION OF TOOLS FOR COMMISSION OF A CRIME</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/joshua-peterson-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Peterson-Joshua-Alan.jpg" alt="Joshua Peterson"><div class="name">Joshua Peterson</div></a>
+<div class="reason">02/18/2025 | PUBLIC DRUNKENNESSCRIMINAL TRESPASSPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/donnie-payton-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Payton-Donnie-Dean-Jr.jpg" alt="Donnie Payton"><div class="name">Donnie Payton</div></a>
+<div class="reason">02/23/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/william-payne-31/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Payne-William-Kyle-1.jpg" alt="William Payne"><div class="name">William Payne</div></a>
+<div class="reason">02/20/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jimmy-parker-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Parker-Jimmy-Thomas-1.jpg" alt="Jimmy Parker"><div class="name">Jimmy Parker</div></a>
+<div class="reason">02/23/2025 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/samson-osebor-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Osebor-Samson-Omono.jpg" alt="Samson Osebor"><div class="name">Samson Osebor</div></a>
+<div class="reason">02/17/2025 | NO PROOF OF INSURANCEFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tia-orr-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Orr-Tia-Tasha.jpg" alt="Tia Orr"><div class="name">Tia Orr</div></a>
+<div class="reason">02/19/2025 | MANUFACTURE/DELIVER/DISTRIBUTE OR POSSESS W/INTENT TO DISTRI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/adelabu-obanigba/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Obanigba-Adelabu-Christian-Mattw.jpg" alt="Adelabu Obanigba"><div class="name">Adelabu Obanigba</div></a>
+<div class="reason">02/18/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/michele-nickels-dart-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nickels-Dart-Michele-Lin.jpg" alt="Michele Nickels-Dart"><div class="name">Michele Nickels-Dart</div></a>
+<div class="reason">02/22/2025 | DRIVING WHILE UNLICENSEDDRIVING ON A DIVIDED HIGHWAY, RESTRICTED ACCESSFLEEING/ATTEMPTING TO ELUDE POLICE OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/vincent-newson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Newson-Vincent-Edward.jpg" alt="Vincent Newson"><div class="name">Vincent Newson</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDNO PROOF OF INSURANCEDEFECTIVE EQUIPMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tyrone-newsom/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Newsom-Tyrone.jpg" alt="Tyrone Newsom"><div class="name">Tyrone Newsom</div></a>
+<div class="reason">02/22/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/norwood-moore-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Moore-Norwood-Fitzgerald-Jr-1.jpg" alt="Norwood Moore"><div class="name">Norwood Moore</div></a>
+<div class="reason">02/23/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/dawson-moore-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Moore-Dawson-Rafe.jpg" alt="Dawson Moore"><div class="name">Dawson Moore</div></a>
+<div class="reason">02/20/2025 | PROBATION VIOLATIONPROBATION VIOLATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/deangelo-minor/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Minor-Deangelo-Lopez.jpg" alt="Deangelo Minor"><div class="name">Deangelo Minor</div></a>
+<div class="reason">02/19/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDFLEEING/ATTEMPTING TO ELUDE POLICE OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tyshawn-milton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Milton-Tyshawn-Lamar-1.jpg" alt="Tyshawn Milton"><div class="name">Tyshawn Milton</div></a>
+<div class="reason">02/18/2025 | FORGERY - 4TH DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/adrian-mills-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mills-Adrian-Denard.jpg" alt="Adrian Mills"><div class="name">Adrian Mills</div></a>
+<div class="reason">02/19/2025 | FUGITIVE FROM JUSTICE FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/christopher-middleton-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Middleton-Christopher-Dean.jpg" alt="Christopher Middleton"><div class="name">Christopher Middleton</div></a>
+<div class="reason">02/17/2025 | THEFT BY TAKING (AUTO)FINANCIAL TRANSACTION CARD FRAUD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/amberlynn-meyers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Meyers-Amberlynn-Veronica.jpg" alt="Amberlynn Meyers"><div class="name">Amberlynn Meyers</div></a>
+<div class="reason">02/21/2025 | ABANDONMENT OF CHILD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/chloe-merritt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Merritt-Chloe-Lezonda-Faith.jpg" alt="Chloe Merritt"><div class="name">Chloe Merritt</div></a>
+<div class="reason">02/19/2025 | TRESPASS-PRIVATE PROPERTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/charles-mcwilliams-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McWilliams-Charles-Sidney-Jr.jpg" alt="Charles McWilliams"><div class="name">Charles McWilliams</div></a>
+<div class="reason">02/20/2025 | TERRORISTIC THREATS AND ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/melinda-mcmillan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McMillan-Melinda-Jane.jpg" alt="Melinda McMillan"><div class="name">Melinda McMillan</div></a>
+<div class="reason">02/18/2025 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/deontiaz-mckiver/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McKiver-Deontiaz-Jahoz.jpg" alt="Deontiaz McKiver"><div class="name">Deontiaz McKiver</div></a>
+<div class="reason">02/20/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/amanda-mccann/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McCann-Amanda-Nicole.jpg" alt="Amanda McCann"><div class="name">Amanda McCann</div></a>
+<div class="reason">02/18/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.VGCSA SCH 1/2 NARCOTIC POSSESSIONLOITERING OR PROWLING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/henry-mauricio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mauricio-Henry.jpg" alt="Henry Mauricio"><div class="name">Henry Mauricio</div></a>
+<div class="reason">02/22/2025 | DRIVING WHILE UNLICENSEDIMPROPER TURN AT INTERSECTION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tavaris-mason-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mason-Tavaris-Jermaine.jpg" alt="Tavaris Mason"><div class="name">Tavaris Mason</div></a>
+<div class="reason">02/20/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONVGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/payton-lyons/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lyons-Payton-Jean.jpg" alt="Payton Lyons"><div class="name">Payton Lyons</div></a>
+<div class="reason">02/17/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jonathan-luttrell-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Luttrell-Jonathan-David.jpg" alt="Jonathan Luttrell"><div class="name">Jonathan Luttrell</div></a>
+<div class="reason">02/19/2025 | CRIMINAL TRESPASSWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/nathan-lunsford-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lunsford-Nathan-William.jpg" alt="Nathan Lunsford"><div class="name">Nathan Lunsford</div></a>
+<div class="reason">02/23/2025 | HIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OTOBEDIENCE TO REQUIRED TRAFFIC-CONTROL DEVICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jose-lopez-garcia-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lopez-Garcia-Jose-Fernando.jpg" alt="Jose Lopez-Garcia"><div class="name">Jose Lopez-Garcia</div></a>
+<div class="reason">02/23/2025 | KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR NDRIVING WHILE UNLICENSEDNO PROOF OF INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/megan-lohry/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lohry-Megan-Nicole.jpg" alt="Megan Lohry"><div class="name">Megan Lohry</div></a>
+<div class="reason">02/18/2025 | PURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OFDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANEFAILURE TO YIELD TO EMERGENCY VEHICLEOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tierra-lightfoot-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lightfoot-Tierra-Ashely.jpg" alt="Tierra Lightfoot"><div class="name">Tierra Lightfoot</div></a>
+<div class="reason">02/20/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/zana-lara-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lara-Zana-Kian.jpg" alt="Zana Lara"><div class="name">Zana Lara</div></a>
+<div class="reason">02/21/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/terrence-kurhansky-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kurhansky-Terrence-Anthony.jpg" alt="Terrence Kurhansky"><div class="name">Terrence Kurhansky</div></a>
+<div class="reason">02/19/2025 | THEFT BY DECEPTIONTHEFT BY DECEPTION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/justin-knight-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Knight-Justin-Dermez-1.jpg" alt="Justin Knight"><div class="name">Justin Knight</div></a>
+<div class="reason">02/20/2025 | SUPERIOR COURT SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/john-kingston-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Kingston-John-Christopher.jpg" alt="John Kingston"><div class="name">John Kingston</div></a>
+<div class="reason">02/19/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/david-jordan-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jordan-David.jpg" alt="David Jordan"><div class="name">David Jordan</div></a>
+<div class="reason">02/18/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/brittany-jordan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jordan-Brittany-Alyse.jpg" alt="Brittany Jordan"><div class="name">Brittany Jordan</div></a>
+<div class="reason">02/20/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLRECKLESS DRIVINGSPEEDINGFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/samira-jones-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Samira-Jania.jpg" alt="Samira Jones"><div class="name">Samira Jones</div></a>
+<div class="reason">02/17/2025 | OPERATING VEHICLE WITHOUT REGISTRATION/VALID TAGDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/keith-johnson-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Keith-Tahawn-Jr.jpg" alt="Keith Johnson"><div class="name">Keith Johnson</div></a>
+<div class="reason">02/21/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/karl-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Karl-Anthony.jpg" alt="Karl Johnson"><div class="name">Karl Johnson</div></a>
+<div class="reason">02/20/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDNO PROOF OF INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/dustin-johnson-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Dustin-Lamont.jpg" alt="Dustin Johnson"><div class="name">Dustin Johnson</div></a>
+<div class="reason">02/19/2025 | FOLLOWING TOO CLOSELYDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/chanda-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Chanda-Marshay.jpg" alt="Chanda Johnson"><div class="name">Chanda Johnson</div></a>
+<div class="reason">02/17/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/sharon-jeter-lowe-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jeter-Lowe-Sharon-Eugenia.jpg" alt="Sharon Jeter-Lowe"><div class="name">Sharon Jeter-Lowe</div></a>
+<div class="reason">02/23/2025 | FOLLOWING TOO CLOSELYNO PROOF OF INSURANCEDRIVING WHILE LICENSE SUSPENDED OR REVOKEDSAFETY BELTS ; REQUIRED USAGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/malcolm-jackson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jackson-Malcolm-Ansel.jpg" alt="Malcolm Jackson"><div class="name">Malcolm Jackson</div></a>
+<div class="reason">02/20/2025 | FRAUD IDENTITY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/alrad-jackson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jackson-Alrad-Jama.jpg" alt="Alrad Jackson"><div class="name">Alrad Jackson</div></a>
+<div class="reason">02/20/2025 | VIOLATE FAMILY VIOLENCE ORDERPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/faith-ingleston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ingleston-Faith-Victoria.jpg" alt="Faith Ingleston"><div class="name">Faith Ingleston</div></a>
+<div class="reason">02/20/2025 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/april-huff/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Huff-April-Nichole.jpg" alt="April Huff"><div class="name">April Huff</div></a>
+<div class="reason">02/19/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/eder-huervo-patraca/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Huervo-Patraca-Eder-Bibram.jpg" alt="Eder Huervo-Patraca"><div class="name">Eder Huervo-Patraca</div></a>
+<div class="reason">02/20/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/thomas-hudson-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hudson-Thomas-Ray.jpg" alt="Thomas Hudson"><div class="name">Thomas Hudson</div></a>
+<div class="reason">02/20/2025 | PROBATION VIOLATIONDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/antonia-hudson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hudson-Antonia-Monshai.jpg" alt="Antonia Hudson"><div class="name">Antonia Hudson</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/stephanie-howard-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Howard-Stephanie-Lynn.jpg" alt="Stephanie Howard"><div class="name">Stephanie Howard</div></a>
+<div class="reason">02/22/2025 | FAILURE TO APPEARFORGERY - 3RD DEGREEFORGERY - 3RD DEGREEVGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/dustin-hobbs-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hobbs-Dustin-Bryan.jpg" alt="Dustin Hobbs"><div class="name">Dustin Hobbs</div></a>
+<div class="reason">02/20/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/michael-hitt-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hitt-Michael-Cason.jpg" alt="Michael Hitt"><div class="name">Michael Hitt</div></a>
+<div class="reason">02/19/2025 | TERRORISTIC THREATS AND ACTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/samantha-walker-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Walker-Samantha-Louise.jpg" alt="Samantha Walker"><div class="name">Samantha Walker</div></a>
+<div class="reason">02/14/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNTDRIVING ON A DIVIDED HIGHWAY, RESTRICTED ACCESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jerry-upshaw/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Upshaw-Jerry-Thornton.jpg" alt="Jerry Upshaw"><div class="name">Jerry Upshaw</div></a>
+<div class="reason">02/14/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNTOPERATING VEHICLE WITHOUT REGISTRATION/VALID TAGSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jordan-underwood-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Underwood-Jordan-Cherelle-1.jpg" alt="Jordan Underwood"><div class="name">Jordan Underwood</div></a>
+<div class="reason">02/12/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/braxton-tucker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Tucker-Braxton-Kexavier.jpg" alt="Braxton Tucker"><div class="name">Braxton Tucker</div></a>
+<div class="reason">02/15/2025 | BATTERYTHEFT BY TAKINGCRIMINAL DAMAGE TO PROPERTY - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kevin-thornhill-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thornhill-Kevin-W.jpg" alt="Kevin Thornhill"><div class="name">Kevin Thornhill</div></a>
+<div class="reason">02/13/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANESPEEDINGLICENSE TO BE CARRIED AND EXHIBITED ON DEMANDOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/dakota-thompson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thompson-Dakota-Jasper.jpg" alt="Dakota Thompson"><div class="name">Dakota Thompson</div></a>
+<div class="reason">02/16/2025 | DUI ALCOHOL 0.08 GR OR MORENO HEADLIGHTS / TAILLIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/garvante-harper-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harper-GarvantE-Eugene.jpg" alt="Garvant’E Harper"><div class="name">Garvant’E Harper</div></a>
+<div class="reason">02/17/2025 | DUI ALCOHOL 0.08 GR OR MOREFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/eric-hardy-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hardy-Eric-Thomas-Jr.jpg" alt="Eric Hardy"><div class="name">Eric Hardy</div></a>
+<div class="reason">02/22/2025 | VGCSA MARIJUANA POSSESSIONPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/dong-han-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Han-Dong-Jin.jpg" alt="Dong Han"><div class="name">Dong Han</div></a>
+<div class="reason">02/18/2025 | COURT APPEARANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/shantay-hall/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hall-Shantay-Denise.jpg" alt="Shantay Hall"><div class="name">Shantay Hall</div></a>
+<div class="reason">02/20/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jennifer-gray-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gray-Jennifer-Nicole.jpg" alt="Jennifer Gray"><div class="name">Jennifer Gray</div></a>
+<div class="reason">02/23/2025 | SIMPLE BATTERYWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERSGIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENTR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/billy-graves-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Graves-Billy-Eugene.jpg" alt="Billy Graves"><div class="name">Billy Graves</div></a>
+<div class="reason">02/18/2025 | MANUFACTURE/DELIVER/DISTRIBUTE OR POSSESS W/INTENT TO DISTRI</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/reneda-gooden/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gooden-Reneda-Nicole.jpg" alt="Reneda Gooden"><div class="name">Reneda Gooden</div></a>
+<div class="reason">02/17/2025 | FRAUD DEPOSIT ACCOUNT (BAD CHECK)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/loundes-gomez-sanchez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gomez-Sanchez-Loundes.jpg" alt="Loundes Gomez-Sanchez"><div class="name">Loundes Gomez-Sanchez</div></a>
+<div class="reason">02/23/2025 | DRIVING WITHOUT A VALID LICENSESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/james-goddard-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Goddard-James-Anthony.jpg" alt="James Goddard"><div class="name">James Goddard</div></a>
+<div class="reason">02/21/2025 | FINANCIAL TRANSACTION CARD THEFTLOITERING OR PROWLINGCRIMINAL TRESPASSHINDERING APPREHENSION OR PUNISHMENT OF CRIMINALPOSSESSION OF TOOLS FOR COMMISSION OF A CRIME</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jarah-gibson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gibson-Jarah-Alynn.jpg" alt="Jarah Gibson"><div class="name">Jarah Gibson</div></a>
+<div class="reason">02/18/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.SPEEDINGDRIVER USE DUE CARE/ENGAGING IN ACTS THAT DISTRACTRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/charles-gibson-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gibson-Charles-Edward-Jr.jpg" alt="Charles Gibson"><div class="name">Charles Gibson</div></a>
+<div class="reason">02/19/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONSTOP SIGN VIOLATION (FAILURE TO YIELD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/brandon-gamble-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gamble-Brandon-Montez.jpg" alt="Brandon Gamble"><div class="name">Brandon Gamble</div></a>
+<div class="reason">02/21/2025 | PROBATION VIOLATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/johnathan-fuller-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fuller-Johnathan-Nathaniel.jpg" alt="Johnathan Fuller"><div class="name">Johnathan Fuller</div></a>
+<div class="reason">02/21/2025 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/christopher-frazier-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Frazier-Christopher-Alexander.jpg" alt="Christopher Frazier"><div class="name">Christopher Frazier</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jayland-florence/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Florence-Jayland-Tramond.jpg" alt="Jayland Florence"><div class="name">Jayland Florence</div></a>
+<div class="reason">02/20/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/amanda-fletcher/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fletcher-Amanda-Rae.jpg" alt="Amanda Fletcher"><div class="name">Amanda Fletcher</div></a>
+<div class="reason">02/19/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/john-finnegan-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Finnegan-John-Fitzgerald-1.jpg" alt="John Finnegan"><div class="name">John Finnegan</div></a>
+<div class="reason">02/17/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONVGCSA DRUG RELATED OBJECTS POSSESSIONFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/cedric-finch-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Finch-Cedric-Akeem.jpg" alt="Cedric Finch"><div class="name">Cedric Finch</div></a>
+<div class="reason">02/20/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNTGOING INSIDE GUARDLINE W/WEAPON, LIQUOR OR DRUGS FEL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tariq-fields-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fields-Tariq-Zahir-1.jpg" alt="Tariq Fields"><div class="name">Tariq Fields</div></a>
+<div class="reason">02/18/2025 | UNREGISTERED/UNLICENSED VEHICLEDRIVING WHILE LICENSE SUSPENDED OR REVOKEDFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/dexter-farahkan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Farahkan-Dexter-Makkah.jpg" alt="Dexter Farahkan"><div class="name">Dexter Farahkan</div></a>
+<div class="reason">02/22/2025 | VGCSA SCH 1/2 NARCOTIC MFG/DIST/POSS W INTENT TO DISTVGCSA SCH 1/2 NARCOTIC MFG/DIST/POSS W INTENT TO DISTVGCSA METHAMPHETAMINE TRAFFICKINGVGCSA SCH 1/2 NARCOTIC MFG/DIST/POSS W INTENT TO DISTVGCSA SCH 1/2 NARCOTIC MFG/DIST/POSS W INTENT TO DISTVGCSA SCH 1/2 NARCOTIC MFG/DIST/POSS W INTENT TO DISTVGCSA DRUG RELATED OBJECTS POSSESSIONWEAPON-FIREARM...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/craig-everhart/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Everhart-Craig-Jonmar.jpg" alt="Craig Everhart"><div class="name">Craig Everhart</div></a>
+<div class="reason">02/22/2025 | VGCSA MARIJUANA POSSESSIONPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTESFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/curtis-evans-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Evans-Curtis.jpg" alt="Curtis Evans"><div class="name">Curtis Evans</div></a>
+<div class="reason">02/17/2025 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tavian-edwards/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Edwards-Tavian-DeShawn.jpg" alt="Tavian Edwards"><div class="name">Tavian Edwards</div></a>
+<div class="reason">02/21/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/carmarion-malone/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Malone-Carmarion-Andreco.jpg" alt="Carmarion Malone"><div class="name">Carmarion Malone</div></a>
+<div class="reason">02/10/2025 | Hold for Henry County</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/laerric-edwards/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Edwards-Laerric-Eugene.jpg" alt="Laerric Edwards"><div class="name">Laerric Edwards</div></a>
+<div class="reason">02/22/2025 | SPEEDINGDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/syreeta-edmonds/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Edmonds-Syreeta-Ann.jpg" alt="Syreeta Edmonds"><div class="name">Syreeta Edmonds</div></a>
+<div class="reason">02/22/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATIONFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/javonta-edge-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Edge-Javonta-Rashad.jpg" alt="Javonta Edge"><div class="name">Javonta Edge</div></a>
+<div class="reason">02/19/2025 | MANUFACTURE/DELIVER/DISTRIBUTE OR POSSESS W/INTENT TO DISTRIPOSSESSION AND USE OF DRUG RELATED OBJECTSRECEIPT, POSSESSION OR TRANSPORT OF FIREARM BY CONVICTED FCPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/justin-driskell-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Driskell-Justin-LaMont-Jr.jpg" alt="Justin Driskell"><div class="name">Justin Driskell</div></a>
+<div class="reason">02/18/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/david-doyle-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Doyle-David-Lawayne.jpg" alt="David Doyle"><div class="name">David Doyle</div></a>
+<div class="reason">02/20/2025 | SEX OFFENDER-FAILURE TO REGISTERFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/quadarius-dixon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dixon-Quadarius-Marquis.jpg" alt="Quadarius Dixon"><div class="name">Quadarius Dixon</div></a>
+<div class="reason">02/23/2025 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/katherine-desantis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Desantis-Katherine-Estelle.jpg" alt="Katherine Desantis"><div class="name">Katherine Desantis</div></a>
+<div class="reason">02/23/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLHEADLIGHTS REQUIRED (PROVISIONS FOR WHEN REQUIRED)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/ashley-davis-48/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Davis-Ashley-Monique.jpg" alt="Ashley Davis"><div class="name">Ashley Davis</div></a>
+<div class="reason">02/19/2025 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jermine-curtis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Curtis-Jermine-Casper.jpg" alt="Jermine Curtis"><div class="name">Jermine Curtis</div></a>
+<div class="reason">02/20/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/antonio-cucul-choc/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cucul-Choc-Antonio-Arnoldolic.jpg" alt="Antonio Cucul-Choc"><div class="name">Antonio Cucul-Choc</div></a>
+<div class="reason">02/17/2025 | FORGERY IN THE FIRST DEGREEAFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSISDRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/justina-croslin-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Croslin-Justina-Leeann.jpg" alt="Justina Croslin"><div class="name">Justina Croslin</div></a>
+<div class="reason">02/21/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/curtis-coverson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Coverson-Curtis-Lamar.jpg" alt="Curtis Coverson"><div class="name">Curtis Coverson</div></a>
+<div class="reason">02/19/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/hayden-cota-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cota-Hayden-Tyler.jpg" alt="Hayden Cota"><div class="name">Hayden Cota</div></a>
+<div class="reason">02/22/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFURNISHING, PURCHASING, AND POSSESSION OF ALCOHOLIC BEVERAGEINSTRUCTION PERMITS, PROVISIONAL & TEMPORARY LICENSESOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATIONHEADLIGHTS REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/ashton-combs-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Combs-Ashton-Hanson.jpg" alt="Ashton Combs"><div class="name">Ashton Combs</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/christopher-colton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Colton-Christopher-Deon.jpg" alt="Christopher Colton"><div class="name">Christopher Colton</div></a>
+<div class="reason">02/18/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jahkobe-coleman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Coleman-Jahkobe-Omarion.jpg" alt="Jahkobe Coleman"><div class="name">Jahkobe Coleman</div></a>
+<div class="reason">02/21/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.SAFETY BELTS ; REQUIRED USAGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/julio-calderon-gonzalez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Calderon-Gonzalez-Julio.jpg" alt="Julio Calderon-Gonzalez"><div class="name">Julio Calderon-Gonzalez</div></a>
+<div class="reason">02/22/2025 | UNREGISTERED/UNLICENSED VEHICLEDRIVING WITHOUT A VALID LICENSESPEEDINGNO PROOF OF INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/zackery-cain-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cain-Zackery-Bernard.jpg" alt="Zackery Cain"><div class="name">Zackery Cain</div></a>
+<div class="reason">02/20/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/larry-burkes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Burkes-Larry-Gabriell-Jr.jpg" alt="Larry Burkes"><div class="name">Larry Burkes</div></a>
+<div class="reason">02/22/2025 | DISORDERLY CONDUCTTRESPASS-PRIVATE PROPERTYRESISTING, INTERFERING WITH OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/vanessia-buckner-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Buckner-Vanessia-Lafaye-1.jpg" alt="Vanessia Buckner"><div class="name">Vanessia Buckner</div></a>
+<div class="reason">02/19/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/miranda-brown-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Miranda-Devin.jpg" alt="Miranda Brown"><div class="name">Miranda Brown</div></a>
+<div class="reason">02/22/2025 | SIMPLE BATTERY - FAMILY VIOLENCETHEFT BY TAKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/shawn-britt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Britt-Shawn-Thomas.jpg" alt="Shawn Britt"><div class="name">Shawn Britt</div></a>
+<div class="reason">02/22/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/brianna-bradford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bradford-Brianna-Ardisia.jpg" alt="Brianna Bradford"><div class="name">Brianna Bradford</div></a>
+<div class="reason">02/23/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION AND USE OF DRUG RELATED OBJECTSUNREGISTERED/UNLICENSED VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jordan-bowman-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bowman-Jordan-Alyssa.jpg" alt="Jordan Bowman"><div class="name">Jordan Bowman</div></a>
+<div class="reason">02/21/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/joseph-blankenship-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Blankenship-Joseph-Conner.jpg" alt="Joseph Blankenship"><div class="name">Joseph Blankenship</div></a>
+<div class="reason">02/19/2025 | DUI ALCOHOL 0.08 GR OR MORESPEEDINGFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/morgan-bennett-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bennett-Morgan-Lindsay.jpg" alt="Morgan Bennett"><div class="name">Morgan Bennett</div></a>
+<div class="reason">02/19/2025 | THEFT BY SHOPLIFTINGFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jeffery-bennett-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bennett-Jeffery-Paul-Jr.jpg" alt="Jeffery Bennett"><div class="name">Jeffery Bennett</div></a>
+<div class="reason">02/18/2025 | THEFT BY TAKINGCRIMINAL TRESPASSFUGITIVE FROM JUSTICE FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/caitlin-beard-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Beard-Caitlin-Anne.jpg" alt="Caitlin Beard"><div class="name">Caitlin Beard</div></a>
+<div class="reason">02/20/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tricia-batten/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Batten-Tricia-Anne.jpg" alt="Tricia Batten"><div class="name">Tricia Batten</div></a>
+<div class="reason">02/17/2025 | SIMPLE BATTERY - FAMILY VIOLENCEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/travis-bates-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bates-Travis-Douglas.jpg" alt="Travis Bates"><div class="name">Travis Bates</div></a>
+<div class="reason">02/19/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/samuel-basurto/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Basurto-Samuel-Utrera.jpg" alt="Samuel Basurto"><div class="name">Samuel Basurto</div></a>
+<div class="reason">02/22/2025 | AFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSISDRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/quentin-barnes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Barnes-Quentin.jpg" alt="Quentin Barnes"><div class="name">Quentin Barnes</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDAFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSIS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/crystal-barner-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Barner-Crystal-Deanna.jpg" alt="Crystal Barner"><div class="name">Crystal Barner</div></a>
+<div class="reason">02/22/2025 | ANIMAL RUNNING AT LARGEFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/lameshia-ball-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ball-Lameshia-Tandaja.jpg" alt="Lameshia Ball"><div class="name">Lameshia Ball</div></a>
+<div class="reason">02/21/2025 | NO PROOF OF INSURANCEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR NPROBATION VIOLATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jose-arzate-martinez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Arzate-Martinez-Jose-Feliciano.jpg" alt="Jose Arzate-Martinez"><div class="name">Jose Arzate-Martinez</div></a>
+<div class="reason">02/23/2025 | DRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/robert-andrews-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Andrews-Robert-Jerry.jpg" alt="Robert Andrews"><div class="name">Robert Andrews</div></a>
+<div class="reason">02/23/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDRIVER TO USE DUE CARE, USE OF PHONE OR RADIO DOESN`T VIOLAT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jamel-andrews-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Andrews-Jamel-Keyun.jpg" alt="Jamel Andrews"><div class="name">Jamel Andrews</div></a>
+<div class="reason">02/22/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.VGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/terrel-alls-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Alls-Terrel-Deontae-Sr-1.jpg" alt="Terrel Alls"><div class="name">Terrel Alls</div></a>
+<div class="reason">02/20/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jessica-akmel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Akmel-Jessica-Melanie.jpg" alt="Jessica Akmel"><div class="name">Jessica Akmel</div></a>
+<div class="reason">02/23/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/octavio-acosta-guerra/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Acosta-Guerra-Octavio.jpg" alt="Octavio Acosta-Guerra"><div class="name">Octavio Acosta-Guerra</div></a>
+<div class="reason">02/22/2025 | SIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jeffery-mitchell-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mitchell-Jeffery-Bernard.jpg" alt="Jeffery Mitchell"><div class="name">Jeffery Mitchell</div></a>
+<div class="reason">02/04/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONVGCSA SCH 1/2 NARCOTIC POSSESSIONPOSSESSION AND USE OF DRUG RELATED OBJECTSDRIVING WHILE LICENSE SUSPENDED OR REVOKEDPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/taylar-yanetsko-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Yanetsko-Taylar-Renee-1.jpg" alt="Taylar Yanetsko"><div class="name">Taylar Yanetsko</div></a>
+<div class="reason">02/14/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/john-wolters-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wolters-John-Clark.jpg" alt="John Wolters"><div class="name">John Wolters</div></a>
+<div class="reason">02/14/2025 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)CRUELTY TO CHILDREN - 3RD DEGREEWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERSWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS BY USE OF T</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jaquai-wingfield/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Wingfield-Jaquai-Keashaun.jpg" alt="Jaquai Wingfield"><div class="name">Jaquai Wingfield</div></a>
+<div class="reason">02/10/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jason-windham/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Windham-Jason-Allen.jpg" alt="Jason Windham"><div class="name">Jason Windham</div></a>
+<div class="reason">02/11/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATIONAFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSIS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/lewis-williams-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Lewis-III.jpg" alt="Lewis Williams"><div class="name">Lewis Williams</div></a>
+<div class="reason">02/13/2025 | TAMPERING WITH EVIDENCE- MISDEMEANORFLEEING/ATTEMPTING TO ELUDE POLICE OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/stephanie-white-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/White-Stephanie-Althea.jpg" alt="Stephanie White"><div class="name">Stephanie White</div></a>
+<div class="reason">02/11/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/gary-whitaker-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Whitaker-Gary-Alexander.jpg" alt="Gary Whitaker"><div class="name">Gary Whitaker</div></a>
+<div class="reason">02/15/2025 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERSOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATIONDRIVING WHILE LICENSE SUSPENDED OR REVOKEDFAILURE TO MAINTAIN LANEFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/michael-west-26/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/West-Michael-Alexander-Jr.jpg" alt="Michael West"><div class="name">Michael West</div></a>
+<div class="reason">02/13/2025 | ROBBERY ARMED WITH FIREARM</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/samantha-walker-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Walker-Samantha-Louise.jpg" alt="Samantha Walker"><div class="name">Samantha Walker</div></a>
+<div class="reason">02/14/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNTDRIVING ON A DIVIDED HIGHWAY, RESTRICTED ACCESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jerry-upshaw/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Upshaw-Jerry-Thornton.jpg" alt="Jerry Upshaw"><div class="name">Jerry Upshaw</div></a>
+<div class="reason">02/14/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNTOPERATING VEHICLE WITHOUT REGISTRATION/VALID TAGSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jordan-underwood-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Underwood-Jordan-Cherelle-1.jpg" alt="Jordan Underwood"><div class="name">Jordan Underwood</div></a>
+<div class="reason">02/12/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/braxton-tucker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Tucker-Braxton-Kexavier.jpg" alt="Braxton Tucker"><div class="name">Braxton Tucker</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kevin-thornhill-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thornhill-Kevin-W.jpg" alt="Kevin Thornhill"><div class="name">Kevin Thornhill</div></a>
+<div class="reason">02/13/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANESPEEDINGLICENSE TO BE CARRIED AND EXHIBITED ON DEMANDOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/dakota-thompson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thompson-Dakota-Jasper.jpg" alt="Dakota Thompson"><div class="name">Dakota Thompson</div></a>
+<div class="reason">02/16/2025 | DUI ALCOHOL 0.08 GR OR MORENO HEADLIGHTS / TAILLIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/chelsea-thompson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thompson-Chelsea-Elizabeth.jpg" alt="Chelsea Thompson"><div class="name">Chelsea Thompson</div></a>
+<div class="reason">02/16/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLIMPROPER TURN (SIGNALS REQUIRED)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/brandrais-thomas-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Thomas-Brandrais-Parks.jpg" alt="Brandrais Thomas"><div class="name">Brandrais Thomas</div></a>
+<div class="reason">02/15/2025 | KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR NNO PROOF OF INSURANCEDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jacqueline-teague-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Teague-Jacqueline-Lea.jpg" alt="Jacqueline Teague"><div class="name">Jacqueline Teague</div></a>
+<div class="reason">02/14/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONDRIVING WITHOUT A VALID LICENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/darrell-taylor-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Taylor-Darrell-Shaun.jpg" alt="Darrell Taylor"><div class="name">Darrell Taylor</div></a>
+<div class="reason">02/13/2025 | PROBATION VIOLATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/robert-swank-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Swank-Robert-Lynn-1.jpg" alt="Robert Swank"><div class="name">Robert Swank</div></a>
+<div class="reason">02/10/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/richard-stewart-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stewart-Richard-Lee-Jr.jpg" alt="Richard Stewart"><div class="name">Richard Stewart</div></a>
+<div class="reason">02/14/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/edward-stasiulaitis-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Stasiulaitis-Edward-Anthony-III.jpg" alt="Edward Stasiulaitis"><div class="name">Edward Stasiulaitis</div></a>
+<div class="reason">02/14/2025 | BATTERYDISORDERLY CONDUCTTHEFT BY DECEPTIONTHEFT BY RECEIVING STOLEN PROPERTYBURGLARY - 2ND DEGREEPROBATION VIOLATIONFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/shawn-southerland/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Southerland-Shawn-Ernest.jpg" alt="Shawn Southerland"><div class="name">Shawn Southerland</div></a>
+<div class="reason">02/12/2025 | SPEEDINGRECKLESS DRIVINGSAFETY BELTS ; REQUIRED USAGETOO FAST FOR CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jahmila-sneed/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sneed-Jahmila-Grace.jpg" alt="Jahmila Sneed"><div class="name">Jahmila Sneed</div></a>
+<div class="reason">02/11/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/sydnee-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Sydnee-Tahlor.jpg" alt="Sydnee Smith"><div class="name">Sydnee Smith</div></a>
+<div class="reason">02/10/2025 | DRIVING WHILE UNLICENSEDKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR NSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/megan-smith-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Megan-Ashlee.jpg" alt="Megan Smith"><div class="name">Megan Smith</div></a>
+<div class="reason">02/11/2025 | STALKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jasmine-smith-31/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Jasmine-Nicole.jpg" alt="Jasmine Smith"><div class="name">Jasmine Smith</div></a>
+<div class="reason">02/16/2025 | CRIMINAL TRESPASS WITH DAMAGE TO PROPERTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/dominique-smith-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-Dominique-Trevon.jpg" alt="Dominique Smith"><div class="name">Dominique Smith</div></a>
+<div class="reason">02/15/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONNO TAILLIGHTSDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/david-smith-139/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Smith-David-Eugene.jpg" alt="David Smith"><div class="name">David Smith</div></a>
+<div class="reason">02/10/2025 | NO PROOF OF INSURANCEDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/amy-sides-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Sides-Amy-Lynn.jpg" alt="Amy Sides"><div class="name">Amy Sides</div></a>
+<div class="reason">02/10/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/michael-shultz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Shultz-Michael-Steven.jpg" alt="Michael Shultz"><div class="name">Michael Shultz</div></a>
+<div class="reason">02/11/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jalisa-seabrooks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Seabrooks-Jalisa-Maria.jpg" alt="Jalisa Seabrooks"><div class="name">Jalisa Seabrooks</div></a>
+<div class="reason">02/13/2025 | AGGRAVATED ASSAULTAGGRAVATED ASSAULTAGGRAVATED ASSAULTCRIMINAL DAMAGE TO PROPERTY - 1ST DEGREERECKLESS CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/john-scott-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Scott-John-Lamanuel.jpg" alt="John Scott"><div class="name">John Scott</div></a>
+<div class="reason">02/14/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/terrel-rosser/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Rosser-Terrel-Keon.jpg" alt="Terrel Rosser"><div class="name">Terrel Rosser</div></a>
+<div class="reason">02/11/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDSTOP SIGN VIOLATION (FAILURE TO YIELD)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/austin-riley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Riley-Austin-Carter.jpg" alt="Austin Riley"><div class="name">Austin Riley</div></a>
+<div class="reason">02/11/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kentaevius-render-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Render-Kentaevius-Raishun.jpg" alt="Kentaevius Render"><div class="name">Kentaevius Render</div></a>
+<div class="reason">02/11/2025 | THEFT BY SHOPLIFTINGTHEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/demario-render-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Render-Demario-Dion.jpg" alt="Demario Render"><div class="name">Demario Render</div></a>
+<div class="reason">02/14/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jelani-reid/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Reid-Jelani-Olufemi.jpg" alt="Jelani Reid"><div class="name">Jelani Reid</div></a>
+<div class="reason">02/14/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATIONOBEDIENCE TO REQUIRED TRAFFIC-CONTROL DEVICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jacob-ramos/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ramos-Jacob-Noel.jpg" alt="Jacob Ramos"><div class="name">Jacob Ramos</div></a>
+<div class="reason">02/14/2025 | TRAFFICKING IN COCAINE, ILLEGAL DRUGS, MARIJUANA, OR METHAME</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/paul-ragland-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ragland-Paul-Anthony.jpg" alt="Paul Ragland"><div class="name">Paul Ragland</div></a>
+<div class="reason">02/10/2025 | ENTERING AUTOMOBILE OR OTHER MOTOR VEHICLE WITH INTENT TO CYPOSSESSION AND USE OF DRUG RELATED OBJECTSENTERING AUTO TO COMMIT FELONYPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/donziel-pittman-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pittman-Donziel-Ralphyeal.jpg" alt="Donziel Pittman"><div class="name">Donziel Pittman</div></a>
+<div class="reason">02/11/2025 | PROBATION VIOLATIONCOURT APPEARANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tre-pierre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pierre-Tre-Todd.jpg" alt="Tre Pierre"><div class="name">Tre Pierre</div></a>
+<div class="reason">02/11/2025 | PURCHASE, POSSESS, OR HAVE CONTROL OF ANY CONTROLLED SUBSTV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/christian-pennea-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Pennea-Christian-Tyler.jpg" alt="Christian Pennea"><div class="name">Christian Pennea</div></a>
+<div class="reason">02/13/2025 | ROBBERY ARMED WITH FIREARMVGCSA MARIJUANA MFG/DIST/POSS W INTENT TO DIST</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/ernest-patillo-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Patillo-Ernest-Deonta-III.jpg" alt="Ernest Patillo"><div class="name">Ernest Patillo</div></a>
+<div class="reason">02/12/2025 | MANUFACTURE/DELIVER/DISTRIBUTE OR POSSESS W/INTENT TO DISTRIRECEIPT, POSSESSION OR TRANSPORT OF FIREARM BY CONVICTED FCPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTESDRIVING WHILE LICENSE SUSPENDED OR REVOKEDAFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSISPROBATION VIOLATIONPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/robert-parker-33/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Parker-Robert-Alvie.jpg" alt="Robert Parker"><div class="name">Robert Parker</div></a>
+<div class="reason">02/11/2025 | COURT APPEARANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/lashawn-owens/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Owens-Lashawn-Maurice.jpg" alt="Lashawn Owens"><div class="name">Lashawn Owens</div></a>
+<div class="reason">02/13/2025 | THEFT BY CONVERSIONTHEFT BY CONVERSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/christopher-norton-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Norton-Christopher-Owen.jpg" alt="Christopher Norton"><div class="name">Christopher Norton</div></a>
+<div class="reason">02/12/2025 | THEFT BY TAKING (FROM MOTOR VEHICLE EXCEPT PARTS)FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kaeden-nelson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Nelson-Kaeden-Jeffrey.jpg" alt="Kaeden Nelson"><div class="name">Kaeden Nelson</div></a>
+<div class="reason">02/16/2025 | DISORDERLY CONDUCTCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/heather-mumm/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mumm-Heather-Lynne.jpg" alt="Heather Mumm"><div class="name">Heather Mumm</div></a>
+<div class="reason">02/13/2025 | DUI ALCOHOL 0.08 GR OR MOREFLEEING/ATTEMPTING TO ELUDE POLICE OFFICERFAILURE TO MAINTAIN LANEOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/phillip-moffett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Moffett-Phillip-John-1.jpg" alt="Phillip Moffett"><div class="name">Phillip Moffett</div></a>
+<div class="reason">02/13/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/michael-mitchell-49/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mitchell-Michael-Derrell.jpg" alt="Michael Mitchell"><div class="name">Michael Mitchell</div></a>
+<div class="reason">02/11/2025 | COURT APPEARANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/james-miller-44/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Miller-James-Arthur.jpg" alt="James Miller"><div class="name">James Miller</div></a>
+<div class="reason">02/14/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION AND USE OF DRUG RELATED OBJECTSPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/christopher-miller-46/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Miller-Christopher-Lamar.jpg" alt="Christopher Miller"><div class="name">Christopher Miller</div></a>
+<div class="reason">02/11/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKEDFOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/reynaldo-mendez-vazquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mendez-Vazquez-Reynaldo.jpg" alt="Reynaldo Mendez-Vazquez"><div class="name">Reynaldo Mendez-Vazquez</div></a>
+<div class="reason">02/13/2025 | DRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tyrell-mcguire/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McGuire-Tyrell-Jaray-Oneal.jpg" alt="Tyrell McGuire"><div class="name">Tyrell McGuire</div></a>
+<div class="reason">02/11/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONMARIJUANA-POSSESS LESS THAN 1 OZ.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/cody-mcglone-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McGlone-Cody-Marcio.jpg" alt="Cody McGlone"><div class="name">Cody McGlone</div></a>
+<div class="reason">02/12/2025 | FAILURE TO APPEARNO PROOF OF INSURANCESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kebroshia-mcafee-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McAfee-Kebroshia-Kejuan.jpg" alt="Kebroshia McAfee"><div class="name">Kebroshia McAfee</div></a>
+<div class="reason">02/14/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/alextron-mcafee-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/McAfee-Alextron-Arnes.jpg" alt="Alextron McAfee"><div class="name">Alextron McAfee</div></a>
+<div class="reason">02/14/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/melanny-martinez-orozco-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Martinez-Orozco-Melanny.jpg" alt="Melanny Martinez Orozco"><div class="name">Melanny Martinez Orozco</div></a>
+<div class="reason">02/11/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/lovoshai-mabien/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mabien-Lovoshai-Renee-Champhagn.jpg" alt="Lovoshai Mabien"><div class="name">Lovoshai Mabien</div></a>
+<div class="reason">02/13/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/joshua-loudermilk/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Loudermilk-Joshua-Adam.jpg" alt="Joshua Loudermilk"><div class="name">Joshua Loudermilk</div></a>
+<div class="reason">02/11/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/reginald-lloyd-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lloyd-Reginald-Andrea-1.jpg" alt="Reginald Lloyd"><div class="name">Reginald Lloyd</div></a>
+<div class="reason">02/10/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tharius-leonard-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Leonard-Tharius-Arnez.jpg" alt="Tharius Leonard"><div class="name">Tharius Leonard</div></a>
+<div class="reason">02/10/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/ayonna-leonard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Leonard-Ayonna-Tiarra.jpg" alt="Ayonna Leonard"><div class="name">Ayonna Leonard</div></a>
+<div class="reason">02/13/2025 | NO BRAKE LIGHTS AND/OR TURN SIGNALSAFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSISRECKLESS DRIVINGSPEEDINGTOO FAST FOR CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/david-lanzillotti/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lanzillotti-David-Gerald.jpg" alt="David Lanzillotti"><div class="name">David Lanzillotti</div></a>
+<div class="reason">02/13/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/hillary-langston-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Langston-Hillary-Wharton.jpg" alt="Hillary Langston"><div class="name">Hillary Langston</div></a>
+<div class="reason">02/11/2025 | NO PROOF OF INSURANCEDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/alvin-knight-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Knight-Alvin-Larez.jpg" alt="Alvin Knight"><div class="name">Alvin Knight</div></a>
+<div class="reason">02/10/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/antoinette-keith-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Keith-Antoinette-Dukes.jpg" alt="Antoinette Keith"><div class="name">Antoinette Keith</div></a>
+<div class="reason">02/14/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANEOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/evander-johnson-maldonado-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Maldonado-Evander-Jeremiah.jpg" alt="Evander Johnson-Maldonado"><div class="name">Evander Johnson-Maldonado</div></a>
+<div class="reason">02/11/2025 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERSFAILURE TO REGISTER AS SEX OFFENDER/FAILURE TO COMPLY WITH NPROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/deontee-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Deontee-Marquis.jpg" alt="Deontee Johnson"><div class="name">Deontee Johnson</div></a>
+<div class="reason">02/14/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONMARIJUANA-POSSESS LESS THAN 1 OZ.SAFETY BELTS ; REQUIRED USAGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/randy-jimmerson-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jimmerson-Randy-Kevin.jpg" alt="Randy Jimmerson"><div class="name">Randy Jimmerson</div></a>
+<div class="reason">02/11/2025 | VGCSA METHAMPHETAMINE TRAFFICKINGVGCSA MARIJUANA POSSESSIONOBSTRUCTION OF OFFICERSCOURT APPEARANCEFAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/salomon-jarquin-avendano/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jarquin-Avendano-Salomon.jpg" alt="Salomon Jarquin-Avendano"><div class="name">Salomon Jarquin-Avendano</div></a>
+<div class="reason">02/11/2025 | DRIVING WHILE UNLICENSEDFOLLOWING TOO CLOSELY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/zariayah-howard/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Howard-Zariayah-Tanae.jpg" alt="Zariayah Howard"><div class="name">Zariayah Howard</div></a>
+<div class="reason">02/14/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jaden-howard-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Howard-Jaden-Mansa.jpg" alt="Jaden Howard"><div class="name">Jaden Howard</div></a>
+<div class="reason">02/10/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tereco-houston-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Houston-Tereco-Martez.jpg" alt="Tereco Houston"><div class="name">Tereco Houston</div></a>
+<div class="reason">02/13/2025 | BATTERY SIMPLECHILD CRUELTY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/elizabeth-hayes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hayes-Elizabeth-Jean.jpg" alt="Elizabeth Hayes"><div class="name">Elizabeth Hayes</div></a>
+<div class="reason">02/15/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/justin-harris-52/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harris-Justin-Nakile-Valarry-1.jpg" alt="Justin Harris"><div class="name">Justin Harris</div></a>
+<div class="reason">02/13/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/justin-harper-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harper-Justin-Corey-1.jpg" alt="Justin Harper"><div class="name">Justin Harper</div></a>
+<div class="reason">02/14/2025 | DUI/DRUG COURT SENTENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/martin-gates/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gates-Martin-Kenny.jpg" alt="Martin Gates"><div class="name">Martin Gates</div></a>
+<div class="reason">02/12/2025 | COURT APPEARANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kerri-harden/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Harden-Kerri-Lee.jpg" alt="Kerri Harden"><div class="name">Kerri Harden</div></a>
+<div class="reason">02/10/2025 | CRIMINAL TRESPASSWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kelli-griffith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Griffith-Kelli-Jean.jpg" alt="Kelli Griffith"><div class="name">Kelli Griffith</div></a>
+<div class="reason">02/16/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/max-griffies-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Griffies-Max-Edwin-III.jpg" alt="Max Griffies"><div class="name">Max Griffies</div></a>
+<div class="reason">02/14/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/sequoia-george/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/George-Sequoia-Alexis.jpg" alt="Sequoia George"><div class="name">Sequoia George</div></a>
+<div class="reason">02/13/2025 | OPERATING VEHICLE WITHOUT REGISTRATION/VALID TAGDRIVING WHILE LICENSE SUSPENDED OR REVOKEDAFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSIS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/joseph-garcia-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Garcia-Joseph-Vincent.jpg" alt="Joseph Garcia"><div class="name">Joseph Garcia</div></a>
+<div class="reason">02/10/2025 | OPERATING VEHICLE WITHOUT REGISTRATION/VALID TAGDRIVING WHILE LICENSE SUSPENDED OR REVOKEDSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/nestor-galan-robles/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Galan-Robles-Nestor.jpg" alt="Nestor Galan Robles"><div class="name">Nestor Galan Robles</div></a>
+<div class="reason">02/15/2025 | OPERATING VEHICLE WITHOUT REGISTRATION/VALID TAGDRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/antrevius-fuller/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fuller-Antrevius-Shaquile.jpg" alt="Antrevius Fuller"><div class="name">Antrevius Fuller</div></a>
+<div class="reason">02/16/2025 | DUI ALCOHOL 0.08 GR OR MOREFAILURE TO MAINTAIN LANEDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/carlos-fountain/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Fountain-Carlos-Larone.jpg" alt="Carlos Fountain"><div class="name">Carlos Fountain</div></a>
+<div class="reason">02/10/2025 | ACQUIRING LICENSE PLATE FOR PURPOSE OF CONCEALING IDENTIFICETRAFFICKING IN COCAINE, ILLEGAL DRUGS, MARIJUANA, OR METHAMEMANUFACTURE/DELIVER/DISTRIBUTE OR POSSESS W/INTENT TO DISTRIDISPLAY OF LICENSE PLATES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/landon-foster-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Foster-Landon-Scott.jpg" alt="Landon Foster"><div class="name">Landon Foster</div></a>
+<div class="reason">02/14/2025 | TRAFFICKING IN COCAINE, ILLEGAL DRUGS, MARIJUANA, OR METHAMEMARIJUANA-POSSESS LESS THAN 1 OZ.OPERATING VEHICLE WITHOUT REGISTRATION/VALID TAGDEFECTIVE EQUIPMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/michael-ferguson-25/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ferguson-Michael-Brandon.jpg" alt="Michael Ferguson"><div class="name">Michael Ferguson</div></a>
+<div class="reason">02/14/2025 | CITY VIOLATION OF PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/keith-ellison-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ellison-Keith-Renard-1.jpg" alt="Keith Ellison"><div class="name">Keith Ellison</div></a>
+<div class="reason">02/11/2025 | CITY VIOLATION OF PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/fernando-ellis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ellis-Fernando-Walton.jpg" alt="Fernando Ellis"><div class="name">Fernando Ellis</div></a>
+<div class="reason">02/15/2025 | SIMPLE ASSAULTSIMPLE BATTERYWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERSDRUGS NOT IN ORIGINAL CONTAINER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/samantha-elder/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Elder-Samantha-Nicole.jpg" alt="Samantha Elder"><div class="name">Samantha Elder</div></a>
+<div class="reason">02/14/2025 | ALTERATION OF LICENSE PLATESSPEEDINGDRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/trenton-duncan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Duncan-Trenton-Boone.jpg" alt="Trenton Duncan"><div class="name">Trenton Duncan</div></a>
+<div class="reason">02/14/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/maliya-doss-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Doss-Maliya-Zykeria-Capri.jpg" alt="Maliya Doss"><div class="name">Maliya Doss</div></a>
+<div class="reason">02/14/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/tonia-diggs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Diggs-Tonia-Glardeya.jpg" alt="Tonia Diggs"><div class="name">Tonia Diggs</div></a>
+<div class="reason">02/10/2025 | REMOVING/AFFIXING LICENSE PLATE TO CONCEAL VEH IDMANUFACTURE/DELIVER/DISTRIBUTE OR POSSESS W/INTENT TO DISTRIMARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF FIREARM OR KNIFE DURING COMMISSION OF OR ATTES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/cynthia-deisher-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Deisher-Cynthia-Dianne.jpg" alt="Cynthia Deisher"><div class="name">Cynthia Deisher</div></a>
+<div class="reason">02/14/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONPOSSESSION AND USE OF DRUG RELATED OBJECDUI DRUGS-LESS SAFEKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPEFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/demarcus-darden-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Darden-Demarcus-Lashaun.jpg" alt="Demarcus Darden"><div class="name">Demarcus Darden</div></a>
+<div class="reason">02/13/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/abby-dabbs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dabbs-Abby-Joy-Taylor.jpg" alt="Abby Dabbs"><div class="name">Abby Dabbs</div></a>
+<div class="reason">02/14/2025 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/zaurionne-crowder/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Crowder-Zaurionne-Horace.jpg" alt="Zaurionne Crowder"><div class="name">Zaurionne Crowder</div></a>
+<div class="reason">02/16/2025 | MARIJUANA-POSSESS LESS THAN 1 OZ.DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/marco-coronado-villa-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Coronado-Villa-Marco-A.jpg" alt="Marco Coronado Villa"><div class="name">Marco Coronado Villa</div></a>
+<div class="reason">02/14/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/roylondo-cook-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cook-Roylondo-Jamorio-1.jpg" alt="Roylondo Cook"><div class="name">Roylondo Cook</div></a>
+<div class="reason">02/15/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jose-contreras-alcantara/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Contreras-Alcantara-Jose.jpg" alt="Jose Contreras Alcantara"><div class="name">Jose Contreras Alcantara</div></a>
+<div class="reason">02/15/2025 | DRIVING WHILE UNLICENSED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/alejandro-colton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Colton-Alejandro-Sr.jpg" alt="Alejandro Colton"><div class="name">Alejandro Colton</div></a>
+<div class="reason">02/11/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/corey-coleman-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Coleman-Corey-ShaHeed.jpg" alt="Corey Coleman"><div class="name">Corey Coleman</div></a>
+<div class="reason">02/11/2025 | COURT APPEARANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/olivia-coggin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Coggin-Olivia-Faith.jpg" alt="Olivia Coggin"><div class="name">Olivia Coggin</div></a>
+<div class="reason">02/10/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSIONPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/byron-cervantes-morales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Cervantes-Morales-Byron.jpg" alt="Byron Cervantes Morales"><div class="name">Byron Cervantes Morales</div></a>
+<div class="reason">02/15/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLSPEEDINGOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/amilcar-carrillo-matias/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Carrillo-Matias-Amilcar-Estuardo.jpg" alt="Amilcar Carrillo Matias"><div class="name">Amilcar Carrillo Matias</div></a>
+<div class="reason">02/10/2025 | DUI COMBINED INFLUENCE-LESS SAFEFOLLOWING TOO CLOSELYDRIVING WHILE UNLICENSEDOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/edgar-carlisle/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Carlisle-Edgar-Bruce.jpg" alt="Edgar Carlisle"><div class="name">Edgar Carlisle</div></a>
+<div class="reason">02/13/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/hylton-campbell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Campbell-Hylton-Stephenson.jpg" alt="Hylton Campbell"><div class="name">Hylton Campbell</div></a>
+<div class="reason">02/10/2025 | VGCSA SCH 1/2 NARCOTIC POSSESSION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/michael-callahan-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Callahan-Michael-Wylie.jpg" alt="Michael Callahan"><div class="name">Michael Callahan</div></a>
+<div class="reason">02/16/2025 | SIMPLE ASSAULTPURCHASE/POSSESS/MANUFACT/DIST/SALE CONTPOSSESSION AND USE OF DRUG RELATED OBJECTSCRIMINAL TRESPASSRECKLESS CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/nicholas-butler-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Butler-Nicholas-Trey.jpg" alt="Nicholas Butler"><div class="name">Nicholas Butler</div></a>
+<div class="reason">02/15/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/otis-bullard-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bullard-Otis-Patrick.jpg" alt="Otis Bullard"><div class="name">Otis Bullard</div></a>
+<div class="reason">02/11/2025 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE)SIMPLE ASSAULT - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/brandon-bugg/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bugg-Brandon-Pernell.jpg" alt="Brandon Bugg"><div class="name">Brandon Bugg</div></a>
+<div class="reason">02/10/2025 | CONTEMPT OF SUPERIOR COURT FOR FINGERPRINTABLE CHARGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kevon-brown-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Kevon-Estabion.jpg" alt="Kevon Brown"><div class="name">Kevon Brown</div></a>
+<div class="reason">02/11/2025 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/kariem-brown-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Brown-Kariem-Tezelle.jpg" alt="Kariem Brown"><div class="name">Kariem Brown</div></a>
+<div class="reason">02/10/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/eric-bowerman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bowerman-Eric-Jason.jpg" alt="Eric Bowerman"><div class="name">Eric Bowerman</div></a>
+<div class="reason">02/14/2025 | PURCHASE/POSSESS/MANUFACT/DIST/SALE CONT SUBST-MULTIPLE CNTPOSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/nakia-blackmon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Blackmon-Nakia-Jermaine.jpg" alt="Nakia Blackmon"><div class="name">Nakia Blackmon</div></a>
+<div class="reason">02/14/2025 | THEFT BY SHOPLIFTING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/robert-bishop-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bishop-Robert-Gene.jpg" alt="Robert Bishop"><div class="name">Robert Bishop</div></a>
+<div class="reason">02/15/2025 | SIMPLE BATTERY - FAMILY VIOLENCECRUELTY TO CHILDREN - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/jessica-bass/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bass-Jessica-Jane.jpg" alt="Jessica Bass"><div class="name">Jessica Bass</div></a>
+<div class="reason">02/16/2025 | DUI ALCOHOL 0.08 GR OR MOREDRIVER TO USE DUE CARE, USE OF PHONE OR RADIO DOESN`T VIOLATOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATIONOPEN CONTAINER IN PASSENGER AREA OF VEHICLE IN OPERATIONLICENSE TO BE CARRIED AND EXHIBITED ON DEMANDFAILURE TO MAINTAIN LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/coweta/james-barnes-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Barnes-James-Nicholas-Jr.jpg" alt="James Barnes"><div class="name">James Barnes</div></a>
+<div class="reason">02/15/2025 | SPEEDINGRECKLESS DRIVING</div>
+</div>
+</div><div class="pagination"><a href="coweta6.html">Next Page</a></div></body></html>

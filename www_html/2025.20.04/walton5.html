@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tamia-blackshire/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BLACKSHIRE-TAMIA-S.jpg" alt="Tamia Blackshire"><div class="name">Tamia Blackshire</div></a>
+<div class="reason">12/20/2024 | False Imprisonment</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tyrell-bazzell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BAZZELL-TYRELL-T.jpg" alt="Tyrell Bazzell"><div class="name">Tyrell Bazzell</div></a>
+<div class="reason">12/17/2024 | DUI of DrugsDriving W/Suspended Dr LicenseDriving w/Suspen. RegistrationImpeding Flow of TrafficNo Proof of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/john-barnes-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BARNES-JOHN-L.jpg" alt="John Barnes"><div class="name">John Barnes</div></a>
+<div class="reason">12/21/2024 | DUI of AlcoholFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/khari-andrews/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ANDREWS-KHARI-I.jpg" alt="Khari Andrews"><div class="name">Khari Andrews</div></a>
+<div class="reason">12/23/2024 | Poss, Manu of Cont SubstancePoss, Manu of Cont SubstancePos of firearm/knife comm of c</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/daniel-allman-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ALLMAN-DANIEL-J.jpg" alt="Daniel Allman"><div class="name">Daniel Allman</div></a>
+<div class="reason">12/19/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/stephanie-allen-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ALLEN-STEPHANIE-K.jpg" alt="Stephanie Allen"><div class="name">Stephanie Allen</div></a>
+<div class="reason">12/19/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/alfredia-wright/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WRIGHT-ALFREDIA-H.jpg" alt="Alfredia Wright"><div class="name">Alfredia Wright</div></a>
+<div class="reason">12/10/2024 | Hindering Apprehension</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/steven-williams-51/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-STEVEN-A.jpg" alt="Steven Williams"><div class="name">Steven Williams</div></a>
+<div class="reason">12/11/2024 | Marijuana Possession less 1 ozControlled Subtances Sched IMarijuana Possession less 1 oz</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dustyn-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-DUSTYN-J.jpg" alt="Dustyn Williams"><div class="name">Dustyn Williams</div></a>
+<div class="reason">12/11/2024 | Aggravated Stalking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/deairious-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-DEAIRIOUS-D.jpg" alt="Deairious Williams"><div class="name">Deairious Williams</div></a>
+<div class="reason">12/12/2024 | Poss, Manu of Cont Substance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/caleb-welch-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WELCH-CALEB-W.jpg" alt="Caleb Welch"><div class="name">Caleb Welch</div></a>
+<div class="reason">12/13/2024 | Public DrunknessTele.haras/disorderly/fig.wds.Obstruction of OfficerTerroristic Threats and ActsCriminal Interference Govt. Pr</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tymani-watkins-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WATKINS-TYMANI-T.jpg" alt="Tymani Watkins"><div class="name">Tymani Watkins</div></a>
+<div class="reason">12/11/2024 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/madison-walker-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WALKER-MADISON-E.jpg" alt="Madison Walker"><div class="name">Madison Walker</div></a>
+<div class="reason">12/14/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jon-veamoi-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VEAMOI-JON-H.jpg" alt="Jon Veamoi"><div class="name">Jon Veamoi</div></a>
+<div class="reason">12/09/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/angel-vaughan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VAUGHAN-ANGEL-N.jpg" alt="Angel Vaughan"><div class="name">Angel Vaughan</div></a>
+<div class="reason">12/11/2024 | Aggravated Stalking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/sonya-swift-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SWIFT-SONYA-M.jpg" alt="Sonya Swift"><div class="name">Sonya Swift</div></a>
+<div class="reason">12/14/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/steven-strozier-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/STROZIER-STEVEN-B.jpg" alt="Steven Strozier"><div class="name">Steven Strozier</div></a>
+<div class="reason">12/13/2024 | Burglary</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kerri-springer-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SPRINGER-KERRI-L.jpg" alt="Kerri Springer"><div class="name">Kerri Springer</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/briyana-smith-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SMITH-BRIYANA-M.jpg" alt="Briyana Smith"><div class="name">Briyana Smith</div></a>
+<div class="reason">12/11/2024 | Tele.haras/disorderly/fig.wds.Child Restraint ViolationDrug Related ObjectsDriving W/Suspended Dr LicenseManufacture Sale of False IdSpeedingDriving W/Suspended Dr LicensePoss, Manu of Cont SubstanceNo Proof of InsuranceSpeedingObstruction of OfficerFalse Statements and WritingsObstruction of OfficerSeat Belt ViolationObstruction of OfficerGiving False Name to OfficerSpeedingGiving False Name to Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/susan-simmons/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SIMMONS-SUSAN-A.jpg" alt="Susan Simmons"><div class="name">Susan Simmons</div></a>
+<div class="reason">12/10/2024 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/darius-seals/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SEALS-DARIUS-J.jpg" alt="Darius Seals"><div class="name">Darius Seals</div></a>
+<div class="reason">12/11/2024 | Driving W/Suspended Dr LicensePoss, Manu of Cont SubstanceParole Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/helen-rollins-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ROLLINS-HELEN-P.jpg" alt="Helen Rollins"><div class="name">Helen Rollins</div></a>
+<div class="reason">12/10/2024 | FTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/bryant-bruno-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BRUNO-BRYANT-O.jpg" alt="Bryant Bruno"><div class="name">Bryant Bruno</div></a>
+<div class="reason">12/16/2024 | Seat Belt ViolationDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dorian-brown-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BROWN-DORIAN-J.jpg" alt="Dorian Brown"><div class="name">Dorian Brown</div></a>
+<div class="reason">12/16/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/damian-brannon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BRANNON-DAMIAN-B.jpg" alt="Damian Brannon"><div class="name">Damian Brannon</div></a>
+<div class="reason">12/19/2024 | Simple Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tamia-blackshire/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BLACKSHIRE-TAMIA-S.jpg" alt="Tamia Blackshire"><div class="name">Tamia Blackshire</div></a>
+<div class="reason">12/20/2024 | False Imprisonment</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tyrell-bazzell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BAZZELL-TYRELL-T.jpg" alt="Tyrell Bazzell"><div class="name">Tyrell Bazzell</div></a>
+<div class="reason">12/17/2024 | DUI of DrugsDriving W/Suspended Dr LicenseDriving w/Suspen. RegistrationImpeding Flow of TrafficNo Proof of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/john-barnes-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/BARNES-JOHN-L.jpg" alt="John Barnes"><div class="name">John Barnes</div></a>
+<div class="reason">12/21/2024 | DUI of AlcoholFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/khari-andrews/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ANDREWS-KHARI-I.jpg" alt="Khari Andrews"><div class="name">Khari Andrews</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/daniel-allman-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ALLMAN-DANIEL-J.jpg" alt="Daniel Allman"><div class="name">Daniel Allman</div></a>
+<div class="reason">12/19/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/stephanie-allen-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/ALLEN-STEPHANIE-K.jpg" alt="Stephanie Allen"><div class="name">Stephanie Allen</div></a>
+<div class="reason">12/19/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/alfredia-wright/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WRIGHT-ALFREDIA-H.jpg" alt="Alfredia Wright"><div class="name">Alfredia Wright</div></a>
+<div class="reason">12/10/2024 | Hindering Apprehension</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/steven-williams-51/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-STEVEN-A.jpg" alt="Steven Williams"><div class="name">Steven Williams</div></a>
+<div class="reason">12/11/2024 | Marijuana Possession less 1 ozControlled Subtances Sched IMarijuana Possession less 1 oz</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dustyn-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-DUSTYN-J.jpg" alt="Dustyn Williams"><div class="name">Dustyn Williams</div></a>
+<div class="reason">12/11/2024 | Aggravated Stalking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dreyland-maddox/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MADDOX-DREYLAND.jpg" alt="Dreyland Maddox"><div class="name">Dreyland Maddox</div></a>
+<div class="reason">12/13/2024 | Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jeffery-long-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LONG-JEFFERY-S.jpg" alt="Jeffery Long"><div class="name">Jeffery Long</div></a>
+<div class="reason">12/12/2024 | FTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jordan-lipscomb-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LIPSCOMB-JORDAN-T.jpg" alt="Jordan Lipscomb"><div class="name">Jordan Lipscomb</div></a>
+<div class="reason">12/12/2024 | Probation ViolationProbation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dominique-lewis-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LEWIS-DOMINIQUE-A.jpg" alt="Dominique Lewis"><div class="name">Dominique Lewis</div></a>
+<div class="reason">12/12/2024 | Theft by Conversion</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/john-lawson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LAWSON-JOHN-W-JR.jpg" alt="John Lawson"><div class="name">John Lawson</div></a>
+<div class="reason">12/15/2024 | Entering AutoObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tijen-kyles-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/KYLES-TIJEN-D.jpg" alt="Tijen Kyles"><div class="name">Tijen Kyles</div></a>
+<div class="reason">12/15/2024 | DUI of AlcoholImproper Backing</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tristan-knox-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/KNOX-TRISTAN-P.jpg" alt="Tristan Knox"><div class="name">Tristan Knox</div></a>
+<div class="reason">12/09/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/bendrick-kelly-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/KELLY-BENDRICK-N.jpg" alt="Bendrick Kelly"><div class="name">Bendrick Kelly</div></a>
+<div class="reason">12/11/2024 | Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/alfunson-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JOHNSON-ALFUNSON-J.jpg" alt="Alfunson Johnson"><div class="name">Alfunson Johnson</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/randy-james-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JAMES-RANDY-G.jpg" alt="Randy James"><div class="name">Randy James</div></a>
+<div class="reason">12/13/2024 | Hold For Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/barry-irvin-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/IRVIN-BARRY-L-JR.jpg" alt="Barry Irvin"><div class="name">Barry Irvin</div></a>
+<div class="reason">12/14/2024 | Contempt Of Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/briona-henley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HENLEY-BRIONA.jpg" alt="Briona Henley"><div class="name">Briona Henley</div></a>
+<div class="reason">12/15/2024 | Theft by Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jody-clay-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CLAY-JODY-D.jpg" alt="Jody Clay"><div class="name">Jody Clay</div></a>
+<div class="reason">12/12/2024 | Hold For Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/darian-graziosi-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GRAZIOSI-DARIAN-A.jpg" alt="Darian Graziosi"><div class="name">Darian Graziosi</div></a>
+<div class="reason">12/10/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/john-gray-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GRAY-JOHN-K.jpg" alt="John Gray"><div class="name">John Gray</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/uzziah-george/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GEORGE-UZZIAH-R.jpg" alt="Uzziah George"><div class="name">Uzziah George</div></a>
+<div class="reason">12/11/2024 | FTA - Failure to AppearFTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/taisean-george/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GEORGE-TAISEAN-D.jpg" alt="Taisean George"><div class="name">Taisean George</div></a>
+<div class="reason">12/12/2024 | Crossing of guard lines with weapons, intoxicants, or drugs without consent of warden or superintendentLOITERING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tayjohn-foreman-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/FOREMAN-TAYJOHN-B.jpg" alt="Tayjohn Foreman"><div class="name">Tayjohn Foreman</div></a>
+<div class="reason">12/13/2024 | Failure to Yield/Turning LeftDriving W/Suspended Dr LicenseFail to Stop @ Acc W/Damages</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jerri-martin-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MARTIN-JERRI-L.jpg" alt="Jerri Martin"><div class="name">Jerri Martin</div></a>
+<div class="reason">12/10/2024 | Serious Injury/Vehicle (DUI)DUI of AlcoholOpen ContainerFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dreyland-maddox/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MADDOX-DREYLAND.jpg" alt="Dreyland Maddox"><div class="name">Dreyland Maddox</div></a>
+<div class="reason">12/13/2024 | Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jeffery-long-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LONG-JEFFERY-S.jpg" alt="Jeffery Long"><div class="name">Jeffery Long</div></a>
+<div class="reason">12/12/2024 | FTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jordan-lipscomb-17/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LIPSCOMB-JORDAN-T.jpg" alt="Jordan Lipscomb"><div class="name">Jordan Lipscomb</div></a>
+<div class="reason">12/12/2024 | Probation ViolationProbation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dominique-lewis-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LEWIS-DOMINIQUE-A.jpg" alt="Dominique Lewis"><div class="name">Dominique Lewis</div></a>
+<div class="reason">12/12/2024 | Theft by Conversion</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/john-lawson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LAWSON-JOHN-W-JR.jpg" alt="John Lawson"><div class="name">John Lawson</div></a>
+<div class="reason">12/15/2024 | Entering AutoObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/reza-cook-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COOK-REZA-B.jpg" alt="Reza Cook"><div class="name">Reza Cook</div></a>
+<div class="reason">12/10/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-casper-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CASPER-ANTHONY-R.jpg" alt="Anthony Casper"><div class="name">Anthony Casper</div></a>
+<div class="reason">12/14/2024 | Grand Jury True Bill</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/alex-brown-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-ALEX-D.jpg" alt="Alex Brown"><div class="name">Alex Brown</div></a>
+<div class="reason">12/15/2024 | Probation ViolationGiving False Name to Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tara-black-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BLACK-TARA-M.jpg" alt="Tara Black"><div class="name">Tara Black</div></a>
+<div class="reason">12/15/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/stephanie-black-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BLACK-STEPHANIE-J.jpg" alt="Stephanie Black"><div class="name">Stephanie Black</div></a>
+<div class="reason">12/09/2024 | FTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/pamela-belcher-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BELCHER-PAMELA-M.jpg" alt="Pamela Belcher"><div class="name">Pamela Belcher</div></a>
+<div class="reason">12/14/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jaquez-baisden-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BAISDEN-JAQUEZ-B.jpg" alt="Jaquez Baisden"><div class="name">Jaquez Baisden</div></a>
+<div class="reason">12/10/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/arianna-andino-castillo-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ANDINO-CASTILLO-ARIANNA-M.jpg" alt="Arianna Andino-Castillo"><div class="name">Arianna Andino-Castillo</div></a>
+<div class="reason">12/10/2024 | Sentenced to Serve Time</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/marvin-alomia-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ALOMIA-MARVIN-J.jpg" alt="Marvin Alomia"><div class="name">Marvin Alomia</div></a>
+<div class="reason">12/11/2024 | Sentenced to Serve Time</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/nirekya-lett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LETT-NIREKYA-A.jpg" alt="Nirekya Lett"><div class="name">Nirekya Lett</div></a>
+<div class="reason">11/28/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/johnny-giles-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GILES-JOHNNY-P-II-2.jpg" alt="Johnny Giles"><div class="name">Johnny Giles</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/keyshawn-bethea/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BETHEA-KEYSHAWN-J.jpg" alt="Keyshawn Bethea"><div class="name">Keyshawn Bethea</div></a>
+<div class="reason">11/01/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/christy-white-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WHITE-CHRISTY-L-1.jpg" alt="Christy White"><div class="name">Christy White</div></a>
+<div class="reason">10/25/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/william-carpenter-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CARPENTER-WILLIAM-C-1.jpg" alt="William Carpenter"><div class="name">William Carpenter</div></a>
+<div class="reason">10/25/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/john-smith-88/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/SMITH-JOHN-M.jpg" alt="John Smith"><div class="name">John Smith</div></a>
+<div class="reason">10/18/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/toumua-lor-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/LOR-TOUMUA.jpg" alt="Toumua Lor"><div class="name">Toumua Lor</div></a>
+<div class="reason">10/17/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/david-dylong-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DYLONG-DAVID-B.jpg" alt="David Dylong"><div class="name">David Dylong</div></a>
+<div class="reason">10/11/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/lisa-dingler-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DINGLER-LISA-R.jpg" alt="Lisa Dingler"><div class="name">Lisa Dingler</div></a>
+<div class="reason">10/11/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/holly-wread/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WREAD-HOLLY-A.jpg" alt="Holly Wread"><div class="name">Holly Wread</div></a>
+<div class="reason">12/08/2024 | DUI of AlcoholNo Headlight</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dennis-wonnum/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WONNUM-DENNIS-O.jpg" alt="Dennis Wonnum"><div class="name">Dennis Wonnum</div></a>
+<div class="reason">12/04/2024 | Criminal TrespassTheft by Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/allyson-wittke-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WITTKE-ALLYSON-B.jpg" alt="Allyson Wittke"><div class="name">Allyson Wittke</div></a>
+<div class="reason">12/04/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jaden-williams-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-JADEN-K.jpg" alt="Jaden Williams"><div class="name">Jaden Williams</div></a>
+<div class="reason">12/05/2024 | Probation ViolationObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-williams-149/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-ANTHONY-J-1.jpg" alt="Anthony Williams"><div class="name">Anthony Williams</div></a>
+<div class="reason">12/08/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/renee-waters-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WATERS-RENEE-L.jpg" alt="Renee Waters"><div class="name">Renee Waters</div></a>
+<div class="reason">12/02/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/michael-defranks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DEFRANKS-MICHAEL-S.jpg" alt="Michael Defranks"><div class="name">Michael Defranks</div></a>
+<div class="reason">12/15/2024 | DUI more than .08 (after 3 hrs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/reza-cook-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COOK-REZA-B.jpg" alt="Reza Cook"><div class="name">Reza Cook</div></a>
+<div class="reason">12/10/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-casper-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CASPER-ANTHONY-R.jpg" alt="Anthony Casper"><div class="name">Anthony Casper</div></a>
+<div class="reason">12/14/2024 | Grand Jury True Bill</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/alex-brown-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-ALEX-D.jpg" alt="Alex Brown"><div class="name">Alex Brown</div></a>
+<div class="reason">12/15/2024 | Probation ViolationGiving False Name to Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tara-black-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BLACK-TARA-M.jpg" alt="Tara Black"><div class="name">Tara Black</div></a>
+<div class="reason">12/15/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/stephanie-black-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BLACK-STEPHANIE-J.jpg" alt="Stephanie Black"><div class="name">Stephanie Black</div></a>
+<div class="reason">12/09/2024 | FTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/twannya-thomas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/THOMAS-TWANNYA-D.jpg" alt="Twannya Thomas"><div class="name">Twannya Thomas</div></a>
+<div class="reason">12/03/2024 | Driving w/Suspen. RegistrationImproper Use/Turning Sig/LightFTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/ronald-thomas-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/THOMAS-RONALD-J.jpg" alt="Ronald Thomas"><div class="name">Ronald Thomas</div></a>
+<div class="reason">12/07/2024 | Poss, Manu of Cont Substance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kennisha-swinney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SWINNEY-KENNISHA-M.jpg" alt="Kennisha Swinney"><div class="name">Kennisha Swinney</div></a>
+<div class="reason">12/02/2024 | Simple Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kristi-stinnett-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/STINNETT-KRISTI-L.jpg" alt="Kristi Stinnett"><div class="name">Kristi Stinnett</div></a>
+<div class="reason">12/06/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tyree-saadiq-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/SAADIQ-TYREE-I.jpg" alt="Tyree Saadiq"><div class="name">Tyree Saadiq</div></a>
+<div class="reason">12/05/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/william-rutledge-21/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RUTLEDGE-WILLIAM-L-III.jpg" alt="William Rutledge"><div class="name">William Rutledge</div></a>
+<div class="reason">12/06/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/mitchell-russell-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RUSSELL-MITCHELL-O.jpg" alt="Mitchell Russell"><div class="name">Mitchell Russell</div></a>
+<div class="reason">12/08/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/john-rowell-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ROWELL-JOHN-P.jpg" alt="John Rowell"><div class="name">John Rowell</div></a>
+<div class="reason">12/05/2024 | Simple Assault</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/rebecca-rowe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ROWE-REBECCA-J.jpg" alt="Rebecca Rowe"><div class="name">Rebecca Rowe</div></a>
+<div class="reason">12/06/2024 | Cruelty to ChildrenReckless Conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/devin-robinson-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ROBINSON-DEVIN-L.jpg" alt="Devin Robinson"><div class="name">Devin Robinson</div></a>
+<div class="reason">12/05/2024 | Hold For Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/brittnei-rivera-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RIVERA-BRITTNEI-T.jpg" alt="Brittnei Rivera"><div class="name">Brittnei Rivera</div></a>
+<div class="reason">12/07/2024 | Driving W/Suspended Dr LicenseOpen Container</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/samuel-powell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/POWELL-SAMUEL-M.jpg" alt="Samuel Powell"><div class="name">Samuel Powell</div></a>
+<div class="reason">12/07/2024 | BatteryObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/lisa-dingler-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/10/DINGLER-LISA-R.jpg" alt="Lisa Dingler"><div class="name">Lisa Dingler</div></a>
+<div class="reason">10/11/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/holly-wread/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WREAD-HOLLY-A.jpg" alt="Holly Wread"><div class="name">Holly Wread</div></a>
+<div class="reason">12/08/2024 | DUI of AlcoholNo Headlight</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dennis-wonnum/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WONNUM-DENNIS-O.jpg" alt="Dennis Wonnum"><div class="name">Dennis Wonnum</div></a>
+<div class="reason">12/04/2024 | Criminal TrespassTheft by Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/allyson-wittke-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WITTKE-ALLYSON-B.jpg" alt="Allyson Wittke"><div class="name">Allyson Wittke</div></a>
+<div class="reason">12/04/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jaden-williams-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-JADEN-K.jpg" alt="Jaden Williams"><div class="name">Jaden Williams</div></a>
+<div class="reason">12/05/2024 | Probation ViolationObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-williams-149/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-ANTHONY-J-1.jpg" alt="Anthony Williams"><div class="name">Anthony Williams</div></a>
+<div class="reason">12/08/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/renee-waters-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WATERS-RENEE-L.jpg" alt="Renee Waters"><div class="name">Renee Waters</div></a>
+<div class="reason">12/02/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tiffany-walker-34/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WALKER-TIFFANY-T-1.jpg" alt="Tiffany Walker"><div class="name">Tiffany Walker</div></a>
+<div class="reason">12/08/2024 | Hold For Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/richard-wade-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WADE-RICHARD-J.jpg" alt="Richard Wade"><div class="name">Richard Wade</div></a>
+<div class="reason">12/03/2024 | ROR - FORFEITED BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jonathan-vital/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VITAL-JONATHAN-R.jpg" alt="Jonathan Vital"><div class="name">Jonathan Vital</div></a>
+<div class="reason">12/04/2024 | Not Listed</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kaveyoun-vinson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VINSON-KAVEYOUN-D.jpg" alt="Kaveyoun Vinson"><div class="name">Kaveyoun Vinson</div></a>
+<div class="reason">12/02/2024 | Sentenced to Serve Time</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/christopher-vaughan-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VAUGHAN-CHRISTOPHER-R.jpg" alt="Christopher Vaughan"><div class="name">Christopher Vaughan</div></a>
+<div class="reason">12/07/2024 | Disorderly Conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jesse-marcum/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MARCUM-JESSE-E.jpg" alt="Jesse Marcum"><div class="name">Jesse Marcum</div></a>
+<div class="reason">12/05/2024 | BatteryCruelty to ChildrenCruelty to ChildrenCruelty to ChildrenCruelty to ChildrenAggravated Assault Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/barryious-malcom-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MALCOM-BARRYIOUS-J.jpg" alt="Barryious Malcom"><div class="name">Barryious Malcom</div></a>
+<div class="reason">12/05/2024 | Hold For Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/montgomery-lech-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LECH-MONTGOMERY-S.jpg" alt="Montgomery Lech"><div class="name">Montgomery Lech</div></a>
+<div class="reason">12/02/2024 | DUI of DrugsGa. Controlled SubstancesTail Light OutDriving W/Suspended Dr LicensePoss/Use Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/eli-lacy-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/LACY-ELI-A.jpg" alt="Eli Lacy"><div class="name">Eli Lacy</div></a>
+<div class="reason">12/05/2024 | Poss/Use Drug Related ObjectsSECURITY COMING OFF BONDFTA - Failure to AppearObstruction of OfficerBENCH WARRANTProbation ViolationConvicted Felons Poss. of Weapo</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kenneth-jones-53/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/JONES-KENNETH-L.jpg" alt="Kenneth Jones"><div class="name">Kenneth Jones</div></a>
+<div class="reason">12/05/2024 | Hold For Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/chazerae-hyman-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HYMAN-CHAZERAE-L.jpg" alt="Chazerae Hyman"><div class="name">Chazerae Hyman</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/morgan-hunter-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HUNTER-MORGAN-E.jpg" alt="Morgan Hunter"><div class="name">Morgan Hunter</div></a>
+<div class="reason">12/06/2024 | Obstruction of OfficerConvicted Felons Poss. of WeapoSECURITY COMING OFF BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/ashley-hayes-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HAYES-ASHLEY-L.jpg" alt="Ashley Hayes"><div class="name">Ashley Hayes</div></a>
+<div class="reason">12/03/2024 | BatteryCriminal Damage To Property 2n</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/john-hansen-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HANSEN-JOHN-H.jpg" alt="John Hansen"><div class="name">John Hansen</div></a>
+<div class="reason">12/03/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/imani-hagan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HAGAN-IMANI-S.jpg" alt="Imani Hagan"><div class="name">Imani Hagan</div></a>
+<div class="reason">12/07/2024 | NO TAG LIGHTNO TURN SIGNALDUI/Under age 21 - .02 or grea</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kayla-grider/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GRIDER-KAYLA-K.jpg" alt="Kayla Grider"><div class="name">Kayla Grider</div></a>
+<div class="reason">12/05/2024 | Financial Trans. Card FraudFinancial Trans. Card Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/george-greer-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GREER-GEORGE-E-JR.jpg" alt="George Greer"><div class="name">George Greer</div></a>
+<div class="reason">12/02/2024 | Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/samuel-powell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/POWELL-SAMUEL-M.jpg" alt="Samuel Powell"><div class="name">Samuel Powell</div></a>
+<div class="reason">12/07/2024 | BatteryObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/hakeem-pone-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PONE-HAKEEM-X-1.jpg" alt="Hakeem Pone"><div class="name">Hakeem Pone</div></a>
+<div class="reason">12/07/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/bradley-pettit-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PETTIT-BRADLEY-D.jpg" alt="Bradley Pettit"><div class="name">Bradley Pettit</div></a>
+<div class="reason">12/07/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/felipe-perez-perez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PEREZ-PEREZ-FELIPE-I.jpg" alt="Felipe Perez-Perez"><div class="name">Felipe Perez-Perez</div></a>
+<div class="reason">12/06/2024 | SpeedingNo Drivers License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jose-olivascastro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/OLIVASCASTRO-JOSE.jpg" alt="Jose Olivascastro"><div class="name">Jose Olivascastro</div></a>
+<div class="reason">12/05/2024 | No Drivers LicenseDUI of AlcoholOpen ContainerFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/joshua-newberry-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/NEWBERRY-JOSHUA-A.jpg" alt="Joshua Newberry"><div class="name">Joshua Newberry</div></a>
+<div class="reason">12/06/2024 | BENCH WARRANTObstruction of OfficerGiving False Name to OfficerSECURITY COMING OFF BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/caven-cole-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COLE-CAVEN-C.jpg" alt="Caven Cole"><div class="name">Caven Cole</div></a>
+<div class="reason">12/06/2024 | Seat Belt ViolationDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jeannie-coe-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/COE-JEANNIE-L.jpg" alt="Jeannie Coe"><div class="name">Jeannie Coe</div></a>
+<div class="reason">12/04/2024 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kanieshia-chatman-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CHATMAN-KANIESHIA-L.jpg" alt="Kanieshia Chatman"><div class="name">Kanieshia Chatman</div></a>
+<div class="reason">12/06/2024 | Financial Trans. Card Fraud - 7 CountsTheft of Lost or Mislaid Propt</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/wyatt-chambers-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CHAMBERS-WYATT-N.jpg" alt="Wyatt Chambers"><div class="name">Wyatt Chambers</div></a>
+<div class="reason">12/05/2024 | Manufacture Sale of False IdControlled Subtances Sched IFurn/pos/cons of alc. by minorPoss/Use Drug Related ObjectsDUI of Alcohol - .12 gms/moreMarijuana Possession less 1 ozFailure to maintain laneOpen ContainerSale/Pos/Cigarettes by/for min</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/angela-cason-barrett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/CASON-BARRETT-ANGELA-P.jpg" alt="Angela Cason Barrett"><div class="name">Angela Cason Barrett</div></a>
+<div class="reason">12/04/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/shari-burce/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BURCE-SHARI-L.jpg" alt="Shari Burce"><div class="name">Shari Burce</div></a>
+<div class="reason">12/08/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jeremy-bryant-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BRYANT-JEREMY-J.jpg" alt="Jeremy Bryant"><div class="name">Jeremy Bryant</div></a>
+<div class="reason">12/02/2024 | Forgery in the Third Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kamilah-brown-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-KAMILAH-O.jpg" alt="Kamilah Brown"><div class="name">Kamilah Brown</div></a>
+<div class="reason">12/02/2024 | Grand Jury True Bill</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/adam-brown-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BROWN-ADAM-D.jpg" alt="Adam Brown"><div class="name">Adam Brown</div></a>
+<div class="reason">12/08/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/richard-bolden-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BOLDEN-RICHARD-A-JR.jpg" alt="Richard Bolden"><div class="name">Richard Bolden</div></a>
+<div class="reason">12/02/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/gregory-bell-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BELL-GREGORY-K.jpg" alt="Gregory Bell"><div class="name">Gregory Bell</div></a>
+<div class="reason">12/04/2024 | Entering Auto</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/pamela-bagley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BAGLEY-PAMELA-R.jpg" alt="Pamela Bagley"><div class="name">Pamela Bagley</div></a>
+<div class="reason">12/04/2024 | Forgery in the Third Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/ava-aaron/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/AARON-AVA-N.jpg" alt="Ava Aaron"><div class="name">Ava Aaron</div></a>
+<div class="reason">12/02/2024 | Poss, Manu of Cont SubstanceSale/Pos/Cigarettes by/for min</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/clyde-williams-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-CLYDE-E.jpg" alt="Clyde Williams"><div class="name">Clyde Williams</div></a>
+<div class="reason">11/25/2024 | DUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/randall-worley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WORLEY-RANDALL-W.jpg" alt="Randall Worley"><div class="name">Randall Worley</div></a>
+<div class="reason">11/26/2024 | DUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/cedric-williams-29/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-CEDRIC-A.jpg" alt="Cedric Williams"><div class="name">Cedric Williams</div></a>
+<div class="reason">11/26/2024 | Poss, Manu of Cont Substance - 5 CountsPos of firearm/knife comm of cPoss/Use Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-williams-147/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-ANTHONY-J.jpg" alt="Anthony Williams"><div class="name">Anthony Williams</div></a>
+<div class="reason">11/29/2024 | Public Drunkness</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/terri-white-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WHITE-TERRI-A.jpg" alt="Terri White"><div class="name">Terri White</div></a>
+<div class="reason">11/26/2024 | ROR - FORFEITED BOND</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/nicordo-wheeler/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WHEELER-NICORDO-R.jpg" alt="Nicordo Wheeler"><div class="name">Nicordo Wheeler</div></a>
+<div class="reason">11/29/2024 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/bryant-veasley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VEASLEY-BRYANT-L.jpg" alt="Bryant Veasley"><div class="name">Bryant Veasley</div></a>
+<div class="reason">11/29/2024 | Public Drunkness</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/julio-vazquez-gutierrez-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/VAZQUEZ-GUTIERREZ-JULIO-C.jpg" alt="Julio Vazquez Gutierrez"><div class="name">Julio Vazquez Gutierrez</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/david-turner-32/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/TURNER-DAVID-R.jpg" alt="David Turner"><div class="name">David Turner</div></a>
+<div class="reason">12/01/2024 | BENCH WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/marcus-taylor-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/TAYLOR-MARCUS-B.jpg" alt="Marcus Taylor"><div class="name">Marcus Taylor</div></a>
+<div class="reason">12/01/2024 | SpeedingFailure to maintain laneDUI of AlcoholFailure Yield Emergency Vehicl</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/taylor-thomas-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/THOMAS-TAYLOR-A.jpg" alt="Taylor Thomas"><div class="name">Taylor Thomas</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/deuntavious-taylor-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/TAYLOR-DEUNTAVIOUS-O.jpg" alt="Deuntavious Taylor"><div class="name">Deuntavious Taylor</div></a>
+<div class="reason">11/27/2024 | Criminal Damage To Property 2nPoss, Manu of Cont SubstanceObstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/rodrickus-strozier/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/STROZIER-RODRICKUS-R.jpg" alt="Rodrickus Strozier"><div class="name">Rodrickus Strozier</div></a>
+<div class="reason">11/27/2024 | Tampering with Evidence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/sheena-strange-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/STRANGE-SHEENA-L.jpg" alt="Sheena Strange"><div class="name">Sheena Strange</div></a>
+<div class="reason">11/28/2024 | Sentenced to Serve Time</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/taraji-stovall/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/STOVALL-TARAJI-S.jpg" alt="Taraji Stovall"><div class="name">Taraji Stovall</div></a>
+<div class="reason">11/27/2024 | Obstruction of OfficerTheft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/brian-rouse-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ROUSE-BRIAN-D.jpg" alt="Brian Rouse"><div class="name">Brian Rouse</div></a>
+<div class="reason">11/26/2024 | Open ContainerDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/alejandro-rodriguez-mendoza-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RODRIGUEZ-MENDOZA-ALEJANDRO-J.jpg" alt="Alejandro Rodriguez Mendoza"><div class="name">Alejandro Rodriguez Mendoza</div></a>
+<div class="reason">11/26/2024 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/denver-robinson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ROBINSON-DENVER-A.jpg" alt="Denver Robinson"><div class="name">Denver Robinson</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jacob-rhodes-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/RHODES-JACOB-N.jpg" alt="Jacob Rhodes"><div class="name">Jacob Rhodes</div></a>
+<div class="reason">11/30/2024 | DUI of AlcoholControlled Subtances Sched II</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/matthew-reynolds-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/REYNOLDS-MATTHEW-A.jpg" alt="Matthew Reynolds"><div class="name">Matthew Reynolds</div></a>
+<div class="reason">11/28/2024 | TEXTING WHILE DRIVINGFailure to maintain laneDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/stevelan-reece/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/REECE-STEVELAN-S.jpg" alt="Stevelan Reece"><div class="name">Stevelan Reece</div></a>
+<div class="reason">11/30/2024 | Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/christopher-pinkston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PINKSTON-CHRISTOPHER-H.jpg" alt="Christopher Pinkston"><div class="name">Christopher Pinkston</div></a>
+<div class="reason">11/27/2024 | DUI of AlcoholNo/Expired TagOpen ContainerNo Proof of Insurance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/quontavious-partee-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PARTEE-QUONTAVIOUS-D.jpg" alt="Quontavious Partee"><div class="name">Quontavious Partee</div></a>
+<div class="reason">12/01/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/pamela-bagley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BAGLEY-PAMELA-R.jpg" alt="Pamela Bagley"><div class="name">Pamela Bagley</div></a>
+<div class="reason">12/04/2024 | Forgery in the Third Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/ava-aaron/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/AARON-AVA-N.jpg" alt="Ava Aaron"><div class="name">Ava Aaron</div></a>
+<div class="reason">12/02/2024 | Poss, Manu of Cont SubstanceSale/Pos/Cigarettes by/for min</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/clyde-williams-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-CLYDE-E.jpg" alt="Clyde Williams"><div class="name">Clyde Williams</div></a>
+<div class="reason">11/25/2024 | DUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/randall-worley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WORLEY-RANDALL-W.jpg" alt="Randall Worley"><div class="name">Randall Worley</div></a>
+<div class="reason">11/26/2024 | DUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/cedric-williams-29/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-CEDRIC-A.jpg" alt="Cedric Williams"><div class="name">Cedric Williams</div></a>
+<div class="reason">11/26/2024 | Poss, Manu of Cont Substance - 5 CountsPos of firearm/knife comm of cPoss/Use Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-williams-147/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/WILLIAMS-ANTHONY-J.jpg" alt="Anthony Williams"><div class="name">Anthony Williams</div></a>
+<div class="reason">11/29/2024 | Public Drunkness</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jasmine-irby-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/IRBY-JASMINE-C.jpg" alt="Jasmine Irby"><div class="name">Jasmine Irby</div></a>
+<div class="reason">11/30/2024 | SpeedingProbation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/matthew-rowe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/ROWE-MATTHEW-R-1.jpg" alt="Matthew Rowe"><div class="name">Matthew Rowe</div></a>
+<div class="reason">11/30/2024 | MurderAggravated AssaultMurderPos of firearm/knife comm of cObstruction of Officer Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/eric-hilton-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HILTON-ERIC-D.jpg" alt="Eric Hilton"><div class="name">Eric Hilton</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jacquelyn-hillman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HILLMAN-JACQUELYN-A.jpg" alt="Jacquelyn Hillman"><div class="name">Jacquelyn Hillman</div></a>
+<div class="reason">11/30/2024 | DUI of AlcoholFail to Stop @ Acc W/DamagesFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/demaya-henry-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HENRY-DEMAYA-N.jpg" alt="Demaya Henry"><div class="name">Demaya Henry</div></a>
+<div class="reason">11/26/2024 | Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kasey-heath-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HEATH-KASEY-B.jpg" alt="Kasey Heath"><div class="name">Kasey Heath</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/charvis-grant-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GRANT-CHARVIS-T.jpg" alt="Charvis Grant"><div class="name">Charvis Grant</div></a>
+<div class="reason">11/25/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/joshua-garmon-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GARMON-JOSHUA-A.jpg" alt="Joshua Garmon"><div class="name">Joshua Garmon</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/zechariah-fort-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/FORT-ZECHARIAH-C.jpg" alt="Zechariah Fort"><div class="name">Zechariah Fort</div></a>
+<div class="reason">11/25/2024 | BurglaryPoss. of tools for comm. of crTHEFT OF MAILCriminal Interference Govt. Pr</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/bryan-dees-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DEES-BRYAN-J.jpg" alt="Bryan Dees"><div class="name">Bryan Dees</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/deshun-byrd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BYRD-DESHUN-A.jpg" alt="Deshun Byrd"><div class="name">Deshun Byrd</div></a>
+<div class="reason">11/25/2024 | SpeedingDUI of Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dylan-burns-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BURNS-DYLAN-H.jpg" alt="Dylan Burns"><div class="name">Dylan Burns</div></a>
+<div class="reason">11/30/2024 | Driving W/Suspended Dr LicenseLaying DragDuty Upon Striking FixtureReckless Driving</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-booker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BOOKER-ANTHONY-C.jpg" alt="Anthony Booker"><div class="name">Anthony Booker</div></a>
+<div class="reason">11/28/2024 | Poss, Manu of Cont SubstanceGiving False Name to Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dustin-boehm/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BOEHM-DUSTIN-D.jpg" alt="Dustin Boehm"><div class="name">Dustin Boehm</div></a>
+<div class="reason">11/25/2024 | Probation ViolationBurglaryObstruction of OfficerLoitering or Prowling</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jalen-biggs-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BIGGS-JALEN-T.jpg" alt="Jalen Biggs"><div class="name">Jalen Biggs</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/william-biggers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BIGGERS-WILLIAM-B.jpg" alt="William Biggers"><div class="name">William Biggers</div></a>
+<div class="reason">11/27/2024 | Seat Belt ViolationDUI of AlcoholFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/coral-berry-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BERRY-CORAL-A.jpg" alt="Coral Berry"><div class="name">Coral Berry</div></a>
+<div class="reason">11/25/2024 | ROR - FORFEITED BONDBENCH WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/william-ausbrooks-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/AUSBROOKS-WILLIAM-L.jpg" alt="William Ausbrooks"><div class="name">William Ausbrooks</div></a>
+<div class="reason">11/25/2024 | FTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/quontavious-partee-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/PARTEE-QUONTAVIOUS-D.jpg" alt="Quontavious Partee"><div class="name">Quontavious Partee</div></a>
+<div class="reason">12/01/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kelsey-mobley-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MOBLEY-KELSEY-K.jpg" alt="Kelsey Mobley"><div class="name">Kelsey Mobley</div></a>
+<div class="reason">11/25/2024 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/derrica-mitchell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MITCHELL-DERRICA-T.jpg" alt="Derrica Mitchell"><div class="name">Derrica Mitchell</div></a>
+<div class="reason">11/27/2024 | Driving W/Suspended Dr LicenseTheft by ShopliftingCruelty to ChildrenCruelty to Children</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/joseph-mikinka-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MIKINKA-JOSEPH-A.jpg" alt="Joseph Mikinka"><div class="name">Joseph Mikinka</div></a>
+<div class="reason">11/29/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kayla-mcdougald-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MCDOUGALD-KAYLA-G.jpg" alt="Kayla McDougald"><div class="name">Kayla McDougald</div></a>
+<div class="reason">11/27/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jacob-manuel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/MANUEL-JACOB.jpg" alt="Jacob Manuel"><div class="name">Jacob Manuel</div></a>
+<div class="reason">11/29/2024 | Sentenced to Serve Time</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/derrick-willis-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIS-DERRICK-M.jpg" alt="Derrick Willis"><div class="name">Derrick Willis</div></a>
+<div class="reason">11/11/2024 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/hugh-williams-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WILLIAMS-HUGH-C.jpg" alt="Hugh Williams"><div class="name">Hugh Williams</div></a>
+<div class="reason">11/14/2024 | Probation ViolationBattery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/virgil-widmier/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WIDMIER-VIRGIL-L.jpg" alt="Virgil Widmier"><div class="name">Virgil Widmier</div></a>
+<div class="reason">11/14/2024 | BatteryCruelty to ChildrenCruelty to Children</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jennifer-whitaker-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WHITAKER-JENNIFER-C.jpg" alt="Jennifer Whitaker"><div class="name">Jennifer Whitaker</div></a>
+<div class="reason">11/15/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/zachary-walker-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/WALKER-ZACHARY-K.jpg" alt="Zachary Walker"><div class="name">Zachary Walker</div></a>
+<div class="reason">11/15/2024 | Financial Identity Fraud</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/mark-valentine-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/VALENTINE-MARK-A.jpg" alt="Mark Valentine"><div class="name">Mark Valentine</div></a>
+<div class="reason">11/13/2024 | SURREPTITIOUS RECORDING OF INTIMATE PARTSSURREPTITIOUS RECORDING OF INTIMATE PARTSUnlawful EavesdroppingUnlawful Eavesdropping</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kasey-heath-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/HEATH-KASEY-B.jpg" alt="Kasey Heath"><div class="name">Kasey Heath</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/charvis-grant-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GRANT-CHARVIS-T.jpg" alt="Charvis Grant"><div class="name">Charvis Grant</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/joshua-garmon-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/GARMON-JOSHUA-A.jpg" alt="Joshua Garmon"><div class="name">Joshua Garmon</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/zechariah-fort-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/FORT-ZECHARIAH-C.jpg" alt="Zechariah Fort"><div class="name">Zechariah Fort</div></a>
+<div class="reason">11/25/2024 | BurglaryPoss. of tools for comm. of crTHEFT OF MAILCriminal Interference Govt. Pr</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/bryan-dees-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/DEES-BRYAN-J.jpg" alt="Bryan Dees"><div class="name">Bryan Dees</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/deshun-byrd/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BYRD-DESHUN-A.jpg" alt="Deshun Byrd"><div class="name">Deshun Byrd</div></a>
+<div class="reason">11/25/2024 | SpeedingDUI of Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dylan-burns-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BURNS-DYLAN-H.jpg" alt="Dylan Burns"><div class="name">Dylan Burns</div></a>
+<div class="reason">11/30/2024 | Driving W/Suspended Dr LicenseLaying DragDuty Upon Striking FixtureReckless Driving</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-booker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BOOKER-ANTHONY-C.jpg" alt="Anthony Booker"><div class="name">Anthony Booker</div></a>
+<div class="reason">11/28/2024 | Poss, Manu of Cont SubstanceGiving False Name to Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/dustin-boehm/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BOEHM-DUSTIN-D.jpg" alt="Dustin Boehm"><div class="name">Dustin Boehm</div></a>
+<div class="reason">11/25/2024 | Probation ViolationBurglaryObstruction of OfficerLoitering or Prowling</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jalen-biggs-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BIGGS-JALEN-T.jpg" alt="Jalen Biggs"><div class="name">Jalen Biggs</div></a>
+<div class="reason">11/26/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/william-biggers/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BIGGERS-WILLIAM-B.jpg" alt="William Biggers"><div class="name">William Biggers</div></a>
+<div class="reason">11/27/2024 | Seat Belt ViolationDUI of AlcoholFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/coral-berry-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/BERRY-CORAL-A.jpg" alt="Coral Berry"><div class="name">Coral Berry</div></a>
+<div class="reason">11/25/2024 | ROR - FORFEITED BONDBENCH WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/santerio-lawrence-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LAWRENCE-SANTERIO-D.jpg" alt="Santerio Lawrence"><div class="name">Santerio Lawrence</div></a>
+<div class="reason">11/15/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kathleen-kreps/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/KREPS-KATHLEEN-A.jpg" alt="Kathleen Kreps"><div class="name">Kathleen Kreps</div></a>
+<div class="reason">11/12/2024 | Fail to Stop @ Acc W/DamagesDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jamison-jordan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JORDAN-JAMISON-L.jpg" alt="Jamison Jordan"><div class="name">Jamison Jordan</div></a>
+<div class="reason">11/14/2024 | DUI of AlcoholFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jules-jones/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JONES-JULES-V.jpg" alt="Jules Jones"><div class="name">Jules Jones</div></a>
+<div class="reason">11/14/2024 | Driving W/Suspended Dr LicenseDUI of Alcohol</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/donnell-jones-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JONES-DONNELL-E.jpg" alt="Donnell Jones"><div class="name">Donnell Jones</div></a>
+<div class="reason">11/15/2024 | Theft by Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kyester-jeff/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JEFF-KYESTER-E.jpg" alt="Kyester Jeff"><div class="name">Kyester Jeff</div></a>
+<div class="reason">11/13/2024 | BatteryReckless ConductTheft by Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/savannah-jackson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JACKSON-SAVANNAH-D.jpg" alt="Savannah Jackson"><div class="name">Savannah Jackson</div></a>
+<div class="reason">11/16/2024 | Poss, Manu of Cont Substance</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/michael-jackson-74/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/JACKSON-MICHAEL-A.jpg" alt="Michael Jackson"><div class="name">Michael Jackson</div></a>
+<div class="reason">11/15/2024 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/benjamin-ivie/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/IVIE-BENJAMIN-J.jpg" alt="Benjamin Ivie"><div class="name">Benjamin Ivie</div></a>
+<div class="reason">11/17/2024 | NO TAG LIGHTOpen ContainerDUI of AlcoholFailure to maintain lane</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/chase-hightower/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HIGHTOWER-CHASE-A.jpg" alt="Chase Hightower"><div class="name">Chase Hightower</div></a>
+<div class="reason">11/14/2024 | Obstruction of OfficerCriminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/carl-hicks-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HICKS-CARL-L.jpg" alt="Carl Hicks"><div class="name">Carl Hicks</div></a>
+<div class="reason">11/17/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-herring/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HERRING-ANTHONY-L.jpg" alt="Anthony Herring"><div class="name">Anthony Herring</div></a>
+<div class="reason">11/12/2024 | Theft by Taking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/chase-helms-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HELMS-CHASE-H.jpg" alt="Chase Helms"><div class="name">Chase Helms</div></a>
+<div class="reason">11/15/2024 | Probation ViolationAggravated Stalking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/casie-head-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HEAD-CASIE-E.jpg" alt="Casie Head"><div class="name">Casie Head</div></a>
+<div class="reason">11/12/2024 | FTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/stella-hammond-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/HAMMOND-STELLA-C.jpg" alt="Stella Hammond"><div class="name">Stella Hammond</div></a>
+<div class="reason">11/13/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/travis-guzman-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GUZMAN-TRAVIS-R.jpg" alt="Travis Guzman"><div class="name">Travis Guzman</div></a>
+<div class="reason">11/14/2024 | Sentenced to Serve Time</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/andrew-griffith-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GRIFFITH-ANDREW-J.jpg" alt="Andrew Griffith"><div class="name">Andrew Griffith</div></a>
+<div class="reason">11/14/2024 | Pos. of firearm under 18Theft by Receiving Stolen Prop</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jose-gonzalez-63/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GONZALEZ-JOSE-A-JR.jpg" alt="Jose Gonzalez"><div class="name">Jose Gonzalez</div></a>
+<div class="reason">11/12/2024 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/donald-payden-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PAYDEN-DONALD-F.jpg" alt="Donald Payden"><div class="name">Donald Payden</div></a>
+<div class="reason">11/14/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kevin-ortega-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ORTEGA-KEVIN-R.jpg" alt="Kevin Ortega"><div class="name">Kevin Ortega</div></a>
+<div class="reason">11/16/2024 | Driving W/Suspended Dr License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jesse-norton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/NORTON-JESSE-C.jpg" alt="Jesse Norton"><div class="name">Jesse Norton</div></a>
+<div class="reason">11/12/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/nereida-morales-munos/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/MORALES-MUNOS-NEREIDA.jpg" alt="Nereida Morales Munos"><div class="name">Nereida Morales Munos</div></a>
+<div class="reason">11/13/2024 | Poss, Manu of Cont SubstancePoss, Manu of Cont SubstanceNo Headlight</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/kendarrius-lovelace-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LOVELACE-KENDARRIUS-L.jpg" alt="Kendarrius Lovelace"><div class="name">Kendarrius Lovelace</div></a>
+<div class="reason">11/12/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/anthony-lee-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/LEE-ANTHONY-D.jpg" alt="Anthony Lee"><div class="name">Anthony Lee</div></a>
+<div class="reason">11/17/2024 | Poss/Use Drug Related ObjectsMarijuana possession less thanControlled Subtances Sched IINo County Decal</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/rayshiana-dixon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DIXON-RAYSHIANA-M.jpg" alt="Rayshiana Dixon"><div class="name">Rayshiana Dixon</div></a>
+<div class="reason">11/14/2024 | Marijuana Possession less 1 ozTele.haras/disorderly/fig.wds.Obstruction of Officer</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/reginald-davis-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DAVIS-REGINALD-R.jpg" alt="Reginald Davis"><div class="name">Reginald Davis</div></a>
+<div class="reason">11/17/2024 | Hold For Court</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/carelius-davidson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DAVIDSON-CARELIUS-D.jpg" alt="Carelius Davidson"><div class="name">Carelius Davidson</div></a>
+<div class="reason">11/13/2024 | Aggravated Stalking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/monterrio-daniel-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/DANIEL-MONTERRIO-T-1.jpg" alt="Monterrio Daniel"><div class="name">Monterrio Daniel</div></a>
+<div class="reason">11/15/2024 | FTA - Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/feshown-cooper-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COOPER-FESHOWN-D-1.jpg" alt="Feshown Cooper"><div class="name">Feshown Cooper</div></a>
+<div class="reason">11/14/2024 | Poss, Manu of Cont SubstanceTampering with EvidenceMarijuana Possession less 1 ozConvicted Felons Poss. of WeapoTrafficking in illegal drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tyler-commodore-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/COMMODORE-TYLER-X.jpg" alt="Tyler Commodore"><div class="name">Tyler Commodore</div></a>
+<div class="reason">11/11/2024 | HOLD FOR OTHER AGENCY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/tony-bartolon-morales-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BARTOLON-MORALES-TONY-D-1.jpg" alt="Tony Bartolon-Morales"><div class="name">Tony Bartolon-Morales</div></a>
+<div class="reason">11/14/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/christopher-autry-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/AUTRY-CHRISTOPHER-L.jpg" alt="Christopher Autry"><div class="name">Christopher Autry</div></a>
+<div class="reason">11/12/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/pedro-aquirre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/AQUIRRE-PEDRO.jpg" alt="Pedro Aquirre"><div class="name">Pedro Aquirre</div></a>
+<div class="reason">11/11/2024 | No Drivers License</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/james-allen-35/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/ALLEN-JAMES-D.jpg" alt="James Allen"><div class="name">James Allen</div></a>
+<div class="reason">11/14/2024 | Disorderly Conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/alex-peterson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/PETERSON-ALEX-T-1.jpg" alt="Alex Peterson"><div class="name">Alex Peterson</div></a>
+<div class="reason">11/13/2024 | Disorderly Conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/mercedes-gonzalez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/GONZALEZ-MERCEDES-C.jpg" alt="Mercedes Gonzalez"><div class="name">Mercedes Gonzalez</div></a>
+<div class="reason">11/14/2024 | SEXUAL EXPLOTION THRU ELECTRONIC DEVICETele.haras/disorderly/fig.wds. Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/henry-buchner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BUCHNER-HENRY-D.jpg" alt="Henry Buchner"><div class="name">Henry Buchner</div></a>
+<div class="reason">11/15/2024 | Aggravated Sexual BatteryChild MolestationAggravated Sexual BatterySolicitation of SodomySexual Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/francisco-castillo-guerrero/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CASTILLO-GUERRERO-FRANCISCO.jpg" alt="Francisco Castillo Guerrero"><div class="name">Francisco Castillo Guerrero</div></a>
+<div class="reason">11/15/2024 | SpeedingNo Drivers License on Person</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/shelby-carter-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CARTER-SHELBY-A.jpg" alt="Shelby Carter"><div class="name">Shelby Carter</div></a>
+<div class="reason">11/17/2024 | Simple Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jermaine-campbell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/CAMPBELL-JERMAINE-O.jpg" alt="Jermaine Campbell"><div class="name">Jermaine Campbell</div></a>
+<div class="reason">11/13/2024 | Marijuana Possession less 1 ozConvicted Felons Poss. of Weapo</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/harvey-butts-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BUTTS-HARVEY-M.jpg" alt="Harvey Butts"><div class="name">Harvey Butts</div></a>
+<div class="reason">11/17/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/michael-bush-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BUSH-MICHAEL-A.jpg" alt="Michael Bush"><div class="name">Michael Bush</div></a>
+<div class="reason">11/15/2024 | Battery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/halle-burgess-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BURGESS-HALLE-K.jpg" alt="Halle Burgess"><div class="name">Halle Burgess</div></a>
+<div class="reason">11/17/2024 | Probation ViolationFleeing to eludeDriving W/Suspended Dr LicenseReckless DrivingPoss/Use Drug Related ObjectsPoss, Manu of Cont SubstanceFailure to maintain laneDUI of Drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/jovan-brown-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BROWN-JOVAN-A.jpg" alt="Jovan Brown"><div class="name">Jovan Brown</div></a>
+<div class="reason">11/16/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/melton-brinkley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BRINKLEY-MELTON-L.jpg" alt="Melton Brinkley"><div class="name">Melton Brinkley</div></a>
+<div class="reason">11/13/2024 | Probation Violation</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/walton/william-bowen-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/BOWEN-WILLIAM-P.jpg" alt="William Bowen"><div class="name">William Bowen</div></a>
+<div class="reason">11/17/2024 | Family Violence</div>
+</div>
+</div><div class="pagination"><a href="walton6.html">Next Page</a></div></body></html>

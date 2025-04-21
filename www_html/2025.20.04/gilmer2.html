@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/james-white-72/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/White-James-Bradley.jpg" alt="James White"><div class="name">James White</div></a>
+<div class="reason">01/13/2025 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/joseph-silvers-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Silvers-Joseph-Gordon-1.jpg" alt="Joseph Silvers"><div class="name">Joseph Silvers</div></a>
+<div class="reason">01/14/2025 | RECKLESS DRIVINGSTALKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/larry-pack-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Pack-Larry-Joseph.jpg" alt="Larry Pack"><div class="name">Larry Pack</div></a>
+<div class="reason">01/07/2025 | PAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/krissy-mewborn-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Mewborn-Krissy-Odell.jpg" alt="Krissy Mewborn"><div class="name">Krissy Mewborn</div></a>
+<div class="reason">01/08/2025 | BOND VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/dakota-ledoux-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Ledoux-Dakota-James.jpg" alt="Dakota Ledoux"><div class="name">Dakota Ledoux</div></a>
+<div class="reason">01/07/2025 | AGGRAVATED ASSAULTBATTERY.CRIMINAL DAMAGE TO PROPERTY - 2ND DEGREECRUELTY TO CHILDREN- 3RD DEGREE Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/richard-holden-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Holden-Richard-Robert-1.jpg" alt="Richard Holden"><div class="name">Richard Holden</div></a>
+<div class="reason">01/06/2025 | BENCH WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/charles-grant-22/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Grant-Charles-Aaron.jpg" alt="Charles Grant"><div class="name">Charles Grant</div></a>
+<div class="reason">01/14/2025 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/joshua-davis-74/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Davis-Joshua-Trevor.jpg" alt="Joshua Davis"><div class="name">Joshua Davis</div></a>
+<div class="reason">01/07/2025 | ACCOUNTABILITY COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/wuidis-ayala-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Ayala-Wuidis-Roberto.jpg" alt="Wuidis Ayala"><div class="name">Wuidis Ayala</div></a>
+<div class="reason">01/06/2025 | BOND VIOLATION PRETRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/robert-lunsford-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lunsford-Robert-Jeffery.jpg" alt="Robert Lunsford"><div class="name">Robert Lunsford</div></a>
+<div class="reason">01/14/2025 | AGGRAVATED STALKINGMAINTAINING A DISORDERLY HOUSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/arnaldo-vigil-flores/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Vigil-Flores-Arnaldo.jpg" alt="Arnaldo Vigil Flores"><div class="name">Arnaldo Vigil Flores</div></a>
+<div class="reason">01/05/2025 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDUTY UPON STRIKING FIXTUREFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/kristina-teems-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Teems-Kristina-Rose-1.jpg" alt="Kristina Teems"><div class="name">Kristina Teems</div></a>
+<div class="reason">12/18/2024 | VIOLATION OF ACCOUNTABILITY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/levi-taylor-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Taylor-Levi-Kenneth-Skinner.jpg" alt="Levi Taylor"><div class="name">Levi Taylor</div></a>
+<div class="reason">12/30/2024 | HOLD FOR PICKENS CO</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/lee-smith-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Smith-Lee-Ann.jpg" alt="Lee Smith"><div class="name">Lee Smith</div></a>
+<div class="reason">12/31/2024 | FAILURE TO REGISTER VEHICLEHOLD FOR HOLLY SPRINGSKNOWINGLY MAKING A FALSE STATEMENT PERTAINING TO MOTOR VEHICLE INSURANCE REQUIRE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/harrison-smith-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Smith-Harrison-Stewart.jpg" alt="Harrison Smith"><div class="name">Harrison Smith</div></a>
+<div class="reason">12/29/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DIM HEADLIGHTSOPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/kimberly-sexton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Sexton-Kimberly-Lynn.jpg" alt="Kimberly Sexton"><div class="name">Kimberly Sexton</div></a>
+<div class="reason">12/26/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/dustin-powers-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Powers-Dustin-Lee.jpg" alt="Dustin Powers"><div class="name">Dustin Powers</div></a>
+<div class="reason">12/26/2024 | DRUG COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/alfredo-perez-recinos-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Perez-Recinos-Alfredo.jpg" alt="Alfredo Perez-Recinos"><div class="name">Alfredo Perez-Recinos</div></a>
+<div class="reason">12/20/2024 | OPEN CONTAINER IN VEHICLEPUBLIC DRUNKENESSWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/angela-pendergraft/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Pendergraft-Angela-Marie-1.jpg" alt="Angela Pendergraft"><div class="name">Angela Pendergraft</div></a>
+<div class="reason">12/18/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/neemias-paiz-jacinto/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Paiz-Jacinto-Neemias.jpg" alt="Neemias Paiz-Jacinto"><div class="name">Neemias Paiz-Jacinto</div></a>
+<div class="reason">12/20/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jacob-neal-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Neal-Jacob-Lee-1.jpg" alt="Jacob Neal"><div class="name">Jacob Neal</div></a>
+<div class="reason">12/30/2024 | HOLD FOR GORDON COUNTY FOR PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/ian-navarro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Navarro-Ian-Alexander.jpg" alt="Ian Navarro"><div class="name">Ian Navarro</div></a>
+<div class="reason">01/03/2025 | SIMPLE BATTERYCRIMINAL DAMAGE TO PROPERTY - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tamara-morris-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Morris-Tamara-Marie.jpg" alt="Tamara Morris"><div class="name">Tamara Morris</div></a>
+<div class="reason">12/28/2024 | CRIMINAL TRESPASS - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/adolfo-velasquez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Velasquez-Adolfo.jpg" alt="Adolfo Velasquez"><div class="name">Adolfo Velasquez</div></a>
+<div class="reason">12/29/2024 | DISORDERLY CONDUCT Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may exist. All...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jerry-lowe-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Lowe-Jerry-Ray.jpg" alt="Jerry Lowe"><div class="name">Jerry Lowe</div></a>
+<div class="reason">12/24/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/teresa-kitchen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Kitchen-Teresa-Ann.jpg" alt="Teresa Kitchen"><div class="name">Teresa Kitchen</div></a>
+<div class="reason">01/04/2025 | SIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/youncia-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-Youncia-Serene.jpg" alt="Youncia Johnson"><div class="name">Youncia Johnson</div></a>
+<div class="reason">12/24/2024 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/shalaire-johnson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-Shalaire-Lamont.jpg" alt="Shalaire Johnson"><div class="name">Shalaire Johnson</div></a>
+<div class="reason">12/30/2024 | HOLD FOR CHEROKEE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jamey-johnson-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-Jamey-Allan-1.jpg" alt="Jamey Johnson"><div class="name">Jamey Johnson</div></a>
+<div class="reason">12/28/2024 | AGGRESSIVE DRIVINGFAILURE TO STOP AT A STOP SIGNFLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICER - FELONYIMPROPER PASSING IN NO PASSING ZONEIMPROPER PASSING ON HILL/CURVEOBEDIENCE TO TRAFFIC-CONTROL DEVICES & TRAFFIC REGULATIONSSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tyler-hogue-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Hogue-Tyler-Joseph.jpg" alt="Tyler Hogue"><div class="name">Tyler Hogue</div></a>
+<div class="reason">12/27/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/gerardo-guzman-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Guzman-Gerardo-Vieyka.jpg" alt="Gerardo Guzman"><div class="name">Gerardo Guzman</div></a>
+<div class="reason">12/18/2024 | BENCH WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/taylor-gray-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Gray-Taylor-Lamar.jpg" alt="Taylor Gray"><div class="name">Taylor Gray</div></a>
+<div class="reason">01/01/2025 | FULTON COUNTY WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/mateo-garcia-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Garcia-Mateo-Lucas.jpg" alt="Mateo Garcia"><div class="name">Mateo Garcia</div></a>
+<div class="reason">12/30/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF DRUGSTAG LIGHT ILLUMINATION REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jose-diaz-35/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Diaz-Jose-Enrique-Dionicio.jpg" alt="Jose Diaz"><div class="name">Jose Diaz</div></a>
+<div class="reason">01/04/2025 | CHILD RESTRAINT LAW CHILD SEAT SAFETY BEDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)TAILLIGHTS MAINTENANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jeremy-cruse-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Cruse-Jeremy-Joe.jpg" alt="Jeremy Cruse"><div class="name">Jeremy Cruse</div></a>
+<div class="reason">12/18/2024 | DRIVING WRONG SIDE OF UNDIVIDED STREETFAILURE TO DRIVE WITHIN SINGLE LANEFAILURE TO OBEY STOP SIGNFAILURE TO OBEY STOP SIGNFAILURE TO YIELD RIGHT OF WAY AT CROSSWALKFAILURE TO YIELD RIGHT OF WAY TO EMERGENCY VEHFAILURE TO YIELD RIGHT OF WAY TO PEDESTRIANFLEEING OR ATTEMPTING TO ELUDE A POLICE...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/whitney-cornwall/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Cornwall-Whitney-Jean.jpg" alt="Whitney Cornwall"><div class="name">Whitney Cornwall</div></a>
+<div class="reason">12/21/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/brittany-coker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Coker-Brittany-Fayth.jpg" alt="Brittany Coker"><div class="name">Brittany Coker</div></a>
+<div class="reason">12/19/2024 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSPOSSESSION AND USE OF DRUG RELATED OBJECTSPURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/robert-carver-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Carver-Robert-Clayton.jpg" alt="Robert Carver"><div class="name">Robert Carver</div></a>
+<div class="reason">12/27/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/pascual-carmelo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Carmelo-Pascual-Gregorio.jpg" alt="Pascual Carmelo"><div class="name">Pascual Carmelo</div></a>
+<div class="reason">12/21/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/marlee-byrd-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Byrd-Marlee-K.jpg" alt="Marlee Byrd"><div class="name">Marlee Byrd</div></a>
+<div class="reason">12/31/2024 | CRUELTY TO CHILDREN 3RD DEGREECRUELTY TO CHILDREN 3RD DEGREECRUELTY TO CHILDREN 3RD DEGREESIMPLE BATTERY.SIMPLE BATTERY.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/justin-blakely-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Blakely-Justin-Matthew.jpg" alt="Justin Blakely"><div class="name">Justin Blakely</div></a>
+<div class="reason">01/02/2025 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/haley-brown-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Brown-Haley-Denise.jpg" alt="Haley Brown"><div class="name">Haley Brown</div></a>
+<div class="reason">12/21/2024 | CRIMINAL TRESPASSTHEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/timothy-bryan-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Bryan-Timothy-James.jpg" alt="Timothy Bryan"><div class="name">Timothy Bryan</div></a>
+<div class="reason">12/27/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANEOPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/ricky-baker-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Baker-Ricky-Allen.jpg" alt="Ricky Baker"><div class="name">Ricky Baker</div></a>
+<div class="reason">12/22/2024 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/shawn-turney-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Turney-Shawn-Douglas.jpg" alt="Shawn Turney"><div class="name">Shawn Turney</div></a>
+<div class="reason">12/23/2024 | DRUG COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/rhonda-simmons-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Simmons-Rhonda-Telina.jpg" alt="Rhonda Simmons"><div class="name">Rhonda Simmons</div></a>
+<div class="reason">12/20/2024 | INTERFERENCE WITH GOVERNMENT PROPERTY - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tony-powell-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Powell-Jr-Tony-Curtis.jpg" alt="Tony Powell"><div class="name">Tony Powell</div></a>
+<div class="reason">12/23/2024 | ADULT RESTRAINT LAW SEAT BELT 18 ANDRUGS NOT IN ORIGINAL CONTAINER - MISDEMEANORDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLMARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF A SCHEDULE I OR II CONTROLLED SUBSTANCE WITH...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/kimberly-page-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Page-Kimberly-Dawn.jpg" alt="Kimberly Page"><div class="name">Kimberly Page</div></a>
+<div class="reason">12/19/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/natasha-newton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Newton-Natasha-Elizabeth.jpg" alt="Natasha Newton"><div class="name">Natasha Newton</div></a>
+<div class="reason">12/28/2024 | BOND VIOLATION PRETRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/rastis-ledford-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Ledford-Rastis-Bradley.jpg" alt="Rastis Ledford"><div class="name">Rastis Ledford</div></a>
+<div class="reason">12/29/2024 | BOND VIOLATION PRETRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/alberto-landaverde/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Landaverde-Alberto.jpg" alt="Alberto Landaverde"><div class="name">Alberto Landaverde</div></a>
+<div class="reason">01/03/2025 | VIOLATION OF BOND CONDITIONS PRETRIAL PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/richard-johnson-36/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-Richard-Allen.jpg" alt="Richard Johnson"><div class="name">Richard Johnson</div></a>
+<div class="reason">12/31/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jamey-johnson-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Johnson-Jamey-Allan.jpg" alt="Jamey Johnson"><div class="name">Jamey Johnson</div></a>
+<div class="reason">12/30/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/michael-fisher-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Fisher-Michael-Andrew.jpg" alt="Michael Fisher"><div class="name">Michael Fisher</div></a>
+<div class="reason">12/21/2024 | AGGRAVATED STALKINGDISORDERLY CONDUCTTERRORISTIC THREATS AND ACTS - FELONYTERRORISTIC THREATS AND ACTS - FELONY Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/leonel-figueroa/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Figueroa-Leonel-Vargas.jpg" alt="Leonel Figueroa"><div class="name">Leonel Figueroa</div></a>
+<div class="reason">01/05/2025 | CRIMINAL TRESPASSSIMPLE ASSAULTSIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/justin-faust-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Faust-Justin-Alexander.jpg" alt="Justin Faust"><div class="name">Justin Faust</div></a>
+<div class="reason">12/24/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/kelli-brandon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Brandon-Kelli-Kathleen.jpg" alt="Kelli Brandon"><div class="name">Kelli Brandon</div></a>
+<div class="reason">12/28/2024 | DISPLAY OF LICENSE PLATESDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)DRUG RELATED OBJECTS.DRUGS NOT IN ORIGINAL CONTAINER - MISDEMEANORDUI - DRIVING UNDER THE INFLUENCE OF DRUGSPOSSESSION OF A SCHEDULE I CONTROLLED SUBSTANCEPOSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCEPOSSESSION OF A SCHEDULE IV CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/lorraine-baker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Baker-Lorraine-Renee.jpg" alt="Lorraine Baker"><div class="name">Lorraine Baker</div></a>
+<div class="reason">12/30/2024 | BENCH WARRANT BENCH WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tiffany-alvarado-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/01/Alvarado-Tiffany-Megan.jpg" alt="Tiffany Alvarado"><div class="name">Tiffany Alvarado</div></a>
+<div class="reason">12/23/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jamison-williams/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Williams-Jamison-Oliver.jpg" alt="Jamison Williams"><div class="name">Jamison Williams</div></a>
+<div class="reason">12/08/2024 | CRIMINAL TRESPASSCRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/morris-walker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Walker-Morris-D.jpg" alt="Morris Walker"><div class="name">Morris Walker</div></a>
+<div class="reason">12/07/2024 | DUI - DRIVING UNDER THE INFLUENCE OF MULTIPLE SUBSTANCESFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/matthew-taylor-32/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Taylor-Matthew-Lamar.jpg" alt="Matthew Taylor"><div class="name">Matthew Taylor</div></a>
+<div class="reason">12/04/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO MAINTAIN INSURANCEREMOVE OR AFFIX PLATETO CONCEAL VEH ID</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/ernest-sosebee-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sosebee-Ernest-Anthony.jpg" alt="Ernest Sosebee"><div class="name">Ernest Sosebee</div></a>
+<div class="reason">12/05/2024 | DUI - DRIVING UNDER THE INFLUENCE OF MULTIPLE SUBSTANCESKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATIONMARIJUANA-POSSESS LESS THAN 1 OZ.PUBLIC DRUNKENESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/david-rogers-32/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Rogers-David-Scott.jpg" alt="David Rogers"><div class="name">David Rogers</div></a>
+<div class="reason">12/07/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/kayla-page-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Page-Kayla-Celeste.jpg" alt="Kayla Page"><div class="name">Kayla Page</div></a>
+<div class="reason">12/06/2024 | 24 HR SERVE FOR DRUG COURT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/gonzalez-obando/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Obando-Gonzalez-Jorge-Ruiz.jpg" alt="Gonzalez Obando"><div class="name">Gonzalez Obando</div></a>
+<div class="reason">12/10/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DRIVING WRONG WAY ON ONE WAY STREETEXPIRED VEHICLE TAG OR DECALFAILURE TO OBEY TRAFFIC CONTROL DEVICEFAILURE TO YEILD ENTERING ROADWAYNO INSURANCETURNING POSITION; SIGNALS REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tonya-novak-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Novak-Tonya-Leigh-1.jpg" alt="Tonya Novak"><div class="name">Tonya Novak</div></a>
+<div class="reason">12/08/2024 | CARROLL COUNTY WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/betty-mobley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mobley-Betty-Sue.jpg" alt="Betty Mobley"><div class="name">Betty Mobley</div></a>
+<div class="reason">12/09/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FRAUDULENT DRIVERS LICENSE OR IDENTIFICATION CARD; FALSE STATEMENTS IN APPLICATIGIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jose-lopez-najera/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lopez-Najera-Jose.jpg" alt="Jose Lopez-Najera"><div class="name">Jose Lopez-Najera</div></a>
+<div class="reason">12/05/2024 | AFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSION/REFLECTANCE OF WINDRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/domingo-lopez-loarca/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Lopez-Loarca-Domingo.jpg" alt="Domingo Lopez Loarca"><div class="name">Domingo Lopez Loarca</div></a>
+<div class="reason">12/06/2024 | DRIVING W/O LICENSE(UNLICENSED/WRONG CL)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jeremiah-hulsey-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hulsey-Jeremiah-Lee.jpg" alt="Jeremiah Hulsey"><div class="name">Jeremiah Hulsey</div></a>
+<div class="reason">12/03/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/neal-hoggard-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hoggard-Neal-Britton.jpg" alt="Neal Hoggard"><div class="name">Neal Hoggard</div></a>
+<div class="reason">12/13/2024 | PUBLIC DRUNKENESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/amanda-hicks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hicks-Amanda-Marie.jpg" alt="Amanda Hicks"><div class="name">Amanda Hicks</div></a>
+<div class="reason">12/09/2024 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSPUBLIC DRUNKENNESS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/dalton-hamby/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hamby-Dalton-Jerome.jpg" alt="Dalton Hamby"><div class="name">Dalton Hamby</div></a>
+<div class="reason">12/15/2024 | DRIVING W/O HEADLIGHTS WHEN REQUIREDDUI - ALCOHOL/CONTROLLED SUBSTANCE PRESE NT IN BLOOD/URINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/irene-guzman-guzman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Guzman-Guzman-Irene.jpg" alt="Irene Guzman Guzman"><div class="name">Irene Guzman Guzman</div></a>
+<div class="reason">12/15/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANORCRIMINAL DAMAGE TO PROPERTY - 2ND DEGREECRUELTY TO CHILDREN IN THE 3RD DEGREE 3RD OR SUBSEQUENT OFFENSE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/lauren-goss-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Goss-Lauren-Nashae.jpg" alt="Lauren Goss"><div class="name">Lauren Goss</div></a>
+<div class="reason">12/14/2024 | CRIMINAL TRESPASS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/robert-garrick/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Garrick-II-Robert-Edwin.jpg" alt="Robert Garrick"><div class="name">Robert Garrick</div></a>
+<div class="reason">12/05/2024 | AFFIXING MATERIALS THAT REDUCE OR INCREASE LIGHT TRANSMISSION/REFLECTANCE OF WINDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/elias-fransico-raymundo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fransico-Raymundo-Elias.jpg" alt="Elias Fransico-Raymundo"><div class="name">Elias Fransico-Raymundo</div></a>
+<div class="reason">12/15/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)LIGHTED HEADLIGHTS REQUIRED AT CERTAIN TIMES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/mario-figueroa-simon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Figueroa-Simon-Mario-Humberto.jpg" alt="Mario Figueroa-Simon"><div class="name">Mario Figueroa-Simon</div></a>
+<div class="reason">12/05/2024 | BATTERYCRUELTY TO CHILDREN - 1ST DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/ricky-curtis/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Curtis-Ricky-Shawn.jpg" alt="Ricky Curtis"><div class="name">Ricky Curtis</div></a>
+<div class="reason">12/04/2024 | DUI - DRIVING UNDER THE INFLUENCE OF MULTIPLE SUBSTANCESFAILURE TO DRIVE WITHIN SINGLE LANEFOLLOWING TO CLOSELYKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATIONNO INSURANCENO PROOF OF INSURANCE IN VEHICLETAIL LIGHTS REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/pedro-chavez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Chavez-Pedro.jpg" alt="Pedro Chavez"><div class="name">Pedro Chavez</div></a>
+<div class="reason">12/15/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/anthony-chambers-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Chambers-Anthony-Joseph.jpg" alt="Anthony Chambers"><div class="name">Anthony Chambers</div></a>
+<div class="reason">12/07/2024 | DRUG COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/cole-bolling/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bolling-Cole-Bryson.jpg" alt="Cole Bolling"><div class="name">Cole Bolling</div></a>
+<div class="reason">12/16/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/marcus-caudill-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Caudill-Marcus.jpg" alt="Marcus Caudill"><div class="name">Marcus Caudill</div></a>
+<div class="reason">12/03/2024 | AGGRAVATED STALKING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/alicia-carlile-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Carlile-Alicia-Lynn.jpg" alt="Alicia Carlile"><div class="name">Alicia Carlile</div></a>
+<div class="reason">12/17/2024 | VIOLATION OF BOND CONDITIONS PRETRIAL PROBATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/terry-batt-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Batt-Terry-Allan.jpg" alt="Terry Batt"><div class="name">Terry Batt</div></a>
+<div class="reason">12/05/2024 | DRC VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/david-banks-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Banks-David-Ernest-Jr.jpg" alt="David Banks"><div class="name">David Banks</div></a>
+<div class="reason">12/16/2024 | CRUELTY TO CHILDREN- 3RD DEGREESIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jacob-anderson-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Anderson-Jacob-Cole.jpg" alt="Jacob Anderson"><div class="name">Jacob Anderson</div></a>
+<div class="reason">12/14/2024 | PURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANA</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tiffany-alvarado-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Alvarado-Tiffany-Megan.jpg" alt="Tiffany Alvarado"><div class="name">Tiffany Alvarado</div></a>
+<div class="reason">12/09/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/gerardo-alvarado/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Alvarado-Gerardo-Heriberto.jpg" alt="Gerardo Alvarado"><div class="name">Gerardo Alvarado</div></a>
+<div class="reason">12/07/2024 | DRIVING W/O LICENSE ON PERSONDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/amy-zimmer-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Zimmer-Amy-Lynne.jpg" alt="Amy Zimmer"><div class="name">Amy Zimmer</div></a>
+<div class="reason">12/14/2024 | POSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINETHEFT BY TAKING - MISDEMEANORPAROLE VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/heather-wright-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wright-Heather-Nichole.jpg" alt="Heather Wright"><div class="name">Heather Wright</div></a>
+<div class="reason">12/05/2024 | PROBATION VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/michael-white-58/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/White-Michael-Dylan-Cardullo.jpg" alt="Michael White"><div class="name">Michael White</div></a>
+<div class="reason">12/16/2024 | BOND VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/crystal-weaver-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Weaver-Crystal-Louise.jpg" alt="Crystal Weaver"><div class="name">Crystal Weaver</div></a>
+<div class="reason">12/06/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/james-tucker-16/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Tucker-James-William.jpg" alt="James Tucker"><div class="name">James Tucker</div></a>
+<div class="reason">12/10/2024 | BENCH WARRANT ELLIJAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tommy-stover-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Stover-Tommy-Lyn.jpg" alt="Tommy Stover"><div class="name">Tommy Stover</div></a>
+<div class="reason">12/16/2024 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/joseph-spaugh-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Spaugh-Joseph-Adam.jpg" alt="Joseph Spaugh"><div class="name">Joseph Spaugh</div></a>
+<div class="reason">12/14/2024 | THEFT BY TAKING - MISDEMEANORWALTON COUNTY WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jose-ortiz-32/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ortiz-Jose-1.jpg" alt="Jose Ortiz"><div class="name">Jose Ortiz</div></a>
+<div class="reason">12/14/2024 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/michael-nelson-29/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Nelson-Michael-Leon.jpg" alt="Michael Nelson"><div class="name">Michael Nelson</div></a>
+<div class="reason">12/04/2024 | NEGLECT TO A DISABLED ADULT/ELDER PERSON /RESIDENT OF LONG-TERM CARE FACILITY (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/terrance-myrieckes-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Myrieckes-Terrance-D.jpg" alt="Terrance Myrieckes"><div class="name">Terrance Myrieckes</div></a>
+<div class="reason">12/05/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/rachel-merrell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Merrell-Rachel-Louise.jpg" alt="Rachel Merrell"><div class="name">Rachel Merrell</div></a>
+<div class="reason">12/17/2024 | ACCOUNTABILITY COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/kristin-mcguyer-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/McGuyer-Kristin-Michelle.jpg" alt="Kristin McGuyer"><div class="name">Kristin McGuyer</div></a>
+<div class="reason">12/11/2024 | DRUG COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/alberto-landeverde/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Landeverde-Alberto.jpg" alt="Alberto Landeverde"><div class="name">Alberto Landeverde</div></a>
+<div class="reason">12/17/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FLEEING OR ATTEMPTING TO ELUDE A POLICE OFFICER - FELONYKNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATIONKNOWINGLY MAKING A FALSE STATEMENT PERTAINING TO MOTOR VEHICLE INSURANCE REQUIREPOSSESSION OF METHAMPHETAMINERECKLESS DRIVINGREG OF DELINQUENT VEH; COLLECTION & DISPOSITION OF PENALTIES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jerimiah-evatt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Evatt-Jerimiah-John.jpg" alt="Jerimiah Evatt"><div class="name">Jerimiah Evatt</div></a>
+<div class="reason">12/08/2024 | BENCH WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/shawn-chadwell-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Chadwell-Shawn-David.jpg" alt="Shawn Chadwell"><div class="name">Shawn Chadwell</div></a>
+<div class="reason">12/05/2024 | DRC VIOLATIONFAILURE TO PAY CHILD SUPPORTFAILURE TO PAY CHILD SUPPORT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/joey-bunch-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bunch-Joey-Wyneman.jpg" alt="Joey Bunch"><div class="name">Joey Bunch</div></a>
+<div class="reason">12/13/2024 | BURGLARY - 1ST DEGREE (FELONY)PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/james-adcock-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Adcock-James-David.jpg" alt="James Adcock"><div class="name">James Adcock</div></a>
+<div class="reason">12/12/2024 | ACCOUNTABILITY COURTBENCH WARRANTFELONY FLEEING POLICY OR ROADBLOCKLAYING DRAGSOBSTRUCTION OF AN OFFICER(MISDEMEANOR)PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/j-trinidad-aguillon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Aguillon-J-Trinidad-Hernandez.jpg" alt="J Trinidad Aguillon"><div class="name">J Trinidad Aguillon</div></a>
+<div class="reason">11/25/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATIONSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/daniel-smith-47/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Smith-Daniel-Andrew.jpg" alt="Daniel Smith"><div class="name">Daniel Smith</div></a>
+<div class="reason">11/22/2024 | DRUGS NOT IN ORIGINAL CONTAINER - MISDEMEANORDRUGS NOT IN ORIGINAL CONTAINER - MISDEMEANORLOITERING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/adam-weaver-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Weaver-Adam-Ralph-1.jpg" alt="Adam Weaver"><div class="name">Adam Weaver</div></a>
+<div class="reason">12/02/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANORCRIMINAL DAMAGE TO PROPERTY - 2ND DEGREE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/juan-vega-sanchez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Vega-Sanchez-Juan-Daniel.jpg" alt="Juan Vega-Sanchez"><div class="name">Juan Vega-Sanchez</div></a>
+<div class="reason">11/24/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jose-vega-sanchez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Vega-Sanchez-Jose-Domingo.jpg" alt="Jose Vega Sanchez"><div class="name">Jose Vega Sanchez</div></a>
+<div class="reason">11/24/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jeffrey-updike/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Updike-Jeffrey-Worth.jpg" alt="Jeffrey Updike"><div class="name">Jeffrey Updike</div></a>
+<div class="reason">11/28/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/alex-tomas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Tomas-Alex-Antonio.jpg" alt="Alex Tomas"><div class="name">Alex Tomas</div></a>
+<div class="reason">11/26/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)OPEN CONTAINER IN VEHICLETAG LIGHT ILLUMINATION REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/cindie-sexton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Sexton-Cindie-Lynn.jpg" alt="Cindie Sexton"><div class="name">Cindie Sexton</div></a>
+<div class="reason">11/25/2024 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/antonio-resendiz-montoya-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Resendiz-Montoya-Antonio.jpg" alt="Antonio Resendiz-Montoya"><div class="name">Antonio Resendiz-Montoya</div></a>
+<div class="reason">11/24/2024 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/nemorio-resendiz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Resendiz-Nemorio-Martinez.jpg" alt="Nemorio Resendiz"><div class="name">Nemorio Resendiz</div></a>
+<div class="reason">11/23/2024 | POSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/luis-resendiz-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Resendiz-Luis-Rey.jpg" alt="Luis Resendiz"><div class="name">Luis Resendiz</div></a>
+<div class="reason">11/23/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLRESTRICTIONS ON USE OF FLASHING OR REVOLVING BLUE LIGHTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/james-nix-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Nix-James-Inman.jpg" alt="James Nix"><div class="name">James Nix</div></a>
+<div class="reason">11/30/2024 | FALSE IMPRISONMENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/nashyia-morrow-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Morrow-Nashyia-Nicole.jpg" alt="Nashyia Morrow"><div class="name">Nashyia Morrow</div></a>
+<div class="reason">11/22/2024 | CARTERSVILLE WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/anthony-weaver-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Weaver-Anthony-A.jpg" alt="Anthony Weaver"><div class="name">Anthony Weaver</div></a>
+<div class="reason">12/02/2024 | AGGRAVATED BATTERYPARTIES TO CRIMESIMPLE ASSAULT.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/casey-irvin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Irvin-Casey-James-Ray.jpg" alt="Casey Irvin"><div class="name">Casey Irvin</div></a>
+<div class="reason">11/23/2024 | SIMPLE BATTERY - FAMILY VIOLENCEWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/richard-hendrix-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hendrix-Richard-Harold.jpg" alt="Richard Hendrix"><div class="name">Richard Hendrix</div></a>
+<div class="reason">11/27/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jackson-fazzio/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fazzio-Jackson-Lee.jpg" alt="Jackson Fazzio"><div class="name">Jackson Fazzio</div></a>
+<div class="reason">11/24/2024 | HUNTING DEER AT NIGHT - MISDEMEANORHUNTING FROM A MOTOR VEHICLE - MISDEMEANORHUNTING UPON OR DISCHARGING WEAPONS ACROSS A PUBLIC ROADOPEN CONTAINER IN VEHICLESALE OF ALCOHOL TO MINOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/gregory-engler-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Engler-II-Gregory-Phillip.jpg" alt="Gregory Engler"><div class="name">Gregory Engler</div></a>
+<div class="reason">11/27/2024 | CRIMINAL DAMAGE TO PROPERTY - 2ND DEGREESIMPLE ASSAULTWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/mateo-carmelo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Carmelo-Mateo-Perez.jpg" alt="Mateo Carmelo"><div class="name">Mateo Carmelo</div></a>
+<div class="reason">11/29/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/daniel-capalnas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Capalnas-Daniel-Sandu.jpg" alt="Daniel Capalnas"><div class="name">Daniel Capalnas</div></a>
+<div class="reason">11/30/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO OBEY TRAFFIC CONTROL DEVICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/fabian-banegas-rivera/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Banegas-Rivera-Fabian.jpg" alt="Fabian Banegas-Rivera"><div class="name">Fabian Banegas-Rivera</div></a>
+<div class="reason">11/23/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEME</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/roy-brownell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Brownell-Roy-Benjamin.jpg" alt="Roy Brownell"><div class="name">Roy Brownell</div></a>
+<div class="reason">11/23/2024 | FURNISHING, PURCHASING, AND POSSESSION OF ALCOHOLIC BEVERAGES BY PERSONS BELOW LHUNTING DEER AT NIGHT - MISDEMEANORHUNTING FROM A MOTOR VEHICLE - MISDEMEANORHUNTING UPON OR DISCHARGING WEAPONS ACROSS A PUBLIC ROAD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/logan-wilson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Wilson-Logan-Timothy.jpg" alt="Logan Wilson"><div class="name">Logan Wilson</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/waylon-nelson-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Nelson-Waylon-McCoy.jpg" alt="Waylon Nelson"><div class="name">Waylon Nelson</div></a>
+<div class="reason">11/25/2024 | ENTERING AUTOMOBILE OR OTHER MOTOR VEHICLE WITH INTENT TO COMMIT THEFT OR FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/daniel-morrow-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Morrow-Daniel-Joseph.jpg" alt="Daniel Morrow"><div class="name">Daniel Morrow</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/stephanie-montalvo-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Montalvo-Stephanie-Anne.jpg" alt="Stephanie Montalvo"><div class="name">Stephanie Montalvo</div></a>
+<div class="reason">11/25/2024 | THEFT OF SERVICE - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jon-meeks-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Meeks-Jon-Thomas.jpg" alt="Jon Meeks"><div class="name">Jon Meeks</div></a>
+<div class="reason">11/27/2024 | FAILURE TO APPEARPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jason-mapel-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Mapel-Jason-William.jpg" alt="Jason Mapel"><div class="name">Jason Mapel</div></a>
+<div class="reason">11/30/2024 | DUI - DRIVING UNDER THE INFLUENCE OF DRUGSEXPIRED VEHICLE TAG OR DECALFAILURE TO DRIVE WITHIN SINGLE LANENO INSURANCEPURCHASE, POSSESSION, MANUFACTURE, DISTRIBUTION, OR SALE OF MARIJUANASPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jessica-moore-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Moore-Jessica-Iveth.jpg" alt="Jessica Moore"><div class="name">Jessica Moore</div></a>
+<div class="reason">12/02/2024 | CRUELTY TO CHILDREN - 1ST DEGREECRUELTY TO CHILDREN - 1ST DEGREECRUELTY TO CHILDREN - 1ST DEGREECRUELTY TO CHILDREN - 1ST DEGREECRUELTY TO CHILDREN - 1ST DEGREE Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/brentley-holden/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Holden-Brentley-Mason.jpg" alt="Brentley Holden"><div class="name">Brentley Holden</div></a>
+<div class="reason">11/30/2024 | CHILD MOLESTATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jeziel-madrid/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Madrid-Jeziel-Armando.jpg" alt="Jeziel Madrid"><div class="name">Jeziel Madrid</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/andrew-long-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Long-Andrew-James.jpg" alt="Andrew Long"><div class="name">Andrew Long</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/christopher-ledford-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Ledford-Christopher-Jason.jpg" alt="Christopher Ledford"><div class="name">Christopher Ledford</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tomme-johnson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Johnson-Tomme-Nicole.jpg" alt="Tomme Johnson"><div class="name">Tomme Johnson</div></a>
+<div class="reason">11/22/2024 | CRIMINAL TRESPASSPROBATION VIOLATIONTHEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/david-jiminez-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Jiminez-David.jpg" alt="David Jiminez"><div class="name">David Jiminez</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/barry-harris/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Harris-Barry-Lee.jpg" alt="Barry Harris"><div class="name">Barry Harris</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jason-hamilton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Hamilton-Jason-David.jpg" alt="Jason Hamilton"><div class="name">Jason Hamilton</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/hunter-green-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Green-Hunter-Justice.jpg" alt="Hunter Green"><div class="name">Hunter Green</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/johnny-fortner-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Fortner-Johnny-Tyler-1.jpg" alt="Johnny Fortner"><div class="name">Johnny Fortner</div></a>
+<div class="reason">12/02/2024 | BOND VIOLATION PRETRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/joshua-flowers-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Flowers-Joshua-Thackston.jpg" alt="Joshua Flowers"><div class="name">Joshua Flowers</div></a>
+<div class="reason">11/29/2024 | AGGRAVATED STALKINGBONDSMAN OFF BONDBURGLARY - 1ST DEGREE (FELONY)CRIMINAL TRESPASS - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/adan-flores/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Flores-Adan-Garcia.jpg" alt="Adan Flores"><div class="name">Adan Flores</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/christian-cordon-zomora/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cordon-Zomora-Christian-Alexande.jpg" alt="Christian Cordon Zomora"><div class="name">Christian Cordon Zomora</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/phillip-cash-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Cash-Phillip-D.jpg" alt="Phillip Cash"><div class="name">Phillip Cash</div></a>
+<div class="reason">11/26/2024 | TRAFFICKING IN COCAINE, ILLEGAL DRUGS, MARIJUANA, OR METHAMPHETAMINETRAFFICKING IN COCAINE, ILLEGAL DRUGS, MARIJUANA, OR METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/steven-bruhn-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bruhn-Steven-Paul.jpg" alt="Steven Bruhn"><div class="name">Steven Bruhn</div></a>
+<div class="reason">11/22/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARGWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/arthur-brookshire/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Brookshire-Arthur-Ray.jpg" alt="Arthur Brookshire"><div class="name">Arthur Brookshire</div></a>
+<div class="reason">11/26/2024 | INTERFERENCE WITH GOVERNMENT PROPERTY - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/angela-bowers-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bowers-Angela-Katelyn.jpg" alt="Angela Bowers"><div class="name">Angela Bowers</div></a>
+<div class="reason">11/27/2024 | GIVING FALSE NAME, ADDRESS, OR BIRTHDATE TO LAW ENFORCEMENT OFFICERTHEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tobey-blankinship/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Blankinship-Tobey-Steven.jpg" alt="Tobey Blankinship"><div class="name">Tobey Blankinship</div></a>
+<div class="reason">12/02/2024 | HOUSED FOR FANNIN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/charles-bailey-24/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/12/Bailey-Charles-Fredrick.jpg" alt="Charles Bailey"><div class="name">Charles Bailey</div></a>
+<div class="reason">11/30/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)HOLD LAGRANGE COUNTYMARIJUANA-POSSESS LESS THAN 1 OZ.POSSESSION AND USE OF DRUG RELATED OBJECTS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/fabian-zea/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Zea-Fabian-Gurrero.jpg" alt="Fabian Zea"><div class="name">Fabian Zea</div></a>
+<div class="reason">10/19/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANETAILLIGHTS MAINTENANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/rhonda-yabrow/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Yabrow-Rhonda-Jane.jpg" alt="Rhonda Yabrow"><div class="name">Rhonda Yabrow</div></a>
+<div class="reason">10/23/2024 | HIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/peri-young/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Young-Peri-Brooke.jpg" alt="Peri Young"><div class="name">Peri Young</div></a>
+<div class="reason">11/14/2024 | FAMILY DRUG COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/adan-xac/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Xac-Adan-Asig.jpg" alt="Adan Xac"><div class="name">Adan Xac</div></a>
+<div class="reason">10/18/2024 | CRUELTY TO CHILDREN- 3RD DEGREESIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/alexandria-wilson-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Wilson-Alexandria-Christine.jpg" alt="Alexandria Wilson"><div class="name">Alexandria Wilson</div></a>
+<div class="reason">10/18/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)HABITUAL VIOL W/REVOKED LICENSE CONVICTED OF OPERATING MV AFTER 5Y/BEFORE DRIVER</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/terry-williams-47/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Williams-Terry-Lamar.jpg" alt="Terry Williams"><div class="name">Terry Williams</div></a>
+<div class="reason">11/09/2024 | ACCOUNTABILITY COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/christopher-whitten-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Whitten-Christopher-Boyd.jpg" alt="Christopher Whitten"><div class="name">Christopher Whitten</div></a>
+<div class="reason">11/06/2024 | FAILURE TO APPEAR FOR FINGERPRINTABLE CHARGE- MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/terrance-whisnant-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Whisnant-Terrance-Alexander.jpg" alt="Terrance Whisnant"><div class="name">Terrance Whisnant</div></a>
+<div class="reason">10/18/2024 | FAILURE TO DRIVE WITHIN SINGLE LANEHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/brett-welch/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Welch-Brett-Dakota.jpg" alt="Brett Welch"><div class="name">Brett Welch</div></a>
+<div class="reason">10/23/2024 | HOLD FOR BRADLEY TN</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/steven-wazlavek/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Wazlavek-Steven-Matthew.jpg" alt="Steven Wazlavek"><div class="name">Steven Wazlavek</div></a>
+<div class="reason">11/07/2024 | ADULT RESTRAINT LAW SEAT BELT 18 ANDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANEINTERFERENCE WITH GOVERNMENT PROPERTY - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/megan-ware-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Ware-Megan-Breana.jpg" alt="Megan Ware"><div class="name">Megan Ware</div></a>
+<div class="reason">10/26/2024 | AGGRAVATED STALKINGPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/noe-vicente/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Vicente-Noe-Isaias.jpg" alt="Noe Vicente"><div class="name">Noe Vicente</div></a>
+<div class="reason">11/01/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FAILURE TO YEILD ENTERING ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/ciro-velasco/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Velasco-Ciro-Bautista.jpg" alt="Ciro Velasco"><div class="name">Ciro Velasco</div></a>
+<div class="reason">11/03/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/stacie-underhill-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Underhill-Stacie-Dawn-1.jpg" alt="Stacie Underhill"><div class="name">Stacie Underhill</div></a>
+<div class="reason">10/26/2024 | LOITERINGPOSSESSION OF METHAMPHETAMINE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/charles-turner-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Turner-Charles-Anthony.jpg" alt="Charles Turner"><div class="name">Charles Turner</div></a>
+<div class="reason">10/18/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANORRECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/evan-teague-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Teague-Evan-Hunter.jpg" alt="Evan Teague"><div class="name">Evan Teague</div></a>
+<div class="reason">11/02/2024 | ADULT RESTRAINT LAW SEAT BELT 18 ANDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL UNDER THE AGE OF 21FAILURE TO YEILD WHEN TURNING LEFT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/shawn-taylor-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Taylor-Shawn-Terrell.jpg" alt="Shawn Taylor"><div class="name">Shawn Taylor</div></a>
+<div class="reason">10/30/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/christopher-taylor-59/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Taylor-Christopher-Micheal.jpg" alt="Christopher Taylor"><div class="name">Christopher Taylor</div></a>
+<div class="reason">11/02/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/daren-sullivan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Sullivan-Daren-Brian.jpg" alt="Daren Sullivan"><div class="name">Daren Sullivan</div></a>
+<div class="reason">10/19/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/roger-reid-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Reid-Roger-Alan.jpg" alt="Roger Reid"><div class="name">Roger Reid</div></a>
+<div class="reason">11/10/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF GLUE/AEROSOL/TOXIC VAPORFAILURE TO DRIVE WITHIN SINGLE LANEPOSSESSION AND USE OF DRUG RELATED OBJECTSPOSSESSION OF METHAMPHETAMINEREG OF DELINQUENT VEH; COLLECTION & DISPOSITION OF PENALTIES</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/marva-starks-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Starks-Marva-Kay.jpg" alt="Marva Starks"><div class="name">Marva Starks</div></a>
+<div class="reason">10/24/2024 | BOND VIOLATION PRETRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/john-starks/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Starks-John-Anthony.jpg" alt="John Starks"><div class="name">John Starks</div></a>
+<div class="reason">11/16/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)TAG LIGHT ILLUMINATION REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/hunter-stanley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Stanley-Hunter-Gerald.jpg" alt="Hunter Stanley"><div class="name">Hunter Stanley</div></a>
+<div class="reason">10/29/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/patricia-simmons-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Simmons-Patricia-Ann.jpg" alt="Patricia Simmons"><div class="name">Patricia Simmons</div></a>
+<div class="reason">10/29/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/logan-sanford-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Sanford-Logan-Wayne.jpg" alt="Logan Sanford"><div class="name">Logan Sanford</div></a>
+<div class="reason">10/28/2024 | TERRORISTIC THREATS AND ACTS - FELONY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/sabrina-sanders/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Sanders-Sabrina-Marie.jpg" alt="Sabrina Sanders"><div class="name">Sabrina Sanders</div></a>
+<div class="reason">11/17/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLOPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/muricio-rubio-reyes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Rubio-Reyes-Muricio.jpg" alt="Muricio Rubio-Reyes"><div class="name">Muricio Rubio-Reyes</div></a>
+<div class="reason">11/13/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)SPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/william-rollins-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Rollins-William-David.jpg" alt="William Rollins"><div class="name">William Rollins</div></a>
+<div class="reason">11/16/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO YEILD ENTERING ROADWAY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/chelsey-rogers-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Rogers-Chelsey-Deanne.jpg" alt="Chelsey Rogers"><div class="name">Chelsey Rogers</div></a>
+<div class="reason">10/27/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/oscar-reynoso-hernandez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Reynoso-Hernandez-Oscar-Hudiel.jpg" alt="Oscar Reynoso Hernandez"><div class="name">Oscar Reynoso Hernandez</div></a>
+<div class="reason">10/19/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)TAILLIGHTS MAINTENANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/domingo-reynoso-fernando/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Reynoso-Fernando-Domingo.jpg" alt="Domingo Reynoso Fernando"><div class="name">Domingo Reynoso Fernando</div></a>
+<div class="reason">11/16/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FAILURE TO OBEY TRAFFIC CONTROL DEVICE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/thomas-reece-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Reece-Thomas-Austin.jpg" alt="Thomas Reece"><div class="name">Thomas Reece</div></a>
+<div class="reason">11/02/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANEOPEN CONTAINER IN VEHICLERECKLESS DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/hunter-ray-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Ray-Hunter-Christian.jpg" alt="Hunter Ray"><div class="name">Hunter Ray</div></a>
+<div class="reason">10/27/2024 | AGGRAVATED BATTERYPARTIES TO CRIMESIMPLE ASSAULTSIMPLE BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/crystal-phillips-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Phillips-Crystal-Lynn.jpg" alt="Crystal Phillips"><div class="name">Crystal Phillips</div></a>
+<div class="reason">10/18/2024 | CRIMINAL TRESPASS - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/cody-pettyjohn/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Pettyjohn-Cody-Brian.jpg" alt="Cody Pettyjohn"><div class="name">Cody Pettyjohn</div></a>
+<div class="reason">10/20/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANEOPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/billy-parker-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Parker-Billy-Jack.jpg" alt="Billy Parker"><div class="name">Billy Parker</div></a>
+<div class="reason">11/09/2024 | DRIVING UNDER INFLUENCE DRUGS/ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/michael-owens-25/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Owens-Michael-Patrick.jpg" alt="Michael Owens"><div class="name">Michael Owens</div></a>
+<div class="reason">10/31/2024 | DRIVING WHILE LICENSE WITHDRAWNEXPIRED VEHICLE TAG OR DECALSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/elizabeth-ottimo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Ottimo-Elizabeth-Maria.jpg" alt="Elizabeth Ottimo"><div class="name">Elizabeth Ottimo</div></a>
+<div class="reason">11/16/2024 | THEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/favio-ortiz-guzman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Ortiz-Guzman-Favio.jpg" alt="Favio Ortiz-Guzman"><div class="name">Favio Ortiz-Guzman</div></a>
+<div class="reason">10/25/2024 | POSSESS OR CONTROL ANY MATERIAL DEPICTING MINOR IN SEXUALLY EXPLICIT CONDUCT (M)POSSESS OR CONTROL ANY MATERIAL DEPICTING MINOR IN SEXUALLY EXPLICIT CONDUCT (M)POSSESS OR CONTROL ANY MATERIAL DEPICTING MINOR IN SEXUALLY EXPLICIT CONDUCT (M)POSSESS OR CONTROL ANY MATERIAL DEPICTING MINOR IN SEXUALLY EXPLICIT CONDUCT (M)POSSESS OR CONTROL ANY...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/brandon-croy-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Croy-Brandon-Ray.jpg" alt="Brandon Croy"><div class="name">Brandon Croy</div></a>
+<div class="reason">11/01/2024 | DRUG COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/christopher-coleman-27/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Coleman-Christopher-Michael.jpg" alt="Christopher Coleman"><div class="name">Christopher Coleman</div></a>
+<div class="reason">10/18/2024 | CRUELTY TO CHILDREN- 3RD DEGREECRUELTY TO CHILDREN- 3RD DEGREEEXPLOIT/INFLICT PAIN TO/DEPRIVE ESSENTIAL SERVICES TO DISABLED PERSON, ELDER PEEXPLOIT/INFLICT PAIN TO/DEPRIVE ESSENTIAL SERVICES TO DISABLED PERSON, ELDER PEOBSTRUCTION OF AN OFFICER(MISDEMEANOR)SIMPLE BATTERY - FAMILY VIOLENCETERRORISTIC THREATS AND ACTS - MISDEMEANORWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/trammell-cleary-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Cleary-Jr-Trammell-Ervin.jpg" alt="Trammell Cleary"><div class="name">Trammell Cleary</div></a>
+<div class="reason">11/15/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/thomas-buice-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Buice-Thomas-Scott.jpg" alt="Thomas Buice"><div class="name">Thomas Buice</div></a>
+<div class="reason">11/16/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANORCRIMINAL TRESPASS - FAMILY VIOLENCETHEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/teresa-bagwell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bagwell-Teresa-Lynn.jpg" alt="Teresa Bagwell"><div class="name">Teresa Bagwell</div></a>
+<div class="reason">11/01/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/kenneth-bagwell-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bagwell-Kenneth-Ray.jpg" alt="Kenneth Bagwell"><div class="name">Kenneth Bagwell</div></a>
+<div class="reason">11/21/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/john-morgan-32/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Morgan-John-Davis.jpg" alt="John Morgan"><div class="name">John Morgan</div></a>
+<div class="reason">11/18/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FOLLOWING TO CLOSELYGIVING WRONG SIGNAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/isaias-montes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Montes-Isaias-Otero.jpg" alt="Isaias Montes"><div class="name">Isaias Montes</div></a>
+<div class="reason">11/01/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)TO FAST FOR CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/stephanie-montalvo-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Montalvo-Stephanie-Anne.jpg" alt="Stephanie Montalvo"><div class="name">Stephanie Montalvo</div></a>
+<div class="reason">11/16/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/christopher-meissner/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Meissner-Christopher-Pete.jpg" alt="Christopher Meissner"><div class="name">Christopher Meissner</div></a>
+<div class="reason">11/19/2024 | FAILURE TO APPEAR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/steven-meides-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Meides-Steven-Craig.jpg" alt="Steven Meides"><div class="name">Steven Meides</div></a>
+<div class="reason">10/18/2024 | SIMPLE BATTERYSIMPLE ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/daniel-mcgill-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/McGill-Daniel-Patrick.jpg" alt="Daniel McGill"><div class="name">Daniel McGill</div></a>
+<div class="reason">11/13/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/nicolas-mcdaniel/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/McDaniel-Nicolas-Brennan.jpg" alt="Nicolas McDaniel"><div class="name">Nicolas McDaniel</div></a>
+<div class="reason">11/10/2024 | DRIVING ON WRONG SIDE OF THE ROADDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANETO FAST FOR CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/katie-mccoy-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/McCoy-Katie-Allison.jpg" alt="Katie McCoy"><div class="name">Katie McCoy</div></a>
+<div class="reason">11/05/2024 | BOND VIOLATION PRETRIALBONDSMAN OF BONDMENTAL HEALTH COURT OPT OUT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/louis-mazzotti-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Mazzotti-Louis-Anthony.jpg" alt="Louis Mazzotti"><div class="name">Louis Mazzotti</div></a>
+<div class="reason">11/03/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANETO FAST FOR CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/michael-martin-68/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Martin-Michael-Marcel-Maurice.jpg" alt="Michael Martin"><div class="name">Michael Martin</div></a>
+<div class="reason">11/16/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jonathan-martin-38/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Martin-Jonathan-Darrell-1.jpg" alt="Jonathan Martin"><div class="name">Jonathan Martin</div></a>
+<div class="reason">11/07/2024 | BATTERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/stephanie-mackay/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Mackay-Stephanie-C.jpg" alt="Stephanie Mackay"><div class="name">Stephanie Mackay</div></a>
+<div class="reason">11/14/2024 | ADULT RESTRAINT LAW SEAT BELT 18 ANDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANEOPEN CONTAINER IN VEHICLETO FAST FOR CONDITIONS</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jerry-lowe-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Lowe-Jerry-Ray.jpg" alt="Jerry Lowe"><div class="name">Jerry Lowe</div></a>
+<div class="reason">11/10/2024 | DRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/erick-lenny/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Lenny-Erick.jpg" alt="Erick Lenny"><div class="name">Erick Lenny</div></a>
+<div class="reason">11/03/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/lance-lefevre-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Lefevre-Lance-Rae.jpg" alt="Lance Lefevre"><div class="name">Lance Lefevre</div></a>
+<div class="reason">10/28/2024 | DRUG RELATED OBJECTS.EXPIRED VEHICLE TAG OR DECALNO INSURANCEPOSSESSION OF A SCHEDULE II CONTROLLED SUBSTANCETAMPERING WITH EVIDENCE.</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/allen-lanning-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Lanning-Allen-William.jpg" alt="Allen Lanning"><div class="name">Allen Lanning</div></a>
+<div class="reason">10/26/2024 | LOITERING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/robert-king-41/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/King-Robert-Arlan.jpg" alt="Robert King"><div class="name">Robert King</div></a>
+<div class="reason">11/18/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/shelby-jensen/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Jensen-Shelby-Arlene.jpg" alt="Shelby Jensen"><div class="name">Shelby Jensen</div></a>
+<div class="reason">10/24/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/rashad-hunter-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hunter-Rashad-Cardell.jpg" alt="Rashad Hunter"><div class="name">Rashad Hunter</div></a>
+<div class="reason">10/20/2024 | DRIVING W/O LICENSE ON PERSONDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)TEXTING EMAIL OR INERNET USE W/DRIVING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/larry-law-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Law-III-Larry-Ward.jpg" alt="Larry Law"><div class="name">Larry Law</div></a>
+<div class="reason">11/14/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/robert-hulsey-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hulsey-Robert-Arthur.jpg" alt="Robert Hulsey"><div class="name">Robert Hulsey</div></a>
+<div class="reason">11/06/2024 | AFFRAY (FIGHTING)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/weena-hobbs-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hobbs-Weena-Leilani.jpg" alt="Weena Hobbs"><div class="name">Weena Hobbs</div></a>
+<div class="reason">11/05/2024 | DISORDERLY CONDUCTDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/joshua-hice-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hice-Joshua-Ryan.jpg" alt="Joshua Hice"><div class="name">Joshua Hice</div></a>
+<div class="reason">11/09/2024 | 24 HR DRUG COURT SERVE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/billy-hester-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hester-Billy-Joe.jpg" alt="Billy Hester"><div class="name">Billy Hester</div></a>
+<div class="reason">10/19/2024 | BOND VIOLATION PRETRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/rylie-henson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Henson-Rylie-Elizabeth.jpg" alt="Rylie Henson"><div class="name">Rylie Henson</div></a>
+<div class="reason">10/21/2024 | ROBBERY</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/christa-henson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Henson-Christa-Lea.jpg" alt="Christa Henson"><div class="name">Christa Henson</div></a>
+<div class="reason">10/28/2024 | BURGLARY - 1ST DEGREE (FELONY)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jay-harrington/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Harrington-Jay-Leonard.jpg" alt="Jay Harrington"><div class="name">Jay Harrington</div></a>
+<div class="reason">11/21/2024 | COMMERCIAL VEHICLE HOURS OF SERVICE VIOLATIONDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)UNSAFE OPERATION OF RADIO OR TELEPHONE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/dillon-hamilton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Hamilton-Dillon-Shawn.jpg" alt="Dillon Hamilton"><div class="name">Dillon Hamilton</div></a>
+<div class="reason">11/18/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)NO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/francisco-guererro/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Guererro-Francisco-Alvarado.jpg" alt="Francisco Guererro"><div class="name">Francisco Guererro</div></a>
+<div class="reason">11/01/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)KNOWINGLY DRIVING MOTOR VEHICLE ON SUSPENDED, CANCELED, OR REVOKED REGISTRATIONNO INSURANCESPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/noah-goswick-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Goswick-Noah-Elija.jpg" alt="Noah Goswick"><div class="name">Noah Goswick</div></a>
+<div class="reason">10/23/2024 | BOND VIOLATION PRETRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/david-goodman-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Goodman-David-Scott.jpg" alt="David Goodman"><div class="name">David Goodman</div></a>
+<div class="reason">11/20/2024 | CRIMINAL TRESPASS - FAMILY VIOLENCESIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/tonya-garrett-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Garrett-Tonya-Milagros.jpg" alt="Tonya Garrett"><div class="name">Tonya Garrett</div></a>
+<div class="reason">10/30/2024 | PROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/javier-garcia-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Garcia-Javier-Caraco.jpg" alt="Javier Garcia"><div class="name">Javier Garcia</div></a>
+<div class="reason">10/26/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANEFAILURE TO STOP AT RED LIGHTOPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jose-garcia-benitez/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Garcia-Benitez-Jose-Salvador.jpg" alt="Jose Garcia Benitez"><div class="name">Jose Garcia Benitez</div></a>
+<div class="reason">11/05/2024 | SPEEDINGCOBB COUNTY WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/manuel-fransico-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Fransico-Manuel-Andres.jpg" alt="Manuel Fransico"><div class="name">Manuel Fransico</div></a>
+<div class="reason">10/28/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANENO INSURANCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/sandra-frady/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Frady-Sandra-Lynn.jpg" alt="Sandra Frady"><div class="name">Sandra Frady</div></a>
+<div class="reason">10/20/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO YIELD RIGHT OF WAYOPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/michael-fox-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Fox-Michael-Adrian.jpg" alt="Michael Fox"><div class="name">Michael Fox</div></a>
+<div class="reason">11/13/2024 | DESTROY/REMOVE/CONCEAL/ENCUMBER/TRANSFER /DEAL WITH PROPERTY SUBJ TO SECURITY INT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/mindy-forbes/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Forbes-Mindy-Marie.jpg" alt="Mindy Forbes"><div class="name">Mindy Forbes</div></a>
+<div class="reason">11/03/2024 | THEFT BY SHOPLIFTING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/zachary-duncan-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Duncan-Zachary-Alan.jpg" alt="Zachary Duncan"><div class="name">Zachary Duncan</div></a>
+<div class="reason">10/27/2024 | SIMPLE ASSAULT F/VSIMPLE ASSAULT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/stanley-duncan-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Duncan-Stanley-Eugene.jpg" alt="Stanley Duncan"><div class="name">Stanley Duncan</div></a>
+<div class="reason">11/13/2024 | CRUELTY TO CHILDREN- 3RD DEGREESIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/felipe-domingo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Domingo-Felipe-Ramos.jpg" alt="Felipe Domingo"><div class="name">Felipe Domingo</div></a>
+<div class="reason">10/20/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANORCRUELTY TO CHILDREN- 3RD DEGREEWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERSWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANORWILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS BY USE OF THREATS OR VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/rodney-deal/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Deal-Rodney-Fitzgerald.jpg" alt="Rodney Deal"><div class="name">Rodney Deal</div></a>
+<div class="reason">10/29/2024 | BOND VIOLATION PRETRIAL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/brandon-crooke-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Crooke-Brandon-Cleve.jpg" alt="Brandon Crooke"><div class="name">Brandon Crooke</div></a>
+<div class="reason">10/30/2024 | WILLFUL OBSTRUCTION OF LAW ENFORCEMENT OFFICERS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/raymond-cobb/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Cobb-Raymond-Berry.jpg" alt="Raymond Cobb"><div class="name">Raymond Cobb</div></a>
+<div class="reason">11/09/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/remington-clampitt/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Clampitt-Remington-Lee.jpg" alt="Remington Clampitt"><div class="name">Remington Clampitt</div></a>
+<div class="reason">11/02/2024 | FAILURE TO DRIVE WITHIN SINGLE LANEDUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL UNDER THE AGE OF 21OPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/miguel-chavez-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Chavez-Miguel-Angel-Balcazar.jpg" alt="Miguel Chavez"><div class="name">Miguel Chavez</div></a>
+<div class="reason">11/02/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLFAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/gerardo-chavero-ruiz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Chavero-Ruiz-Gerardo.jpg" alt="Gerardo Chavero Ruiz"><div class="name">Gerardo Chavero Ruiz</div></a>
+<div class="reason">10/28/2024 | DRIVING ON WRONG SIDE OF THE ROADDRIVING WHILE LICENSE SUSPENDED OR REVOKED (MISDEMEANOR)FAILURE TO DRIVE WITHIN SINGLE LANETAG LIGHT ILLUMINATION REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/anthony-chambers-19/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Chambers-Anthony-Joseph.jpg" alt="Anthony Chambers"><div class="name">Anthony Chambers</div></a>
+<div class="reason">11/05/2024 | ACCOUNTABILITY COURT VIOLATION</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/marcus-caudill/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Caudill-Marcus.jpg" alt="Marcus Caudill"><div class="name">Marcus Caudill</div></a>
+<div class="reason">10/22/2024 | DISORDERLY CONDUCTSIMPLE ASSAULT - FAMILY VIOLENCETERRORISTIC THREATS AND ACTS - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/michael-castillo-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Castillo-Michael-Jaron.jpg" alt="Michael Castillo"><div class="name">Michael Castillo</div></a>
+<div class="reason">11/17/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLTAG LIGHT ILLUMINATION REQUIRED</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/michael-casey-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Casey-Michael-Thomas.jpg" alt="Michael Casey"><div class="name">Michael Casey</div></a>
+<div class="reason">11/16/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLIMPROPER LANE CHANGE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/michael-burse-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Burse-Michael-Deshon-1.jpg" alt="Michael Burse"><div class="name">Michael Burse</div></a>
+<div class="reason">11/06/2024 | MANUF/DELIVER/DIST/ADMIN/SELL/POSSESS WID SYNTHETIC CANNABINOID, SYNTHETIC MARIJSPEEDING</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/ruddel-burroughs-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Burroughs-Ruddel-Jackson.jpg" alt="Ruddel Burroughs"><div class="name">Ruddel Burroughs</div></a>
+<div class="reason">11/06/2024 | FORSYTH COUNTY WARRANT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/cloie-burnell/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Burnell-Cloie-Rose.jpg" alt="Cloie Burnell"><div class="name">Cloie Burnell</div></a>
+<div class="reason">11/19/2024 | AGGRAVATED ASSAULTTHEFT BY TAKING - MISDEMEANOR</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/nicholas-brown-38/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Brown-Nicholas-John.jpg" alt="Nicholas Brown"><div class="name">Nicholas Brown</div></a>
+<div class="reason">11/19/2024 | SIMPLE BATTERY - FAMILY VIOLENCE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/howard-brinkley-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Brinkley-Howard-Keith.jpg" alt="Howard Brinkley"><div class="name">Howard Brinkley</div></a>
+<div class="reason">10/30/2024 | BATTERY-FAMILY VIOLENCE (1ST OFFENSE) MISDEMEANORPROBATION VIOLATION (WHEN PROBATION TERMS ARE ALTERED) FOR FINGERPRINTABLE CHARG</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/alicia-bransford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bransford-Alicia-Jolene.jpg" alt="Alicia Bransford"><div class="name">Alicia Bransford</div></a>
+<div class="reason">11/14/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOL</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/jesse-bradburn-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bradburn-Jesse-Ethan.jpg" alt="Jesse Bradburn"><div class="name">Jesse Bradburn</div></a>
+<div class="reason">11/18/2024 | DISORDERLY CONDUCT</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/james-bigham-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Bigham-James-Robert.jpg" alt="James Bigham"><div class="name">James Bigham</div></a>
+<div class="reason">10/26/2024 | DUI - DRIVING UNDER THE INFLUENCE OF ALCOHOLHIT AND RUN; DUTY OF DRIVER TO STOP AT OR RETURN TO SCENE OF ACCIDENTOPEN CONTAINER IN VEHICLE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/gilmer/santos-benito/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2024/11/Benito-Santos-Aguilar.jpg" alt="Santos Benito"><div class="name">Santos Benito</div></a>
+<div class="reason">11/02/2024 | DRIVING WITHOUT A VALID LICENSE (MISDEMEANOR)FAILURE TO DRIVE WITHIN SINGLE LANE</div>
+</div>
+</div><div class="pagination"><a href="gilmer3.html">Next Page</a></div></body></html>

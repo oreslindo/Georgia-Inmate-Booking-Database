@@ -1,0 +1,858 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Georgia Jail Bookings & Inmate Arrest Record Archives</title>
+    <style>
+        @font-face {
+            font-family: 'Texgyrecursor';
+            src: url('TexgyrecursorRegular.otf') format('opentype');
+        }
+        body {
+            background-color: #121212;
+            color: #eeeeee;
+            font-family: 'Texgyrecursor', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+        }
+        img {
+            max-width: 106%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #00c6ff;
+            font-size: 1rem;
+            display: block;
+            word-wrap: break-word;
+        }
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .reason {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 1px solid #00c6ff;
+            border-radius: 5px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .pagination a:hover {
+            background-color: #00c6ff;
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/victor-mullins-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/MULLINS-VICTOR-SHERWIN.jpg" alt="Victor Mullins"><div class="name">Victor Mullins</div></a>
+<div class="reason">02/25/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/lamarkito-marion-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/MARION-LAMARKITO-LOUIS-1.jpg" alt="Lamarkito Marion"><div class="name">Lamarkito Marion</div></a>
+<div class="reason">02/25/2025 | Criminal Damage to Property 2nd Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/shiaunte-kinsey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/KINSEY-SHIAUNTE-TYNNETTE.jpg" alt="Shiaunte Kinsey"><div class="name">Shiaunte Kinsey</div></a>
+<div class="reason">02/25/2025 | Deposit account fraud-$1500 or more</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/delonte-holland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/HOLLAND-DELONTE-JERMAINE.jpg" alt="Delonte Holland"><div class="name">Delonte Holland</div></a>
+<div class="reason">02/25/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/joshua-lancaster-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/LANCASTER-JOSHUA-TIMOTHY.jpg" alt="Joshua Lancaster"><div class="name">Joshua Lancaster</div></a>
+<div class="reason">03/03/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/travon-kimber-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/KIMBER-TRAVON-ANTOINE.jpg" alt="Travon Kimber"><div class="name">Travon Kimber</div></a>
+<div class="reason">03/03/2025 | Battery-FVA 1st Offense (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/gerico-johnson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/JOHNSON-GERICO-SERABIAN.jpg" alt="Gerico Johnson"><div class="name">Gerico Johnson</div></a>
+<div class="reason">03/03/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tejuantarius-jackson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/JACKSON-TEJUANTARIUS-RAEQUON.jpg" alt="Tejuantarius Jackson"><div class="name">Tejuantarius Jackson</div></a>
+<div class="reason">03/03/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/yashua-harewood-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/HAREWOOD-YASHUA-AMIR.jpg" alt="Yashua Harewood"><div class="name">Yashua Harewood</div></a>
+<div class="reason">03/03/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/shamiya-hagood/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/HAGOOD-SHAMIYA-KHALIL.jpg" alt="Shamiya Hagood"><div class="name">Shamiya Hagood</div></a>
+<div class="reason">03/03/2025 | Terroristic Threats and Acts - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jeffrey-wheeler-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/WHEELER-JEFFREY-EDWARD.jpg" alt="Jeffrey Wheeler"><div class="name">Jeffrey Wheeler</div></a>
+<div class="reason">02/25/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/trellany-taylor-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Trellany-Taylor.jpg" alt="Trellany Taylor"><div class="name">Trellany Taylor</div></a>
+<div class="reason">02/25/2025 | Possession of Marijuana less than one ounceProof of minimum insuranceSchedule I- Controlled SubstancesSchedule II- Controlled SubstancesCrossing of guard lines with weapons, intoxicants, or drugsOperating Motor Vehicle with suspended, canceled or revoked registrationOperating Motor Vehicle Without Registration or Valid License PlatePossession of Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/rory-sparrow/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/SPARROW-RORY-DARNELL-JR.jpg" alt="Rory Sparrow"><div class="name">Rory Sparrow</div></a>
+<div class="reason">02/25/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/roynell-solomon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/SOLOMON-ROYNELL-TREVON.jpg" alt="Roynell Solomon"><div class="name">Roynell Solomon</div></a>
+<div class="reason">02/25/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/christian-pelicie-mederos-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/PELICIE-MEDEROS-CHRISTIAN.jpg" alt="Christian Pelicie-Mederos"><div class="name">Christian Pelicie-Mederos</div></a>
+<div class="reason">02/25/2025 | Theft of AutomobileObstruction of Officers-(M)Fleeing or attempting to elude a police officer (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/joseph-paleti/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/PALETI-JOSEPH.jpg" alt="Joseph Paleti"><div class="name">Joseph Paleti</div></a>
+<div class="reason">02/25/2025 | Simple Battery-FVCriminal Trespass-DamageSimple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/charles-calhoun-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Calhoun-Charles-Ervin-Jr.jpg" alt="Charles Calhoun"><div class="name">Charles Calhoun</div></a>
+<div class="reason">02/19/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/mcell-chance/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Chance-McEll.jpg" alt="McEll Chance"><div class="name">McEll Chance</div></a>
+<div class="reason">02/16/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/blake-wright-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/WRIGHT-BLAKE-LATHAUN-SR.jpg" alt="Blake Wright"><div class="name">Blake Wright</div></a>
+<div class="reason">03/02/2025 | Failure to Maintain LaneLicense requiredDUI/Alcohol/Less Safe</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/james-wensil-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/WENSIL-JAMES-LEE.jpg" alt="James Wensil"><div class="name">James Wensil</div></a>
+<div class="reason">03/02/2025 | Battery-FVA 1st Offense (M)Aggravated assault-strangulation Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kimberley-tyson-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/TYSON-KIMBERLEY-ANNE.jpg" alt="Kimberley Tyson"><div class="name">Kimberley Tyson</div></a>
+<div class="reason">03/02/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/james-tunon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/TUNON-JAMES-ALBERT.jpg" alt="James Tunon"><div class="name">James Tunon</div></a>
+<div class="reason">03/02/2025 | SpeedingDrivers with ability impaired by alcohol, drugs, or toxic vapor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jeremy-edwards-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/EDWARDS-JEREMY-DONTRAY.jpg" alt="Jeremy Edwards"><div class="name">Jeremy Edwards</div></a>
+<div class="reason">02/25/2025 | Probation Violation-(F)Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/michael-duncan-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DUNCAN-MICHAEL-EMMETT.jpg" alt="Michael Duncan"><div class="name">Michael Duncan</div></a>
+<div class="reason">02/25/2025 | Obedience required traffic-control devicesArrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/amari-donely/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DONELY-AMARI-Y.jpg" alt="Amari Donely"><div class="name">Amari Donely</div></a>
+<div class="reason">02/25/2025 | Battery-FVA 1st Offense (M)Cruelty to Children-3rd Degree or 3rd Offense (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tyler-denley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DENLEY-TYLER-ANTOINE.jpg" alt="Tyler Denley"><div class="name">Tyler Denley</div></a>
+<div class="reason">02/25/2025 | Harassing Phone Calls</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/melanie-dean-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DEAN-MELANIE-DAWN.jpg" alt="Melanie Dean"><div class="name">Melanie Dean</div></a>
+<div class="reason">02/25/2025 | Failure to Maintain LaneDriving while license suspended or revoked-MisdSchedule I- Controlled SubstancesPossession of Methamphetamine</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/robert-davis-84/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DAVIS-ROBERT-GORDON.jpg" alt="Robert Davis"><div class="name">Robert Davis</div></a>
+<div class="reason">02/25/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/marcus-daniels-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DANIELS-MARCUS-LONDELL.jpg" alt="Marcus Daniels"><div class="name">Marcus Daniels</div></a>
+<div class="reason">02/25/2025 | Terroristic Threats and Acts - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/darrell-cross-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/CROSS-DARRELL-LEMONT.jpg" alt="Darrell Cross"><div class="name">Darrell Cross</div></a>
+<div class="reason">02/25/2025 | Aggravated assault-strangulation Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may exist....</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/linda-chandler/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/CHANDLER-LINDA-YVONNE.jpg" alt="Linda Chandler"><div class="name">Linda Chandler</div></a>
+<div class="reason">02/25/2025 | Unlawful conduct during 9-1-1 call</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/toby-cooper/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/COOPER-TOBY-YOLANDA.jpg" alt="Toby Cooper"><div class="name">Toby Cooper</div></a>
+<div class="reason">02/25/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jyvun-bridges/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/BRIDGES-JYVUN-CHUNANDA.jpg" alt="Jyvun Bridges"><div class="name">Jyvun Bridges</div></a>
+<div class="reason">02/25/2025 | Driving while license suspended or revoked-Misd</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/quincey-bowers-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/BOWERS-QUINCEY-DAVID.jpg" alt="Quincey Bowers"><div class="name">Quincey Bowers</div></a>
+<div class="reason">02/25/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/giavonna-bullard-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BULLARD-GIAVONNA-ANGELICA.jpg" alt="Giavonna Bullard"><div class="name">Giavonna Bullard</div></a>
+<div class="reason">02/24/2025 | Simple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/robbie-adams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ADAMS-ROBBIE-DANIEL.jpg" alt="Robbie Adams"><div class="name">Robbie Adams</div></a>
+<div class="reason">02/23/2025 | Possession of MethamphetaminePossession of Marijuana less than one ouncePossession of Drug Related ObjectsStandards for brake lights and signal devicesTaillights</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/sequoiya-bennett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BENNETT-SEQUOIYA-1.jpg" alt="Sequoiya  Bennett"><div class="name">Sequoiya  Bennett</div></a>
+<div class="reason">02/23/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/david-beachum-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BEACHUM-DAVID-ALLEN.jpg" alt="David Beachum"><div class="name">David Beachum</div></a>
+<div class="reason">02/23/2025 | Failure to AppearProbation Violation-(M)Display of License PlatesDriving while license suspended or revoked-Misd</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tomie-anderson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ANDERSON-TOMIE-DANA.jpg" alt="Tomie Anderson"><div class="name">Tomie Anderson</div></a>
+<div class="reason">02/23/2025 | Drivers with ability impaired by alcohol, drugs, or toxic vapor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/luis-brewington/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BREWINGTON-LUIS-SIDNEY.jpg" alt="Luis Brewington"><div class="name">Luis Brewington</div></a>
+<div class="reason">02/23/2025 | Simple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/thomas-shriver/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SHRIVER-THOMAS-LOGAN.jpg" alt="Thomas Shriver"><div class="name">Thomas Shriver</div></a>
+<div class="reason">02/24/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/matthew-pena-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/PENA-MATTHEW-EZEKIEL-1.jpg" alt="Matthew Pena"><div class="name">Matthew Pena</div></a>
+<div class="reason">02/24/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/leslie-palacios-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/PALACIOS-LESLIE-ISIDRO.jpg" alt="Leslie Palacios"><div class="name">Leslie Palacios</div></a>
+<div class="reason">02/24/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/hayle-owens/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/OWENS-HAYLE-DANAE.jpg" alt="Hayle Owens"><div class="name">Hayle Owens</div></a>
+<div class="reason">02/24/2025 | Simple Battery-FVCriminal Trespass-Family Violence (M)Simple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jason-nicholas-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/NICHOLAS-JASON-LEE.jpg" alt="Jason Nicholas"><div class="name">Jason Nicholas</div></a>
+<div class="reason">02/24/2025 | Probation Violation-(F)Probation Violation-(F)Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/adrian-morales/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/MORALES-ADRIAN.jpg" alt="Adrian Morales"><div class="name">Adrian Morales</div></a>
+<div class="reason">02/24/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jordan-grimes-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/GRIMES-JORDAN-MAURICE.jpg" alt="Jordan Grimes"><div class="name">Jordan Grimes</div></a>
+<div class="reason">02/23/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/raquel-raiford-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/RAIFORD-RAQUEL-RUTH.jpg" alt="Raquel Raiford"><div class="name">Raquel Raiford</div></a>
+<div class="reason">02/23/2025 | Boarded/DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tyler-smith-41/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SMITH-TYLER.jpg" alt="Tyler Smith"><div class="name">Tyler Smith</div></a>
+<div class="reason">02/23/2025 | Robbery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kentavius-silas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SILAS-KENTAVIUS.jpg" alt="Kentavius Silas"><div class="name">Kentavius Silas</div></a>
+<div class="reason">02/23/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/juwante-sweet-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SWEET-JUWANTE-DANTEZ.jpg" alt="Juwante’ Sweet"><div class="name">Juwante’ Sweet</div></a>
+<div class="reason">02/23/2025 | Driving while license suspended or revoked-MisdDUI/Alcohol/Less SafeSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/cordell-walker-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WALKER-CORDELL-COLIQUE.jpg" alt="Cordell Walker"><div class="name">Cordell Walker</div></a>
+<div class="reason">02/23/2025 | Criminal TrespassTerroristic Threats and Acts - FelonyRobbery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jeffrey-thompson-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Thompson-Jeffrey-Wade.jpg" alt="Jeffrey Thompson"><div class="name">Jeffrey Thompson</div></a>
+<div class="reason">02/27/2025 | Possession of MethamphetamineCrossing of guard lines with weapons, intoxicants, or drugs</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/michael-thomas-124/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/THOMAS-MICHAEL-DESHAWN.jpg" alt="Michael Thomas"><div class="name">Michael Thomas</div></a>
+<div class="reason">02/27/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/daniel-scott-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/SCOTT-DANIEL-ERIC.jpg" alt="Daniel Scott"><div class="name">Daniel Scott</div></a>
+<div class="reason">02/27/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/donjanae-rogers-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/ROGERS-DONJANAE-DAIJON.jpg" alt="D’Onjanae Rogers"><div class="name">D’Onjanae Rogers</div></a>
+<div class="reason">02/27/2025 | Fleeing or attempting to elude a police officer (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/carol-roberts-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/ROBERTS-CAROL-YVETTE.jpg" alt="Carol Roberts"><div class="name">Carol Roberts</div></a>
+<div class="reason">02/27/2025 | Boarded/DPDProbation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/thomas-piper-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/PIPER-THOMAS-R.jpg" alt="Thomas Piper"><div class="name">Thomas Piper</div></a>
+<div class="reason">02/27/2025 | Possession of Drug Related ObjectsPossession, manufacturing, certain controlled substances Schedule II</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/matthew-busby-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BUSBY-MATTHEW-DYLAN-BLAINE.jpg" alt="Matthew Busby"><div class="name">Matthew Busby</div></a>
+<div class="reason">02/23/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/maurice-carter-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/CARTER-MAURICE-ALAN.jpg" alt="Maurice Carter"><div class="name">Maurice Carter</div></a>
+<div class="reason">02/23/2025 | Possession of Marijuana less than one ounceCriminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/lesly-douyon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/DOUYON-LESLY.jpg" alt="Lesly Douyon"><div class="name">Lesly Douyon</div></a>
+<div class="reason">02/23/2025 | Aggravated Assault Deadly WeaponObstruction of OfficersPossession of firearms-convicted felonsPossession of Firearm or Knife During Certain CrimesBattery - Misdemeanor Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/amber-clark-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/CLARK-AMBER-MICHELLE-1.jpg" alt="Amber Clark"><div class="name">Amber Clark</div></a>
+<div class="reason">02/23/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jason-otey-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/OTEY-JASON-EARL.jpg" alt="Jason Otey"><div class="name">Jason Otey</div></a>
+<div class="reason">02/23/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jordan-grimes-11/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/GRIMES-JORDAN-MAURICE.jpg" alt="Jordan Grimes"><div class="name">Jordan Grimes</div></a>
+<div class="reason">02/23/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tracy-landers-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/LANDERS-TRACY-LEON.jpg" alt="Tracy Landers"><div class="name">Tracy Landers</div></a>
+<div class="reason">02/22/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jessica-laguerre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/LAGUERRE-JESSICA.jpg" alt="Jessica Laguerre"><div class="name">Jessica Laguerre</div></a>
+<div class="reason">02/22/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kenneth-king-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/KING-KENNETH-CLAUDE.jpg" alt="Kenneth King"><div class="name">Kenneth King</div></a>
+<div class="reason">02/22/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/garrett-jones-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JONES-GARRETT-RAYMON-JR.jpg" alt="Garrett Jones"><div class="name">Garrett Jones</div></a>
+<div class="reason">02/22/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/bryanna-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JOHNSON-BRYANNA-MICHELL.jpg" alt="Bryanna Johnson"><div class="name">Bryanna Johnson</div></a>
+<div class="reason">02/22/2025 | Possession of Marijuana less than one ounce</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/amy-griffin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/GRIFFIN-AMY-MONIQUE.jpg" alt="Amy Griffin"><div class="name">Amy Griffin</div></a>
+<div class="reason">02/22/2025 | SpeedingDUI/Alcohol/Less Safe</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/inchantice-wright-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WRIGHT-INCHANTICE-FAITH.jpg" alt="Inchantice Wright"><div class="name">Inchantice Wright</div></a>
+<div class="reason">02/23/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kyzia-wint/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WINT-KYZIA-MARIE.jpg" alt="Kyzia Wint"><div class="name">Kyzia Wint</div></a>
+<div class="reason">02/23/2025 | DUI/Alcohol/Less SafeFailure to Maintain LaneObedience required traffic-control devices</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/stephen-young-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/YOUNG-STEPHEN-MICHAEL.jpg" alt="Stephen Young"><div class="name">Stephen Young</div></a>
+<div class="reason">02/23/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/warren-stewart-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/STEWART-WARREN-MATTHEW.jpg" alt="Warren Stewart"><div class="name">Warren Stewart</div></a>
+<div class="reason">02/22/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/stephenia-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SMITH-STEPHENIA-MONIQUE.jpg" alt="Stephenia Smith"><div class="name">Stephenia Smith</div></a>
+<div class="reason">02/22/2025 | Criminal Trespass-Family Violence (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tashara-ponder/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/PONDER-TASHARA-NICOLE.jpg" alt="Tashara Ponder"><div class="name">Tashara Ponder</div></a>
+<div class="reason">02/22/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/ronquavious-orr/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ORR-RONQUAVIOUS-ZACCHEUS.jpg" alt="Ronquavious Orr"><div class="name">Ronquavious Orr</div></a>
+<div class="reason">02/22/2025 | License requiredPossession of Marijuana less than one ounceSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/terry-neal-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/NEAL-TERRY-XAVIER.jpg" alt="Terry Neal"><div class="name">Terry Neal</div></a>
+<div class="reason">02/22/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/rhett-morgan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/MORGAN-RHETT-KENNETH.jpg" alt="Rhett Morgan"><div class="name">Rhett Morgan</div></a>
+<div class="reason">02/22/2025 | Battery-FVA 1st Offense (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jesus-montoya-mateo-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/MONTOYA-MATEO-JESUS.jpg" alt="Jesus Montoya-Mateo"><div class="name">Jesus Montoya-Mateo</div></a>
+<div class="reason">02/22/2025 | Probation Violation-(F)Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/benjamin-lowe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/LOWE-BENJAMIN-MARVELOUS.jpg" alt="Benjamin Lowe"><div class="name">Benjamin Lowe</div></a>
+<div class="reason">02/22/2025 | DUI/Alcohol/Less Safe</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tracy-landers-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/LANDERS-TRACY-LEON.jpg" alt="Tracy Landers"><div class="name">Tracy Landers</div></a>
+<div class="reason">02/22/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/adrian-mount-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/MOUNT-ADRIAN-DEONTE.jpg" alt="Adrian Mount"><div class="name">Adrian Mount</div></a>
+<div class="reason">02/26/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/echo-phillips-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/PHILLIPS-ECHO-JEAN.jpg" alt="Echo Phillips"><div class="name">Echo Phillips</div></a>
+<div class="reason">02/26/2025 | Simple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jeremy-prather-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/PRATHER-JEREMY-SCOTT.jpg" alt="Jeremy Prather"><div class="name">Jeremy Prather</div></a>
+<div class="reason">02/26/2025 | Production Order</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/oliver-simon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/SIMON-OLIVER-LOUIS-III.jpg" alt="Oliver Simon"><div class="name">Oliver Simon</div></a>
+<div class="reason">02/26/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/daniel-thompson-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/THOMPSON-DANIEL-RICHARD.jpg" alt="Daniel Thompson"><div class="name">Daniel Thompson</div></a>
+<div class="reason">02/26/2025 | Child molestation - 5 counts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/richard-tracy-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/TRACY-RICHARD-JR.jpg" alt="Richard Tracy"><div class="name">Richard Tracy</div></a>
+<div class="reason">02/26/2025 | Driving while license suspended or revoked-MisdTheft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/richard-daggs-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/DAGGS-RICHARD.jpg" alt="Richard Daggs"><div class="name">Richard Daggs</div></a>
+<div class="reason">02/22/2025 | Manufacture/Deliver/Distribute/Administer/Sell/Possess w/intent to DistributeTampering with evidence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/robert-cato-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/CATO-ROBERT-JUNIOR-1.jpg" alt="Robert Cato"><div class="name">Robert Cato</div></a>
+<div class="reason">02/22/2025 | Possession of Marijuana less than one ounceFollowing Too CloselySpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/shanon-bush/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BUSH-SHANON-GAIL.jpg" alt="Shanon Bush"><div class="name">Shanon Bush</div></a>
+<div class="reason">02/22/2025 | Loitering or Prowling</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/juan-arellano-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ARELLANO-JUAN-CARLOS-JR.jpg" alt="Juan Arellano"><div class="name">Juan Arellano</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tiffany-barron-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BARRON-TIFFANY-MAGNOLIA-L.jpg" alt="Tiffany Barron"><div class="name">Tiffany Barron</div></a>
+<div class="reason">02/21/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/karion-blanton/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BLANTON-KARION-JENNAE.jpg" alt="Karion Blanton"><div class="name">Karion Blanton</div></a>
+<div class="reason">02/21/2025 | Possession, manufacturing, etc., of certain controlled substances-Sch ITampering with evidenceManufacture/Deliver/Distribute/Administer/Sell/Possess w/intent to Distribute Possession of Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/mackenzie-degolier/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DEGOLIER-MACKENZIE-SHANE.jpg" alt="Mackenzie Degolier"><div class="name">Mackenzie Degolier</div></a>
+<div class="reason">02/26/2025 | Operating Motor Vehicle Without Registration or Valid License PlateFailure to Maintain LaneChange of Address or NameDUI/Alcohol/Less Safe</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kayla-duncan-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DUNCAN-KAYLA-MICHELLE-1.jpg" alt="Kayla Duncan"><div class="name">Kayla Duncan</div></a>
+<div class="reason">02/26/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/aaron-goodine-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/GOODINE-AARON-MICAH.jpg" alt="Aaron Goodine"><div class="name">Aaron Goodine</div></a>
+<div class="reason">02/26/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/zshaqira-duncan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DUNCAN-ZSHAQIRA-R.jpg" alt="Zshaqira Duncan"><div class="name">Zshaqira Duncan</div></a>
+<div class="reason">02/26/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/yesenia-hardnett-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/HARDNETT-YESENIA-TAPANGA.jpg" alt="Yesenia Hardnett"><div class="name">Yesenia Hardnett</div></a>
+<div class="reason">02/26/2025 | Simple Assault/FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/chelsea-hargis-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/HARGIS-CHELSEA-SHEA.jpg" alt="Chelsea Hargis"><div class="name">Chelsea Hargis</div></a>
+<div class="reason">02/26/2025 | Turning movements and required signalsSchedule II- Controlled SubstancesSchedule II- Controlled SubstancesSchedule IV- Controlled Substances</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/courtney-williams-31/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/WILLIAMS-COURTNEY-LYNN.jpg" alt="Courtney Williams"><div class="name">Courtney Williams</div></a>
+<div class="reason">02/25/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jeffrey-wheeler-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/WHEELER-JEFFREY-EDWARD.jpg" alt="Jeffrey Wheeler"><div class="name">Jeffrey Wheeler</div></a>
+<div class="reason">02/25/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/trellany-taylor-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/Trellany-Taylor.jpg" alt="Trellany Taylor"><div class="name">Trellany Taylor</div></a>
+<div class="reason">02/25/2025 | Possession of Marijuana less than one ounceProof of minimum insuranceSchedule I- Controlled SubstancesSchedule II- Controlled SubstancesCrossing of guard lines with weapons, intoxicants, or drugsOperating Motor Vehicle with suspended, canceled or revoked registrationOperating Motor Vehicle Without Registration or Valid License PlatePossession of Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/rory-sparrow/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/SPARROW-RORY-DARNELL-JR.jpg" alt="Rory Sparrow"><div class="name">Rory Sparrow</div></a>
+<div class="reason">02/25/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/roynell-solomon-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/SOLOMON-ROYNELL-TREVON.jpg" alt="Roynell Solomon"><div class="name">Roynell Solomon</div></a>
+<div class="reason">02/25/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/christian-pelicie-mederos-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/PELICIE-MEDEROS-CHRISTIAN.jpg" alt="Christian Pelicie-Mederos"><div class="name">Christian Pelicie-Mederos</div></a>
+<div class="reason">02/25/2025 | Theft of AutomobileObstruction of Officers-(M)Fleeing or attempting to elude a police officer (F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/joseph-paleti/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/PALETI-JOSEPH.jpg" alt="Joseph Paleti"><div class="name">Joseph Paleti</div></a>
+<div class="reason">02/25/2025 | Simple Battery-FVCriminal Trespass-DamageSimple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/elijah-munoz-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/MUNOZ-ELIJAH-SETH.jpg" alt="Elijah Munoz"><div class="name">Elijah Munoz</div></a>
+<div class="reason">02/25/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/victor-mullins-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/MULLINS-VICTOR-SHERWIN.jpg" alt="Victor Mullins"><div class="name">Victor Mullins</div></a>
+<div class="reason">02/25/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/lamarkito-marion-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/MARION-LAMARKITO-LOUIS-1.jpg" alt="Lamarkito Marion"><div class="name">Lamarkito Marion</div></a>
+<div class="reason">02/25/2025 | Criminal Damage to Property 2nd Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/shiaunte-kinsey/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/KINSEY-SHIAUNTE-TYNNETTE.jpg" alt="Shiaunte Kinsey"><div class="name">Shiaunte Kinsey</div></a>
+<div class="reason">02/25/2025 | Deposit account fraud-$1500 or more</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/delonte-holland-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/HOLLAND-DELONTE-JERMAINE.jpg" alt="Delonte Holland"><div class="name">Delonte Holland</div></a>
+<div class="reason">02/25/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/allison-hackney/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/HACKNEY-ALLISON-NICHOLE.jpg" alt="Allison Hackney"><div class="name">Allison Hackney</div></a>
+<div class="reason">02/25/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jeremy-edwards-14/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/EDWARDS-JEREMY-DONTRAY.jpg" alt="Jeremy Edwards"><div class="name">Jeremy Edwards</div></a>
+<div class="reason">02/25/2025 | Probation Violation-(F)Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/michael-duncan-10/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DUNCAN-MICHAEL-EMMETT.jpg" alt="Michael Duncan"><div class="name">Michael Duncan</div></a>
+<div class="reason">02/25/2025 | Obedience required traffic-control devicesArrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/amari-donely/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DONELY-AMARI-Y.jpg" alt="Amari Donely"><div class="name">Amari Donely</div></a>
+<div class="reason">02/25/2025 | Battery-FVA 1st Offense (M)Cruelty to Children-3rd Degree or 3rd Offense (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tyler-denley/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DENLEY-TYLER-ANTOINE.jpg" alt="Tyler Denley"><div class="name">Tyler Denley</div></a>
+<div class="reason">02/25/2025 | Harassing Phone Calls</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/melanie-dean-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DEAN-MELANIE-DAWN.jpg" alt="Melanie Dean"><div class="name">Melanie Dean</div></a>
+<div class="reason">02/25/2025 | Failure to Maintain LaneDriving while license suspended or revoked-MisdSchedule I- Controlled SubstancesPossession of Methamphetamine</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/robert-davis-84/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DAVIS-ROBERT-GORDON.jpg" alt="Robert Davis"><div class="name">Robert Davis</div></a>
+<div class="reason"></div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/marcus-daniels-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/DANIELS-MARCUS-LONDELL.jpg" alt="Marcus Daniels"><div class="name">Marcus Daniels</div></a>
+<div class="reason">02/25/2025 | Terroristic Threats and Acts - Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/darrell-cross-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/CROSS-DARRELL-LEMONT.jpg" alt="Darrell Cross"><div class="name">Darrell Cross</div></a>
+<div class="reason">02/25/2025 | Aggravated assault-strangulation Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may exist....</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/linda-chandler/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/CHANDLER-LINDA-YVONNE.jpg" alt="Linda Chandler"><div class="name">Linda Chandler</div></a>
+<div class="reason">02/25/2025 | Unlawful conduct during 9-1-1 call</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/toby-cooper/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/COOPER-TOBY-YOLANDA.jpg" alt="Toby Cooper"><div class="name">Toby Cooper</div></a>
+<div class="reason">02/25/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jyvun-bridges/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/BRIDGES-JYVUN-CHUNANDA.jpg" alt="Jyvun Bridges"><div class="name">Jyvun Bridges</div></a>
+<div class="reason">02/25/2025 | Driving while license suspended or revoked-Misd</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/quincey-bowers-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/BOWERS-QUINCEY-DAVID.jpg" alt="Quincey Bowers"><div class="name">Quincey Bowers</div></a>
+<div class="reason">02/25/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/brady-aaron-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/03/AARON-BRADY-DEMETRIC.jpg" alt="Brady Aaron"><div class="name">Brady Aaron</div></a>
+<div class="reason">02/25/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/andre-yates-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Yates-Andre-Terrell.jpg" alt="Andre Yates"><div class="name">Andre Yates</div></a>
+<div class="reason">02/24/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kayla-winn-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WINN-KAYLA-RENEE.jpg" alt="Kayla Winn"><div class="name">Kayla Winn</div></a>
+<div class="reason">02/24/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/april-tant-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/TANT-APRIL-COTTON.jpg" alt="April Tant"><div class="name">April Tant</div></a>
+<div class="reason">02/24/2025 | Probation Violation-(M)Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/shawn-smith-26/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SMITH-SHAWN-WADE-JR.jpg" alt="Shawn Smith"><div class="name">Shawn Smith</div></a>
+<div class="reason">02/24/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/micah-skinner-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SKINNER-MICAH-ELIJAH-1.jpg" alt="Micah Skinner"><div class="name">Micah Skinner</div></a>
+<div class="reason">02/24/2025 | Aggravated Stalking</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/thomas-shriver/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SHRIVER-THOMAS-LOGAN.jpg" alt="Thomas Shriver"><div class="name">Thomas Shriver</div></a>
+<div class="reason">02/24/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/matthew-pena-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/PENA-MATTHEW-EZEKIEL-1.jpg" alt="Matthew Pena"><div class="name">Matthew Pena</div></a>
+<div class="reason">02/24/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/leslie-palacios-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/PALACIOS-LESLIE-ISIDRO.jpg" alt="Leslie Palacios"><div class="name">Leslie Palacios</div></a>
+<div class="reason">02/24/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/hayle-owens/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/OWENS-HAYLE-DANAE.jpg" alt="Hayle Owens"><div class="name">Hayle Owens</div></a>
+<div class="reason">02/24/2025 | Simple Battery-FVCriminal Trespass-Family Violence (M)Simple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jason-nicholas-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/NICHOLAS-JASON-LEE.jpg" alt="Jason Nicholas"><div class="name">Jason Nicholas</div></a>
+<div class="reason">02/24/2025 | Probation Violation-(F)Probation Violation-(F)Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/paul-funderburg/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Funderburg-Paul-Mency.jpg" alt="Paul Funderburg"><div class="name">Paul Funderburg</div></a>
+<div class="reason">02/19/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/chelcy-dingle-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dingle-Chelcy-Frances.jpg" alt="Chelcy Dingle"><div class="name">Chelcy Dingle</div></a>
+<div class="reason">02/19/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/paola-diaz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Diaz-Paola-Ruby.jpg" alt="Paola Diaz"><div class="name">Paola Diaz</div></a>
+<div class="reason">02/19/2025 | Criminal Trespass-Damage</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jason-besley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Besley-Jason-Leon.jpg" alt="Jason Besley"><div class="name">Jason Besley</div></a>
+<div class="reason">02/19/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/myria-baum/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Baum-Myria-Jean.jpg" alt="Myria Baum"><div class="name">Myria Baum</div></a>
+<div class="reason">02/19/2025 | Criminal Trespass-DamageObstruction of Officers-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/brittany-bannister-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bannister-Brittany-Diane.jpg" alt="Brittany Bannister"><div class="name">Brittany Bannister</div></a>
+<div class="reason">02/19/2025 | Possession of MethamphetamineTampering with evidenceProbation Violation-(F)Driving while license suspended or revoked-Misd</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/giavonna-bullard-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BULLARD-GIAVONNA-ANGELICA.jpg" alt="Giavonna Bullard"><div class="name">Giavonna Bullard</div></a>
+<div class="reason">02/24/2025 | Simple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/robbie-adams-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ADAMS-ROBBIE-DANIEL.jpg" alt="Robbie Adams"><div class="name">Robbie Adams</div></a>
+<div class="reason">02/23/2025 | Possession of MethamphetaminePossession of Marijuana less than one ouncePossession of Drug Related ObjectsStandards for brake lights and signal devicesTaillights</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/sequoiya-bennett/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BENNETT-SEQUOIYA-1.jpg" alt="Sequoiya  Bennett"><div class="name">Sequoiya  Bennett</div></a>
+<div class="reason">02/23/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/david-beachum-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BEACHUM-DAVID-ALLEN.jpg" alt="David Beachum"><div class="name">David Beachum</div></a>
+<div class="reason">02/23/2025 | Failure to AppearProbation Violation-(M)Display of License PlatesDriving while license suspended or revoked-Misd</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tomie-anderson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ANDERSON-TOMIE-DANA.jpg" alt="Tomie Anderson"><div class="name">Tomie Anderson</div></a>
+<div class="reason">02/23/2025 | Drivers with ability impaired by alcohol, drugs, or toxic vapor</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/luis-brewington/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BREWINGTON-LUIS-SIDNEY.jpg" alt="Luis Brewington"><div class="name">Luis Brewington</div></a>
+<div class="reason">02/23/2025 | Simple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/michael-self-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Self-Michael-Ray.jpg" alt="Michael Self"><div class="name">Michael Self</div></a>
+<div class="reason">02/18/2025 | Obstruction of Officers-(M)Theft by Shoplifting</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/william-robertson-34/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Robertson-William-Jayvyn.jpg" alt="William Robertson"><div class="name">William Robertson</div></a>
+<div class="reason">02/18/2025 | Probation Violation-(F)Criminal Trespass-Family Violence (M)Simple Battery-Police Officer/LE</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/isaiah-niass-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Niass-Isaiah-Sharif.jpg" alt="Isaiah Niass"><div class="name">Isaiah Niass</div></a>
+<div class="reason">02/18/2025 | Obstruction of Officers-(M)Criminal Damage to Property 1st DegreeBurglary-1st Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/oscar-maya-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Maya-Oscar-Loeza.jpg" alt="Oscar Maya"><div class="name">Oscar Maya</div></a>
+<div class="reason">02/18/2025 | Possession of MethamphetamineCriminal Trespass-Enter after NoticePossession of Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/marquavius-hunt-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hunt-Marquavius-T.jpg" alt="Marquavius Hunt"><div class="name">Marquavius Hunt</div></a>
+<div class="reason">02/18/2025 | Harassing Phone Calls</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/charles-howell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Howell-Charles-Brandon.jpg" alt="Charles Howell"><div class="name">Charles Howell</div></a>
+<div class="reason">02/18/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jason-otey-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/OTEY-JASON-EARL.jpg" alt="Jason Otey"><div class="name">Jason Otey</div></a>
+<div class="reason">02/23/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/raquel-raiford-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/RAIFORD-RAQUEL-RUTH.jpg" alt="Raquel Raiford"><div class="name">Raquel Raiford</div></a>
+<div class="reason">02/23/2025 | Boarded/DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tyler-smith-41/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SMITH-TYLER.jpg" alt="Tyler Smith"><div class="name">Tyler Smith</div></a>
+<div class="reason">02/23/2025 | Robbery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kentavius-silas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SILAS-KENTAVIUS.jpg" alt="Kentavius Silas"><div class="name">Kentavius Silas</div></a>
+<div class="reason">02/23/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/juwante-sweet-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SWEET-JUWANTE-DANTEZ.jpg" alt="Juwante’ Sweet"><div class="name">Juwante’ Sweet</div></a>
+<div class="reason">02/23/2025 | Driving while license suspended or revoked-MisdDUI/Alcohol/Less SafeSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/cordell-walker-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WALKER-CORDELL-COLIQUE.jpg" alt="Cordell Walker"><div class="name">Cordell Walker</div></a>
+<div class="reason">02/23/2025 | Criminal TrespassTerroristic Threats and Acts - FelonyRobbery</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/abraham-uriostegui-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/URIOSTEGUI-ABRAHAM.jpg" alt="Abraham Uriostegui"><div class="name">Abraham Uriostegui</div></a>
+<div class="reason">02/23/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/inchantice-wright-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WRIGHT-INCHANTICE-FAITH.jpg" alt="Inchantice Wright"><div class="name">Inchantice Wright</div></a>
+<div class="reason">02/23/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kyzia-wint/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WINT-KYZIA-MARIE.jpg" alt="Kyzia Wint"><div class="name">Kyzia Wint</div></a>
+<div class="reason">02/23/2025 | DUI/Alcohol/Less SafeFailure to Maintain LaneObedience required traffic-control devices</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/stephen-young-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/YOUNG-STEPHEN-MICHAEL.jpg" alt="Stephen Young"><div class="name">Stephen Young</div></a>
+<div class="reason">02/23/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/warren-stewart-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/STEWART-WARREN-MATTHEW.jpg" alt="Warren Stewart"><div class="name">Warren Stewart</div></a>
+<div class="reason">02/22/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/stephenia-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SMITH-STEPHENIA-MONIQUE.jpg" alt="Stephenia Smith"><div class="name">Stephenia Smith</div></a>
+<div class="reason">02/22/2025 | Criminal Trespass-Family Violence (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tashara-ponder/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/PONDER-TASHARA-NICOLE.jpg" alt="Tashara Ponder"><div class="name">Tashara Ponder</div></a>
+<div class="reason">02/22/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/ronquavious-orr/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ORR-RONQUAVIOUS-ZACCHEUS.jpg" alt="Ronquavious Orr"><div class="name">Ronquavious Orr</div></a>
+<div class="reason">02/22/2025 | License requiredPossession of Marijuana less than one ounceSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/terry-neal-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/NEAL-TERRY-XAVIER.jpg" alt="Terry Neal"><div class="name">Terry Neal</div></a>
+<div class="reason">02/22/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/rhett-morgan/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/MORGAN-RHETT-KENNETH.jpg" alt="Rhett Morgan"><div class="name">Rhett Morgan</div></a>
+<div class="reason">02/22/2025 | Battery-FVA 1st Offense (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jesus-montoya-mateo-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/MONTOYA-MATEO-JESUS.jpg" alt="Jesus Montoya-Mateo"><div class="name">Jesus Montoya-Mateo</div></a>
+<div class="reason">02/22/2025 | Probation Violation-(F)Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/benjamin-lowe/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/LOWE-BENJAMIN-MARVELOUS.jpg" alt="Benjamin Lowe"><div class="name">Benjamin Lowe</div></a>
+<div class="reason">02/22/2025 | DUI/Alcohol/Less Safe</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tracy-landers-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/LANDERS-TRACY-LEON.jpg" alt="Tracy Landers"><div class="name">Tracy Landers</div></a>
+<div class="reason">02/22/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jessica-laguerre/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/LAGUERRE-JESSICA.jpg" alt="Jessica Laguerre"><div class="name">Jessica Laguerre</div></a>
+<div class="reason">02/22/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kenneth-king-18/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/KING-KENNETH-CLAUDE.jpg" alt="Kenneth King"><div class="name">Kenneth King</div></a>
+<div class="reason">02/22/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/garrett-jones-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JONES-GARRETT-RAYMON-JR.jpg" alt="Garrett Jones"><div class="name">Garrett Jones</div></a>
+<div class="reason">02/22/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/bryanna-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JOHNSON-BRYANNA-MICHELL.jpg" alt="Bryanna Johnson"><div class="name">Bryanna Johnson</div></a>
+<div class="reason">02/22/2025 | Possession of Marijuana less than one ounce</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/amy-griffin/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/GRIFFIN-AMY-MONIQUE.jpg" alt="Amy Griffin"><div class="name">Amy Griffin</div></a>
+<div class="reason">02/22/2025 | SpeedingDUI/Alcohol/Less Safe</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jamichael-goss-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/GOSS-JAMICHAEL-RASHAWN.jpg" alt="Jamichael Goss"><div class="name">Jamichael Goss</div></a>
+<div class="reason">02/22/2025 | Driving while license suspended or revoked-MisdArrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/richard-daggs-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/DAGGS-RICHARD.jpg" alt="Richard Daggs"><div class="name">Richard Daggs</div></a>
+<div class="reason">02/22/2025 | Manufacture/Deliver/Distribute/Administer/Sell/Possess w/intent to DistributeTampering with evidence</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/robert-cato-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/CATO-ROBERT-JUNIOR-1.jpg" alt="Robert Cato"><div class="name">Robert Cato</div></a>
+<div class="reason">02/22/2025 | Possession of Marijuana less than one ounceFollowing Too CloselySpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/shanon-bush/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BUSH-SHANON-GAIL.jpg" alt="Shanon Bush"><div class="name">Shanon Bush</div></a>
+<div class="reason">02/22/2025 | Loitering or Prowling</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/juan-arellano-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/ARELLANO-JUAN-CARLOS-JR.jpg" alt="Juan Arellano"><div class="name">Juan Arellano</div></a>
+<div class="reason">02/21/2025 | Possession, manufacturing, etc., of certain controlled substances-Sch IPossession of Firearm or Knife During Certain CrimesMurder</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tiffany-barron-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BARRON-TIFFANY-MAGNOLIA-L.jpg" alt="Tiffany Barron"><div class="name">Tiffany Barron</div></a>
+<div class="reason">02/21/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/gustavo-salazar-chacon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Salazar-chacon-Gustavo.jpg" alt="Gustavo Salazar-Chacon"><div class="name">Gustavo Salazar-Chacon</div></a>
+<div class="reason">02/16/2025 | Simple Battery-FV</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/denise-jefferson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jefferson-Denise-Lucille.jpg" alt="Denise Jefferson"><div class="name">Denise Jefferson</div></a>
+<div class="reason">02/16/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/victoria-glover-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Glover-Victoria-Danielle.jpg" alt="Victoria Glover"><div class="name">Victoria Glover</div></a>
+<div class="reason">02/16/2025 | Crossing of guard lines with weapons, intoxicants, or drugsCriminal Damage to Property 2nd Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/ajahene-curry/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Curry-Ajahene.jpg" alt="Ajahene Curry"><div class="name">Ajahene Curry</div></a>
+<div class="reason">02/16/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/thomas-craft-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Craft-Thomas-Asbury.jpg" alt="Thomas Craft"><div class="name">Thomas Craft</div></a>
+<div class="reason">02/16/2025 | Violate Family Violence Order</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/michael-ash-15/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Ash-Michael-Charles.jpg" alt="Michael Ash"><div class="name">Michael Ash</div></a>
+<div class="reason">02/16/2025 | Criminal Trespass</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/james-matiak-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Matiak-James-Joseph.jpg" alt="James Matiak"><div class="name">James Matiak</div></a>
+<div class="reason">02/16/2025 | Hit and RunFollowing Too Closely Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/michaela-jones-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jones-Michaela-Lee.jpg" alt="Michaela Jones"><div class="name">Michaela Jones</div></a>
+<div class="reason">02/16/2025 | Child abandonment-(M)Reckless Conduct Officer’s Narrative:[Please note: The following is a direct transcription from the official initial incident report. The Georgia Gazette does not fix any spelling or grammatical errors that may exist. Any changes or redactions made by our staff are placed inside brackets. Some errors may...</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jazzman-gates/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gates-Jazzman-Jaunese.jpg" alt="Jazzman Gates"><div class="name">Jazzman Gates</div></a>
+<div class="reason">02/16/2025 | Crossing of guard lines with weapons, intoxicants, or drugsDisorderly ConductCriminal Damage to Property 2nd Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/david-worrell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Worrell-David-Rhaheem.jpg" alt="David Worrell"><div class="name">David Worrell</div></a>
+<div class="reason">02/15/2025 | Possession of Marijuana less than one ounceHeadlights</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/raymond-williams-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Raymond-Anthony.jpg" alt="Raymond Williams"><div class="name">Raymond Williams</div></a>
+<div class="reason">02/15/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kenneth-white-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/White-Kenneth-Wayne.jpg" alt="Kenneth White"><div class="name">Kenneth White</div></a>
+<div class="reason">02/15/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/joshua-strassburg-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/STRASSBURG-JOSHUA-ROBERT.jpg" alt="Joshua Strassburg"><div class="name">Joshua Strassburg</div></a>
+<div class="reason">02/21/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jovani-shackleford/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SHACKLEFORD-JOVANI-GRANT.jpg" alt="Jovani Shackleford"><div class="name">Jovani Shackleford</div></a>
+<div class="reason">02/21/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/demetrius-westry-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WESTRY-DEMETRIUS-LASHUN.jpg" alt="Demetrius Westry"><div class="name">Demetrius Westry</div></a>
+<div class="reason">02/21/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/cameron-wright-9/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WRIGHT-CAMERON-DEVIN.jpg" alt="Cameron Wright"><div class="name">Cameron Wright</div></a>
+<div class="reason">02/20/2025 | Due Care, Hands Free, Electronic DevicesPossession of Marijuana less than one ounce</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/deonte-walker/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WALKER-DEONTE-RASHAD.jpg" alt="Deonte Walker"><div class="name">Deonte Walker</div></a>
+<div class="reason">02/20/2025 | Simple Battery-FVFalse ImprisonmentCruelty to Children-3rd Degree or 3rd Offense (M)Obstructing/Harassing 911 Calls</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/emoni-stovall-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/STOVALL-EMONI-LAMONT.jpg" alt="Emoni Stovall"><div class="name">Emoni Stovall</div></a>
+<div class="reason">02/20/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/gillette-pulliam-6/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/PULLIAM-GILLETTE-SHAUNTE.jpg" alt="Gillette Pulliam"><div class="name">Gillette Pulliam</div></a>
+<div class="reason">02/20/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tierra-lightfoot/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/LIGHTFOOT-TIERRA-ASHLEY.jpg" alt="Tierra Lightfoot"><div class="name">Tierra Lightfoot</div></a>
+<div class="reason">02/20/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/michael-johnson-196/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JOHNSON-MICHAEL-JAMAL.jpg" alt="Michael Johnson"><div class="name">Michael Johnson</div></a>
+<div class="reason">02/20/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/laila-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JOHNSON-LAILA-RAJANEA.jpg" alt="Laila Johnson"><div class="name">Laila Johnson</div></a>
+<div class="reason">02/20/2025 | Battery-FVA 1st Offense (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/anavia-johnson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JOHNSON-ANAVIA-NIKEZHIA-LEKI.jpg" alt="A’Navia Johnson"><div class="name">A’Navia Johnson</div></a>
+<div class="reason">02/20/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/marcaus-hutchinson/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/HUTCHINSON-MARCAUS-TYRONE.jpg" alt="Marcaus Hutchinson"><div class="name">Marcaus Hutchinson</div></a>
+<div class="reason">02/20/2025 | Theft by Receiving Stolen Vehicle</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/briana-hill-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/HILL-BRIANA-SIMONE.jpg" alt="Briana Hill"><div class="name">Briana Hill</div></a>
+<div class="reason">02/20/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/deante-harper-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/HARPER-DEANTE-LEMONT.jpg" alt="Deante Harper"><div class="name">Deante Harper</div></a>
+<div class="reason">02/20/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/caeyani-fryar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/FRYAR-CAEYANI-LARAE-ALAYAH.jpg" alt="Cae’Yani Fryar"><div class="name">Cae’Yani Fryar</div></a>
+<div class="reason">02/20/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kavon-fooks-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/FOOKS-KAVON-ORLANDO-KEITH.jpg" alt="Kavon Fooks"><div class="name">Kavon Fooks</div></a>
+<div class="reason">02/20/2025 | Boarded/DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/marlon-diaz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/DIAZ-MARLON-DAVID.jpg" alt="Marlon Diaz"><div class="name">Marlon Diaz</div></a>
+<div class="reason">02/20/2025 | Criminal Trespass-Damage</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/patrick-busby/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BUSBY-PATRICK-RUSSELL.jpg" alt="Patrick Busby"><div class="name">Patrick Busby</div></a>
+<div class="reason">02/20/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kristy-barfield/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BARFIELD-KRISTY-MIRANDA.jpg" alt="Kristy Barfield"><div class="name">Kristy Barfield</div></a>
+<div class="reason">02/15/2025 | Burglary-1st Degree</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/gregory-bankston/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/BANKSTON-GREGORY-LEWIS-II.jpg" alt="Gregory Bankston"><div class="name">Gregory Bankston</div></a>
+<div class="reason">02/15/2025 | Criminal Trespass-Family Violence (M)Battery-FVA 1st Offense (M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/bernardo-aquino-ballinas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/AQUINO-BALLINAS-BERNARDO-LEOBIGILDO.jpg" alt="Bernardo Aquino-Ballinas"><div class="name">Bernardo Aquino-Ballinas</div></a>
+<div class="reason">02/15/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/vincent-williams-20/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Williams-Vincent-Therman-Claxton.jpg" alt="Vincent Williams"><div class="name">Vincent Williams</div></a>
+<div class="reason">02/14/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/paul-waldrip-12/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Waldrip-Paul-Thomas.jpg" alt="Paul Waldrip"><div class="name">Paul Waldrip</div></a>
+<div class="reason">02/14/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/zachery-uzzle-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Uzzle-Zachery-Greg.jpg" alt="Zachery Uzzle"><div class="name">Zachery Uzzle</div></a>
+<div class="reason">02/14/2025 | Probation Violation-(F)Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/daylon-richardson-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Richardson-Daylon-James.jpg" alt="Daylon Richardson"><div class="name">Daylon Richardson</div></a>
+<div class="reason">02/19/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/michael-munger/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Munger-Michael-Eugene.jpg" alt="Michael Munger"><div class="name">Michael Munger</div></a>
+<div class="reason">02/19/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jose-mendoza-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mendoza-Jose-Antonio.jpg" alt="Jose Mendoza"><div class="name">Jose Mendoza</div></a>
+<div class="reason">02/19/2025 | Speeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tony-mason-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Mason-Tony-ONeal.jpg" alt="Tony Mason"><div class="name">Tony Mason</div></a>
+<div class="reason">02/19/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/yanse-lafayette-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Lafayette-Yanse-Lavar-1.jpg" alt="Yanse Lafayette"><div class="name">Yanse Lafayette</div></a>
+<div class="reason">02/19/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/raven-hilliard-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hilliard-Raven-Nicole-1.jpg" alt="Raven Hilliard"><div class="name">Raven Hilliard</div></a>
+<div class="reason">02/19/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/derek-guyton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Guyton-Derek-Allen.jpg" alt="Derek Guyton"><div class="name">Derek Guyton</div></a>
+<div class="reason">02/19/2025 | Probation Violation-(F)Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/paul-funderburg/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Funderburg-Paul-Mency.jpg" alt="Paul Funderburg"><div class="name">Paul Funderburg</div></a>
+<div class="reason">02/19/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/chelcy-dingle-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Dingle-Chelcy-Frances.jpg" alt="Chelcy Dingle"><div class="name">Chelcy Dingle</div></a>
+<div class="reason">02/19/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/paola-diaz/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Diaz-Paola-Ruby.jpg" alt="Paola Diaz"><div class="name">Paola Diaz</div></a>
+<div class="reason">02/19/2025 | Criminal Trespass-Damage</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jason-besley-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Besley-Jason-Leon.jpg" alt="Jason Besley"><div class="name">Jason Besley</div></a>
+<div class="reason">02/19/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/myria-baum/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Baum-Myria-Jean.jpg" alt="Myria Baum"><div class="name">Myria Baum</div></a>
+<div class="reason">02/19/2025 | Criminal Trespass-DamageObstruction of Officers-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/adrienne-johnson-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Johnson-Adrienne-Shawn.jpg" alt="Adrienne Johnson"><div class="name">Adrienne Johnson</div></a>
+<div class="reason">02/14/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/nasia-jackson-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Jackson-Nasia-Amari-1.jpg" alt="Nasia Jackson"><div class="name">Nasia Jackson</div></a>
+<div class="reason">02/14/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/faith-issachar/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Issachar-Faith-Lydia.jpg" alt="Faith Issachar"><div class="name">Faith Issachar</div></a>
+<div class="reason">02/14/2025 | Purchase, possession, manufacture, distribution, or sale of controlled substances or marijuana; penaltiesPossession of Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/brandon-douglas/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Douglas-Brandon-Raymond.jpg" alt="Brandon Douglas"><div class="name">Brandon Douglas</div></a>
+<div class="reason">02/14/2025 | SpeedingRacing on Highways and Streets</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tyler-davis-13/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Davis-Tyler-Nicole.jpg" alt="Tyler Davis"><div class="name">Tyler Davis</div></a>
+<div class="reason">02/14/2025 | DUI/Alcohol/Less SafeConsuming Alcoholic Beverage or Possessing Open Alcoholic Beverage Container While in Passenger Area of Motor VehicleSpeeding</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/danny-croft/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Croft-Danny-Covington.jpg" alt="Danny Croft"><div class="name">Danny Croft</div></a>
+<div class="reason">02/14/2025 | Entering Automobile - 9 Counts</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/nicholas-clarke-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Clarke-Nicholas-Mykel.jpg" alt="Nicholas Clarke"><div class="name">Nicholas Clarke</div></a>
+<div class="reason">02/14/2025 | Purchase, possession, manufacture, distribution, or sale of marijuana-FelonyPossession of Drug Related Objects</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/christy-caciolo/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Caciolo-Christy-Melissa.jpg" alt="Christy Caciolo"><div class="name">Christy Caciolo</div></a>
+<div class="reason">02/14/2025 | Possession, manufacturing, certain controlled substances Schedule IIPossession of Marijuana less than one ouncePossession of Methamphetamine</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/james-bullock-4/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bullock-James-Junious.jpg" alt="James Bullock"><div class="name">James Bullock</div></a>
+<div class="reason">02/14/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/stormy-britt-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Britt-Stormy-Desiree.jpg" alt="Stormy Britt"><div class="name">Stormy Britt</div></a>
+<div class="reason">02/14/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/michelle-bishop-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Bishop-Michelle-Lee.jpg" alt="Michelle Bishop"><div class="name">Michelle Bishop</div></a>
+<div class="reason">02/14/2025 | Criminal Trespass-Damage</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jauan-benton-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Benton-Jauan-Deshun.jpg" alt="Jauan Benton"><div class="name">Jauan Benton</div></a>
+<div class="reason">02/14/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/charles-howell-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Howell-Charles-Brandon.jpg" alt="Charles Howell"><div class="name">Charles Howell</div></a>
+<div class="reason">02/18/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/skylar-hawkins-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Hawkins-Skylar-Demetrius.jpg" alt="Skylar Hawkins"><div class="name">Skylar Hawkins</div></a>
+<div class="reason">02/18/2025 | Probation Violation-(F)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/maurice-gibbs/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Gibbs-Maurice-Rahkim.jpg" alt="Maurice Gibbs"><div class="name">Maurice Gibbs</div></a>
+<div class="reason">02/18/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/sergio-garcia-7/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Garcia-Sergio-Rosario.jpg" alt="Sergio Garcia"><div class="name">Sergio Garcia</div></a>
+<div class="reason">02/18/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/derrick-davis-29/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Davis-Derrick-Anthony.jpg" alt="Derrick Davis"><div class="name">Derrick Davis</div></a>
+<div class="reason">02/18/2025 | Stalking - MisdemeanorReckless Conduct</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/zannie-copeland-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/Copeland-Zannie.jpg" alt="Zannie Copeland"><div class="name">Zannie Copeland</div></a>
+<div class="reason">02/18/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/dixie-waters-3/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/WATERS-DIXIE-ROSE.jpg" alt="Dixie Waters"><div class="name">Dixie Waters</div></a>
+<div class="reason">02/13/2025 | Sentenced</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/niheshia-smith/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SMITH-NIHESHIA-MAKALA-SAMANTHA.jpg" alt="Niheshia Smith"><div class="name">Niheshia Smith</div></a>
+<div class="reason">02/13/2025 | Arrested for Other Agency/Charges</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/leslie-sherman/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/SHERMAN-LESLIE.jpg" alt="Leslie Sherman"><div class="name">Leslie Sherman</div></a>
+<div class="reason">02/13/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/tristem-mclendon/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/MCLENDON-TRISTEM-LENARD-JR.jpg" alt="Tristem McLendon"><div class="name">Tristem McLendon</div></a>
+<div class="reason">02/13/2025 | Probation Violation-(M)</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/zachery-johnson-8/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JOHNSON-ZACHERY-LAVELLE.jpg" alt="Zachery Johnson"><div class="name">Zachery Johnson</div></a>
+<div class="reason">02/13/2025 | Possession of Drug Related ObjectsManufacture/Deliver/Distribute/Administer/Sell/Possess w/intent to DistributePurchase, possession, manufacture, distribution, or sale of marijuana-Felony</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/justin-jasper-5/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/JASPER-JUSTIN-OMER.jpg" alt="Justin Jasper"><div class="name">Justin Jasper</div></a>
+<div class="reason">02/13/2025 | Boarded for DPD</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/dontevyius-taylor-2/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/TAYLOR-DONTEVYIUS-QUINTEZ.jpg" alt="Dontevyius Taylor"><div class="name">Dontevyius Taylor</div></a>
+<div class="reason">02/17/2025 | Failure to Appear</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/lasha-tavartkiladze/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/TAVARTKILADZE-LASHA.jpg" alt="Lasha Tavartkiladze"><div class="name">Lasha Tavartkiladze</div></a>
+<div class="reason">02/17/2025 | Driving while license suspended or revoked-MisdObedience to and required traffic control devices</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/kamryn-pharms/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/PHARMS-KAMRYN-VICTOR.jpg" alt="Kamryn Pharms"><div class="name">Kamryn Pharms</div></a>
+<div class="reason">02/17/2025 | Reckless DrivingEntering AutomobileFleeing or attempting to elude a police officer (F)No Passing ZonesTheft of Automobile</div>
+</div>
+<div class="card"><a href="https://thegeorgiagazette.com/douglas/jasmine-paris/" target="_blank"><img src="https://cdn.thegeorgiagazette.com/wp-content/uploads/2025/02/PARIS-JASMINE-JO-ANN.jpg" alt="Jasmine Paris"><div class="name">Jasmine Paris</div></a>
+<div class="reason">02/17/2025 | Criminal Trespass-Enter</div>
+</div>
+</div><div class="pagination"><a href="douglas6.html">Next Page</a></div></body></html>
