@@ -9,59 +9,102 @@ class MugshotSearchApp(QtWidgets.QWidget):
         super().__init__()
 
         # Window setup
-        self.setWindowTitle("Inmate Record Search")
-        self.setGeometry(100, 100, 900, 600)  # Set window size to 900x600
-        self.setWindowOpacity(0.98)  # Set transparency (0 = fully transparent, 1 = fully opaque)
-        
+        self.setWindowTitle("Georgia Jail Booking & Inmate Arrest Records")
+        self.setGeometry(50, 50, 1200, 700)  # Larger window size
+        self.setWindowOpacity(0.97)  # Slightly less transparent
+
         # Layout setup
         layout = QtWidgets.QVBoxLayout(self)
 
-        # Search inputs (with dark theme)
+        # Search inputs (professional dark theme)
         self.name_input = QtWidgets.QLineEdit(self)
         self.name_input.setPlaceholderText('Search by Name')
-        self.name_input.setStyleSheet("background-color: #17202a; color: #d4efdf; padding: 5px; border-radius: 5px;")
+        self.name_input.setStyleSheet("""
+            background-color: #23272e;
+            color: #e0e6ed;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #39424e;
+            font-size: 16px;
+        """)
         layout.addWidget(self.name_input)
 
         self.reason_input = QtWidgets.QLineEdit(self)
         self.reason_input.setPlaceholderText('Search by Reason')
-        self.reason_input.setStyleSheet("background-color: #17202a; color: #d4efdf; padding: 5px; border-radius: 5px;")
+        self.reason_input.setStyleSheet("""
+            background-color: #23272e;
+            color: #e0e6ed;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #39424e;
+            font-size: 16px;
+        """)
         layout.addWidget(self.reason_input)
 
         self.profile_url_input = QtWidgets.QLineEdit(self)
         self.profile_url_input.setPlaceholderText('Search by County')
-        self.profile_url_input.setStyleSheet("background-color: #17202a; color: #d4efdf; padding: 5px; border-radius: 5px;")
+        self.profile_url_input.setStyleSheet("""
+            background-color: #23272e;
+            color: #e0e6ed;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #39424e;
+            font-size: 16px;
+        """)
         layout.addWidget(self.profile_url_input)
 
-        # Search button (with dark theme)
+        # Search button (professional dark theme)
         self.search_button = QtWidgets.QPushButton('Search', self)
-        self.search_button.setStyleSheet("background-color: #17202a; color: #0a5e10; padding: 8px; border-radius: 5px;")
+        self.search_button.setStyleSheet("""
+            background-color: #1a1d23;
+            color: #4fd18b;
+            padding: 10px 0;
+            border-radius: 6px;
+            border: 1px solid #39424e;
+            font-size: 16px;
+            font-weight: bold;
+        """)
         self.search_button.clicked.connect(self.search_profiles)
         layout.addWidget(self.search_button)
 
-        # Results table setup (with dark theme)
+        # Results table setup (professional dark theme)
         self.results_table = QtWidgets.QTableWidget(self)
         self.results_table.setColumnCount(5)
         self.results_table.setHorizontalHeaderLabels(['ID', 'Name', 'Reason', 'County', 'Image URL'])
-        # Set header text color to black and results text to green
         self.results_table.setStyleSheet("""
             QHeaderView::section {
-                background-color: #17202a;
-                color: #1567eb;
-                font-size: 14px;
-                border: 1px solid #444444;
+                background-color: #23272e;
+                color: #4fd18b;
+                font-size: 15px;
+                font-weight: bold;
+                border: 1px solid #39424e;
+                padding: 6px;
             }
             QTableWidget {
-                background-color: #17202a;
-                color: #FFFFFF;
-                border: 1px solid #444444;
-                font-size: 14px;
+                background-color: #181a20;
+                color: #e0e6ed;
+                border: 1px solid #39424e;
+                font-size: 15px;
+                selection-background-color: #263445;
+                selection-color: #4fd18b;
+            }
+            QTableWidget QTableCornerButton::section {
+                background-color: #23272e;
+                border: 1px solid #39424e;
             }
         """)
+        self.results_table.horizontalHeader().setDefaultSectionSize(220)  # Wider columns
+        self.results_table.verticalHeader().setDefaultSectionSize(36)
         layout.addWidget(self.results_table)
 
         # Label to display total results
         self.results_count_label = QtWidgets.QLabel(self)
-        self.results_count_label.setStyleSheet("color: #17202a; font-size: 15px; padding: 5px;")
+        self.results_count_label.setStyleSheet("""
+            color: #181a20;
+            font-size: 16px;
+            padding: 8px 0 0 0;
+            font-weight: bold;
+        """)
         layout.addWidget(self.results_count_label)
 
         self.setLayout(layout)
@@ -70,9 +113,9 @@ class MugshotSearchApp(QtWidgets.QWidget):
         try:
             conn = mysql.connector.connect(
                 host="vavps.duckdns.org",
-                user="guest",
-                password="password",
-                database="GA_Jail_Booking"
+                user="guest",  # Replace with your DB username
+                password="guest",  # Replace with your DB password
+                database="GA_Jail_Booking"  # Replace with your database name
             )
             return conn
         except mysql.connector.Error as err:
@@ -136,11 +179,11 @@ class MugshotSearchApp(QtWidgets.QWidget):
                 reason = "Image URL (not a valid reason)"
 
             # Update the table with the data
-            self.results_table.setItem(row_idx, 0, QTableWidgetItem(str(row[0])))
-            self.results_table.setItem(row_idx, 1, QTableWidgetItem(str(name)))
-            self.results_table.setItem(row_idx, 2, QTableWidgetItem(str(county)))
-            self.results_table.setItem(row_idx, 3, QTableWidgetItem(str(reason)))
-            self.results_table.setItem(row_idx, 4, QTableWidgetItem(str(img_url)))
+            self.results_table.setItem(row_idx, 0, QTableWidgetItem(str(row[0])))  # ID
+            self.results_table.setItem(row_idx, 1, QTableWidgetItem(str(name)))  # Name
+            self.results_table.setItem(row_idx, 2, QTableWidgetItem(str(county)))  # County
+            self.results_table.setItem(row_idx, 3, QTableWidgetItem(str(reason)))  # Reason
+            self.results_table.setItem(row_idx, 4, QTableWidgetItem(str(img_url)))  # Image URL
         
         cursor.close()
         conn.close()
